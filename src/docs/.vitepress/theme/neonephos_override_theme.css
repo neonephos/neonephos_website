@@ -1,0 +1,59 @@
+:root {
+  --vp-home-hero-name-color: #0f6bff; 
+  --vp-button-brand-bg:#0f6bff;
+  --vp-neonephos-blue:#0f6bff;
+  --vp-normal-content-max-width:1000px;
+}
+
+.home .hero a {
+  /*color: #1e90ff; *//* Classic link blue, adjust as you like */
+  color: pink;
+  text-decoration: underline;
+}
+
+.home .hero a:hover {
+  color: #104e8b;
+  text-decoration: none;
+}
+
+.vp-doc a {
+  color: #0f6bff;
+
+}
+
+@media (min-width: 801px) {
+  .VPNav {
+    margin-top: 33px; /* same as your LinuxHeader height */
+  }
+}
+
+/* Remove bottom navigation */
+.VPDocFooter,
+.VPPageNav {
+  display: none !important;
+}
+
+.neonephos-blue-section {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background-color: #003A96;
+  padding: 2rem 0;
+}
+
+.neonephos-blue-section-inner {
+  max-width: var(--vp-normal-content-max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+  color:white;
+}
+
+.neonephos-blue-section-inner a {
+  color: var( --vp-neonephos-blue);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.neonephos-blue-section-inner a:hover {
+  color: #66b2ff; 
+  text-decoration: none;
+}
