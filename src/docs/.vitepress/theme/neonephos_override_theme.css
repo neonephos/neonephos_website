@@ -57,3 +57,54 @@
   color: #66b2ff; 
   text-decoration: none;
 }
+
+/*Used in e.g. NeoNephosDefaultTheme01.vue and other files*/
+.neonephos-home-hero-name {
+  font-size: 3rem;
+  line-height: 1.2; 
+  color: var(--vp-home-hero-name-color);
+  margin-bottom: 3.5rem;
+  font-weight: 700;
+  word-break: break-word; 
+}
+
+.neonephos-home-hero-subtitle {
+  font-size: 2rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom:2rem;
+  max-width: 800px;
+  font-weight: normal;
+  color: var(--vp-c-text-1, #666);
+}
+
+/* Link styling inside hero text */
+.neonephos-home-hero-subtitle a {
+  color: var(--vp-button-brand-bg);
+  text-decoration: underline;
+}
+
+.neonephos-home-hero-subtitle a:hover {
+  color: #104e8b;
+  text-decoration: none;
+}
+
+.neonephos-home-hero-text{
+  color: var(--vp-c-text-1); /* Default fallback color */
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  width: 100%;
+}
+
+.neonephos-home-hero-text a {
+  color: var(--vp-button-brand-bg);
+  text-decoration: underline;
+}
+
+.neonephos-home-hero-text a:hover {
+  color: #104e8b;
+  text-decoration: none;
+}

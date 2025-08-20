@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import NeoNephosDefaultTheme01 from './NeoNephosDefaultTheme01.vue'
-import LandingTilesThemeComponent from './landing_tiles_theme_component.vue'
-import IntroductionTile from './neonephos_introduction_tile_theme_component.vue'
+import LandingTilesThemeComponent from './LandingTilesThemeComponent.vue'
+import IntroductionTile from './NeoNephosIntroductionTilesThemeComponent.vue'
 import { useData } from 'vitepress'
 
 const { frontmatter } = useData()

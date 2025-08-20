@@ -35,7 +35,11 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
 
   <section class="home-tiles__section">
     <div class="container wrap">
-      <LandingTilesThemeComponent />
+           <LandingTilesThemeComponent
+              :key="frontmatter.title"
+              :tiles="frontmatter.tiles"
+              :heading="frontmatter.tilesHeading"
+            />
     </div>
   </section>
 

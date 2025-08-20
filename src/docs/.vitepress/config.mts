@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
+import path from 'path'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -16,7 +17,7 @@ export default defineConfig({
         pageData.frontmatter.prev = false
         pageData.frontmatter.next = false
 
-        pageData.frontmatter.layout = "doc"
+        pageData.frontmatter.layout = "BlogEntryThemeComponent"
       }
       if (pageData.relativePath.startsWith('events/')) {
         pageData.frontmatter.sidebar = false
@@ -25,7 +26,7 @@ export default defineConfig({
         pageData.frontmatter.prev = false
         pageData.frontmatter.next = false
 
-        pageData.frontmatter.layout = "doc"
+        pageData.frontmatter.layout = "EventEntryThemeComponent"
       }
   },
   themeConfig: {
@@ -112,8 +113,16 @@ function getViteConfig() {
         {
           find: /^.*\/VPFooter\.vue$/,
           replacement: fileURLToPath(
-              new URL('./theme/components/NeoNephosFooter.vue', import.meta.url)
+            new URL('./theme/components/NeoNephosFooter.vue', import.meta.url)
           )
+        },
+        {
+          find: '@theme',
+          replacement: fileURLToPath(new URL('./theme', import.meta.url))
+        },
+        {
+          find: '@components',
+          replacement: fileURLToPath(new URL('./theme/components', import.meta.url))
         }
       ]
     }

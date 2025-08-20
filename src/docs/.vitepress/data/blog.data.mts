@@ -25,6 +25,7 @@ export default createContentLoader('blog/*.md', {
           author: post.frontmatter.author,
           banner: post.frontmatter.banner,
           date: post.frontmatter.date,
+          tags: post.frontmatter.tags,
           url: post.url,
           excerpt: short
         }

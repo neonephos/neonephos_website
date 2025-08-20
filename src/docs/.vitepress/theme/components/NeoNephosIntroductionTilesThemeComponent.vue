@@ -12,7 +12,7 @@ console.log('titleColor:', props.titleColor)
 <template>
   <div class="neonephos-tile-container" :class="props.align">
     <img v-if="props.image" :src="props.image" alt="NeoNephos visual" class="neonephos-tile-image" />
-      <div class="neonephos-tile-text" v-html="props.html" />
+      <div class="neonephos-home-hero-text" v-html="props.html" />
   </div>
 </template>
 
@@ -32,16 +32,6 @@ console.log('titleColor:', props.titleColor)
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.neonephos-tile-text {
-  color: var(--vp-c-text-1); /* Default fallback color */
-  font-size: 1.1rem;
-  line-height: 1.8;
-  text-align: justify;
-  text-justify: inter-word;
-  hyphens: auto;
-  width: 100%;
 }
 
 /* Optional alignment classes */
