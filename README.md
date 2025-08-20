@@ -1,6 +1,6 @@
 # NeoNephos Website
 
-NeoNephos Website
+NeoNephos Website - ongoing development.
 
 Ongoing development, not all of VitePress' best practices are implemented yet.
 
