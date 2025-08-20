@@ -34,25 +34,11 @@ members:
     - name: "xcellent technologies"
       link: "https://x-cellent.com/"
       imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/x_cellent_technologies_gmbh_1702942925809_0012M00002PbbTjQAJ.svg"
-    - name: "Liquid Reply"
-      link: "https://www.reply.com/liquid-reply/en"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/liquid-reply.svg"
-    - name: "Kubermatic GmbH"
-      link: "https://www.kubermatic.com/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/kubermatic.svg"
-    - name: "Nearby Computing"
-      link: "https://www.nearbycomputing.com/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/nearby-computing.svg"
-    - name: "APEFACTORY"
-      link: "https://www.apefactory.com/en"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/ape-factory.svg"
+
   associate:
     - name: "TNO"
       link: "https://tno.nl/"
       imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/tnothenetherlandsorganisationforappliedscientificresearch.svg"
-    - name: "SBA Research"
-      link: "https://www.sba-research.org/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/sba-research.svg"
 
 tilesHeading: Learn more!
 tiles:
