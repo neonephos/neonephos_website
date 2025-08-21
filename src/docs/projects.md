@@ -32,7 +32,7 @@ projects:
     details: "CobaltCore is an opinionated OpenStack distribution that builds upon IronCore's foundation to support non-cloud-native workloads, offering enhanced features like a micro-frontend self-service portal, advanced scheduling, and offering enhanced features and seamless integration with other components."
     githubLink: "https://github.com/cobaltcore-dev"
   - name: "Greenhouse"
-    imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/greenhouse/stacked/color/greenhouse_stacked_color.svg"
+    imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/greenhouse/icon/color/greenhouse_icon_color.svg"
     details: "Greenhouse is a cloud operations platform designed to streamline and simplify the management of a large-scale, distributed infrastructure."
     link: "https://cloudoperators.github.io/greenhouse/"
     githubLink: "https://github.com/cloudoperators/greenhouse"
@@ -65,8 +65,4 @@ tiles:
     details: Learn how expectations, requirements and the process to propose a new project at NeoNephos.
     linkText: Explore Proposal Process
     linkUrl: /new_project
-  - title: Propose Project
-    details: Ready to propose a project for NeoNephos? Propose directly at the TAC!
-    linkText: Propose To TAC
-    linkUrl: https://github.com/neonephos/tac
 ---

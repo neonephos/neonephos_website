@@ -19,6 +19,8 @@ const { frontmatter } = useData()
       <section>
         <CommitteeTilesThemeComponent :features="frontmatter.members" />
       </section>
+      <br>
+      <br>
     </template>
 
   <template #home-hero-after>
