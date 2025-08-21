@@ -23,7 +23,7 @@ Here is a rough overview on what is planned:
 
 - Clean up and further modularize the custom themes
 - Standard naming convention for custom themes
-- Add comments
+- Add more comments
 - Include assets like favicons
 - Follow Vitepress' best practices
  
