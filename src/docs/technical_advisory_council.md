@@ -83,10 +83,6 @@ members:
 
 tilesHeading: Learn more!
 tiles:
-  - title: TAC Repository
-    details: Explore the Technical Advisory Council’s work and contributions on GitHub.
-    linkText: Visit GitHub
-    linkUrl: https://github.com/neonephos/tac
   - title: Contact
     details: Want to get in touch? Contact the Technical Advisory Council via mail.
     linkText: Get In Touch
