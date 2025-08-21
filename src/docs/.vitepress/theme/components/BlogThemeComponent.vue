@@ -30,6 +30,8 @@ function reloadPage(event: MouseEvent) {
   window.location.href = target.href
 }
 
+console.log(posts);
+
 
 </script>
 
@@ -45,8 +47,12 @@ function reloadPage(event: MouseEvent) {
     <li v-for="t in allTags" :key="t" class="tag-list__item">
       <a :href="`/blog?tag=${t}`" @click="reloadPage">{{ t }}</a>
     </li>
+    <li v-if="tag" class="tag-list__item reset-tag">
+      <a href="/blog" @click="reloadPage">Reset Tags</a>
+    </li>
   </ul>
 </div>
+
 
 
           <section class="entries-section">
@@ -85,7 +91,11 @@ function reloadPage(event: MouseEvent) {
                   </div>
 
                   <span class="post-archive__item_date">
-                    {{ post.date }}<span v-if="post.author"> | {{ post.author }}</span>
+                    {{ post.date }}<span v-if="post.authors && post.authors.length" class="post-authors">
+                      | <span v-for="(author, index) in post.authors" :key="author">
+                        {{ author }}<span v-if="index < post.authors.length - 1">, </span>
+                      </span>
+                    </span>
                   </span>
                 </div>
               </li>
@@ -98,6 +108,16 @@ function reloadPage(event: MouseEvent) {
 </template>
 
 <style scoped>
+
+.reset-tag a {
+  background-color: #ffecec;
+  color: #c00;
+  font-weight: bold;
+}
+.reset-tag a:hover {
+  background-color: #ffd6d6;
+}
+
 
 .tag-list {
   margin-bottom: 1.5rem;

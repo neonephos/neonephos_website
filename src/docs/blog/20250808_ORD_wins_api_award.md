@@ -2,8 +2,13 @@
 title: "2025 API World Award won by ORD"
 date: "2025-08-08"
 banner: "assets/blog/20250808_ord_wins_api_world_award_banner.jpg"
-author: "Open Resource Discovery Team"
-tags: ["2025","neonephos","news"]
+authors:
+    - "Open Resource Discovery Team"
+    - "tester"
+tags:
+    - "2025"
+    - "news"
+    - "ord"
 published: true
 ---
 
