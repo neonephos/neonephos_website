@@ -2,8 +2,8 @@
 title: "Open Source Summit Europe"
 date: "2025-08-25"
 bannerSmall: "https://events.linuxfoundation.org/wp-content/uploads/2025/01/OSS-EU-25-Social-Snackable.jpg"
-banner: "events/20250825_linux_foundation_open_source_summit_banner.jpg"
-bannerMobile: "events/20250825_linux_foundation_open_source_summit_mobile_banner.jpg"
+banner: "assets/events/20250825_linux_foundation_open_source_summit_banner.jpg"
+bannerMobile: "assets/events/20250825_linux_foundation_open_source_summit_mobile_banner.jpg"
 backgroundhex: "#137883"
 tags: ["neonephos", "digital sovereignty"]
 published: true

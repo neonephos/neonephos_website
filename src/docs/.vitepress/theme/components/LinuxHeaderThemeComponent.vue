@@ -1,9 +1,13 @@
+<script setup>
+
+</script>
+
 <template>
 <div>
     <div class="linux-header">
         <div class="container">
             <a href="https://www.linuxfoundation.org/projects?__hstc=81619592.11739e1f4ca03192f4e918409f725053.1748961872693.1753191442307.1753265591717.10&amp;__hssc=81619592.1.1753265591717&amp;__hsfp=2164450451" target="_blank" rel="noopener noreferrer">
-            <img src="https://neonephos.org/wp-content/uploads/banners/lfprojects_banner_other.svg" alt="The Linux Foundation Projects">
+            <img src="/assets/lfprojects_banner_other.svg" alt="The Linux Foundation Projects">
             </a>
         </div>
     </div>

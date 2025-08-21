@@ -43,7 +43,7 @@ const { hasSidebar } = useSidebar()
 
       <div class="funding-notice">
         <div class="funding-image">
-          <img :src="withBase('/bmwe-eu.png')" alt="BMWE-EU Supported by logo">
+          <img :src="withBase('/assets/bmwe-eu.png')" alt="BMWE-EU Supported by logo">
         </div>
         <div class="funding-text">
           <p>

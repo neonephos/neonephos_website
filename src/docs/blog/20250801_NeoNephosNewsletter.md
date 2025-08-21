@@ -1,7 +1,7 @@
 ---
 title: "NeoNephos July Recap 2025"
 date: "2025-08-01"
-banner: "/blog/20250801_neonephos_newsletter_july_recap_banner.jpg"
+banner: "assets/blog/20250801_neonephos_newsletter_july_recap_banner.jpg"
 author: "Esther Garcia"
 tags: ["2025","neonephos"]
 published: true

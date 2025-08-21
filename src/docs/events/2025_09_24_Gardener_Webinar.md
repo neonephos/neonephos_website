@@ -1,8 +1,8 @@
 ---
 title: "Upcoming Webinar: Neutral Governance for the Gardener Project"
 date: "2025-09-24"
-banner: "events/20250924_gardener_webinar_banner.jpg"
-bannerMobile: "events/20250924_gardener_webinar_banner_mobile.jpg"
+banner: "assets/events/20250924_gardener_webinar_banner.jpg"
+bannerMobile: "assets/events/20250924_gardener_webinar_banner_mobile.jpg"
 backgroundhex: "#128256ff"
 tags: ["neonephos", "webinar"]
 published: true

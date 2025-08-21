@@ -1,8 +1,8 @@
 ---
 title: "Linux Foundation Europe Roadshow"
 date: "2025-10-29"
-banner: "events/20251029_linux_foundation_roadshow_banner.jpg"
-bannerMobile: "events/20251029_linux_foundation_roadshow_banner_mobile.jpg"
+banner: "assets/events/20251029_linux_foundation_roadshow_banner.jpg"
+bannerMobile: "assets/events/20251029_linux_foundation_roadshow_banner_mobile.jpg"
 backgroundhex: "#003778"
 tags: ["neonephos", "digital sovereignty"]
 published: true

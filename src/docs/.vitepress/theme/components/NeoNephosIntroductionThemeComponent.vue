@@ -18,19 +18,19 @@ const { frontmatter } = useData()
           titleColor="white"
         />
         <IntroductionTile
-          image="/introduction_member_logo_banner.svg"
+          image="/assets/introduction_member_logo_banner.svg"
           :html="frontmatter.hero?.descriptionPart2"
           align="right"
           titleColor="white"
         />
         <IntroductionTile
-          image="/cloud-edge-continuum.svg"
+          image="/assets/cloud-edge-continuum.svg"
           :html="frontmatter.hero?.descriptionPart3"
           align="left"
           titleColor="white"
         />
         <IntroductionTile
-          image="/introduction_neonephos_banner.svg"
+          image="/assets/introduction_neonephos_banner.svg"
           :html="frontmatter.hero?.descriptionPart4"
           align="right"
           titleColor="white"

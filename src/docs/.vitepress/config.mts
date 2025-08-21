@@ -6,8 +6,12 @@ import path from 'path'
 export default defineConfig({
   title: "NeoNephos Foundation",
   description: "The website of the NeoNephos Foundation.",
+  head: [
+    ['link', { rel: 'icon', type: 'image/webp', href: '/favicon.webp' }]
+  ],
   ignoreDeadLinks: true,
   cleanUrls : true,
+  base: '/',
   vite: getViteConfig(),
   transformPageData(pageData) {
       if (pageData.relativePath.startsWith('blog/')) {
@@ -93,10 +97,11 @@ export default defineConfig({
     ],
 
     logo: {
-      light: '/neonephos_logo.svg',
-      dark: '/neonephos_logo_white.svg',
-      alt: 'My Logo'
+      light: '/assets/neonephos_logo.svg',
+      dark: '/assets/neonephos_logo_white.svg',
+      alt: 'NeoNephos Logo'
     },
+    
     siteTitle: false,        // Hides the default text title
     footer: {
       message: 'For applicable policies including privacy policy, terms of use and trademark usage guidelines, please see <a href="https://linuxfoundation.eu">https://linuxfoundation.eu</a>.',
@@ -123,6 +128,10 @@ function getViteConfig() {
         {
           find: '@components',
           replacement: fileURLToPath(new URL('./theme/components', import.meta.url))
+        },
+        {
+          find: '@assets',
+          replacement: fileURLToPath(new URL('/assets', import.meta.url))
         }
       ]
     }
