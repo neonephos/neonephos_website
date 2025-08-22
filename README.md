@@ -2,7 +2,7 @@
 
 NeoNephos Website - ongoing development.
 
-Current deployment on: https://neonephos.github.io/
+Current deployment on: https://neonephos.github.io/neonephos_website/
 
 Ongoing development, not all of VitePress' best practices are implemented yet.
 
