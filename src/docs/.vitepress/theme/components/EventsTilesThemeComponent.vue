@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { data as rawPosts } from '../../data/events.data'
+import { resolveSrc, resolveLink } from '../utils'
+
 
 const now = new Date()
 const posts = rawPosts.filter(post => new Date(post.date) >= now)
@@ -19,15 +21,15 @@ function prevImage() {
 <template>
   <div class="events-gallery">
     <div class="events-gallery__wrapper">
-      <a :href="posts[currentIndex].url" class="events-gallery__link">
+      <a :href="resolveLink(posts[currentIndex].url)" class="events-gallery__link">
         <picture>
           <source
             media="(max-width: 500px)"
-            :srcset="posts[currentIndex].bannerMobile"
+            :srcset="resolveSrc(posts[currentIndex].bannerMobile)"
           />
           <img
             class="events-gallery__image"
-            :src="posts[currentIndex].banner"
+            :src="resolveSrc(posts[currentIndex].banner)"
             alt=""
           />
         </picture>

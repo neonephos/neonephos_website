@@ -15,16 +15,16 @@
           <p>{{ tile.details }}</p>
         </div>
         <div class="landing-tile__bottom">
-          <a :href="tile.linkUrl" class="landing-tile__link">{{ tile.linkText }}</a>
+          <a :href="resolveLink(tile.linkUrl)" class="landing-tile__link">{{ tile.linkText }}</a>
         </div>
       </div>
     </div>
   </div>
 </template>
 
-
 <script setup lang="ts">
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
+import { resolveSrc, resolveLink } from '../utils'
 
 const props = defineProps<{
   titleColor?: string

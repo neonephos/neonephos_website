@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useData } from 'vitepress'
+import { useData, withBase} from 'vitepress'
 const { frontmatter } = useData()
 
 import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
@@ -22,7 +22,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
         <ul class="home-hero__metric_wrapper">
           <li class="show-over-800">
             <div class="wp-block-button">
-              <a href="/introduction" class="wp-block-button__link wp-element-button">About NeoNephos</a>
+              <a :href="withBase('/introduction')" class="wp-block-button__link wp-element-button">About NeoNephos</a>
             </div>
           </li>
           <li>{{ frontmatter.hero?.nprojects }}<span>Projects</span></li>

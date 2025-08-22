@@ -35,7 +35,7 @@ export default createContentLoader('blog/*.md', {
         return {
           title: post.frontmatter.title,
           authors: resolvedAuthors,
-          banner: post.frontmatter.banner || '/assets/blog/default_banner.jpg',
+          banner: post.frontmatter.banner || 'assets/blog/default_banner.jpg',
           date: post.frontmatter.date,
           tags: post.frontmatter.tags,
           url: post.url,

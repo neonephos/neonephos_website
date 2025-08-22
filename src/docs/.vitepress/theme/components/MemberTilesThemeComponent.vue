@@ -1,20 +1,7 @@
-<template>
-  <div class="vp-member-features">
-    <div
-      v-for="(feature, index) in features"
-      :key="index"
-      class="vp-member-feature"
-    >
-      <a :href="feature.link" class="vp-member-feature-link">
-        <div class= "vp-member-feature-imgsrc-container">
-        <img class="vp-member-feature-imgsrc" :src="feature.imgsrc" :alt="feature.name" />
-        </div>
-      </a>
-    </div>
-  </div>
-</template>
-
 <script setup>
+
+import { resolveSrc, resolveLink } from '../utils'
+
 defineProps({
   features: {
     type: Array,
@@ -22,6 +9,23 @@ defineProps({
   }
 })
 </script>
+
+<template>
+  <div class="vp-member-features">
+    <div
+      v-for="(feature, index) in features"
+      :key="index"
+      class="vp-member-feature"
+    >
+      <a :href="resolveLink(feature.link)" class="vp-member-feature-link">
+        <div class="vp-member-feature-imgsrc-container">
+          <img class="vp-member-feature-imgsrc" :src="resolveSrc(feature.imgsrc)" :alt="feature.name" />
+        </div>
+      </a>
+    </div>
+  </div>
+</template>
+
 
 <style scoped>
 .vp-member-features {

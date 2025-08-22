@@ -1,10 +1,23 @@
 <script setup lang="ts">
 import NeoNephosDefaultTheme01 from './NeoNephosDefaultTheme01.vue'
+import LandingTilesThemeComponent from './LandingTilesThemeComponent.vue'
 import { useData } from 'vitepress'
+import { transformInternalLinks } from '../utils'
+import { computed } from 'vue'
 
-const { frontmatter } = useData();
+const { frontmatter } = useData()
 
+const descriptionPart2 = computed(() =>
+  frontmatter.value.hero?.descriptionPart2
+    ? transformInternalLinks(frontmatter.value.hero.descriptionPart2)
+    : ''
+)
 
+const descriptionPart3 = computed(() =>
+  frontmatter.value.hero?.descriptionPart3
+    ? transformInternalLinks(frontmatter.value.hero.descriptionPart3)
+    : ''
+)
 </script>
 
 <template>
@@ -13,29 +26,32 @@ const { frontmatter } = useData();
       <section>
         <p class="neonephos-home-hero-text" v-html="frontmatter.hero.descriptionPart1" />
         <div class="neonephos-home-hero-subtitle" v-html="frontmatter.hero.descriptionHeading2" />
-        <p class="neonephos-home-hero-text" v-html="frontmatter.hero.descriptionPart2" />
+        <p class="neonephos-home-hero-text" v-html="descriptionPart2" />
         <div class="neonephos-home-hero-subtitle" v-html="frontmatter.hero.descriptionHeading3" />
-        <p class="neonephos-home-hero-text" v-html="frontmatter.hero.descriptionPart3" />
+        <p class="neonephos-home-hero-text" v-html="descriptionPart3" />
         <br>
         <br>
       </section>
     </template>
 
-  <template #home-hero-after>
-        <div class="neonephos-blue-section">
-          <div class="neonephos-blue-section-inner">
-            <LandingTilesThemeComponent
-              :key="frontmatter.title"
-              :titleColor="'white'"
-              :tiles="frontmatter.tiles"
-              :heading="frontmatter.tilesHeading"
-            />
-          </div>
+    <template #home-hero-after>
+      <div class="neonephos-blue-section">
+        <div class="neonephos-blue-section-inner">
+          <LandingTilesThemeComponent
+            :key="frontmatter.title"
+            :titleColor="'white'"
+            :tiles="frontmatter.tiles"
+            :heading="frontmatter.tilesHeading"
+          />
         </div>
-  </template>
-
+      </div>
+    </template>
   </NeoNephosDefaultTheme01>
 </template>
+
+<style scoped>
+</style>
+
 
 <style scoped>
 

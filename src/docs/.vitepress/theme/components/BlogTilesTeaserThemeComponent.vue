@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { data as postsRaw } from '../../data/blog.data'
-
+import { withBase } from 'vitepress'
+import { resolveSrc, resolveLink } from '../utils'
 // Sort and slice to get the 3 latest posts
 const posts = postsRaw
   .slice()
@@ -16,13 +17,13 @@ console.log(posts);
       <a
         v-for="post in posts"
         :key="post.url"
-        :href="post.url"
+        :href="resolveLink(post.url)"
         class="blog-gallery-teaser-tile"
         :title="post.title"
       >
         <img
           v-if="post.banner"
-          :src="post.banner"
+          :src="resolveSrc(post.banner)"
           :alt="post.title"
           class="blog-gallery-teaser-image"
           loading="lazy"
@@ -36,7 +37,6 @@ console.log(posts);
     </div>
   </section>
 </template>
-
 
 <style scoped>
 .blog-gallery-teaser {

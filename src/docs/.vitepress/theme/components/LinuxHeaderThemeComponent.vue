@@ -1,19 +1,20 @@
 <script setup>
+import { resolveSrc, resolveLink } from '../utils'
 
 </script>
 
 <template>
-<div>
+  <div>
     <div class="linux-header">
-        <div class="container">
-            <a href="https://www.linuxfoundation.org/projects?__hstc=81619592.11739e1f4ca03192f4e918409f725053.1748961872693.1753191442307.1753265591717.10&amp;__hssc=81619592.1.1753265591717&amp;__hsfp=2164450451" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/lfprojects_banner_other.svg" alt="The Linux Foundation Projects">
-            </a>
-        </div>
+      <div class="container">
+        <a :href="resolveLink('https://www.linuxfoundation.org/projects?__hstc=81619592.11739e1f4ca03192f4e918409f725053.1748961872693.1753191442307.1753265591717.10&amp;__hssc=81619592.1.1753265591717&amp;__hsfp=2164450451')" target="_blank" rel="noopener noreferrer">
+          <img :src="resolveSrc('/assets/lfprojects_banner_other.svg')" alt="The Linux Foundation Projects" />
+        </a>
+      </div>
     </div>
-</div>
-
+  </div>
 </template>
+
 
 <style scoped>
 

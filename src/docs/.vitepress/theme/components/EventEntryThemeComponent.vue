@@ -1,5 +1,6 @@
 <script setup>
 import { useData } from 'vitepress'
+import { resolveSrc, resolveLink } from '../utils'
 </script>
 
 <template>
@@ -8,7 +9,7 @@ import { useData } from 'vitepress'
       <Content />
     </div>
     <div class="back-button-wrapper">
-      <a href="/events" class="back-button">← Back To Events</a>
+      <a :href="resolveLink('/events')" class="back-button">← Back To Events</a>
     </div>
   </div>
 </template>

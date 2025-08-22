@@ -2,6 +2,7 @@
 import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
 import NeoNephosDefaultTheme01 from './NeoNephosDefaultTheme01.vue'
 import CommitteeTilesThemeComponent from './CommitteeTilesThemeComponent.vue'
+
 import { useData } from 'vitepress'
 const { frontmatter } = useData()
 </script>

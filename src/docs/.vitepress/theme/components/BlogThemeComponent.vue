@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { data as posts } from '../../data/blog.data'
 import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
+import { withBase} from 'vitepress'
 
 function getQueryParam(param: string): string | null {
   const params = new URLSearchParams(window.location.search)
@@ -45,11 +46,17 @@ console.log(posts);
   <strong>Browse by tag:</strong>
   <ul class="tag-list__items">
     <li v-for="t in allTags" :key="t" class="tag-list__item">
-      <a :href="`/blog?tag=${t}`" @click="reloadPage">{{ t }}</a>
+      <a :href="withBase(`/blog?tag=${t}`)" @click="reloadPage">{{ t }}</a>
     </li>
     <li v-if="tag" class="tag-list__item reset-tag">
-      <a href="/blog" @click="reloadPage">Reset Tags</a>
+      <a
+        :href="withBase('/blog')"
+        @click="reloadPage"
+      >
+        Reset Tags
+      </a>
     </li>
+
   </ul>
 </div>
 
@@ -59,7 +66,7 @@ console.log(posts);
             <ul class="post-list">
               <li v-for="post in filteredPosts" :key="post.url" class="post-archive__item">
                 <div class="post-archive__image-wrapper">
-                  <a :href="post.url" class="post-archive__link" :title="post.title">
+                  <a :href="withBase(post.url)" class="post-archive__link" :title="post.title">
                     <img
                       v-if="post.banner"
                       :src="post.banner"
@@ -72,12 +79,12 @@ console.log(posts);
                 </div>
                 <div class="post-archive__text-wrapper">
                   <span v-if="post.category">
-                    <a class="author-category has-larger-style" :title="`See ${post.category} posts`" :href="`/blog?category=${post.category}`">
+                    <a class="author-category has-larger-style" :title="`See ${post.category} posts`" :href="withBase(`/blog?category=${post.category}`)">
                       {{ post.category }} Post
                     </a>
                   </span>
                   <span class="post-archive__title">
-                    <a :href="post.url" :title="post.title">{{ post.title }}</a>
+                    <a :href="withBase(post.url)" :title="post.title">{{ post.title }}</a>
                   </span>
 
                   <div v-if="post.excerpt" class="post-archive__excerpt">
@@ -85,7 +92,7 @@ console.log(posts);
                   </div>
                   <div v-if="post.tags" class="post-tags">
                     <span v-for="tag in post.tags" :key="tag" class="tag">
-                      <a :href="`/blog?tag=${tag}`" @click="reloadPage">{{ tag }}</a>
+                      <a :href="withBase(`/blog?tag=${tag}`)" @click="reloadPage">{{ tag }}</a>
 
                     </span>
                   </div>

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { resolveSrc, resolveLink } from '../utils'
 import { data as rawPosts } from '../../data/events.data'
 import NeoNephosDefaultTheme01 from './NeoNephosDefaultTheme01.vue'
 import EventsTilesThemeComponent from './EventsTilesThemeComponent.vue'
@@ -20,9 +21,9 @@ const posts = rawPosts.filter(post => {
       <section>
             <div class="vp-features">
             <div v-for="post in posts" :key="post.url" class="vp-feature" :style="{ background: post.backgroundhex || '#876296' }">
-                <a :href="post.url" class="vp-feature-link">
+                <a :href="resolveLink(post.url)" class="vp-feature-link">
                 <div class="vp-feature-imgsrc-container">
-                <img class="vp-feature-imgsrc" :src="post.bannerSmall" :alt="post.name" />
+                <img class="vp-feature-imgsrc" :src="resolveSrc(post.bannerSmall)" :alt="post.name" />
                 <div class="vp-feature-text-overlay">
                     <h2 class="vp-feature-title">{{ post.title }}</h2>
                     <h3 class="vp-feature-date">{{ post.date }}</h3>

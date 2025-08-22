@@ -1,3 +1,18 @@
+
+
+<script setup>
+import { resolveSrc, resolveLink } from '../utils'
+
+import { ref } from 'vue'
+defineProps({
+  features: {
+    type: Array,
+    required: true
+  }
+})
+const selectedFeature = ref(null)
+</script>
+
 <template>
   <div class="neonephos-board-wrapper">
     <div class="neonephos-board-grid">
@@ -7,7 +22,7 @@
         class="neonephos-board-tile"
         @click="selectedFeature = feature"
       >
-        <img class="neonephos-board-img" :src="feature.imgsrc" :alt="feature.name" />
+        <img class="neonephos-board-img" :src="resolveSrc(feature.imgsrc)" :alt="feature.name" />
         <div class="neonephos-board-info">
           <h2 class="neonephos-board-name">{{ feature.name }}</h2>
           <h3 class="neonephos-board-role">{{ feature.role }}</h3>
@@ -15,7 +30,7 @@
           <div class="neonephos-board-social">
             <a
               v-if="feature.linkedin"
-              :href="feature.linkedin"
+              :href="resolveLink(feature.linkedin)"
               class="neonephos-social-icon"
               target="_blank"
               rel="noopener"
@@ -38,7 +53,6 @@
             </a>
           </div>
         </div>
-
       </div>
     </div>
 
@@ -46,7 +60,7 @@
       <div class="neonephos-modal-content">
         <button class="neonephos-modal-close" @click="selectedFeature = null">×</button>
         <div class="neonephos-modal-body">
-          <img :src="selectedFeature.imgsrc" :alt="selectedFeature.name" class="neonephos-modal-img" />
+          <img :src="resolveSrc(selectedFeature.imgsrc)" :alt="selectedFeature.name" class="neonephos-modal-img" />
           <div class="neonephos-modal-text">
             <h2>{{ selectedFeature.name }}</h2>
             <h3>{{ selectedFeature.role }}</h3>
@@ -55,7 +69,7 @@
             <div class="neonephos-board-social">
               <a
                 v-if="selectedFeature.linkedin"
-                :href="selectedFeature.linkedin"
+                :href="resolveLink(selectedFeature.linkedin)"
                 class="neonephos-social-icon"
                 target="_blank"
                 rel="noopener"
@@ -79,22 +93,11 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </div>
 </template>
 
-<script setup>
-import { ref } from 'vue'
-defineProps({
-  features: {
-    type: Array,
-    required: true
-  }
-})
-const selectedFeature = ref(null)
-</script>
 
 <style scoped>
 .neonephos-board-wrapper {

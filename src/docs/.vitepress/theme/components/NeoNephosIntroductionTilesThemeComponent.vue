@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { resolveSrc, resolveLink } from '../utils'
+
 const props = defineProps<{
   image?: string
   html: string
@@ -6,12 +8,12 @@ const props = defineProps<{
   titleColor?: string
 }>()
 
-console.log('titleColor:', props.titleColor)
+const imageSrc = props.image ? resolveSrc(props.image) : null
 </script>
 
 <template>
   <div class="neonephos-tile-container" :class="props.align">
-    <img v-if="props.image" :src="props.image" alt="NeoNephos visual" class="neonephos-tile-image" />
+    <img v-if="imageSrc" :src="imageSrc" alt="NeoNephos visual" class="neonephos-tile-image" />
       <div class="neonephos-home-hero-text" v-html="props.html" />
   </div>
 </template>

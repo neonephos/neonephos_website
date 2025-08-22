@@ -1,9 +1,13 @@
+<script setup lang="ts">
+import { withBase} from 'vitepress'
+</script>
+
 <template>
   <div class="neonephos-tile">
     <div class="neonephos-tile__content">
       <h3 class="neonephos-tile__title">New to NeoNephos?</h3>
       <a
-        href="/introduction"
+        :href="withBase('/introduction')"
         class="neonephos-tile__button"
         title="Learn more about NeoNephos"
       >

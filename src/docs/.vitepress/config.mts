@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 import path from 'path'
 
+const base = process.env.BASE || '/'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "NeoNephos Foundation",
@@ -11,7 +13,7 @@ export default defineConfig({
   ],
   ignoreDeadLinks: true,
   cleanUrls : true,
-  base: '/',
+  base,
   vite: getViteConfig(),
   transformPageData(pageData) {
       if (pageData.relativePath.startsWith('blog/')) {

@@ -1,5 +1,5 @@
 <script setup>
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import { useData } from 'vitepress'
       <Content />
     </div>
     <div class="back-button-wrapper">
-      <a href="/blog" class="back-button">← Back To Blog</a>
+      <a :href="withBase('/blog')" class="back-button">← Back To Blog</a>
     </div>
   </div>
 </template>
