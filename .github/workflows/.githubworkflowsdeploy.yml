@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: src/package-lock.json # ✅ lockfile in src/
+          cache-dependency-path: src/package-lock.json 
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
@@ -47,7 +47,7 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: src/docs/.vitepress/dist # ✅ correct path to the built site
+          path: src/docs/.vitepress/dist 
 
   deploy:
     needs: build
