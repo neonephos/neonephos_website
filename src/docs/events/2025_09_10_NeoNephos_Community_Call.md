@@ -10,7 +10,7 @@ published: true
 
 # September Community Call
 
-Join our upcoming community call where Mirza Kopic (TSC Chair) and Bastian Echterhoelter (Platform Mesh Architect) will demonstrate how Platform Mesh creates an environment where service providers can offer various services across public clouds, private clouds, and edge environments, while enabling service consumers to easily discover, order, and manage these services throughout their lifecycle. 
+Join our upcoming community call on September 10th at 4:00 pm CEST where Mirza Kopic (TSC Chair) and Bastian Echterhoelter (Platform Mesh Architect) will demonstrate how Platform Mesh creates an environment where service providers can offer various services across public clouds, private clouds, and edge environments, while enabling service consumers to easily discover, order, and manage these services throughout their lifecycle. 
 
 Through a live demonstration, they'll show how the platform transcends traditional layered approaches to provide a unified mesh that prevents vendor lock-in and offers developers greater flexibility.
 
