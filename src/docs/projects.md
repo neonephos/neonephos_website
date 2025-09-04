@@ -66,8 +66,4 @@ tiles:
     details: Learn how expectations, requirements and the process to propose a new project at NeoNephos.
     linkText: Explore Proposal Process
     linkUrl: /new_project
-  - title: Propose Project
-    details: Ready to propose a project for NeoNephos? Propose directly at the TAC!
-    linkText: Propose To TAC
-    linkUrl: https://github.com/neonephos/tac
 ---

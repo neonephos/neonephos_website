@@ -86,5 +86,5 @@ tiles:
   - title: Contact
     details: Want to get in touch? Contact the Technical Advisory Council via mail.
     linkText: Get In Touch
-    linkUrl: mailto:tac+owner@lists.neonephos.org
+    linkUrl: mailto:tac@lists.neonephos.org
 ---
