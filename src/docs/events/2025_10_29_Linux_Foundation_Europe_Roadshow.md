@@ -10,7 +10,7 @@ published: true
 
 # NeoNephos at the LFEU Roadshow in Ghent
 
-Engage with and learn about NeoNephos by participating in our sessions at the upcoming [Linux Foundation Europe Roadshow in Ghent](https://events.linuxfoundation.org/lf-europe-roadshow-regulation/). 
+Engage with and learn about NeoNephos by participating in our sessions at the upcoming [Linux Foundation Europe Roadshow in Ghent](https://events.linuxfoundation.org/lf-europe-roadshow-regulation/). The exact schedule is to be announced.
 
 👉 Don't miss out by securing your ticket [here](https://events.linuxfoundation.org/lf-europe-roadshow-regulation/register/)!
 
