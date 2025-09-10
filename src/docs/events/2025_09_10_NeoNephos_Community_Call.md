@@ -20,4 +20,4 @@ https://zoom-lfx.platform.linuxfoundation.org/meeting/94702324134?password=a3022
 
 🎯 Save the date and [join](https://zoom-lfx.platform.linuxfoundation.org/meeting/94702324134?password=a3022011-25cd-44f3-b482-0ff389675eee)!
 
-[Download the iCal file to update this meeting to your calendar.](https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7).
+[Download the iCal file to update this meeting to your calendar](https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7).

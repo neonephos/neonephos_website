@@ -9,9 +9,11 @@ const { frontmatter } = useData();
 
 const now = new Date();
 const posts = rawPosts.filter(post => {
-  const postDate = new Date(post.date);
-  return postDate >= now;
-});
+var temp= new Date(post.date);
+temp= temp.setDate(temp.getDate()+1);
+ return temp>= now;
+ }
+ )
 
 </script>
 
