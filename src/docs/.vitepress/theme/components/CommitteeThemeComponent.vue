@@ -8,7 +8,7 @@ const { frontmatter } = useData()
 </script>
 
 <template>
-  <NeoNephosDefaultTheme01 :hero="frontmatter.hero">
+  <NeoNephosDefaultTheme01 :key="frontmatter.title" :hero="frontmatter.hero">
     <template #home-hero-after-title-before-end>
     <section>
     <p class="neonephos-home-hero-text">
