@@ -6,12 +6,10 @@ import { resolveSrc, resolveLink } from '../utils'
 
 const now = new Date()
 const posts = rawPosts.filter(post => {
-
-var temp= new Date(post.date);
-temp= temp.setDate(temp.getDate()+1);
- return temp>= now;
- }
- )
+  const temp = new Date(post.date)
+  temp.setDate(temp.getDate() + 1) 
+  return temp >= now
+})
 
 const currentIndex = ref(0)
 
