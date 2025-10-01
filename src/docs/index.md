@@ -9,7 +9,7 @@ hero:
   tagline: We, as part of Linux Foundation Europe, are dedicated to advancing open source projects that align with the strategic objectives of the <a href="https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Artikel/Industry/ipcei-cis.html">EU's IPCEI-CIS</a>.
   nprojects: 11
   ncontributors: 500+
-  nmembers: 9
+  nmembers: 14
   actions:
     - theme: brand
       text: About NeoNephos
