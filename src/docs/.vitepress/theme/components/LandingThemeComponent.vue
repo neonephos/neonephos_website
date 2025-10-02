@@ -27,7 +27,6 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
           </li>
           <li>{{ frontmatter.hero?.nprojects }}<span>Projects</span></li>
           <li>{{ frontmatter.hero?.nmembers }}<span>Members</span></li>
-          <li>{{ frontmatter.hero?.ncontributors }}<span>Contributors</span></li>
         </ul>
       </div>
     </section>
