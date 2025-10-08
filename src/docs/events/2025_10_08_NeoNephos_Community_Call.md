@@ -10,7 +10,7 @@ published: true
 
 # October Community Call
 
-Learn more about NeoNephos by joining our upcoming community call on October 8th at 4:00 pm CEST. The exact content of this call is to be determined.
+Learn more about NeoNephos by joining our upcoming community call on October 8th at 4:00 pm CEST. You will receive an update about what's happening within the foundation, an update about our project Katalis and have the chance to ask questions in our Q&A.
 
 **Zoom Session Link**
 
