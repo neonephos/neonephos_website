@@ -1,6 +1,6 @@
 ---
 title: "Linux Foundation Europe Roadshow"
-date: "2025-10-29"
+date: "2025-10-28"
 banner: "assets/events/20251028_linux_foundation_member_summit_banner.jpg"
 bannerMobile: "assets/events/20251028_linux_foundation_member_summit_banner_mobile.jpg"
 backgroundhex: "#889aa4ff"
