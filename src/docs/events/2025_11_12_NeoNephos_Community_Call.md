@@ -1,5 +1,5 @@
 ---
-title: "October Community Call"
+title: "November Community Call"
 date: "2025-11-12"
 banner: "assets/events/20251112_neonephos_community_call_banner.jpg"
 bannerMobile: "assets/events/20251112_neonephos_community_call_banner_mobile.jpg"
@@ -8,7 +8,7 @@ tags: ["neonephos","community-call"]
 published: true
 ---
 
-# October Community Call
+# November Community Call
 
 Learn more about NeoNephos by joining our upcoming community call on November 12th at 4:00 pm CEST. The agenda is to be announced.
 
