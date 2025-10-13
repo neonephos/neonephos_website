@@ -1,5 +1,5 @@
 ---
-title: "Linux Foundation Europe Roadshow"
+title: "Linux Foundation Europe Member Summit"
 date: "2025-10-28"
 banner: "assets/events/20251028_linux_foundation_member_summit_banner.jpg"
 bannerMobile: "assets/events/20251028_linux_foundation_member_summit_banner_mobile.jpg"
