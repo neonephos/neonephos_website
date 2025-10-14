@@ -54,6 +54,7 @@ projects:
   - name: "Garden Linux"
     imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/garden_linux/stacked/color/garden_linux_stacked_color.svg"
     details: "Garden Linux is a Debian GNU/Linux derivate that aims to provide small, auditable Linux images for most cloud providers (e.g. AWS, Azure, GCP etc.) and bare-metal machines."
+    link: "https://gardenlinux.org/"
     githubLink: "https://github.com/gardenlinux"
   - name: "Katalis"
     imgsrc: "https://raw.githubusercontent.com/neonephos-katalis/.github/refs/heads/main/profile/resources/Katalis-Logo.png"
