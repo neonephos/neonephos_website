@@ -1,5 +1,5 @@
 ---
-title: "Linux Foundation Europe Roadshow"
+title: "MCK Meeting Series"
 date: "2025-10-21"
 banner: "assets/events/20251021_mck_neonephos_series_banner.jpg"
 bannerMobile: "assets/events/20251021_mck_neonephos_series_banner_mobile.jpg"
