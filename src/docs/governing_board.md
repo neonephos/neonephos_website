@@ -26,6 +26,12 @@ members:
     role: "T-Systems Rep."
     details: "Christian has been with Deutsche Telekom AG since 2007, holding various leadership and innovation roles across T-Systems, Telekom Laboratories, and Technology & Innovation. His expertise spans cloud and data architecture, data management, digital identity, communication technologies, and innovation management. Christian has played key leadership roles in numerous projects, where he combines deep technical expertise with strategic business ownership to drive product development and deliver cutting-edge solutions. He is active in open-source foundations such as Eclipse and the Linux Foundation. Christian holds a PhD from the University of Bonn and a Master’s degree from the University of Heidelberg, and he was a visiting scholar at NITECH Nagoya, Japan, and INESC Lisbon, Portugal."
     link: "/"
+  - name: "Christian Berendt"
+    imgsrc: "/assets/governing_board/christian_berendt.jpg"
+    role: "General Member Rep."
+    details: "CEO of 23 Technologies."
+    linkedin: "www.linkedin.com/in/christian-berendt-x3bxqftshb"
+    link: "www.linkedin.com/in/christian-berendt-x3bxqftshb"
 
 tilesHeading: Learn more!
 tiles:
