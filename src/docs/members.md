@@ -46,6 +46,10 @@ members:
     - name: "APEFACTORY"
       link: "https://www.apefactory.com/en"
       imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/ape-factory.svg"
+    - name: "plusserver"
+      link: "https://www.plusserver.com"
+      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/plusserver.svg"
+      
       
   associate:
     - name: "TNO"
