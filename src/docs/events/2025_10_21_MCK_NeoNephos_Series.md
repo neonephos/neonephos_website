@@ -12,7 +12,7 @@ published: true
 
 The IPCEI-CIS Workstream 2 Multi Cluster Kubernetes (MCK) meeting series has been opened up to the NeoNephos community.
 This event occurs on every third Tuesday of the month, with the first talk being held on **21st October from 10:00-11:30 am CEST**.
-
+The event will be recorded.
 ---
 
 ## Agenda
