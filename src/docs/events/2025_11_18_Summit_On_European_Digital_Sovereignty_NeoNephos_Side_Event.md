@@ -5,7 +5,7 @@ banner: "assets/events/20251118_summit_on_european_digital_sovereignty_neonephos
 bannerMobile: "assets/events/20251118_summit_on_european_digital_sovereignty_neonephos_side_eventbanner_mobile.jpg"
 backgroundhex: "#881aa4ff"
 tags: ["neonephos", "digital sovereignty","eu"]
-published: false
+published: true
 ---
 
 # NeoNephos at the Summit on European Digital Sovereignty
