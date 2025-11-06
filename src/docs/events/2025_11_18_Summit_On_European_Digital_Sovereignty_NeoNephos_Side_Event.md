@@ -12,7 +12,7 @@ published: false
 
 Learn more about NeoNephos at the upcoming *Role of Open Source to advance the Sovereign Cloud Edge Continuum* side event of the [Summit on European Digital Sovereignty](https://bmds.bund.de/aktuelles/eu-summit/side-events-overview).
 
-Within this event, representatives from our members like SAP, T-Systems and STACKIT introduce the audience through interactive talks to our projects and the value our foundation provides to the sovereign cloud native ecosystem. 
+Within this event, representatives from our members introduce the audience through interactive talks to our projects and the value our foundation provides to the sovereign cloud native ecosystem. 
 
 ---
 
