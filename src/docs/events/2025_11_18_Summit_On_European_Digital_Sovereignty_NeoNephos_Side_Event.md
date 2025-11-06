@@ -20,11 +20,9 @@ Within this event, representatives from our members introduce the audience throu
 
 **Full Invitation Text**: 
 
-    The 8ra Initiative is driving the development of a sovereign, interoperable, and secure Multi-Provider Cloud-Edge Continuum. With more than 120 partners from 12 EU Member States, the 8ra Initiative fosters open collaboration to create a resilient and scalable digital infrastructure tailored to Europe’s needs.
-    
-    By promoting open-source innovation, interoperability, and cross-border cooperation, the 8ra Initiative empowers industries, researchers, and policymakers to shape the next generation of cloud and edge computing. Whether in AI, data spaces, telecommunications, or the industrial metaverse, the 8ra Initiative enables groundbreaking advancements free from vendor lock-in.
-    
-    In March 2025, the Linux Foundation Europe officially announced the launch of the non-profit open source NeoNephos Foundation as part of the Apeiro Reference Architecture Project of SAP. NeoNephos is dedicated to advancing open source projects that align with the strategic objectives of the EU's IPCEI-Next Generation Cloud Infrastructure and Services (CIS).
+*The 8ra Initiative is driving the development of a sovereign, interoperable, and secure Multi-Provider Cloud-Edge Continuum. With more than 120 partners from 12 EU Member States, the 8ra Initiative fosters open collaboration to create a resilient and scalable digital infrastructure tailored to Europe’s needs.
+By promoting open-source innovation, interoperability, and cross-border cooperation, the 8ra Initiative empowers industries, researchers, and policymakers to shape the next generation of cloud and edge computing. Whether in AI, data spaces, telecommunications, or the industrial metaverse, the 8ra Initiative enables groundbreaking advancements free from vendor lock-in.
+In March 2025, the Linux Foundation Europe officially announced the launch of the non-profit open source NeoNephos Foundation as part of the Apeiro Reference Architecture Project of SAP. NeoNephos is dedicated to advancing open source projects that align with the strategic objectives of the EU's IPCEI-Next Generation Cloud Infrastructure and Services (CIS).*
 
 🗓 **Date**: November 17th, 2025 at 14:00-16:00 CEST.
 
