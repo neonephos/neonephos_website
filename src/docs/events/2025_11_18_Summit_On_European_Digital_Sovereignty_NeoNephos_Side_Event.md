@@ -28,6 +28,6 @@ Within this event, representatives from our members introduce the audience throu
 
 🗓 **Date**: November 17th, 2025 at 14:00-16:00 CEST.
 
-👉 Registration is online only through [here (TODO: ADD LINK)]()!
+👉 Register today [through here](https://www.linkedin.com/events/7392206150483623936/)!
 
 For any questions to this specific event, reach out to [events@neonephos.org](events@neonephos.org).
