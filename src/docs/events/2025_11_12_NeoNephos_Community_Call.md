@@ -10,7 +10,7 @@ published: true
 
 # November Community Call
 
-Learn more about NeoNephos by joining our upcoming community call on November 12th at 4:00 pm CEST. The agenda is to be announced.
+Learn more about NeoNephos by joining our upcoming community call on November 12th at 4:00 pm CET. In addition to the latest news about the foundation itself, you will be introduced via a presentation to our [Open Managed Control Plane](https://openmcp-project.github.io/docs/) project!
 
 **Zoom Session Link**
 
