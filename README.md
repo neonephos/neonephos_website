@@ -24,5 +24,5 @@ Here is a rough overview on what is planned:
 - Clean up and further modularize the custom themes
 - Add more comments
 - Follow Vitepress' best practices
-- Automatically fetch committee member info via LFX 
- 
+- Automatically fetch committee member info via LFX
+- Fix cachine of the landing page so that the events are reloaded on each page visit.
