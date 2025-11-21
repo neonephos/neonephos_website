@@ -1,8 +1,0 @@
-certifi==2025.11.12
-charset-normalizer==3.4.4
-idna==3.11
-python-frontmatter==1.1.0
-PyYAML==6.0.3
-requests==2.32.5
-ruamel.yaml==0.18.16
-urllib3==2.5.0

@@ -1,5 +1,5 @@
 ---
-layout: "CommitteeThemeComponent"
+layout: CommitteeThemeComponent
 title: "Technical Advisory Council"
 sidebar: false
 aside: false
@@ -8,80 +8,83 @@ hero:
   subtitle: "The Technical Advisory Council (TAC) is the technical advisory body of NeoNephos."
   description: "It establishes the technical oversight for the vision laid out by the Governing Board. The TAC currently consists of these members."
 members:
-  - name: "Andre Russ"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/a.png"
-    role: "Project Representative"
-    details:
-    linkedin:
-  - name: "Andreas Fritzler"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/afritzler.png?v=1704812483573"
-    role: "Project Representative"
-    details: "Platform Guy | Data Jedi | #Kubernetes #Container and #BigData Expert | #MachineLearning Enthusiast | #DeepLearning Fanatic at @SAP @GardenerProject | 🥋🚴‍♂️"
-    linkedin: "https://linkedin.com/in/andreasfritzler"
-  - name: "Bastian Echterhoelter"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/b.png"
-    role: "Project Representative"
-    details:
-    linkedin:
   - name: "Florian Müller"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/fmui.png?v=1751357995611"
-    role: "Chairperson and TAC Representative"
-    details: "Software Architect"
-    linkedin: "https://linkedin.com/in/florianmueller"
-  - name: "Ivo Gosemann"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/i.png"
-    role: "Project Representative"
-    details:
-    linkedin:
-  - name: "Jakob Möller"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jakobmoellersap.png?v=1761850393912"
-    role: "Project Representative"
-    details:
-    linkedin:
-  - name: "Johannes Scheerer"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/ScheererJ.1614672668871"
-    role: "Project Representative"
-    details:
-    linkedin:
+    email: "tac+owner@lists.neonephos.org"
+    imgsrc: "https://sessionize.com/image/e870-400o400o2-TjCrej3Dq7o6j3uN8LRaFB.jpg"
+    role: "Chairperson & SAP Rep."
+    details: ""
+    link: "https://github.com/fmui"
+  - name: "Tobias Deppe"
+    linkedin: "https://www.linkedin.com/in/tobias-deppe/"
+    imgsrc: "/assets/technical_advisory_council/tobias_deppe.jpg"
+    role: "T-Systems Premier Rep."
+    details: "Tobias Deppe is a Business Owner at T-Systems International, leading the development and operations of the Open Sovereign Cloud (OSC). OSC with its Neonephos cloud stack is based entirely on open source technology and empowers customers to be digitally sovereign. Tobias has 20+ years of experience in IT, cloud architecture, business development, and team leadership, and specializes in Kubernetes-based PaaS and IaaS cloud stacks. Together with his team, he provided the managed PaaS service powering Germany’s Corona-Warn-App that ensured scalability and reliability for millions of users. His background includes leadership roles in software development, sales excellence, and managed cloud platforms. Tobias holds a degree in Media Informatics and is a certified Agile Coach and Scrum Master."
+    link: "https://www.linkedin.com/in/tobias-deppe/"
   - name: "Martin Schüßler"
-    imgsrc: "https://avatars2.githubusercontent.com/u/1407812?v=4"
-    role: "STACKIT GmbH & Co. KG Representative"
-    details:
-    linkedin:
+    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
+    role: "STACKIT Premier Rep."
+    details: ""
+    link: ""
+  - name: "Michael Schmidt"
+    imgsrc: "https://avatars.githubusercontent.com/u/147369?v=4"
+    role: "TSC Chairperson CobaltCore"
+    details: ""
+    link: "https://github.com/BugRoger"
+  - name: "Andreas Fritzler"
+    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
+    role: "TSC Chairperson IronCore"
+    details: ""
+    link: "https://github.com/afritzler"
+  - name: "Simon Heimler"
+    imgsrc: "https://avatars.githubusercontent.com/u/470980?v=4"
+    role: "TSC Chairperson Open Resource Discovery"
+    details: ""
+    link: "https://github.com/Fannon"
+  - name: "Ivo Gosemann"
+    imgsrc: "/assets/technical_advisory_council/ivo_gosemann.jpg"
+    role: "TSC Chairperson Greenhouse"
+    details: ""
+    link: "https://github.com/IvoGoman"
+  - name: "Jakob Möller"
+    imgsrc: "https://avatars.githubusercontent.com/u/64904610?v=4"
+    role: "TSC Chairperson Open Component Model"
+    details: ""
+    link: "https://github.com/jakobmoellerdev"
+  - name: "Johannes Scheerer"
+    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
+    role: "TSC Chairperson Gardener"
+    details: ""
+    link: "https://github.com/ScheererJ"
+  - name: "Andre Russ"
+    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
+    role: "TSC Chairperson Garden Linux"
+    details: ""
+    link: ""
+  - name: "Bastian Echterhoelter"
+    imgsrc: "https://avatars.githubusercontent.com/u/52737?v=4"
+    role: "TSC Chairperson Open Micro Frontend Platform"
+    details: ""
+    link: "https://github.com/nexus49"
+  - name: "Mirza Kopic"
+    imgsrc: "https://avatars.githubusercontent.com/u/1658560?v=4"
+    role: "TSC Chairperson Platform Mesh"
+    details: ""
+    link: "https://github.com/mirzakopic"
   - name: "Maximilian Braun"
     imgsrc: "https://avatars.githubusercontent.com/u/78038429?v=4"
-    role: "Project Representative"
-    details:
-    linkedin:
-  - name: "Michael Schmidt"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
-    role: "Project Representative"
-    details: "SAP. Docker. Kubernetes. Null. Nil. Void"
-    linkedin: "https://linkedin.com/in/michael-schmidt-64714a4a"
-  - name: "Mirza Kopic"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
-    role: "Project Representative"
-    details:
-    linkedin:
-  - name: "Roberto Querio"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/r.png"
-    role: "Project Representative"
-    details:
-    linkedin:
-  - name: "Simon Heimler"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/default-user.png"
-    role: "Project Representative"
-    details: "Software Architect working at SAP SE on Metadata Strategy, APIs and Events and integration topics.\nTSC Chair for the [Open Resource Discovery](https://open-resource-discovery.github.io/specification/) spec (Linux Foundation)."
-    linkedin:
-  - name: "Tobias Deppe"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/tdeppe.png?v=1759170970690"
-    role: "T-Systems International GmbH Representative"
-    details:
-    linkedin:
-tilesHeading: "Learn more!"
+    role: "TSC Chairperson Open Managed Control Plane"
+    details: ""
+    link: "https://github.com/maximilianbraun"
+  - name: "To be determined"
+    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
+    role: "TSC Chairperson Katalis"
+    details: ""
+    link: ""
+
+tilesHeading: Learn more!
 tiles:
-  - title: "Contact"
-    details: "Want to get in touch? Contact the Technical Advisory Council via mail."
-    linkText: "Get In Touch"
-    linkUrl: "mailto:tac@lists.neonephos.org"
+  - title: Contact
+    details: Want to get in touch? Contact the Technical Advisory Council via mail.
+    linkText: Get In Touch
+    linkUrl: mailto:tac@lists.neonephos.org
 ---
