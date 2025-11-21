@@ -1,7 +1,7 @@
 ---
 title: "New Research Paper"
 date: "2025-10-27"
-banner: "assets/blog/20251027_sap_cloud_infrastructure_dataset_paper_banner.jpg"
+banner: "assets/blog/20251027_sap_cloud_infrastructure_dataset_paper_banner.svg"
 authors:
     - "NeoNephos Team"
 tags:
