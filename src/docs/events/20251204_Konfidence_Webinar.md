@@ -17,4 +17,4 @@ Sarah Müller and Timon Schüle, both engineering manager SAP, dive into how Kon
 -   **Speakers**: Sarah Müller, and Timon Schüle, Engineering Managers, SAP
 -   **Host**: SAP Open Source Program Office
 
-**Registration (external):** [Here](https://events.sap.com/efficient-microservices-delivery-with-project-konfidence-december/en_us/home.html=)
+**Registration (external):** [Here](https://events.sap.com/efficient-microservices-delivery-with-project-konfidence-december/en_us/home.html)
