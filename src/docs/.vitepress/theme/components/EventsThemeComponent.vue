@@ -14,7 +14,7 @@ temp= temp.setDate(temp.getDate()+1);
  return temp>= now;
  }
  )
-
+console.log(rawPosts);
 </script>
 
 <template>
