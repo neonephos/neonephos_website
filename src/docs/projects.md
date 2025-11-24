@@ -9,7 +9,7 @@ hero:
   description: ""
 projects:
   - name: "Platform Mesh"
-    imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/platform_mesh/stacked/color/platform_mesh_stacked_color.svg"
+    imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/platform_mesh/stacked/color/platform-mesh-stacked-color.svg"
     details: "Platform Mesh establishes interoperability between multiple providers by building upon the Kubernetes API and resource model. Developers and admins can discover, access, and order services from various sources through their beloved kubectl."
     link: "https://platform-mesh.io/"
     githubLink: "https://github.com/platform-mesh"
