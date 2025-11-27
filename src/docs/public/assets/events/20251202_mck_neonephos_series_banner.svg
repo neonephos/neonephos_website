@@ -41,7 +41,7 @@
         stroke-width: 2px;
       }
     </style>
-    <linearGradient id="linear-gradient" x1="-.03" y1="245.35" x2="1399.97" y2="245.35" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="-.03" y1="245.14" x2="1400" y2="245.14" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#c4cdd0" stop-opacity=".3"/>
       <stop offset=".24" stop-color="#c0cad0" stop-opacity=".31"/>
       <stop offset=".4" stop-color="#b5c4d0" stop-opacity=".35"/>
@@ -52,7 +52,7 @@
       <stop offset=".98" stop-color="#0a5dda" stop-opacity=".96"/>
       <stop offset="1" stop-color="#0057db"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-2" x1=".11" y1="481.8" x2="1399.83" y2="481.8" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient-2" x1="0" y1="483.26" x2="1400.01" y2="483.26" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0f6bff"/>
       <stop offset="1" stop-color="#000025"/>
     </linearGradient>
@@ -62,10 +62,10 @@
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect class="cls-6" x="-.03" y=".28" width="1400" height="490.13"/>
+  <rect class="cls-6" x="-.03" y=".28" width="1400.03" height="489.72"/>
   <rect class="cls-2" x="54.68" y="378.13" width="52.09" height="44.14" rx="3.22" ry="3.22"/>
   <rect class="cls-8" x="54.98" y="378.9" width="52.09" height="9.4"/>
-  <rect class="cls-5" x=".11" y="473.79" width="1399.72" height="16.03"/>
+  <rect class="cls-5" x="0" y="476.52" width="1400.01" height="13.48"/>
   <path class="cls-8" d="M65.74,22.65c-3.15,0-5.96,1.43-7.86,3.65-.17-.22-.37-.42-.57-.62-.59-.59-1.26-1.11-1.95-1.53-1.63-.99-3.5-1.48-5.35-1.5h0c-2.64,0-5.3,1.01-7.3,3.03-2.02,2.02-3.03,4.66-3.03,7.3,0,1.85.49,3.72,1.48,5.35.42.69.94,1.36,1.53,1.95.59.59,1.26,1.11,1.95,1.53,3.97,2.42,9.24,1.9,12.67-1.53.2-.2.39-.42.57-.62,1.9,2.22,4.71,3.65,7.86,3.65,5.69,0,10.33-4.63,10.33-10.33,0-5.69-4.63-10.33-10.33-10.33h0ZM44.59,32.98c0-1.38.52-2.76,1.58-3.82,1.06-1.06,2.44-1.58,3.82-1.58h0c.57,0,1.13.1,1.68.27l-4.26,4.26-2.54,2.54c-.17-.54-.27-1.11-.27-1.68ZM53.83,36.8c-1.48,1.48-3.62,1.92-5.5,1.33l2.64-2.64,4.17-4.17.49-.49c-.15.69-.22,1.43-.22,2.17,0,1.38-.52,2.76-1.58,3.82v-.02ZM65.74,38.4c-2.98,0-5.42-2.42-5.42-5.42s2.42-5.42,5.42-5.42c3.01,0,5.42,2.42,5.42,5.42s-2.42,5.42-5.42,5.42Z"/>
   <polygon class="cls-8" points="31.62 31.23 21.47 15.48 15.55 15.48 15.55 43.14 21.47 43.14 21.47 25.83 32.54 43.14 37.56 43.14 37.56 15.48 31.62 15.48 31.62 31.23"/>
   <polygon class="cls-7" points="95.56 31.23 85.4 15.48 79.49 15.48 79.49 43.14 85.4 43.14 85.4 25.83 96.47 43.14 101.47 43.14 101.47 15.48 95.56 15.48 95.56 31.23"/>
