@@ -25,4 +25,4 @@ Here is a rough overview on what is planned:
 - Add more comments
 - Follow Vitepress' best practices
 - Automatically fetch committee member info via LFX
-- Fix cachine of the landing page so that the events are reloaded on each page visit.
+- Fix caching of the landing page so that the events are reloaded on each page visit.
