@@ -39,6 +39,10 @@ tiles:
     details: Learn how our charter defines the organizational committees such as the Governing Board.
     linkText: Explore Charter
     linkUrl: https://cdn.platform.linuxfoundation.org/agreements/neonephos-foundation.pdf?__hstc=81619592.11739e1f4ca03192f4e918409f725053.1748961872693.1755169332458.1755604645613.29&__hssc=81619592.2.1755604645613&__hsfp=1879682750
+  - title: Election Policy
+    details: Learn about election periods and more.
+    linkText: Election Policy
+    linkUrl: /election_policy
   - title: Contact
     details: Want to get in touch? Contact the Governing Board via mail.
     linkText: Get In Touch

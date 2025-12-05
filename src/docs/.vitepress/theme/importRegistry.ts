@@ -22,6 +22,7 @@ import MemberThemeComponent from './components/MemberThemeComponent.vue'
 import ProposeProjectThemeComponent from './components/ProposeProjectThemeComponent.vue'
 import EventEntryThemeComponent from './components/EventEntryThemeComponent.vue'
 import BrandingGuidelinesThemeComponent from './components/BrandingGuidelinesThemeComponent.vue'
+import ElectionPolicyThemeComponent from './components/ElectionPolicyThemeComponent.vue'
 import LinuxHeader from './components/LinuxHeaderThemeComponent.vue'
 
 export const layoutMap = {
@@ -48,5 +49,6 @@ export const layoutMap = {
   ProposeProjectThemeComponent,
   EventEntryThemeComponent,
   BrandingGuidelinesThemeComponent,
+  ElectionPolicyThemeComponent,
   LinuxHeader
 }
