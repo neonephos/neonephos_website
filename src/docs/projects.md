@@ -60,6 +60,11 @@ projects:
     imgsrc: "https://raw.githubusercontent.com/neonephos-katalis/.github/refs/heads/main/profile/resources/Katalis-Logo.png"
     details: "Katalis bridges Telco and Cloud Provider APIs utilizing Kubernetes to drive orchestration and federation principles. Katalis establishes interoperability by translating Telco Federation APIs to IT Cloud resource provisioning and management."
     githubLink: "https://github.com/NeoNephos-Katalis"
+  - name: "Luigi"
+    imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/luigi/icon/color/luigi-icon-color.svg"
+    details: "Luigi is a micro frontend JavaScript framework for building modular, scalable, and technology‑agnostic web applications with a unified user experience across distributed UI modules."
+    link: "https://luigi-project.io/"
+    githubLink: "https://github.com/luigi-project"
 
 tilesHeading: Learn more!
 tiles:
