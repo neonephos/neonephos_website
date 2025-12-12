@@ -1,9 +1,9 @@
 ---
 title: "KubeCon Europe"
 date: "2026-03-23"
-banner: "assets/events/20262303_kubecon_banner.jpg"
-bannerMobile: "assets/events/20262303_kubecon_banner_mobile.jpg"
-bannerSmall: "assets/events/20262303_kubecon_banner_small.jpg"
+banner: "assets/events/20262303_kubecon_banner.svg"
+bannerMobile: "assets/events/20262303_kubecon_banner_mobile.svg"
+bannerSmall: "assets/events/20262303_kubecon_banner_small.svg"
 backgroundhex: "#889aa4ff"
 tags: ["neonephos", "kubecon"]
 published: true
