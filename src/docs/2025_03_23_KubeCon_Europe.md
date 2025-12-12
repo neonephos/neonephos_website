@@ -6,7 +6,7 @@ bannerMobile: "assets/events/20262303_kubecon_banner_mobile.jpg"
 bannerSmall: "assets/events/20262303_kubecon_banner_small.jpg"
 backgroundhex: "#889aa4ff"
 tags: ["neonephos", "kubecon"]
-published: false
+published: true
 ---
 
 # NeoNephos at the KubeCon Europe 2026 in Amsterdam
