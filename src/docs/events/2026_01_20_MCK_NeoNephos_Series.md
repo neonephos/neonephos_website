@@ -20,4 +20,4 @@ Agenda:
 
 ---
 
-👉 You can join the meeting [here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjgzOGUxNTItYjBjYy00NWZlLThkMjktNGZhMzM0NTg3MjZl%40thread.v2/0?context=%7b%22Tid%22%3a%2242f7676c-f455-423c-82f6-dc2d99791af7%22%2c%22Oid%22%3a%22f448159f-8442-4772-945c-ad5c1d621625%22%7d).
+👉 Join the meeting [here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjgzOGUxNTItYjBjYy00NWZlLThkMjktNGZhMzM0NTg3MjZl%40thread.v2/0?context=%7b%22Tid%22%3a%2242f7676c-f455-423c-82f6-dc2d99791af7%22%2c%22Oid%22%3a%22f448159f-8442-4772-945c-ad5c1d621625%22%7d).
