@@ -4,7 +4,7 @@ date: "2025-12-02"
 banner: "assets/events/20251202_mck_neonephos_series_banner.svg"
 bannerMobile: "assets/events/20251202_mck_neonephos_series_banner_mobile.svg"
 bannerSmall: "assets/events/20251202_mck_neonephos_series_banner_small.svg"
-backgroundhex: "#FFF0B2"
+backgroundhex: "#EDEDED"
 tags: ["neonephos", "mck","ipcei"]
 published: true
 ---
