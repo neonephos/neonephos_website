@@ -49,7 +49,10 @@ members:
     - name: "plusserver"
       link: "https://www.plusserver.com"
       imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/plusserver.svg"
-      
+    - name: "SUSE"
+      link: "https://www.suse.com"
+      imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/SUSE_Logo-hor_L_Green-pos_sRGB.svg"
+
       
   associate:
     - name: "TNO"
