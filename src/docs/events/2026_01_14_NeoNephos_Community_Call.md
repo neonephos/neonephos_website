@@ -9,7 +9,7 @@ tags: ["neonephos","community-call"]
 published: true
 ---
 
-# December Community Call
+# January Community Call
 
 Learn more about NeoNephos by joining our first community call in 2026 on January 14th at 4:00 pm CET! The agenda is to be announced.
 
