@@ -42,7 +42,7 @@ projects:
     details: "The Open Managed Control Plane (openMCP) enables extensible Infrastructure- and Configuration-as-Data capabilities as a Service."
     githubLink: "https://github.com/openmcp-project"
   - name: "Open Component Model"
-    imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/open-component-model/stacked/color/open-component-model-stacked-color.svg"
+    imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/open-component-model/icon/color/open-component-model-icon-color.svg"
     details: "The Open Component Model is a Software Bill of Delivery (SBoD) for packaging, signing, transporting and deploying your artifacts – preserving end-to-end security, integrity and provenance."
     link: "https://ocm.software/"
     githubLink: "https://github.com/open-component-model/"
