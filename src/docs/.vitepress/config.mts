@@ -162,7 +162,7 @@ function generateRSS(posts, md) {
       const link = siteUrl + post.url
 
       const bannerHtml = post.banner
-        ? `<p><img src="${siteUrl}${post.banner}" alt="${post.title} banner" /></p>`
+        ? `<p><img src="${siteUrl}/${post.banner}" alt="${post.title} banner" /></p>`
         : ''
 
       const html = bannerHtml + md.render(post.full)
