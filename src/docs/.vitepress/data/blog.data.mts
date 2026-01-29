@@ -39,7 +39,8 @@ export default createContentLoader('blog/*.md', {
           date: post.frontmatter.date,
           tags: post.frontmatter.tags,
           url: post.url,
-          excerpt: short
+          excerpt: short,
+          full: content
         }
       })
   }

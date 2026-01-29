@@ -1,10 +1,11 @@
+// .vitepress/config.mts
 import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 import path from 'path'
+import fs from 'fs'
 
 const base = process.env.BASE || '/'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "NeoNephos Foundation",
   description: "The website of the NeoNephos Foundation.",
@@ -15,36 +16,47 @@ export default defineConfig({
   cleanUrls : true,
   base,
   vite: getViteConfig(),
+
   transformPageData(pageData) {
-      if (pageData.relativePath.startsWith('blog/')) {
-        pageData.frontmatter.sidebar = false
-        pageData.frontmatter.aside = false
-        pageData.frontmatter.aside = false
-        pageData.frontmatter.prev = false
-        pageData.frontmatter.next = false
-
-        pageData.frontmatter.layout = "BlogEntryThemeComponent"
-      }
-      if (pageData.relativePath.startsWith('events/')) {
-        pageData.frontmatter.sidebar = false
-        pageData.frontmatter.aside = false
-        pageData.frontmatter.aside = false
-        pageData.frontmatter.prev = false
-        pageData.frontmatter.next = false
-
-        pageData.frontmatter.layout = "EventEntryThemeComponent"
-      }
+    if (pageData.relativePath.startsWith('blog/')) {
+      pageData.frontmatter.sidebar = false
+      pageData.frontmatter.aside = false
+      pageData.frontmatter.prev = false
+      pageData.frontmatter.next = false
+      pageData.frontmatter.layout = "BlogEntryThemeComponent"
+    }
+    if (pageData.relativePath.startsWith('events/')) {
+      pageData.frontmatter.sidebar = false
+      pageData.frontmatter.aside = false
+      pageData.frontmatter.prev = false
+      pageData.frontmatter.next = false
+      pageData.frontmatter.layout = "EventEntryThemeComponent"
+    }
   },
+
+  // ⭐ FIXED: Import the loader *inside* buildEnd
+  async buildEnd(siteConfig) {
+    //const { default: posts } = await import('./data/blog.data.mts')
+    const loader = (await import('./data/blog.data.mts')).default
+    const posts = await loader.load()
+    const outDir = siteConfig.outDir
+    const rss = generateRSS(posts)
+    console.log("WRITING POSTS NOW");
+    console.log(posts);
+    const docsDir = path.resolve(process.cwd(), 'docs');
+    fs.writeFileSync(path.join(docsDir, 'rss.xml'), rss);
+
+  },
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       {
         text: 'About',
         items: [
-      { text: 'Introduction', link: '/introduction' },
-      { text: 'Members', link: '/members' },
-      { text: 'Governing Board', link: '/governing_board' },
-      { text: 'Technical Advisory Council', link: '/technical_advisory_council' },
+          { text: 'Introduction', link: '/introduction' },
+          { text: 'Members', link: '/members' },
+          { text: 'Governing Board', link: '/governing_board' },
+          { text: 'Technical Advisory Council', link: '/technical_advisory_council' },
         ]
       },
       {
@@ -57,21 +69,15 @@ export default defineConfig({
       {
         text: 'Community',
         items: [
-        { text: 'Events', link: '/events'},
-        { text: 'Blog', link: '/blog'},
-        { text: 'Zulip', link: 'https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion/topic/channel.20events/with/558483910'},
-        { text: 'Mailing Lists', link: 'https://lists.neonephos.org/g/main/subgroups' },
-        { text: 'YouTube', link: 'https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw' },
-        { text: 'Artwork & Branding', link: '/branding_guidelines' },
-       { text: 'Contact', link: '/contact'},
+          { text: 'Events', link: '/events'},
+          { text: 'Blog', link: '/blog'},
+          { text: 'Zulip', link: 'https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion/topic/channel.20events/with/558483910'},
+          { text: 'Mailing Lists', link: 'https://lists.neonephos.org/g/main/subgroups' },
+          { text: 'YouTube', link: 'https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw' },
+          { text: 'Artwork & Branding', link: '/branding_guidelines' },
+          { text: 'Contact', link: '/contact'},
         ]
       }
-      //{ text: 'Home', link: '/' },
-
-      //{ text: 'Members', link: '/members' },
-      //{ text: 'Calendar', link: 'https://zoom-lfx.platform.linuxfoundation.org/meetings/neonephos-foundation?view=month' },
-      //{ text: 'Mailing Lists', link: 'https://lists.neonephos.org/g/main/subgroups' },
-
     ],
 
     sidebar: [
@@ -93,7 +99,7 @@ export default defineConfig({
       }
     ],
 
-     search: {
+    search: {
       provider: 'local'
     },
 
@@ -108,14 +114,13 @@ export default defineConfig({
       alt: 'NeoNephos Logo'
     },
     
-    siteTitle: false,        // Hides the default text title
+    siteTitle: false,
     footer: {
       message: 'For applicable policies including privacy policy, terms of use and trademark usage guidelines, please see <a href="https://linuxfoundation.eu">https://linuxfoundation.eu</a>.',
       copyright: 'Copyright © The Linux Foundation Europe.'
     }
   }
 })
-
 
 function getViteConfig() {
   return {
@@ -142,4 +147,34 @@ function getViteConfig() {
       ]
     }
   }
+}
+
+function generateRSS(posts) {
+  const siteUrl = 'https://neonephos.org'
+  console.log(posts);
+  const items = posts
+    .map(post => {
+      const link = siteUrl + post.url
+
+      return `
+  <item>
+    <title><![CDATA[${post.title}]]></title>
+    <link>${link}</link>
+    <guid>${link}</guid>
+    <pubDate>${new Date(post.date).toUTCString()}</pubDate>
+    <description><![CDATA[${post.full}]]></description>
+  </item>`
+    })
+    .join('')
+
+  return `<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>NeoNephos Blog</title>
+  <link>${siteUrl}</link>
+  <description>Updates from the NeoNephos Foundation</description>
+  <language>en</language>
+  ${items}
+</channel>
+</rss>`
 }
