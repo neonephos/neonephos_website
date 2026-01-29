@@ -44,7 +44,8 @@ export default defineConfig({
     console.log("WRITING POSTS NOW");
     console.log(posts);
     const docsDir = path.resolve(process.cwd(), 'docs');
-    fs.writeFileSync(path.join(docsDir, 'rss.xml'), rss);
+    fs.writeFileSync(path.join(outDir, 'rss.xml'), rss);
+
 
   },
 
