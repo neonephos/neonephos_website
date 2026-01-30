@@ -179,29 +179,31 @@ def fetch_latest_release_or_tag(org: str, repo: str, token: str):
     # Prefer releases
     if repo_data["releases"]["nodes"]:
         r = repo_data["releases"]["nodes"][0]
-        return r["name"], r["createdAt"], r.get("description") or ""
+        release_name = r["name"] or "unnamed-release"
+        release_date = r["createdAt"]
+        release_text = r.get("description") or ""
+        return release_name, release_date, release_text
 
     # Fallback to tags
     if repo_data["refs"]["nodes"]:
         t = repo_data["refs"]["nodes"][0]
-        tag_name = t["name"]
+        tag_name = t["name"] or "unnamed-tag"
         target = t.get("target") or {}
 
-        # Annotated tag → use tagger.date
+        # Annotated tag → tagger.date
         if "tagger" in target and target["tagger"] and "date" in target["tagger"]:
-            tag_date = target["tagger"]["date"]
-            return tag_name, tag_date, ""
+            return tag_name, target["tagger"]["date"], ""
 
-        # Lightweight tag → use commit timestamp
+        # Lightweight tag → commit timestamp
         if "committedDate" in target:
-            tag_date = target["committedDate"]
-            return tag_name, tag_date, ""
+            return tag_name, target["committedDate"], ""
 
-        # Fallback (should rarely happen)
-        tag_date = datetime.utcnow().isoformat() + "Z"
-        return tag_name, tag_date, ""
+        # Fallback timestamp
+        return tag_name, datetime.utcnow().isoformat() + "Z", ""
 
+    # No releases, no tags
     return None
+
 
 
 
