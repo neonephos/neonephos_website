@@ -93,4 +93,8 @@ tiles:
     details: Want to get in touch? Contact the Technical Advisory Council via mail.
     linkText: Get In Touch
     linkUrl: mailto:tac@lists.neonephos.org
+  - title: Projects Repository
+    details: Want to propose a new project or read guidelines? This is the place!
+    linkText: Projects Repository
+    linkUrl: "https://github.com/neonephos/projects"
 ---
