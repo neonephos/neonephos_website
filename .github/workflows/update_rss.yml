@@ -2,7 +2,7 @@ name: Update Project Releases RSS
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # once per day at 03:00 UTC
+    - cron: "0 3 * * *"   # daily at 03:00 UTC
   push:
     branches:
       - main
@@ -24,20 +24,18 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: |
-          pip install requests
+      - name: Install Python dependencies
+        run: pip install requests
 
       - name: Generate RSS feed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python src/helper_scripts/update_project_releases_rss.py
+        run: python src/helper_scripts/update_project_releases_rss.py
 
       - name: Commit RSS feed
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add dist/feeds/project_releases.xml
+          git add dist/feed/project/releases.xml
           git commit -m "Update project releases RSS feed" || echo "No changes"
           git push
