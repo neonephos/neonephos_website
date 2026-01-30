@@ -214,7 +214,7 @@ def fetch_releases_for_orgs(org_list: List[str], github_token: str) -> List[GitH
     return results
 
 
-org_list=["platform-mesh"]
+org_list=["gardenlinux","cobaltcore-dev","gardener","ironcore-dev","cloudoperators","open-resource-discovery","open-component-model","openmfp","openmcp-project","platform-mesh","konfidence-project","luigi-project"]
 
 github_token = os.environ.get("GITHUB_TOKEN")
 if not github_token:
