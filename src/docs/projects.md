@@ -68,8 +68,8 @@ projects:
 
 tilesHeading: Learn more!
 tiles:
-  - title: Proposal Process
-    details: Learn expectations, requirements and the process to propose a new project at NeoNephos.
-    linkText: Explore Proposal Process
-    linkUrl: /new_project
+  - title: Projects Repository
+    details: Want to propose a new project or read guidelines? This is the place!
+    linkText: Projects Repository
+    linkUrl: "https://github.com/neonephos/projects"
 ---
