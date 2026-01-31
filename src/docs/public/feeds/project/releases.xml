@@ -4,15 +4,84 @@
     <title>GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest GitHub releases</description>
-    <lastBuildDate>Fri, 30 Jan 2026 12:46:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 03:46:29 +0000</lastBuildDate>
 
     <item>
-            <title>gardenlinux/package-cloud-hypervisor-gl - cloud-hypervisor-gl_50.0-1gl4+sta1877</title>
+            <title>platform-mesh/extension-manager-operator - v0.4.138</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.138</guid>
+            <pubDate>Sat, 31 Jan 2026 01:15:46 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.137 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/454</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.137...v0.4.138</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-dracut - dracut_109-9gl0</title>
+            <link>https://github.com/gardenlinux/package-dracut</link>
+            <guid>https://github.com/gardenlinux/package-dracut/releases/tag/dracut_109-9gl0</guid>
+            <pubDate>Sat, 31 Jan 2026 00:19:20 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-dracut/actions/runs/21535230048">21535230048</a></p>
+<p>Files in this release:<br>``<code><br>257ddf0f91d52a15e966a71d7cf69d2216c8cd3911a6391a488046a620e17c4c  ./dracut-network_109-9gl0_all.deb<br>07cfbdefdaa21d4a3a5cb33125bed682c1d9b4d488d56aae602e2aae21b7f8b0  ./dracut-live_109-9gl0_all.deb<br>70a1de1349ad76c84f9336da242fefb130defa0211c92c44a47ac9a25b8d0f6d  ./dracut-install-dbgsym_109-9gl0_amd64.deb<br>1c4c9db298befdcdc18776fb481f3c0aa81ca704d982edf751bcbcc319eb10e8  ./dracut-core-dbgsym_109-9gl0_arm64.deb<br>c6fb54f493d7330c2b6bdb9390c9bbd2eed58207862e6adb3d2306b625856d94  ./dracut_109-9gl0_arm64.buildinfo<br>47cea0a0ef15ccfba2187cad09db8b7727172afbad74991f51cf9c92e02e61b1  ./dracut_109-9gl0_all.deb<br>12a3998dcdf44cebc60ac4498c723247644abb9b9ab1b2f1c960104949dc1874  ./dracut_109-9gl0.debian.tar.xz<br>18eeed48329a964ba8c0f5b02e2aa7d5e5b8613348389054526543227c560998  ./dracut-squash_109-9gl0_all.deb<br>7796865fa31e5b0a9a7f16eb57f2351e94189edd1551352742fb00420e803c81  ./dracut-core_109-9gl0_arm64.deb<br>82a9f00f05b7b96a87183375696d78937a6991593541cbe07b0cf45c13482a85  ./dracut-install-dbgsym_109-9gl0_arm64.deb<br>0457bcf75113355cd1c22a203b0d94bea5d03c59b0beae52e20876b33c7b8ff2  ./dracut_109-9gl0_arm64.changes<br>5dd74efaff338129baaaf02c10ade5fd944e1273f805269c102863e41311a302  ./dracut-install_109-9gl0_arm64.deb<br>72963867a5d086202a80c488c1be2e099587f6ee98b7d7e7d88eb602b5f47e38  ./dracut_109-9gl0_amd64.changes<br>6d70c1146eab57798cab1264e2775c0996e7e3039df0f1839e3c4c70192cccb5  ./dracut-test_109-9gl0_amd64.deb<br>bd0682a32d88069c215f0d150687d19aa2e46739a8ca6ea7f3767faede76c7a7  ./dracut_109.orig.tar.xz<br>42c3c77a1bdc3837e31af866fa6cd3d31d9db2a4eb1fb708521c251b75e84c50  ./dracut-core_109-9gl0_amd64.deb<br>d53c6bea5b9dd5c9929621f8f26d742d18857775bd4c039d4a4bfd3fa53f257a  ./dracut-test_109-9gl0_arm64.deb<br>fa38541e8f0da7d12a12682bd7e2f864a23111e5ce7546e1559d9cf0c4f72052  ./dracut-core-dbgsym_109-9gl0_amd64.deb<br>cd014de295c8e75cf5c23665698acf7e55262bcd6534c908c0c1bf61b39c2611  ./dracut_109-9gl0.dsc<br>66123f77374b9fe48dc972fac5b3c5aea0dfbeb2590df2010a42a04aaad96d70  ./dracut-install_109-9gl0_amd64.deb<br>2cc518f428be9d6657308adb5a19ed7d7e6bd370194458b4a7c4c3e4b63b34ef  ./dracut_109-9gl0_amd64.buildinfo<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>gardener/machine-controller-manager-provider-openstack - v0.25.0</title>
+            <link>https://github.com/gardener/machine-controller-manager-provider-openstack</link>
+            <guid>https://github.com/gardener/machine-controller-manager-provider-openstack/releases/tag/v0.25.0</guid>
+            <pubDate>Fri, 30 Jan 2026 14:38:02 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/machine-controller-manager-provider-openstack:v0.25.0]</h1>
+<h2>✨ New Features</h2>
+<ul><li><code>[OPERATOR]</code> To support dual-stack networking, multiple subnets can be configured.</li></ul>  The field SubnetID in MachineProviderConfigSpec is now deprecated. Please use SubnetIDs instead. Support for SubnetID will be removed in a future release. by @axel7born <a href="https://github.com/gardener/machine-controller-manager-provider-openstack/pull/347">[#347</a>]
+<ul><li><code>[DEVELOPER]</code> When calling CreateMachine() the method now returns the internal IPs of the server in the Addresses field. by @jamand <a href="https://github.com/gardener/machine-controller-manager-provider-openstack/pull/322">[#322</a>]</li></ul>
+<h2>🏃 Others</h2>
+<ul><li><code>[OPERATOR]</code> Flavor name not found errors will be treated as ResourceExhausted errors and be backed off by @ririko-nakamura <a href="https://github.com/gardener/machine-controller-manager-provider-openstack/pull/350">[#350</a>]</li><li><code>[OPERATOR]</code> Fix pull request handling for PRs of fork owners outside of the gardener organisation by @hebelsan <a href="https://github.com/gardener/machine-controller-manager-provider-openstack/pull/342">[#342</a>]</li><li><code>[DEVELOPER]</code> Resolve minor linting issue by @jamand <a href="https://github.com/gardener/machine-controller-manager-provider-openstack/pull/336">[#336</a>]</li></ul>
+<h2>Container (OCI) Images</h2>
+<ul><li>machine-controller-manager-provider-openstack: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/machine-controller-manager-provider-openstack:v0.25.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-cloud-hypervisor-gl - cloud-hypervisor-gl_50.0-1gl7+sta1877</title>
             <link>https://github.com/gardenlinux/package-cloud-hypervisor-gl</link>
-            <guid>https://github.com/gardenlinux/package-cloud-hypervisor-gl/releases/tag/cloud-hypervisor-gl_50.0-1gl4+sta1877</guid>
-            <pubDate>Fri, 30 Jan 2026 12:30:02 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-cloud-hypervisor-gl/actions/runs/21515867114">21515867114</a></p>
-<p>Files in this release:<br>``<code><br>607decd0570c454f73beb6d6a9a83c3539cc78da15cda3ccfd7c31229bcebed3  ./cloud-hypervisor-gl_50.0-1gl4~sta1877_amd64.changes<br>2d8339209edf009c2b5d08608a3cd6a80bffca4cedbe125f88e94509577596d4  ./cloud-hypervisor-gl_50.0-1gl4~sta1877_amd64.deb<br>aa80bc371f6ead2ca4eb967f84135dc90c064eb22db3a1b92434854996490e3b  ./cloud-hypervisor-gl_50.0-1gl4~sta1877_arm64.buildinfo<br>67a998b421f0f8fd8847a75a73a83c5025b7b45177b7488842f3f20618fd3f7b  ./cloud-hypervisor-gl-dbgsym_50.0-1gl4~sta1877_amd64.deb<br>c06cf6a8f115171b4badaf3822d7b0f4f233a89182911e83277b81bda8d5dfff  ./cloud-hypervisor-gl_50.0-1gl4~sta1877_arm64.changes<br>4a0ddd5fbf53a6322389e841ab2f085679e1d4aa3746ca9d741b9f079b4311b7  ./cloud-hypervisor-gl_50.0-1gl4~sta1877.dsc<br>e5592f1ab9c8756ed483f7895dd468948fd41aa46b9084d591c49840aa87586c  ./cloud-hypervisor-gl_50.0-1gl4~sta1877_amd64.buildinfo<br>246fe054cb10483f9b92f7e955ad94d0d74ba76a65ef1dcbcec1d2d7c7a66796  ./cloud-hypervisor-gl-dbgsym_50.0-1gl4~sta1877_arm64.deb<br>61d1ad0591a2f4c8ad3e6d622dcc24332bc97ab99556f04f37a4ef457e18a630  ./cloud-hypervisor-gl_50.0.orig.tar.xz<br>c5a3f155942a75fc85bdb26db8bb3a0bc053d1d75ff50ace2ab3dcbd1b81042a  ./cloud-hypervisor-gl_50.0-1gl4~sta1877.debian.tar.xz<br>c19198cc80b352479d93575dd7b64b4312bd6364a37b402109ae9f5d7b4a3e51  ./cloud-hypervisor-gl_50.0-1gl4~sta1877_arm64.deb<br></code>``</p>]]></description>
+            <guid>https://github.com/gardenlinux/package-cloud-hypervisor-gl/releases/tag/cloud-hypervisor-gl_50.0-1gl7+sta1877</guid>
+            <pubDate>Fri, 30 Jan 2026 14:36:00 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-cloud-hypervisor-gl/actions/runs/21519430469">21519430469</a></p>
+<p>Files in this release:<br>``<code><br>3525cd2b0c9581871e2c4d69fd38bfa425dee4a41ac2e6cb5762d463dcc91efe  ./cloud-hypervisor-gl-dbgsym_50.0-1gl7~sta1877_amd64.deb<br>32a8db951a781aaba18c8f97ba16790cf92b0e34232d653d905c1fed879c2bf3  ./cloud-hypervisor-gl_50.0-1gl7~sta1877.dsc<br>df1cf0332e4f08b9c12fb4c1d4fc6821e60d11583be975477f01f72e4592d88e  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_arm64.buildinfo<br>a177cc4460b574fa08aaaa9da8feed0dd76cdd7a986c2fd07164d39244295f61  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_arm64.deb<br>52048b76e4efaf4004aa2766ffc5f06de353930c32b8037329069769214499b6  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_amd64.buildinfo<br>f483b60608fdcef4ee85d985b1a9662a0e39bcc07160e786f829b07eb197d615  ./cloud-hypervisor-gl_50.0-1gl7~sta1877.debian.tar.xz<br>f1b634e699b4506d6cba7f60d283c11d426ce9326627066b330e9615e1fef893  ./cloud-hypervisor-gl-dbgsym_50.0-1gl7~sta1877_arm64.deb<br>68312020fede6e4978c33d771749f40b4e78d6bc2bec6c41ce55759c5ece0fbd  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_amd64.changes<br>288f5915b6ac4232a821ac1d6e4a5d585d28165f8b0e4008968a047d72beb716  ./cloud-hypervisor-gl_50.0.orig.tar.xz<br>3a8e62cd027e31ab7880ed922ede602ecb05cde1315650c3b45daaefb3246f2d  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_arm64.changes<br>86c965fef066c3ea523024413b56ad085d2a1027ec50422b1593a7116c0aec28  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_amd64.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/platform-mesh-operator - v0.47.7</title>
+            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.47.7</guid>
+            <pubDate>Fri, 30 Jan 2026 14:11:33 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to e55cd86 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/340</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.47.6...v0.47.7</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/portal - v0.16.179</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.16.179</guid>
+            <pubDate>Fri, 30 Jan 2026 13:30:22 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update dependency @platform-mesh/portal-ui-lib to ^0.30.0 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/342</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.16.178...v0.16.179</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.12.52</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.12.52</guid>
+            <pubDate>Fri, 30 Jan 2026 13:09:21 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.18.4 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/298</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.12.51...v0.12.52</p>]]></description>
+        </item>
+<item>
+            <title>gardener/dashboard - unnamed-release</title>
+            <link>https://github.com/gardener/dashboard</link>
+            <guid>https://github.com/gardener/dashboard/releases/tag/unnamed-release</guid>
+            <pubDate>Fri, 30 Jan 2026 12:52:01 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/dashboard:1.83.3]</h1>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[USER]</code> Tooltips are now loaded on-demand instead of being eagerly pre-rendered, improving performance. by @petersutter <a href="https://github.com/gardener/dashboard/pull/2758">[#2758</a>]</li></ul>
+<h2>Container (OCI) Images</h2>
+<ul><li>gardener-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/dashboard:1.83.3</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/gardener-extension-provider-azure - v1.58.0</title>
@@ -105,13 +174,11 @@
 <ul><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-service:0.1264.0</code></li><li>extension-clamav: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-clamav:0.1264.0</code></li><li>extension-crypto: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-crypto:0.1264.0</code></li><li>extension-db-manager: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-db-manager:0.1264.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extensions:0.1264.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>platform-mesh/platform-mesh-operator - v0.47.6</title>
-            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.47.6</guid>
-            <pubDate>Fri, 30 Jan 2026 10:47:47 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to ee1ae85 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/339</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.47.5...v0.47.6</p>]]></description>
+            <title>cloudoperators/opentelemetry-collector-contrib - exporter/kafkaexporter/v0.144.1</title>
+            <link>https://github.com/cloudoperators/opentelemetry-collector-contrib</link>
+            <guid>https://github.com/cloudoperators/opentelemetry-collector-contrib/releases/tag/exporter/kafkaexporter/v0.144.1</guid>
+            <pubDate>Fri, 30 Jan 2026 10:56:18 +0000</pubDate>
+            <description><![CDATA[]]></description>
         </item>
 <item>
             <title>platform-mesh/security-operator - v0.18.4</title>
@@ -121,15 +188,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>fix: added a condition to do not set finalizer on system apibindings by @OlegErshov in https://github.com/platform-mesh/security-operator/pull/307</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.18.3...v0.18.4</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/portal - v0.16.178</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.16.178</guid>
-            <pubDate>Fri, 30 Jan 2026 10:05:55 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update dependency @platform-mesh/portal-server-lib to v0.6.13 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/341</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.16.177...v0.16.178</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/kubernetes-graphql-gateway - v0.8.0</title>
@@ -392,15 +450,6 @@
 <p>Files in this release:<br>``<code><br>da5aa8dfc98b39c3e54e0bb0235090a2f9ccea6bf091a9ae444d8830a96b3aab  ./apt_3.1.14gl0.dsc<br>829ecc26c3cb55cf1b165a48330f3c337f020e5c7c801adafa3992cad786f04b  ./apt_3.1.14gl0_arm64.changes<br>c9cac389e7d4e2cccd15b3fd16b3ed20e3c86a31ea30d587bde7b782d4c87e72  ./apt-transport-https_3.1.14gl0_all.deb<br>098863ff5f74dffa3fab454c4b87aafb1d830b77789f43d98006b8ec514d21dd  ./apt-utils_3.1.14gl0_amd64.deb<br>01685f853c86b89fc464f6fb9cd288fa410a15d1c3e5bc00652bbe3ac480e5bc  ./apt_3.1.14gl0_arm64.buildinfo<br>95e236c3b014589e516be5ab385f7ae67091f1cba0624061c0dcfaf1a3ed987e  ./apt-dbgsym_3.1.14gl0_amd64.deb<br>ee55097ec34f59bcc63f55e4d9e87f6eac8f0a9a01248981f4e5d3bab2a2eec6  ./apt-dbgsym_3.1.14gl0_arm64.deb<br>ec5740a87321e1a29d4794a61431b634906cfe0e6ebec7b41b939263e3cd14ac  ./apt_3.1.14gl0_arm64.deb<br>a4b132efad6208bb529081d7f36dc31cd4853c1a3ec27e67652553bc310c33d4  ./libapt-pkg7.0-dbgsym_3.1.14gl0_arm64.deb<br>696adfe52914a9f255c7e264e624be04760946f01b6b759c3ecf34d50359dba9  ./libapt-pkg7.0_3.1.14gl0_amd64.deb<br>f7f1a9cc6782a25f2249c24879ac8a14082a9310a2f4cf97714edd6dc1748095  ./apt_3.1.14gl0_amd64.deb<br>3e40aba54055e14dad5018e0cdcc5a7008707aa165e8f19465e9d7a9982f0c4d  ./libapt-pkg7.0-dbgsym_3.1.14gl0_amd64.deb<br>9b1c9e784102d2c1a301ef6512b5e3b2c7c4a86c7035ba98f68872f806c44b1a  ./apt_3.1.14gl0_amd64.buildinfo<br>049a3533bf993e220c954659b4fbd0025c603453ad2ceb686a2a19984a47dbd9  ./libapt-pkg-dev_3.1.14gl0_amd64.deb<br>d909c0f040b6fe3cf0d85f3fbdd644cb638199651ee1f7981c57a25ecdc8fc85  ./apt-utils-dbgsym_3.1.14gl0_arm64.deb<br>5c90a27a2ca6233aafcf38ab0486d474eeb2c37dbb8dff23a79cc6b9f01c220b  ./libapt-pkg7.0_3.1.14gl0_arm64.deb<br>2df1b880d3896c9f80b880cdafd8ca07809425940c4fa1645b731308775ec229  ./apt_3.1.14gl0_amd64.changes<br>71ae8dc24f7ea925a81f022289b2acca67b54d2f1143ce65a36dd7f9b0cdcb5a  ./apt-utils_3.1.14gl0_arm64.deb<br>e70e996046e556175848951a171b048a801ea06ce169d404aff64477458ecab8  ./apt_3.1.14gl0.tar.xz<br>ab8457f10539c43527b2caf4920c70d45f45be1f0d3c539cc88a6a4c55d54d7b  ./apt-utils-dbgsym_3.1.14gl0_amd64.deb<br>130ddb0513175f4a5a488232c50fa36dbbe6e66262b040f8617f4e28b3b8a4de  ./libapt-pkg-dev_3.1.14gl0_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>platform-mesh/extension-manager-operator - v0.4.134</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.134</guid>
-            <pubDate>Thu, 29 Jan 2026 20:32:52 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.133 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/448</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.133...v0.4.134</p>]]></description>
-        </item>
-<item>
             <title>openmcp-project/service-provider-landscaper - Release v0.13.0</title>
             <link>https://github.com/openmcp-project/service-provider-landscaper</link>
             <guid>https://github.com/openmcp-project/service-provider-landscaper/releases/tag/Release v0.13.0</guid>
@@ -463,15 +512,6 @@
 <ul><li><code>[OPERATOR]</code> Status file parser now supports IPv6. Readiness server replaced with command line option. by @domdom82 <a href="https://github.com/gardener/vpn2/pull/200">[#200</a>]</li></ul>
 <h2>Container (OCI) Images</h2>
 <ul><li>vpn-client: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/vpn-client:0.46.1</code></li><li>vpn-server: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/vpn-server:0.46.1</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-service - v0.12.51</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.12.51</guid>
-            <pubDate>Thu, 29 Jan 2026 04:28:20 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.18.3 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/297</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.12.50...v0.12.51</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/rebac-authz-webhook - v0.2.144</title>
@@ -538,13 +578,6 @@
             <guid>https://github.com/gardenlinux/glvd-api/releases/tag/Release 2026.01.28</guid>
             <pubDate>Wed, 28 Jan 2026 14:25:28 +0000</pubDate>
             <description><![CDATA[<p>Release 2026.01.28</p>]]></description>
-        </item>
-<item>
-            <title>cloudoperators/opentelemetry-collector-contrib - exporter/kafkaexporter/v0.144.2</title>
-            <link>https://github.com/cloudoperators/opentelemetry-collector-contrib</link>
-            <guid>https://github.com/cloudoperators/opentelemetry-collector-contrib/releases/tag/exporter/kafkaexporter/v0.144.2</guid>
-            <pubDate>Wed, 28 Jan 2026 13:52:56 +0000</pubDate>
-            <description><![CDATA[]]></description>
         </item>
 <item>
             <title>platform-mesh/account-operator - v0.9.1</title>
@@ -2484,17 +2517,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:1877.10
 <p>Files in this release:<br>``<code><br>338712ad36416340c20bda3f13e3b65802c8fc15e8821d9c7ec01ece861ff531  ./nghttp3_1.11.0-1gl0~bp1877.dsc<br>626e1cc882c5af28b248097a105962b76be529f9adde7867f0538f110e79a7c6  ./nghttp3_1.11.0-1gl0~bp1877_arm64.changes<br>88412a397640c9ad3376c164e8018498c35c6a49c0d1702e5e5369cd8d8cf5b9  ./libnghttp3-9_1.11.0-1gl0~bp1877_amd64.deb<br>e28ac48a0cd2b8a22910a696bd886f96bd66f5c38d1761f4af3cce268d5b2161  ./nghttp3_1.11.0-1gl0~bp1877_amd64.changes<br>043d6bd305a1620dcbc06eee8b93a694bbac86f3b054e03f5b3a7687b6a968d9  ./libnghttp3-dev_1.11.0-1gl0~bp1877_amd64.deb<br>12f23b6254ce2e5749f0570b5fec825400242cacb773ba617eb096c7994395f6  ./nghttp3_1.11.0.orig.tar.xz<br>e6eb8a20243152e6e45d3b16f75a3f0f59f37d3148041d2f3814ad9a1a915ab0  ./nghttp3_1.11.0-1gl0~bp1877.debian.tar.xz<br>01c721824926124a2ff543a6a9a0237bd905e1f9738c1433d4e9464953b274a3  ./nghttp3_1.11.0-1gl0~bp1877_arm64.buildinfo<br>e3cd21ef4f6aba866817fda1d973b05c060c9fc48accb5026f2decfa0dae59cf  ./libnghttp3-9-dbgsym_1.11.0-1gl0~bp1877_amd64.deb<br>c4ee58859cc8364672be9ae9084cb290632e4242d612e911edd257a90770faeb  ./libnghttp3-dev_1.11.0-1gl0~bp1877_arm64.deb<br>4ae457e7e4aa14081f0fc6760ddbdc7ef6e049e62fd21eca08a7afb63338e4c6  ./libnghttp3-9-dbgsym_1.11.0-1gl0~bp1877_arm64.deb<br>712f46914b5ca9c1fd14d7e1a54a63d8e6f52d7990ea420a75d39a993452f101  ./nghttp3_1.11.0-1gl0~bp1877_amd64.buildinfo<br>8d11231b7bab5d769ad4c8c14d460dbbe2b8c4d1af41d73c7d8c715790510fd1  ./libnghttp3-9_1.11.0-1gl0~bp1877_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>gardener/dashboard - unnamed-release</title>
-            <link>https://github.com/gardener/dashboard</link>
-            <guid>https://github.com/gardener/dashboard/releases/tag/unnamed-release</guid>
-            <pubDate>Thu, 22 Jan 2026 13:05:49 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/dashboard:1.83.2]</h1>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> Updated markdown parsing to <code>unified / remark / rehype</code> pipeline, improving security and GitHub-flavored Markdown compatibility by @grolu <a href="https://github.com/gardener/dashboard/pull/2728">[#2728</a>]</li></ul>
-<h2>Container (OCI) Images</h2>
-<ul><li>gardener-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/dashboard:1.83.2</code></li></ul>]]></description>
-        </item>
-<item>
             <title>open-resource-discovery/specification - v1.14.0</title>
             <link>https://github.com/open-resource-discovery/specification</link>
             <guid>https://github.com/open-resource-discovery/specification/releases/tag/v1.14.0</guid>
@@ -3474,13 +3496,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.1.1 --repo ghcr.io/pl
 </code>``]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-dracut - dracut_109-5gl1</title>
-            <link>https://github.com/gardenlinux/package-dracut</link>
-            <guid>https://github.com/gardenlinux/package-dracut/releases/tag/dracut_109-5gl1</guid>
-            <pubDate>Mon, 05 Jan 2026 08:19:10 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-dracut/actions/runs/20709284928">20709284928</a><br><br>Files in this release:<br>``<code><br>d5e37ef0d81b97644b0b43f4ea722a515ada650b7202ff0db1bbedc73b9c8a6e  ./dracut-core_109-5gl1_arm64.deb<br>edcee94f87e72a2fb05ed17544ce89c1a202f2ff4c538b5e848429528b4005f6  ./dracut_109-5gl1_all.deb<br>a7c1cbbd5698bdc6ac714d1e77fff41e46b51355d02ae2793aedefb8333da3cc  ./dracut-test_109-5gl1_arm64.deb<br>e020bd76bdc5139a68ff774bdb90df5b498e5d4e64866153778a3d39716896d1  ./dracut-squash_109-5gl1_all.deb<br>d0433ae1a3f3dbd9be8da8e78afa5e25b9850d8c9fce667082bf1864785227ce  ./dracut-install-dbgsym_109-5gl1_amd64.deb<br>d372102f5dfb1f2f17a2978ad436e57dc1cfabf6ec62705c687e0a6d8aae9071  ./dracut-core-dbgsym_109-5gl1_amd64.deb<br>5503ec166224054f6c0c7c6860d0e041ac2dcfe45aa0fc3792768d4fc8f45967  ./dracut_109-5gl1.debian.tar.xz<br>a9603c241c2e9ce3a412a3b29273ab9f5d888958ee4ee102d136397504f92838  ./dracut_109-5gl1_arm64.changes<br>58187ca8d3610f742f2a4046192dd87d44eeeeefebe2baacfd7cc1ca32b7a0fe  ./dracut-install-dbgsym_109-5gl1_arm64.deb<br>2915ac5808a3745194da4c945df26c2ef32bda4d9c499b5d83418d6e31216240  ./dracut-network_109-5gl1_all.deb<br>bd0682a32d88069c215f0d150687d19aa2e46739a8ca6ea7f3767faede76c7a7  ./dracut_109.orig.tar.xz<br>34f7c83952c2d39d93a394b8273deb5f8724952f5c60e7aa674df362735e6383  ./dracut_109-5gl1_arm64.buildinfo<br>1c10b6728801058d959924814bea2a5c09b19704e41bf3e1f46b5c68905bd383  ./dracut-test_109-5gl1_amd64.deb<br>836f320bad1dc6cc09e46b5b9c71117807cc5b6c4afb202b34fe779292fd5aba  ./dracut-core_109-5gl1_amd64.deb<br>eb3b6a8a7c1d7428a57a273991c66000a3f3e095b4ea876b91d52e978e73fcca  ./dracut_109-5gl1.dsc<br>4e29d3d68dffa58097c9731e89b195e0f31624946ca29cbd1a73a35c26ccb44d  ./dracut-install_109-5gl1_arm64.deb<br>e3a944b187ac1f7fd54d0edbcbfc5fcd7b713f31f6405785634a80ae3aced644  ./dracut-install_109-5gl1_amd64.deb<br>ca39bfe3c940111894bc9ae1e03759d6edc75e8d3899b1da9df3efabbc1b98ec  ./dracut-live_109-5gl1_all.deb<br>2f749af4bd38eecbf24296593dbe765301a3f4318d648fbb154ddaa91e590b2a  ./dracut-core-dbgsym_109-5gl1_arm64.deb<br>6f93c26855b3c72e256b9f37803ac31900fa9434ec12e1ffedcabe9efdde8dab  ./dracut_109-5gl1_amd64.changes<br>5edde286a9fc2c812f8d545e3f6ed4c3b074ef1ae8cd56e69c403a4b9e536aae  ./dracut_109-5gl1_amd64.buildinfo<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>gardenlinux/bp-package-pygobject - pygobject_3.50.0-5gl0+bp1877</title>
             <link>https://github.com/gardenlinux/bp-package-pygobject</link>
             <guid>https://github.com/gardenlinux/bp-package-pygobject/releases/tag/pygobject_3.50.0-5gl0+bp1877</guid>
@@ -3750,6 +3765,13 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.0]]></descriptio
             <guid>https://github.com/gardenlinux/package-ffmpeg/releases/tag/ignore package for repo import</guid>
             <pubDate>Thu, 18 Dec 2025 19:50:23 +0000</pubDate>
             <description><![CDATA[<p>null</p>]]></description>
+        </item>
+<item>
+            <title>cobaltcore-dev/prysm - v.0.0.34</title>
+            <link>https://github.com/cobaltcore-dev/prysm</link>
+            <guid>https://github.com/cobaltcore-dev/prysm/releases/tag/v.0.0.34</guid>
+            <pubDate>Thu, 18 Dec 2025 11:17:42 +0000</pubDate>
+            <description><![CDATA[<p>bump go version to the last - v1.25.6</p>]]></description>
         </item>
 <item>
             <title>gardener/gardenlogin - v0.8.0</title>
@@ -4146,13 +4168,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.0]]></descriptio
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/unbase_oci/actions/runs/19634441229">19634441229</a></p>]]></description>
         </item>
 <item>
-            <title>cobaltcore-dev/prysm - v0.0.33</title>
-            <link>https://github.com/cobaltcore-dev/prysm</link>
-            <guid>https://github.com/cobaltcore-dev/prysm/releases/tag/v0.0.33</guid>
-            <pubDate>Mon, 24 Nov 2025 10:26:23 +0000</pubDate>
-            <description><![CDATA[<ul><li>opslog keystone audit support</li></ul>]]></description>
-        </item>
-<item>
             <title>gardener/etcd-backup-restore - v0.40.0</title>
             <link>https://github.com/gardener/etcd-backup-restore</link>
             <guid>https://github.com/gardener/etcd-backup-restore/releases/tag/v0.40.0</guid>
@@ -4494,17 +4509,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.0]]></descriptio
             <pubDate>Mon, 20 Oct 2025 08:20:40 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-sshguard/actions/runs/18646434738">18646434738</a></p>
 <p>Files in this release:<br>``<code><br>08263a0fad7de690cddeda3f34aff85505d8c34f9a27f6a95024a909420c1061  ./sshguard_2.5.1-1gl0_amd64.deb<br>f999e298aaa80a5303a10dba6ca392f1262d5353e22827f8f024f2eaa730db4e  ./sshguard_2.5.1-1gl0_arm64.buildinfo<br>8a7cadc5e0a78d22b55fb14a2a6c74aef615a55a1a34e68e4a3e125ab0a423d5  ./sshguard_2.5.1-1gl0_amd64.changes<br>dc51f1faf26fa73b696992de0ea5a6aa102e7df22644d027612cb385a77b8c4e  ./sshguard_2.5.1-1gl0.dsc<br>002dba43e9ba003fcaccfeebe2660bb7361b691bf733529a46bc7e2bf6e501e7  ./sshguard_2.5.1-1gl0_arm64.changes<br>40e24ed55ae616d33046db6b2b8e66b26ecbb3252032239403cb059c4c7f5c73  ./sshguard-dbgsym_2.5.1-1gl0_amd64.deb<br>ad1106fbf7dd2ff653a71ee53f8f2f2e6fe9d6595fd799fc1210c53dfa797693  ./sshguard_2.5.1-1gl0_arm64.deb<br>e914f91c70efad3dc935d13e7f3151d30e0a0221fd6653353d133db65bbfe542  ./sshguard_2.5.1-1gl0_amd64.buildinfo<br>357be005df63f6a75f73a736eb5cc43e0931d743cee8dfd069aa789562dd3d54  ./sshguard_2.5.1.orig.tar.xz<br>e0b5e6aac42de0617557e4a6e0f3147d9b10779021a982bb57879e20afa7ee28  ./sshguard_2.5.1-1gl0.debian.tar.xz<br>93c26ba35ef9ca8dca62329e5bb0bac474d636a7060e11fb893cdc8a9585ce3a  ./sshguard-dbgsym_2.5.1-1gl0_arm64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>gardener/machine-controller-manager-provider-openstack - unnamed-release</title>
-            <link>https://github.com/gardener/machine-controller-manager-provider-openstack</link>
-            <guid>https://github.com/gardener/machine-controller-manager-provider-openstack/releases/tag/unnamed-release</guid>
-            <pubDate>Fri, 17 Oct 2025 11:33:41 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/machine-controller-manager-provider-openstack:v0.24.1]</h1>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> Upgrade dependency gardener/machine-controller-manager from v0.60.0 to v0.60.1 by @aaronfern <a href="https://github.com/gardener/machine-controller-manager-provider-openstack/pull/325">[#325</a>]</li></ul>
-<h2>Container (OCI) Images</h2>
-<ul><li>machine-controller-manager-provider-openstack: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/machine-controller-manager-provider-openstack:v0.24.1</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-cyrus-sasl2 - cyrus-sasl2_2.1.28+dfsg1-10gl0</title>
