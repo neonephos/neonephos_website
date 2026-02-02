@@ -19,7 +19,7 @@ projects:
     link: "https://openmfp.org/"
     githubLink: "https://github.com/openmfp"
   - name: "Gardener"
-    imgsrc: "https://github.com/neonephos/artwork/blob/main/projects/gardener/icon/color/gardener-icon-color.svg"
+    imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/gardener/icon/color/gardener-icon-color.svg"
     details: "A proven, scalable open-source system that simplifies Kubernetes cluster management across multiple infrastructures, allowing developers to focus more on innovation and less on cluster operations."
     link: "https://gardener.cloud/"
     githubLink: "https://github.com/gardener/"
