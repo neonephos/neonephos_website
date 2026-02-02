@@ -11,8 +11,7 @@ published: true
 
 # NeoNephos February Community Call
 
-On February 11th we again bring together the NeoNephos community in our Community Call! Project Konfidence will hold a presentation about who they are, what they do and why they are a great fit for NeoNephos.
-Konfidence, while not a project of NeoNephos today, is soon being presented in the TAC for potential addition to our foundation.
+On February 11th we again bring together the NeoNephos community in our Community Call! Project Konfidence, which is not a NeoNephos project today, will hold a presentation about who they are, what they do and why they are a great fit for NeoNephos.
 
 **Zoom Session Link**
 
