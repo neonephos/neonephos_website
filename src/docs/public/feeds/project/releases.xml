@@ -4,16 +4,51 @@
     <title>GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest GitHub releases</description>
-    <lastBuildDate>Sun, 01 Feb 2026 12:53:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 08:20:12 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/extension-manager-operator - v0.4.144</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.144</guid>
-            <pubDate>Sun, 01 Feb 2026 01:47:40 +0000</pubDate>
+            <title>platform-mesh/security-operator - v0.19.0</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.19.0</guid>
+            <pubDate>Mon, 02 Feb 2026 07:33:18 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.143 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/460</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.143...v0.4.144</p>]]></description>
+<ul><li>feat: add AccountInfo reconciler with finalizer subroutine by @nexus49 in https://github.com/platform-mesh/security-operator/pull/308</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.18.4...v0.19.0</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/account-operator - v0.9.2</title>
+            <link>https://github.com/platform-mesh/account-operator</link>
+            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.9.2</guid>
+            <pubDate>Mon, 02 Feb 2026 07:25:02 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Fix/account deletion by @simontesar in https://github.com/platform-mesh/account-operator/pull/131</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.9.1...v0.9.2</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.4.149</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.149</guid>
+            <pubDate>Mon, 02 Feb 2026 06:04:27 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.148 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/465</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.148...v0.4.149</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/platform-mesh-operator - v0.47.8</title>
+            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.47.8</guid>
+            <pubDate>Mon, 02 Feb 2026 04:50:17 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to e5cc8c3 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/344</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.47.7...v0.47.8</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-openssl - openssl_3.5.5-1gl0</title>
+            <link>https://github.com/gardenlinux/package-openssl</link>
+            <guid>https://github.com/gardenlinux/package-openssl/releases/tag/openssl_3.5.5-1gl0</guid>
+            <pubDate>Mon, 02 Feb 2026 00:45:15 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-openssl/actions/runs/21573484657">21573484657</a></p>
+<p>Files in this release:<br>``<code><br>037ab6ef9afa6be90e8e4565ada023b485ac0bc3a8923c34b3b6a788476f5358  ./libssl3t64_3.5.5-1gl0_amd64.deb<br>06afa0cf49a00fc052964fc25d80a1c848ddfb5c9de06af52d7fd7e2645363bb  ./openssl-provider-legacy_3.5.5-1gl0_amd64.deb<br>04388c6b47239466753e692db66fa01543167138140905f9724042a573af8458  ./openssl-provider-fips-dbgsym_3.5.5-1gl0_arm64.deb<br>6d7d86cc31c35027daa56b22ea63a58dc364b47947df06290ef9d88531ab4c44  ./openssl_3.5.5-1gl0_amd64.deb<br>96ef078a71d247c145f1064207b42b6944f1dff8082ae7eaaeddbd8050e1ab8b  ./openssl-provider-legacy_3.5.5-1gl0_arm64.deb<br>7b613307bb027344a65410db0214da276214aed0e0f836a9e141b54e3d161cd5  ./openssl_3.5.5-1gl0_arm64.changes<br>ce29d9d7c83be3edd67eaf633f8154b6537096ca1161c5067bfdd48df31ea326  ./openssl_3.5.5-1gl0_amd64.changes<br>8eea7925f83950ae8eb4769a3285d8f302994682209e6277ee0b11d1d0954cd3  ./libssl-dev_3.5.5-1gl0_arm64.deb<br>6d00d8271d5dfaee4bd09cc94a23a9ab5cf744658ba5468ebfe9fb4ec195da99  ./openssl_3.5.5-1gl0_arm64.buildinfo<br>22f50b4b0022d8e4373dbd4f9124a8df0e88c26a2d53e86622e446922eb37633  ./openssl_3.5.5.orig.tar.xz<br>4ec164f8824910c6190abd3d6083c2449a3be65312b949ae0b638ec05fc036f3  ./openssl-provider-fips-dbgsym_3.5.5-1gl0_amd64.deb<br>7c25c66f3fef4c66c2c49d1c1a4b258e740e71dc8319d951864ec52a93c80c84  ./libssl3t64_3.5.5-1gl0_arm64.deb<br>c11fee87526bd2140174a8c9abfd10b4d34708c39187923cf7c6f57717fe2142  ./openssl-dbgsym_3.5.5-1gl0_amd64.deb<br>0b41ff404506fd1cad80f0c8e8a56abfac75fcb3f7cfe5b5d7d16f701cbd3e93  ./libssl3t64-dbgsym_3.5.5-1gl0_amd64.deb<br>2a101738d52222405b8b82dc1744b3778bb1104f233d47fb55174ae7c3bb8452  ./openssl-provider-fips_3.5.5-1gl0_arm64.deb<br>19a871b929692febdde5f579617072ac7461226e2ef87b2d5777933ff338adbc  ./openssl-provider-legacy-dbgsym_3.5.5-1gl0_amd64.deb<br>54df2eb7bfb6f109c76637383f4b31aaee2ac5d718e1dc83a6b1868d1281ae19  ./openssl-dbgsym_3.5.5-1gl0_arm64.deb<br>d6d98fbc08c1ea7129dd93b36c2a37f70d911fb32f3adf2b7810f07aad680074  ./openssl_3.5.5-1gl0_arm64.deb<br>6a268b1e04be0d73db159a6e9fdd9a5c0d41f534e39435046393be713f714e1e  ./openssl-provider-fips_3.5.5-1gl0_amd64.deb<br>1ff1e491181ac946d8f362da410a6d7d4512793d7ddf5ad0628b1e30f47eb783  ./openssl_3.5.5-1gl0.debian.tar.xz<br>25f4f8b1045f69b3c881c2fa30b594784a845604a33f8f93ee907e06c914a4c0  ./libssl-dev_3.5.5-1gl0_amd64.deb<br>0659c3c63c7889bd27b29c9aef50f85f769cf7f29f23b3fa2f125e8ba213d99b  ./libssl3t64-dbgsym_3.5.5-1gl0_arm64.deb<br>90e94521dfc98b6f23ffd30dd107cab64ec609ff2411aecf5ef451007bb2f227  ./openssl_3.5.5-1gl0_amd64.buildinfo<br>cee6d2e37ec436c16a8ed8117fa9b01bed4000db9e42cbf55b98cfbd6c0548ff  ./openssl-provider-legacy-dbgsym_3.5.5-1gl0_arm64.deb<br>06b092cf6b764ea570c15a64888182e122a75e8c142912f0a8f89d106e300716  ./openssl_3.5.5-1gl0.dsc<br>617e2dfa4dc64ed48b3dbf008d29d2a65e77302cf1ae849519b3ce45ded9eceb  ./libssl-doc_3.5.5-1gl0_all.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/portal - v0.16.180</title>
@@ -53,15 +88,6 @@
             <pubDate>Fri, 30 Jan 2026 14:36:00 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-cloud-hypervisor-gl/actions/runs/21519430469">21519430469</a></p>
 <p>Files in this release:<br>``<code><br>3525cd2b0c9581871e2c4d69fd38bfa425dee4a41ac2e6cb5762d463dcc91efe  ./cloud-hypervisor-gl-dbgsym_50.0-1gl7~sta1877_amd64.deb<br>32a8db951a781aaba18c8f97ba16790cf92b0e34232d653d905c1fed879c2bf3  ./cloud-hypervisor-gl_50.0-1gl7~sta1877.dsc<br>df1cf0332e4f08b9c12fb4c1d4fc6821e60d11583be975477f01f72e4592d88e  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_arm64.buildinfo<br>a177cc4460b574fa08aaaa9da8feed0dd76cdd7a986c2fd07164d39244295f61  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_arm64.deb<br>52048b76e4efaf4004aa2766ffc5f06de353930c32b8037329069769214499b6  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_amd64.buildinfo<br>f483b60608fdcef4ee85d985b1a9662a0e39bcc07160e786f829b07eb197d615  ./cloud-hypervisor-gl_50.0-1gl7~sta1877.debian.tar.xz<br>f1b634e699b4506d6cba7f60d283c11d426ce9326627066b330e9615e1fef893  ./cloud-hypervisor-gl-dbgsym_50.0-1gl7~sta1877_arm64.deb<br>68312020fede6e4978c33d771749f40b4e78d6bc2bec6c41ce55759c5ece0fbd  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_amd64.changes<br>288f5915b6ac4232a821ac1d6e4a5d585d28165f8b0e4008968a047d72beb716  ./cloud-hypervisor-gl_50.0.orig.tar.xz<br>3a8e62cd027e31ab7880ed922ede602ecb05cde1315650c3b45daaefb3246f2d  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_arm64.changes<br>86c965fef066c3ea523024413b56ad085d2a1027ec50422b1593a7116c0aec28  ./cloud-hypervisor-gl_50.0-1gl7~sta1877_amd64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/platform-mesh-operator - v0.47.7</title>
-            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.47.7</guid>
-            <pubDate>Fri, 30 Jan 2026 14:11:33 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to e55cd86 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/340</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.47.6...v0.47.7</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/iam-service - v0.12.52</title>
@@ -179,15 +205,6 @@
             <guid>https://github.com/cloudoperators/opentelemetry-collector-contrib/releases/tag/exporter/kafkaexporter/v0.144.1</guid>
             <pubDate>Fri, 30 Jan 2026 10:56:18 +0000</pubDate>
             <description><![CDATA[]]></description>
-        </item>
-<item>
-            <title>platform-mesh/security-operator - v0.18.4</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.18.4</guid>
-            <pubDate>Fri, 30 Jan 2026 10:18:04 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix: added a condition to do not set finalizer on system apibindings by @OlegErshov in https://github.com/platform-mesh/security-operator/pull/307</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.18.3...v0.18.4</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/kubernetes-graphql-gateway - v0.8.0</title>
@@ -578,15 +595,6 @@
             <guid>https://github.com/gardenlinux/glvd-api/releases/tag/Release 2026.01.28</guid>
             <pubDate>Wed, 28 Jan 2026 14:25:28 +0000</pubDate>
             <description><![CDATA[<p>Release 2026.01.28</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/account-operator - v0.9.1</title>
-            <link>https://github.com/platform-mesh/account-operator</link>
-            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.9.1</guid>
-            <pubDate>Wed, 28 Jan 2026 10:46:04 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix: oidc info retrieval from parent account info  by @OlegErshov in https://github.com/platform-mesh/account-operator/pull/130</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.9.0...v0.9.1</p>]]></description>
         </item>
 <item>
             <title>openmcp-project/openmcp-operator - Release v0.18.1</title>
@@ -2499,14 +2507,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:1877.10
 
 #### [USER]
 <ul><li>Allow to set a custom commit message, author and email for the <code>manage-deployment-repo</code> command wiht flag <code>--commit-message</code>, <code>--commit-author</code> and <code>--commit-email</code> <strong>(#147, @reshnm)</strong></li><li>Add <code>--print-kustomized</code> bool for the <code>manage-deployment-repo</code> command <strong>(#146, @reshnm)</strong></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-openssl - openssl_3.5.1-1gl0+bp1877</title>
-            <link>https://github.com/gardenlinux/package-openssl</link>
-            <guid>https://github.com/gardenlinux/package-openssl/releases/tag/openssl_3.5.1-1gl0+bp1877</guid>
-            <pubDate>Thu, 22 Jan 2026 14:23:57 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-openssl/actions/runs/21252113720">21252113720</a></p>
-<p>Files in this release:<br>``<code><br>92f0da01a1f111fc4211a678065628a043339527a3a23184bd314aabe326f71f  ./openssl_3.5.1-1gl0~bp1877_arm64.changes<br>30273843dad22c951433dce2c4607ceee70ed276ce2aca3a5324568e6c84cd11  ./openssl-provider-fips_3.5.1-1gl0~bp1877_amd64.deb<br>7385452ad78db7411c25501a0ac2a954cc494fd5f2858461167b5710a1ec7548  ./openssl-provider-legacy_3.5.1-1gl0~bp1877_amd64.deb<br>e8af64dda6353afe963e513772ab6c22b463f938edbf0319321c8efc5e122a14  ./openssl-dbgsym_3.5.1-1gl0~bp1877_amd64.deb<br>e0d3c4a8147b5df75660096af3f56070b049ceed026dc79b04ac572eef948480  ./openssl-provider-legacy-dbgsym_3.5.1-1gl0~bp1877_amd64.deb<br>87b568cadfbfbbcb1e87b1d4001d9d769501e591aa86e20479a3a0e9029c5ead  ./libssl-dev_3.5.1-1gl0~bp1877_arm64.deb<br>85c322817b9027b6192e02a49c260bd1a3bdbd6dd7a8eee2a487437c087f6de4  ./openssl-provider-legacy_3.5.1-1gl0~bp1877_arm64.deb<br>79482cd66ac3f1978cd422d0f9afe09f7af90c6a2476e670db464693595ce4f0  ./openssl_3.5.1-1gl0~bp1877_arm64.buildinfo<br>d7da7b2835831c873c514e55941f8868485f01a89d0f0d1ccee133b92047bba8  ./openssl-provider-legacy-dbgsym_3.5.1-1gl0~bp1877_arm64.deb<br>f8c0e66de56999460032c98f3c672991bcb1e0dda38485c2af88ef55daa62626  ./libssl3t64-dbgsym_3.5.1-1gl0~bp1877_arm64.deb<br>0b87c48e61f6a93f02cbfa10e5a29d40380c6914cbe7c7be3ed334b0f335bfd7  ./openssl_3.5.1-1gl0~bp1877_arm64.deb<br>a3f579464053112c2c5b33490a7f3812566eeb4eaa9426c79450ca857b554ce6  ./libssl-doc_3.5.1-1gl0~bp1877_all.deb<br>01b0269458e1e8508fd5db9aec9d191181b8d4abdde10020dfac50b5fa5d5530  ./openssl_3.5.1-1gl0~bp1877_amd64.buildinfo<br>e042eb386e4771fbf649845ef02a8d81d764d8655d3c5f1745aebc187469421d  ./openssl_3.5.1-1gl0~bp1877_amd64.changes<br>59137a9406b97383224f12b7595027fb5eb6631989fc839a4f41be368f7f78af  ./openssl_3.5.1-1gl0~bp1877.dsc<br>f06934b082f1b5ce468db7c686e717e6d5b778d68fb41b88c65fb9cb75fd61c4  ./libssl3t64-dbgsym_3.5.1-1gl0~bp1877_amd64.deb<br>f9434c4ea1a6f8b00158a4615e5750bd00634573524200cda478ec8a80fadd5d  ./libssl3t64_3.5.1-1gl0~bp1877_amd64.deb<br>5a40b29b66e733678fb29d68b6b60795dc52fec4cf6a76099045a71e3ff7fc44  ./openssl_3.5.1-1gl0~bp1877_amd64.deb<br>fa97a74dd3caca2169073e26403ea72ca03834b3ea513f67ece1bbac44c240a8  ./libssl3t64_3.5.1-1gl0~bp1877_arm64.deb<br>bdbf14cf4f0082a760c3ad77cbcb55c75cf52930b63ec4189cb7f2ac49c02f4b  ./openssl-provider-fips-dbgsym_3.5.1-1gl0~bp1877_arm64.deb<br>759d4e2c1dc46f57f2ca6f01a383bd549fc9a4eb9a40a198e03760b031cd1025  ./openssl_3.5.1-1gl0~bp1877.debian.tar.xz<br>3d48f87b222632f6fe3bf5df0d0244c5e3a9195c2d1ad75ad9eca160e5c44a65  ./openssl_3.5.1.orig.tar.xz<br>a1fd521b46b65d9db401447676e27e9d7fbeec17e150c11c919a117c96751c87  ./libssl-dev_3.5.1-1gl0~bp1877_amd64.deb<br>0aae1645012373f96b317d9513c911d7822e0f1696c23b0c4da2b5d58e0737f8  ./openssl-provider-fips_3.5.1-1gl0~bp1877_arm64.deb<br>878a8611f814b502d44eea042a294c7351231c09289748778a8ea5eaf99245ee  ./openssl-provider-fips-dbgsym_3.5.1-1gl0~bp1877_amd64.deb<br>7595831d98f09edaef23e240537cc4109acebe9e22faacf2041f5c2cbda923f4  ./openssl-dbgsym_3.5.1-1gl0~bp1877_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/bp-package-nghttp3 - nghttp3_1.11.0-1gl0+bp1877</title>
