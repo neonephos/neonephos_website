@@ -10,7 +10,7 @@ import html
 
 import xml.sax.saxutils as xml_escape
 
-def write_rss_feed(items, output_path, title="GitHub Releases", link="https://github.com", description="Latest GitHub releases"):
+def write_rss_feed(items, output_path, title="NeoNephos GitHub Releases", link="https://github.com", description="Latest NeoNephos GitHub releases"):
     rss_items = []
 
     for item in items:
