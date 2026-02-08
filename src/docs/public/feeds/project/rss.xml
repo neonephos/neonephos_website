@@ -4,16 +4,16 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sat, 07 Feb 2026 12:04:37 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 12:04:43 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/extension-manager-operator - v0.4.183</title>
+            <title>platform-mesh/extension-manager-operator - v0.4.189</title>
             <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.183</guid>
-            <pubDate>Sat, 07 Feb 2026 10:02:59 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.189</guid>
+            <pubDate>Sun, 08 Feb 2026 09:18:25 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.182 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/500</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.182...v0.4.183</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.188 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/506</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.188...v0.4.189</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/bp-package-libtasn1 - libtasn1-6_4.21.0-2gl1+bp1592</title>
