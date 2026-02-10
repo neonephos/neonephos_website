@@ -4,9 +4,16 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Tue, 10 Feb 2026 08:15:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 08:37:05 +0000</lastBuildDate>
 
     <item>
+            <title>open-component-model/ocm - latest ocm-cli</title>
+            <link>https://github.com/open-component-model/ocm</link>
+            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
+            <pubDate>Tue, 10 Feb 2026 08:15:11 +0000</pubDate>
+            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
+        </item>
+<item>
             <title>platform-mesh/portal - v0.16.190</title>
             <link>https://github.com/platform-mesh/portal</link>
             <guid>https://github.com/platform-mesh/portal/releases/tag/v0.16.190</guid>
@@ -80,13 +87,6 @@
 <ul><li><a href="https://github.com/luigi-project/luigi/pull/4766">#4766</a> Pass current context to nodechangehook (<a href="https://github.com/hardl">@hardl</a>)</li><li><a href="https://github.com/luigi-project/luigi/pull/4746">#4746</a> Prevent wrong storagetype init (<a href="https://github.com/hardl">@hardl</a>)</li><li><a href="https://github.com/luigi-project/luigi/pull/4762">#4762</a> Avoid potential conflicts in core when not included as module (<a href="https://github.com/hardl">@hardl</a>)</li><li><a href="https://github.com/luigi-project/luigi/pull/4713">#4713</a> Add dedicated prop to resolved value (<a href="https://github.com/hardl">@hardl</a>)</li><li><a href="https://github.com/luigi-project/luigi/pull/4665">#4665</a> A11y improvements in core (<a href="https://github.com/walmazacn">@walmazacn</a>)</li></ul>
 #### :bug: Fixed
 <ul><li><a href="https://github.com/luigi-project/luigi/pull/4712">#4712</a> Profile: custom icon for items (<a href="https://github.com/hardl">@hardl</a>)</li></ul>]]></description>
-        </item>
-<item>
-            <title>open-component-model/ocm - latest ocm-cli</title>
-            <link>https://github.com/open-component-model/ocm</link>
-            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
-            <pubDate>Mon, 09 Feb 2026 14:59:45 +0000</pubDate>
-            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/account-operator - v0.11.1</title>
