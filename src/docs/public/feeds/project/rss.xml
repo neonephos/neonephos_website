@@ -4,26 +4,65 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Tue, 10 Feb 2026 09:01:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 12:15:31 +0000</lastBuildDate>
 
     <item>
+            <title>platform-mesh/platform-mesh-operator - v0.51.18</title>
+            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.51.18</guid>
+            <pubDate>Tue, 10 Feb 2026 10:02:36 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to 2b87daf by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/379</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.51.17...v0.51.18</p>]]></description>
+        </item>
+<item>
+            <title>gardener/service-account-issuer-discovery - v0.12.0</title>
+            <link>https://github.com/gardener/service-account-issuer-discovery</link>
+            <guid>https://github.com/gardener/service-account-issuer-discovery/releases/tag/v0.12.0</guid>
+            <pubDate>Tue, 10 Feb 2026 09:35:21 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/service-account-issuer-discovery:v0.12.0]</h1>
+<h2>✨ New Features</h2>
+<ul><li><code>[OPERATOR]</code> Security contexts may be provided via values by @nweisenauer-sap <a href="https://github.com/gardener/service-account-issuer-discovery/pull/58">[#58</a>]</li></ul>
+<h2>🏃 Others</h2>
+<ul><li><code>[OPERATOR]</code> The <code>service-account-issuer-discovery</code> server is built using go version <code>1.25.5</code>. by @dimityrmirchev <a href="https://github.com/gardener/service-account-issuer-discovery/pull/56">[#56</a>]</li><li><code>[DEPENDENCY]</code> Various dependency updates by @nweisenauer-sap <a href="https://github.com/gardener/service-account-issuer-discovery/pull/58">[#58</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>service-account-issuer-discovery: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/service-account-issuer-discovery:v0.12.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>service-account-issuer-discovery: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/service-account-issuer-discovery:v0.12.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.4.201</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.201</guid>
+            <pubDate>Tue, 10 Feb 2026 09:13:17 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.200 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/518</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.200...v0.4.201</p>]]></description>
+        </item>
+<item>
+            <title>gardener/gardener-extension-shoot-oidc-service - v0.36.0</title>
+            <link>https://github.com/gardener/gardener-extension-shoot-oidc-service</link>
+            <guid>https://github.com/gardener/gardener-extension-shoot-oidc-service/releases/tag/v0.36.0</guid>
+            <pubDate>Tue, 10 Feb 2026 09:00:50 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-shoot-oidc-service:v0.36.0]</h1>
+<h2>⚠️ Breaking Changes</h2>
+<ul><li><code>[OPERATOR]</code> References to the health check controller and its configuration have been removed, as they are no longer needed. Additionally, the unused OIDC service configuration API and its related files have been removed. by @theoddora <a href="https://github.com/gardener/gardener-extension-shoot-oidc-service/pull/404">[#404</a>]</li></ul>
+<h2>✨ New Features</h2>
+<ul><li><code>[USER]</code> The OIDC service is enabled to work with the garden control plane by supporting the garden extension class alongside the existing shoot class. by @theoddora <a href="https://github.com/gardener/gardener-extension-shoot-oidc-service/pull/412">[#412</a>]</li></ul>
+<h2>🏃 Others</h2>
+<ul><li><code>[OPERATOR]</code> The extension is now built using go version 1.25.7. by @dependabot[bot] <a href="https://github.com/gardener/gardener-extension-shoot-oidc-service/pull/421">[#421</a>]</li></ul>
+<h1>[github.com/gardener/oidc-webhook-authenticator:v0.41.0]</h1>
+<h2>🏃 Others</h2>
+<ul><li><code>[OPERATOR]</code> OWA is now built using go version 1.25.6. by @dependabot[bot] <a href="https://github.com/gardener/oidc-webhook-authenticator/pull/215">[#215</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>shoot-oidc-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-oidc-service:v0.36.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>gardener-extension-shoot-oidc-service: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-oidc-service:v0.36.0</code></li></ul>]]></description>
+        </item>
+<item>
             <title>open-component-model/ocm - v0.36.0-rc.2</title>
             <link>https://github.com/open-component-model/ocm</link>
             <guid>https://github.com/open-component-model/ocm/releases/tag/v0.36.0-rc.2</guid>
             <pubDate>Tue, 10 Feb 2026 08:42:31 +0000</pubDate>
-            <description><![CDATA[<p>&lt;!-- Release notes generated using configuration in .github/config/release.yml at refs/heads/releases/v0.36 --&gt;<br><h2>What&#x27;s Changed</h2></p>
-<h3>‼️ Breaking Changes</h3>
-<ul><li>fix!: use Fulcio certificate instead of public key and upgrade Sigstore Cosign from v2 to v3 by @morri-son in https://github.com/open-component-model/ocm/pull/1726</li><li>fix: chart access artifact set media type by @fabianburth in https://github.com/open-component-model/ocm/pull/1786</li></ul><h3>🚀 Features</h3>
-<ul><li>feat: support index based reading of OCI artifacts by @jakobmoellerdev in https://github.com/open-component-model/ocm/pull/1646</li></ul><h3>🐛 Bug Fixes</h3>
-<ul><li>fix(deps): pin github.com/klauspost/compress to version that does not change the digest on transfer by @frewilhelm in https://github.com/open-component-model/ocm/pull/1738</li><li>fix: add --oci-layout flag for OCI Image Layout blob paths by @piotrjanik in https://github.com/open-component-model/ocm/pull/1723</li><li>fix: update image reference name to use the open-component-model organization repository by @piotrjanik in https://github.com/open-component-model/ocm/pull/1784</li><li>fix(1560): add more explicit errors on get cv by @matthiasbruns in https://github.com/open-component-model/ocm/pull/1787</li></ul><h3>⬆️ Dependencies</h3>
-&lt;details&gt;
-&lt;summary&gt;14 changes&lt;/summary&gt;
-<ul><li>chore(deps): bump the go group with 2 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1728</li><li>chore(deps): bump the go group with 18 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1734</li><li>chore: retract 0.33.0 and 0.34.1 by @frewilhelm in https://github.com/open-component-model/ocm/pull/1740</li><li>chore(deps): bump the go group with 11 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1749</li><li>chore(deps): bump github.com/klauspost/compress by @frewilhelm in https://github.com/open-component-model/ocm/pull/1752</li><li>chore(deps): bump golang from 1.25.4-alpine3.22 to 1.25.5-alpine3.22 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1718</li><li>chore: bump sigstore/fulcio by @jakobmoellerdev in https://github.com/open-component-model/ocm/pull/1757</li><li>chore(deps): bump the go group with 3 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1764</li><li>chore(deps): bump the go group with 12 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1770</li><li>chore(deps): bump github.com/sigstore/fulcio from 1.8.4 to 1.8.5 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1774</li><li>chore(deps): bump the go group with 6 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1778</li><li>chore(deps): bump github.com/sigstore/sigstore from 1.10.3 to 1.10.4 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1792</li><li>chore(deps): bump the go group with 7 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1795</li><li>chore(deps): bump golang from 1.25.5-alpine3.22 to 1.25.6-alpine3.22 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1794</li></ul>&lt;/details&gt;
-<h3>🧰 Maintenance</h3>
-<ul><li>chore: bump VERSION to 0.36.0-dev by @ocmbot[bot] in https://github.com/open-component-model/ocm/pull/1724</li></ul>
-<h2>New Contributors</h2>
-<ul><li>@piotrjanik made their first contribution in https://github.com/open-component-model/ocm/pull/1723</li><li>@matthiasbruns made their first contribution in https://github.com/open-component-model/ocm/pull/1787</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/open-component-model/ocm/compare/v0.35...v0.36.0</p>]]></description>
+            <description><![CDATA[<p>&lt;!-- Release notes generated using configuration in .github/config/release.yml at refs/heads/releases/v0.36 --&gt;<br><h2>What&#x27;s Changed</h2><br><br><h3>‼️ Breaking Changes</h3><br><ul><li>fix!: use Fulcio certificate instead of public key and upgrade Sigstore Cosign from v2 to v3 by @morri-son in https://github.com/open-component-model/ocm/pull/1726</li><li>fix: chart access artifact set media type by @fabianburth in https://github.com/open-component-model/ocm/pull/1786</li></ul><h3>📋 Migration Notices</h3><br><strong>Sigstore v3 Upgrade: Keyless Signing Changes</strong> (<a href="https://github.com/open-component-model/ocm/pull/1726">#1726</a>)<br><br><strong>What Changed:</strong><br><ul><li>Cosign upgraded from v2 to v3, changing OIDC token handling</li><li>New <code>sigstore-v2</code> algorithm available for Sigstore Bundle compliance</li><li>Existing <code>sigstore</code> signatures remain fully verifiable</li></ul><br><strong>Required Action for GitHub Actions Workflows:</strong> Add <code>id-token: write</code> permission and explicit OIDC token handling before keyless signing steps. Then acquire and export the OIDC token .<br><br><strong>Other CI/CD Platforms:</strong> No action required (always required explicit OIDC handling).<br><br><strong>Full Migration Guide:</strong> <a href="https://github.com/open-component-model/ocm/pull/1726">PR #1726</a><br><br><h3>🚀 Features</h3><br><ul><li>feat: support index based reading of OCI artifacts by @jakobmoellerdev in https://github.com/open-component-model/ocm/pull/1646</li></ul><h3>🐛 Bug Fixes</h3><br><ul><li>fix(deps): pin github.com/klauspost/compress to version that does not change the digest on transfer by @frewilhelm in https://github.com/open-component-model/ocm/pull/1738</li><li>fix: add --oci-layout flag for OCI Image Layout blob paths by @piotrjanik in https://github.com/open-component-model/ocm/pull/1723</li><li>fix: update image reference name to use the open-component-model organization repository by @piotrjanik in https://github.com/open-component-model/ocm/pull/1784</li><li>fix(1560): add more explicit errors on get cv by @matthiasbruns in https://github.com/open-component-model/ocm/pull/1787</li></ul><h3>⬆️ Dependencies</h3><br>&lt;details&gt;<br>&lt;summary&gt;14 changes&lt;/summary&gt;<br><br><ul><li>chore(deps): bump the go group with 2 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1728</li><li>chore(deps): bump the go group with 18 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1734</li><li>chore: retract 0.33.0 and 0.34.1 by @frewilhelm in https://github.com/open-component-model/ocm/pull/1740</li><li>chore(deps): bump the go group with 11 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1749</li><li>chore(deps): bump github.com/klauspost/compress by @frewilhelm in https://github.com/open-component-model/ocm/pull/1752</li><li>chore(deps): bump golang from 1.25.4-alpine3.22 to 1.25.5-alpine3.22 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1718</li><li>chore: bump sigstore/fulcio by @jakobmoellerdev in https://github.com/open-component-model/ocm/pull/1757</li><li>chore(deps): bump the go group with 3 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1764</li><li>chore(deps): bump the go group with 12 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1770</li><li>chore(deps): bump github.com/sigstore/fulcio from 1.8.4 to 1.8.5 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1774</li><li>chore(deps): bump the go group with 6 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1778</li><li>chore(deps): bump github.com/sigstore/sigstore from 1.10.3 to 1.10.4 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1792</li><li>chore(deps): bump the go group with 7 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1795</li><li>chore(deps): bump golang from 1.25.5-alpine3.22 to 1.25.6-alpine3.22 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1794</li></ul>&lt;/details&gt;<br><br><h3>🧰 Maintenance</h3><br><ul><li>chore: bump VERSION to 0.36.0-dev by @ocmbot[bot] in https://github.com/open-component-model/ocm/pull/1724</li></ul><br><h2>New Contributors</h2><br><ul><li>@piotrjanik made their first contribution in https://github.com/open-component-model/ocm/pull/1723</li><li>@matthiasbruns made their first contribution in https://github.com/open-component-model/ocm/pull/1787</li></ul><br><br><strong>Full Changelog</strong>: https://github.com/open-component-model/ocm/compare/v0.35...v0.36.0</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/portal - v0.16.190</title>
@@ -33,24 +72,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>chore(deps): update dependency nock to v14.0.11 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/355</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.16.189...v0.16.190</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.4.200</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.200</guid>
-            <pubDate>Tue, 10 Feb 2026 05:47:53 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.199 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/517</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.199...v0.4.200</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/platform-mesh-operator - v0.51.17</title>
-            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.51.17</guid>
-            <pubDate>Tue, 10 Feb 2026 01:35:33 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.9.31 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/378</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.51.16...v0.51.17</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/security-operator - v0.20.2</title>
@@ -4113,43 +4134,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:1877.10
 europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.0]]></description>
         </item>
 <item>
-            <title>gardener/gardener-extension-shoot-oidc-service - v0.35.0</title>
-            <link>https://github.com/gardener/gardener-extension-shoot-oidc-service</link>
-            <guid>https://github.com/gardener/gardener-extension-shoot-oidc-service/releases/tag/v0.35.0</guid>
-            <pubDate>Fri, 19 Dec 2025 14:53:43 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-shoot-oidc-service:v0.35.0]</h1>
-<h2>✨ New Features</h2>
-<ul><li><code>[DEVELOPER]</code> It is now possible to deploy the extension, via <code>make extension-up</code>, in a locally running gardener installation managed with gardener-operator. by @vpnachev <a href="https://github.com/gardener/gardener-extension-shoot-oidc-service/pull/399">[#399</a>]</li></ul>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> The container image base layer has been updated to Debian 13 (trixie). by @dimityrmirchev <a href="https://github.com/gardener/gardener-extension-shoot-oidc-service/pull/401">[#401</a>]</li><li><code>[DEPENDENCY]</code> The following third party dependencies have been updated:</li></ul>  - github.com/gardener/gardener v1.132.1 -&gt; v1.134.0  
-  - golang.org/x/tools v0.38.0 -&gt; v0.40.0  
-  - golang.org/x/crypto v0.44.0 -&gt; v0.46.0  
-  - golang.org/x/mod v0.29.0 -&gt; v0.31.0  
-  - golang.org/x/net v0.46.0 -&gt; v0.48.0  
-  - golang.org/x/sync v0.18.0 -&gt; v0.19.0  
-  - golang.org/x/sys v0.38.0 -&gt; v0.39.0  
-  - golang.org/x/term v0.37.0 -&gt; v0.38.0  
-  - golang.org/x/text v0.31.0 -&gt; v0.32.0  
-  - helm.sh/helm/v3 v3.19.1 -&gt; v3.19.2  
-  - istio.io/api v1.27.3 -&gt; v1.27.4  
-  - k8s.io/api v0.34.1 -&gt; v0.34.3  
-  - k8s.io/apiextensions-apiserver v0.34.1 -&gt; v0.34.3  
-  - k8s.io/apimachinery v0.34.1 -&gt; v0.34.3  
-  - k8s.io/apiserver v0.34.1 -&gt; v0.34.3  
-  - k8s.io/client-go v0.34.1 -&gt; v0.34.3  
-  - k8s.io/code-generator v0.34.1 -&gt; v0.34.3  
-  - k8s.io/component-base v0.34.1 -&gt; v0.34.3  
-  - k8s.io/component-helpers v0.34.1 -&gt; v0.34.3  
-  - k8s.io/cluster-bootstrap v0.34.1 -&gt; v0.34.3  
-  - k8s.io/kube-aggregator v0.34.1 -&gt; v0.34.3  
-  - k8s.io/kubelet v0.34.1 -&gt; v0.34.3  
-  - k8s.io/metrics v0.34.1 -&gt; v0.34.3 by @dependabot[bot] <a href="https://github.com/gardener/gardener-extension-shoot-oidc-service/pull/400">[#400</a>]
-<ul><li><code>[DEPENDENCY]</code> The following third party dependencies have been updated:</li></ul>  - github.com/gardener/gardener v1.132.0 -&gt; v1.132.1 by @dependabot[bot] <a href="https://github.com/gardener/gardener-extension-shoot-oidc-service/pull/393">[#393</a>]
-<h2>Helm Charts</h2>
-<ul><li>shoot-oidc-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-oidc-service:v0.35.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>gardener-extension-shoot-oidc-service: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-oidc-service:v0.35.0</code></li></ul>]]></description>
-        </item>
-<item>
             <title>gardener/gardener-discovery-server - v0.9.0</title>
             <link>https://github.com/gardener/gardener-discovery-server</link>
             <guid>https://github.com/gardener/gardener-discovery-server/releases/tag/v0.9.0</guid>
@@ -5050,18 +5034,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.0]]></descriptio
             <pubDate>Thu, 04 Sep 2025 07:25:35 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/bp-package-linux-base/actions/runs/17456570951">17456570951</a></p>
 <p>Files in this release:<br>``<code><br>5f56b19c4a4b6a0cf4001191786651c6ce3c64888d4d575b321d3d80dfcd924c  ./linux-base_4.12gl0+bp1877_amd64.buildinfo<br>5f0a1f9848965c6660656e52b871868e34b31aa74b1a24532f89045b20b26ff2  ./linux-sysctl-defaults_4.12gl0+bp1877_all.deb<br>91c7781d4a9101ccc6a359e823d9e3677c099e3249bf143820ed7254c3f66fe4  ./linux-base_4.12gl0+bp1877.dsc<br>fc2685cd3171e0adfbca995fd7589eb59e642445c68890c3c8f05928a032c497  ./linux-base_4.12gl0+bp1877_all.deb<br>ad3080fb7fd66e408fa005dbefaa125208d86001e90e9193ee23388f3cbd5307  ./linux-base_4.12gl0+bp1877_amd64.changes<br>e9aa71c1d83c3a39461f29de274ea6a5afc5059d34624c53b698725a651c12cb  ./linux-base_4.12gl0+bp1877.tar.xz<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>gardener/service-account-issuer-discovery - v0.11.0</title>
-            <link>https://github.com/gardener/service-account-issuer-discovery</link>
-            <guid>https://github.com/gardener/service-account-issuer-discovery/releases/tag/v0.11.0</guid>
-            <pubDate>Wed, 03 Sep 2025 15:29:01 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/service-account-issuer-discovery:v0.11.0]</h1>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> <code>service-account-issuer-discovery</code> is now built with go 1.25.0. by @nweisenauer-sap <a href="https://github.com/gardener/service-account-issuer-discovery/pull/51">[#51</a>]</li><li><code>[OPERATOR]</code> <code>service-account-issuer-discovery</code> is now built with go 1.24.2. by @vpnachev <a href="https://github.com/gardener/service-account-issuer-discovery/pull/47">[#47</a>]</li><li><code>[DEPENDENCY]</code> Go dependencies have been updated. by @nweisenauer-sap <a href="https://github.com/gardener/service-account-issuer-discovery/pull/51">[#51</a>]</li><li><code>[DEPENDENCY]</code> Update <code>gosec</code> dependency to v2.22.8 by @dimityrmirchev <a href="https://github.com/gardener/service-account-issuer-discovery/pull/52">[#52</a>]</li></ul>
-<h2>Helm Charts</h2>
-<ul><li>service-account-issuer-discovery: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/service-account-issuer-discovery:v0.11.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>service-account-issuer-discovery: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/service-account-issuer-discovery:v0.11.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>ironcore-dev/cloud-hypervisor-provider - cloud hypervisor edk2 fw edk2-stable202508</title>
