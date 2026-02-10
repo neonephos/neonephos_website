@@ -58,7 +58,7 @@ export default defineConfig({
       {
         text: 'About',
         items: [
-          { text: 'Introduction', link: '/introduction' },
+          { text: 'Goals', link: '/goals' },
           { text: 'Members', link: '/members' },
           { text: 'Governing Board', link: '/governing_board' },
           { text: 'Technical Advisory Council', link: '/technical_advisory_council' },
