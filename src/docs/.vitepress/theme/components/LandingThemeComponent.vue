@@ -32,6 +32,8 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     </section>
   </div>
 
+  <a href="https://neonephos.org/events/2026_03_23_KubeCon_Europe") class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/kubecon_banner_website.svg')" alt="KubeCon+CloudNativeCon 2026 Banner" /> </a>
+
   <section class="home-tiles__section">
     <div class="container wrap">
            <LandingTilesThemeComponent
@@ -41,8 +43,6 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
             />
     </div>
   </section>
-
-  <a href="https://neonephos.org/events/2026_03_23_KubeCon_Europe") class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/kubecon_banner_website.svg')" alt="KubeCon+CloudNativeCon 2026 Banner" /> </a>
 
 <div>
   <section class="section-divider">
