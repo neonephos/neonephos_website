@@ -1,5 +1,5 @@
 ---
-title: "KubeCon Europe"
+title: "KubeCon+CloudNativeCon Europe"
 date: "2026-03-23"
 banner: "assets/events/20262303_kubecon_banner.svg"
 bannerMobile: "assets/events/20262303_kubecon_banner_mobile.svg"
@@ -9,9 +9,9 @@ tags: ["neonephos", "kubecon"]
 published: true
 ---
 
-# NeoNephos at the KubeCon Europe 2026 in Amsterdam
+# NeoNephos at the KubeCon+CloudNativeCon Europe 2026 in Amsterdam
 
-We will be present at the upcoming [KubeCon 2026 in Amsterdam](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/) with talks and even a physical booth for you to check out!
+We will be present at the upcoming [KubeCon+CloudNativeCon 2026 in Amsterdam](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/) with talks and even a physical booth for you to check out!
 
 ---
 

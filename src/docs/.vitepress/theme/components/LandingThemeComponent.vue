@@ -42,7 +42,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     </div>
   </section>
 
-  <a href="https://neonephos.org/events/2026_03_23_KubeCon_Europe") class="kubecon-banner" target="_blank" rel="noopener"> <img src="withBase('/kubecon_banner-website.svg')" alt="KubeCon+CloudNativeCon 2026 Banner" /> </a>
+  <a href="https://neonephos.org/events/2026_03_23_KubeCon_Europe") class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/kubecon_banner-website.svg')" alt="KubeCon+CloudNativeCon 2026 Banner" /> </a>
 
 <div>
   <section class="section-divider">
