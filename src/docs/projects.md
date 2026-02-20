@@ -68,8 +68,12 @@ projects:
 
 tilesHeading: Learn more!
 tiles:
+  - title: Propose Project
+    details: Learn how to propose a new project to NeoNephos.
+    linkText: Projects Repository
+    linkUrl: "https://github.com/neonephos/project_proposal"
   - title: Projects Repository
-    details: Want to propose a new project or read guidelines? This is the place!
+    details: Want to read our guidelines? This is the place!
     linkText: Projects Repository
     linkUrl: "https://github.com/neonephos/projects"
 ---
