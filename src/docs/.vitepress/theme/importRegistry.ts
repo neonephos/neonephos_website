@@ -24,6 +24,7 @@ import EventEntryThemeComponent from './components/EventEntryThemeComponent.vue'
 import BrandingGuidelinesThemeComponent from './components/BrandingGuidelinesThemeComponent.vue'
 import ElectionPolicyThemeComponent from './components/ElectionPolicyThemeComponent.vue'
 import DocumentTextThemeComponent from './components/DocumentTextThemeComponent.vue'
+import ProjectProposalThemeComponent from './components/ProjectProposalThemeComponent.vue'
 //import RSSThemeComponent from './components/RSSThemeComponent.vue'
 import LinuxHeader from './components/LinuxHeaderThemeComponent.vue'
 
@@ -53,6 +54,7 @@ export const layoutMap = {
   BrandingGuidelinesThemeComponent,
   ElectionPolicyThemeComponent,
   DocumentTextThemeComponent,
+  ProjectProposalThemeComponent,
   //RSSThemeComponent,
   LinuxHeader
 }
