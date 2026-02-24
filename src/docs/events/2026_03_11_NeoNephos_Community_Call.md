@@ -11,7 +11,7 @@ published: true
 
 # NeoNephos March Community Call
 
-On March 11th we again bring together the NeoNephos community in our Community Call! The agenda is to be announced.
+On March 11th we again bring together the NeoNephos community in our Community Call! Philipp Pracht from our [Luigi project](https://luigi-project.io/), which is also used by our other projects such as OpenMFP, will introduce you what the project is about.
 
 **Zoom Session Link**
 
