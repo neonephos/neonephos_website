@@ -65,6 +65,11 @@ projects:
     details: "Luigi is a micro frontend JavaScript framework for building modular, scalable, and technology‑agnostic web applications with a unified user experience across distributed UI modules."
     link: "https://luigi-project.io/"
     githubLink: "https://github.com/luigi-project"
+  - name: "Open Key Chain Manager"
+    imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/open-key-chain-manager/icon/color/open-key-chain-manager-icon-color.svg"
+    details: "OpenKCM is a data encryption key management solution, implementing a hierarchical key derivation system that wraps internal encryption keys with customer-managed root keys stored in external keystores , exposing key operations via KMIP protocol."
+    link: "https://openkcm.io/"
+    githubLink: "https://github.com/openkcm"
 
 tilesHeading: Learn more!
 tiles:
