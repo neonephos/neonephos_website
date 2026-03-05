@@ -61,6 +61,9 @@ members:
     - name: "SBA Research"
       link: "https://www.sba-research.org/"
       imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/sba-research.svg"
+    - name: "Fraunhofer ISST"
+      link: "https://www.isst.fraunhofer.de"
+      imgsrc: "https://www.isst.fraunhofer.de/content/dam/isst/images/Fraunhofer%20ISST-Logo_Internet.svg"
 
 tilesHeading: Learn more!
 tiles:
