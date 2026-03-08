@@ -4,9 +4,36 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sat, 07 Mar 2026 12:04:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 12:04:39 +0000</lastBuildDate>
 
     <item>
+            <title>platform-mesh/extension-manager-operator - v0.6.39</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.6.39</guid>
+            <pubDate>Sun, 08 Mar 2026 04:46:13 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.6.38 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/677</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.6.38...v0.6.39</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/platform-mesh-operator - v0.59.17</title>
+            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.59.17</guid>
+            <pubDate>Sat, 07 Mar 2026 15:51:14 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(kcp-setup): split init-agent CRDs into separate files by @nexus49 in https://github.com/platform-mesh/platform-mesh-operator/pull/485</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.59.16...v0.59.17</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.13.12</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.13.12</guid>
+            <pubDate>Sat, 07 Mar 2026 12:59:12 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.23.17 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/348</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.13.11...v0.13.12</p>]]></description>
+        </item>
+<item>
             <title>platform-mesh/portal - v0.18.31</title>
             <link>https://github.com/platform-mesh/portal</link>
             <guid>https://github.com/platform-mesh/portal/releases/tag/v0.18.31</guid>
@@ -16,24 +43,6 @@
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.18.30...v0.18.31</p>]]></description>
         </item>
 <item>
-            <title>platform-mesh/iam-service - v0.13.11</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.13.11</guid>
-            <pubDate>Sat, 07 Mar 2026 09:15:13 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.12.11 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/347</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.13.10...v0.13.11</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.6.34</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.6.34</guid>
-            <pubDate>Sat, 07 Mar 2026 09:08:18 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.6.33 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/672</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.6.33...v0.6.34</p>]]></description>
-        </item>
-<item>
             <title>platform-mesh/security-operator - v0.23.17</title>
             <link>https://github.com/platform-mesh/security-operator</link>
             <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.23.17</guid>
@@ -41,15 +50,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.12.11 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/395</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.23.16...v0.23.17</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/platform-mesh-operator - v0.59.16</title>
-            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.59.16</guid>
-            <pubDate>Sat, 07 Mar 2026 05:37:39 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.13.9 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/484</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.59.15...v0.59.16</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/account-operator - v0.12.11</title>
@@ -126,6 +126,520 @@
 <h2>New Contributors</h2>
 <ul><li>@makdeniss made their first contribution in https://github.com/platform-mesh/virtual-workspaces/pull/84</li></ul>
 <strong>Full Changelog</strong>: https://github.com/platform-mesh/virtual-workspaces/compare/0.8.26...v0.9.0]]></description>
+        </item>
+<item>
+            <title>gardenlinux/gardenlinux - 1592.18</title>
+            <link>https://github.com/gardenlinux/gardenlinux</link>
+            <guid>https://github.com/gardenlinux/gardenlinux/releases/tag/1592.18</guid>
+            <pubDate>Fri, 06 Mar 2026 12:11:53 +0000</pubDate>
+            <description><![CDATA[<h2>Software Component Versions</h2>
+``<code>
+containerd 1.7.30-0gl0~bp1592
+curl 8.18.0-2gl1+bp1592
+libc-bin 2.39-6gl0~bp1592
+linux-image-amd64 6.6.127-1gl0+bp1592
+openssh-server 1:9.9p2-1gl2~bp1592
+openssl 3.2.6-1gl0~bp1592
+runc 1.1.15+ds1-1gl7~bp1592
+systemd 256.13-0gl0
+</code>`<code>
+
+<h2>Changes in Package Versions Compared to 1592.17</h2>
+| Package | 1592.17 | 1592.18 |
+|---------|--------------------|-------------------|
+
+&gt; [!NOTE]
+&gt; No changes since this is effectively a re-release of 1592.17 due to corrupt artifacts published to some regions (e.g. azure-cn) in 1592.17
+
+<h2>Published Images</h2>
+
+&lt;details&gt;
+&lt;summary&gt;📊 Table View&lt;/summary&gt;
+
+| Variant | Platform | Architecture | Flavor | Regions &amp; Image IDs | Download Links |
+|---------|----------|--------------|--------|---------------------|----------------|
+| Default | Alibaba Cloud | amd64 | </code>ali-gardener_prod-amd64-1592.18-43042fa9<code> | &lt;details&gt;&lt;summary&gt;28 regions&lt;/summary&gt;&lt;br&gt;<strong>cn-chengdu:</strong> m-2vcbx71qej6nlox2ly7i&lt;br&gt;<strong>ap-southeast-5:</strong> m-k1aewgmrjto7mrl2wzvm&lt;br&gt;<strong>cn-hongkong:</strong> m-j6cemc2z05u155rmv0sz&lt;br&gt;<strong>cn-nanjing:</strong> m-gc7erltnw0wcus5beyf1&lt;br&gt;<strong>ap-southeast-3:</strong> m-8ps2f9e5v7s8djs9u89k&lt;br&gt;<strong>eu-central-1:</strong> m-gw859knvolzop7uuuehq&lt;br&gt;<strong>cn-zhangjiakou:</strong> m-8vb1s3kkvk8gz0039qr9&lt;br&gt;<strong>cn-shanghai:</strong> m-uf6aa5n6jirmygwd4xyw&lt;br&gt;<strong>ap-northeast-2:</strong> m-mj76f75dlvltsaimasb0&lt;br&gt;<strong>na-south-1:</strong> m-4hf7xv2m2uvyijvxab1j&lt;br&gt;<strong>cn-fuzhou:</strong> m-gw0h8nzywm4jds9lm81p&lt;br&gt;<strong>ap-northeast-1:</strong> m-6weg6yqm9dyb5vs8a38o&lt;br&gt;<strong>me-east-1:</strong> m-eb3fepzl02i14do9fsru&lt;br&gt;<strong>eu-west-1:</strong> m-d7o2w9b0nv48tmoetz4u&lt;br&gt;<strong>cn-qingdao:</strong> m-m5e69jniz6nrzoa9l11s&lt;br&gt;<strong>cn-shenzhen:</strong> m-wz9arif0izzy73z6es6w&lt;br&gt;<strong>us-east-1:</strong> m-0xiaurnde6deqagxj45h&lt;br&gt;<strong>cn-hangzhou:</strong> m-bp12fk5utg9yctz12ipq&lt;br&gt;<strong>ap-southeast-1:</strong> m-t4n566ma8nl855il3si5&lt;br&gt;<strong>cn-heyuan:</strong> m-f8zisz3glc0851cyxo7z&lt;br&gt;<strong>ap-southeast-6:</strong> m-5tsdrk3dcgdmqudt0xbi&lt;br&gt;<strong>cn-huhehaote:</strong> m-hp36sy4udd2126mq10a1&lt;br&gt;<strong>cn-guangzhou:</strong> m-7xv4uv6o5e203a2pk3yp&lt;br&gt;<strong>us-west-1:</strong> m-rj900z6s52m9mfjs3lh2&lt;br&gt;<strong>cn-beijing:</strong> m-2ze0mmb6uv5eb3mmz3k8&lt;br&gt;<strong>ap-southeast-7:</strong> m-0joh6ww0ze0m6bxykqla&lt;br&gt;<strong>cn-wuhan-lr:</strong> m-n4a31h5j5sn25s7z7aix&lt;br&gt;<strong>cn-wulanchabu:</strong> m-0jlbjom4sc8nla445pmb&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/ali-gardener_prod-amd64-1592.18-43042fa9/ali-gardener_prod-amd64-1592.18-43042fa9.qcow2">ali-gardener_prod-amd64-1592.18-43042fa9.qcow2</a>&lt;/details&gt; |
+| Default | Amazon Web Services | amd64 | </code>aws-gardener_prod-amd64-1592.18-43042fa9<code> | &lt;details&gt;&lt;summary&gt;35 regions&lt;/summary&gt;&lt;br&gt;<strong>cn-northwest-1:</strong> ami-0c42f92bb9badd1bc&lt;br&gt;<strong>cn-north-1:</strong> ami-059f0ebe7ea4bccf0&lt;br&gt;<strong>sa-east-1:</strong> ami-0308b39daab1d4004&lt;br&gt;<strong>eu-central-1:</strong> ami-0027e6d9354e0e982&lt;br&gt;<strong>us-west-1:</strong> ami-0e138d41ec3cd7810&lt;br&gt;<strong>af-south-1:</strong> ami-097c2d020be065f86&lt;br&gt;<strong>eu-south-1:</strong> ami-05c0013de8b0f1665&lt;br&gt;<strong>ap-southeast-1:</strong> ami-086b91250696b1dc2&lt;br&gt;<strong>ap-southeast-3:</strong> ami-09a9c59bddcc61cae&lt;br&gt;<strong>us-east-1:</strong> ami-02c3daa6619d2ba32&lt;br&gt;<strong>ap-south-2:</strong> ami-05adb86e408f70846&lt;br&gt;<strong>eu-south-2:</strong> ami-0b89860998f3c3962&lt;br&gt;<strong>eu-north-1:</strong> ami-07791a0d2bd45c803&lt;br&gt;<strong>ap-northeast-1:</strong> ami-0f0b2c807054c2103&lt;br&gt;<strong>ap-east-1:</strong> ami-000c4b8100e305ded&lt;br&gt;<strong>ap-southeast-2:</strong> ami-019038bd3b2719de0&lt;br&gt;<strong>ap-south-1:</strong> ami-012db071899c99943&lt;br&gt;<strong>eu-central-2:</strong> ami-0166ee73da412eae6&lt;br&gt;<strong>ap-southeast-5:</strong> ami-0f5323205d1eef31a&lt;br&gt;<strong>ap-southeast-7:</strong> ami-0d70a841d4cc0aeeb&lt;br&gt;<strong>ap-southeast-6:</strong> ami-036890a6ff8363e19&lt;br&gt;<strong>us-west-2:</strong> ami-0622654e8b5edc744&lt;br&gt;<strong>ca-central-1:</strong> ami-0146705c4196a7b21&lt;br&gt;<strong>mx-central-1:</strong> ami-0d906adf80326501c&lt;br&gt;<strong>eu-west-2:</strong> ami-068411509a160ac2c&lt;br&gt;<strong>eu-west-1:</strong> ami-032075382f7aac30e&lt;br&gt;<strong>ap-northeast-2:</strong> ami-0c1d3644560af28ef&lt;br&gt;<strong>ap-southeast-4:</strong> ami-0b36874f4f32c8e4c&lt;br&gt;<strong>ap-east-2:</strong> ami-0d343bd46cb24824b&lt;br&gt;<strong>il-central-1:</strong> ami-0c73de3adcec55e04&lt;br&gt;<strong>ap-northeast-3:</strong> ami-01487a565ad912050&lt;br&gt;<strong>us-east-2:</strong> ami-00ed9bb8a192bce54&lt;br&gt;<strong>eu-west-3:</strong> ami-00d3b70aa55f7a53e&lt;br&gt;<strong>me-south-1:</strong> ami-034f4b3cdc0c326f6&lt;br&gt;<strong>ca-west-1:</strong> ami-01440032242a95536&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod-amd64-1592.18-43042fa9/aws-gardener_prod-amd64-1592.18-43042fa9.raw">aws-gardener_prod-amd64-1592.18-43042fa9.raw</a>&lt;/details&gt; |
+| Default | Amazon Web Services | arm64 | </code>aws-gardener_prod-arm64-1592.18-43042fa9<code> | &lt;details&gt;&lt;summary&gt;35 regions&lt;/summary&gt;&lt;br&gt;<strong>cn-northwest-1:</strong> ami-0566428d98fc6d04c&lt;br&gt;<strong>cn-north-1:</strong> ami-0e9b52acd2df427ff&lt;br&gt;<strong>us-west-2:</strong> ami-060f77b143290a95b&lt;br&gt;<strong>ca-central-1:</strong> ami-0c11e69d68bf86a6c&lt;br&gt;<strong>eu-west-2:</strong> ami-04fa58629538e51c8&lt;br&gt;<strong>me-south-1:</strong> ami-0f70689b0796a814f&lt;br&gt;<strong>ap-southeast-2:</strong> ami-03345449fe24c5b59&lt;br&gt;<strong>ap-southeast-7:</strong> ami-066f665155dfa7ebd&lt;br&gt;<strong>ap-south-1:</strong> ami-0024914deae87e2e4&lt;br&gt;<strong>af-south-1:</strong> ami-08b093b801d9a8e68&lt;br&gt;<strong>il-central-1:</strong> ami-0ace85ffe0a450b5f&lt;br&gt;<strong>ap-south-2:</strong> ami-0a46719b138c2c2e4&lt;br&gt;<strong>us-west-1:</strong> ami-0777eae92b5ffb29b&lt;br&gt;<strong>ap-east-1:</strong> ami-042186606d7ff06fa&lt;br&gt;<strong>ca-west-1:</strong> ami-01655a71691ebfe2e&lt;br&gt;<strong>ap-southeast-3:</strong> ami-036a7dc44ed671014&lt;br&gt;<strong>ap-southeast-5:</strong> ami-0a778873c0bf180fd&lt;br&gt;<strong>ap-east-2:</strong> ami-0f2eba18788980852&lt;br&gt;<strong>eu-central-2:</strong> ami-050683bb17df8b6c9&lt;br&gt;<strong>ap-northeast-1:</strong> ami-0b9d9c2fc0ae49b38&lt;br&gt;<strong>us-east-2:</strong> ami-0f06f4cf2a5f80b48&lt;br&gt;<strong>eu-north-1:</strong> ami-02ddbd78d5d5352d2&lt;br&gt;<strong>eu-west-1:</strong> ami-07d4aa99e614ddb3c&lt;br&gt;<strong>ap-northeast-3:</strong> ami-00d1aac0c69443d05&lt;br&gt;<strong>sa-east-1:</strong> ami-0baa207bf8d4410b1&lt;br&gt;<strong>ap-southeast-1:</strong> ami-0bffd723a8c32af2c&lt;br&gt;<strong>eu-south-2:</strong> ami-07cc1bad58537461f&lt;br&gt;<strong>eu-south-1:</strong> ami-08657c82d844f5e95&lt;br&gt;<strong>us-east-1:</strong> ami-00d718c1845e397b4&lt;br&gt;<strong>ap-southeast-4:</strong> ami-07be5e69d88d35396&lt;br&gt;<strong>eu-central-1:</strong> ami-072f3de5d8ad646ac&lt;br&gt;<strong>mx-central-1:</strong> ami-0aef34cb059ccc45f&lt;br&gt;<strong>eu-west-3:</strong> ami-0e627158f09e19909&lt;br&gt;<strong>ap-northeast-2:</strong> ami-0aa96315cfb533f61&lt;br&gt;<strong>ap-southeast-6:</strong> ami-0d007eb4745d4d004&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod-arm64-1592.18-43042fa9/aws-gardener_prod-arm64-1592.18-43042fa9.raw">aws-gardener_prod-arm64-1592.18-43042fa9.raw</a>&lt;/details&gt; |
+| Default | Microsoft Azure | amd64 | </code>azure-gardener_prod-amd64-1592.18-43042fa9<code> | &lt;details&gt;&lt;summary&gt;4 gallery + 0 marketplace images&lt;/summary&gt;&lt;br&gt;<strong>Gallery Images:</strong>&lt;br&gt;• V2 (public): /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-amd64/Versions/1592.18.0&lt;br&gt;• V1 (public): /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-amd64-bios/Versions/1592.18.0&lt;br&gt;• V2 (china): /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-amd64/Versions/1592.18.0&lt;br&gt;• V1 (china): /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-amd64-bios/Versions/1592.18.0&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod-amd64-1592.18-43042fa9/azure-gardener_prod-amd64-1592.18-43042fa9.vhd">azure-gardener_prod-amd64-1592.18-43042fa9.vhd</a>&lt;/details&gt; |
+| Default | Microsoft Azure | arm64 | </code>azure-gardener_prod-arm64-1592.18-43042fa9<code> | &lt;details&gt;&lt;summary&gt;2 gallery + 0 marketplace images&lt;/summary&gt;&lt;br&gt;<strong>Gallery Images:</strong>&lt;br&gt;• V2 (public): /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-arm64/Versions/1592.18.0&lt;br&gt;• V2 (china): /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-arm64/Versions/1592.18.0&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod-arm64-1592.18-43042fa9/azure-gardener_prod-arm64-1592.18-43042fa9.vhd">azure-gardener_prod-arm64-1592.18-43042fa9.vhd</a>&lt;/details&gt; |
+| Default | Google Cloud Platform | amd64 | </code>gcp-gardener_prod-amd64-1592.18-43042fa9<code> | &lt;details&gt;&lt;summary&gt;Global availability&lt;/summary&gt;&lt;br&gt;<strong>Image Name:</strong> gardenlinux-f03494b5e33cba13-1592-18-43042fa9&lt;br&gt;<strong>Project:</strong> sap-se-gcp-gardenlinux&lt;br&gt;<strong>Availability:</strong> Global (all regions)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod-amd64-1592.18-43042fa9/gcp-gardener_prod-amd64-1592.18-43042fa9.gcpimage.tar.gz">gcp-gardener_prod-amd64-1592.18-43042fa9.gcpimage.tar.gz</a>&lt;/details&gt; |
+| Default | Google Cloud Platform | arm64 | </code>gcp-gardener_prod-arm64-1592.18-43042fa9<code> | &lt;details&gt;&lt;summary&gt;Global availability&lt;/summary&gt;&lt;br&gt;<strong>Image Name:</strong> gardenlinux-e4c18db54c0e1287-1592-18-43042fa9&lt;br&gt;<strong>Project:</strong> sap-se-gcp-gardenlinux&lt;br&gt;<strong>Availability:</strong> Global (all regions)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod-arm64-1592.18-43042fa9/gcp-gardener_prod-arm64-1592.18-43042fa9.gcpimage.tar.gz">gcp-gardener_prod-arm64-1592.18-43042fa9.gcpimage.tar.gz</a>&lt;/details&gt; |
+| Default | OpenStack | amd64 | </code>openstack-gardener_prod-amd64-1592.18-43042fa9<code> | &lt;details&gt;&lt;summary&gt;14 regions&lt;/summary&gt;&lt;br&gt;<strong>na-ca-1:</strong> 1475256f-bb4a-468f-b876-b43a6e7cb9f7 (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-au-1:</strong> 9aa24017-484c-4b4c-862c-29434320b4d4 (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-jp-2:</strong> 7dee5000-0731-4f0a-868e-b1a7164b46ed (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>eu-de-1:</strong> 19d74635-d9b4-4b6a-a13f-f80e57599473 (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>na-us-1:</strong> 33128fc4-357d-48a9-91dd-a1ad12ef10f8 (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-cn-1:</strong> 610ab666-0bb1-4b0d-8460-db4548eef35c (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-ae-1:</strong> 75d6784b-df4d-405e-b228-897e2724d765 (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>na-us-3:</strong> 21b00ee2-396e-4241-9557-d27fcc6b57bf (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-sa-1:</strong> 894a0752-0439-41c8-8bfa-b0f3f5bbd951 (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>eu-de-2:</strong> 45d0830f-d119-42da-835a-82b2f6b4fa4a (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>eu-nl-1:</strong> e326d4ac-3ede-4926-8101-9e3cc017dabe (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>na-us-2:</strong> 66c47993-c0bf-497b-bae6-909eaba06114 (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>la-br-1:</strong> 3009435a-a76e-4a4c-b246-a45de9b3e2ee (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-jp-1:</strong> 687bec04-ddc5-4c36-a864-a55d09f453b6 (gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/openstack-gardener_prod-amd64-1592.18-43042fa9/openstack-gardener_prod-amd64-1592.18-43042fa9.raw">openstack-gardener_prod-amd64-1592.18-43042fa9.raw</a>&lt;/details&gt; |
+| Default | OpenStack Baremetal | amd64 | </code>openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9<code> | &lt;details&gt;&lt;summary&gt;14 regions&lt;/summary&gt;&lt;br&gt;<strong>na-us-3:</strong> 9e7193bf-2dbe-43b4-b817-d8cfe8999d7e (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-sa-1:</strong> 0238bf40-c93c-420f-a352-af2df553d48a (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>la-br-1:</strong> 0126e2b8-35c4-4957-8a78-c0cd2e533a92 (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-jp-1:</strong> 8591076f-7907-4d18-aaeb-aaf8874dbd5b (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>na-ca-1:</strong> fbc313c7-7ecb-4da0-a3b6-4b4ec91fb0bb (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-jp-2:</strong> 5e4311b5-c091-4130-a03c-b17c38c56999 (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>eu-nl-1:</strong> 28e3ebaa-90a1-4030-aba4-2f32e3e3f03e (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>eu-de-1:</strong> 41d8fee8-2990-449b-8305-49f8db4d3636 (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>eu-de-2:</strong> e9dbb7d3-bb0e-420f-bc13-aee267f0e77c (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-ae-1:</strong> e2ad813b-1091-4065-9b99-3003903c256e (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>na-us-1:</strong> 659af7cb-7d23-4bab-bbc3-1eafff8f8eb8 (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>na-us-2:</strong> 38a2bb7e-651d-40fa-96da-9ef9141e04b0 (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-au-1:</strong> 76b071f0-5af2-46b4-b297-65da178db662 (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;<strong>ap-cn-1:</strong> 5c3c07c1-4f28-4cf9-99ce-a07600faba28 (gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9/openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9.raw">openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9.raw</a>&lt;/details&gt; |
+
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;📝 Detailed View&lt;/summary&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Variant - Default&lt;/summary&gt;
+
+<h3>Variant - Default</h3>
+
+&lt;details&gt;
+&lt;summary&gt;ALI - Alibaba Cloud&lt;/summary&gt;
+
+#### ALI - Alibaba Cloud
+
+&lt;details&gt;
+&lt;summary&gt;amd64&lt;/summary&gt;
+
+##### amd64
+
+</code>`<code>
+<ul><li>flavor: ali-gardener_prod-amd64-1592.18-43042fa9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/ali-gardener_prod-amd64-1592.18-43042fa9/ali-gardener_prod-amd64-1592.18-43042fa9.qcow2
+  regions:
+    - region: cn-chengdu
+      image_id: m-2vcbx71qej6nlox2ly7i
+    - region: ap-southeast-5
+      image_id: m-k1aewgmrjto7mrl2wzvm
+    - region: cn-hongkong
+      image_id: m-j6cemc2z05u155rmv0sz
+    - region: cn-nanjing
+      image_id: m-gc7erltnw0wcus5beyf1
+    - region: ap-southeast-3
+      image_id: m-8ps2f9e5v7s8djs9u89k
+    - region: eu-central-1
+      image_id: m-gw859knvolzop7uuuehq
+    - region: cn-zhangjiakou
+      image_id: m-8vb1s3kkvk8gz0039qr9
+    - region: cn-shanghai
+      image_id: m-uf6aa5n6jirmygwd4xyw
+    - region: ap-northeast-2
+      image_id: m-mj76f75dlvltsaimasb0
+    - region: na-south-1
+      image_id: m-4hf7xv2m2uvyijvxab1j
+    - region: cn-fuzhou
+      image_id: m-gw0h8nzywm4jds9lm81p
+    - region: ap-northeast-1
+      image_id: m-6weg6yqm9dyb5vs8a38o
+    - region: me-east-1
+      image_id: m-eb3fepzl02i14do9fsru
+    - region: eu-west-1
+      image_id: m-d7o2w9b0nv48tmoetz4u
+    - region: cn-qingdao
+      image_id: m-m5e69jniz6nrzoa9l11s
+    - region: cn-shenzhen
+      image_id: m-wz9arif0izzy73z6es6w
+    - region: us-east-1
+      image_id: m-0xiaurnde6deqagxj45h
+    - region: cn-hangzhou
+      image_id: m-bp12fk5utg9yctz12ipq
+    - region: ap-southeast-1
+      image_id: m-t4n566ma8nl855il3si5
+    - region: cn-heyuan
+      image_id: m-f8zisz3glc0851cyxo7z
+    - region: ap-southeast-6
+      image_id: m-5tsdrk3dcgdmqudt0xbi
+    - region: cn-huhehaote
+      image_id: m-hp36sy4udd2126mq10a1
+    - region: cn-guangzhou
+      image_id: m-7xv4uv6o5e203a2pk3yp
+    - region: us-west-1
+      image_id: m-rj900z6s52m9mfjs3lh2
+    - region: cn-beijing
+      image_id: m-2ze0mmb6uv5eb3mmz3k8
+    - region: ap-southeast-7
+      image_id: m-0joh6ww0ze0m6bxykqla
+    - region: cn-wuhan-lr
+      image_id: m-n4a31h5j5sn25s7z7aix
+    - region: cn-wulanchabu
+      image_id: m-0jlbjom4sc8nla445pmb
+</code>`<code>
+
+&lt;/details&gt;
+
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;AWS - Amazon Web Services&lt;/summary&gt;
+
+#### AWS - Amazon Web Services
+
+&lt;details&gt;
+&lt;summary&gt;amd64&lt;/summary&gt;
+
+##### amd64
+
+</code>`<code>
+<ul><li>flavor: aws-gardener_prod-amd64-1592.18-43042fa9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod-amd64-1592.18-43042fa9/aws-gardener_prod-amd64-1592.18-43042fa9.raw
+  regions:
+    - region: cn-northwest-1
+      image_id: ami-0c42f92bb9badd1bc
+    - region: cn-north-1
+      image_id: ami-059f0ebe7ea4bccf0
+    - region: sa-east-1
+      image_id: ami-0308b39daab1d4004
+    - region: eu-central-1
+      image_id: ami-0027e6d9354e0e982
+    - region: us-west-1
+      image_id: ami-0e138d41ec3cd7810
+    - region: af-south-1
+      image_id: ami-097c2d020be065f86
+    - region: eu-south-1
+      image_id: ami-05c0013de8b0f1665
+    - region: ap-southeast-1
+      image_id: ami-086b91250696b1dc2
+    - region: ap-southeast-3
+      image_id: ami-09a9c59bddcc61cae
+    - region: us-east-1
+      image_id: ami-02c3daa6619d2ba32
+    - region: ap-south-2
+      image_id: ami-05adb86e408f70846
+    - region: eu-south-2
+      image_id: ami-0b89860998f3c3962
+    - region: eu-north-1
+      image_id: ami-07791a0d2bd45c803
+    - region: ap-northeast-1
+      image_id: ami-0f0b2c807054c2103
+    - region: ap-east-1
+      image_id: ami-000c4b8100e305ded
+    - region: ap-southeast-2
+      image_id: ami-019038bd3b2719de0
+    - region: ap-south-1
+      image_id: ami-012db071899c99943
+    - region: eu-central-2
+      image_id: ami-0166ee73da412eae6
+    - region: ap-southeast-5
+      image_id: ami-0f5323205d1eef31a
+    - region: ap-southeast-7
+      image_id: ami-0d70a841d4cc0aeeb
+    - region: ap-southeast-6
+      image_id: ami-036890a6ff8363e19
+    - region: us-west-2
+      image_id: ami-0622654e8b5edc744
+    - region: ca-central-1
+      image_id: ami-0146705c4196a7b21
+    - region: mx-central-1
+      image_id: ami-0d906adf80326501c
+    - region: eu-west-2
+      image_id: ami-068411509a160ac2c
+    - region: eu-west-1
+      image_id: ami-032075382f7aac30e
+    - region: ap-northeast-2
+      image_id: ami-0c1d3644560af28ef
+    - region: ap-southeast-4
+      image_id: ami-0b36874f4f32c8e4c
+    - region: ap-east-2
+      image_id: ami-0d343bd46cb24824b
+    - region: il-central-1
+      image_id: ami-0c73de3adcec55e04
+    - region: ap-northeast-3
+      image_id: ami-01487a565ad912050
+    - region: us-east-2
+      image_id: ami-00ed9bb8a192bce54
+    - region: eu-west-3
+      image_id: ami-00d3b70aa55f7a53e
+    - region: me-south-1
+      image_id: ami-034f4b3cdc0c326f6
+    - region: ca-west-1
+      image_id: ami-01440032242a95536
+</code>`<code>
+
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;arm64&lt;/summary&gt;
+
+##### arm64
+
+</code>`<code>
+<ul><li>flavor: aws-gardener_prod-arm64-1592.18-43042fa9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod-arm64-1592.18-43042fa9/aws-gardener_prod-arm64-1592.18-43042fa9.raw
+  regions:
+    - region: cn-northwest-1
+      image_id: ami-0566428d98fc6d04c
+    - region: cn-north-1
+      image_id: ami-0e9b52acd2df427ff
+    - region: us-west-2
+      image_id: ami-060f77b143290a95b
+    - region: ca-central-1
+      image_id: ami-0c11e69d68bf86a6c
+    - region: eu-west-2
+      image_id: ami-04fa58629538e51c8
+    - region: me-south-1
+      image_id: ami-0f70689b0796a814f
+    - region: ap-southeast-2
+      image_id: ami-03345449fe24c5b59
+    - region: ap-southeast-7
+      image_id: ami-066f665155dfa7ebd
+    - region: ap-south-1
+      image_id: ami-0024914deae87e2e4
+    - region: af-south-1
+      image_id: ami-08b093b801d9a8e68
+    - region: il-central-1
+      image_id: ami-0ace85ffe0a450b5f
+    - region: ap-south-2
+      image_id: ami-0a46719b138c2c2e4
+    - region: us-west-1
+      image_id: ami-0777eae92b5ffb29b
+    - region: ap-east-1
+      image_id: ami-042186606d7ff06fa
+    - region: ca-west-1
+      image_id: ami-01655a71691ebfe2e
+    - region: ap-southeast-3
+      image_id: ami-036a7dc44ed671014
+    - region: ap-southeast-5
+      image_id: ami-0a778873c0bf180fd
+    - region: ap-east-2
+      image_id: ami-0f2eba18788980852
+    - region: eu-central-2
+      image_id: ami-050683bb17df8b6c9
+    - region: ap-northeast-1
+      image_id: ami-0b9d9c2fc0ae49b38
+    - region: us-east-2
+      image_id: ami-0f06f4cf2a5f80b48
+    - region: eu-north-1
+      image_id: ami-02ddbd78d5d5352d2
+    - region: eu-west-1
+      image_id: ami-07d4aa99e614ddb3c
+    - region: ap-northeast-3
+      image_id: ami-00d1aac0c69443d05
+    - region: sa-east-1
+      image_id: ami-0baa207bf8d4410b1
+    - region: ap-southeast-1
+      image_id: ami-0bffd723a8c32af2c
+    - region: eu-south-2
+      image_id: ami-07cc1bad58537461f
+    - region: eu-south-1
+      image_id: ami-08657c82d844f5e95
+    - region: us-east-1
+      image_id: ami-00d718c1845e397b4
+    - region: ap-southeast-4
+      image_id: ami-07be5e69d88d35396
+    - region: eu-central-1
+      image_id: ami-072f3de5d8ad646ac
+    - region: mx-central-1
+      image_id: ami-0aef34cb059ccc45f
+    - region: eu-west-3
+      image_id: ami-0e627158f09e19909
+    - region: ap-northeast-2
+      image_id: ami-0aa96315cfb533f61
+    - region: ap-southeast-6
+      image_id: ami-0d007eb4745d4d004
+</code>`<code>
+
+&lt;/details&gt;
+
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;AZURE - Microsoft Azure&lt;/summary&gt;
+
+#### AZURE - Microsoft Azure
+
+&lt;details&gt;
+&lt;summary&gt;amd64&lt;/summary&gt;
+
+##### amd64
+
+</code>`<code>
+<ul><li>flavor: azure-gardener_prod-amd64-1592.18-43042fa9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod-amd64-1592.18-43042fa9/azure-gardener_prod-amd64-1592.18-43042fa9.vhd
+  gallery_images:
+    - hyper_v_generation: V2
+      azure_cloud: public
+      image_id: /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-amd64/Versions/1592.18.0
+    - hyper_v_generation: V1
+      azure_cloud: public
+      image_id: /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-amd64-bios/Versions/1592.18.0
+    - hyper_v_generation: V2
+      azure_cloud: china
+      image_id: /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-amd64/Versions/1592.18.0
+    - hyper_v_generation: V1
+      azure_cloud: china
+      image_id: /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-amd64-bios/Versions/1592.18.0
+</code>`<code>
+
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;arm64&lt;/summary&gt;
+
+##### arm64
+
+</code>`<code>
+<ul><li>flavor: azure-gardener_prod-arm64-1592.18-43042fa9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod-arm64-1592.18-43042fa9/azure-gardener_prod-arm64-1592.18-43042fa9.vhd
+  gallery_images:
+    - hyper_v_generation: V2
+      azure_cloud: public
+      image_id: /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-arm64/Versions/1592.18.0
+    - hyper_v_generation: V2
+      azure_cloud: china
+      image_id: /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-arm64/Versions/1592.18.0
+</code>`<code>
+
+&lt;/details&gt;
+
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;GCP - Google Cloud Platform&lt;/summary&gt;
+
+#### GCP - Google Cloud Platform
+
+&lt;details&gt;
+&lt;summary&gt;amd64&lt;/summary&gt;
+
+##### amd64
+
+</code>`<code>
+<ul><li>flavor: gcp-gardener_prod-amd64-1592.18-43042fa9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod-amd64-1592.18-43042fa9/gcp-gardener_prod-amd64-1592.18-43042fa9.gcpimage.tar.gz
+  image_name: gardenlinux-f03494b5e33cba13-1592-18-43042fa9
+  project: sap-se-gcp-gardenlinux
+  availability: Global (all regions)
+</code>`<code>
+
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;arm64&lt;/summary&gt;
+
+##### arm64
+
+</code>`<code>
+<ul><li>flavor: gcp-gardener_prod-arm64-1592.18-43042fa9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod-arm64-1592.18-43042fa9/gcp-gardener_prod-arm64-1592.18-43042fa9.gcpimage.tar.gz
+  image_name: gardenlinux-e4c18db54c0e1287-1592-18-43042fa9
+  project: sap-se-gcp-gardenlinux
+  availability: Global (all regions)
+</code>`<code>
+
+&lt;/details&gt;
+
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;OPENSTACK - OpenStack&lt;/summary&gt;
+
+#### OPENSTACK - OpenStack
+
+&lt;details&gt;
+&lt;summary&gt;amd64&lt;/summary&gt;
+
+##### amd64
+
+</code>`<code>
+<ul><li>flavor: openstack-gardener_prod-amd64-1592.18-43042fa9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/openstack-gardener_prod-amd64-1592.18-43042fa9/openstack-gardener_prod-amd64-1592.18-43042fa9.raw
+  regions:
+    - region: na-ca-1
+      image_id: 1475256f-bb4a-468f-b876-b43a6e7cb9f7
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-au-1
+      image_id: 9aa24017-484c-4b4c-862c-29434320b4d4
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-jp-2
+      image_id: 7dee5000-0731-4f0a-868e-b1a7164b46ed
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: eu-de-1
+      image_id: 19d74635-d9b4-4b6a-a13f-f80e57599473
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: na-us-1
+      image_id: 33128fc4-357d-48a9-91dd-a1ad12ef10f8
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-cn-1
+      image_id: 610ab666-0bb1-4b0d-8460-db4548eef35c
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-ae-1
+      image_id: 75d6784b-df4d-405e-b228-897e2724d765
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: na-us-3
+      image_id: 21b00ee2-396e-4241-9557-d27fcc6b57bf
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-sa-1
+      image_id: 894a0752-0439-41c8-8bfa-b0f3f5bbd951
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: eu-de-2
+      image_id: 45d0830f-d119-42da-835a-82b2f6b4fa4a
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: eu-nl-1
+      image_id: e326d4ac-3ede-4926-8101-9e3cc017dabe
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: na-us-2
+      image_id: 66c47993-c0bf-497b-bae6-909eaba06114
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: la-br-1
+      image_id: 3009435a-a76e-4a4c-b246-a45de9b3e2ee
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-jp-1
+      image_id: 687bec04-ddc5-4c36-a864-a55d09f453b6
+      image_name: gardenlinux-openstack-gardener_prod-amd64-1592.18-43042fa9
+</code>`<code>
+
+&lt;/details&gt;
+
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;OPENSTACKBAREMETAL - OpenStack Baremetal&lt;/summary&gt;
+
+#### OPENSTACKBAREMETAL - OpenStack Baremetal
+
+&lt;details&gt;
+&lt;summary&gt;amd64&lt;/summary&gt;
+
+##### amd64
+
+</code>`<code>
+<ul><li>flavor: openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9/openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9.raw
+  regions:
+    - region: na-us-3
+      image_id: 9e7193bf-2dbe-43b4-b817-d8cfe8999d7e
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-sa-1
+      image_id: 0238bf40-c93c-420f-a352-af2df553d48a
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: la-br-1
+      image_id: 0126e2b8-35c4-4957-8a78-c0cd2e533a92
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-jp-1
+      image_id: 8591076f-7907-4d18-aaeb-aaf8874dbd5b
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: na-ca-1
+      image_id: fbc313c7-7ecb-4da0-a3b6-4b4ec91fb0bb
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-jp-2
+      image_id: 5e4311b5-c091-4130-a03c-b17c38c56999
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: eu-nl-1
+      image_id: 28e3ebaa-90a1-4030-aba4-2f32e3e3f03e
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: eu-de-1
+      image_id: 41d8fee8-2990-449b-8305-49f8db4d3636
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: eu-de-2
+      image_id: e9dbb7d3-bb0e-420f-bc13-aee267f0e77c
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-ae-1
+      image_id: e2ad813b-1091-4065-9b99-3003903c256e
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: na-us-1
+      image_id: 659af7cb-7d23-4bab-bbc3-1eafff8f8eb8
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: na-us-2
+      image_id: 38a2bb7e-651d-40fa-96da-9ef9141e04b0
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-au-1
+      image_id: 76b071f0-5af2-46b4-b297-65da178db662
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+    - region: ap-cn-1
+      image_id: 5c3c07c1-4f28-4cf9-99ce-a07600faba28
+      image_name: gardenlinux-openstackbaremetal-gardener_prod-amd64-1592.18-43042fa9
+</code>`<code>
+
+&lt;/details&gt;
+
+&lt;/details&gt;
+
+&lt;/details&gt;
+
+
+&lt;/details&gt;
+
+
+<h2>Kernel Module Build Container (kmodbuild)</h2>
+</code>`<code>
+ghcr.io/gardenlinux/gardenlinux/kmodbuild:1592.18
+</code>``]]></description>
         </item>
 <item>
             <title>openmcp-project/openmcp - Release v0.0.63</title>
@@ -1208,162 +1722,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.2]]></descriptio
 
 #### [DEVELOPER]
 <ul><li>The PWO now uses the discovery client instead of fetching CRDs to turn group/version/kind into group/version/resource. <strong>(#174, @Diaphteiros)</strong></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/gardenlinux - 2150.0.0</title>
-            <link>https://github.com/gardenlinux/gardenlinux</link>
-            <guid>https://github.com/gardenlinux/gardenlinux/releases/tag/2150.0.0</guid>
-            <pubDate>Thu, 19 Feb 2026 08:57:07 +0000</pubDate>
-            <description><![CDATA[<h2>Software Component Versions</h2>
-``<code>
-containerd 2.2.1-0gl2
-curl 8.12.1-2gl0
-libc-bin 2.42-11+b1
-linux-image-amd64 6.18.12-1gl1
-openssh-server 1:10.2p1-3gl0
-openssl 3.5.5-1gl0
-runc 1.4.0-1gl1
-systemd 259.1-1gl0
-</code>`<code>
-<h2>Published Images</h2>
-<p>&lt;details&gt;<br>&lt;summary&gt;📊 Table View&lt;/summary&gt;</p>
-<p>| Variant | Platform | Architecture | Flavor | Regions &amp; Image IDs | Download Links |<br>|---------|----------|--------------|--------|---------------------|----------------|<br>| Default | Alibaba Cloud | amd64 | </code>ali-gardener_prod-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;28 regions&lt;/summary&gt;&lt;br&gt;<strong>ap-northeast-2:</strong> m-mj7bp1ztt0nwfq6k9e7d&lt;br&gt;<strong>eu-west-1:</strong> m-d7oh55ozvzg2902bwav7&lt;br&gt;<strong>ap-southeast-3:</strong> m-8psedmdkpycdww2fxl4b&lt;br&gt;<strong>eu-central-1:</strong> m-gw88mh5upkhuxjho0snk&lt;br&gt;<strong>cn-heyuan:</strong> m-f8ze5533sy7of9ljeowh&lt;br&gt;<strong>us-west-1:</strong> m-rj9co4s35nx5333uuq65&lt;br&gt;<strong>us-east-1:</strong> m-0xi3lactq0bgkzhad0c4&lt;br&gt;<strong>me-east-1:</strong> m-eb33xfflobg4dmcv9152&lt;br&gt;<strong>na-south-1:</strong> m-4hffxxrlvvgp1xwckuum&lt;br&gt;<strong>cn-beijing:</strong> m-2zea2qduj5di0epmvprd&lt;br&gt;<strong>ap-southeast-5:</strong> m-k1a7xsl99327y2wopabf&lt;br&gt;<strong>cn-nanjing:</strong> m-gc7gxtw305x8dsbmfark&lt;br&gt;<strong>ap-southeast-1:</strong> m-t4nilurolzd88criaqjd&lt;br&gt;<strong>ap-northeast-1:</strong> m-6we2m48pcavwb96gluc0&lt;br&gt;<strong>cn-guangzhou:</strong> m-7xvdh9hc1trkq6ga6isr&lt;br&gt;<strong>cn-shanghai:</strong> m-uf67xrc46z95snhdvh90&lt;br&gt;<strong>cn-chengdu:</strong> m-2vc9jkwopovv2wl9xsbm&lt;br&gt;<strong>cn-huhehaote:</strong> m-hp30yh7fp0pz6cu85t0v&lt;br&gt;<strong>cn-hangzhou:</strong> m-bp1aywhq0kit1x5xgyc8&lt;br&gt;<strong>cn-wulanchabu:</strong> m-0jl6wwaadyh9s1q52ezy&lt;br&gt;<strong>ap-southeast-7:</strong> m-0joicxi8vhavuxxh4fys&lt;br&gt;<strong>cn-hongkong:</strong> m-j6c4yrqbzhe334jp5ib7&lt;br&gt;<strong>cn-qingdao:</strong> m-m5e8g3g9tyccjsct9ku8&lt;br&gt;<strong>cn-shenzhen:</strong> m-wz97dh4xl0xsnsmdwvms&lt;br&gt;<strong>cn-zhangjiakou:</strong> m-8vbdy6xmxc5rgrzmkedx&lt;br&gt;<strong>cn-wuhan-lr:</strong> m-n4aady3tnvh1n87sjltb&lt;br&gt;<strong>cn-fuzhou:</strong> m-gw0ady3tnvh1na6tnnsg&lt;br&gt;<strong>ap-southeast-6:</strong> m-5ts9hgbt4g6qcnx6rcub&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/ali-gardener_prod-amd64-2150.0.0-eb8696b9/ali-gardener_prod-amd64-2150.0.0-eb8696b9.qcow2">ali-gardener_prod-amd64-2150.0.0-eb8696b9.qcow2</a>&lt;/details&gt; |<br>| Default | Amazon Web Services | amd64 | </code>aws-gardener_prod-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;36 regions&lt;/summary&gt;&lt;br&gt;<strong>cn-northwest-1:</strong> ami-0303968e24c979c14&lt;br&gt;<strong>cn-north-1:</strong> ami-05fe1025e488e178d&lt;br&gt;<strong>me-south-1:</strong> ami-02bae9110a52f0852&lt;br&gt;<strong>ap-east-2:</strong> ami-095c0a6c7846d9839&lt;br&gt;<strong>ap-south-2:</strong> ami-07f10d53c6d28cbe7&lt;br&gt;<strong>eu-west-2:</strong> ami-0f949d24a576cb7e9&lt;br&gt;<strong>eu-west-1:</strong> ami-0fe4ea599e7566f80&lt;br&gt;<strong>ap-northeast-1:</strong> ami-06622876dece2d706&lt;br&gt;<strong>ap-east-1:</strong> ami-05cbb3ce0e214edaf&lt;br&gt;<strong>ap-southeast-3:</strong> ami-06e40d66dbd167326&lt;br&gt;<strong>eu-central-1:</strong> ami-047e5195e0e6afb70&lt;br&gt;<strong>af-south-1:</strong> ami-0020f72f27a3e8299&lt;br&gt;<strong>us-west-2:</strong> ami-04d93b76643f5f8b1&lt;br&gt;<strong>eu-south-2:</strong> ami-0fbb04efa2ebbe117&lt;br&gt;<strong>mx-central-1:</strong> ami-0f5e84cd3caf7650b&lt;br&gt;<strong>ap-southeast-2:</strong> ami-02d25b3858a7da3e1&lt;br&gt;<strong>me-central-1:</strong> ami-010c0f283dadc6e5d&lt;br&gt;<strong>eu-central-2:</strong> ami-05f92b7eee299e049&lt;br&gt;<strong>ap-southeast-4:</strong> ami-0f6dc3c1dd94cdd15&lt;br&gt;<strong>ap-southeast-7:</strong> ami-02346db05390fdaad&lt;br&gt;<strong>ap-south-1:</strong> ami-0e3a8be2522effa71&lt;br&gt;<strong>eu-south-1:</strong> ami-030cc99211f2f1c3c&lt;br&gt;<strong>ca-central-1:</strong> ami-0a780adafd87ab9d2&lt;br&gt;<strong>us-west-1:</strong> ami-03baf2318378daa0b&lt;br&gt;<strong>eu-west-3:</strong> ami-03252785268b940c8&lt;br&gt;<strong>eu-north-1:</strong> ami-015005eb44148875a&lt;br&gt;<strong>sa-east-1:</strong> ami-0e0556df35ef6cd6a&lt;br&gt;<strong>ca-west-1:</strong> ami-0a1785d9558a80783&lt;br&gt;<strong>ap-northeast-2:</strong> ami-01ab9cd27e248a188&lt;br&gt;<strong>us-east-1:</strong> ami-096fa514cb4c1cfcc&lt;br&gt;<strong>ap-southeast-1:</strong> ami-0532e882828126d51&lt;br&gt;<strong>us-east-2:</strong> ami-05c47d68299fb8495&lt;br&gt;<strong>ap-southeast-5:</strong> ami-0b601039f8dbf74d6&lt;br&gt;<strong>ap-southeast-6:</strong> ami-08a2e1a445de2adc7&lt;br&gt;<strong>il-central-1:</strong> ami-0ae461def573571c6&lt;br&gt;<strong>ap-northeast-3:</strong> ami-0b351c56e64f1d0ba&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod-amd64-2150.0.0-eb8696b9/aws-gardener_prod-amd64-2150.0.0-eb8696b9.raw">aws-gardener_prod-amd64-2150.0.0-eb8696b9.raw</a>&lt;/details&gt; |<br>| Default | Amazon Web Services | arm64 | </code>aws-gardener_prod-arm64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;36 regions&lt;/summary&gt;&lt;br&gt;<strong>cn-northwest-1:</strong> ami-024a2fc313e93c7c3&lt;br&gt;<strong>cn-north-1:</strong> ami-09ac20c33d534c1f0&lt;br&gt;<strong>ap-east-1:</strong> ami-0b9491fa04e41a8b6&lt;br&gt;<strong>us-east-1:</strong> ami-0e88973adb33b4e3f&lt;br&gt;<strong>ap-south-1:</strong> ami-08baff994d6cae41c&lt;br&gt;<strong>ca-central-1:</strong> ami-010a522c93083824c&lt;br&gt;<strong>ap-southeast-5:</strong> ami-095c889525cd0a7c0&lt;br&gt;<strong>eu-south-1:</strong> ami-03a502b37ceb1961e&lt;br&gt;<strong>us-west-1:</strong> ami-0143b8f8d9f3b853d&lt;br&gt;<strong>ap-south-2:</strong> ami-010cc508df54deb74&lt;br&gt;<strong>ap-northeast-3:</strong> ami-0c7a685d5dd81b97e&lt;br&gt;<strong>ca-west-1:</strong> ami-06c3f8ccc12c12082&lt;br&gt;<strong>eu-central-1:</strong> ami-0f502b80bb47d34b3&lt;br&gt;<strong>eu-west-2:</strong> ami-0e2f36516abfe1517&lt;br&gt;<strong>ap-southeast-2:</strong> ami-0791c8baa73b4f2b1&lt;br&gt;<strong>ap-southeast-3:</strong> ami-0142a14561b98ee6d&lt;br&gt;<strong>eu-south-2:</strong> ami-0525055ea0559e475&lt;br&gt;<strong>eu-west-1:</strong> ami-03d903bd6009c69ae&lt;br&gt;<strong>ap-southeast-4:</strong> ami-00e15f07875c049e3&lt;br&gt;<strong>us-east-2:</strong> ami-0fa78952eb370940c&lt;br&gt;<strong>ap-southeast-6:</strong> ami-0b1d99d79dcda53e5&lt;br&gt;<strong>eu-west-3:</strong> ami-08a022e81643c639f&lt;br&gt;<strong>eu-north-1:</strong> ami-0b9ca75e5a7a890cc&lt;br&gt;<strong>ap-northeast-1:</strong> ami-0fbb48a3e678e61b8&lt;br&gt;<strong>ap-northeast-2:</strong> ami-00919cba301fee105&lt;br&gt;<strong>ap-southeast-7:</strong> ami-07189d05b3b8dcd8c&lt;br&gt;<strong>ap-east-2:</strong> ami-099eebbbf5c40fdd8&lt;br&gt;<strong>me-central-1:</strong> ami-0d7aaa4a4bbf30f3e&lt;br&gt;<strong>il-central-1:</strong> ami-0f5d7e87cd27fa53a&lt;br&gt;<strong>ap-southeast-1:</strong> ami-00fe9400f01335c4d&lt;br&gt;<strong>us-west-2:</strong> ami-086dde29beb7b78c9&lt;br&gt;<strong>mx-central-1:</strong> ami-05520116d22f9189c&lt;br&gt;<strong>eu-central-2:</strong> ami-0f280aec1d2f910f2&lt;br&gt;<strong>af-south-1:</strong> ami-02740b78382588ee8&lt;br&gt;<strong>me-south-1:</strong> ami-0656c67db6d4155ff&lt;br&gt;<strong>sa-east-1:</strong> ami-06c9f8f9e9ea75466&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod-arm64-2150.0.0-eb8696b9/aws-gardener_prod-arm64-2150.0.0-eb8696b9.raw">aws-gardener_prod-arm64-2150.0.0-eb8696b9.raw</a>&lt;/details&gt; |<br>| Default | Microsoft Azure | amd64 | </code>azure-gardener_prod-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;4 gallery + 0 marketplace images&lt;/summary&gt;&lt;br&gt;<strong>Gallery Images:</strong>&lt;br&gt;• V1 (public): /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-amd64-bios/Versions/2150.0.0&lt;br&gt;• V2 (public): /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-amd64/Versions/2150.0.0&lt;br&gt;• V1 (china): /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-amd64-bios/Versions/2150.0.0&lt;br&gt;• V2 (china): /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-amd64/Versions/2150.0.0&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod-amd64-2150.0.0-eb8696b9/azure-gardener_prod-amd64-2150.0.0-eb8696b9.vhd">azure-gardener_prod-amd64-2150.0.0-eb8696b9.vhd</a>&lt;/details&gt; |<br>| Default | Microsoft Azure | arm64 | </code>azure-gardener_prod-arm64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;2 gallery + 0 marketplace images&lt;/summary&gt;&lt;br&gt;<strong>Gallery Images:</strong>&lt;br&gt;• V2 (public): /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-arm64/Versions/2150.0.0&lt;br&gt;• V2 (china): /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-arm64/Versions/2150.0.0&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod-arm64-2150.0.0-eb8696b9/azure-gardener_prod-arm64-2150.0.0-eb8696b9.vhd">azure-gardener_prod-arm64-2150.0.0-eb8696b9.vhd</a>&lt;/details&gt; |<br>| Default | Google Cloud Platform | amd64 | </code>gcp-gardener_prod-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;Global availability&lt;/summary&gt;&lt;br&gt;<strong>Image Name:</strong> gardenlinux-f03494b5e33cba13-2150-0-0-eb8696b9&lt;br&gt;<strong>Project:</strong> sap-se-gcp-gardenlinux&lt;br&gt;<strong>Availability:</strong> Global (all regions)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod-amd64-2150.0.0-eb8696b9/gcp-gardener_prod-amd64-2150.0.0-eb8696b9.gcpimage.tar.gz">gcp-gardener_prod-amd64-2150.0.0-eb8696b9.gcpimage.tar.gz</a>&lt;/details&gt; |<br>| Default | Google Cloud Platform | arm64 | </code>gcp-gardener_prod-arm64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;Global availability&lt;/summary&gt;&lt;br&gt;<strong>Image Name:</strong> gardenlinux-e4c18db54c0e1287-2150-0-0-eb8696b9&lt;br&gt;<strong>Project:</strong> sap-se-gcp-gardenlinux&lt;br&gt;<strong>Availability:</strong> Global (all regions)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod-arm64-2150.0.0-eb8696b9/gcp-gardener_prod-arm64-2150.0.0-eb8696b9.gcpimage.tar.gz">gcp-gardener_prod-arm64-2150.0.0-eb8696b9.gcpimage.tar.gz</a>&lt;/details&gt; |<br>| Default | OpenStack | amd64 | </code>openstack-gardener_prod-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;16 regions&lt;/summary&gt;&lt;br&gt;<strong>ap-cn-1:</strong> 46372ab1-a5d7-43ec-8e1e-eeb6764b4fe7 (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-ae-1:</strong> 04c51b90-b1d4-4147-a92f-81fe871da31d (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-sa-1:</strong> 8646b315-a7d5-4181-ac7a-dbcdbf25cb3e (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-au-1:</strong> 446b7cfd-0822-4bfe-894b-1d7ff6419a69 (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-jp-2:</strong> 958f2d2f-2207-46a5-b5b5-cb334431d918 (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>qa-de-1:</strong> 1c539491-921e-4811-96c5-f073bd702665 (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>eu-nl-1:</strong> 55bb809f-3419-44cf-aae5-24c625fd53d2 (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-sa-2:</strong> 109604cb-9ade-4cee-be09-f255ef41d8a0 (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>na-us-2:</strong> 71298b0c-5cf5-447e-958e-6ae2730288a4 (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-jp-1:</strong> 48a1c7c7-d6ad-4b10-9f27-b214803215e4 (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>eu-de-1:</strong> 21973265-8ecb-4dcc-8884-b796fc9055b3 (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>na-ca-1:</strong> a5556700-8bf3-4f7e-88f0-70cb7876cf6d (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>eu-de-2:</strong> 77628450-ac01-4151-9a87-631b11f1805a (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>na-us-1:</strong> 3ae67dc6-40b5-4b88-ae72-e727c33fd37c (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>na-us-3:</strong> 3fb16009-2b87-4a3a-bc21-33e0bd4f5210 (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>la-br-1:</strong> 494fa8da-1534-4f89-abc6-a4fbadec5010 (gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/openstack-gardener_prod-amd64-2150.0.0-eb8696b9/openstack-gardener_prod-amd64-2150.0.0-eb8696b9.raw">openstack-gardener_prod-amd64-2150.0.0-eb8696b9.raw</a>&lt;/details&gt; |<br>| USI | Amazon Web Services | amd64 | </code>aws-gardener_prod_usi-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;36 regions&lt;/summary&gt;&lt;br&gt;<strong>cn-northwest-1:</strong> ami-0424436ab0aaf1941&lt;br&gt;<strong>cn-north-1:</strong> ami-019717b58830c896e&lt;br&gt;<strong>ap-southeast-2:</strong> ami-058c8a792a853800b&lt;br&gt;<strong>us-east-2:</strong> ami-07de70d9506bc8abd&lt;br&gt;<strong>ca-central-1:</strong> ami-08c94723267a81063&lt;br&gt;<strong>eu-north-1:</strong> ami-052dd2fb0ab563a95&lt;br&gt;<strong>mx-central-1:</strong> ami-02cce121673155f92&lt;br&gt;<strong>me-south-1:</strong> ami-0e04377f20c2941a1&lt;br&gt;<strong>sa-east-1:</strong> ami-02af49a2778940d76&lt;br&gt;<strong>me-central-1:</strong> ami-0481fe423b58045c3&lt;br&gt;<strong>ap-northeast-2:</strong> ami-081d0a4cab584d718&lt;br&gt;<strong>eu-central-1:</strong> ami-082c977f274bfc814&lt;br&gt;<strong>ap-south-2:</strong> ami-0ba32a989b795942d&lt;br&gt;<strong>ap-southeast-4:</strong> ami-0822469f5a4f2f0c3&lt;br&gt;<strong>ap-southeast-6:</strong> ami-06a72608198b35351&lt;br&gt;<strong>eu-south-1:</strong> ami-04fcfc5b1edbbfc8a&lt;br&gt;<strong>eu-central-2:</strong> ami-07ebad9b3c72a5f2f&lt;br&gt;<strong>il-central-1:</strong> ami-03d5fec4bb3bb692c&lt;br&gt;<strong>ap-southeast-1:</strong> ami-0162a8955f4a533f3&lt;br&gt;<strong>eu-south-2:</strong> ami-0b235b74f83339f86&lt;br&gt;<strong>ap-east-2:</strong> ami-0c6c75262a01ef338&lt;br&gt;<strong>eu-west-1:</strong> ami-042857a2381318605&lt;br&gt;<strong>ap-northeast-1:</strong> ami-082b645c595b3f3ed&lt;br&gt;<strong>us-west-2:</strong> ami-09696859ae8bf7247&lt;br&gt;<strong>eu-west-3:</strong> ami-06b5d88b17ffae4f3&lt;br&gt;<strong>af-south-1:</strong> ami-028e4c3e8dd14fecf&lt;br&gt;<strong>ap-southeast-5:</strong> ami-0d5beb1f3aa17daf5&lt;br&gt;<strong>eu-west-2:</strong> ami-0e407e4866743d039&lt;br&gt;<strong>ap-northeast-3:</strong> ami-0071ee7dd252c90b3&lt;br&gt;<strong>ap-east-1:</strong> ami-0b0c0667da0692dc7&lt;br&gt;<strong>ca-west-1:</strong> ami-0edcea2f8e283809e&lt;br&gt;<strong>ap-southeast-3:</strong> ami-045bd7737c34c35ed&lt;br&gt;<strong>ap-southeast-7:</strong> ami-0f4ccc59ce49c6027&lt;br&gt;<strong>us-west-1:</strong> ami-0387ed77e4b64f7aa&lt;br&gt;<strong>ap-south-1:</strong> ami-05d540cc0e19943d2&lt;br&gt;<strong>us-east-1:</strong> ami-0a196f13c216ce2f0&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod_usi-amd64-2150.0.0-eb8696b9/aws-gardener_prod_usi-amd64-2150.0.0-eb8696b9.raw">aws-gardener_prod_usi-amd64-2150.0.0-eb8696b9.raw</a>&lt;/details&gt; |<br>| USI | Amazon Web Services | arm64 | </code>aws-gardener_prod_usi-arm64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;36 regions&lt;/summary&gt;&lt;br&gt;<strong>cn-northwest-1:</strong> ami-035f5394d73b73104&lt;br&gt;<strong>cn-north-1:</strong> ami-05742f38351cbf60b&lt;br&gt;<strong>eu-south-1:</strong> ami-027c53e961a8bd6ee&lt;br&gt;<strong>me-central-1:</strong> ami-02e6c21bc7e9604aa&lt;br&gt;<strong>eu-west-2:</strong> ami-00fa3aeccb432e973&lt;br&gt;<strong>us-east-1:</strong> ami-0eb385527bd0f6318&lt;br&gt;<strong>ap-northeast-3:</strong> ami-03c20195f2485f265&lt;br&gt;<strong>eu-central-2:</strong> ami-0bb40efab8d9d5fd5&lt;br&gt;<strong>ap-south-2:</strong> ami-0d795c968acd6a61b&lt;br&gt;<strong>ap-south-1:</strong> ami-0488a6e5de9b916e4&lt;br&gt;<strong>eu-west-1:</strong> ami-03ae4b6b32fd79c1a&lt;br&gt;<strong>ap-southeast-1:</strong> ami-042dbd6b498ebf0ee&lt;br&gt;<strong>mx-central-1:</strong> ami-0c1187c67368e8820&lt;br&gt;<strong>af-south-1:</strong> ami-0b76abfabe31423ee&lt;br&gt;<strong>ap-northeast-1:</strong> ami-02f360b21c5bef199&lt;br&gt;<strong>ap-northeast-2:</strong> ami-04c6de20f858dfab0&lt;br&gt;<strong>il-central-1:</strong> ami-03b5ecada7a291d65&lt;br&gt;<strong>eu-south-2:</strong> ami-0746a976ec7a97a95&lt;br&gt;<strong>eu-west-3:</strong> ami-06d414101a047ec8a&lt;br&gt;<strong>me-south-1:</strong> ami-049944e0607bdcba3&lt;br&gt;<strong>sa-east-1:</strong> ami-0746ab40863e69d46&lt;br&gt;<strong>ap-east-1:</strong> ami-06a20d67c429d719a&lt;br&gt;<strong>ca-west-1:</strong> ami-0e93634699705ed9e&lt;br&gt;<strong>ap-southeast-2:</strong> ami-086c3ae93e9a46744&lt;br&gt;<strong>ap-east-2:</strong> ami-0fb1a9f71b1003c4d&lt;br&gt;<strong>ap-southeast-4:</strong> ami-068e2a7a1c8f1c876&lt;br&gt;<strong>us-east-2:</strong> ami-0c76e986d0d5e3e76&lt;br&gt;<strong>eu-central-1:</strong> ami-09430e7e835f9c6de&lt;br&gt;<strong>us-west-1:</strong> ami-0c9aea0637dfa5c0a&lt;br&gt;<strong>ap-southeast-3:</strong> ami-0f9f3ccd604819bc3&lt;br&gt;<strong>ap-southeast-7:</strong> ami-00fbac615f832f2c8&lt;br&gt;<strong>ca-central-1:</strong> ami-0ede7000c9b144488&lt;br&gt;<strong>us-west-2:</strong> ami-0def4e6f65716f8de&lt;br&gt;<strong>eu-north-1:</strong> ami-049779a01c849260c&lt;br&gt;<strong>ap-southeast-5:</strong> ami-086829dbcec2b7870&lt;br&gt;<strong>ap-southeast-6:</strong> ami-0d70b50f219f40597&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod_usi-arm64-2150.0.0-eb8696b9/aws-gardener_prod_usi-arm64-2150.0.0-eb8696b9.raw">aws-gardener_prod_usi-arm64-2150.0.0-eb8696b9.raw</a>&lt;/details&gt; |<br>| USI | Microsoft Azure | amd64 | </code>azure-gardener_prod_usi-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;2 gallery + 0 marketplace images&lt;/summary&gt;&lt;br&gt;<strong>Gallery Images:</strong>&lt;br&gt;• V2 (china): /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod_usi-amd64/Versions/2150.0.0&lt;br&gt;• V2 (public): /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod_usi-amd64/Versions/2150.0.0&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod_usi-amd64-2150.0.0-eb8696b9/azure-gardener_prod_usi-amd64-2150.0.0-eb8696b9.vhd">azure-gardener_prod_usi-amd64-2150.0.0-eb8696b9.vhd</a>&lt;/details&gt; |<br>| USI | Microsoft Azure | arm64 | </code>azure-gardener_prod_usi-arm64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;2 gallery + 0 marketplace images&lt;/summary&gt;&lt;br&gt;<strong>Gallery Images:</strong>&lt;br&gt;• V2 (china): /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod_usi-arm64/Versions/2150.0.0&lt;br&gt;• V2 (public): /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod_usi-arm64/Versions/2150.0.0&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod_usi-arm64-2150.0.0-eb8696b9/azure-gardener_prod_usi-arm64-2150.0.0-eb8696b9.vhd">azure-gardener_prod_usi-arm64-2150.0.0-eb8696b9.vhd</a>&lt;/details&gt; |<br>| USI | Google Cloud Platform | amd64 | </code>gcp-gardener_prod_usi-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;Global availability&lt;/summary&gt;&lt;br&gt;<strong>Image Name:</strong> gardenlinux-793c9b74c8aab57b-2150-0-0-eb8696b9&lt;br&gt;<strong>Project:</strong> sap-se-gcp-gardenlinux&lt;br&gt;<strong>Availability:</strong> Global (all regions)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod_usi-amd64-2150.0.0-eb8696b9/gcp-gardener_prod_usi-amd64-2150.0.0-eb8696b9.gcpimage.tar.gz">gcp-gardener_prod_usi-amd64-2150.0.0-eb8696b9.gcpimage.tar.gz</a>&lt;/details&gt; |<br>| USI | Google Cloud Platform | arm64 | </code>gcp-gardener_prod_usi-arm64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;Global availability&lt;/summary&gt;&lt;br&gt;<strong>Image Name:</strong> gardenlinux-f751c4747f159eef-2150-0-0-eb8696b9&lt;br&gt;<strong>Project:</strong> sap-se-gcp-gardenlinux&lt;br&gt;<strong>Availability:</strong> Global (all regions)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod_usi-arm64-2150.0.0-eb8696b9/gcp-gardener_prod_usi-arm64-2150.0.0-eb8696b9.gcpimage.tar.gz">gcp-gardener_prod_usi-arm64-2150.0.0-eb8696b9.gcpimage.tar.gz</a>&lt;/details&gt; |<br>| USI | OpenStack | amd64 | </code>openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;16 regions&lt;/summary&gt;&lt;br&gt;<strong>ap-au-1:</strong> 66eee5c6-b01e-4bf1-969c-0e67b972fb8d (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>na-us-3:</strong> 6fbb33d4-6407-4743-805e-476fc5aad741 (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>na-us-1:</strong> 7a3a847c-d85e-4a47-adcf-376c13efaee7 (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>la-br-1:</strong> 99966e07-fedb-4d00-aeee-e075e3e8898b (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-jp-2:</strong> d0e71d6f-b67c-4180-92d2-634f943e564d (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-cn-1:</strong> b74c37bd-a0f2-495e-8d6d-cd27a2b7b231 (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>eu-de-1:</strong> c9dfd45c-7811-449e-9719-43e961959a1a (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-ae-1:</strong> c89e32a5-435b-4d82-b43f-388574d94d70 (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>na-ca-1:</strong> b28d7bf9-98bd-476a-b0cf-5ea5e8e5d889 (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>na-us-2:</strong> a0abdd9e-6b57-4667-a571-3e406e22e0ad (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-jp-1:</strong> 02d358d8-1b6c-4197-97b6-37b2649e3176 (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>qa-de-1:</strong> f3358d0f-c646-4ccb-9fa4-b87711178af1 (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>eu-de-2:</strong> 5f604d81-9789-4294-91ab-91aadfec1d30 (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>eu-nl-1:</strong> 5b8bf17a-3196-42b9-b0bd-f7238b0d2224 (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-sa-2:</strong> c4bc038e-12e9-4daf-b4a7-e54e90b344f5 (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;<strong>ap-sa-1:</strong> 4931ae57-2bb5-44a2-9199-c7db4779385e (gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9/openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9.raw">openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9.raw</a>&lt;/details&gt; |<br>| TPM2 | Amazon Web Services | amd64 | </code>aws-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;34 regions&lt;/summary&gt;&lt;br&gt;<strong>ap-northeast-3:</strong> ami-078dc29cffb9af409&lt;br&gt;<strong>ap-southeast-5:</strong> ami-08bd021f3dc5696eb&lt;br&gt;<strong>eu-central-2:</strong> ami-0556aeacf7b89809a&lt;br&gt;<strong>il-central-1:</strong> ami-0805b7cf35a2b8d21&lt;br&gt;<strong>eu-west-1:</strong> ami-0a540f1d592161c44&lt;br&gt;<strong>eu-north-1:</strong> ami-0aec970e1d519fbfe&lt;br&gt;<strong>ap-northeast-1:</strong> ami-059703776de4af07b&lt;br&gt;<strong>ap-east-1:</strong> ami-058af9dc2e4970399&lt;br&gt;<strong>sa-east-1:</strong> ami-0c491da48ea5e0cfa&lt;br&gt;<strong>us-east-2:</strong> ami-08fc168a1a794d573&lt;br&gt;<strong>me-central-1:</strong> ami-0bb1ffc8543dd34ed&lt;br&gt;<strong>us-west-1:</strong> ami-016b3d6e399e39fd3&lt;br&gt;<strong>eu-west-2:</strong> ami-02e59202c1f375c34&lt;br&gt;<strong>ap-east-2:</strong> ami-095e75a8aed893842&lt;br&gt;<strong>eu-west-3:</strong> ami-0230c8c7a7e378ef2&lt;br&gt;<strong>ap-southeast-7:</strong> ami-0e6692e7438dd4ebb&lt;br&gt;<strong>eu-central-1:</strong> ami-06b0e71b1c7bf26b8&lt;br&gt;<strong>eu-south-2:</strong> ami-0dcdc609bf941793d&lt;br&gt;<strong>ca-central-1:</strong> ami-07d91148d3c8ed918&lt;br&gt;<strong>us-west-2:</strong> ami-098e97ccd956891ed&lt;br&gt;<strong>mx-central-1:</strong> ami-030cbc24bbced8a3d&lt;br&gt;<strong>ap-south-1:</strong> ami-025387786da88a812&lt;br&gt;<strong>ap-south-2:</strong> ami-02c5c5f4908c4cbac&lt;br&gt;<strong>af-south-1:</strong> ami-064f0edb6313257ff&lt;br&gt;<strong>eu-south-1:</strong> ami-004b824ca574ca3c3&lt;br&gt;<strong>ap-northeast-2:</strong> ami-0808b5790072a239b&lt;br&gt;<strong>ca-west-1:</strong> ami-03e6f28f49674dc28&lt;br&gt;<strong>ap-southeast-3:</strong> ami-0ec662e5dbb0bcc9c&lt;br&gt;<strong>us-east-1:</strong> ami-02af78085ee815a05&lt;br&gt;<strong>ap-southeast-4:</strong> ami-0ad313cac75e799e5&lt;br&gt;<strong>me-south-1:</strong> ami-0688283693bafd984&lt;br&gt;<strong>ap-southeast-1:</strong> ami-0c3982ff8e233e29a&lt;br&gt;<strong>ap-southeast-2:</strong> ami-032fdda7e82164ad4&lt;br&gt;<strong>ap-southeast-6:</strong> ami-0004ae0e379005624&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9/aws-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9.raw">aws-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9.raw</a>&lt;/details&gt; |<br>| TPM2 | Amazon Web Services | arm64 | </code>aws-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;34 regions&lt;/summary&gt;&lt;br&gt;<strong>ap-southeast-3:</strong> ami-0835eaa25cd16ad73&lt;br&gt;<strong>ap-southeast-4:</strong> ami-004a8656b28075a47&lt;br&gt;<strong>eu-south-1:</strong> ami-0cd7fa26611bc1e5f&lt;br&gt;<strong>il-central-1:</strong> ami-00019031a78b5da2d&lt;br&gt;<strong>ap-south-2:</strong> ami-05fc89f7c3c223ef2&lt;br&gt;<strong>af-south-1:</strong> ami-03f9edd1ace6b7cf2&lt;br&gt;<strong>ap-northeast-1:</strong> ami-077803b1bd0b5989b&lt;br&gt;<strong>ap-northeast-2:</strong> ami-05e2a57f9f1ce102d&lt;br&gt;<strong>eu-south-2:</strong> ami-0075284d4878b9eb8&lt;br&gt;<strong>ap-southeast-2:</strong> ami-0c2b5a0ebbb26aa79&lt;br&gt;<strong>us-east-2:</strong> ami-05944e83c870ad8d5&lt;br&gt;<strong>ap-southeast-7:</strong> ami-022f6980be643e8eb&lt;br&gt;<strong>ap-southeast-6:</strong> ami-0822d3952b2deea12&lt;br&gt;<strong>eu-central-2:</strong> ami-00f8438cded3f9b34&lt;br&gt;<strong>me-central-1:</strong> ami-0e87ebedd5db020b2&lt;br&gt;<strong>ap-south-1:</strong> ami-08575c25eca50bd09&lt;br&gt;<strong>eu-west-1:</strong> ami-0caa3599e068042bb&lt;br&gt;<strong>ap-east-2:</strong> ami-04730b7ccfdcbee77&lt;br&gt;<strong>me-south-1:</strong> ami-0695187561df019b7&lt;br&gt;<strong>sa-east-1:</strong> ami-052dd7827d670ddc7&lt;br&gt;<strong>us-east-1:</strong> ami-04f7425a7347043e0&lt;br&gt;<strong>us-west-1:</strong> ami-088af29b4b23ede8f&lt;br&gt;<strong>ap-southeast-5:</strong> ami-080120e005538fcce&lt;br&gt;<strong>eu-north-1:</strong> ami-03aa2da8bcd3fad59&lt;br&gt;<strong>ap-southeast-1:</strong> ami-0fe72790d6c05f5a1&lt;br&gt;<strong>ca-west-1:</strong> ami-08a06b1b009cadc32&lt;br&gt;<strong>ap-northeast-3:</strong> ami-0bce3fae6c715e2e3&lt;br&gt;<strong>ca-central-1:</strong> ami-04b02f201b672b596&lt;br&gt;<strong>us-west-2:</strong> ami-01923254e4228b63b&lt;br&gt;<strong>mx-central-1:</strong> ami-05c933d184556df56&lt;br&gt;<strong>eu-west-2:</strong> ami-0ef5af35a2f6b498e&lt;br&gt;<strong>eu-central-1:</strong> ami-0356b0c26faaf69e2&lt;br&gt;<strong>eu-west-3:</strong> ami-0e99a677f277f4008&lt;br&gt;<strong>ap-east-1:</strong> ami-0bddbaf8505c77d07&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9/aws-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9.raw">aws-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9.raw</a>&lt;/details&gt; |<br>| TPM2 | Microsoft Azure | amd64 | </code>azure-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;2 gallery + 0 marketplace images&lt;/summary&gt;&lt;br&gt;<strong>Gallery Images:</strong>&lt;br&gt;• V2 (public): /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod_tpm2_trustedboot-amd64/Versions/2150.0.0&lt;br&gt;• V2 (china): /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod_tpm2_trustedboot-amd64/Versions/2150.0.0&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9/azure-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9.vhd">azure-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9.vhd</a>&lt;/details&gt; |<br>| TPM2 | Microsoft Azure | arm64 | </code>azure-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;2 gallery + 0 marketplace images&lt;/summary&gt;&lt;br&gt;<strong>Gallery Images:</strong>&lt;br&gt;• V2 (public): /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod_tpm2_trustedboot-arm64/Versions/2150.0.0&lt;br&gt;• V2 (china): /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod_tpm2_trustedboot-arm64/Versions/2150.0.0&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9/azure-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9.vhd">azure-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9.vhd</a>&lt;/details&gt; |<br>| TPM2 | Google Cloud Platform | amd64 | </code>gcp-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;Global availability&lt;/summary&gt;&lt;br&gt;<strong>Image Name:</strong> gardenlinux-5d7c1ee825331d81-2150-0-0-eb8696b9&lt;br&gt;<strong>Project:</strong> sap-se-gcp-gardenlinux&lt;br&gt;<strong>Availability:</strong> Global (all regions)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9/gcp-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9.gcpimage.tar.gz">gcp-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9.gcpimage.tar.gz</a>&lt;/details&gt; |<br>| TPM2 | Google Cloud Platform | arm64 | </code>gcp-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9<code> | &lt;details&gt;&lt;summary&gt;Global availability&lt;/summary&gt;&lt;br&gt;<strong>Image Name:</strong> gardenlinux-14fe0be88d97bcc9-2150-0-0-eb8696b9&lt;br&gt;<strong>Project:</strong> sap-se-gcp-gardenlinux&lt;br&gt;<strong>Availability:</strong> Global (all regions)&lt;br&gt;&lt;/details&gt; | &lt;details&gt;&lt;summary&gt;Download&lt;/summary&gt;&lt;br&gt;<a href="https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9/gcp-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9.gcpimage.tar.gz">gcp-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9.gcpimage.tar.gz</a>&lt;/details&gt; |</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;📝 Detailed View&lt;/summary&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;Variant - Default&lt;/summary&gt;</p>
-<h3>Variant - Default</h3>
-<p>&lt;details&gt;<br>&lt;summary&gt;ALI - Alibaba Cloud&lt;/summary&gt;</p>
-<p>#### ALI - Alibaba Cloud</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: ali-gardener_prod-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/ali-gardener_prod-amd64-2150.0.0-eb8696b9/ali-gardener_prod-amd64-2150.0.0-eb8696b9.qcow2<br>  regions:<br>    - region: ap-northeast-2<br>      image_id: m-mj7bp1ztt0nwfq6k9e7d<br>    - region: eu-west-1<br>      image_id: m-d7oh55ozvzg2902bwav7<br>    - region: ap-southeast-3<br>      image_id: m-8psedmdkpycdww2fxl4b<br>    - region: eu-central-1<br>      image_id: m-gw88mh5upkhuxjho0snk<br>    - region: cn-heyuan<br>      image_id: m-f8ze5533sy7of9ljeowh<br>    - region: us-west-1<br>      image_id: m-rj9co4s35nx5333uuq65<br>    - region: us-east-1<br>      image_id: m-0xi3lactq0bgkzhad0c4<br>    - region: me-east-1<br>      image_id: m-eb33xfflobg4dmcv9152<br>    - region: na-south-1<br>      image_id: m-4hffxxrlvvgp1xwckuum<br>    - region: cn-beijing<br>      image_id: m-2zea2qduj5di0epmvprd<br>    - region: ap-southeast-5<br>      image_id: m-k1a7xsl99327y2wopabf<br>    - region: cn-nanjing<br>      image_id: m-gc7gxtw305x8dsbmfark<br>    - region: ap-southeast-1<br>      image_id: m-t4nilurolzd88criaqjd<br>    - region: ap-northeast-1<br>      image_id: m-6we2m48pcavwb96gluc0<br>    - region: cn-guangzhou<br>      image_id: m-7xvdh9hc1trkq6ga6isr<br>    - region: cn-shanghai<br>      image_id: m-uf67xrc46z95snhdvh90<br>    - region: cn-chengdu<br>      image_id: m-2vc9jkwopovv2wl9xsbm<br>    - region: cn-huhehaote<br>      image_id: m-hp30yh7fp0pz6cu85t0v<br>    - region: cn-hangzhou<br>      image_id: m-bp1aywhq0kit1x5xgyc8<br>    - region: cn-wulanchabu<br>      image_id: m-0jl6wwaadyh9s1q52ezy<br>    - region: ap-southeast-7<br>      image_id: m-0joicxi8vhavuxxh4fys<br>    - region: cn-hongkong<br>      image_id: m-j6c4yrqbzhe334jp5ib7<br>    - region: cn-qingdao<br>      image_id: m-m5e8g3g9tyccjsct9ku8<br>    - region: cn-shenzhen<br>      image_id: m-wz97dh4xl0xsnsmdwvms<br>    - region: cn-zhangjiakou<br>      image_id: m-8vbdy6xmxc5rgrzmkedx<br>    - region: cn-wuhan-lr<br>      image_id: m-n4aady3tnvh1n87sjltb<br>    - region: cn-fuzhou<br>      image_id: m-gw0ady3tnvh1na6tnnsg<br>    - region: ap-southeast-6<br>      image_id: m-5ts9hgbt4g6qcnx6rcub<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;AWS - Amazon Web Services&lt;/summary&gt;</p>
-<p>#### AWS - Amazon Web Services</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: aws-gardener_prod-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod-amd64-2150.0.0-eb8696b9/aws-gardener_prod-amd64-2150.0.0-eb8696b9.raw<br>  regions:<br>    - region: cn-northwest-1<br>      image_id: ami-0303968e24c979c14<br>    - region: cn-north-1<br>      image_id: ami-05fe1025e488e178d<br>    - region: me-south-1<br>      image_id: ami-02bae9110a52f0852<br>    - region: ap-east-2<br>      image_id: ami-095c0a6c7846d9839<br>    - region: ap-south-2<br>      image_id: ami-07f10d53c6d28cbe7<br>    - region: eu-west-2<br>      image_id: ami-0f949d24a576cb7e9<br>    - region: eu-west-1<br>      image_id: ami-0fe4ea599e7566f80<br>    - region: ap-northeast-1<br>      image_id: ami-06622876dece2d706<br>    - region: ap-east-1<br>      image_id: ami-05cbb3ce0e214edaf<br>    - region: ap-southeast-3<br>      image_id: ami-06e40d66dbd167326<br>    - region: eu-central-1<br>      image_id: ami-047e5195e0e6afb70<br>    - region: af-south-1<br>      image_id: ami-0020f72f27a3e8299<br>    - region: us-west-2<br>      image_id: ami-04d93b76643f5f8b1<br>    - region: eu-south-2<br>      image_id: ami-0fbb04efa2ebbe117<br>    - region: mx-central-1<br>      image_id: ami-0f5e84cd3caf7650b<br>    - region: ap-southeast-2<br>      image_id: ami-02d25b3858a7da3e1<br>    - region: me-central-1<br>      image_id: ami-010c0f283dadc6e5d<br>    - region: eu-central-2<br>      image_id: ami-05f92b7eee299e049<br>    - region: ap-southeast-4<br>      image_id: ami-0f6dc3c1dd94cdd15<br>    - region: ap-southeast-7<br>      image_id: ami-02346db05390fdaad<br>    - region: ap-south-1<br>      image_id: ami-0e3a8be2522effa71<br>    - region: eu-south-1<br>      image_id: ami-030cc99211f2f1c3c<br>    - region: ca-central-1<br>      image_id: ami-0a780adafd87ab9d2<br>    - region: us-west-1<br>      image_id: ami-03baf2318378daa0b<br>    - region: eu-west-3<br>      image_id: ami-03252785268b940c8<br>    - region: eu-north-1<br>      image_id: ami-015005eb44148875a<br>    - region: sa-east-1<br>      image_id: ami-0e0556df35ef6cd6a<br>    - region: ca-west-1<br>      image_id: ami-0a1785d9558a80783<br>    - region: ap-northeast-2<br>      image_id: ami-01ab9cd27e248a188<br>    - region: us-east-1<br>      image_id: ami-096fa514cb4c1cfcc<br>    - region: ap-southeast-1<br>      image_id: ami-0532e882828126d51<br>    - region: us-east-2<br>      image_id: ami-05c47d68299fb8495<br>    - region: ap-southeast-5<br>      image_id: ami-0b601039f8dbf74d6<br>    - region: ap-southeast-6<br>      image_id: ami-08a2e1a445de2adc7<br>    - region: il-central-1<br>      image_id: ami-0ae461def573571c6<br>    - region: ap-northeast-3<br>      image_id: ami-0b351c56e64f1d0ba<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;arm64&lt;/summary&gt;</p>
-<p>##### arm64</p>
-<p></code>`<code><br><ul><li>flavor: aws-gardener_prod-arm64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod-arm64-2150.0.0-eb8696b9/aws-gardener_prod-arm64-2150.0.0-eb8696b9.raw<br>  regions:<br>    - region: cn-northwest-1<br>      image_id: ami-024a2fc313e93c7c3<br>    - region: cn-north-1<br>      image_id: ami-09ac20c33d534c1f0<br>    - region: ap-east-1<br>      image_id: ami-0b9491fa04e41a8b6<br>    - region: us-east-1<br>      image_id: ami-0e88973adb33b4e3f<br>    - region: ap-south-1<br>      image_id: ami-08baff994d6cae41c<br>    - region: ca-central-1<br>      image_id: ami-010a522c93083824c<br>    - region: ap-southeast-5<br>      image_id: ami-095c889525cd0a7c0<br>    - region: eu-south-1<br>      image_id: ami-03a502b37ceb1961e<br>    - region: us-west-1<br>      image_id: ami-0143b8f8d9f3b853d<br>    - region: ap-south-2<br>      image_id: ami-010cc508df54deb74<br>    - region: ap-northeast-3<br>      image_id: ami-0c7a685d5dd81b97e<br>    - region: ca-west-1<br>      image_id: ami-06c3f8ccc12c12082<br>    - region: eu-central-1<br>      image_id: ami-0f502b80bb47d34b3<br>    - region: eu-west-2<br>      image_id: ami-0e2f36516abfe1517<br>    - region: ap-southeast-2<br>      image_id: ami-0791c8baa73b4f2b1<br>    - region: ap-southeast-3<br>      image_id: ami-0142a14561b98ee6d<br>    - region: eu-south-2<br>      image_id: ami-0525055ea0559e475<br>    - region: eu-west-1<br>      image_id: ami-03d903bd6009c69ae<br>    - region: ap-southeast-4<br>      image_id: ami-00e15f07875c049e3<br>    - region: us-east-2<br>      image_id: ami-0fa78952eb370940c<br>    - region: ap-southeast-6<br>      image_id: ami-0b1d99d79dcda53e5<br>    - region: eu-west-3<br>      image_id: ami-08a022e81643c639f<br>    - region: eu-north-1<br>      image_id: ami-0b9ca75e5a7a890cc<br>    - region: ap-northeast-1<br>      image_id: ami-0fbb48a3e678e61b8<br>    - region: ap-northeast-2<br>      image_id: ami-00919cba301fee105<br>    - region: ap-southeast-7<br>      image_id: ami-07189d05b3b8dcd8c<br>    - region: ap-east-2<br>      image_id: ami-099eebbbf5c40fdd8<br>    - region: me-central-1<br>      image_id: ami-0d7aaa4a4bbf30f3e<br>    - region: il-central-1<br>      image_id: ami-0f5d7e87cd27fa53a<br>    - region: ap-southeast-1<br>      image_id: ami-00fe9400f01335c4d<br>    - region: us-west-2<br>      image_id: ami-086dde29beb7b78c9<br>    - region: mx-central-1<br>      image_id: ami-05520116d22f9189c<br>    - region: eu-central-2<br>      image_id: ami-0f280aec1d2f910f2<br>    - region: af-south-1<br>      image_id: ami-02740b78382588ee8<br>    - region: me-south-1<br>      image_id: ami-0656c67db6d4155ff<br>    - region: sa-east-1<br>      image_id: ami-06c9f8f9e9ea75466<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;AZURE - Microsoft Azure&lt;/summary&gt;</p>
-<p>#### AZURE - Microsoft Azure</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: azure-gardener_prod-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod-amd64-2150.0.0-eb8696b9/azure-gardener_prod-amd64-2150.0.0-eb8696b9.vhd<br>  gallery_images:<br>    - hyper_v_generation: V1<br>      azure_cloud: public<br>      image_id: /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-amd64-bios/Versions/2150.0.0<br>    - hyper_v_generation: V2<br>      azure_cloud: public<br>      image_id: /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-amd64/Versions/2150.0.0<br>    - hyper_v_generation: V1<br>      azure_cloud: china<br>      image_id: /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-amd64-bios/Versions/2150.0.0<br>    - hyper_v_generation: V2<br>      azure_cloud: china<br>      image_id: /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-amd64/Versions/2150.0.0<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;arm64&lt;/summary&gt;</p>
-<p>##### arm64</p>
-<p></code>`<code><br><ul><li>flavor: azure-gardener_prod-arm64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod-arm64-2150.0.0-eb8696b9/azure-gardener_prod-arm64-2150.0.0-eb8696b9.vhd<br>  gallery_images:<br>    - hyper_v_generation: V2<br>      azure_cloud: public<br>      image_id: /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod-arm64/Versions/2150.0.0<br>    - hyper_v_generation: V2<br>      azure_cloud: china<br>      image_id: /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod-arm64/Versions/2150.0.0<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;GCP - Google Cloud Platform&lt;/summary&gt;</p>
-<p>#### GCP - Google Cloud Platform</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: gcp-gardener_prod-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod-amd64-2150.0.0-eb8696b9/gcp-gardener_prod-amd64-2150.0.0-eb8696b9.gcpimage.tar.gz<br>  image_name: gardenlinux-f03494b5e33cba13-2150-0-0-eb8696b9<br>  project: sap-se-gcp-gardenlinux<br>  availability: Global (all regions)<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;arm64&lt;/summary&gt;</p>
-<p>##### arm64</p>
-<p></code>`<code><br><ul><li>flavor: gcp-gardener_prod-arm64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod-arm64-2150.0.0-eb8696b9/gcp-gardener_prod-arm64-2150.0.0-eb8696b9.gcpimage.tar.gz<br>  image_name: gardenlinux-e4c18db54c0e1287-2150-0-0-eb8696b9<br>  project: sap-se-gcp-gardenlinux<br>  availability: Global (all regions)<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;OPENSTACK - OpenStack&lt;/summary&gt;</p>
-<p>#### OPENSTACK - OpenStack</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: openstack-gardener_prod-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/openstack-gardener_prod-amd64-2150.0.0-eb8696b9/openstack-gardener_prod-amd64-2150.0.0-eb8696b9.raw<br>  regions:<br>    - region: ap-cn-1<br>      image_id: 46372ab1-a5d7-43ec-8e1e-eeb6764b4fe7<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: ap-ae-1<br>      image_id: 04c51b90-b1d4-4147-a92f-81fe871da31d<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: ap-sa-1<br>      image_id: 8646b315-a7d5-4181-ac7a-dbcdbf25cb3e<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: ap-au-1<br>      image_id: 446b7cfd-0822-4bfe-894b-1d7ff6419a69<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: ap-jp-2<br>      image_id: 958f2d2f-2207-46a5-b5b5-cb334431d918<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: qa-de-1<br>      image_id: 1c539491-921e-4811-96c5-f073bd702665<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: eu-nl-1<br>      image_id: 55bb809f-3419-44cf-aae5-24c625fd53d2<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: ap-sa-2<br>      image_id: 109604cb-9ade-4cee-be09-f255ef41d8a0<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: na-us-2<br>      image_id: 71298b0c-5cf5-447e-958e-6ae2730288a4<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: ap-jp-1<br>      image_id: 48a1c7c7-d6ad-4b10-9f27-b214803215e4<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: eu-de-1<br>      image_id: 21973265-8ecb-4dcc-8884-b796fc9055b3<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: na-ca-1<br>      image_id: a5556700-8bf3-4f7e-88f0-70cb7876cf6d<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: eu-de-2<br>      image_id: 77628450-ac01-4151-9a87-631b11f1805a<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: na-us-1<br>      image_id: 3ae67dc6-40b5-4b88-ae72-e727c33fd37c<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: na-us-3<br>      image_id: 3fb16009-2b87-4a3a-bc21-33e0bd4f5210<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br>    - region: la-br-1<br>      image_id: 494fa8da-1534-4f89-abc6-a4fbadec5010<br>      image_name: gardenlinux-openstack-gardener_prod-amd64-2150.0.0-eb8696b9<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;Variant - USI (Unified System Image)&lt;/summary&gt;</p>
-<h3>Variant - USI (Unified System Image)</h3>
-<p>&lt;details&gt;<br>&lt;summary&gt;AWS - Amazon Web Services&lt;/summary&gt;</p>
-<p>#### AWS - Amazon Web Services</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: aws-gardener_prod_usi-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod_usi-amd64-2150.0.0-eb8696b9/aws-gardener_prod_usi-amd64-2150.0.0-eb8696b9.raw<br>  regions:<br>    - region: cn-northwest-1<br>      image_id: ami-0424436ab0aaf1941<br>    - region: cn-north-1<br>      image_id: ami-019717b58830c896e<br>    - region: ap-southeast-2<br>      image_id: ami-058c8a792a853800b<br>    - region: us-east-2<br>      image_id: ami-07de70d9506bc8abd<br>    - region: ca-central-1<br>      image_id: ami-08c94723267a81063<br>    - region: eu-north-1<br>      image_id: ami-052dd2fb0ab563a95<br>    - region: mx-central-1<br>      image_id: ami-02cce121673155f92<br>    - region: me-south-1<br>      image_id: ami-0e04377f20c2941a1<br>    - region: sa-east-1<br>      image_id: ami-02af49a2778940d76<br>    - region: me-central-1<br>      image_id: ami-0481fe423b58045c3<br>    - region: ap-northeast-2<br>      image_id: ami-081d0a4cab584d718<br>    - region: eu-central-1<br>      image_id: ami-082c977f274bfc814<br>    - region: ap-south-2<br>      image_id: ami-0ba32a989b795942d<br>    - region: ap-southeast-4<br>      image_id: ami-0822469f5a4f2f0c3<br>    - region: ap-southeast-6<br>      image_id: ami-06a72608198b35351<br>    - region: eu-south-1<br>      image_id: ami-04fcfc5b1edbbfc8a<br>    - region: eu-central-2<br>      image_id: ami-07ebad9b3c72a5f2f<br>    - region: il-central-1<br>      image_id: ami-03d5fec4bb3bb692c<br>    - region: ap-southeast-1<br>      image_id: ami-0162a8955f4a533f3<br>    - region: eu-south-2<br>      image_id: ami-0b235b74f83339f86<br>    - region: ap-east-2<br>      image_id: ami-0c6c75262a01ef338<br>    - region: eu-west-1<br>      image_id: ami-042857a2381318605<br>    - region: ap-northeast-1<br>      image_id: ami-082b645c595b3f3ed<br>    - region: us-west-2<br>      image_id: ami-09696859ae8bf7247<br>    - region: eu-west-3<br>      image_id: ami-06b5d88b17ffae4f3<br>    - region: af-south-1<br>      image_id: ami-028e4c3e8dd14fecf<br>    - region: ap-southeast-5<br>      image_id: ami-0d5beb1f3aa17daf5<br>    - region: eu-west-2<br>      image_id: ami-0e407e4866743d039<br>    - region: ap-northeast-3<br>      image_id: ami-0071ee7dd252c90b3<br>    - region: ap-east-1<br>      image_id: ami-0b0c0667da0692dc7<br>    - region: ca-west-1<br>      image_id: ami-0edcea2f8e283809e<br>    - region: ap-southeast-3<br>      image_id: ami-045bd7737c34c35ed<br>    - region: ap-southeast-7<br>      image_id: ami-0f4ccc59ce49c6027<br>    - region: us-west-1<br>      image_id: ami-0387ed77e4b64f7aa<br>    - region: ap-south-1<br>      image_id: ami-05d540cc0e19943d2<br>    - region: us-east-1<br>      image_id: ami-0a196f13c216ce2f0<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;arm64&lt;/summary&gt;</p>
-<p>##### arm64</p>
-<p></code>`<code><br><ul><li>flavor: aws-gardener_prod_usi-arm64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod_usi-arm64-2150.0.0-eb8696b9/aws-gardener_prod_usi-arm64-2150.0.0-eb8696b9.raw<br>  regions:<br>    - region: cn-northwest-1<br>      image_id: ami-035f5394d73b73104<br>    - region: cn-north-1<br>      image_id: ami-05742f38351cbf60b<br>    - region: eu-south-1<br>      image_id: ami-027c53e961a8bd6ee<br>    - region: me-central-1<br>      image_id: ami-02e6c21bc7e9604aa<br>    - region: eu-west-2<br>      image_id: ami-00fa3aeccb432e973<br>    - region: us-east-1<br>      image_id: ami-0eb385527bd0f6318<br>    - region: ap-northeast-3<br>      image_id: ami-03c20195f2485f265<br>    - region: eu-central-2<br>      image_id: ami-0bb40efab8d9d5fd5<br>    - region: ap-south-2<br>      image_id: ami-0d795c968acd6a61b<br>    - region: ap-south-1<br>      image_id: ami-0488a6e5de9b916e4<br>    - region: eu-west-1<br>      image_id: ami-03ae4b6b32fd79c1a<br>    - region: ap-southeast-1<br>      image_id: ami-042dbd6b498ebf0ee<br>    - region: mx-central-1<br>      image_id: ami-0c1187c67368e8820<br>    - region: af-south-1<br>      image_id: ami-0b76abfabe31423ee<br>    - region: ap-northeast-1<br>      image_id: ami-02f360b21c5bef199<br>    - region: ap-northeast-2<br>      image_id: ami-04c6de20f858dfab0<br>    - region: il-central-1<br>      image_id: ami-03b5ecada7a291d65<br>    - region: eu-south-2<br>      image_id: ami-0746a976ec7a97a95<br>    - region: eu-west-3<br>      image_id: ami-06d414101a047ec8a<br>    - region: me-south-1<br>      image_id: ami-049944e0607bdcba3<br>    - region: sa-east-1<br>      image_id: ami-0746ab40863e69d46<br>    - region: ap-east-1<br>      image_id: ami-06a20d67c429d719a<br>    - region: ca-west-1<br>      image_id: ami-0e93634699705ed9e<br>    - region: ap-southeast-2<br>      image_id: ami-086c3ae93e9a46744<br>    - region: ap-east-2<br>      image_id: ami-0fb1a9f71b1003c4d<br>    - region: ap-southeast-4<br>      image_id: ami-068e2a7a1c8f1c876<br>    - region: us-east-2<br>      image_id: ami-0c76e986d0d5e3e76<br>    - region: eu-central-1<br>      image_id: ami-09430e7e835f9c6de<br>    - region: us-west-1<br>      image_id: ami-0c9aea0637dfa5c0a<br>    - region: ap-southeast-3<br>      image_id: ami-0f9f3ccd604819bc3<br>    - region: ap-southeast-7<br>      image_id: ami-00fbac615f832f2c8<br>    - region: ca-central-1<br>      image_id: ami-0ede7000c9b144488<br>    - region: us-west-2<br>      image_id: ami-0def4e6f65716f8de<br>    - region: eu-north-1<br>      image_id: ami-049779a01c849260c<br>    - region: ap-southeast-5<br>      image_id: ami-086829dbcec2b7870<br>    - region: ap-southeast-6<br>      image_id: ami-0d70b50f219f40597<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;AZURE - Microsoft Azure&lt;/summary&gt;</p>
-<p>#### AZURE - Microsoft Azure</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: azure-gardener_prod_usi-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod_usi-amd64-2150.0.0-eb8696b9/azure-gardener_prod_usi-amd64-2150.0.0-eb8696b9.vhd<br>  gallery_images:<br>    - hyper_v_generation: V2<br>      azure_cloud: china<br>      image_id: /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod_usi-amd64/Versions/2150.0.0<br>    - hyper_v_generation: V2<br>      azure_cloud: public<br>      image_id: /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod_usi-amd64/Versions/2150.0.0<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;arm64&lt;/summary&gt;</p>
-<p>##### arm64</p>
-<p></code>`<code><br><ul><li>flavor: azure-gardener_prod_usi-arm64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod_usi-arm64-2150.0.0-eb8696b9/azure-gardener_prod_usi-arm64-2150.0.0-eb8696b9.vhd<br>  gallery_images:<br>    - hyper_v_generation: V2<br>      azure_cloud: china<br>      image_id: /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod_usi-arm64/Versions/2150.0.0<br>    - hyper_v_generation: V2<br>      azure_cloud: public<br>      image_id: /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod_usi-arm64/Versions/2150.0.0<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;GCP - Google Cloud Platform&lt;/summary&gt;</p>
-<p>#### GCP - Google Cloud Platform</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: gcp-gardener_prod_usi-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod_usi-amd64-2150.0.0-eb8696b9/gcp-gardener_prod_usi-amd64-2150.0.0-eb8696b9.gcpimage.tar.gz<br>  image_name: gardenlinux-793c9b74c8aab57b-2150-0-0-eb8696b9<br>  project: sap-se-gcp-gardenlinux<br>  availability: Global (all regions)<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;arm64&lt;/summary&gt;</p>
-<p>##### arm64</p>
-<p></code>`<code><br><ul><li>flavor: gcp-gardener_prod_usi-arm64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod_usi-arm64-2150.0.0-eb8696b9/gcp-gardener_prod_usi-arm64-2150.0.0-eb8696b9.gcpimage.tar.gz<br>  image_name: gardenlinux-f751c4747f159eef-2150-0-0-eb8696b9<br>  project: sap-se-gcp-gardenlinux<br>  availability: Global (all regions)<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;OPENSTACK - OpenStack&lt;/summary&gt;</p>
-<p>#### OPENSTACK - OpenStack</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9/openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9.raw<br>  regions:<br>    - region: ap-au-1<br>      image_id: 66eee5c6-b01e-4bf1-969c-0e67b972fb8d<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: na-us-3<br>      image_id: 6fbb33d4-6407-4743-805e-476fc5aad741<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: na-us-1<br>      image_id: 7a3a847c-d85e-4a47-adcf-376c13efaee7<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: la-br-1<br>      image_id: 99966e07-fedb-4d00-aeee-e075e3e8898b<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: ap-jp-2<br>      image_id: d0e71d6f-b67c-4180-92d2-634f943e564d<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: ap-cn-1<br>      image_id: b74c37bd-a0f2-495e-8d6d-cd27a2b7b231<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: eu-de-1<br>      image_id: c9dfd45c-7811-449e-9719-43e961959a1a<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: ap-ae-1<br>      image_id: c89e32a5-435b-4d82-b43f-388574d94d70<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: na-ca-1<br>      image_id: b28d7bf9-98bd-476a-b0cf-5ea5e8e5d889<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: na-us-2<br>      image_id: a0abdd9e-6b57-4667-a571-3e406e22e0ad<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: ap-jp-1<br>      image_id: 02d358d8-1b6c-4197-97b6-37b2649e3176<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: qa-de-1<br>      image_id: f3358d0f-c646-4ccb-9fa4-b87711178af1<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: eu-de-2<br>      image_id: 5f604d81-9789-4294-91ab-91aadfec1d30<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: eu-nl-1<br>      image_id: 5b8bf17a-3196-42b9-b0bd-f7238b0d2224<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: ap-sa-2<br>      image_id: c4bc038e-12e9-4daf-b4a7-e54e90b344f5<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br>    - region: ap-sa-1<br>      image_id: 4931ae57-2bb5-44a2-9199-c7db4779385e<br>      image_name: gardenlinux-openstack-gardener_prod_usi-amd64-2150.0.0-eb8696b9<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;Variant - TPM2 Trusted Boot&lt;/summary&gt;</p>
-<h3>Variant - TPM2 Trusted Boot</h3>
-<p>&lt;details&gt;<br>&lt;summary&gt;AWS - Amazon Web Services&lt;/summary&gt;</p>
-<p>#### AWS - Amazon Web Services</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: aws-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9/aws-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9.raw<br>  regions:<br>    - region: ap-northeast-3<br>      image_id: ami-078dc29cffb9af409<br>    - region: ap-southeast-5<br>      image_id: ami-08bd021f3dc5696eb<br>    - region: eu-central-2<br>      image_id: ami-0556aeacf7b89809a<br>    - region: il-central-1<br>      image_id: ami-0805b7cf35a2b8d21<br>    - region: eu-west-1<br>      image_id: ami-0a540f1d592161c44<br>    - region: eu-north-1<br>      image_id: ami-0aec970e1d519fbfe<br>    - region: ap-northeast-1<br>      image_id: ami-059703776de4af07b<br>    - region: ap-east-1<br>      image_id: ami-058af9dc2e4970399<br>    - region: sa-east-1<br>      image_id: ami-0c491da48ea5e0cfa<br>    - region: us-east-2<br>      image_id: ami-08fc168a1a794d573<br>    - region: me-central-1<br>      image_id: ami-0bb1ffc8543dd34ed<br>    - region: us-west-1<br>      image_id: ami-016b3d6e399e39fd3<br>    - region: eu-west-2<br>      image_id: ami-02e59202c1f375c34<br>    - region: ap-east-2<br>      image_id: ami-095e75a8aed893842<br>    - region: eu-west-3<br>      image_id: ami-0230c8c7a7e378ef2<br>    - region: ap-southeast-7<br>      image_id: ami-0e6692e7438dd4ebb<br>    - region: eu-central-1<br>      image_id: ami-06b0e71b1c7bf26b8<br>    - region: eu-south-2<br>      image_id: ami-0dcdc609bf941793d<br>    - region: ca-central-1<br>      image_id: ami-07d91148d3c8ed918<br>    - region: us-west-2<br>      image_id: ami-098e97ccd956891ed<br>    - region: mx-central-1<br>      image_id: ami-030cbc24bbced8a3d<br>    - region: ap-south-1<br>      image_id: ami-025387786da88a812<br>    - region: ap-south-2<br>      image_id: ami-02c5c5f4908c4cbac<br>    - region: af-south-1<br>      image_id: ami-064f0edb6313257ff<br>    - region: eu-south-1<br>      image_id: ami-004b824ca574ca3c3<br>    - region: ap-northeast-2<br>      image_id: ami-0808b5790072a239b<br>    - region: ca-west-1<br>      image_id: ami-03e6f28f49674dc28<br>    - region: ap-southeast-3<br>      image_id: ami-0ec662e5dbb0bcc9c<br>    - region: us-east-1<br>      image_id: ami-02af78085ee815a05<br>    - region: ap-southeast-4<br>      image_id: ami-0ad313cac75e799e5<br>    - region: me-south-1<br>      image_id: ami-0688283693bafd984<br>    - region: ap-southeast-1<br>      image_id: ami-0c3982ff8e233e29a<br>    - region: ap-southeast-2<br>      image_id: ami-032fdda7e82164ad4<br>    - region: ap-southeast-6<br>      image_id: ami-0004ae0e379005624<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;arm64&lt;/summary&gt;</p>
-<p>##### arm64</p>
-<p></code>`<code><br><ul><li>flavor: aws-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/aws-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9/aws-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9.raw<br>  regions:<br>    - region: ap-southeast-3<br>      image_id: ami-0835eaa25cd16ad73<br>    - region: ap-southeast-4<br>      image_id: ami-004a8656b28075a47<br>    - region: eu-south-1<br>      image_id: ami-0cd7fa26611bc1e5f<br>    - region: il-central-1<br>      image_id: ami-00019031a78b5da2d<br>    - region: ap-south-2<br>      image_id: ami-05fc89f7c3c223ef2<br>    - region: af-south-1<br>      image_id: ami-03f9edd1ace6b7cf2<br>    - region: ap-northeast-1<br>      image_id: ami-077803b1bd0b5989b<br>    - region: ap-northeast-2<br>      image_id: ami-05e2a57f9f1ce102d<br>    - region: eu-south-2<br>      image_id: ami-0075284d4878b9eb8<br>    - region: ap-southeast-2<br>      image_id: ami-0c2b5a0ebbb26aa79<br>    - region: us-east-2<br>      image_id: ami-05944e83c870ad8d5<br>    - region: ap-southeast-7<br>      image_id: ami-022f6980be643e8eb<br>    - region: ap-southeast-6<br>      image_id: ami-0822d3952b2deea12<br>    - region: eu-central-2<br>      image_id: ami-00f8438cded3f9b34<br>    - region: me-central-1<br>      image_id: ami-0e87ebedd5db020b2<br>    - region: ap-south-1<br>      image_id: ami-08575c25eca50bd09<br>    - region: eu-west-1<br>      image_id: ami-0caa3599e068042bb<br>    - region: ap-east-2<br>      image_id: ami-04730b7ccfdcbee77<br>    - region: me-south-1<br>      image_id: ami-0695187561df019b7<br>    - region: sa-east-1<br>      image_id: ami-052dd7827d670ddc7<br>    - region: us-east-1<br>      image_id: ami-04f7425a7347043e0<br>    - region: us-west-1<br>      image_id: ami-088af29b4b23ede8f<br>    - region: ap-southeast-5<br>      image_id: ami-080120e005538fcce<br>    - region: eu-north-1<br>      image_id: ami-03aa2da8bcd3fad59<br>    - region: ap-southeast-1<br>      image_id: ami-0fe72790d6c05f5a1<br>    - region: ca-west-1<br>      image_id: ami-08a06b1b009cadc32<br>    - region: ap-northeast-3<br>      image_id: ami-0bce3fae6c715e2e3<br>    - region: ca-central-1<br>      image_id: ami-04b02f201b672b596<br>    - region: us-west-2<br>      image_id: ami-01923254e4228b63b<br>    - region: mx-central-1<br>      image_id: ami-05c933d184556df56<br>    - region: eu-west-2<br>      image_id: ami-0ef5af35a2f6b498e<br>    - region: eu-central-1<br>      image_id: ami-0356b0c26faaf69e2<br>    - region: eu-west-3<br>      image_id: ami-0e99a677f277f4008<br>    - region: ap-east-1<br>      image_id: ami-0bddbaf8505c77d07<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;AZURE - Microsoft Azure&lt;/summary&gt;</p>
-<p>#### AZURE - Microsoft Azure</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: azure-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9/azure-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9.vhd<br>  gallery_images:<br>    - hyper_v_generation: V2<br>      azure_cloud: public<br>      image_id: /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod_tpm2_trustedboot-amd64/Versions/2150.0.0<br>    - hyper_v_generation: V2<br>      azure_cloud: china<br>      image_id: /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod_tpm2_trustedboot-amd64/Versions/2150.0.0<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;arm64&lt;/summary&gt;</p>
-<p>##### arm64</p>
-<p></code>`<code><br><ul><li>flavor: azure-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/azure-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9/azure-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9.vhd<br>  gallery_images:<br>    - hyper_v_generation: V2<br>      azure_cloud: public<br>      image_id: /CommunityGalleries/gardenlinux-13e998fe-534d-4b0a-8a27-f16a73aef620/Images/gardenlinux-nvme-gardener_prod_tpm2_trustedboot-arm64/Versions/2150.0.0<br>    - hyper_v_generation: V2<br>      azure_cloud: china<br>      image_id: /CommunityGalleries/gardenlinux-8e6518fb-9ae0-4f66-abfd-9a06997e2492/Images/gardenlinux-nvme-gardener_prod_tpm2_trustedboot-arm64/Versions/2150.0.0<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;GCP - Google Cloud Platform&lt;/summary&gt;</p>
-<p>#### GCP - Google Cloud Platform</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;amd64&lt;/summary&gt;</p>
-<p>##### amd64</p>
-<p></code>`<code><br><ul><li>flavor: gcp-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9/gcp-gardener_prod_tpm2_trustedboot-amd64-2150.0.0-eb8696b9.gcpimage.tar.gz<br>  image_name: gardenlinux-5d7c1ee825331d81-2150-0-0-eb8696b9<br>  project: sap-se-gcp-gardenlinux<br>  availability: Global (all regions)<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;details&gt;<br>&lt;summary&gt;arm64&lt;/summary&gt;</p>
-<p>##### arm64</p>
-<p></code>`<code><br><ul><li>flavor: gcp-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9</li></ul>  download_url: https://gardenlinux-github-releases.s3.amazonaws.com/objects/gcp-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9/gcp-gardener_prod_tpm2_trustedboot-arm64-2150.0.0-eb8696b9.gcpimage.tar.gz<br>  image_name: gardenlinux-14fe0be88d97bcc9-2150-0-0-eb8696b9<br>  project: sap-se-gcp-gardenlinux<br>  availability: Global (all regions)<br></code>`<code></p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<p>&lt;/details&gt;</p>
-<h2>Kernel Module Build Container (kmodbuild)</h2>
-</code>`<code>
-ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.0.0
-</code>``]]></description>
         </item>
 <item>
             <title>cloudoperators/cloudctl - v0.0.6</title>
