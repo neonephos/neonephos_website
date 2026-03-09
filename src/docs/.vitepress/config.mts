@@ -36,7 +36,7 @@ export default defineConfig({
     }
   },
 
-  // ⭐ FIXED: Import the loader *inside* buildEnd
+
   async buildEnd(siteConfig) {
     //const { default: posts } = await import('./data/blog.data.mts')
     const md = await createMarkdownRenderer( siteConfig.srcDir, siteConfig.markdown, siteConfig.site.base );
