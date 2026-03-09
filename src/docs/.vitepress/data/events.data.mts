@@ -3,6 +3,7 @@ import { createContentLoader } from 'vitepress'
 export default createContentLoader('events/*.md', {
   excerpt: true,
   render: true,
+  includeSrc: true,
   transform(data) {
     return data
       .filter(post => post.frontmatter.published !== false)
@@ -21,7 +22,7 @@ export default createContentLoader('events/*.md', {
           date: post.frontmatter.date,
           url: post.url,
           backgroundhex: post.frontmatter.backgroundhex,
-          full: post.src
+          full: content
         }
       })
   }

@@ -182,7 +182,7 @@ function generateEventsRSS(events, md) {
       const bodyHtml = event.full ? md.render(event.full) : ''
 
       var html = bannerHtml + bodyHtml
-      html = event.full;
+      //html = event.full;
       return `
   <item>
     <title><![CDATA[${event.title}]]></title>
