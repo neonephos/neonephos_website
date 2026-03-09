@@ -4,34 +4,141 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sun, 08 Mar 2026 12:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 12:08:10 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/extension-manager-operator - v0.6.39</title>
+            <title>platform-mesh/extension-manager-operator - v0.6.46</title>
             <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.6.39</guid>
-            <pubDate>Sun, 08 Mar 2026 04:46:13 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.6.46</guid>
+            <pubDate>Mon, 09 Mar 2026 10:43:58 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.6.38 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/677</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.6.38...v0.6.39</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.6.45 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/684</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.6.45...v0.6.46</p>]]></description>
         </item>
 <item>
-            <title>platform-mesh/platform-mesh-operator - v0.59.17</title>
+            <title>cobaltcore-dev/aurora-dashboard - v1.37.0</title>
+            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
+            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.37.0</guid>
+            <pubDate>Mon, 09 Mar 2026 10:40:44 +0000</pubDate>
+            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.36.0...v1.37.0">1.37.0</a> (2026-03-09)</h2>
+<h3>✨ Features</h3>
+<ul><li><strong>aurora-portal:</strong> added security group update route and modal, translations (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/550">#550</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/23c04c882b5974ce0cd898f53c929ed225e4d226">23c04c8</a>)</li></ul>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-golang - golang-1.24_1.24.13-2gl0+bp1877</title>
+            <link>https://github.com/gardenlinux/package-golang</link>
+            <guid>https://github.com/gardenlinux/package-golang/releases/tag/golang-1.24_1.24.13-2gl0+bp1877</guid>
+            <pubDate>Mon, 09 Mar 2026 10:39:54 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-golang/actions/runs/22849593888">22849593888</a></p>
+<p>Files in this release:<br>``<code><br>62652288064127d826ab6ca62a03f4e245fa8d968492279aa7f3bd9a897a74b7  ./golang-1.24-go-dbgsym_1.24.13-2gl0~bp1877_amd64.deb<br>60137118524d710670d3b8ad052e5e852a3512badd39d7e85e72972fca876fb9  ./golang-1.24_1.24.13-2gl0~bp1877_amd64.buildinfo<br>ff59bc0d5f08f19eedaff3d6162eee28039ac47e78832cf75c68be62f81169fe  ./golang-1.24_1.24.13.orig.tar.xz<br>c449ed729ef23be491bbc8715a947133206701ae442706b3a6af89a2544f4d3c  ./golang-1.24-doc_1.24.13-2gl0~bp1877_all.deb<br>72d04bcb97bed0c66c9cda8af8fa623ab99fe14831f2ec780d635798a8d31046  ./golang-1.24_1.24.13-2gl0~bp1877_all.deb<br>255cbc6ed3bdbef17e4e71095b62c0a5e3df537151ff3b08b3a3ad4e61b73ed0  ./golang-1.24_1.24.13-2gl0~bp1877_amd64.changes<br>5c7716e13cb68ae82aa1f958912756ab7ce4b50fc845d6990dfca7a3ceecc331  ./golang-1.24_1.24.13-2gl0~bp1877_arm64.changes<br>cb39a932c7bf833bee3847de6b93266a4f9ea5ef31a34e2b348ff4775aae6826  ./golang-1.24-go_1.24.13-2gl0~bp1877_amd64.deb<br>6d7f70fe035bfa8e3e34139ce3dfa65f56a85b38a063d29f3e4b5c7e6e2b0103  ./golang-1.24-go-dbgsym_1.24.13-2gl0~bp1877_arm64.deb<br>2d64082654a8410460e7bc733ff0afc0187332e8ef1bcdbe729640385880a6d4  ./golang-1.24-go_1.24.13-2gl0~bp1877_arm64.deb<br>3a3f6bf7580e773bab6d69461d9410cd61cf96974863e4ef377f0bd5a46e860e  ./golang-1.24_1.24.13-2gl0~bp1877.debian.tar.xz<br>724475eb4b2db635658e74f1110651999911aa79d9dbec565afe00542a76a892  ./golang-1.24_1.24.13-2gl0~bp1877.dsc<br>fa2f9c333f49981dbd1f538637875dd639c0d2234a101caf45142ca41353f025  ./golang-1.24-src_1.24.13-2gl0~bp1877_all.deb<br>57e8e87ecf2d0c6e7703ee25fc3ae96fbfd68cb1963bfe51de8cc6ff66a1d4aa  ./golang-1.24_1.24.13-2gl0~bp1877_arm64.buildinfo<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>gardener/gardener-extension-provider-aws - v1.68.1</title>
+            <link>https://github.com/gardener/gardener-extension-provider-aws</link>
+            <guid>https://github.com/gardener/gardener-extension-provider-aws/releases/tag/v1.68.1</guid>
+            <pubDate>Mon, 09 Mar 2026 09:58:09 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-provider-aws:v1.68.1]</h1>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[OPERATOR]</code> Reverted BYO CIDR validation to previous state to address regression by @AndreasBurger <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1724">[#1724</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>admission-aws-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-aws-application:v1.68.1</code></li><li>admission-aws-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-aws-runtime:v1.68.1</code></li><li>provider-aws: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/provider-aws:v1.68.1</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>gardener-extension-admission-aws: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/admission-aws:v1.68.1</code></li><li>gardener-extension-provider-aws: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/provider-aws:v1.68.1</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>open-component-model/prometheus - 0.24.0</title>
+            <link>https://github.com/open-component-model/prometheus</link>
+            <guid>https://github.com/open-component-model/prometheus/releases/tag/0.24.0</guid>
+            <pubDate>Mon, 09 Mar 2026 09:27:34 +0000</pubDate>
+            <description><![CDATA[<h2>Helm Charts</h2>
+<ul><li>prometheus-operator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/prometheus-operator:0.24.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/platform-mesh-operator - v0.59.24</title>
             <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.59.17</guid>
-            <pubDate>Sat, 07 Mar 2026 15:51:14 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.59.24</guid>
+            <pubDate>Mon, 09 Mar 2026 09:20:17 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(kcp-setup): split init-agent CRDs into separate files by @nexus49 in https://github.com/platform-mesh/platform-mesh-operator/pull/485</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.59.16...v0.59.17</p>]]></description>
+<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to 7f05f7a by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/492</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.59.23...v0.59.24</p>]]></description>
         </item>
 <item>
-            <title>platform-mesh/iam-service - v0.13.12</title>
+            <title>platform-mesh/iam-service - v0.13.20</title>
             <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.13.12</guid>
-            <pubDate>Sat, 07 Mar 2026 12:59:12 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.13.20</guid>
+            <pubDate>Mon, 09 Mar 2026 09:07:11 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.23.17 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/348</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.13.11...v0.13.12</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.23.20 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/356</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.13.19...v0.13.20</p>]]></description>
+        </item>
+<item>
+            <title>open-component-model/delivery-service - 0.1279.0</title>
+            <link>https://github.com/open-component-model/delivery-service</link>
+            <guid>https://github.com/open-component-model/delivery-service/releases/tag/0.1279.0</guid>
+            <pubDate>Mon, 09 Mar 2026 08:26:51 +0000</pubDate>
+            <description><![CDATA[<h2>Helm Charts</h2>
+<ul><li>bootstrapping: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/bootstrapping:0.1279.0</code></li><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-service:0.1279.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/extensions:0.1279.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-service:0.1279.0</code></li><li>extension-clamav: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-clamav:0.1279.0</code></li><li>extension-crypto: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-crypto:0.1279.0</code></li><li>extension-db-manager: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-db-manager:0.1279.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extensions:0.1279.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>gardener/etcd-backup-restore - v0.42.0</title>
+            <link>https://github.com/gardener/etcd-backup-restore</link>
+            <guid>https://github.com/gardener/etcd-backup-restore/releases/tag/v0.42.0</guid>
+            <pubDate>Mon, 09 Mar 2026 07:55:12 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/etcd-backup-restore:v0.42.0]</h1>
+<h2>⚠️ Breaking Changes</h2>
+<ul><li><code>[OPERATOR]</code> The <code>--enable-etcd-member-gc</code> and <code>--k8s-member-gc-duration</code> flags are removed along with the member GC feature due to a lack of use-cases. by @CaptainIRS <a href="https://github.com/gardener/etcd-backup-restore/pull/999">[#999</a>]</li></ul>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[OPERATOR]</code> Fix the deadlock issue in snapshotter. by @ishan16696 <a href="https://github.com/gardener/etcd-backup-restore/pull/971">[#971</a>]</li><li><code>[OPERATOR]</code> Memory leak issue has been fixed by ensuring the etcd watch client is properly closed. by @ishan16696 <a href="https://github.com/gardener/etcd-backup-restore/pull/985">[#985</a>]</li><li><code>[DEVELOPER]</code> The <code>make verify</code> target was fixed so that it properly executes unit tests. by @plkokanov <a href="https://github.com/gardener/etcd-backup-restore/pull/1002">[#1002</a>]</li></ul>
+<h2>🏃 Others</h2>
+<ul><li><code>[OPERATOR]</code> Upgrade etcd version to 3.5.27 by @Shreyas-s14 <a href="https://github.com/gardener/etcd-backup-restore/pull/986">[#986</a>]</li><li><code>[OPERATOR]</code> added the next-cluster-version-compatible flag for embed etcd and helm chart by @Shreyas-s14 <a href="https://github.com/gardener/etcd-backup-restore/pull/988">[#988</a>]</li><li><code>[OPERATOR]</code> export testresults as inlined ocm-resource by @heldkat <a href="https://github.com/gardener/etcd-backup-restore/pull/981">[#981</a>]</li><li><code>[OPERATOR]</code> The <code>copy</code> operation now fetches the latest 4 full snapshots when checking if a <code>final</code> full snapshot is present. by @plkokanov <a href="https://github.com/gardener/etcd-backup-restore/pull/1001">[#1001</a>]</li><li><code>[OPERATOR]</code> Upgrade to <code>golang:1.25.7</code> in <code>build/Dockerfile</code> by @Shreyas-s14 <a href="https://github.com/gardener/etcd-backup-restore/pull/990">[#990</a>]</li></ul>
+<h2>Container (OCI) Images</h2>
+<ul><li>etcdbrctl: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcdbrctl:v0.42.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.23.20</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.23.20</guid>
+            <pubDate>Mon, 09 Mar 2026 06:39:25 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.12.13 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/399</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.23.19...v0.23.20</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/account-operator - v0.12.13</title>
+            <link>https://github.com/platform-mesh/account-operator</link>
+            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.12.13</guid>
+            <pubDate>Mon, 09 Mar 2026 04:44:55 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.13.11 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/171</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.12.12...v0.12.13</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/golang-commons - v0.13.11</title>
+            <link>https://github.com/platform-mesh/golang-commons</link>
+            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.13.11</guid>
+            <pubDate>Mon, 09 Mar 2026 01:18:28 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/99designs/gqlgen to v0.17.88 by @renovate[bot] in https://github.com/platform-mesh/golang-commons/pull/184</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.13.10...v0.13.11</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-tcpdump - tcpdump_4.99.6-2gl0</title>
+            <link>https://github.com/gardenlinux/package-tcpdump</link>
+            <guid>https://github.com/gardenlinux/package-tcpdump/releases/tag/tcpdump_4.99.6-2gl0</guid>
+            <pubDate>Mon, 09 Mar 2026 00:02:26 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-tcpdump/actions/runs/22832913846">22832913846</a></p>
+<p>Files in this release:<br>``<code><br>d7d8f9d421bfbfbea15006077d008ace80190278f3d64195c88215b8e2f2e4a5  ./tcpdump_4.99.6-2gl0_amd64.buildinfo<br>ca8a9e1be71b636f7b6c06294fd4a7e82d35d8fbb6079be722fb9e16eb28699c  ./tcpdump_4.99.6-2gl0_arm64.changes<br>babdcec4cf8aa8d9037cc7aa3665e480c7f8e7c217910050f86303bab950543f  ./tcpdump-dbgsym_4.99.6-2gl0_amd64.deb<br>db6ca5a401bf8ab800cf1e4de89a05062b3ed8389467835a5ea9e3201d9ce8ac  ./tcpdump_4.99.6-2gl0_arm64.deb<br>dc32d8c45cef221829595404e50067143144246854bb59b8b89afb6e6f8b478b  ./tcpdump_4.99.6.orig.tar.xz<br>5e7fd55d95432e519cef48366d38a4bc1c02c9e6b5b8243012679c98d86fa33c  ./tcpdump-dbgsym_4.99.6-2gl0_arm64.deb<br>c83bed3f842b08170d219ab18d709074f3e9c7fb61d00a97516c7240df0ce186  ./tcpdump_4.99.6-2gl0_amd64.changes<br>9db891e630e56c31f08ba52391d566c7a92ab30a156db4b01f3865e4462c339f  ./tcpdump_4.99.6-2gl0.debian.tar.xz<br>b3030a9d467379b8370f682d42c9efb37e07f157bc3ced2f3f5b2d99f57b930e  ./tcpdump_4.99.6-2gl0.dsc<br>5065f3a3a2b30a6e333b5daf372cbb948a672f8978cbd34fb70a55199afb3c93  ./tcpdump_4.99.6-2gl0_arm64.buildinfo<br>d3fab05c5585322806f17236db52e10e8a20205ade7efb2ad6de5b2176a2658f  ./tcpdump_4.99.6-2gl0_amd64.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>gardener/etcd-wrapper - v0.7.0</title>
+            <link>https://github.com/gardener/etcd-wrapper</link>
+            <guid>https://github.com/gardener/etcd-wrapper/releases/tag/v0.7.0</guid>
+            <pubDate>Sun, 08 Mar 2026 12:59:45 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/etcd-wrapper:v0.7.0]</h1>
+<h2>🏃 Others</h2>
+<ul><li><code>[OPERATOR]</code> Upgrade to go 1.25.0 by @ishan16696 <a href="https://github.com/gardener/etcd-wrapper/pull/75">[#75</a>]</li><li><code>[OPERATOR]</code> Update to Go:1.25.7 in Dockerfile. by @ishan16696 <a href="https://github.com/gardener/etcd-wrapper/pull/82">[#82</a>]</li><li><code>[OPERATOR]</code> Upgrade to <code>golang:1.25.6</code> in <code>Dockerfile</code>. by @renormalize <a href="https://github.com/gardener/etcd-wrapper/pull/76">[#76</a>]</li><li><code>[OPERATOR]</code> Upgrade etcd version to 3.5.27 by @Shreyas-s14 <a href="https://github.com/gardener/etcd-wrapper/pull/80">[#80</a>]</li></ul>
+<h2>Container (OCI) Images</h2>
+<ul><li>etcd-wrapper: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcd-wrapper:v0.7.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>platform-mesh/portal - v0.18.31</title>
@@ -41,33 +148,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>fix(deps): update dependency @platform-mesh/portal-ui-lib to v0.39.12 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/453</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.18.30...v0.18.31</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/security-operator - v0.23.17</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.23.17</guid>
-            <pubDate>Sat, 07 Mar 2026 06:06:44 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.12.11 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/395</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.23.16...v0.23.17</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/account-operator - v0.12.11</title>
-            <link>https://github.com/platform-mesh/account-operator</link>
-            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.12.11</guid>
-            <pubDate>Sat, 07 Mar 2026 05:04:37 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.13.9 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/169</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.12.10...v0.12.11</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/golang-commons - v0.13.9</title>
-            <link>https://github.com/platform-mesh/golang-commons</link>
-            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.13.9</guid>
-            <pubDate>Sat, 07 Mar 2026 02:58:42 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp to v0.67.0 by @renovate[bot] in https://github.com/platform-mesh/golang-commons/pull/182</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.13.8...v0.13.9</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/rebac-authz-webhook - v0.4.16</title>
@@ -97,15 +177,6 @@
 <ul><li><code>[OPERATOR]</code> Controller-runtime cache is now restricted to only watch <code>Cluster</code> objects and strips managed fields from cached resources, reducing memory usage and API server load. by @nickytd <a href="https://github.com/gardener/logging/pull/455">[#455</a>]</li><li><code>[OPERATOR]</code> Switched from the full <code>github.com/gardener/gardener</code> dependency to the minimal <code>github.com/gardener/gardener/pkg/apis</code> package. Replaced Gardener&#x27;s extension controller <code>ShootFromCluster</code> with a local helper and the Gardener logger with the project&#x27;s own <code>pkg/log</code> logger. Kubernetes libraries bumped to v0.35.1. by @nickytd <a href="https://github.com/gardener/logging/pull/454">[#454</a>]</li><li><code>[DEVELOPER]</code> Updated dependencies including golangci-lint and various Go tooling packages, addressed linter feedback with appropriate security annotations and style suppressions, and improved Makefile go fix command. by @nickytd <a href="https://github.com/gardener/logging/pull/451">[#451</a>]</li><li><code>[DEVELOPER]</code> Modernized codebase with go fix: replaced traditional for loops with range loops and added automated go fix validation to CI pipeline by @nickytd <a href="https://github.com/gardener/logging/pull/450">[#450</a>]</li></ul>
 <h2>Container (OCI) Images</h2>
 <ul><li>event-logger: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/event-logger:v1.2.0</code></li><li>fluent-bit-plugin: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/fluent-bit-plugin:v1.2.0</code></li><li>tune2fs: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/tune2fs:v1.2.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>cobaltcore-dev/aurora-dashboard - v1.36.0</title>
-            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
-            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.36.0</guid>
-            <pubDate>Fri, 06 Mar 2026 16:22:08 +0000</pubDate>
-            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.35.0...v1.36.0">1.36.0</a> (2026-03-06)</h2>
-<h3>✨ Features</h3>
-<ul><li><strong>aurora-portal:</strong> container properties management (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/546">#546</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/eaa68f538ec6577fd5d0a128143f7866788d8e71">eaa68f5</a>)</li></ul>]]></description>
         </item>
 <item>
             <title>cloudoperators/heureka - v1.50.0</title>
@@ -949,15 +1020,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:1592.18
 <ul><li>kube-rbac-proxy-watcher: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/kube-rbac-proxy-watcher:v0.4.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>open-component-model/delivery-service - 0.1277.0</title>
-            <link>https://github.com/open-component-model/delivery-service</link>
-            <guid>https://github.com/open-component-model/delivery-service/releases/tag/0.1277.0</guid>
-            <pubDate>Fri, 06 Mar 2026 07:28:06 +0000</pubDate>
-            <description><![CDATA[<h2>Helm Charts</h2>
-<ul><li>bootstrapping: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/bootstrapping:0.1277.0</code></li><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-service:0.1277.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/extensions:0.1277.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-service:0.1277.0</code></li><li>extension-clamav: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-clamav:0.1277.0</code></li><li>extension-crypto: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-crypto:0.1277.0</code></li><li>extension-db-manager: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-db-manager:0.1277.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extensions:0.1277.0</code></li></ul>]]></description>
-        </item>
-<item>
             <title>gardener/ops-toolbelt - 0.47.0</title>
             <link>https://github.com/gardener/ops-toolbelt</link>
             <guid>https://github.com/gardener/ops-toolbelt/releases/tag/0.47.0</guid>
@@ -1031,6 +1093,13 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:1592.18
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>docs: add BMWK-EU funding notice to README by @nexus49 in https://github.com/platform-mesh/iam-ui/pull/37</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-ui/compare/0.10.4...v0.10.5</p>]]></description>
+        </item>
+<item>
+            <title>openmcp-project/observability-stack - Release v0.0.3</title>
+            <link>https://github.com/openmcp-project/observability-stack</link>
+            <guid>https://github.com/openmcp-project/observability-stack/releases/tag/Release v0.0.3</guid>
+            <pubDate>Thu, 05 Mar 2026 10:02:53 +0000</pubDate>
+            <description><![CDATA[<p>Release v0.0.3</p>]]></description>
         </item>
 <item>
             <title>gardener/gardener-extension-provider-gcp - v1.49.4</title>
@@ -1197,36 +1266,6 @@ Initial implementation.]]></description>
 <ul><li>gardener-extension-admission-alicloud: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/admission-alicloud:v1.68.3</code></li><li>gardener-extension-provider-alicloud: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/provider-alicloud:v1.68.3</code></li></ul>]]></description>
         </item>
 <item>
-            <title>gardener/gardener-extension-provider-aws - v1.68.0</title>
-            <link>https://github.com/gardener/gardener-extension-provider-aws</link>
-            <guid>https://github.com/gardener/gardener-extension-provider-aws/releases/tag/v1.68.0</guid>
-            <pubDate>Mon, 02 Mar 2026 14:48:09 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-provider-aws:v1.68.0]</h1>
-<h2>⚠️ Breaking Changes</h2>
-<ul><li><code>[OPERATOR]</code> Remove terraformer reconciler for infrastructure resources by @kon-angelo <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1617">[#1617</a>]</li><li><code>[DEVELOPER]</code> The <code>PLATFORM</code> makefile variable has been replaced by <code>TARGET_PLATFORM</code>. by @wpross <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1693">[#1693</a>]</li></ul>
-<h2>✨ New Features</h2>
-<ul><li><code>[USER]</code> This extension now supports shoot clusters with Kubernetes version 1.35. You should consider the <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.35.md">Kubernetes release notes</a> before upgrading to 1.35. by @rfranzke <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1677">[#1677</a>]</li><li><code>[DEVELOPER]</code> Gardener extension provider-aws container images now can be built for multiple platforms locally via the variable <code>TARGET_PLATFORMS</code>, e.g. <code>make docker-images TARGET_PLATFORMS=linux/amd64,linux/arm64</code>. If the variable is unset, the container images are built for the platform <code>linux/&lt;host-arch&gt;</code> only. by @wpross <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1693">[#1693</a>]</li></ul>
-<h2>🐛 Bug Fixes</h2>
-<ul><li><code>[OPERATOR]</code> The cloud-controller-manager image used for <code>Shoot</code> clusters running on kubernetes <code>1.31</code> was downgraded from <code>v1.31.9</code> to <code>v1.31.8</code>. This was done to resolve an issue that caused reconciliations of <code>Service</code>s of type LoadBalancer to fail because of attempts to add already existing <code>IpPermission</code> rules to the security groups created for the LoadBalancers. by @plkokanov <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1671">[#1671</a>]</li><li><code>[OPERATOR]</code> Fixed missing create <code>event</code> permissions in runtime cluster when publishing &quot;became leader&quot; event by @axel7born <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1695">[#1695</a>]</li><li><code>[OPERATOR]</code> Fixed <code>DNSRecords</code> not reconciling in runtime cluster because of missing <code>namespace</code> permissions by @axel7born <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1695">[#1695</a>]</li><li><code>[OPERATOR]</code> Add check for non-empty IPv6 CIDR block before updating state by @hebelsan <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1683">[#1683</a>]</li></ul>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> Allow to use one secret as an infrastructure secret as well as a dns secret. by @wpross <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1689">[#1689</a>]</li><li><code>[OPERATOR]</code> Disallow deletion of duplicated zones in infraConfig section by @hebelsan <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1475">[#1475</a>]</li><li><code>[OPERATOR]</code> Update <code>aws-custom-route-controller</code> image to <code>v0.15.0</code>. by @DockToFuture <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1669">[#1669</a>]</li><li><code>[OPERATOR]</code> Add support for AMD SEV-SNP in CPU options by @hebelsan <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1642">[#1642</a>]</li><li><code>[OPERATOR]</code> The <code>.spec.trafficDistribution</code> field of the topology-aware Services will be automatically switched from the deprecated <code>PreferClose</code> to the new <code>PreferSameZone</code> option for Kubernetes 1.34+. by @Kostov6 <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1690">[#1690</a>]</li><li><code>[OPERATOR]</code> Prevent Calico from setting the <code>NetworkUnavailable</code> condition on nodes when overlay networking gets disabled, and ensures cleanup of existing Calico-set conditions. by @DockToFuture <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1703">[#1703</a>]</li><li><code>[OPERATOR]</code> Fix cleanup logic when shoot is going to hibernation or waking up. by @DockToFuture <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1714">[#1714</a>]</li><li><code>[OPERATOR]</code> Add permissions to set network unavailable condition. by @DockToFuture <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1665">[#1665</a>]</li><li><code>[OPERATOR]</code> AWS secret validation now allows mixing standard (e.g., <code>accessKeyID</code>) and DNS-specific keys (e.g., <code>AWS_SECRET_ACCESS_KEY</code>) within the same secret, but prevents duplicate keys for the same field (e.g., both <code>accessKeyID</code> and <code>AWS_ACCESS_KEY_ID</code>). by @wpross <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1667">[#1667</a>]</li><li><code>[OPERATOR]</code> Allow <code>aws-custom-route-controller</code> to write events of group <code>events.k8s.io</code> by @MartinWeindel <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1651">[#1651</a>]</li><li><code>[OPERATOR]</code> Add missing s3 policy partition for EUSC region by @kon-angelo <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1663">[#1663</a>]</li><li><code>[OPERATOR]</code> Update AWS Load Balancer Controller from <code>v2.17.1</code> to <code>v3.0.0</code>. by @wpross <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1707">[#1707</a>]</li><li><code>[OPERATOR]</code> Fix an issue that would prevent cluster-autoscaler from considering <code>VolumeAttributesClasses</code> for scaling on shoot <code>&lt; v1.34</code> by @matthias-horne <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1666">[#1666</a>]</li><li><code>[OPERATOR]</code> Enhance VPC validation by checking subnet CIDRs against VPC CIDR by @hebelsan <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1662">[#1662</a>]</li><li><code>[OPERATOR]</code> Improved opt-in mechanism for dual-stack to avoid automatic load balancer recreation in dual-stack clusters by @axel7born <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1696">[#1696</a>]</li><li><code>[DEPENDENCY]</code> The following container images have been updated:</li></ul>    - cloud-controller-manager: v1.31.8 -&gt; v1.31.9 (patch)  
-    - csi-driver: v1.54.0 -&gt; v1.55.0 (singleton)  
-    - csi-driver-efs: v2.2.0 -&gt; v2.3.0 (singleton)  
-    - csi-volume-modifier: v0.9.1 -&gt; v0.9.2 (singleton) by @gardener-github-actions[bot] <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1648">[#1648</a>]
-<ul><li><code>[DEPENDENCY]</code> The following container images have been updated:</li></ul>    - csi-attacher: v4.10.0 -&gt; v4.11.0 (singleton)  
-    - csi-driver: v1.55.0 -&gt; v1.56.0 (singleton)  
-    - csi-liveness-probe: v2.17.0 -&gt; v2.18.0 (singleton)  
-    - csi-node-driver-registrar: v2.15.0 -&gt; v2.16.0 (singleton)  
-    - csi-provisioner: v6.1.0 -&gt; v6.1.1 (patch)  
-    - csi-resizer: v2.0.0 -&gt; v2.1.0 (minor)  
-    - csi-snapshot-controller: v8.4.0 -&gt; v8.5.0 (singleton)  
-    - csi-snapshotter: v8.4.0 -&gt; v8.5.0 (singleton) by @gardener-github-actions[bot] <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1692">[#1692</a>]
-<ul><li><code>[DEPENDENCY]</code> The following container images have been updated:</li></ul>    - machine-controller-manager-provider-aws: v0.27.1 -&gt; v0.27.2 (singleton) by @takoverflow <a href="https://github.com/gardener/gardener-extension-provider-aws/pull/1704">[#1704</a>]
-<h2>Helm Charts</h2>
-<ul><li>admission-aws-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-aws-application:v1.68.0</code></li><li>admission-aws-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-aws-runtime:v1.68.0</code></li><li>provider-aws: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/provider-aws:v1.68.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>gardener-extension-admission-aws: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/admission-aws:v1.68.0</code></li><li>gardener-extension-provider-aws: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/provider-aws:v1.68.0</code></li></ul>]]></description>
-        </item>
-<item>
             <title>open-component-model/open-component-model - CLI 0.1.0</title>
             <link>https://github.com/open-component-model/open-component-model</link>
             <guid>https://github.com/open-component-model/open-component-model/releases/tag/CLI 0.1.0</guid>
@@ -1347,14 +1386,6 @@ If you want to engage with us, check our <a href="https://ocm.software/community
             <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
             <pubDate>Mon, 02 Mar 2026 07:40:14 +0000</pubDate>
             <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-tcpdump - tcpdump_4.99.5-3gl0</title>
-            <link>https://github.com/gardenlinux/package-tcpdump</link>
-            <guid>https://github.com/gardenlinux/package-tcpdump/releases/tag/tcpdump_4.99.5-3gl0</guid>
-            <pubDate>Mon, 02 Mar 2026 00:02:02 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-tcpdump/actions/runs/22556014629">22556014629</a></p>
-<p>Files in this release:<br>``<code><br>6b97c4bd96de0bc97baf41535322654e58f36878b557d679dc1e4084247822a5  ./tcpdump_4.99.5-3gl0.debian.tar.xz<br>30db78593de92bcbe44b4f5c5fbb2b7a8370344d4134618b4ed923f52fd2116a  ./tcpdump_4.99.5-3gl0_amd64.buildinfo<br>a0d7c90cb3852feea94a5db819f160d0412d0c980e19268b5d17f6b247bc93eb  ./tcpdump_4.99.5-3gl0_arm64.changes<br>2e35df0d18785d4722ea69578c2398f9d80d99c6220caf05805f3818547dc785  ./tcpdump_4.99.5.orig.tar.xz<br>48ec33e47e41d9be062fb1836c18146e14c0174f7b8b7849db0c6d9126d3898f  ./tcpdump_4.99.5-3gl0_amd64.deb<br>cdb9329bb41de919d5a331561f58a870ffc832f2b0bc0edac73c35b40dfc6006  ./tcpdump_4.99.5-3gl0_arm64.buildinfo<br>5d33ace1d1186036662392e63f89707a567e0624452cebb6e9812b267b8280dc  ./tcpdump_4.99.5-3gl0.dsc<br>c27872b4adca9490c38b26e76605dba2397b3a63db06d564bf64ebe45eb77584  ./tcpdump_4.99.5-3gl0_arm64.deb<br>be55d71743ebfb75c4e162dc3f1bd5464c07b810f616f5abd71e952dca5e3db5  ./tcpdump-dbgsym_4.99.5-3gl0_amd64.deb<br>9edff57030731e3e7030bc2a1de6f4abc98c17b3c9d9ccbed8464b82ec9c3475  ./tcpdump_4.99.5-3gl0_amd64.changes<br>a219d7d3888793ec2d3d50985f94be443fe35851afefc37e70bb5bf5390d73b3  ./tcpdump-dbgsym_4.99.5-3gl0_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardener/hyperkube - unnamed-release</title>
@@ -1583,19 +1614,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.2]]></descriptio
 <h1>Changelog</h1>]]></description>
         </item>
 <item>
-            <title>gardener/etcd-backup-restore - unnamed-release</title>
-            <link>https://github.com/gardener/etcd-backup-restore</link>
-            <guid>https://github.com/gardener/etcd-backup-restore/releases/tag/unnamed-release</guid>
-            <pubDate>Mon, 23 Feb 2026 15:26:20 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/etcd-backup-restore:v0.41.1]</h1>
-<h2>🐛 Bug Fixes</h2>
-<ul><li><code>[OPERATOR]</code> Fix the deadlock issue in snapshotter. by @ishan16696 <a href="https://github.com/gardener/etcd-backup-restore/pull/984">[#984</a>]</li><li><code>[OPERATOR]</code> Memory leak issue has been fixed by ensuring the etcd watch client is properly closed. by @ishan16696 <a href="https://github.com/gardener/etcd-backup-restore/pull/987">[#987</a>]</li></ul>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> Upgrade to <code>golang:1.25.7</code> in <code>build/Dockerfile</code> by @Shreyas-s14 <a href="https://github.com/gardener/etcd-backup-restore/pull/997">[#997</a>]</li><li><code>[OPERATOR]</code> Added the <code>next-cluster-version-compatible</code> flag to embed etcd and helm chart for version compatibility of etcd. by @Shreyas-s14 <a href="https://github.com/gardener/etcd-backup-restore/pull/998">[#998</a>]</li></ul>
-<h2>Container (OCI) Images</h2>
-<ul><li>etcdbrctl: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcdbrctl:v0.41.1</code></li></ul>]]></description>
-        </item>
-<item>
             <title>openmcp-project/cluster-provider-gardener - Release v0.11.0</title>
             <link>https://github.com/openmcp-project/cluster-provider-gardener</link>
             <guid>https://github.com/openmcp-project/cluster-provider-gardener/releases/tag/Release v0.11.0</guid>
@@ -1617,17 +1635,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.2]]></descriptio
 
 #### [H]
 <ul><li>ginkgo --sem-ver-filter=&quot;2.1.1, redis=8.2.0&quot; <strong>(#174, ⚙️)</strong></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardener/etcd-wrapper - unnamed-release</title>
-            <link>https://github.com/gardener/etcd-wrapper</link>
-            <guid>https://github.com/gardener/etcd-wrapper/releases/tag/unnamed-release</guid>
-            <pubDate>Mon, 23 Feb 2026 11:04:26 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/etcd-wrapper:v0.6.2]</h1>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> Update to Go:1.25.7 in Dockerfile. by @ishan16696 <a href="https://github.com/gardener/etcd-wrapper/pull/83">[#83</a>]</li></ul>
-<h2>Container (OCI) Images</h2>
-<ul><li>etcd-wrapper: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcd-wrapper:v0.6.2</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/gardener-extension-shoot-rsyslog-relp - v0.12.0</title>
@@ -2007,14 +2014,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.2]]></descriptio
             <pubDate>Mon, 16 Feb 2026 14:53:20 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-golang-defaults/actions/runs/22067373272">22067373272</a></p>
 <p>Files in this release:<br>``<code><br>0532c33b1f38c9d09ff6090a47fcf4d4331314726be88e0c3a37ad5f8c8515b9  ./golang-defaults_1.25gl0_arm64.changes<br>ea6583cb3502b25a4e93e0686de15cf6734bd4457664aca639cb8ee68775d40b  ./golang-defaults_1.25gl0_amd64.changes<br>435209c647976dc3c7299b04f8f4136ad84535826ff5e48250f605cb12a3047c  ./golang-go_1.25gl0_arm64.deb<br>37ae9edc0b9eede1be9e004b9c25a2c6ac9ec431292cee6d050c3ae87b88db56  ./golang-defaults_1.25gl0_amd64.buildinfo<br>1eb23fc8b15a083e4073365cdeafb185bc766f89341496e51c2ff8be630013f1  ./golang-doc_1.25gl0_all.deb<br>28bb973b61900d78df1051c80000c58c83bf2f8e18ae9b6b951992189f479f24  ./golang_1.25gl0_amd64.deb<br>6d6056257bd6edb2ea99fa4e9defce60fa318983524679134be8994ff412b29f  ./golang_1.25gl0_arm64.deb<br>0a21157c2bed52343f0a27e819e6996f288a30451f659ab638dbac5a7a67d683  ./golang-src_1.25gl0_all.deb<br>224fde7cb1fff96da5810b253b5ff98c9d0a40ce65129618818d8ae0d0e48159  ./golang-defaults_1.25gl0_arm64.buildinfo<br>9f9ab9dbe2783ed104c38f05288d312716da89bef0d9f92a008792481aaec004  ./golang-defaults_1.25gl0.tar.xz<br>5a0d6ed986dffc14044481938b8f9ae4d75d1ad32e650201812e392f3122f658  ./golang-any_1.25gl0_amd64.deb<br>da0570557ceedc71047c38b836d107ee6934cca48ee4af0400e513d4b3ac4a41  ./golang-go_1.25gl0_amd64.deb<br>2d01d396d32cc84ce2e0c37674fcb06511eb9d061cdd86d755861a0e14fb1130  ./golang-any_1.25gl0_arm64.deb<br>87c5f7970682302e25134821c47f9fe607df44d393ee25caa37a965470548395  ./golang-defaults_1.25gl0.dsc<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-golang - golang-1.25_1.25.7-2gl0</title>
-            <link>https://github.com/gardenlinux/package-golang</link>
-            <guid>https://github.com/gardenlinux/package-golang/releases/tag/golang-1.25_1.25.7-2gl0</guid>
-            <pubDate>Mon, 16 Feb 2026 13:55:56 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-golang/actions/runs/22065470630">22065470630</a></p>
-<p>Files in this release:<br>``<code><br>e77891c920ed610dda6d87406e738e61e0bf897ebedfc41f266606bf884d8534  ./golang-1.25-doc_1.25.7-2gl0_all.deb<br>a118c2ad5b5316a1d99a446342a309ae88899db643914bf8fb25da1d2436cad7  ./golang-1.25-go-dbgsym_1.25.7-2gl0_arm64.deb<br>9c3e3b8852c0080d132b13951a68ca2b14501161de8957053869c3128c384ee4  ./golang-1.25_1.25.7.orig.tar.xz<br>bdd44e4cd3c955d77e2ddeab88c1f3bd046fc4856024061fc19050e063f87e3f  ./golang-1.25-go_1.25.7-2gl0_amd64.deb<br>29e9b4ac6a018e234f959e08553586d9f0d1ea8bdb421f89405a36c0d0ccc427  ./golang-1.25-src_1.25.7-2gl0_all.deb<br>fdaec00c79b5787924bbfb295fa21932ff5c78d90d870d89b5a079572011fe06  ./golang-1.25_1.25.7-2gl0_amd64.buildinfo<br>fd10f416dc9e9435aa66d1bf7830aef55d14671a5fcfe0b639e8434e1a353a0f  ./golang-1.25-go-dbgsym_1.25.7-2gl0_amd64.deb<br>0e65bc947cd01666ea8d34da97d106d0bbe7a41ae6451607799d554dd3819808  ./golang-1.25_1.25.7-2gl0_all.deb<br>c2cb8b9aeb6e6660c52545ed3d5397907a8b8993f720db2efa5d34b6e7a786e3  ./golang-1.25_1.25.7-2gl0.dsc<br>9f14cbfda23d2c4d19a4b549af268546331102798e9a453f973cfb53bbfddb73  ./golang-1.25-go_1.25.7-2gl0_arm64.deb<br>428084af10d85e11c07dd93b2ca1afcb7e2c52d45f3e8d566af1fbc12422418e  ./golang-1.25_1.25.7-2gl0_arm64.changes<br>ad1f3dfbfd5efdd185670ffdd5bba62440b17fe9c95fe58935451dfe06936c2e  ./golang-1.25_1.25.7-2gl0_arm64.buildinfo<br>6a8bf9d7fc4087b172bcef784761bb473bc640e084d5792f9b5de59f9e784b06  ./golang-1.25_1.25.7-2gl0.debian.tar.xz<br>cb379a3a0bbbcc70a8630a986afcb40309c86ae4b089f01ff548f404d9229157  ./golang-1.25_1.25.7-2gl0_amd64.changes<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardener/gardener-extension-os-gardenlinux - v0.36.0</title>
@@ -3768,14 +3767,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
 <h2>🧰 Maintenance</h2>
 
 <ul><li>Prepare v0.5.1 @gonzolino (#820)</li><li>chore(deps): bump golang from 1.25.2 to 1.25.3 in the docker-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#819)</li><li>chore(deps): bump golang from 1.25.1 to 1.25.2 in the docker-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#816)</li><li>chore(deps): bump fsfe/reuse-action from 5 to 6 in the gh-actions-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#817)</li></ul>]]></description>
-        </item>
-<item>
-            <title>open-component-model/prometheus - 0.21.0</title>
-            <link>https://github.com/open-component-model/prometheus</link>
-            <guid>https://github.com/open-component-model/prometheus/releases/tag/0.21.0</guid>
-            <pubDate>Wed, 29 Oct 2025 08:34:59 +0000</pubDate>
-            <description><![CDATA[<h2>Helm Charts</h2>
-<ul><li>prometheus-operator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/prometheus-operator:0.21.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-refpolicy - refpolicy_2.20250213-11gl0</title>
