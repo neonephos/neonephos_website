@@ -21,7 +21,7 @@ export default createContentLoader('events/*.md', {
           date: post.frontmatter.date,
           url: post.url,
           backgroundhex: post.frontmatter.backgroundhex,
-          full: content
+          full: post.src
         }
       })
   }
