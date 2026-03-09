@@ -16,7 +16,9 @@ export default createContentLoader('events/*.md', {
         bannerMobile: post.frontmatter.bannerMobile,
         date: post.frontmatter.date,
         url: post.url,
-        backgroundhex:post.frontmatter.backgroundhex
+        backgroundhex:post.frontmatter.backgroundhex,
+        body: post.body,      // <-- add this
+        html: post.html 
       }))
   }
 })

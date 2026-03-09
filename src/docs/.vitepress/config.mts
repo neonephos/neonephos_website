@@ -43,14 +43,19 @@ export default defineConfig({
     const loader = (await import('./data/blog.data.mts')).default
     const posts = await loader.load()
     const outDir = siteConfig.outDir
-    const rss = generateRSS(posts, md)
+    const rss = generateBlogRSS(posts, md)
     const docsDir = path.resolve(process.cwd(), 'docs');
     const feedPath = path.join(outDir, 'feeds', 'blog', 'rss.xml')
     fs.mkdirSync(path.dirname(feedPath), { recursive: true })
     fs.writeFileSync(feedPath, rss)
 
+    const eventsLoader = (await import('./data/events.data.mts')).default
+    const events = await eventsLoader.load()
+    const eventsRSS = generateEventsRSS(events, md)
 
-
+    const eventsFeedPath = path.join(outDir, 'feeds', 'events', 'rss.xml')
+    fs.mkdirSync(path.dirname(eventsFeedPath), { recursive: true })
+    fs.writeFileSync(eventsFeedPath, eventsRSS)
   },
 
   themeConfig: {
@@ -155,7 +160,54 @@ function getViteConfig() {
   }
 }
 
-function generateRSS(posts, md) {
+function generateEventsRSS(events, md) {
+  const siteUrl = 'https://neonephos.org'
+
+  const items = events
+    .map(event => {
+      const link = siteUrl + event.url
+
+      // Banner fallback logic
+      const bannerSrc =
+        event.banner ||
+        event.bannerSmall ||
+        event.bannerMobile ||
+        null
+
+      const bannerHtml = bannerSrc
+        ? `<p><img src="${siteUrl}/${bannerSrc}" alt="${event.title} banner" /></p>`
+        : ''
+
+      // Render full event body (Markdown → HTML)
+      const bodyHtml = event.body ? md.render(event.body) : ''
+
+      const html = bannerHtml + bodyHtml
+
+      return `
+  <item>
+    <title><![CDATA[${event.title}]]></title>
+    <link>${link}</link>
+    <guid>${link}</guid>
+    <pubDate>${new Date(event.date).toUTCString()}</pubDate>
+    <description><![CDATA[${html}]]></description>
+  </item>`
+    })
+    .join('')
+
+  return `<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>NeoNephos Events</title>
+  <link>${siteUrl}</link>
+  <description>Upcoming and past events from the NeoNephos Foundation</description>
+  <language>en</language>
+  ${items}
+</channel>
+</rss>`
+}
+
+
+function generateBlogRSS(posts, md) {
   const siteUrl = 'https://neonephos.org'
 
   const items = posts
