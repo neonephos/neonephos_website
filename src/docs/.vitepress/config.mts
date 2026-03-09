@@ -160,6 +160,7 @@ function getViteConfig() {
   }
 }
 
+
 function generateEventsRSS(events, md) {
   const siteUrl = 'https://neonephos.org'
 
@@ -167,7 +168,6 @@ function generateEventsRSS(events, md) {
     .map(event => {
       const link = siteUrl + event.url
 
-      // Banner fallback logic
       const bannerSrc =
         event.banner ||
         event.bannerSmall ||
@@ -178,8 +178,8 @@ function generateEventsRSS(events, md) {
         ? `<p><img src="${siteUrl}/${bannerSrc}" alt="${event.title} banner" /></p>`
         : ''
 
-      // Render full event body (Markdown → HTML)
-      const bodyHtml = event.body ? md.render(event.body) : ''
+      // Use `full` (Markdown without frontmatter) instead of non-existent `body`
+      const bodyHtml = event.full ? md.render(event.full) : ''
 
       const html = bannerHtml + bodyHtml
 
@@ -205,6 +205,7 @@ function generateEventsRSS(events, md) {
 </channel>
 </rss>`
 }
+
 
 
 function generateBlogRSS(posts, md) {
