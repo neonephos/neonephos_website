@@ -14,12 +14,16 @@ export default createContentLoader('events/*.md', {
         const raw = post.src || ''
         const content = raw.replace(/^---[\s\S]*?---/, '').trim()
 
+        const rssPubDate =
+          post.frontmatter.rssPubDate || post.frontmatter.date
+
         return {
           title: post.frontmatter.title,
           banner: post.frontmatter.banner,
           bannerSmall: post.frontmatter.bannerSmall,
           bannerMobile: post.frontmatter.bannerMobile,
           date: post.frontmatter.date,
+          rssPubDate,
           url: post.url,
           backgroundhex: post.frontmatter.backgroundhex,
           full: content

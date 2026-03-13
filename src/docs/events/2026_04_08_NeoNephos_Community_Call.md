@@ -6,6 +6,7 @@ bannerMobile: "assets/events/20260408_community_call_banner_mobile.svg"
 bannerSmall: "assets/events/20260408_community_call_banner_small.svg"
 backgroundhex: "#889aa4ff"
 tags: ["neonephos", "community-call"]
+rssPubDate: "2026-03-12"
 published: true
 ---
 

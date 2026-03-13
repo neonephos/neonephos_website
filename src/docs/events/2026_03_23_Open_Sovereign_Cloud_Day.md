@@ -6,6 +6,7 @@ bannerMobile: "assets/events/20262303_open_sovereign_cloud_day_banner_mobile.svg
 bannerSmall: "assets/events/20262303_open_sovereign_cloud_day_banner_small.svg"
 backgroundhex: "#889aa4ff"
 tags: ["neonephos", "open-sovereign-cloud-day"]
+rssPubDate: "2026-03-12"
 published: true
 ---
 
