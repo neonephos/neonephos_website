@@ -4,9 +4,27 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sat, 14 Mar 2026 12:06:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 12:06:17 +0000</lastBuildDate>
 
     <item>
+            <title>platform-mesh/portal - v0.19.12</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.19.12</guid>
+            <pubDate>Sun, 15 Mar 2026 09:52:56 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): update dependency jsdom to v29 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/472</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.19.11...v0.19.12</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.6.73</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.6.73</guid>
+            <pubDate>Sat, 14 Mar 2026 16:24:10 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.6.72 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/712</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.6.72...v0.6.73</p>]]></description>
+        </item>
+<item>
             <title>platform-mesh/iam-service - v0.13.30</title>
             <link>https://github.com/platform-mesh/iam-service</link>
             <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.13.30</guid>
@@ -23,15 +41,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.12.15 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/408</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.23.26...v0.23.27</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.6.72</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.6.72</guid>
-            <pubDate>Sat, 14 Mar 2026 01:08:47 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.6.71 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/711</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.6.71...v0.6.72</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/account-operator - v0.12.15</title>
@@ -379,15 +388,6 @@
 <h2>Helm Charts</h2>
 <ul><li>runtime-networking-filter: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/runtime-networking-filter:v0.28.0</code></li><li>shoot-networking-filter-admission-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-networking-filter-admission-application:v0.28.0</code></li><li>shoot-networking-filter-admission-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-networking-filter-admission-runtime:v0.28.0</code></li><li>shoot-networking-filter: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-networking-filter:v0.28.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>gardener-extension-shoot-networking-filter-admission: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-networking-filter-admission:v0.28.0</code></li><li>gardener-extension-shoot-networking-filter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-networking-filter:v0.28.0</code></li><li>gardener-runtime-networking-filter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/runtime-networking-filter:v0.28.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/portal - v0.19.5</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.19.5</guid>
-            <pubDate>Wed, 11 Mar 2026 12:51:34 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update dependency @platform-mesh/portal-ui-lib to v0.42.0 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/464</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.19.4...v0.19.5</p>]]></description>
         </item>
 <item>
             <title>gardener/gardener-extension-shoot-networking-problemdetector - v0.32.1</title>
