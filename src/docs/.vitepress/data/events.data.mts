@@ -23,7 +23,7 @@ export default createContentLoader('events/*.md', {
           bannerSmall: post.frontmatter.bannerSmall,
           bannerMobile: post.frontmatter.bannerMobile,
           date: post.frontmatter.date,
-          rssPubDate,
+          rssPubDate: rssPubDate,
           url: post.url,
           backgroundhex: post.frontmatter.backgroundhex,
           full: content
