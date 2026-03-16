@@ -16,7 +16,7 @@ published: true
 
 Our members contribute to NeoNephos in a variety of ways. Case in point is [Cyberus Technology GmbH](https://cyberus-technology.de/), which has seen its paper [Confidential Computing Revisited: Usability, Market, Standpoints and Trends](https://hal.science/hal-05504115v1) uploaded to the open archive HAL.  
 
-The relation of this paper to NeoNephos' mission becomes more apparent, by consulting the abstract:
+The relation of this paper to NeoNephos' mission becomes more apparent, by consulting this abstract:
 
 > # Confidential Computing Revisited: Usability, Market, Standpoints and Trends
 >
