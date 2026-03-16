@@ -188,7 +188,7 @@ function generateEventsRSS(events, md) {
     <title><![CDATA[${event.title}]]></title>
     <link>${link}</link>
     <guid>${link}</guid>
-    <pubDate>${new Date(event.date).toUTCString()}</pubDate>
+    <pubDate>${new Date(event.rssPubDate).toUTCString()}</pubDate>
     <description><![CDATA[${html}]]></description>
   </item>`
     })
