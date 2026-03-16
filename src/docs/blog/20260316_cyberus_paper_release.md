@@ -1,5 +1,5 @@
 ---
-title: "Fraunhofer ISST joins NeoNephos"
+title: "Cyberus Paper Release"
 date: "2026-03-16"
 banner: "assets/blog/20260316_cyberus_paper_release_banner.svg"
 authors:
