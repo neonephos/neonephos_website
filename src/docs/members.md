@@ -9,6 +9,9 @@ hero:
   name: "Our Members"
 members:
   premier:
+    - name: "BWI GmbH"
+      link: "bwi.de"
+      imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/bwi_gmbh_1772452866817_0012M00002KBWsYQAX.svg"
     - name: "SAP"
       link: "https://www.sap.com"
       imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/sap-se.svg"
