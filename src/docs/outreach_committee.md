@@ -10,7 +10,7 @@ hero:
 members:
   - name: "Annika Opitz"
     email: "annika.opitz@stackit.cloud"
-    imgsrc: "https://avatars.githubusercontent.com/u/2991038?v=4"
+    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
     role: "Schwarz Digits Cloud GmbH & Co. KG Premier Rep."
     details: ""
     link: ""
@@ -27,8 +27,8 @@ members:
     details: ""
     link: ""
   - name: "Christine Sandmark"
-    email: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
-    imgsrc: ""
+    email: ""
+    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
     role: "ElastX AB General Rep."
     details: ""
     link: ""
@@ -55,8 +55,8 @@ members:
 
 tilesHeading: Learn more!
 tiles:
-  - title: Projects Repository
-    details: Want to propose a new project or read guidelines? This is the place!
-    linkText: Projects Repository
-    linkUrl: "https://github.com/neonephos/projects"
+  - title: Us on Zulip
+    details: We are available on Zulip. Let's chat!
+    linkText: Zulip Channel
+    linkUrl: "https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion/topic/newsfeed/with/578880018"
 ---
