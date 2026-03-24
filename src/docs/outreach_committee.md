@@ -1,11 +1,11 @@
 ---
 layout: CommitteeThemeComponent
-title: "Outreach Commmittee"
+title: "Outreach Committee"
 sidebar: false
 aside: false
 hero:
-  name: "Outreach Commmittee"
-  subtitle: "The Outreach Commmittee is the strategical community outreach body of NeoNephos."
+  name: "Outreach Committee"
+  subtitle: "The Outreach Committee is the strategical community outreach body of NeoNephos."
   description: "It is responsible for the design, development, and  execution of community outreach efforts on behalf of the Governing Board."
 members:
   - name: "Annika Opitz"
