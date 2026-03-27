@@ -31,6 +31,7 @@ projects:
   - name: "CobaltCore"
     imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/cobaltcore/icon/black/cobaltcore-icon-black.svg"
     details: "CobaltCore is an opinionated OpenStack distribution that builds upon IronCore's foundation to support non-cloud-native workloads, offering enhanced features like a micro-frontend self-service portal, advanced scheduling, and offering enhanced features and seamless integration with other components."
+    link: "https://cobaltcore-dev.github.io/docs/"
     githubLink: "https://github.com/cobaltcore-dev"
   - name: "Greenhouse"
     imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/greenhouse/icon/color/greenhouse-icon-color.svg"
