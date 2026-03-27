@@ -50,7 +50,7 @@ const { frontmatter } = useData()
             <div class="nn-step-title">Fill out the Project Proposal Form</div>
             <p>
               Complete the project proposal issue form located at
-              <a href="https://github.com/neonephos/project" target="_blank">github.com/neonephos/project</a>.
+              <a href="https://github.com/neonephos/project" target="_blank">github.com/neonephos/projects</a>.
               Provide as much detail as possible and avoid leaving fields blank.
             </p>
           </div>
