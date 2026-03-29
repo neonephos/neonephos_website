@@ -4,16 +4,61 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sat, 28 Mar 2026 12:06:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 12:07:46 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/extension-manager-operator - v0.7.44</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.7.44</guid>
-            <pubDate>Sat, 28 Mar 2026 09:57:16 +0000</pubDate>
+            <title>platform-mesh/kubernetes-graphql-gateway - v1.2.3</title>
+            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
+            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.2.3</guid>
+            <pubDate>Sun, 29 Mar 2026 10:59:34 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.7.42 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/764</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.7.43...v0.7.44</p>]]></description>
+<ul><li>fix(deps): update module github.com/golang-jwt/jwt/v5 to v5.3.1 by @renovate[bot] in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/181</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.2.2...v1.2.3</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/rebac-authz-webhook - v0.5.3</title>
+            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
+            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.5.3</guid>
+            <pubDate>Sun, 29 Mar 2026 10:56:22 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore: add retry logic for bind verb handling and refactor object type construction by @aaronschweig in https://github.com/platform-mesh/rebac-authz-webhook/pull/224</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.5.2...v0.5.3</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.7.51</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.7.51</guid>
+            <pubDate>Sun, 29 Mar 2026 09:16:20 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.7.50 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/771</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.7.50...v0.7.51</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.14.38</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.14.38</guid>
+            <pubDate>Sun, 29 Mar 2026 04:51:51 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.27.15 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/414</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.14.37...v0.14.38</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.27.15</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.27.15</guid>
+            <pubDate>Sun, 29 Mar 2026 01:59:45 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/subroutines to v0.2.6 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/445</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.27.14...v0.27.15</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/subroutines - v0.2.6</title>
+            <link>https://github.com/platform-mesh/subroutines</link>
+            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.2.6</guid>
+            <pubDate>Sun, 29 Mar 2026 01:08:57 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update opentelemetry-go monorepo to v1.42.0 by @renovate[bot] in https://github.com/platform-mesh/subroutines/pull/14</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.2.5...v0.2.6</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/account-operator - v0.12.32</title>
@@ -25,24 +70,6 @@
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.12.31...v0.12.32</p>]]></description>
         </item>
 <item>
-            <title>platform-mesh/rebac-authz-webhook - v0.5.2</title>
-            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
-            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.5.2</guid>
-            <pubDate>Sat, 28 Mar 2026 09:51:12 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(ci): use @main for shared .github workflow references by @nexus49 in https://github.com/platform-mesh/rebac-authz-webhook/pull/223</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.5.1...v0.5.2</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/kubernetes-graphql-gateway - v1.1.8</title>
-            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
-            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.1.8</guid>
-            <pubDate>Sat, 28 Mar 2026 09:50:55 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(ci): use @main for shared .github workflow references by @nexus49 in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/179</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.1.7...v1.1.8</p>]]></description>
-        </item>
-<item>
             <title>platform-mesh/platform-mesh-operator - v0.64.8</title>
             <link>https://github.com/platform-mesh/platform-mesh-operator</link>
             <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.64.8</guid>
@@ -50,24 +77,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>chore(ci): use @main for shared .github workflow references by @nexus49 in https://github.com/platform-mesh/platform-mesh-operator/pull/537</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.64.7...v0.64.8</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/security-operator - v0.27.12</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.27.12</guid>
-            <pubDate>Sat, 28 Mar 2026 09:50:38 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(ci): use @main for shared .github workflow references by @nexus49 in https://github.com/platform-mesh/security-operator/pull/441</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.27.11...v0.27.12</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-service - v0.14.33</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.14.33</guid>
-            <pubDate>Sat, 28 Mar 2026 09:19:34 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.27.9 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/405</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.14.32...v0.14.33</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/golang-commons - v0.13.23</title>
@@ -155,15 +164,6 @@
 <h2>Helm Charts</h2>
 <ul><li>controlplane: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/controlplane:v1.139.0</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/gardenlet:v1.139.0</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/operator:v1.139.0</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/resource-manager:v1.139.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>admission-controller: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller:v1.139.0</code></li><li>apiserver: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver:v1.139.0</code></li><li>controller-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager:v1.139.0</code></li><li>gardenadm: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm:v1.139.0</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet:v1.139.0</code></li><li>node-agent: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent:v1.139.0</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator:v1.139.0</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager:v1.139.0</code></li><li>scheduler: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler:v1.139.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/subroutines - v0.2.3</title>
-            <link>https://github.com/platform-mesh/subroutines</link>
-            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.2.3</guid>
-            <pubDate>Fri, 27 Mar 2026 17:01:44 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore: add CODEOWNERS file by @nexus49 in https://github.com/platform-mesh/subroutines/pull/10</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.2.2...v0.2.3</p>]]></description>
         </item>
 <item>
             <title>open-resource-discovery/specification - v1.14.2</title>
