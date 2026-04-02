@@ -12,7 +12,14 @@ published: true
 
 # NeoNephos April Community Call
 
-On April 8th we again bring together the NeoNephos community in our Community Call! Hendrik Kahl from our [Gardener project](https://gardener.cloud), will introduce you what the project is about. Want to prepare? Read through their very extensive documentation [here](https://gardener.cloud/docs/gardener/).
+On April 8th we again bring together the NeoNephos community in our Community Call! Hendrik Kahl from our [Gardener project](https://gardener.cloud), will introduce you what the project is about. 
+
+More specifically:
+
+> In the fast-paced world of cloud-native technologies, managing Kubernetes clusters at scale is a major challenge. Join this session to learn how we addressed this with Gardener, an open-source Kubernetes management tool. Gardener allows organizations to deploy and manage Kubernetes clusters across multiple cloud providers and on-premise environments at scale.
+
+
+Want to prepare? Read through their very extensive documentation [here](https://gardener.cloud/docs/gardener/).
 
 **Zoom Session Link**
 
