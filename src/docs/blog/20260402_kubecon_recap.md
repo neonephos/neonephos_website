@@ -15,11 +15,11 @@ published: true
 # KubeCon+CloudNativeCon Recap
 
 One year past our grand foundation [launch announcement at the KubeCon+CloudNativeCon '25](https://www.youtube.com/watch?v=57koOOg0f5M&list=PLj6h78yzYM2Of6psbKjeZxZIHjycSYoYF&index=1), it was once again time to meet our peers at the '26 edition of one of the most anticipated events in the cloud native scene.
-Now, equipped with the fruits of our labor from all these past months, we did not arrive with only grand plans but could present a concrete vision and live demonstrations. Let us break down how below:
+Now, equipped with the fruits of our labor from all these past months, we did not arrive with only grand plans but presented a concrete vision and live demonstrations. Let us break down how below:
 
 ## NeoNephos Booth
 
-Our booth served as our permanent *flagpole in the sand* amd presented our most initimate way for people to learn about NeoNephos. Thanks to the continuous staffing provided by representatives of our projects, KubeCon attendees were exposed to hands-on demonstrations of some of our projects and could directly ask questions.
+Our booth served as our permanent *flagpole in the sand* amd presented the most initimate way for people to learn about NeoNephos. Thanks to the continuous staffing provided by representatives of our projects, KubeCon attendees were exposed to hands-on demonstrations of some of our projects and could directly ask questions.
 Many great discussions arose and relationships have formed thanks to this booth. We will be catching up on some of these discussions for sure!
 
 ## Talks
