@@ -4,16 +4,49 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Fri, 03 Apr 2026 12:10:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 12:08:03 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/account-operator - v0.12.34</title>
+            <title>open-resource-discovery/ord-maven - v0.8.0</title>
+            <link>https://github.com/open-resource-discovery/ord-maven</link>
+            <guid>https://github.com/open-resource-discovery/ord-maven/releases/tag/v0.8.0</guid>
+            <pubDate>Sat, 04 Apr 2026 05:38:30 +0000</pubDate>
+            <description><![CDATA[<p>Update generated annotations and models</p>
+<h3>Commits</h3>
+<ul><li><a href="https://github.com/open-resource-discovery/ord-maven/commit/15942386003698def8f13fef84d9d3796c3dffc6">1594238</a> [AUTO]Update Open Resource Discovery generated annotations and models (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/ord-maven/commit/d9203245399298a340bc87c2d3ba84586c393261">d920324</a> chore(deps): update dependency @open-resource-discovery/specification to v1.14.3 (#84) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/ord-maven/commit/227bc109f91846624959f3bc5e99003acac8f1d5">227bc10</a> chore(deps): lock file maintenance (#86) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/ord-maven/commit/27c67d0c7c25ae3cc80e588325667f79673f6063">27c67d0</a> ci(deps): update s4u/setup-maven-action action to v1.20.0 (#85) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/ord-maven/commit/2e11b440b067039e714f73b1d082aaaaf8265de4">2e11b44</a> chore(deps): pin dependency node to 24.14.1 (#81) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/ord-maven/commit/9ceb62db73e5ec3603bc6f138079dbc83fa7eaa8">9ceb62d</a> [AUTO]This PR automatically updates the project version to 0.8.0-SNAPSHOT (open-resource-discovery-bot)</li></ul>
+<h3>Contributors</h3>
+&lt;table&gt;&lt;tr&gt;&lt;td align=&#x27;center&#x27;&gt;
+      &lt;a href=&#x27;https://github.com/open-resource-discovery-bot&#x27;&gt;
+        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/246755721?v=4&#x27; alt=&#x27;open-resource-discovery-bot&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
+        &lt;span&gt;open-resource-discovery-bot&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-adduser - adduser_3.155gl0</title>
+            <link>https://github.com/gardenlinux/package-adduser</link>
+            <guid>https://github.com/gardenlinux/package-adduser/releases/tag/adduser_3.155gl0</guid>
+            <pubDate>Sat, 04 Apr 2026 00:13:04 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-adduser/actions/runs/23966954016">23966954016</a></p>
+<p>Files in this release:<br>``<code><br>a3fb90e15bb93f565c4ad30a09fc4c070454cca70e2e5dc8b10a0ef8f9a3d221  ./adduser_3.155gl0_amd64.changes<br>33e7602de45eb03831f2084ddf044ba7a014010551fd3689ad53d84d628e3aa3  ./adduser_3.155gl0_amd64.buildinfo<br>06e2f1a8f2d29818de44873f9e55025bcf8aea7c109c55b4998b0d75231afa3f  ./adduser_3.155gl0_all.deb<br>cca1253af0c44a3688b217feb66628bce459e8edd79e3f27dd1d67c82c5ff366  ./adduser_3.155gl0.tar.xz<br>26cac2ed450813cc7b6b3273fd5fe834e71b30cc5901544a2a75f813a7298b89  ./adduser_3.155gl0.dsc<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/account-operator - v0.12.35</title>
             <link>https://github.com/platform-mesh/account-operator</link>
-            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.12.34</guid>
-            <pubDate>Fri, 03 Apr 2026 09:41:15 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.12.35</guid>
+            <pubDate>Fri, 03 Apr 2026 22:07:50 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>Feat/migrate to subroutines by @simontesar in https://github.com/platform-mesh/account-operator/pull/177</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.12.33...v0.12.34</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/subroutines to v0.2.3 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/196</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.12.34...v0.12.35</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.14.41</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.14.41</guid>
+            <pubDate>Fri, 03 Apr 2026 12:28:31 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>trigger: ci by @akafazov in https://github.com/platform-mesh/iam-service/pull/419</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.14.40...v0.14.41</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/platform-mesh-operator - v0.65.8</title>
@@ -168,15 +201,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>ci: inline pipeline workflow (ADR 004) by @nexus49 in https://github.com/platform-mesh/virtual-workspaces/pull/93</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/virtual-workspaces/compare/0.10.4...v0.10.5</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-service - v0.14.40</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.14.40</guid>
-            <pubDate>Thu, 02 Apr 2026 11:56:52 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>ci: inline pipeline workflow (ADR 004) by @nexus49 in https://github.com/platform-mesh/iam-service/pull/418</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.14.39...v0.14.40</p>]]></description>
         </item>
 <item>
             <title>openmcp-project/observability-stack - Release v0.0.7</title>
@@ -1552,22 +1576,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.1.0
 <p>Check out our <a href="https://ocm.software/docs/getting-started/set-up-controller-environments/">guide</a> on how to set up<br>OCM Controller environments for more details.</p>
 <h3>Community &amp; Contributors</h3>
 <p>This release we had a total of <strong>8</strong> contributors!<br>If you want to engage with us, check our <a href="https://ocm.software/community/engagement/">community page</a>!</p>]]></description>
-        </item>
-<item>
-            <title>open-resource-discovery/ord-maven - v0.7.0</title>
-            <link>https://github.com/open-resource-discovery/ord-maven</link>
-            <guid>https://github.com/open-resource-discovery/ord-maven/releases/tag/v0.7.0</guid>
-            <pubDate>Mon, 30 Mar 2026 15:09:34 +0000</pubDate>
-            <description><![CDATA[<p>Update generated annotations and models</p>
-<h3>Commits</h3>
-<ul><li><a href="https://github.com/open-resource-discovery/ord-maven/commit/0cd38e62485c6abcee0645872c46b3bb59ccc8a7">0cd38e6</a> [AUTO]Update Open Resource Discovery generated annotations and models (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/ord-maven/commit/786210441a8927d5de6fd6bfe5e96cd7aac697a0">7862104</a> chore(deps): update dependency @open-resource-discovery/specification to v1.14.2 (#82) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/ord-maven/commit/008f3ab8572b8f238114b1f12075ea97063528d2">008f3ab</a> [AUTO]This PR automatically updates the project version to 0.7.0-SNAPSHOT (mlakov)</li></ul>
-<h3>Contributors</h3>
-&lt;table&gt;&lt;tr&gt;&lt;td align=&#x27;center&#x27;&gt;
-      &lt;a href=&#x27;https://github.com/mlakov&#x27;&gt;
-        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/200176368?v=4&#x27; alt=&#x27;mlakov&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
-        &lt;span&gt;mlakov&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
         </item>
 <item>
             <title>gardenlinux/glci - 1.3.3</title>
@@ -3130,14 +3138,6 @@ Initial implementation.]]></description>
             <pubDate>Mon, 02 Mar 2026 12:30:02 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-iproute2/actions/runs/22576062098">22576062098</a></p>
 <p>Files in this release:<br>``<code><br>28da61ac1d1e27071a7f0dad4e5c229d80dc39375c370545261fedb18497a93f  ./iproute2_6.19.0.orig.tar.xz<br>ad4cc02439ddc836015c4a06f88143f349ac8e659efe7b622e0cf5edfa296e68  ./iproute2_6.19.0-1gl0.debian.tar.xz<br>12d220ae1f132820c13d68e19890062785ee710c4125fbf9b90be67ee0a02b0d  ./iproute2_6.19.0-1gl0_amd64.changes<br>330e181e523774a7e42e264919a3df233429040abac00ff248d68fe38e26945d  ./iproute2_6.19.0-1gl0_arm64.buildinfo<br>3ded8131b49e05a31e6680186d936916a78339fabd5856adde6bb825d07d8597  ./iproute2_6.19.0-1gl0_amd64.buildinfo<br>a79a9224e18e7c299c1543f8f754c99515da19d479600eb9501ef5dcc0fe5927  ./iproute2_6.19.0-1gl0_amd64.deb<br>8aa8e19169e883cb2875d90b5e0771f42410574b18470ef0a9ff6289cf7c1634  ./iproute2-dbgsym_6.19.0-1gl0_arm64.deb<br>912c1d088654b169679b56dd69b31872499b5d3ae7666eea60714a3c482b573f  ./iproute2_6.19.0-1gl0_arm64.changes<br>9465a530da2e6bb093f5522b8618c7c6edd28c3c0c2789cb893d3ec7fdb7f80d  ./iproute2_6.19.0-1gl0.dsc<br>bc6b360fde1ec26c78ba233ae737c4e83f1f180fb262b844cc8582ab51098098  ./iproute2_6.19.0-1gl0_arm64.deb<br>b0ca13a696fae49634e687119be0d52bea479a5a28229a36636b5fbead3b2b1c  ./iproute2-dbgsym_6.19.0-1gl0_amd64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-adduser - adduser_3.154gl0</title>
-            <link>https://github.com/gardenlinux/package-adduser</link>
-            <guid>https://github.com/gardenlinux/package-adduser/releases/tag/adduser_3.154gl0</guid>
-            <pubDate>Mon, 02 Mar 2026 11:38:43 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-adduser/actions/runs/22574304143">22574304143</a></p>
-<p>Files in this release:<br>``<code><br>e04fc8380645bc92512f3fd1594a233f2984592e8d5cf174110330435a83bb9b  ./adduser_3.154gl0_all.deb<br>9a6dbdca664df5b63bf860cdbd0f6e7056e87a18114e4db7c765057e046d8770  ./adduser_3.154gl0_amd64.changes<br>da129b9b72f8b120312adee76f2757708637d84c0165b436682bd840513f1204  ./adduser_3.154gl0.tar.xz<br>ec917ffb24921fa99a060c5bb1849441fb9ef53bd974f8dde33bf749616f54bc  ./adduser_3.154gl0.dsc<br>727fc0f9e1f2463d5bb249c094cb3c612afb8739928d26802c5893ba22efb1f9  ./adduser_3.154gl0_amd64.buildinfo<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardener/gardener-extension-networking-calico - v1.57.0</title>
