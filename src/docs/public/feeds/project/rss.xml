@@ -4,9 +4,20 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sun, 05 Apr 2026 12:07:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 12:13:51 +0000</lastBuildDate>
 
     <item>
+            <title>platform-mesh/subroutines - v0.3.0</title>
+            <link>https://github.com/platform-mesh/subroutines</link>
+            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.3.0</guid>
+            <pubDate>Mon, 06 Apr 2026 10:03:54 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>feat: add Skip result for bypassing individual subroutines by @nuromirg in https://github.com/platform-mesh/subroutines/pull/15</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@nuromirg made their first contribution in https://github.com/platform-mesh/subroutines/pull/15</li></ul>
+<strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.2.6...v0.3.0]]></description>
+        </item>
+<item>
             <title>platform-mesh/account-operator - v0.12.37</title>
             <link>https://github.com/platform-mesh/account-operator</link>
             <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.12.37</guid>
@@ -1888,15 +1899,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.1.0
 <ul><li>@renovate[bot] made their first contribution in https://github.com/openmcp-project/usage-operator/pull/3</li><li>@robertgraeff made their first contribution in https://github.com/openmcp-project/usage-operator/pull/14</li></ul>
 <strong>Full Changelog</strong>: https://github.com/openmcp-project/usage-operator/compare/v0.0.15...v0.0.16
 ---]]></description>
-        </item>
-<item>
-            <title>platform-mesh/subroutines - v0.2.6</title>
-            <link>https://github.com/platform-mesh/subroutines</link>
-            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.2.6</guid>
-            <pubDate>Sun, 29 Mar 2026 01:08:57 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update opentelemetry-go monorepo to v1.42.0 by @renovate[bot] in https://github.com/platform-mesh/subroutines/pull/14</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.2.5...v0.2.6</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-libxml2 - libxml2_2.15.2+dfsg-0.1gl0</title>
