@@ -4,9 +4,54 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sat, 11 Apr 2026 12:08:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 12:08:40 +0000</lastBuildDate>
 
     <item>
+            <title>platform-mesh/subroutines - v0.3.4</title>
+            <link>https://github.com/platform-mesh/subroutines</link>
+            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.3.4</guid>
+            <pubDate>Sun, 12 Apr 2026 10:24:06 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module sigs.k8s.io/multicluster-runtime to v0.23.3 by @renovate[bot] in https://github.com/platform-mesh/subroutines/pull/21</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.3.3...v0.3.4</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.15.2</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.2</guid>
+            <pubDate>Sun, 12 Apr 2026 01:37:15 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.12.37 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/434</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.15.1...v0.15.2</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.29.2</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.29.2</guid>
+            <pubDate>Sun, 12 Apr 2026 01:35:14 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.12.37 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/466</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.29.1...v0.29.2</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/portal - v0.21.0</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.0</guid>
+            <pubDate>Sat, 11 Apr 2026 17:54:41 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>feat(ci): add attestations permission for build provenance by @nexus49 in https://github.com/platform-mesh/portal/pull/527</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.20.48...v0.21.0</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-ui - v0.11.0</title>
+            <link>https://github.com/platform-mesh/iam-ui</link>
+            <guid>https://github.com/platform-mesh/iam-ui/releases/tag/v0.11.0</guid>
+            <pubDate>Sat, 11 Apr 2026 17:54:24 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>feat(ci): add attestations permission for build provenance by @nexus49 in https://github.com/platform-mesh/iam-ui/pull/51</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-ui/compare/0.10.10...v0.11.0</p>]]></description>
+        </item>
+<item>
             <title>platform-mesh/example-httpbin-operator - v0.6.0</title>
             <link>https://github.com/platform-mesh/example-httpbin-operator</link>
             <guid>https://github.com/platform-mesh/example-httpbin-operator/releases/tag/v0.6.0</guid>
@@ -34,15 +79,6 @@
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.7.68...v0.8.0</p>]]></description>
         </item>
 <item>
-            <title>platform-mesh/security-operator - v0.29.0</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.29.0</guid>
-            <pubDate>Sat, 11 Apr 2026 10:22:42 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>feat(ci): add attestations permission for build provenance by @nexus49 in https://github.com/platform-mesh/security-operator/pull/464</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.28.4...v0.29.0</p>]]></description>
-        </item>
-<item>
             <title>platform-mesh/rebac-authz-webhook - v0.6.0</title>
             <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
             <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.6.0</guid>
@@ -59,15 +95,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>feat(ci): add attestations permission for build provenance by @nexus49 in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/201</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.4.2...v1.5.0</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-service - v0.15.0</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.0</guid>
-            <pubDate>Sat, 11 Apr 2026 10:22:27 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>feat(ci): add attestations permission for build provenance by @nexus49 in https://github.com/platform-mesh/iam-service/pull/432</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.14.50...v0.15.0</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/account-operator - v0.13.0</title>
@@ -197,15 +224,6 @@
             <description><![CDATA[<h1>Changelog</h1>]]></description>
         </item>
 <item>
-            <title>platform-mesh/subroutines - v0.3.3</title>
-            <link>https://github.com/platform-mesh/subroutines</link>
-            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.3.3</guid>
-            <pubDate>Fri, 10 Apr 2026 14:18:47 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update opentelemetry-go monorepo to v1.43.0 by @renovate[bot] in https://github.com/platform-mesh/subroutines/pull/20</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.3.2...v0.3.3</p>]]></description>
-        </item>
-<item>
             <title>gardener/gardener - v1.140.0</title>
             <link>https://github.com/gardener/gardener</link>
             <guid>https://github.com/gardener/gardener/releases/tag/v1.140.0</guid>
@@ -236,15 +254,6 @@
 <h2>Helm Charts</h2>
 <ul><li>controlplane: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/controlplane:v1.140.0</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/gardenlet:v1.140.0</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/operator:v1.140.0</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/resource-manager:v1.140.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>admission-controller: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller:v1.140.0</code></li><li>apiserver: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver:v1.140.0</code></li><li>controller-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager:v1.140.0</code></li><li>gardenadm: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm:v1.140.0</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet:v1.140.0</code></li><li>node-agent: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent:v1.140.0</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator:v1.140.0</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager:v1.140.0</code></li><li>scheduler: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler:v1.140.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/portal - v0.20.48</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.20.48</guid>
-            <pubDate>Fri, 10 Apr 2026 13:54:24 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update dependency @types/node to v24.12.2 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/526</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.20.47...v0.20.48</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-linux - linux_6.12.74-1gl8+bp1877</title>
@@ -483,15 +492,6 @@
             <pubDate>Fri, 10 Apr 2026 00:12:56 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-apt/actions/runs/24219705611">24219705611</a></p>
 <p>Files in this release:<br>``<code><br>046c315378dfe2239d86a12634fee725414bd6dfa50108095dbbc25e432c45b3  ./apt_3.2.0gl0.dsc<br>8caf279326899a40abc44df8710b047deb43d8936f4eec68c544f23925beddfe  ./apt-dbgsym_3.2.0gl0_amd64.deb<br>8adbcb4372588e4dc0944540c7d2669b0a2c2af2d07ff497c41fb0d9ef360da5  ./apt_3.2.0gl0_amd64.buildinfo<br>afa234baf060587068fea307b1f548946a15d7ce70fd0b7dff865fb09dc30943  ./libapt-pkg7.0_3.2.0gl0_amd64.deb<br>bcbe6f105b41fbacdd0dd48a7959ff28ad70357019bcbf0dae2509d3cded2197  ./libapt-pkg7.0-dbgsym_3.2.0gl0_arm64.deb<br>0df0e966e479dfc931badd5957f0ccf8488d0abc4f205f57617375a761f71ca7  ./apt-utils_3.2.0gl0_amd64.deb<br>66445a8c7ca89aeee7a1b08df109d0154f6d3d0f7d8a18d716cd27d3d83be8c6  ./apt-utils_3.2.0gl0_arm64.deb<br>043ebc78b03f490d20e845f0148c4060cba765f77aa4c80f0342ec25981b2ba5  ./apt-utils-dbgsym_3.2.0gl0_amd64.deb<br>20702349b649aa33801a3fa259342e555dd8f5f9ff309ed3f850cfe3458cd220  ./apt_3.2.0gl0_amd64.deb<br>96f81622573d053a05b51cf6a4efb63e5911ca7bee0e479c3706b1dedb26ebb2  ./apt-utils-dbgsym_3.2.0gl0_arm64.deb<br>f75c96da2a6443dcf4cd96699f61d3e02f6ee437efb75d7afd070bc70bfc6d53  ./apt_3.2.0gl0_amd64.changes<br>2e26d395c14ade1fbc73d10fcf8cb7a74f1661fe7cd9e76aa4e7ccda0d4b86f8  ./apt-dbgsym_3.2.0gl0_arm64.deb<br>33b06a75841be576669fbf5f9bb7fda9ea96818ea5c2501681c956aadd7c7c02  ./libapt-pkg-dev_3.2.0gl0_arm64.deb<br>9a781ef7556ded6d7515f5e3faae6808e9b6e9d51b15a5cad94f4e4a9467f969  ./apt_3.2.0gl0_arm64.buildinfo<br>4ff30c76c5180f1578902cfc6b8a414f58fe269c9e1bb0150f854b961a43bdd2  ./libapt-pkg-dev_3.2.0gl0_amd64.deb<br>f429fe6e7f6ef397f9d20f5116e04b37e3f0dc87797f00248a2dbf8910c1b1c4  ./apt_3.2.0gl0_arm64.changes<br>031ae87b0426c247133999296de780eb573f9be5df0da8b522cf3b4d4bc8ecce  ./libapt-pkg7.0-dbgsym_3.2.0gl0_amd64.deb<br>58a495884bf374ec57eca2a24a84122dbf6776d05a3430795545b714503028f3  ./apt_3.2.0gl0_arm64.deb<br>3365597aa1d42d1e138bb2958f549b61c3d0b6cc601b3a3d7ccdbed6655dce5d  ./apt-transport-https_3.2.0gl0_all.deb<br>1672a0d533083bc8b446e41d02bc2b5f38c5d6df298ee09caba68126bd4a7455  ./libapt-pkg7.0_3.2.0gl0_arm64.deb<br>3b55b8376e1216fe4c9bff13f347f2dac327af56762ce1df6fc2fdf044e99535  ./apt_3.2.0gl0.tar.xz<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-ui - v0.10.10</title>
-            <link>https://github.com/platform-mesh/iam-ui</link>
-            <guid>https://github.com/platform-mesh/iam-ui/releases/tag/v0.10.10</guid>
-            <pubDate>Thu, 09 Apr 2026 12:22:48 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore: update renovate config to use platform-mesh preset by @nexus49 in https://github.com/platform-mesh/iam-ui/pull/47</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-ui/compare/0.10.9...v0.10.10</p>]]></description>
         </item>
 <item>
             <title>gardener/apiserver-proxy - v0.21.0</title>
