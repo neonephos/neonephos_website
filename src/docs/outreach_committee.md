@@ -40,7 +40,7 @@ members:
     link: ""
   - name: "Roberto Vanoni"
     email: ""
-    imgsrc: "https://media.licdn.com/dms/image/v2/C4D03AQFacOMypK3z3A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516250565277?e=1775692800&v=beta&t=zwrauygKUqdJdxoC8SYBiqudPPoiPGmYfOv-nulrArs"
+    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
     role: "Clyso General Rep."
     details: ""
     link: ""      
