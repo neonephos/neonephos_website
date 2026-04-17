@@ -4,9 +4,177 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Thu, 16 Apr 2026 12:18:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 12:16:15 +0000</lastBuildDate>
 
     <item>
+            <title>platform-mesh/kubernetes-graphql-gateway - v1.6.1</title>
+            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
+            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.6.1</guid>
+            <pubDate>Fri, 17 Apr 2026 12:00:14 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Add OpenSSF Scorecard schedule by @Perseus985 in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/207</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@Perseus985 made their first contribution in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/207</li></ul>
+<strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.6.0...v1.6.1]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.8.10</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.8.10</guid>
+            <pubDate>Fri, 17 Apr 2026 11:55:37 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.15.6 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/805</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.8.9...v0.8.10</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.30.9</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.9</guid>
+            <pubDate>Fri, 17 Apr 2026 11:21:52 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.15.6 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/483</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.8...v0.30.9</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.15.15</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.15</guid>
+            <pubDate>Fri, 17 Apr 2026 11:20:46 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.15.6 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/451</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.15.14...v0.15.15</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-ui - v0.11.13</title>
+            <link>https://github.com/platform-mesh/iam-ui</link>
+            <guid>https://github.com/platform-mesh/iam-ui/releases/tag/v0.11.13</guid>
+            <pubDate>Fri, 17 Apr 2026 11:16:32 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Add OpenSSF Scorecard schedule by @Perseus985 in https://github.com/platform-mesh/iam-ui/pull/65</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@Perseus985 made their first contribution in https://github.com/platform-mesh/iam-ui/pull/65</li></ul>
+<strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-ui/compare/0.11.12...v0.11.13]]></description>
+        </item>
+<item>
+            <title>cloudoperators/repo-guard - 3.0.0</title>
+            <link>https://github.com/cloudoperators/repo-guard</link>
+            <guid>https://github.com/cloudoperators/repo-guard/releases/tag/3.0.0</guid>
+            <pubDate>Fri, 17 Apr 2026 09:43:03 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Prepare release 3.0.0 by @onuryilmaz in https://github.com/cloudoperators/repo-guard/pull/72</li></ul>
+
+<strong>Full Changelog</strong>: https://github.com/cloudoperators/repo-guard/compare/2.0.1...3.0.0]]></description>
+        </item>
+<item>
+            <title>open-component-model/delivery-service - 0.1313.0</title>
+            <link>https://github.com/open-component-model/delivery-service</link>
+            <guid>https://github.com/open-component-model/delivery-service/releases/tag/0.1313.0</guid>
+            <pubDate>Fri, 17 Apr 2026 08:17:37 +0000</pubDate>
+            <description><![CDATA[<h1>[ocm.software/ocm-gear/delivery-service:0.1313.0]</h1>
+<h2>📰 Noteworthy</h2>
+<ul><li><code>[USER]</code> GitHub issues with shorten text will now feature a counter improving readability and navigation. by @zkdev <a href="https://github.com/open-component-model/delivery-service/pull/753">[#753</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>bootstrapping: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/bootstrapping:0.1313.0</code></li><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-service:0.1313.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/extensions:0.1313.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-service:0.1313.0</code></li><li>extension-clamav: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-clamav:0.1313.0</code></li><li>extension-crypto: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-crypto:0.1313.0</code></li><li>extension-db-manager: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-db-manager:0.1313.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extensions:0.1313.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>cloudoperators/heureka - v1.57.4</title>
+            <link>https://github.com/cloudoperators/heureka</link>
+            <guid>https://github.com/cloudoperators/heureka/releases/tag/v1.57.4</guid>
+            <pubDate>Fri, 17 Apr 2026 08:08:45 +0000</pubDate>
+            <description><![CDATA[<h2><a href="https://github.com/cloudoperators/heureka/compare/v1.57.3...v1.57.4">1.57.4</a> (2026-04-17)</h2>
+<h3>Bug Fixes</h3>
+<ul><li><strong>keppel:</strong> remove ternary (<a href="https://github.com/cloudoperators/heureka/issues/1179">#1179</a>) (<a href="https://github.com/cloudoperators/heureka/commit/4e440e2e2c6e8c5c8daf9a59635d619e2039890e">4e440e2</a>)</li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/golang-commons - v0.16.0</title>
+            <link>https://github.com/platform-mesh/golang-commons</link>
+            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.16.0</guid>
+            <pubDate>Fri, 17 Apr 2026 06:10:29 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>add AGENTS.md by @makdeniss in https://github.com/platform-mesh/golang-commons/pull/214</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@makdeniss made their first contribution in https://github.com/platform-mesh/golang-commons/pull/214</li></ul>
+<strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.15.8...v0.16.0]]></description>
+        </item>
+<item>
+            <title>platform-mesh/subroutines - v0.4.0</title>
+            <link>https://github.com/platform-mesh/subroutines</link>
+            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.4.0</guid>
+            <pubDate>Fri, 17 Apr 2026 06:02:52 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>add AGENTS.md by @makdeniss in https://github.com/platform-mesh/subroutines/pull/24</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@makdeniss made their first contribution in https://github.com/platform-mesh/subroutines/pull/24</li></ul>
+<strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.3.4...v0.4.0]]></description>
+        </item>
+<item>
+            <title>platform-mesh/portal - v0.21.12</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.12</guid>
+            <pubDate>Fri, 17 Apr 2026 05:36:05 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): update dependency prettier to v3.8.2 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/541</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.21.11...v0.21.12</p>]]></description>
+        </item>
+<item>
+            <title>openmcp-project/service-provider-crossplane - Release v0.4.1</title>
+            <link>https://github.com/openmcp-project/service-provider-crossplane</link>
+            <guid>https://github.com/openmcp-project/service-provider-crossplane/releases/tag/Release v0.4.1</guid>
+            <pubDate>Thu, 16 Apr 2026 16:36:03 +0000</pubDate>
+            <description><![CDATA[<h1>Changelog</h1>
+
+
+<h2>➕ Other</h2>
+
+#### [DEVELOPER]
+<ul><li>Update renovate config according to service-provider-template <strong>(#113, @maximiliantech)</strong></li><li>Various renovate dependency updates</li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/account-operator - v0.14.7</title>
+            <link>https://github.com/platform-mesh/account-operator</link>
+            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.14.7</guid>
+            <pubDate>Thu, 16 Apr 2026 14:51:54 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/subroutines to v0.3.2 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/215</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.14.6...v0.14.7</p>]]></description>
+        </item>
+<item>
+            <title>open-component-model/ocm - latest ocm-cli</title>
+            <link>https://github.com/open-component-model/ocm</link>
+            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
+            <pubDate>Thu, 16 Apr 2026 14:26:34 +0000</pubDate>
+            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-ignition - ignition_2.26.0-0gl0+bp1877</title>
+            <link>https://github.com/gardenlinux/package-ignition</link>
+            <guid>https://github.com/gardenlinux/package-ignition/releases/tag/ignition_2.26.0-0gl0+bp1877</guid>
+            <pubDate>Thu, 16 Apr 2026 14:11:08 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-ignition/actions/runs/24515163865">24515163865</a></p>
+<p>Files in this release:<br>``<code><br>5e162b2b9b18ec246ec1bd83e06d3b8b310db8f113b09857672eedf1ffc05821  ./ignition_2.26.0-0gl0~bp1877_arm64.deb<br>6c4ec3714862df3093e8c36ef2cf1c5a1bc458d5d59dfd666e39d1552f14d45c  ./ignition_2.26.0-0gl0~bp1877.dsc<br>d83e3c44b4d197dca64391e938f9f1e7a59c5bb53e7e7af87b4d2cd43072eefd  ./ignition_2.26.0-0gl0~bp1877_arm64.changes<br>7274f4c626780d161a0da9f85cc7784603b4afdbc24e3e2b2f7a585a723d7fac  ./ignition-dbgsym_2.26.0-0gl0~bp1877_arm64.deb<br>4f333b887b8de1183d1ce4d8dd05bf488e40f09cf59ecc32e8400d3e0434f243  ./ignition_2.26.0-0gl0~bp1877_amd64.buildinfo<br>90c43363044ae898f0a00b9849f4b8ddc41cd47c8159f7ef8941bf8fe9cb7e97  ./ignition-dbgsym_2.26.0-0gl0~bp1877_amd64.deb<br>0016c4f245d544ca70416af2a20ba1913e714003616e26a72cd43ea69d827dc8  ./ignition_2.26.0.orig.tar.xz<br>6b2d0838e4444cfd44a9006fe894b9b1bc6bb3854d8333ffa309a0e07e8d2d63  ./ignition_2.26.0-0gl0~bp1877.debian.tar.xz<br>f6dac5ec05294b828b3c12d1129895c2bc2f521ba528585fadf629ae7f8e0851  ./ignition_2.26.0-0gl0~bp1877_amd64.changes<br>b898929086297359f3e2e9551796551f7006dccaf952c5030192c26e55db9d91  ./ignition_2.26.0-0gl0~bp1877_arm64.buildinfo<br>33ffb1a5fc699f0146de4cccf8b30c45b1557ea30964cfc68c8d3dbf6eda3807  ./ignition_2.26.0-0gl0~bp1877_amd64.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>gardener/gardener-extension-runtime-gvisor - v0.33.0</title>
+            <link>https://github.com/gardener/gardener-extension-runtime-gvisor</link>
+            <guid>https://github.com/gardener/gardener-extension-runtime-gvisor/releases/tag/v0.33.0</guid>
+            <pubDate>Thu, 16 Apr 2026 13:27:36 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-runtime-gvisor:v0.33.0]</h1>
+<h2>🏃 Others</h2>
+<ul><li><code>[OPERATOR]</code> Updated gVisor binaries to 20260406.0. by @federated-github-access[bot] <a href="https://github.com/gardener/gardener-extension-runtime-gvisor/pull/387">[#387</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>runtime-gvisor: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/runtime-gvisor:v0.33.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>gardener-extension-runtime-gvisor-installation: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/runtime-gvisor-installation:v0.33.0</code></li><li>gardener-extension-runtime-gvisor: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/runtime-gvisor:v0.33.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>gardener/coredns-config-adapter - v0.6.0</title>
+            <link>https://github.com/gardener/coredns-config-adapter</link>
+            <guid>https://github.com/gardener/coredns-config-adapter/releases/tag/v0.6.0</guid>
+            <pubDate>Thu, 16 Apr 2026 12:31:21 +0000</pubDate>
+            <description><![CDATA[<h2>Container (OCI) Images</h2>
+<ul><li>coredns-config-adapter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/coredns-config-adapter:v0.6.0</code></li></ul>]]></description>
+        </item>
+<item>
             <title>gardenlinux/package-perl - perl_5.40.1-7+b1gl0</title>
             <link>https://github.com/gardenlinux/package-perl</link>
             <guid>https://github.com/gardenlinux/package-perl/releases/tag/perl_5.40.1-7+b1gl0</guid>
@@ -15,67 +183,12 @@
 <p>Files in this release:<br>``<code><br>04fcbfbc341ab4c2b1a52f2f2703c8d9b7483800eeec50d91fe75f5fe84f86e7  ./perl-debug_5.40.1-7+b1gl0_amd64.deb<br>ba1e73ee4d6cc1cd27a9ac3d84a04770950d8560d914cb5de23f777ea9cc2978  ./perl_5.40.1-7+b1gl0_arm64.changes<br>e09bd58874ca59e3cefb1d6839e863f21ecb2a7664bd201b1954b88b01e140e9  ./perl_5.40.1.orig.tar.xz<br>44d09d8bd7bc3936fbe8aee6fea8a86a1d8283478187ec636944d2c4663b81b4  ./perl_5.40.1-7+b1gl0_amd64.changes<br>9f4514e0418647cc4ac798ff0936270c8ac3d0d786f2d6749fa8899a76033fa9  ./libperl-dev_5.40.1-7+b1gl0_amd64.deb<br>d566c3bf8363c6cc5a7d0da803484d80a626741366bbf2d9d9c1f264bc8dcd81  ./perl-modules-5.40_5.40.1-7+b1gl0_all.deb<br>73a38882e7b7313f19ab9b97c77d44cfcab0a5a72f94874050ccccf73a126459  ./perl-debug_5.40.1-7+b1gl0_arm64.deb<br>8d084c8c42e5b5826fc061859fe1476d546aa19192af6d43d6ea43a389b1e172  ./perl_5.40.1-7+b1gl0_amd64.deb<br>17e573b1aba5836c62acabc33da7bb3ab2e5b75eab1be0cf3ea5e0ff78ca6cd9  ./perl_5.40.1-7+b1gl0.dsc<br>835f0aa8de074e79c573299024e8fe62c934a1fdb9df1bd4352161f32fb98b58  ./perl_5.40.1-7+b1gl0.debian.tar.xz<br>c56bf625653d767efca7deb96d7592fd18154564ea43a24950aac46fb02edd5b  ./perl-base_5.40.1-7+b1gl0_arm64.deb<br>d379683523f19e82fec0bc63d3530238dc420c9b9a08f750b9c6564a6e1635c9  ./perl-doc_5.40.1-7+b1gl0_all.deb<br>cbfe07fae20cf9123637621130fbacde51dc0510a3ed013d003942e4a0bb09fe  ./perl_5.40.1-7+b1gl0_amd64.buildinfo<br>cb9e382918e5100369aa936ae0611aea53b2eb535178c3484e5844d51517ae75  ./perl_5.40.1-7+b1gl0_arm64.buildinfo<br>4d4945b06b0c48e8580e5b3c1f16cbd2dfd171c668f96cd9c59f5971e89cd7db  ./libperl5.40_5.40.1-7+b1gl0_amd64.deb<br>658abf8a2a072428746528990453911c7c209e58067b349fc686dd6ce6097cd5  ./libperl-dev_5.40.1-7+b1gl0_arm64.deb<br>da69fbedc47bb78a8b5d142d04296748888e062b7195af74668fa5e9ebf98bdf  ./perl-base_5.40.1-7+b1gl0_amd64.deb<br>e82ef1899c249364989ba037ad1a19633fce487905bfbea2211b5ae722543e6d  ./libperl5.40_5.40.1-7+b1gl0_arm64.deb<br>b6dbc0342a11b569680ab67dfd2dd58486c6d00cb2b6808a966d2accfbb5ca35  ./perl_5.40.1-7+b1gl0_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>platform-mesh/security-operator - v0.30.7</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.7</guid>
-            <pubDate>Thu, 16 Apr 2026 11:50:53 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.15.5 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/479</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.6...v0.30.7</p>]]></description>
-        </item>
-<item>
             <title>gardenlinux/package-ignition-legacy - ignition-legacy_2.26.0-0gl0+bp1877</title>
             <link>https://github.com/gardenlinux/package-ignition-legacy</link>
             <guid>https://github.com/gardenlinux/package-ignition-legacy/releases/tag/ignition-legacy_2.26.0-0gl0+bp1877</guid>
             <pubDate>Thu, 16 Apr 2026 10:38:50 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-ignition-legacy/actions/runs/24505744060">24505744060</a></p>
 <p>Files in this release:<br>``<code><br>5e9c1ebd300d99e9b9ae4201b52e196f287deea056a02a74728774016bdfce4e  ./ignition-legacy_2.26.0-0gl0~bp1877.debian.tar.xz<br>605f5bf424c2fc8c78b600d370ac72f7ac3b0b9bda373829292acd408863ade9  ./ignition-legacy_2.26.0-0gl0~bp1877_arm64.changes<br>02f85dfef445e32b490546697c1fc431e6f5e5855e686634babae87f18ccf92e  ./ignition-legacy_2.26.0-0gl0~bp1877_arm64.deb<br>f883ec076410d03dccfa9b277eee26d1bc8b0a1a35360e8321bbe0885ecf3a4a  ./ignition-legacy-dbgsym_2.26.0-0gl0~bp1877_amd64.deb<br>2c8ac672ccad049f3119dcc7dfc03172c6356a49df6214bfa703734a07ccf671  ./ignition-legacy-dbgsym_2.26.0-0gl0~bp1877_arm64.deb<br>3db92ab594dd9e77e57d471d4891657842a5faeeddf70d62880b66d24f211b30  ./ignition-legacy_2.26.0-0gl0~bp1877.dsc<br>4538a2af5a29ac1ca96661a8fa5b6fc9d66689776e4d7fe326b2434b384d9966  ./ignition-legacy_2.26.0-0gl0~bp1877_amd64.changes<br>1e96f958ec787877d78780d8fd0faf8eb0475e6aa14fe50519e146ba6a9fc232  ./ignition-legacy_2.26.0-0gl0~bp1877_amd64.buildinfo<br>055017ed5d25ef556c1558828e20e80e97b1cb2e27e9b022e2d5c3707004f828  ./ignition-legacy_2.26.0.orig.tar.xz<br>5b82314c792cd572b8dfb917e567357eee3c49a2e6d4b75d6bb8ce9cad45c9d4  ./ignition-legacy_2.26.0-0gl0~bp1877_amd64.deb<br>2bce2df8f7862b6783c6be725d0ff21bd0e86470aea6573aa0938556fc93d4e4  ./ignition-legacy_2.26.0-0gl0~bp1877_arm64.buildinfo<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-service - v0.15.10</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.10</guid>
-            <pubDate>Thu, 16 Apr 2026 10:02:23 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.15.5 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/443</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.15.9...v0.15.10</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.8.7</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.8.7</guid>
-            <pubDate>Thu, 16 Apr 2026 09:58:25 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.15.5 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/801</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.8.6...v0.8.7</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/account-operator - v0.14.6</title>
-            <link>https://github.com/platform-mesh/account-operator</link>
-            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.14.6</guid>
-            <pubDate>Thu, 16 Apr 2026 09:26:37 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.15.5 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/213</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.14.5...v0.14.6</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/portal - v0.21.11</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.11</guid>
-            <pubDate>Thu, 16 Apr 2026 09:02:53 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update dependency vitest to v4.1.4 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/539</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.21.10...v0.21.11</p>]]></description>
-        </item>
-<item>
-            <title>cloudoperators/repo-guard - 2.0.0</title>
-            <link>https://github.com/cloudoperators/repo-guard</link>
-            <guid>https://github.com/cloudoperators/repo-guard/releases/tag/2.0.0</guid>
-            <pubDate>Thu, 16 Apr 2026 08:40:34 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>feat(all): rebrand to repo-guard and API group migration by @onuryilmaz in https://github.com/cloudoperators/repo-guard/pull/41</li><li>chore(deps): bump docker/login-action from 3 to 4 by @dependabot[bot] in https://github.com/cloudoperators/repo-guard/pull/43</li><li>chore(deps): bump docker/build-push-action from 6 to 7 by @dependabot[bot] in https://github.com/cloudoperators/repo-guard/pull/45</li><li>chore(deps): bump azure/setup-helm from 4 to 5 by @dependabot[bot] in https://github.com/cloudoperators/repo-guard/pull/46</li><li>chore(deps): bump docker/metadata-action from 5 to 6 by @dependabot[bot] in https://github.com/cloudoperators/repo-guard/pull/44</li><li>Prepare release 2.0.0 by @onuryilmaz in https://github.com/cloudoperators/repo-guard/pull/63</li></ul>
-
-<strong>Full Changelog</strong>: https://github.com/cloudoperators/repo-guard/compare/1.6.0...2.0.0]]></description>
         </item>
 <item>
             <title>gardener/gardener-extension-os-gardenlinux - v0.39.0</title>
@@ -138,20 +251,6 @@
 <p>Files in this release:<br>``<code><br>9981c607c5a7e561c5d3ab21f165b89adb788714bad0eb27df0ae017719d222d  ./openssl_3.5.5-1gl20~bp1877_arm64.buildinfo<br>6d5c2b18001387899b2fc5309b5134ab4756f0de03ae1fd60c535bd238978dc6  ./libssl3t64_3.5.5-1gl20~bp1877_arm64.deb<br>a1de404167d9a1064734f5ece6e98f3e2ee29c20e1f27d75e30003e038fbabc0  ./libssl3t64-dbgsym_3.5.5-1gl20~bp1877_arm64.deb<br>b98e5877153d70906ee8e64e2e11d75ffb3f69a4309201273d696d90e088e215  ./openssl_3.5.5-1gl20~bp1877_amd64.deb<br>a9e5baf4a84108eaccd141e745b085b6a785956d1f7e7da1733853152d1a5d64  ./openssl-provider-fips-dbgsym_3.5.5-1gl20~bp1877_arm64.deb<br>e3df0a32599f24f2f361f82dc487bf92e1233db41b6b86da09eea5da0728be3c  ./libssl-dev_3.5.5-1gl20~bp1877_arm64.deb<br>2d387d232ad9f786f0e8f7bee864edda9530a7b8ee4e369d145c6a6e70803858  ./openssl_3.5.5.orig.tar.xz<br>78cbb058bf81e815f7facb8a77a15d9d1d8c2edc8f0ebce2be3646ecdc9029e0  ./openssl_3.5.5-1gl20~bp1877_amd64.buildinfo<br>f09b3851a36306faeb27d490a67128c43301efcbd014f0fbd9c8a77b145bce57  ./libssl3t64_3.5.5-1gl20~bp1877_amd64.deb<br>f423e3cda87757db5ca1300d5fe5e73d25d81be20b7180cda542a0a3c3e04883  ./openssl-provider-legacy-dbgsym_3.5.5-1gl20~bp1877_arm64.deb<br>dfb64c3a699e08bd270ab0a6085dc4d46f44026d5f78f0dc2f93b7454e49b39c  ./libssl-doc_3.5.5-1gl20~bp1877_all.deb<br>eafacf37a444c00f018fa31b4e076aa6ab80c580049caa65c2424405493236fb  ./openssl_3.5.5-1gl20~bp1877.debian.tar.xz<br>e7b12e4c0c44c0025330201ba0af6009dd57171c3a6f11ae70be1ccbe831d8c4  ./openssl-dbgsym_3.5.5-1gl20~bp1877_arm64.deb<br>fd53b64d21fcef3cb9d3987914eb99f9853d74929fb4836608aab825d020c4e3  ./openssl-provider-legacy-dbgsym_3.5.5-1gl20~bp1877_amd64.deb<br>6599ed2dcc9730710e5ff42a36c70815ccc0b72d886ce8b447756c1586df5ce3  ./openssl-provider-legacy_3.5.5-1gl20~bp1877_amd64.deb<br>0eac1f944d34c480ac16fe7460bb7e0c4a582ea20c8ba841b562d32a3f06bb86  ./openssl_3.5.5-1gl20~bp1877_arm64.changes<br>1822e57c6e57c9ba60671da8d4a8b07197fc20baf5398a28dbc00749a637eae6  ./openssl-provider-fips_3.5.5-1gl20~bp1877_arm64.deb<br>cb3b963c195d29437318fe8331a2197f6464b232f56601ede803bb2564b40884  ./libssl-dev_3.5.5-1gl20~bp1877_amd64.deb<br>95f474086f8dd1202157d7318e02accb95f554c1ce43ddd13fc4354f2bb124c1  ./openssl-provider-fips-dbgsym_3.5.5-1gl20~bp1877_amd64.deb<br>bf36b3ad652f7f9eef8c4aa87d7e3d51fac6f74fc90281385b124ee29c2dd205  ./openssl_3.5.5-1gl20~bp1877.dsc<br>827c855a515f9db9b42c64fe00ce2a3ad3f51f1f18f515d5428730472e260d58  ./openssl_3.5.5-1gl20~bp1877_amd64.changes<br>a87d8197e75b5783263a71583920393283389c454b0d71e2aea0fb05ef2c7981  ./openssl_3.5.5-1gl20~bp1877_arm64.deb<br>48f00cbe7486bb57458c88e4b4d960bd0fbb70466b807b6054314fa423e7bd8c  ./openssl-provider-fips_3.5.5-1gl20~bp1877_amd64.deb<br>e1b66a3cf08369d7ccec6755a9ec22f4400d9f637dccfca1269cf197bcf3f455  ./libssl3t64-dbgsym_3.5.5-1gl20~bp1877_amd64.deb<br>098f343f4c2696fc04f49fab75b477dd6286a97d9a045e68b676680a26efbfad  ./openssl-dbgsym_3.5.5-1gl20~bp1877_amd64.deb<br>d21609546d7230af8c5443012541f5f36bd8cd81edcff262fb77df9eb7948824  ./openssl-provider-legacy_3.5.5-1gl20~bp1877_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>open-component-model/delivery-service - 0.1311.0</title>
-            <link>https://github.com/open-component-model/delivery-service</link>
-            <guid>https://github.com/open-component-model/delivery-service/releases/tag/0.1311.0</guid>
-            <pubDate>Thu, 16 Apr 2026 05:55:14 +0000</pubDate>
-            <description><![CDATA[<h1>[ocm.software/ocm-gear/delivery-service:0.1311.0]</h1>
-<h2>⚠️ Breaking Changes</h2>
-<ul><li><code>[OPERATOR]</code> Syft will now be used by default to generate SBoMs (BDBA still available via configuration) by @zkdev <a href="https://github.com/open-component-model/delivery-service/pull/746">[#746</a>]</li></ul>
-<h2>🐛 Bug Fixes</h2>
-<ul><li><code>[DEVELOPER]</code> An explicitly configured OCM repository is now honoured consistently with a fallback using the default OCM repository lookup by @8R0WNI3 <a href="https://github.com/open-component-model/delivery-service/pull/745">[#745</a>]</li></ul>
-<h2>Helm Charts</h2>
-<ul><li>bootstrapping: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/bootstrapping:0.1311.0</code></li><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-service:0.1311.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/extensions:0.1311.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-service:0.1311.0</code></li><li>extension-clamav: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-clamav:0.1311.0</code></li><li>extension-crypto: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-crypto:0.1311.0</code></li><li>extension-db-manager: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-db-manager:0.1311.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extensions:0.1311.0</code></li></ul>]]></description>
-        </item>
-<item>
             <title>open-component-model/delivery-dashboard - 0.427.0</title>
             <link>https://github.com/open-component-model/delivery-dashboard</link>
             <guid>https://github.com/open-component-model/delivery-dashboard/releases/tag/0.427.0</guid>
@@ -180,15 +279,6 @@
             <description><![CDATA[<h1>[hyperkube]</h1>
 <h2>Container Images</h2>
 europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></description>
-        </item>
-<item>
-            <title>platform-mesh/golang-commons - v0.15.7</title>
-            <link>https://github.com/platform-mesh/golang-commons</link>
-            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.15.7</guid>
-            <pubDate>Wed, 15 Apr 2026 18:35:23 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp to v0.68.0 by @renovate[bot] in https://github.com/platform-mesh/golang-commons/pull/213</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.15.6...v0.15.7</p>]]></description>
         </item>
 <item>
             <title>open-component-model/open-component-model - CLI 0.4.0-rc.2</title>
@@ -220,13 +310,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
             <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.58.0...v1.58.1">1.58.1</a> (2026-04-15)</h2>
 <h3>🐛 Bug Fixes</h3>
 <ul><li><strong>portal:</strong> restore missing setPageTitle calls in route components (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/704">#704</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/8dae81dd0b08dd7a5499f97183ccb314f9bce950">8dae81d</a>), closes <a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/699">#699</a></li></ul>]]></description>
-        </item>
-<item>
-            <title>open-component-model/ocm - latest ocm-cli</title>
-            <link>https://github.com/open-component-model/ocm</link>
-            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
-            <pubDate>Wed, 15 Apr 2026 14:54:40 +0000</pubDate>
-            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
         </item>
 <item>
             <title>cloudoperators/juno - @cloudoperators/juno-messages-provider@0.2.35</title>
@@ -394,13 +477,15 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
         </item>
 <item>
-            <title>platform-mesh/kubernetes-graphql-gateway - v1.6.0</title>
-            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
-            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.6.0</guid>
-            <pubDate>Tue, 14 Apr 2026 13:07:15 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>feat(options): add CacheNamespaces option and enable resource controller by @aaronschweig in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/205</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.5.1...v1.6.0</p>]]></description>
+            <title>cloudoperators/greenhouse - v0.11.0</title>
+            <link>https://github.com/cloudoperators/greenhouse</link>
+            <guid>https://github.com/cloudoperators/greenhouse/releases/tag/v0.11.0</guid>
+            <pubDate>Tue, 14 Apr 2026 13:33:02 +0000</pubDate>
+            <description><![CDATA[<h2>🚀What&#x27;s Changed</h2>
+<ul><li>chore(charts): bump chart appVersions by @IvoGoman in: #1806</li><li>fix(plugins): retrieve exposed ingress resources from helm release by @IvoGoman in: #1810</li><li>refactor(e2e): remove legacy helm controller e2e tests by @abhijith-darshan in: #1809</li><li>feat(utils): propagator helper function to copy labels by @Zaggy21 in: #1804</li><li>fix(tests): flaky resource deletion by @Zaggy21 in: #1816</li><li>feat(e2e): e2e tests for authorization webhook by @Zaggy21 in: #1811</li><li>docs(dev-env): plugin development with local registry and flux by @abhijith-darshan in: #1798</li><li>feat(greenhouse): adds dashboards for alerts and plugins by @olandr in: #1737</li><li>refactor(plugins): remove helm controller by @IvoGoman in: #1817</li><li>refactor(core): update and address multiple golangci-lint issues by @IvoGoman in: #1836</li><li>feat(plugins): set CreateReplace CRDs for helm upgrade by @IvoGoman in: #1837</li><li>feat(plugins): reconcile PluginPresets on (Cluster)PluginDefinition changes by @IvoGoman in: #1839</li><li>feat(plugindefinitions): add docsUrl field to ClusterPD and PD, deprecate docMarkDownUrl field by @Zaggy21 in: #1827</li><li>refactor(plugins): restructure the conditions by @IvoGoman in: #1835</li><li>feat(catalogs): expose catalog controller metrics by @abhijith-darshan in: #1787</li><li>fix(core): rewrite Host header for Envoy compatibility by @mikolajkucinski in: #1678</li><li>refactor(charts): make alerts less sensitive to container restarts by @IvoGoman in: #1850</li><li>fix(service-proxy): update label names for consistency in metrics by @IvoGoman in: #1855</li><li>feat(teamrolebindings): handle non-existing team/roleRef during reconciliation by @IvoGoman in: #1845</li><li>fix(docs): correct broken relative links across documentation by @mikolajkucinski in: #1859</li><li>feat(clusters): cluster shows PayloadSchedulable=False when all worker nodes are un-schedulable / NotReady by @abhijith-darshan in: #1760</li><li>feat(authz): configure authz deployment by @abhijith-darshan in: #1866</li><li>feat(plugins): disable service-proxy by cluster by @IvoGoman in: #1861</li><li>feat(charts): bump postgresql-ng dependency by @Zaggy21 in: #1834</li><li>fix(dex): use latest release v2.45.1 by @IvoGoman in: #1857</li><li>feat(teamrolebindings): support multiple teamRefs in a single TRB by @mikolajkucinski in: #1854</li><li>fix(idproxy): initialize signer algorithm in dex server by @abhijith-darshan in: #1870</li><li>fix(dex): ensure connector is reloaded on changes by @IvoGoman in: #1858</li><li>docs(plugins): document behavior of PluginOption default values by @IvoGoman in: #1872</li><li>feat(plugindefinitions): implement image replication for registry mirrors by @mikolajkucinski in: #1826</li><li>fix(core): revert pinning to patch levelg go version in go.mod by @IvoGoman in: #1877</li><li>fix(ci): bump codeql &amp; renovate to go1.26 by @IvoGoman in: #1878</li><li>fix(ci): adapt to new version tagging used by trivy by @IvoGoman in: #1879</li><li>feat(authz): authorization webhook chart with dns entry by @abhijith-darshan in: #1871</li><li>e2e(plugins): e2e tests for plugin integration scenarios by @abhijith-darshan in: #1843</li><li>e2e(ci): add lint job to e2e by @abhijith-darshan in: #1887</li><li>fix(ISSUE-1833): make setup authz targets wrong cluster by @Zaggy21 in: #1840</li><li>feat(ISSUE-1450): enable sa for support groups by @Zaggy21 in: #1865</li><li>fix(deps): bump go-grpc to v1.79.3 by @IvoGoman in: #1903</li><li>feat(authz): authorization webhook to check team existence by @Zaggy21 in: #1894</li><li>feat(plugins): plugin image replication by @mikolajkucinski in: #1892</li><li>fix(plugins): rewrite image refs in helm hook resources by @mikolajkucinski in: #1899</li><li>chore(plugindefinitions): increase helm chart and repository interval to 24hours by @abhijith-darshan in: #1908</li><li>fix(plugins): expose helm template errors in status by @IvoGoman in: #1913</li><li>feat(dev-env): setup zot registry for known greenhouse KinD clusters by @abhijith-darshan in: #1915</li><li>fix(plugins): collect exposed ingress  resources if service-proxy disabled by @IvoGoman in: #1912</li><li>feat(plugins): add ociMirroringEnabledfeature flag by @mikolajkucinski in: #1911</li><li>fix(plugins): use primaryMirror instead of baseDomain for replication targets by @mikolajkucinski in: #1917</li></ul>
+<h2>📦 Dependency updates</h2>
+<ul><li>fix(deps): update kubernetes packages (patch) by @renovate[bot] in: #1766</li><li>fix(deps): update module github.com/onsi/ginkgo/v2 to v2.28.1 by @renovate[bot] in: #1802</li><li>fix(deps): update module github.com/onsi/gomega to v1.39.1 by @renovate[bot] in: #1801</li><li>fix(deps): update module github.com/google/go-github/v82 to v83 by @renovate[bot] in: #1808</li><li>fix(deps): update module golang.org/x/text to v0.34.0 by @renovate[bot] in: #1795</li><li>chore(deps): update mikepenz/release-changelog-builder-action action to v6.1.0 by @renovate[bot] in: #1805</li><li>chore(deps): update goreleaser/goreleaser-action action to v7 by @renovate[bot] in: #1814</li><li>chore(deps): update docker/build-push-action action to v6.19.0 by @renovate[bot] in: #1819</li><li>chore(deps): update golangci-lint (makefile) (minor) by @renovate[bot] in: #1821</li><li>fix(deps): update module github.com/google/go-github/v83 to v84 by @renovate[bot] in: #1829</li><li>chore(deps): update github actions updates (patch) by @renovate[bot] in: #1824</li><li>chore(deps): update github actions updates (minor) by @renovate[bot] in: #1825</li><li>chore(deps): update dependency golangci/golangci-lint to v2.10.1 by @renovate[bot] in: #1832</li><li>chore(deps): update github actions updates (patch) by @renovate[bot] in: #1841</li><li>chore(deps): update actions/setup-go action to v6.3.0 by @renovate[bot] in: #1851</li><li>chore(deps): update github actions updates (patch) by @renovate[bot] in: #1856</li><li>fix(deps): update golang.org/x packages (minor) by @renovate[bot] in: #1838</li><li>chore(deps): update github actions updates (minor) by @renovate[bot] in: #1860</li><li>chore(deps): update dependency golangci/golangci-lint to v2.11.3 by @renovate[bot] in: #1869</li><li>fix(deps): update module helm.sh/helm/v3 to v3.20.1 by @renovate[bot] in: #1868</li><li>chore(deps): update github actions updates (major) by @renovate[bot] in: #1884</li><li>fix(deps): update module github.com/google/go-containerregistry to v0.21.3 by @renovate[bot] in: #1883</li><li>fix(deps): update module k8s.io/klog/v2 to v2.140.0 by @renovate[bot] in: #1842</li><li>chore(deps): update dependency fluxcd/flux2 to v2.8.5 by @renovate[bot] in: #1818</li><li>fix(deps): update module github.com/go-jose/go-jose/v4 to v4.1.4 [security] by @renovate[bot] in: #1890</li><li>chore(deps): update github/codeql-action action to v4.34.1 by @renovate[bot] in: #1893</li><li>chore(deps): update golang docker tag to v1.26.2 by @renovate[bot] in: #1904</li><li>chore(deps): update dependency golangci/golangci-lint to v2.11.4 by @renovate[bot] in: #1895</li><li>chore(deps): update github actions updates (major) by @renovate[bot] in: #1896</li><li>fix(deps): update module helm.sh/helm/v3 to v3.20.2 [security] by @renovate[bot] in: #1914</li><li>fix(deps): update flux packages (patch) by @renovate[bot] in: #1867</li><li>fix(deps): update module github.com/google/cel-go to v0.28.0 by @renovate[bot] in: #1902</li><li>fix(deps): update k8s.io/utils digest to 28399d8 by @renovate[bot] in: #1889</li><li>fix(deps): update module github.com/google/go-containerregistry to v0.21.5 by @renovate[bot] in: #1901</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/cloudoperators/greenhouse/compare/v0.10.0...v0.11.0</p>]]></description>
         </item>
 <item>
             <title>gardener/egress-filter-refresher - 0.20.1</title>
@@ -783,37 +868,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
 <ul><li>argo-executor: <code>quay.io/argoproj/argoexec:v3.7.13</code></li><li>argo-server: <code>quay.io/argoproj/argocli:v3.7.13</code></li><li>argo-workflow-controller: <code>quay.io/argoproj/workflow-controller:v3.7.13</code></li><li>tm-base-image: <code>europe-docker.pkg.dev/gardener-project/releases/testmachinery/base-step:0.321.0</code></li><li>tm-bot: <code>europe-docker.pkg.dev/gardener-project/releases/testmachinery/bot:0.321.0</code></li><li>tm-controller: <code>europe-docker.pkg.dev/gardener-project/releases/testmachinery/testmachinery-controller:0.321.0</code></li><li>tm-prepare-image: <code>europe-docker.pkg.dev/gardener-project/releases/testmachinery/prepare-step:0.321.0</code></li><li>tm-run: <code>europe-docker.pkg.dev/gardener-project/releases/testmachinery/testmachinery-run:0.321.0</code></li><li>vali: <code>europe-docker.pkg.dev/gardener-project/releases/3rd/credativ/vali:v2.2.31</code></li><li>valitail: <code>europe-docker.pkg.dev/gardener-project/releases/3rd/credativ/valitail:v2.2.31</code></li></ul>]]></description>
         </item>
 <item>
-            <title>openmcp-project/service-provider-crossplane - Release v0.4.0</title>
-            <link>https://github.com/openmcp-project/service-provider-crossplane</link>
-            <guid>https://github.com/openmcp-project/service-provider-crossplane/releases/tag/Release v0.4.0</guid>
-            <pubDate>Mon, 13 Apr 2026 14:55:05 +0000</pubDate>
-            <description><![CDATA[<h1>Changelog</h1>
-
-
-<h2>🚀 Features</h2>
-
-#### [DEVELOPER]
-<ul><li>Watch referenced pull secrets and trigger reconciliation on change <strong>(#101, @moelsayed)</strong></li><li>Use upstream smartrequeue instead of local implementation. <strong>(#99, @moelsayed)</strong></li></ul>#### [USER]
-<ul><li>The <code>image</code> field in <code>ProviderConfig</code> versions is now optional. When omitted, the default image configured in the Helm chart is used, reducing configuration complexity for setups that do not use private OCI registries. <strong>(#108, @ValentinGerlach)</strong></li></ul>
-<h2>🐛 Bugfixes</h2>
-
-#### [OPERATOR]
-<ul><li>Fix reconcile loop when instance is ready <strong>(#99, @moelsayed)</strong></li></ul>#### [USER]
-<ul><li>Updated controller-utils to v0.27.1 fixing secret type handling. <strong>(#107, @maximiliantech)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [DEVELOPER]
-<ul><li>Update dependencies: kubernetes monorepo to v0.35.3, fluxcd/source-controller/api to v1.8.2, fluxcd/helm-controller/api to v1.5.3, openmcp-operator/api and lib to v0.18.1. Pin GitHub workflow actions and hack/common submodule to digest 2857d51. <strong>(#109, @maximiliantech)</strong></li></ul>#### [USER]
-<ul><li>Update issue templates and add CODEOWNERS <strong>(#88, @maximiliantech)</strong></li></ul>]]></description>
-        </item>
-<item>
-            <title>openmcp-project/service-provider-template - v0.1.0</title>
-            <link>https://github.com/openmcp-project/service-provider-template</link>
-            <guid>https://github.com/openmcp-project/service-provider-template/releases/tag/v0.1.0</guid>
-            <pubDate>Mon, 13 Apr 2026 13:59:37 +0000</pubDate>
-            <description><![CDATA[]]></description>
-        </item>
-<item>
             <title>gardenlinux/package-dpkg - dpkg_1.23.7gl0</title>
             <link>https://github.com/gardenlinux/package-dpkg</link>
             <guid>https://github.com/gardenlinux/package-dpkg/releases/tag/dpkg_1.23.7gl0</guid>
@@ -902,24 +956,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-htop-dev/actions/runs/24319894299">24319894299</a></p>]]></description>
         </item>
 <item>
-            <title>platform-mesh/subroutines - v0.3.4</title>
-            <link>https://github.com/platform-mesh/subroutines</link>
-            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.3.4</guid>
-            <pubDate>Sun, 12 Apr 2026 10:24:06 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module sigs.k8s.io/multicluster-runtime to v0.23.3 by @renovate[bot] in https://github.com/platform-mesh/subroutines/pull/21</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.3.3...v0.3.4</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-ui - v0.11.0</title>
-            <link>https://github.com/platform-mesh/iam-ui</link>
-            <guid>https://github.com/platform-mesh/iam-ui/releases/tag/v0.11.0</guid>
-            <pubDate>Sat, 11 Apr 2026 17:54:24 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>feat(ci): add attestations permission for build provenance by @nexus49 in https://github.com/platform-mesh/iam-ui/pull/51</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-ui/compare/0.10.10...v0.11.0</p>]]></description>
-        </item>
-<item>
             <title>platform-mesh/example-httpbin-operator - v0.6.0</title>
             <link>https://github.com/platform-mesh/example-httpbin-operator</link>
             <guid>https://github.com/platform-mesh/example-httpbin-operator/releases/tag/v0.6.0</guid>
@@ -958,18 +994,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
             <pubDate>Sat, 11 Apr 2026 00:27:31 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-libsemanage/actions/runs/24270254526">24270254526</a></p>
 <p>Files in this release:<br>``<code><br>575dc89b3d463ed5f96bc18fb8779a26796bbbdad42835bb4a89106d51ad5b19  ./libsemanage_3.10-1gl0_amd64.changes<br>595f277b889f4f946b62beff9304e25312a7c2c0e2d78711b9605b9e1b92df87  ./libsemanage_3.10-1gl0.debian.tar.xz<br>5f3b1bd73aba6884768f8d044ce30a6a8cb4a8582aade43f9217b2baf62bac1b  ./libsemanage_3.10-1gl0_arm64.changes<br>c662df3f72a93fa87dd7334ff1540aacc2c0f047df50c0b864bf7f0daabd7526  ./libsemanage_3.10-1gl0_arm64.buildinfo<br>1ad171cd4df6388626f5421c44479c19f20b52440afe17f5bbb6b4771d9416ed  ./libsemanage_3.10.orig.tar.xz<br>37cfd09d671c5a9605fbbb0e3fcce1894bc80c7c93e00385442aa5c67974a940  ./libsemanage_3.10-1gl0_amd64.buildinfo<br>d6f275fb3370a08d687eaa32bf446ee5a4a4d96cf190c03531eff20c08593552  ./libsemanage2-dbgsym_3.10-1gl0_arm64.deb<br>a6b33e5e121385bb636c9ff635740309e70603bd9ab1721636b113cfe85d183e  ./ruby-semanage-dbgsym_3.10-1gl0_arm64.deb<br>883e9b2f5b41c85b64bb6e0a4691343a3cc33795d6359e91d9a3aea59915563d  ./python3-semanage-dbgsym_3.10-1gl0_arm64.deb<br>3d209e8886c804c4609b44abfe6be48afa8e27fb4357079823628603732f9b0a  ./libsemanage_3.10-1gl0.dsc<br>69b2a3632130715aa9aa1011efcfbce1344bb5959d2c0914d69c1a5d5f045902  ./python3-semanage_3.10-1gl0_arm64.deb<br>fabc8d8fcdad8d0c299df5057b52e93e65c4e16358ceb714713c027a5b8f987c  ./libsemanage-dev_3.10-1gl0_arm64.deb<br>8da6682290c2251f6ef03f064186714f0bef0c0a39e54d0c027e562816fd24f4  ./ruby-semanage_3.10-1gl0_amd64.deb<br>c5453d0a9f77cc3b53d76f59f88d6803af32328aeae0b3cb96dd4ce7aa8ccc71  ./semanage-utils_3.10-1gl0_all.deb<br>a6988058b9b1a847393483842ce9a9ca23a316a62a7a9192016677583790edef  ./libsemanage-dev_3.10-1gl0_amd64.deb<br>0e5b633528356ecc84c413a6f11549a097547899fdae825a9d4a5caa3f2e1611  ./ruby-semanage-dbgsym_3.10-1gl0_amd64.deb<br>19b0513c04079ff31289e366075211791e8210a70850890eb71446ee3098035a  ./ruby-semanage_3.10-1gl0_arm64.deb<br>2d832555e53412ea29b1f527c4fb70855bd77c0e4aa77d0c4d71ba172902bd9a  ./libsemanage2-dbgsym_3.10-1gl0_amd64.deb<br>cd7f84997b60a8591748a10a38409545ea8d53bbf5509bfcfa26999e8bc94a38  ./python3-semanage-dbgsym_3.10-1gl0_amd64.deb<br>ac9194cd3cfa2b6aefc973a41865890e04fe14f89facddca18fbedc2081fdf50  ./libsemanage-common_3.10-1gl0_all.deb<br>b70e60c9ba7d0faab03a0b758d69ee6e731eac9497156ef58b3ff6644bc2ba27  ./libsemanage2_3.10-1gl0_amd64.deb<br>83a043168e7a168eb85b1d753455e6fbfe78786109199f100468ea7633686cfc  ./python3-semanage_3.10-1gl0_amd64.deb<br>ae74b5cb00efb813c8a72770dafe5909f2f068f0d48ca53206a3058d740dabe8  ./libsemanage2_3.10-1gl0_arm64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>gardener/gardener-extension-runtime-gvisor - v0.32.0</title>
-            <link>https://github.com/gardener/gardener-extension-runtime-gvisor</link>
-            <guid>https://github.com/gardener/gardener-extension-runtime-gvisor/releases/tag/v0.32.0</guid>
-            <pubDate>Fri, 10 Apr 2026 19:09:31 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-runtime-gvisor:v0.32.0]</h1>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> Updated gVisor binaries to 20260330.0. by @federated-github-access[bot] <a href="https://github.com/gardener/gardener-extension-runtime-gvisor/pull/381">[#381</a>]</li></ul>
-<h2>Helm Charts</h2>
-<ul><li>runtime-gvisor: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/runtime-gvisor:v0.32.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>gardener-extension-runtime-gvisor-installation: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/runtime-gvisor-installation:v0.32.0</code></li><li>gardener-extension-runtime-gvisor: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/runtime-gvisor:v0.32.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/etcd-backup-restore - unnamed-release</title>
@@ -1032,15 +1056,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
             <guid>https://github.com/gardenlinux/package-libgcrypt/releases/tag/libgcrypt20_1.12.1-2gl3</guid>
             <pubDate>Fri, 10 Apr 2026 12:20:35 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-libgcrypt/actions/runs/24242624123">24242624123</a><br><br>Files in this release:<br>``<code><br>c6452584426c30bf8999bcd0f5e47a161c13fea37c0834192ec294f33c93227e  ./libgcrypt20_1.12.1-2gl3_amd64.buildinfo<br>f34e01e12d8f871fbf9b357baabc330f0ad4c32eccb3af53607772101e9f65aa  ./libgcrypt-bin_1.12.1-2gl3_arm64.deb<br>08c2e22f80885c6e295eb6843baf9e1ff48bf1d3be2bfc0b3d0f3f94a046f383  ./libgcrypt20-dev_1.12.1-2gl3_arm64.deb<br>45d5b10a8f4e84cf697d7fb61611b79f4a942291ccbc43d06bd1228e928cae57  ./libgcrypt-mingw-w64-dev_1.12.1-2gl3_all.deb<br>51bf348d7161fc08da6ba044008b3bc1621afe2cfcd1a57447599c311bfe9582  ./libgcrypt20_1.12.1-2gl3_arm64.buildinfo<br>88e5259a232dab3180e4f240bba396ce669855d5b52c010c6071e621091d1d3b  ./libgcrypt20-doc_1.12.1-2gl3_all.deb<br>a3e0f7a0e2806bdf3689e05d815084587d2497956a3d7efdd61a0f9c944b61ee  ./libgcrypt-bin-dbgsym_1.12.1-2gl3_amd64.deb<br>5c35765a869c9e0d09a66f45a06d00658f4bead1015049ed3452e11226984ec3  ./libgcrypt20_1.12.1-2gl3.dsc<br>79859ed29371ced7869ee84ec29936977b4e3c52ea135a5253dfc4941da5ed0f  ./libgcrypt20_1.12.1-2gl3.debian.tar.xz<br>65089d13a5192d3ca31aa68db60b4ba2b3068aeb431aac44c37326423190e447  ./libgcrypt20_1.12.1-2gl3_amd64.deb<br>dcc232f2629c5f27bb961213071dc4101fe853129a40f99b5a37fea241ed7bc6  ./libgcrypt20_1.12.1.orig.tar.xz<br>aab41bc79e435cccb46883ff0cee62b109f541cc46ad3d07f60533241f360181  ./libgcrypt20_1.12.1-2gl3_amd64.changes<br>9e8e35c413b370cfa0e7fc8577eda4e0f9b2b997229324c83870baaa90012df0  ./libgcrypt-bin_1.12.1-2gl3_amd64.deb<br>c037e8763980f912d308247414221058531f88d191a26ce252aaf7396f6e497a  ./libgcrypt20-dbgsym_1.12.1-2gl3_arm64.deb<br>521bf57c6ed4a7a232b0794ecb678e2386634a4f98ba8ed2fb3716245bd047d7  ./libgcrypt20_1.12.1-2gl3_arm64.deb<br>ab877ae4b5ba34a695038b1b6b3c261feba540f47a2d2bec5fdb0084d7286076  ./libgcrypt20_1.12.1-2gl3_arm64.changes<br>ddc8675a7026faa6f394c54e36736cf0837858d91dfbd435384643e7a205a7ef  ./libgcrypt20-dev_1.12.1-2gl3_amd64.deb<br>5688ffae05f25b9b15fe5fa3874ec49b56ab268e0cc80c501dcabd8533a215a3  ./libgcrypt-bin-dbgsym_1.12.1-2gl3_arm64.deb<br>9600c9b6a4edf8577afc0dc699b76ebf23000be3cb0df0db1fecd3a937f9f922  ./libgcrypt20-dbgsym_1.12.1-2gl3_amd64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>cloudoperators/heureka - v1.57.2</title>
-            <link>https://github.com/cloudoperators/heureka</link>
-            <guid>https://github.com/cloudoperators/heureka/releases/tag/v1.57.2</guid>
-            <pubDate>Fri, 10 Apr 2026 12:00:29 +0000</pubDate>
-            <description><![CDATA[<h2><a href="https://github.com/cloudoperators/heureka/compare/v1.57.1...v1.57.2">1.57.2</a> (2026-04-10)</h2>
-<h3>Bug Fixes</h3>
-<ul><li><strong>image:</strong> sort images by vulnerability count by default (<a href="https://github.com/cloudoperators/heureka/issues/1156">#1156</a>) (<a href="https://github.com/cloudoperators/heureka/commit/aefa9edad57ac096b0bd2ff6b68d0e889aecd363">aefa9ed</a>)</li></ul>]]></description>
         </item>
 <item>
             <title>gardener/machine-controller-manager-provider-aws - v0.27.3</title>
@@ -1342,14 +1357,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
 <ul><li>chore(deps): update opentelemetry (#42) @app/renovate</li><li>chore(deps): update prometheus to v0.90.1 (#43) @app/renovate</li><li>chore(deps): update dependency cert-manager/cert-manager to v1.20.1 (#44) @app/renovate</li><li>chore(deps): update kro to v0.9.0 (#46) @app/renovate</li><li>chore(deps): update ocm-k8s-toolkit to v0.3.0 (#47) @app/renovate</li></ul>
 
 <strong>Full Changelog</strong>: https://github.com/openmcp-project/observability-stack/compare/v0.0.6...v0.0.7]]></description>
-        </item>
-<item>
-            <title>gardener/coredns-config-adapter - v0.5.0</title>
-            <link>https://github.com/gardener/coredns-config-adapter</link>
-            <guid>https://github.com/gardener/coredns-config-adapter/releases/tag/v0.5.0</guid>
-            <pubDate>Thu, 02 Apr 2026 09:04:21 +0000</pubDate>
-            <description><![CDATA[<h2>Container (OCI) Images</h2>
-<ul><li>coredns-config-adapter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/coredns-config-adapter:v0.5.0</code></li><li>update go version to <code>1.26.1</code></li><li>update distroless image to <code>static-debian13</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/gardener-metrics-exporter - 0.44.0</title>
@@ -2695,14 +2702,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.1.0
 <p>Files in this release:<br>``<code><br>cbfba049cac0be7c79149642425b59a4b5e8578fe3cc5c7282c2b647493f6ed7  ./libcurl4-gnutls-dev_8.19.0-2gl0_amd64.deb<br>7fcd366526948840ef049eb6c0b477cefb7e60a966243e976040238edf73904b  ./libcurl4-gnutls-dev_8.19.0-2gl0_arm64.deb<br>6e96d921b47474cfac5b0d3ce5cc800b9a61447da68b62ef80e7245479c26cac  ./libcurl3t64-gnutls_8.19.0-2gl0_arm64.deb<br>6e60c7cde12874acb0311a4cfa946230b2c3029239da371eec0561b161c1413f  ./libcurl4t64_8.19.0-2gl0_arm64.deb<br>6dc3edd54b041f13ecca0281f77a5a4608d2a7353d37cd6a4091dc0b31deaa37  ./curl_8.19.0-2gl0_amd64.buildinfo<br>84773292b624036d0c7d990468e7ca42292fe8b7f1002a4c859553e4ecda1977  ./libcurl4t64-dbgsym_8.19.0-2gl0_arm64.deb<br>130866454b4be9d6784683e1d22ae87c8226cc18928ab283f7f37b4fe20d5d12  ./libcurl4t64_8.19.0-2gl0_amd64.deb<br>847e00fb787a5e65f88d3a7e138d1fc4f6ed5c6c06e5838b1007d49c835be66a  ./curl-dbgsym_8.19.0-2gl0_amd64.deb<br>d8cd6e8c6c7942e7fe78dfbd228c1d1413a5c7e738100ab9895fd58ff052c617  ./curl_8.19.0-2gl0_arm64.deb<br>3de19d44ad4a3818fda7d578ed6cbde671e7ae4b32ba71f0afe9d3668b75fe9c  ./curl_8.19.0-2gl0.dsc<br>7d60e29d7e7a31976124b55993c58a447f8c41351b64da10dee2a10ee7cea776  ./curl_8.19.0-2gl0_amd64.deb<br>a04dbc3f77f9842bb182cbf6e7f429bd87a56deaaf26cdc7ed59c9d019df404f  ./curl_8.19.0-2gl0.debian.tar.xz<br>d50cc7519f472e693f85759ff75d6a9cbfcf498a50a9b735bdbc4e96261b17b7  ./curl_8.19.0-2gl0_amd64.changes<br>ba01c036111da250c90261e51f77adfa3210903036974fed212275bc5d7b5b9f  ./libcurl4-openssl-dev_8.19.0-2gl0_amd64.deb<br>1f81e153f3e0d2d5c7b8395ea0709f8fe9e8f38b020f2891965a4476831110f0  ./libcurl3t64-gnutls-dbgsym_8.19.0-2gl0_amd64.deb<br>6d2fabf93ebf05605d9dc2f0fe06ac33fc71c61c228a1262c66669422b82c1ca  ./libcurl4-doc_8.19.0-2gl0_all.deb<br>0f9e167615828632b3681f0cb7799b37eeca3d9f6859eebb0b21d659721aca82  ./libcurl3t64-gnutls-dbgsym_8.19.0-2gl0_arm64.deb<br>aa4718ff0cc318405318f95c18503e934bc97fab7feb9961d968e9f540771654  ./libcurl3t64-gnutls_8.19.0-2gl0_amd64.deb<br>0ed4b90de0a7270af9fd46b8a36843e29338849b8ed7dddd57adee80c49c9b28  ./libcurl4t64-dbgsym_8.19.0-2gl0_amd64.deb<br>d52e412b3e0d47dd9b2a619d2c5bee8e265b26ddd1f4d42b957dcd8cddeba5a7  ./curl_8.19.0.orig.tar.xz<br>ce400f365dd97614065fb2cb6548b2d53ed5ea766641d44d11690216dff223a1  ./curl_8.19.0-2gl0_arm64.buildinfo<br>8d4adb1a5ba1093650236411e660109b8e665924e56efa5d6096d97599f5d894  ./curl_8.19.0-2gl0_arm64.changes<br>af880b2fb18b83ceabd5826ce602ffa900fabd3d8c83617f60e80014da6ba94a  ./curl-dbgsym_8.19.0-2gl0_arm64.deb<br>59977a1d7b94423fa33e807a27107f7c53a1ce51b4b3d66454dd277b46f105e7  ./libcurl4-openssl-dev_8.19.0-2gl0_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-ignition - ignition_2.26.0-1gl0</title>
-            <link>https://github.com/gardenlinux/package-ignition</link>
-            <guid>https://github.com/gardenlinux/package-ignition/releases/tag/ignition_2.26.0-1gl0</guid>
-            <pubDate>Wed, 25 Mar 2026 12:52:51 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-ignition/actions/runs/23541966647">23541966647</a></p>
-<p>Files in this release:<br>``<code><br>365a9fd3942a409694e2711fce2215fc4f87b753b061f10c8d52c89ddb30b9ff  ./ignition-dbgsym_2.26.0-1gl0_amd64.deb<br>c97879bc8461a1ab8c86867363dee0506d97527ab5cfa373297bf4b0c62cb723  ./ignition_2.26.0-1gl0_amd64.buildinfo<br>724215ab5abf2a3dbfaa7793e06c07f2e19b026c3c0ca1bd4450cf39ac2d7738  ./ignition_2.26.0-1gl0_arm64.buildinfo<br>3c366bd1cc1a504156bfa39ffe59fbda68e98e3ff83f2aee41f46f53a3dc9b6b  ./ignition-dbgsym_2.26.0-1gl0_arm64.deb<br>d7fffbd9c37b3fd7352ef2c9e4aae19c7515e47eb97b1b9ba255f45067481dfe  ./ignition_2.26.0-1gl0.dsc<br>3d365c04e347b93cc871112a0d66627897f98c8f39b03978df3fddc382da1917  ./ignition_2.26.0-1gl0_amd64.changes<br>78c893354e876ddab8348707a279ecbcbdfb1284d8ec51dea980c20107767f81  ./ignition_2.26.0-1gl0_arm64.changes<br>39fbd9dcbeb89a2e7283e7fe8a324eb43bb2da20bc6332a094812887285b4bd5  ./ignition_2.26.0-1gl0_arm64.deb<br>55b2c393c5b40487a1075c5b9731c068818a3360fdd2891e7fa7c016be956dce  ./ignition_2.26.0.orig.tar.xz<br>52ad2ee6df275b2b08a39f60da02cd8fff222db69fec09d4bf4c965a4ef2ff54  ./ignition_2.26.0-1gl0.debian.tar.xz<br>e85755d2d2d6375ee59b814f44f9742c6725dd1b24beb53dee3cfcf2b72b126d  ./ignition_2.26.0-1gl0_amd64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>gardener/gardener-extension-registry-cache - v0.21.0</title>
             <link>https://github.com/gardener/gardener-extension-registry-cache</link>
             <guid>https://github.com/gardener/gardener-extension-registry-cache/releases/tag/v0.21.0</guid>
@@ -3793,17 +3792,6 @@ Initial implementation.]]></description>
             <pubDate>Mon, 16 Feb 2026 16:00:01 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-kexec-tools/actions/runs/22069581117">22069581117</a></p>
 <p>Files in this release:<br>``<code><br>5f173e9eb8f4e90177ceb2d0222b8b9830831287b3076cf692294608d551f683  ./kexec-tools_2.0.32-3gl0.debian.tar.xz<br>e70f2d836b5f2c94c826b6a37d6ab74bded0f0a553391b5502002022d8b18048  ./kexec-tools_2.0.32-3gl0_arm64.buildinfo<br>2609f06fa59d7a52032ef41b50fb901a47404c959a1dd26bee7a2bedd8c11e21  ./kexec-tools_2.0.32-3gl0_amd64.changes<br>575db1966bbee2a011143da9f9120afc12e682bb31104ca22efea7fbf57c6ba1  ./kexec-tools-udeb_2.0.32-3gl0_amd64.udeb<br>85593207461d22d1d570d2e228259eb4a53518d78ae3be70c0cccf3e3dc9b635  ./kexec-tools_2.0.32-3gl0_arm64.changes<br>9269d4d71df50e74f6972d180a5c7c51965b39e22bf8b2ebb407e0f072c3836f  ./kexec-tools_2.0.32-3gl0.dsc<br>b628a877332619d18535f113f16cbec34be1c906210d45b4c6b4e851b8c20fd5  ./kexec-tools-dbgsym_2.0.32-3gl0_arm64.deb<br>dcb17356d37fdc691a0d640167da59041b0eab48f7a4b7c0ebd181604187611e  ./kexec-tools-udeb_2.0.32-3gl0_arm64.udeb<br>c7973eab5f8c249b19558e926fc15a8c999c3b9d6a7cbb8b6d0a438ab1239848  ./kexec-tools-dbgsym_2.0.32-3gl0_amd64.deb<br>55164e8a9afa6ce41acf070f6861aad3cabad18d120aee09e1577c156b50884c  ./kexec-tools_2.0.32-3gl0_amd64.buildinfo<br>8f847c7a39d3dd8c9f942020fedc541ad2dd36f4187e645a588b4ee2fb54eab9  ./kexec-tools_2.0.32-3gl0_arm64.deb<br>59a538b1679fb0d4045adcbdad9fb61bd2fd1b78695b3be1280b2f7e2d086fab  ./kexec-tools_2.0.32-3gl0_amd64.deb<br>85919a9c90f2b0778270f5bb15d40a6f51929a5e107db8d16cade6350fd769b6  ./kexec-tools_2.0.32.orig.tar.xz<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>cloudoperators/greenhouse - v0.10.0</title>
-            <link>https://github.com/cloudoperators/greenhouse</link>
-            <guid>https://github.com/cloudoperators/greenhouse/releases/tag/v0.10.0</guid>
-            <pubDate>Fri, 13 Feb 2026 09:24:55 +0000</pubDate>
-            <description><![CDATA[<h2>🚀What&#x27;s Changed</h2>
-<ul><li>fix(charts): update appVersions by @IvoGoman in: #1725</li><li>chore(actions): additional dep groupings with renovate by @IvoGoman in: #1726</li><li>fix(tests): flaky kubeconfig_controller test by @IvoGoman in: #1730</li><li>fix(catalogs): use eventually scoped gomega by @IvoGoman in: #1731</li><li>feat(ci): add action to label PRs by size by @IvoGoman in: #1734</li><li>fix(catalogs): retain catalog secret err in status by @abhijith-darshan in: #1596</li><li>fix(e2e): update e2e workflow by @abhijith-darshan in: #1739</li><li>feat(greenhouse): ensure suspended conditions in lifecycle by @abhijith-darshan in: #1738</li><li>feat(ISSUE-1434): poc authorizer webhook for resource owners by @Zaggy21 in: #1695</li><li>fix(docs): update links in metadata templating by @IvoGoman in: #1736</li><li>feat(catalogs): catalog propagate owned-by label to (Cluster)PluginDefinitions by @abhijith-darshan in: #1753</li><li>feat(dev-env): enable flux and expression features by @IvoGoman in: #1757</li><li>fix(plugins): error not reported in plugin by @Zaggy21 in: #1755</li><li>fix(ci): group onsi &amp; golang.org/x pkgs disregarding version bump by @IvoGoman in: #1762</li><li>fix(ci): use pinGitHubActionDigestsToSemver by @IvoGoman in: #1767</li><li>feat(e2e): replace bitnamicharts nginx with podinfo chart in e2e by @Zaggy21 in: #1772</li><li>fix(plugins): set an empty .spec.test on HelmRelease by @IvoGoman in: #1778</li><li>feat(plugindefinitions): apply flux HelmChart resource to validate helm chart in registry by @abhijith-darshan in: #1752</li><li>feat(greenhouse): adds local registry sample by @abhijith-darshan in: #1343</li><li>fix(plugins): sort mirrored images to avoid controllerutil diff by @abhijith-darshan in: #1780</li><li>fix(pluginpresets): recreate Plugin when deleted by @Zaggy21 in: #1768</li><li>chore(greenhouse): separate authz commands from root Makefile by @abhijith-darshan in: #1779</li><li>fix(tests): flaky organization dex test by @Zaggy21 in: #1788</li><li>feat(docs): introduce playbooks for all existing alerts by @uwe-mayer in: #1707</li><li>chore(deps): bump dexidp by @IvoGoman in: #1786</li><li>fix(docs): introduce playbook landing pages by @uwe-mayer in: #1793</li><li>chore(deps): update golang docker tag to v1.25.5 and dexidp by @Zaggy21 in: #1794</li><li>fix(plugins): set error condition if PluginDefinitions helmrepo not found by @IvoGoman in: #1785</li><li>fix(plugindefinitions): only enqueue if not deleted and generation changed by @IvoGoman in: #1799</li><li>feat(plugins): use helm chart ref in plugin helm release by @abhijith-darshan in: #1800</li></ul>
-<h2>📦 Dependency updates</h2>
-<ul><li>fix(deps): update module github.com/onsi/gomega to v1.38.3 by @renovate[bot] in: #1727</li><li>chore(config): migrate Renovate config - autoclosed by @renovate[bot] in: #1729</li><li>fix(deps): update golang.org/x/exp digest to 716be56 by @renovate[bot] in: #1720</li><li>chore(deps): update pascalgn/size-label-action digest to 6ec5bd0 by @renovate[bot] in: #1735</li><li>chore(deps): update github actions updates by @renovate[bot] in: #1763</li><li>chore(deps): update actions/checkout action to v6.0.2 by @renovate[bot] in: #1749</li><li>chore(deps): update github actions updates (minor) by @renovate[bot] in: #1770</li><li>chore(deps): update github actions updates (patch) by @renovate[bot] in: #1769</li><li>fix(deps): update kubernetes packages (minor) by @renovate[bot] in: #1700</li><li>fix(deps): update k8s.io/utils digest to 914a6e7 by @renovate[bot] in: #1702</li><li>fix(deps): update flux packages (minor) by @renovate[bot] in: #1742</li><li>fix(deps): update module github.com/onsi/ginkgo/v2 to v2.27.5 by @renovate[bot] in: #1746</li><li>fix(deps): update module github.com/onsi/gomega to v1.39.0 by @renovate[bot] in: #1747</li><li>fix(deps): update module helm.sh/helm/v3 to v3.20.0 by @renovate[bot] in: #1756</li><li>fix(deps): update module github.com/google/cel-go to v0.27.0 by @renovate[bot] in: #1783</li><li>fix(deps): update module github.com/google/go-github/v80 to v82 by @renovate[bot] in: #1784</li><li>fix(deps): update module golang.org/x/oauth2 to v0.35.0 by @renovate[bot] in: #1791</li><li>chore(deps): update github actions updates (minor) by @renovate[bot] in: #1782</li><li>chore(deps): update controller-tools (makefile) (minor) by @renovate[bot] in: #1728</li><li>chore(deps): update dependency kubernetes-sigs/kustomize to v5.8.1 by @renovate[bot] in: #1789</li><li>chore(deps): update golang docker tag to v1.25.7 by @renovate[bot] in: #1796</li><li>chore(deps): update github actions updates (patch) by @renovate[bot] in: #1790</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/cloudoperators/greenhouse/compare/v0.9.0...v0.10.0</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/bp-package-libtasn1 - libtasn1-6_4.21.0-2gl1+bp1592</title>
