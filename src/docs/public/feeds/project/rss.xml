@@ -4,9 +4,149 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Fri, 17 Apr 2026 12:16:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 12:09:36 +0000</lastBuildDate>
 
     <item>
+            <title>platform-mesh/portal - v0.21.14</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.14</guid>
+            <pubDate>Sat, 18 Apr 2026 02:32:25 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): lock file maintenance by @renovate[bot] in https://github.com/platform-mesh/portal/pull/543</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.21.13...v0.21.14</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.15.17</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.17</guid>
+            <pubDate>Sat, 18 Apr 2026 01:59:26 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.28.4 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/454</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.15.16...v0.15.17</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-libguestfs - libguestfs_1.58.1-5gl0</title>
+            <link>https://github.com/gardenlinux/package-libguestfs</link>
+            <guid>https://github.com/gardenlinux/package-libguestfs/releases/tag/libguestfs_1.58.1-5gl0</guid>
+            <pubDate>Sat, 18 Apr 2026 00:12:42 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-libguestfs/actions/runs/24592178554">24592178554</a></p>
+<p>Files in this release:<br>``<code><br>c5733cbe8c0abe684ed432852facad125fe14c1c85f70d360281223c1d85a0b2  ./guestfsd_1.58.1-5gl0_amd64.deb<br>8925a6acfadff3508973b8608ee6590f1785271519ca6b374491aa46faf47d37  ./libguestfs-ocaml_1.58.1-5gl0_amd64.deb<br>30bb3b635e4473fe3a37367c53da3058a04c5dd4eac674a1c3b1954fed6ee4c4  ./libguestfs-gfs2_1.58.1-5gl0_amd64.deb<br>01a806f0e95b7db9ed6dfe7bb51b49337ceea5411e1a37bbc933cede029df253  ./libguestfs_1.58.1-5gl0_amd64.buildinfo<br>0501536c7d64701525a26ac6fdc5c496e8d6c5312a1923118ba88ee5c0ba138f  ./guestfish_1.58.1-5gl0_amd64.deb<br>c4609ab1823771ddd8a4fbbe1d2ecae6b96a050ab9d481982b4be9664aa7907f  ./libguestfs-nilfs_1.58.1-5gl0_amd64.deb<br>c2d32c7e03fdf4a7b9724f5467d3772f495ad4cf6c74454c95b3be1e48333eb9  ./libguestfs-ocaml-dev_1.58.1-5gl0_amd64.deb<br>fc6a08ef5161b2e2469dcc4c60bae9b700582d6d227900b4182a90152ae05395  ./ruby-guestfs_1.58.1-5gl0_amd64.deb<br>805bee36af721bcc63d442d70412a5c780d803efa56c4e660e647e056f995082  ./guestfish-dbgsym_1.58.1-5gl0_amd64.deb<br>7da051b1b90a2fb303ee0a176f4f293b77fa8a06d95213541b61a49015170f2b  ./libguestfs-perl-dbgsym_1.58.1-5gl0_amd64.deb<br>42ad6a1353f5dee603c237e148c957890a58f699315bbab6eba56a71cb100efa  ./php-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>048fa3fa92c4e170f52a51899e03f006a93bb207c9044c0aa026efdece3f7163  ./libguestfs-xfs_1.58.1-5gl0_amd64.deb<br>503b6401a3a3dfe9ef3720d1b5c18d60b51e784bae2a48660bec5c7a64fcb948  ./libguestfs-gobject-1.0-0t64_1.58.1-5gl0_amd64.deb<br>c2f1c5bf827ad619bae098ac345b1c3fcb22853b4f2b886f5d3479410d3656c0  ./libguestfs-hfsplus_1.58.1-5gl0_amd64.deb<br>19cde8f34993552d7cca5a2b121d3a76d778b9229eacdcafa547922372fd093c  ./lua-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>88eb65809245a99033debd07fc5a0ba80ce0f20d4e7642b46f35843c48611789  ./gir1.2-guestfs-1.0_1.58.1-5gl0_amd64.deb<br>0740be9c1be37c08bb52551d6883d1d6fc37c64f484538335961b8f95a0461a5  ./libguestfs-tools_1.58.1-5gl0_amd64.deb<br>9654f358623eb28115879fdb2b1fd498669041196ef389a42d71cdcd13146f4c  ./libguestfs_1.58.1-5gl0_amd64.changes<br>c47a0df12424e1b55c9b499dc4807de40ff0b767d266587378cc4845e12f5a24  ./guestmount-dbgsym_1.58.1-5gl0_amd64.deb<br>11a328683a5d91466dd8648a5ff82100be64558004759a5cbe7bd4359d343889  ./libguestfs_1.58.1-5gl0.dsc<br>fe9b04538aff560ec31931198d62a5165efc8926d22b937fbd95afe5a7db741e  ./python3-guestfs_1.58.1-5gl0_amd64.deb<br>f7567fc3fde07ab87548b5b5ad3a9a163d6a1c1571bc5db0baf9a690ed3417cb  ./guestfsd-dbgsym_1.58.1-5gl0_amd64.deb<br>bef69896055ddcff05f8b12a52e6fa6fe33277c13b992668664ac081ee13b6be  ./libguestfs-java-dbgsym_1.58.1-5gl0_amd64.deb<br>84859b49f90162ae6b3037b5ea8c52d1cc6aea75690753ef049dfa567e222011  ./golang-guestfs-dev_1.58.1-5gl0_all.deb<br>5c185f46771f2b501ca1525cde9caa6be878f7b39113f0dede764d50d8e0c397  ./libguestfs-tools-dbgsym_1.58.1-5gl0_amd64.deb<br>69c0fcc7e81ddd3de8b693fef38f1796b79cfd3ee6c05a09de93325a4613ce90  ./libguestfs-gobject-dev_1.58.1-5gl0_amd64.deb<br>f33233843d1351e5a1c9e5f129d065e68c2bd9f454d799f45944e4762a37d8f7  ./libguestfs0t64_1.58.1-5gl0_amd64.deb<br>9e3bbe4939008358118a5ed93a4418a0272347fad65e479d5cb7dbca942f420c  ./libguestfs-dev_1.58.1-5gl0_amd64.deb<br>d368af212f5c873c283082b11de471fb03f459b7fa09edc3ce3e1416758ebb59  ./php-guestfs_1.58.1-5gl0_amd64.deb<br>6ebd0fd03a1ff8ce9ae6daebee0123baa9d90aa9ea17dcc32150f31e90b9c4c8  ./libguestfs-java_1.58.1-5gl0_amd64.deb<br>a621d63a82497b9e268e05449803020192f1f45492d98af6745f9a08ec62e047  ./libguestfs-rescue_1.58.1-5gl0_amd64.deb<br>82f74cad8773d7acb41dbff8144674a5c94d7ea31155a67c5317ec32f59fc140  ./libguestfs0t64-dbgsym_1.58.1-5gl0_amd64.deb<br>f0d8a57c4180ef3fee21b41cd5b662435e6eccd8e52ad98ece595cb6ffb8e1d2  ./python3-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>6fe317c5ac4477ca46fdd2b8842db1dc0c595f7cce2b21542289495f49646604  ./libguestfs-gobject-1.0-0t64-dbgsym_1.58.1-5gl0_amd64.deb<br>70c36e998932f03c5f74fc409d73b3914d2ee66f8735758d93ca69acfd56ce5a  ./guestmount_1.58.1-5gl0_amd64.deb<br>434af29afe408c68e9fa13af5a4cf855751184225007ded7eb90e829c920bb67  ./ruby-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>86980a6135ca1a1a6fafaee09b055a38ff459ef566eb23ecaae2ea65ff1f6f3b  ./libguestfs-jfs_1.58.1-5gl0_amd64.deb<br>cb0cd95bbdcf1f9107bb37fde76682a67c44c334d2c09b0f5084d1da90fa2dbd  ./libguestfs-ocaml-dbgsym_1.58.1-5gl0_amd64.deb<br>af0a83bacd48b7226c02627ecba61de5fa20dc84c0946ca9fe0b6bcb63c20c3b  ./libguestfs-perl_1.58.1-5gl0_amd64.deb<br>92ba809c474a6cee31673c3a1f05a01d5d2cf0ec224caf47b38b05dc5e849f29  ./lua-guestfs_1.58.1-5gl0_amd64.deb<br>53b8637c7d9e555cb9002c8aace60088a986253c3a17aa0c29cfefb1d5871200  ./libguestfs-rsync_1.58.1-5gl0_amd64.deb<br>133cf481fa3bf6206696f16cbd171b33820bdc88a2c271cad28c5f4a9a0bd03f  ./libguestfs_1.58.1.orig.tar.xz<br>0877e1fff3303fb24e043a50f024dc1ac71a30a78a258c826deab09a9686dc34  ./libguestfs_1.58.1-5gl0.debian.tar.xz<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/golang-commons - v0.16.1</title>
+            <link>https://github.com/platform-mesh/golang-commons</link>
+            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.16.1</guid>
+            <pubDate>Fri, 17 Apr 2026 21:35:29 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/openfga/openfga to v1.14.1 by @renovate[bot] in https://github.com/platform-mesh/golang-commons/pull/216</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.16.0...v0.16.1</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.8.12</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.8.12</guid>
+            <pubDate>Fri, 17 Apr 2026 18:52:29 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/subroutines to v0.3.3 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/807</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.8.11...v0.8.12</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/virtual-workspaces - v0.11.3</title>
+            <link>https://github.com/platform-mesh/virtual-workspaces</link>
+            <guid>https://github.com/platform-mesh/virtual-workspaces/releases/tag/v0.11.3</guid>
+            <pubDate>Fri, 17 Apr 2026 16:30:42 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): update module github.com/moby/spdystream to v0.5.1 [security] by @renovate[bot] in https://github.com/platform-mesh/virtual-workspaces/pull/102</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/virtual-workspaces/compare/0.11.2...v0.11.3</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/rebac-authz-webhook - v0.8.2</title>
+            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
+            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.8.2</guid>
+            <pubDate>Fri, 17 Apr 2026 16:29:59 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix: add handler fuzz tests and fix CapGroupToRelationLength panic by @nexus49 in https://github.com/platform-mesh/rebac-authz-webhook/pull/245</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.8.1...v0.8.2</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.30.12</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.12</guid>
+            <pubDate>Fri, 17 Apr 2026 16:04:16 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/subroutines to v0.3.3 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/486</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.11...v0.30.12</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/account-operator - v0.14.10</title>
+            <link>https://github.com/platform-mesh/account-operator</link>
+            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.14.10</guid>
+            <pubDate>Fri, 17 Apr 2026 15:57:23 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>test: add CRD roundtrip and webhook fuzz tests by @nexus49 in https://github.com/platform-mesh/account-operator/pull/220</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.14.9...v0.14.10</p>]]></description>
+        </item>
+<item>
+            <title>cobaltcore-dev/aurora-dashboard - v1.60.0</title>
+            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
+            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.60.0</guid>
+            <pubDate>Fri, 17 Apr 2026 15:09:02 +0000</pubDate>
+            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.59.0...v1.60.0">1.60.0</a> (2026-04-17)</h2>
+<h3>✨ Features</h3>
+<ul><li><strong>aurora-portal:</strong> created project and domain scoped procedures (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/666">#666</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/468e02c6d0371fbcacf33b99e1b1472fe028e2f8">468e02c</a>)</li></ul>]]></description>
+        </item>
+<item>
+            <title>openmcp-project/service-provider-landscaper - Release v0.18.0</title>
+            <link>https://github.com/openmcp-project/service-provider-landscaper</link>
+            <guid>https://github.com/openmcp-project/service-provider-landscaper/releases/tag/Release v0.18.0</guid>
+            <pubDate>Fri, 17 Apr 2026 14:24:49 +0000</pubDate>
+            <description><![CDATA[<h1>Changelog</h1>]]></description>
+        </item>
+<item>
+            <title>openmcp-project/landscaper - Release v1.2.0</title>
+            <link>https://github.com/openmcp-project/landscaper</link>
+            <guid>https://github.com/openmcp-project/landscaper/releases/tag/Release v1.2.0</guid>
+            <pubDate>Fri, 17 Apr 2026 14:12:09 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>feat: copy latest feature from old repository by @robertgraeff in https://github.com/openmcp-project/landscaper/pull/25</li><li>chore: copy legacy code by @guewa in https://github.com/openmcp-project/landscaper/pull/28</li><li>fix: for code scanning alert no. 3: Use of a weak cryptographic key by @guewa in https://github.com/openmcp-project/landscaper/pull/182</li><li>fix(deps): update all patch dependencies by @renovate[bot] in https://github.com/openmcp-project/landscaper/pull/190</li><li>feat: cleanup image vector dependency by @robertgraeff in https://github.com/openmcp-project/landscaper/pull/189</li><li>fix(deps): update all patch dependencies to v0.35.4 by @renovate[bot] in https://github.com/openmcp-project/landscaper/pull/193</li><li>fix: dependency cycle detection by @robertgraeff in https://github.com/openmcp-project/landscaper/pull/198</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@renovate[bot] made their first contribution in https://github.com/openmcp-project/landscaper/pull/19</li><li>@robertgraeff made their first contribution in https://github.com/openmcp-project/landscaper/pull/25</li><li>@guewa made their first contribution in https://github.com/openmcp-project/landscaper/pull/28</li><li>@n3rdc4ptn made their first contribution in https://github.com/openmcp-project/landscaper/pull/7</li><li>@dependabot[bot] made their first contribution in https://github.com/openmcp-project/landscaper/pull/58</li></ul>
+<strong>Full Changelog</strong>: https://github.com/openmcp-project/landscaper/compare/v0.141.0...v1.2.0]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-ui - v0.11.14</title>
+            <link>https://github.com/platform-mesh/iam-ui</link>
+            <guid>https://github.com/platform-mesh/iam-ui/releases/tag/v0.11.14</guid>
+            <pubDate>Fri, 17 Apr 2026 13:37:27 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Introduce the owners count, fix few bugs with roles handling by @gkrajniak in https://github.com/platform-mesh/iam-ui/pull/42</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-ui/compare/0.11.13...v0.11.14</p>]]></description>
+        </item>
+<item>
+            <title>gardener/gardener-extension-image-rewriter - v0.9.0</title>
+            <link>https://github.com/gardener/gardener-extension-image-rewriter</link>
+            <guid>https://github.com/gardener/gardener-extension-image-rewriter/releases/tag/v0.9.0</guid>
+            <pubDate>Fri, 17 Apr 2026 13:31:59 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-image-rewriter:v0.9.0]</h1>
+<h2>🏃 Others</h2>
+<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener/pkg/apis</code> from <code>v1.138.0</code> to <code>v1.138.1</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/76">[#76</a>]
+<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.138.2</code> to <code>v1.140.0</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/78">[#78</a>]
+<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener/pkg/apis</code> from <code>v1.138.1</code> to <code>v1.138.2</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/80">[#80</a>]
+<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.138.1</code> to <code>v1.138.2</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/79">[#79</a>]
+<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>go</code> from <code>1.26.1</code> to <code>1.26.2</code>. <a href="https://redirect.github.com/go/releases/tag/1.26.2">Release Notes</a> by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/83">[#83</a>]
+<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.140.0</code> to <code>v1.140.1</code>.   
+  - <code>github.com/gardener/gardener/pkg/apis</code> from <code>v1.140.0</code> to <code>v1.140.1</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/85">[#85</a>]
+<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.138.0</code> to <code>v1.138.1</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/77">[#77</a>]
+<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>golang</code> from <code>1.26.1</code> to <code>1.26.2</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/82">[#82</a>]
+<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>k8s.io/api</code> from <code>v0.35.3</code> to <code>v0.35.4</code>.   
+  - <code>k8s.io/apimachinery</code> from <code>v0.35.3</code> to <code>v0.35.4</code>.   
+  - <code>k8s.io/code-generator</code> from <code>v0.35.3</code> to <code>v0.35.4</code>.   
+  - <code>k8s.io/component-base</code> from <code>v0.35.3</code> to <code>v0.35.4</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/86">[#86</a>]
+<h2>Helm Charts</h2>
+<ul><li>image-rewriter: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/image-rewriter:v0.9.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>gardener-extension-image-rewriter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/image-rewriter:v0.9.0</code></li></ul>]]></description>
+        </item>
+<item>
             <title>platform-mesh/kubernetes-graphql-gateway - v1.6.1</title>
             <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
             <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.6.1</guid>
@@ -18,52 +158,14 @@
 <strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.6.0...v1.6.1]]></description>
         </item>
 <item>
-            <title>platform-mesh/extension-manager-operator - v0.8.10</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.8.10</guid>
-            <pubDate>Fri, 17 Apr 2026 11:55:37 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.15.6 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/805</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.8.9...v0.8.10</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/security-operator - v0.30.9</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.9</guid>
-            <pubDate>Fri, 17 Apr 2026 11:21:52 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.15.6 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/483</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.8...v0.30.9</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-service - v0.15.15</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.15</guid>
-            <pubDate>Fri, 17 Apr 2026 11:20:46 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.15.6 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/451</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.15.14...v0.15.15</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-ui - v0.11.13</title>
-            <link>https://github.com/platform-mesh/iam-ui</link>
-            <guid>https://github.com/platform-mesh/iam-ui/releases/tag/v0.11.13</guid>
-            <pubDate>Fri, 17 Apr 2026 11:16:32 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>Add OpenSSF Scorecard schedule by @Perseus985 in https://github.com/platform-mesh/iam-ui/pull/65</li></ul>
-<h2>New Contributors</h2>
-<ul><li>@Perseus985 made their first contribution in https://github.com/platform-mesh/iam-ui/pull/65</li></ul>
-<strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-ui/compare/0.11.12...v0.11.13]]></description>
-        </item>
-<item>
-            <title>cloudoperators/repo-guard - 3.0.0</title>
+            <title>cloudoperators/repo-guard - 4.0.0</title>
             <link>https://github.com/cloudoperators/repo-guard</link>
-            <guid>https://github.com/cloudoperators/repo-guard/releases/tag/3.0.0</guid>
-            <pubDate>Fri, 17 Apr 2026 09:43:03 +0000</pubDate>
+            <guid>https://github.com/cloudoperators/repo-guard/releases/tag/4.0.0</guid>
+            <pubDate>Fri, 17 Apr 2026 10:40:28 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>Prepare release 3.0.0 by @onuryilmaz in https://github.com/cloudoperators/repo-guard/pull/72</li></ul>
+<ul><li>Prepare release 4.0.0 by @onuryilmaz in https://github.com/cloudoperators/repo-guard/pull/73</li></ul>
 
-<strong>Full Changelog</strong>: https://github.com/cloudoperators/repo-guard/compare/2.0.1...3.0.0]]></description>
+<strong>Full Changelog</strong>: https://github.com/cloudoperators/repo-guard/compare/3.0.0...4.0.0]]></description>
         </item>
 <item>
             <title>open-component-model/delivery-service - 0.1313.0</title>
@@ -87,17 +189,6 @@
 <ul><li><strong>keppel:</strong> remove ternary (<a href="https://github.com/cloudoperators/heureka/issues/1179">#1179</a>) (<a href="https://github.com/cloudoperators/heureka/commit/4e440e2e2c6e8c5c8daf9a59635d619e2039890e">4e440e2</a>)</li></ul>]]></description>
         </item>
 <item>
-            <title>platform-mesh/golang-commons - v0.16.0</title>
-            <link>https://github.com/platform-mesh/golang-commons</link>
-            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.16.0</guid>
-            <pubDate>Fri, 17 Apr 2026 06:10:29 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>add AGENTS.md by @makdeniss in https://github.com/platform-mesh/golang-commons/pull/214</li></ul>
-<h2>New Contributors</h2>
-<ul><li>@makdeniss made their first contribution in https://github.com/platform-mesh/golang-commons/pull/214</li></ul>
-<strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.15.8...v0.16.0]]></description>
-        </item>
-<item>
             <title>platform-mesh/subroutines - v0.4.0</title>
             <link>https://github.com/platform-mesh/subroutines</link>
             <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.4.0</guid>
@@ -107,15 +198,6 @@
 <h2>New Contributors</h2>
 <ul><li>@makdeniss made their first contribution in https://github.com/platform-mesh/subroutines/pull/24</li></ul>
 <strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.3.4...v0.4.0]]></description>
-        </item>
-<item>
-            <title>platform-mesh/portal - v0.21.12</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.12</guid>
-            <pubDate>Fri, 17 Apr 2026 05:36:05 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update dependency prettier to v3.8.2 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/541</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.21.11...v0.21.12</p>]]></description>
         </item>
 <item>
             <title>openmcp-project/service-provider-crossplane - Release v0.4.1</title>
@@ -129,15 +211,6 @@
 
 #### [DEVELOPER]
 <ul><li>Update renovate config according to service-provider-template <strong>(#113, @maximiliantech)</strong></li><li>Various renovate dependency updates</li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/account-operator - v0.14.7</title>
-            <link>https://github.com/platform-mesh/account-operator</link>
-            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.14.7</guid>
-            <pubDate>Thu, 16 Apr 2026 14:51:54 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/subroutines to v0.3.2 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/215</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.14.6...v0.14.7</p>]]></description>
         </item>
 <item>
             <title>open-component-model/ocm - latest ocm-cli</title>
@@ -263,15 +336,6 @@
 <ul><li>delivery-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard:0.427.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>platform-mesh/rebac-authz-webhook - v0.8.0</title>
-            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
-            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.8.0</guid>
-            <pubDate>Thu, 16 Apr 2026 04:50:59 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>feat: dynamically retrievers orgs cluster ID  by @simontesar in https://github.com/platform-mesh/rebac-authz-webhook/pull/241</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.7.2...v0.8.0</p>]]></description>
-        </item>
-<item>
             <title>gardener/hyperkube - unnamed-release</title>
             <link>https://github.com/gardener/hyperkube</link>
             <guid>https://github.com/gardener/hyperkube/releases/tag/unnamed-release</guid>
@@ -303,15 +367,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
 <p>This release we had a total of <strong>4</strong> contributors!<br>If you want to engage with us, check our <a href="https://ocm.software/community/engagement/">community page</a>!</p>]]></description>
         </item>
 <item>
-            <title>cobaltcore-dev/aurora-dashboard - v1.58.1</title>
-            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
-            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.58.1</guid>
-            <pubDate>Wed, 15 Apr 2026 15:00:45 +0000</pubDate>
-            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.58.0...v1.58.1">1.58.1</a> (2026-04-15)</h2>
-<h3>🐛 Bug Fixes</h3>
-<ul><li><strong>portal:</strong> restore missing setPageTitle calls in route components (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/704">#704</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/8dae81dd0b08dd7a5499f97183ccb314f9bce950">8dae81d</a>), closes <a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/699">#699</a></li></ul>]]></description>
-        </item>
-<item>
             <title>cloudoperators/juno - @cloudoperators/juno-messages-provider@0.2.35</title>
             <link>https://github.com/cloudoperators/juno</link>
             <guid>https://github.com/cloudoperators/juno/releases/tag/@cloudoperators/juno-messages-provider@0.2.35</guid>
@@ -337,15 +392,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
 <ul><li>Necessary changes to support vni peering in metalnet after non-reflect routing change by @byteocean in https://github.com/ironcore-dev/metalbond/pull/152</li></ul>
 
 <strong>Full Changelog</strong>: https://github.com/ironcore-dev/metalbond/compare/v0.4.1...v0.4.2]]></description>
-        </item>
-<item>
-            <title>platform-mesh/virtual-workspaces - v0.11.1</title>
-            <link>https://github.com/platform-mesh/virtual-workspaces</link>
-            <guid>https://github.com/platform-mesh/virtual-workspaces/releases/tag/v0.11.1</guid>
-            <pubDate>Wed, 15 Apr 2026 12:31:26 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>add AGENTS.md by @makdeniss in https://github.com/platform-mesh/virtual-workspaces/pull/98</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/virtual-workspaces/compare/0.11.0...v0.11.1</p>]]></description>
         </item>
 <item>
             <title>gardener/garden-shoot-trust-configurator - v0.2.0</title>
@@ -412,14 +458,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
             <pubDate>Wed, 15 Apr 2026 05:04:42 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-nettle/actions/runs/24437389762">24437389762</a></p>
 <p>Files in this release:<br>``<code><br>06496efe283364d74b9539963a15b571c08e2a8ee484eb7d83bb9ed1bad10d68  ./nettle-dev_3.10.2-1gl0_arm64.deb<br>2513557399fa2b9f754b65dc3c1106f8958b1233c035c1f4dac9c2a439a6caa4  ./nettle_3.10.2-1gl0_arm64.changes<br>4828977f3826938e414a0520ea6be017a4f0f1e2670ebef6b81ae1ea35b12313  ./nettle-dev_3.10.2-1gl0_amd64.deb<br>d74e37bf5ec076adeb8b31e5fdffd22955b96cc2a77ac96a5349ac6734c75880  ./nettle_3.10.2-1gl0.dsc<br>57c8a88c6c6d770527567117cc3c295833435d6b2c4c7b7216300eeda4f9b490  ./libnettle8t64-dbgsym_3.10.2-1gl0_arm64.deb<br>bf59c100581c29aa320f05d8e462589964a9a24d2c6ad494e3c8d74e469cfecf  ./libnettle8t64_3.10.2-1gl0_arm64.deb<br>eb8e37722fe31952ba0f63c74d477cd3cb3216c3c56e9082516f6be8948f4a89  ./nettle-bin-dbgsym_3.10.2-1gl0_amd64.deb<br>99e092dad7ce5bdf752d11ab895cf23a59ee5b62d570eadcc6f6d843d51a806f  ./nettle_3.10.2-1gl0_amd64.buildinfo<br>1aa0dc6e678c9a9beaccb97a699ad07821209bbd576d74a38f8aed1ec823a1cb  ./libnettle8t64_3.10.2-1gl0_amd64.deb<br>38b4f5fdeb75238a705ebee9db5f5de26a37bdecb22f64e186839aa34dc106c2  ./libnettle8t64-dbgsym_3.10.2-1gl0_amd64.deb<br>32a3bd658c93178f3d9b0e4d16e1fbd7bc659b513fd4a0d3cc6e2771fe3d7252  ./nettle-bin_3.10.2-1gl0_amd64.deb<br>c50529182a155f67fa40cabc727ae9341809b961fc9c9619230d29e1564ef6d3  ./libhogweed6t64_3.10.2-1gl0_arm64.deb<br>940148230ec5d349f025201866c574634302520a53d8aa10848c343a054132bf  ./nettle_3.10.2-1gl0_arm64.buildinfo<br>87c63887eb68eee75c6cdcca21a2d0e9a9cd9957119de3892325308fd386972f  ./nettle-bin-dbgsym_3.10.2-1gl0_arm64.deb<br>d5da237fde7e92021051016a26a495660102213e50611fe96f4602ed2cf86f06  ./nettle-bin_3.10.2-1gl0_arm64.deb<br>236276e75e474f5f990252ebf749eb64ef4bedb968e58e07682ef6c47ac320fd  ./nettle_3.10.2.orig.tar.xz<br>6da1be9a3d91471943a414db65aaaa0e4031c9e94accc7b227aa2cea9eba7b26  ./libhogweed6t64_3.10.2-1gl0_amd64.deb<br>373f1c7c030deb208ef637e46942e28d383e5c98d7826316d682eb5259a884f0  ./nettle_3.10.2-1gl0_amd64.changes<br>6e9eaa12d7deb0b944e96fcca14176d284d0c6017c038208373897433a51a42d  ./libhogweed6t64-dbgsym_3.10.2-1gl0_amd64.deb<br>f031947c7d1343da9e243db1f955075b1d775cc2320928eae7cb17a25ff7719e  ./nettle_3.10.2-1gl0.debian.tar.xz<br>b3225166d5d5ff6a489452f5b9a7319c7a6a6e5377944cf9e4dae9bd3da98294  ./libhogweed6t64-dbgsym_3.10.2-1gl0_arm64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-libguestfs - libguestfs_1.58.1-4gl0</title>
-            <link>https://github.com/gardenlinux/package-libguestfs</link>
-            <guid>https://github.com/gardenlinux/package-libguestfs/releases/tag/libguestfs_1.58.1-4gl0</guid>
-            <pubDate>Wed, 15 Apr 2026 00:16:09 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-libguestfs/actions/runs/24429561738">24429561738</a></p>
-<p>Files in this release:<br>``<code><br>9d6410b92cc9630e77da70bcf59ef0d5fd75c6e7ddbfd36dcbdc9c414667ff6a  ./libguestfs0t64_1.58.1-4gl0_amd64.deb<br>93df40c9f42f554b82bc3e5b6cab118a831aa4ba6c2f1932b80a3725168cce12  ./libguestfs-java-dbgsym_1.58.1-4gl0_amd64.deb<br>bb18fef70eeef6202b9bf7361c27d2481ee70aa62be93612d38eca28405078ab  ./libguestfs_1.58.1-4gl0.dsc<br>ad1b8b61e0785a4cb9dc2f37808cb12e2e57aa8dddcdafe0814cccf67ca8b701  ./libguestfs-jfs_1.58.1-4gl0_amd64.deb<br>ea6fd3b44b54ab1ff25dbc4184afebd05a07101014cf3480261e0f67b0f066da  ./libguestfs-hfsplus_1.58.1-4gl0_amd64.deb<br>e910a48ac3ddc9032533d074f8f1bdf4c2833de557182f9a61ab5c82c16b143f  ./libguestfs-ocaml-dev_1.58.1-4gl0_amd64.deb<br>fd87d72aab6ad4d5c402281cb084f4ba3136ee2288f891d947ab04e829ed3c01  ./libguestfs-gobject-dev_1.58.1-4gl0_amd64.deb<br>bb11c330888e238763bac1057fbd630a8d1aa9d248bb1e4084afabf61c20e43c  ./libguestfs-gobject-1.0-0t64-dbgsym_1.58.1-4gl0_amd64.deb<br>dd6e3cd7dd6f364f0decbb3800a728c3d4762052fdd24a250dfa882f929760f2  ./libguestfs-perl-dbgsym_1.58.1-4gl0_amd64.deb<br>b94183c963c247f6c923026a035f28e9e7cbb6364da7580b273efb0b66892a4c  ./ruby-guestfs_1.58.1-4gl0_amd64.deb<br>37452d24432dbd6bd66a237368045df199512cc46ea769e270fe04b6a4d96a81  ./guestmount_1.58.1-4gl0_amd64.deb<br>9250be7f5e8029e24aba2d2e9f05ec3967039d931b9397f4f42105b7150b863b  ./python3-guestfs_1.58.1-4gl0_amd64.deb<br>6f29a9e51a9042ff55c58c38c4d90c66c9acc42963330ac158618f9a8ddf3728  ./lua-guestfs-dbgsym_1.58.1-4gl0_amd64.deb<br>b91f52329b27d0fff63bc3c4085be39479a1b30fe72972b8502ef22cc5406d3a  ./libguestfs-java_1.58.1-4gl0_amd64.deb<br>5a128fdd1e5df420960a042846fe365cc65c6cc2ceecb389be743ea5f6ef8e48  ./gir1.2-guestfs-1.0_1.58.1-4gl0_amd64.deb<br>539d6ddc52b7073639e38d7edaf6e76c9127ab261e97aff289df3266c066b98e  ./libguestfs-rsync_1.58.1-4gl0_amd64.deb<br>fdd27c47f77ba0d62dce0f112ccf45afc1acb81498d6e37c4ebbcafa23eeae88  ./guestmount-dbgsym_1.58.1-4gl0_amd64.deb<br>4d55840834da1f0e81c7abc2d7ad17246b1ee48f974045b5ffb40c1b843473de  ./libguestfs-gfs2_1.58.1-4gl0_amd64.deb<br>0105a5837a427c543148cf5fa60cea8d9097087179cf63bcd24dd2d59a5366cd  ./libguestfs-ocaml_1.58.1-4gl0_amd64.deb<br>9ebc0a9ac1878b6aabaaf08252bba10bde1351dc3041a544820e824a40e9ffaf  ./python3-guestfs-dbgsym_1.58.1-4gl0_amd64.deb<br>56cecf3d9d76afd1dd9ca3e3143ebc049c66121ad13928eaa3a505be8f10c95e  ./libguestfs_1.58.1-4gl0_amd64.changes<br>496b7a324daa0e22f3a45e9320230db968b7b6c9e75d61934e6e830da9687a72  ./libguestfs_1.58.1-4gl0_amd64.buildinfo<br>29aadfeb7284507d641282ae703dbd52848e2543f8d96cf41d64f0ce02ae0a16  ./guestfish_1.58.1-4gl0_amd64.deb<br>969b93e1a5486bde4e32dfb27269dcf4e9945c4b469adc73cf295cd60303699d  ./ruby-guestfs-dbgsym_1.58.1-4gl0_amd64.deb<br>5aa91663f431a8a5d063b7ccf106d0abe824738411dd0d407db3ae8deb6fdeaf  ./guestfsd_1.58.1-4gl0_amd64.deb<br>bf5e234ce10465840bfbc6f9c0d05bb6259b89f27af090ce8bd7494536e3eab0  ./php-guestfs-dbgsym_1.58.1-4gl0_amd64.deb<br>1618ee33f10cb82e137dbb5ac6dfd5cfeb702e74c0836f1ab2df6ea9922caa1d  ./libguestfs-tools-dbgsym_1.58.1-4gl0_amd64.deb<br>ce1bc53233b3e5593c10b1fd7bde4910b23b54e7e68213d1cde25cd7e302a4fd  ./libguestfs-ocaml-dbgsym_1.58.1-4gl0_amd64.deb<br>3f942530b16121920a3c4a3dea40700f5c9e78d39e177ac191b7e8e16d1d9828  ./libguestfs-xfs_1.58.1-4gl0_amd64.deb<br>6c3e30b7a3cddd33702ab04e1bf105b252c3b841bf1bb51c700634bfe604fa41  ./libguestfs-rescue_1.58.1-4gl0_amd64.deb<br>4aa1835f9f0c91a7a9a494adaa97744a2578d09e01197d73774510988794bdc4  ./lua-guestfs_1.58.1-4gl0_amd64.deb<br>f2258ba42ff1719a08fc5770a44284a5330c6702258603a1fa0d202bf3b83ae3  ./libguestfs_1.58.1-4gl0.debian.tar.xz<br>e253b3d5a0f303f1991b14e55cdef77a1699e881eef455c163534a6ae27ac074  ./golang-guestfs-dev_1.58.1-4gl0_all.deb<br>934e3a12a7535bfe7d7a60101a1209dab8839f29a02457c82b6840b7b2b06303  ./libguestfs-perl_1.58.1-4gl0_amd64.deb<br>a5cbe74c12f7a3105da8b2f5efd209df4d56306f1b3b5375d65cde736cfa8f92  ./libguestfs-dev_1.58.1-4gl0_amd64.deb<br>b0654b1fe990264932f04db19b78dc1baabea9337c780ffcede2229ddab83c76  ./libguestfs-nilfs_1.58.1-4gl0_amd64.deb<br>3a42183a805e2f84889ffd1cb7242f9833aaf3b123889b534053b73f7915eee9  ./libguestfs-tools_1.58.1-4gl0_amd64.deb<br>a7a7511b9197b5c478bdc627dce8063d5c78cd913a962f7a6e98f342949003aa  ./php-guestfs_1.58.1-4gl0_amd64.deb<br>92eea52252cb9704050f977788a85faa753eedd9226c14c70d6d9edc05e328ff  ./guestfish-dbgsym_1.58.1-4gl0_amd64.deb<br>c7e2518426734d7d411f963b6c1bc5ef9e6582a9435f10d44a388cf710a94ba9  ./libguestfs-gobject-1.0-0t64_1.58.1-4gl0_amd64.deb<br>133cf481fa3bf6206696f16cbd171b33820bdc88a2c271cad28c5f4a9a0bd03f  ./libguestfs_1.58.1.orig.tar.xz<br>0faa0be1865a80581503cfd923f083b20c41b72f5a30d260bbe3b56025a9497a  ./libguestfs0t64-dbgsym_1.58.1-4gl0_amd64.deb<br>2ae7c1cabc73f627a8f5abe28bcab067cbd60d4e100d5fb4dbbac246d255c789  ./guestfsd-dbgsym_1.58.1-4gl0_amd64.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardener/gardener - v1.140.1</title>
@@ -2674,26 +2712,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.1.0
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
         </item>
 <item>
-            <title>openmcp-project/service-provider-landscaper - Release v0.17.0</title>
-            <link>https://github.com/openmcp-project/service-provider-landscaper</link>
-            <guid>https://github.com/openmcp-project/service-provider-landscaper/releases/tag/Release v0.17.0</guid>
-            <pubDate>Thu, 26 Mar 2026 10:00:47 +0000</pubDate>
-            <description><![CDATA[<h1>Changes included in v0.17.0:</h1>
-
-<h1>Changelog</h1>
-
-
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>The Landscaper controller will now reconcile Landscaper instances if image pull secrets are updated to sync changes. <strong>(#252, @moelsayed)</strong></li></ul>#### [USER]
-<ul><li>- Release v0.17.0 <strong>(#254, @robertgraeff)</strong></li><li>- Increase number of workers for helm and manifest deployer <strong>(#251, @robertgraeff)</strong></li></ul>
-<h2>📚 Documentation</h2>
-
-#### [USER]
-<ul><li>Add explicit documentation for the <code>spec.deployment.repository</code> field in ProviderConfig. <strong>(#253, @moelsayed)</strong></li></ul>]]></description>
-        </item>
-<item>
             <title>gardenlinux/package-curl - curl_8.19.0-2gl0</title>
             <link>https://github.com/gardenlinux/package-curl</link>
             <guid>https://github.com/gardenlinux/package-curl/releases/tag/curl_8.19.0-2gl0</guid>
@@ -2983,57 +3001,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.1.0
 
 #### [USER]
 <ul><li>- Release v0.0.10 <strong>(#98, @robertgraeff)</strong></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardener/gardener-extension-image-rewriter - v0.8.0</title>
-            <link>https://github.com/gardener/gardener-extension-image-rewriter</link>
-            <guid>https://github.com/gardener/gardener-extension-image-rewriter/releases/tag/v0.8.0</guid>
-            <pubDate>Mon, 23 Mar 2026 08:42:19 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-image-rewriter:v0.8.0]</h1>
-<h2>🏃 Others</h2>
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.137.3</code> to <code>v1.137.4</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/68">[#68</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>k8s.io/utils</code> from <code>v0.0.0-20260106112306-0fe9cd71b2f8</code> to <code>v0.0.0-20260108192941-914a6e750570</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/49">[#49</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>golang</code> from <code>1.25.5</code> to <code>1.25.6</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/50">[#50</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.134.3</code> to <code>v1.134.4</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/61">[#61</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.134.4</code> to <code>v1.134.5</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/63">[#63</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>k8s.io/utils</code> from <code>v0.0.0-20260108192941-914a6e750570</code> to <code>v0.0.0-20260210185600-b8788abfbbc2</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/58">[#58</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>go</code> from <code>1.26.0</code> to <code>1.26.1</code>. <a href="https://redirect.github.com/go/releases/tag/1.26.1">Release Notes</a>  
-  - <code>golang</code> from <code>1.26.0</code> to <code>1.26.1</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/71">[#71</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>sigs.k8s.io/controller-runtime</code> from <code>v0.23.1</code> to <code>v0.23.2</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/69">[#69</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>sigs.k8s.io/controller-runtime</code> from <code>v0.22.4</code> to <code>v0.22.5</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/53">[#53</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.137.1</code> to <code>v1.137.2</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/66">[#66</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>go</code> from <code>1.25.5</code> to <code>1.25.6</code>. <a href="https://redirect.github.com/go/releases/tag/1.25.6">Release Notes</a> by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/52">[#52</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.134.1</code> to <code>v1.134.2</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/51">[#51</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>k8s.io/utils</code> from <code>v0.0.0-20251002143259-bc988d571ff4</code> to <code>v0.0.0-20260106112306-0fe9cd71b2f8</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/47">[#47</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>k8s.io/utils</code> from <code>v0.0.0-20260210185600-b8788abfbbc2</code> to <code>v0.0.0-20260319190234-28399d86e0b5</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/75">[#75</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>k8s.io/api</code> from <code>v0.35.2</code> to <code>v0.35.3</code>.   
-  - <code>k8s.io/apimachinery</code> from <code>v0.35.2</code> to <code>v0.35.3</code>.   
-  - <code>k8s.io/code-generator</code> from <code>v0.35.2</code> to <code>v0.35.3</code>.   
-  - <code>k8s.io/component-base</code> from <code>v0.35.2</code> to <code>v0.35.3</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/74">[#74</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.137.2</code> to <code>v1.137.3</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/67">[#67</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.137.4</code> to <code>v1.137.5</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/72">[#72</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>go</code> from <code>1.25.6</code> to <code>1.25.7</code>. <a href="https://redirect.github.com/go/releases/tag/1.25.7">Release Notes</a> by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/57">[#57</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>k8s.io/api</code> from <code>v0.34.3</code> to <code>v0.34.4</code>.   
-  - <code>k8s.io/apimachinery</code> from <code>v0.34.3</code> to <code>v0.34.4</code>.   
-  - <code>k8s.io/code-generator</code> from <code>v0.34.3</code> to <code>v0.34.4</code>.   
-  - <code>k8s.io/component-base</code> from <code>v0.34.3</code> to <code>v0.34.4</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/60">[#60</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.134.4</code> to <code>v1.137.0</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/55">[#55</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.137.5</code> to <code>v1.138.0</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/73">[#73</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.137.0</code> to <code>v1.137.1</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/65">[#65</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.134.2</code> to <code>v1.134.3</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/54">[#54</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>k8s.io/api</code> from <code>v0.35.1</code> to <code>v0.35.2</code>.   
-  - <code>k8s.io/apimachinery</code> from <code>v0.35.1</code> to <code>v0.35.2</code>.   
-  - <code>k8s.io/code-generator</code> from <code>v0.35.1</code> to <code>v0.35.2</code>.   
-  - <code>k8s.io/component-base</code> from <code>v0.35.1</code> to <code>v0.35.2</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/64">[#64</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>go</code> from <code>1.24.11</code> to <code>1.25.5</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/48">[#48</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>sigs.k8s.io/controller-runtime</code> from <code>v0.23.2</code> to <code>v0.23.3</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/70">[#70</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>golang</code> from <code>1.25.6</code> to <code>1.25.7</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/56">[#56</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>go</code> from <code>1.25.7</code> to <code>1.26.0</code>. <a href="https://redirect.github.com/go/releases/tag/1.26.0">Release Notes</a>  
-  - <code>go</code> from <code>1.25.7</code> to <code>1.26.0</code>. <a href="https://redirect.github.com/go/releases/tag/1.26.0">Release Notes</a>  
-  - <code>golang</code> from <code>1.25.7</code> to <code>1.26.0</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-extension-image-rewriter/pull/59">[#59</a>]
-<h2>Helm Charts</h2>
-<ul><li>image-rewriter: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/image-rewriter:v0.8.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>gardener-extension-image-rewriter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/image-rewriter:v0.8.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-expat - expat_2.7.5-1gl0</title>
@@ -3586,13 +3553,6 @@ Initial implementation.]]></description>
             <link>https://github.com/cobaltcore-dev/labels-injector</link>
             <guid>https://github.com/cobaltcore-dev/labels-injector/releases/tag/v1.0</guid>
             <pubDate>Tue, 24 Feb 2026 20:42:24 +0000</pubDate>
-            <description><![CDATA[]]></description>
-        </item>
-<item>
-            <title>openmcp-project/landscaper - Release v1.0.6</title>
-            <link>https://github.com/openmcp-project/landscaper</link>
-            <guid>https://github.com/openmcp-project/landscaper/releases/tag/Release v1.0.6</guid>
-            <pubDate>Tue, 24 Feb 2026 15:36:45 +0000</pubDate>
             <description><![CDATA[]]></description>
         </item>
 <item>
