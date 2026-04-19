@@ -4,9 +4,71 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sat, 18 Apr 2026 12:09:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 12:09:24 +0000</lastBuildDate>
 
     <item>
+            <title>platform-mesh/iam-service - v0.15.20</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.20</guid>
+            <pubDate>Sun, 19 Apr 2026 09:24:06 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.29.2 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/457</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.15.19...v0.15.20</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/subroutines - v0.4.1</title>
+            <link>https://github.com/platform-mesh/subroutines</link>
+            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.4.1</guid>
+            <pubDate>Sun, 19 Apr 2026 09:16:22 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Add OpenSSF Scorecard schedule by @Perseus985 in https://github.com/platform-mesh/subroutines/pull/25</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@Perseus985 made their first contribution in https://github.com/platform-mesh/subroutines/pull/25</li></ul>
+<strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.4.0...v0.4.1]]></description>
+        </item>
+<item>
+            <title>platform-mesh/golang-commons - v0.16.2</title>
+            <link>https://github.com/platform-mesh/golang-commons</link>
+            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.16.2</guid>
+            <pubDate>Sun, 19 Apr 2026 09:16:08 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Add OpenSSF Scorecard schedule by @Perseus985 in https://github.com/platform-mesh/golang-commons/pull/217</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@Perseus985 made their first contribution in https://github.com/platform-mesh/golang-commons/pull/217</li></ul>
+<strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.16.1...v0.16.2]]></description>
+        </item>
+<item>
+            <title>platform-mesh/rebac-authz-webhook - v0.8.3</title>
+            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
+            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.8.3</guid>
+            <pubDate>Sun, 19 Apr 2026 09:15:53 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Add OpenSSF Scorecard schedule by @Perseus985 in https://github.com/platform-mesh/rebac-authz-webhook/pull/246</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@Perseus985 made their first contribution in https://github.com/platform-mesh/rebac-authz-webhook/pull/246</li></ul>
+<strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.8.2...v0.8.3]]></description>
+        </item>
+<item>
+            <title>platform-mesh/virtual-workspaces - v0.11.4</title>
+            <link>https://github.com/platform-mesh/virtual-workspaces</link>
+            <guid>https://github.com/platform-mesh/virtual-workspaces/releases/tag/v0.11.4</guid>
+            <pubDate>Sun, 19 Apr 2026 09:15:38 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Add OpenSSF Scorecard schedule by @Perseus985 in https://github.com/platform-mesh/virtual-workspaces/pull/104</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@Perseus985 made their first contribution in https://github.com/platform-mesh/virtual-workspaces/pull/104</li></ul>
+<strong>Full Changelog</strong>: https://github.com/platform-mesh/virtual-workspaces/compare/0.11.3...v0.11.4]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.30.13</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.13</guid>
+            <pubDate>Sat, 18 Apr 2026 13:04:42 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.13.0 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/487</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.12...v0.30.13</p>]]></description>
+        </item>
+<item>
             <title>platform-mesh/portal - v0.21.14</title>
             <link>https://github.com/platform-mesh/portal</link>
             <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.14</guid>
@@ -14,15 +76,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>chore(deps): lock file maintenance by @renovate[bot] in https://github.com/platform-mesh/portal/pull/543</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.21.13...v0.21.14</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-service - v0.15.17</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.17</guid>
-            <pubDate>Sat, 18 Apr 2026 01:59:26 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.28.4 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/454</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.15.16...v0.15.17</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-libguestfs - libguestfs_1.58.1-5gl0</title>
@@ -33,15 +86,6 @@
 <p>Files in this release:<br>``<code><br>c5733cbe8c0abe684ed432852facad125fe14c1c85f70d360281223c1d85a0b2  ./guestfsd_1.58.1-5gl0_amd64.deb<br>8925a6acfadff3508973b8608ee6590f1785271519ca6b374491aa46faf47d37  ./libguestfs-ocaml_1.58.1-5gl0_amd64.deb<br>30bb3b635e4473fe3a37367c53da3058a04c5dd4eac674a1c3b1954fed6ee4c4  ./libguestfs-gfs2_1.58.1-5gl0_amd64.deb<br>01a806f0e95b7db9ed6dfe7bb51b49337ceea5411e1a37bbc933cede029df253  ./libguestfs_1.58.1-5gl0_amd64.buildinfo<br>0501536c7d64701525a26ac6fdc5c496e8d6c5312a1923118ba88ee5c0ba138f  ./guestfish_1.58.1-5gl0_amd64.deb<br>c4609ab1823771ddd8a4fbbe1d2ecae6b96a050ab9d481982b4be9664aa7907f  ./libguestfs-nilfs_1.58.1-5gl0_amd64.deb<br>c2d32c7e03fdf4a7b9724f5467d3772f495ad4cf6c74454c95b3be1e48333eb9  ./libguestfs-ocaml-dev_1.58.1-5gl0_amd64.deb<br>fc6a08ef5161b2e2469dcc4c60bae9b700582d6d227900b4182a90152ae05395  ./ruby-guestfs_1.58.1-5gl0_amd64.deb<br>805bee36af721bcc63d442d70412a5c780d803efa56c4e660e647e056f995082  ./guestfish-dbgsym_1.58.1-5gl0_amd64.deb<br>7da051b1b90a2fb303ee0a176f4f293b77fa8a06d95213541b61a49015170f2b  ./libguestfs-perl-dbgsym_1.58.1-5gl0_amd64.deb<br>42ad6a1353f5dee603c237e148c957890a58f699315bbab6eba56a71cb100efa  ./php-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>048fa3fa92c4e170f52a51899e03f006a93bb207c9044c0aa026efdece3f7163  ./libguestfs-xfs_1.58.1-5gl0_amd64.deb<br>503b6401a3a3dfe9ef3720d1b5c18d60b51e784bae2a48660bec5c7a64fcb948  ./libguestfs-gobject-1.0-0t64_1.58.1-5gl0_amd64.deb<br>c2f1c5bf827ad619bae098ac345b1c3fcb22853b4f2b886f5d3479410d3656c0  ./libguestfs-hfsplus_1.58.1-5gl0_amd64.deb<br>19cde8f34993552d7cca5a2b121d3a76d778b9229eacdcafa547922372fd093c  ./lua-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>88eb65809245a99033debd07fc5a0ba80ce0f20d4e7642b46f35843c48611789  ./gir1.2-guestfs-1.0_1.58.1-5gl0_amd64.deb<br>0740be9c1be37c08bb52551d6883d1d6fc37c64f484538335961b8f95a0461a5  ./libguestfs-tools_1.58.1-5gl0_amd64.deb<br>9654f358623eb28115879fdb2b1fd498669041196ef389a42d71cdcd13146f4c  ./libguestfs_1.58.1-5gl0_amd64.changes<br>c47a0df12424e1b55c9b499dc4807de40ff0b767d266587378cc4845e12f5a24  ./guestmount-dbgsym_1.58.1-5gl0_amd64.deb<br>11a328683a5d91466dd8648a5ff82100be64558004759a5cbe7bd4359d343889  ./libguestfs_1.58.1-5gl0.dsc<br>fe9b04538aff560ec31931198d62a5165efc8926d22b937fbd95afe5a7db741e  ./python3-guestfs_1.58.1-5gl0_amd64.deb<br>f7567fc3fde07ab87548b5b5ad3a9a163d6a1c1571bc5db0baf9a690ed3417cb  ./guestfsd-dbgsym_1.58.1-5gl0_amd64.deb<br>bef69896055ddcff05f8b12a52e6fa6fe33277c13b992668664ac081ee13b6be  ./libguestfs-java-dbgsym_1.58.1-5gl0_amd64.deb<br>84859b49f90162ae6b3037b5ea8c52d1cc6aea75690753ef049dfa567e222011  ./golang-guestfs-dev_1.58.1-5gl0_all.deb<br>5c185f46771f2b501ca1525cde9caa6be878f7b39113f0dede764d50d8e0c397  ./libguestfs-tools-dbgsym_1.58.1-5gl0_amd64.deb<br>69c0fcc7e81ddd3de8b693fef38f1796b79cfd3ee6c05a09de93325a4613ce90  ./libguestfs-gobject-dev_1.58.1-5gl0_amd64.deb<br>f33233843d1351e5a1c9e5f129d065e68c2bd9f454d799f45944e4762a37d8f7  ./libguestfs0t64_1.58.1-5gl0_amd64.deb<br>9e3bbe4939008358118a5ed93a4418a0272347fad65e479d5cb7dbca942f420c  ./libguestfs-dev_1.58.1-5gl0_amd64.deb<br>d368af212f5c873c283082b11de471fb03f459b7fa09edc3ce3e1416758ebb59  ./php-guestfs_1.58.1-5gl0_amd64.deb<br>6ebd0fd03a1ff8ce9ae6daebee0123baa9d90aa9ea17dcc32150f31e90b9c4c8  ./libguestfs-java_1.58.1-5gl0_amd64.deb<br>a621d63a82497b9e268e05449803020192f1f45492d98af6745f9a08ec62e047  ./libguestfs-rescue_1.58.1-5gl0_amd64.deb<br>82f74cad8773d7acb41dbff8144674a5c94d7ea31155a67c5317ec32f59fc140  ./libguestfs0t64-dbgsym_1.58.1-5gl0_amd64.deb<br>f0d8a57c4180ef3fee21b41cd5b662435e6eccd8e52ad98ece595cb6ffb8e1d2  ./python3-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>6fe317c5ac4477ca46fdd2b8842db1dc0c595f7cce2b21542289495f49646604  ./libguestfs-gobject-1.0-0t64-dbgsym_1.58.1-5gl0_amd64.deb<br>70c36e998932f03c5f74fc409d73b3914d2ee66f8735758d93ca69acfd56ce5a  ./guestmount_1.58.1-5gl0_amd64.deb<br>434af29afe408c68e9fa13af5a4cf855751184225007ded7eb90e829c920bb67  ./ruby-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>86980a6135ca1a1a6fafaee09b055a38ff459ef566eb23ecaae2ea65ff1f6f3b  ./libguestfs-jfs_1.58.1-5gl0_amd64.deb<br>cb0cd95bbdcf1f9107bb37fde76682a67c44c334d2c09b0f5084d1da90fa2dbd  ./libguestfs-ocaml-dbgsym_1.58.1-5gl0_amd64.deb<br>af0a83bacd48b7226c02627ecba61de5fa20dc84c0946ca9fe0b6bcb63c20c3b  ./libguestfs-perl_1.58.1-5gl0_amd64.deb<br>92ba809c474a6cee31673c3a1f05a01d5d2cf0ec224caf47b38b05dc5e849f29  ./lua-guestfs_1.58.1-5gl0_amd64.deb<br>53b8637c7d9e555cb9002c8aace60088a986253c3a17aa0c29cfefb1d5871200  ./libguestfs-rsync_1.58.1-5gl0_amd64.deb<br>133cf481fa3bf6206696f16cbd171b33820bdc88a2c271cad28c5f4a9a0bd03f  ./libguestfs_1.58.1.orig.tar.xz<br>0877e1fff3303fb24e043a50f024dc1ac71a30a78a258c826deab09a9686dc34  ./libguestfs_1.58.1-5gl0.debian.tar.xz<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>platform-mesh/golang-commons - v0.16.1</title>
-            <link>https://github.com/platform-mesh/golang-commons</link>
-            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.16.1</guid>
-            <pubDate>Fri, 17 Apr 2026 21:35:29 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/openfga/openfga to v1.14.1 by @renovate[bot] in https://github.com/platform-mesh/golang-commons/pull/216</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.16.0...v0.16.1</p>]]></description>
-        </item>
-<item>
             <title>platform-mesh/extension-manager-operator - v0.8.12</title>
             <link>https://github.com/platform-mesh/extension-manager-operator</link>
             <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.8.12</guid>
@@ -49,33 +93,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>fix(deps): update module github.com/platform-mesh/subroutines to v0.3.3 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/807</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.8.11...v0.8.12</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/virtual-workspaces - v0.11.3</title>
-            <link>https://github.com/platform-mesh/virtual-workspaces</link>
-            <guid>https://github.com/platform-mesh/virtual-workspaces/releases/tag/v0.11.3</guid>
-            <pubDate>Fri, 17 Apr 2026 16:30:42 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update module github.com/moby/spdystream to v0.5.1 [security] by @renovate[bot] in https://github.com/platform-mesh/virtual-workspaces/pull/102</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/virtual-workspaces/compare/0.11.2...v0.11.3</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/rebac-authz-webhook - v0.8.2</title>
-            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
-            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.8.2</guid>
-            <pubDate>Fri, 17 Apr 2026 16:29:59 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix: add handler fuzz tests and fix CapGroupToRelationLength panic by @nexus49 in https://github.com/platform-mesh/rebac-authz-webhook/pull/245</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.8.1...v0.8.2</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/security-operator - v0.30.12</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.12</guid>
-            <pubDate>Fri, 17 Apr 2026 16:04:16 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/subroutines to v0.3.3 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/486</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.11...v0.30.12</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/account-operator - v0.14.10</title>
@@ -187,17 +204,6 @@
             <description><![CDATA[<h2><a href="https://github.com/cloudoperators/heureka/compare/v1.57.3...v1.57.4">1.57.4</a> (2026-04-17)</h2>
 <h3>Bug Fixes</h3>
 <ul><li><strong>keppel:</strong> remove ternary (<a href="https://github.com/cloudoperators/heureka/issues/1179">#1179</a>) (<a href="https://github.com/cloudoperators/heureka/commit/4e440e2e2c6e8c5c8daf9a59635d619e2039890e">4e440e2</a>)</li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/subroutines - v0.4.0</title>
-            <link>https://github.com/platform-mesh/subroutines</link>
-            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.4.0</guid>
-            <pubDate>Fri, 17 Apr 2026 06:02:52 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>add AGENTS.md by @makdeniss in https://github.com/platform-mesh/subroutines/pull/24</li></ul>
-<h2>New Contributors</h2>
-<ul><li>@makdeniss made their first contribution in https://github.com/platform-mesh/subroutines/pull/24</li></ul>
-<strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.3.4...v0.4.0]]></description>
         </item>
 <item>
             <title>openmcp-project/service-provider-crossplane - Release v0.4.1</title>
