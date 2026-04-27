@@ -1,7 +1,6 @@
-# Welcome to the LF NeoNephos Website Files 
-<img src="assets/logo.svg" alt="Logo" width="300"/>
+# Welcome to the LF NeoNephos Website Repository 
 
-:wave: Welcome to the GitHub presence of the [NeoNephos Foundation's website](https://neonephos.org). This repository is *private*. It features in-development website content like blog entries, news-articles, assets and more.
+:wave: Welcome to the GitHub presence of the [NeoNephos Foundation's website](https://neonephos.org).
 
 ## What is the purpose of this repository?
 
