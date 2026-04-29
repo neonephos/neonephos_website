@@ -18,7 +18,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
         <h2 class="home-hero__description" v-html="frontmatter.hero?.tagline" />
 
         <div class="horizontal-rule"></div>
-
+ <a href="https://kccncind2026.sched.com/event/2IW1x/kubernetes-plane-aerodynamics-breaking-the-architectural-sound-barrier-vasu-chandrasekhara-neonephos-stefan-schimanski-nvidia?iframe=yes&w=100%&sidebar=yes&bg=no") class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/kubecon_banner_website.svg')" alt="KubeCon+CloudNativeCon India 2026 Banner" /> </a>
         <ul class="home-hero__metric_wrapper">
           <li class="show-over-800">
             <div class="wp-block-button">
