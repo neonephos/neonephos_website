@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>NeoNephos Events</title>
+  <link>https://neonephos.org</link>
+  <description>Upcoming and past events from the NeoNephos Foundation</description>
+  <language>en</language>
+  
+  <item>
+    <title><![CDATA[Open Source Summit Europe]]></title>
+    <link>https://neonephos.org/events/2025_08_25_Linux_Foundation_Open_Source_Summit_Europe</link>
+    <guid>https://neonephos.org/events/2025_08_25_Linux_Foundation_Open_Source_Summit_Europe</guid>
+    <pubDate>Mon, 25 Aug 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20250825_linux_foundation_open_source_summit_banner.jpg" alt="Open Source Summit Europe banner" /></p><h1 id="neonephos-at-the-open-source-summit-in-amsterdam" tabindex="-1">NeoNephos at the Open Source Summit in Amsterdam <a class="header-anchor" href="#neonephos-at-the-open-source-summit-in-amsterdam" aria-label="Permalink to &quot;NeoNephos at the Open Source Summit in Amsterdam&quot;">&ZeroWidthSpace;</a></h1>
+<p>Engage with and learn about NeoNephos by participating in our sessions at the upcoming <a href="https://events.linuxfoundation.org/open-source-summit-europe/" target="_blank" rel="noreferrer">Open Source Summit in Amsterdam</a>:</p>
+<hr>
+<p><strong>Headline</strong>: <a href="https://osseu2025.sched.com/event/25Vow/building-europes-cloud-future-neonephos-platform-mesh-mirza-kopic-sap-se-marvin-beckers-kubermatic?iframe=no&amp;w=100%25&amp;sidebar=yes&amp;bg=no" target="_blank" rel="noreferrer">Building Europe's Cloud Future: NeoNephos' Platform Mesh</a></p>
+<p><strong>Abstract</strong>: <em>The open source Platform Mesh project, is part of an open reference architecture for building a multi-provider cloud-edge continuum that should span the European continent. Some of the central questions the project wants to answer are: How can the different service offerings across a wide array of providers be unified? How can they communicate in a common language?
+We discuss how a combination of Cloud Native building blocks (kcp and kube-bind, among others) is used to create the foundation for the next generation of cloud platforms. We demonstrate a prototype which meshes together Kubernetes-like APIs that allows us to consume services across multiple control plane instances, instantiating what we call the “Platform Mesh”. Platform Mesh is a project in the newly founded NeoNephos Foundation, part of Linux Foundation Europe.
+This talk is for operators of cloud service providers and internal developer platforms (IDPs), giving them an outlook at a technology that unifies both worlds and creates a standard to consume services from (nearly) everywhere.</em></p>
+<p><strong>Speakers</strong>: Mirza Kopic, SAP SE &amp; Marvin Beckers, Kubermatic</p>
+<p>🗓 <strong>Date</strong>: August 25th, 2025 at 16:30 CEST.</p>
+<hr>
+<p><strong>Headline</strong>: <em><a href="https://events.linuxfoundation.org/open-source-summit-europe/program/schedule/" target="_blank" rel="noreferrer">NeoNephos: Building an Open Source Foundation for Europe's Digital Future</a></em></p>
+<p><strong>Abstract</strong>: <em>In this panel discussion, founding members and leaders of the NeoNephos Foundation will share how their organizations drive open innovation through collaborative, vendor-neutral open source development. As a newly formed initiative announced at KubeCon London 2025, NeoNephos (neonephos.org) aims to support the creation of a resilient, interoperable cloud-edge continuum for Europe and beyond. Panelists will share the story behind the launch of NeoNephos, what inspired its creation, and how it brings together industry, public sector, and open source communities to solve shared challenges. They will reflect on what it means to build a foundation from the ground up, the values driving the initiative, and how NeoNephos plans to support collaboration at the intersection of cloud, edge, and European digital sovereignty. The discussion will also highlight key projects hosted by the foundation—such as Project Gardener—and explore how panelists’ organizations contribute to and leverage these solutions to drive innovation within their ecosystems.</em></p>
+<p><strong>Speakers</strong>: Ihor Dvoretskyi, Cloud Native Computing Foundation with Additional Panelists to be Announced</p>
+<p>🗓 <strong>Date</strong>: August 27th, 2025 at 14:10 CEST.</p>
+<hr>
+<p><strong>Headline</strong>: <em><a href="https://events.linuxfoundation.org/open-source-summit-europe/program/schedule/" target="_blank" rel="noreferrer">NeoNephos' OpenMFP and Platform Mesh: Building Composable Enterprise Architectures</a></em></p>
+<p><strong>Abstract</strong>: <em>OpenMFP addresses the critical challenge of fragmented user experiences in enterprise environments by establishing a unified architectural framework for micro frontend composition. The platform creates seamless digital UX by standardizing how distributed UI components integrate while preserving team autonomy and eliminating redundancies of core functionalities. Platform Mesh establishes interoperability between multiple providers by building upon the Kubernetes API and resource model. Developers and admins can discover, access, and order services from various sources through their beloved kubectl. The architectural implementation leverages a GraphQL layer that orchestrates resources through the Kubernetes Resource Model (KRM), secured by a fine grained authorization approach (ReBAC) with OpenFGA. These complementary technologies power diverse applications: Internal Developer Platforms, enterprise marketplaces and self-service portals. We'll demonstrate how NeoNephos projects reduce cognitive load, accelerate development, and support European cloud sovereignty. The talk shows how open source solutions are reshaping enterprise platform patterns through composable architecture.</em></p>
+<p><strong>Speakers</strong>: Bastian Echterhölter &amp; Mirza Kopic, SAP SE</p>
+<p>🗓 <strong>Date</strong>: August 27th, 2025 at 15:05 CEST.</p>
+<p>👉 Don't miss out by securing your ticket <a href="https://events.linuxfoundation.org/lf-europe-roadshow-finance/attend/about/" target="_blank" rel="noreferrer">here</a>!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[September Community Call]]></title>
+    <link>https://neonephos.org/events/2025_09_10_NeoNephos_Community_Call</link>
+    <guid>https://neonephos.org/events/2025_09_10_NeoNephos_Community_Call</guid>
+    <pubDate>Wed, 10 Sep 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20250910_neonephos_community_call_banner.jpg" alt="September Community Call banner" /></p><h1 id="september-community-call" tabindex="-1">September Community Call <a class="header-anchor" href="#september-community-call" aria-label="Permalink to &quot;September Community Call&quot;">&ZeroWidthSpace;</a></h1>
+<p>Join our upcoming community call on September 10th at 4:00 pm CEST where Mirza Kopic (TSC Chair) and Bastian Echterhoelter (Platform Mesh Architect) will demonstrate how Platform Mesh creates an environment where service providers can offer various services across public clouds, private clouds, and edge environments, while enabling service consumers to easily discover, order, and manage these services throughout their lifecycle.</p>
+<p>Through a live demonstration, they'll show how the platform transcends traditional layered approaches to provide a unified mesh that prevents vendor lock-in and offers developers greater flexibility.</p>
+<p><strong>Zoom Session Link</strong></p>
+<p><a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/94702324134?password=a3022011-25cd-44f3-b482-0ff389675eee" target="_blank" rel="noreferrer">https://zoom-lfx.platform.linuxfoundation.org/meeting/94702324134?password=a3022011-25cd-44f3-b482-0ff389675eee</a></p>
+<p>🎯 Save the date and <a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/94702324134?password=a3022011-25cd-44f3-b482-0ff389675eee" target="_blank" rel="noreferrer">join</a>!</p>
+<p><a href="https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7" target="_blank" rel="noreferrer">Download the iCal file to add this meeting to your calendar</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Bitkom]]></title>
+    <link>https://neonephos.org/events/2025_09_18_Bitkom</link>
+    <guid>https://neonephos.org/events/2025_09_18_Bitkom</guid>
+    <pubDate>Thu, 18 Sep 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20250918_bitkom_banner.jpg" alt="Bitkom banner" /></p><p><strong>Join us at the  <a href="https://www.bitkom.org/Forum-Open-Source-2025/Programm" target="_blank" rel="noreferrer">Bitkom Forum Open Source 2025</a></strong> to learn more about NeoNephos and our mission!</p>
+<hr>
+<p><strong>Headline</strong>:  <a href="https://www.bitkom.org/Forum-Open-Source-2025/Programm" target="_blank" rel="noreferrer"><strong>Deep Dive: Open Source in der Praxis I</strong></a></p>
+<p><strong>Abstract</strong>: <em>Von der Vision zur Realität: Die Zusammenarbeit von SAP mit Open Source Foundations und die Realisierung von NeoNephos.</em></p>
+<p><strong>Speakers</strong>: Christian Neu, Open Source Program Office, SAP &amp; Antje Luttenberger, Open Source Program Office, SAP</p>
+<p>🗓 <strong>Date</strong>: September 18th, 2025 at 14:50 CEST.</p>
+<hr>
+<p><strong>Headline</strong>:  <a href="https://www.bitkom.org/Forum-Open-Source-2025/Programm" target="_blank" rel="noreferrer"><strong>Deep Dive: Open Source in der Praxis II</strong></a></p>
+<p><strong>Abstract</strong>:  <em>Souveräne Cloud-Infrastrukturen für Europa: Open Source mit der SAPs Apeiro Reference Architecture.</em></p>
+<p><strong>Speakers</strong>: Florian Müller, Software Architect, SAP &amp; Fabian Schneider, Project Coordination, SAP</p>
+<p>🗓 <strong>Date</strong>: September 18th, 2025 at 15:55 CEST.</p>
+<p>🎯 Save the date and  <a href="https://www.bitkom.org/Forum-Open-Source-2025#w_bfoss25_anmeldung" target="_blank" rel="noreferrer">get your ticket before they are gone</a>!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Upcoming Webinar: Neutral Governance for the Gardener Project]]></title>
+    <link>https://neonephos.org/events/2025_09_24_Gardener_Webinar</link>
+    <guid>https://neonephos.org/events/2025_09_24_Gardener_Webinar</guid>
+    <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20250924_gardener_webinar_banner.jpg" alt="Upcoming Webinar: Neutral Governance for the Gardener Project banner" /></p><h1 id="upcoming-webinar-neutral-governance-for-the-gardener-project" tabindex="-1">Upcoming Webinar: Neutral Governance for the Gardener Project <a class="header-anchor" href="#upcoming-webinar-neutral-governance-for-the-gardener-project" aria-label="Permalink to &quot;Upcoming Webinar: Neutral Governance for the Gardener Project&quot;">&ZeroWidthSpace;</a></h1>
+<p>Gardener, one of our projects at the <a href="https://neonephos.org/" target="_blank" rel="noreferrer">NeoNephos Foundation</a>, hosts a public webinar on <strong>September 24th</strong>  at 3:00 pm CEST / 6:30 pm IST. In this webinar you will learn how Gardener aligns with NeoNephos’ goals, how it works under the hood, and why it matters for the future of cloud infrastructure in Europe and beyond. <strong>Marc Vornetran</strong>, Software Engineer, and <strong>Niclas Moldenhauer</strong>, Engineering Manager, both at SAP, will also talk about Gardener’s features, recent developments, and give live demos.</p>
+<ul>
+<li><strong>Speakers</strong>: Marc Vornetran, Software Engineer and Niclas Moldenhauer, Engineering Manager, SAP</li>
+<li><strong>Host</strong>: SAP Open Source Program Office</li>
+</ul>
+<p><strong>Registration (external):</strong> <a href="https://events.sap.com/ospo-webinar-series/en_us/home.html" target="_blank" rel="noreferrer">link to registration</a></p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[October Community Call]]></title>
+    <link>https://neonephos.org/events/2025_10_08_NeoNephos_Community_Call</link>
+    <guid>https://neonephos.org/events/2025_10_08_NeoNephos_Community_Call</guid>
+    <pubDate>Wed, 08 Oct 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20251008_neonephos_community_call_banner.jpg" alt="October Community Call banner" /></p><h1 id="october-community-call" tabindex="-1">October Community Call <a class="header-anchor" href="#october-community-call" aria-label="Permalink to &quot;October Community Call&quot;">&ZeroWidthSpace;</a></h1>
+<p>Learn more about NeoNephos by joining our upcoming community call on October 8th at 4:00 pm CEST. You will receive an update about what's happening within the foundation, an update about our project Katalis and have the chance to ask questions in our Q&amp;A.</p>
+<p><strong>Zoom Session Link</strong></p>
+<p><a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8" target="_blank" rel="noreferrer">https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8</a></p>
+<p>🎯 Save the date and <a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8" target="_blank" rel="noreferrer">join</a>!</p>
+<p><a href="https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7" target="_blank" rel="noreferrer">Download the iCal file to add this meeting to your calendar</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[MCK Meeting Series]]></title>
+    <link>https://neonephos.org/events/2025_10_21_MCK_NeoNephos_Series</link>
+    <guid>https://neonephos.org/events/2025_10_21_MCK_NeoNephos_Series</guid>
+    <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20251021_mck_neonephos_series_banner.jpg" alt="MCK Meeting Series banner" /></p><h1 id="new-neonephos-meeting-series" tabindex="-1">New NeoNephos Meeting Series <a class="header-anchor" href="#new-neonephos-meeting-series" aria-label="Permalink to &quot;New NeoNephos Meeting Series&quot;">&ZeroWidthSpace;</a></h1>
+<h2 id="the-ipcei-cis-workstream-2-multi-cluster-kubernetes-mck-meeting-series-has-been-opened-up-to-the-neonephos-community-this-event-occurs-on-every-third-tuesday-of-the-month-with-the-first-talk-being-held-on-21st-october-from-10-00-11-30-am-cest-the-event-will-be-recorded" tabindex="-1">The IPCEI-CIS Workstream 2 Multi Cluster Kubernetes (MCK) meeting series has been opened up to the NeoNephos community.
+This event occurs on every third Tuesday of the month, with the first talk being held on <strong>21st October from 10:00-11:30 am CEST</strong>.
+The event will be recorded. <a class="header-anchor" href="#the-ipcei-cis-workstream-2-multi-cluster-kubernetes-mck-meeting-series-has-been-opened-up-to-the-neonephos-community-this-event-occurs-on-every-third-tuesday-of-the-month-with-the-first-talk-being-held-on-21st-october-from-10-00-11-30-am-cest-the-event-will-be-recorded" aria-label="Permalink to &quot;The IPCEI-CIS Workstream 2 Multi Cluster Kubernetes (MCK) meeting series has been opened up to the NeoNephos community.
+This event occurs on every third Tuesday of the month, with the first talk being held on **21st October from 10:00-11:30 am CEST**.
+The event will be recorded.&quot;">&ZeroWidthSpace;</a></h2>
+<h2 id="agenda" tabindex="-1">Agenda <a class="header-anchor" href="#agenda" aria-label="Permalink to &quot;Agenda&quot;">&ZeroWidthSpace;</a></h2>
+<p><strong>Headline</strong>: Gardener Autonomous Shoots. Expanding from the Cloud to the Edge.</p>
+<p><strong>Content</strong>: The Apeiro Reference Architecture endorses a common Cloud Operating System (COS) for interoperability across distributed (multi-provider) clouds and edges with the goal to form acontinuum. With COS the new atomic primitive by definition is not the machine but an elastic cluster of machines. In Apeiro, with Gardener, we promote a Managed Kubernetes as a Service (<a href="https://documentation.apeirora.eu/docs/best-practices/multi-cluster-federation/managed-kubernetes-as-a-service" target="_blank" rel="noreferrer">https://documentation.apeirora.eu/docs/best-practices/multi-cluster-federation/managed-kubernetes-as-a-service</a>) for the COS.
+Gardener leverages the hosted control plane model (Seed/Shoot approach) to provide Kubernetes at massive scale and in a homogeneous way across multiple providers, and our model works exceptionally well for enterprise-grade platforms designed for scalable and elastic cloud environments.
+Now in Apeiro, we take Gardener to the edge with Autonomous Shoot Clusters! Typically, edge environments pose additional challenges: a) unreliable network connectivity, b) limited automation capabilities, and c) accepted limitations in capacities (single-points-of-failure).</p>
+<p>This session introduces the concept of Autonomous Shoot Clusters and explains how they help to transform Gardener from a cloud-only into a cloud &amp; edge capable platform service.</p>
+<p><strong>Headline</strong>: Introduction to the Sustainability Smart Energy Workload Placement Recommender</p>
+<p><strong>Content</strong>: A short introduction to the concept, architecture and development status of the B7 Sustainability Workstreams AI-Based Smart Energy Workload Placement Recommender.</p>
+<p>👉 Join the meeting <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjgzOGUxNTItYjBjYy00NWZlLThkMjktNGZhMzM0NTg3MjZl%40thread.v2/0?context=%7b%22Tid%22%3a%2242f7676c-f455-423c-82f6-dc2d99791af7%22%2c%22Oid%22%3a%22f448159f-8442-4772-945c-ad5c1d621625%22%7d" target="_blank" rel="noreferrer">here</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Linux Foundation Europe Member Summit]]></title>
+    <link>https://neonephos.org/events/2025_10_28_Linux_Foundation_Europe_Member_Summit</link>
+    <guid>https://neonephos.org/events/2025_10_28_Linux_Foundation_Europe_Member_Summit</guid>
+    <pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20251028_linux_foundation_member_summit_banner.jpg" alt="Linux Foundation Europe Member Summit banner" /></p><h1 id="neonephos-at-the-lfeu-member-summmit-in-ghent" tabindex="-1">NeoNephos at the LFEU Member Summmit in Ghent <a class="header-anchor" href="#neonephos-at-the-lfeu-member-summmit-in-ghent" aria-label="Permalink to &quot;NeoNephos at the LFEU Member Summmit in Ghent&quot;">&ZeroWidthSpace;</a></h1>
+<p>Engage with and learn about NeoNephos by participating in our sessions at the upcoming <a href="https://lfeums25.sched.com/event/28xGH/neonephos-building-a-sovereign-cloud-native-technology-stack-peter-giese-sap" target="_blank" rel="noreferrer">Linux Foundation Europe Member Summit in Ghent</a>.</p>
+<hr>
+<p><strong>Headline</strong>: <a href="https://lfeums25.sched.com/event/28xGH/neonephos-building-a-sovereign-cloud-native-technology-stack-peter-giese-sap" target="_blank" rel="noreferrer">NeoNephos: Building a Sovereign Cloud Native Technology Stack</a></p>
+<p><strong>Speakers</strong>: Peter Giese, SAP</p>
+<p>🗓 <strong>Date</strong>: October 28th, 2025 at 14:15 CEST.</p>
+<p>👉 Don't miss out by securing your ticket <a href="https://events.linuxfoundation.org/lf-europe-member-summit/register/" target="_blank" rel="noreferrer">here</a>!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Linux Foundation Europe Roadshow]]></title>
+    <link>https://neonephos.org/events/2025_10_29_Linux_Foundation_Europe_Roadshow</link>
+    <guid>https://neonephos.org/events/2025_10_29_Linux_Foundation_Europe_Roadshow</guid>
+    <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20251029_linux_foundation_roadshow_banner.jpg" alt="Linux Foundation Europe Roadshow banner" /></p><h1 id="neonephos-at-the-lfeu-roadshow-in-ghent" tabindex="-1">NeoNephos at the LFEU Roadshow in Ghent <a class="header-anchor" href="#neonephos-at-the-lfeu-roadshow-in-ghent" aria-label="Permalink to &quot;NeoNephos at the LFEU Roadshow in Ghent&quot;">&ZeroWidthSpace;</a></h1>
+<p>Engage with and learn about NeoNephos by participating in our sessions at the upcoming <a href="https://events.linuxfoundation.org/lf-europe-roadshow-regulation/" target="_blank" rel="noreferrer">Linux Foundation Europe Roadshow in Ghent</a>.</p>
+<hr>
+<p><strong>Headline</strong>: <a href="https://events.linuxfoundation.org/lf-europe-roadshow-regulation/program/schedule/?ajs_aid=44a2c1d4-fbf4-4860-afeb-6f8ba89e89c8" target="_blank" rel="noreferrer">LF Project Update: NeoNephos</a></p>
+<p><strong>Speakers</strong>: Peter Giese, SAP</p>
+<p>🗓 <strong>Date</strong>: October 29th, 2025 at 10:30 CEST.</p>
+<p>👉 Don't miss out by securing your ticket <a href="https://events.linuxfoundation.org/lf-europe-roadshow-regulation/register/" target="_blank" rel="noreferrer">here</a>!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[November Community Call]]></title>
+    <link>https://neonephos.org/events/2025_11_12_NeoNephos_Community_Call</link>
+    <guid>https://neonephos.org/events/2025_11_12_NeoNephos_Community_Call</guid>
+    <pubDate>Wed, 12 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20251112_neonephos_community_call_banner.jpg" alt="November Community Call banner" /></p><h1 id="november-community-call" tabindex="-1">November Community Call <a class="header-anchor" href="#november-community-call" aria-label="Permalink to &quot;November Community Call&quot;">&ZeroWidthSpace;</a></h1>
+<p>Learn more about NeoNephos by joining our upcoming community call on November 12th at 4:00 pm CET. In addition to the latest news about the foundation itself, you will be introduced via a presentation to our <a href="https://openmcp-project.github.io/docs/" target="_blank" rel="noreferrer">Open Managed Control Plane</a> project!</p>
+<p><strong>Zoom Session Link</strong></p>
+<p><a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8" target="_blank" rel="noreferrer">https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8</a></p>
+<p>🎯 Save the date and <a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8" target="_blank" rel="noreferrer">join</a>!</p>
+<p><a href="https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7" target="_blank" rel="noreferrer">Download the iCal file to add this meeting to your calendar</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Summit on European Digital Sovereignty Side Event]]></title>
+    <link>https://neonephos.org/events/2025_11_18_Summit_On_European_Digital_Sovereignty_NeoNephos_Side_Event</link>
+    <guid>https://neonephos.org/events/2025_11_18_Summit_On_European_Digital_Sovereignty_NeoNephos_Side_Event</guid>
+    <pubDate>Tue, 18 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20251118_summit_on_european_digital_sovereignty_neonephos_side_event_banner.jpg" alt="Summit on European Digital Sovereignty Side Event banner" /></p><h1 id="neonephos-at-the-summit-on-european-digital-sovereignty" tabindex="-1">NeoNephos at the Summit on European Digital Sovereignty <a class="header-anchor" href="#neonephos-at-the-summit-on-european-digital-sovereignty" aria-label="Permalink to &quot;NeoNephos at the Summit on European Digital Sovereignty&quot;">&ZeroWidthSpace;</a></h1>
+<p>Learn more about NeoNephos at the upcoming <em>Role of Open Source to advance the Sovereign Cloud Edge Continuum</em> side event of the <a href="https://bmds.bund.de/aktuelles/eu-summit/side-events-overview" target="_blank" rel="noreferrer">Summit on European Digital Sovereignty</a>.</p>
+<p>Within this event, representatives from our members introduce the audience through interactive talks to our projects and the value our foundation provides to the sovereign cloud native ecosystem.</p>
+<hr>
+<p><strong>Headline</strong>: <a href="https://bmds.bund.de/aktuelles/eu-summit/side-events-overview" target="_blank" rel="noreferrer">Role of Open Source to advance the Sovereign Cloud Edge Continuum</a></p>
+<p><strong>Full Invitation Text</strong>:</p>
+<p><em>The 8ra Initiative is driving the development of a sovereign, interoperable, and secure Multi-Provider Cloud-Edge Continuum. With more than 120 partners from 12 EU Member States, the 8ra Initiative fosters open collaboration to create a resilient and scalable digital infrastructure tailored to Europe’s needs.
+By promoting open-source innovation, interoperability, and cross-border cooperation, the 8ra Initiative empowers industries, researchers, and policymakers to shape the next generation of cloud and edge computing. Whether in AI, data spaces, telecommunications, or the industrial metaverse, the 8ra Initiative enables groundbreaking advancements free from vendor lock-in.
+In March 2025, the Linux Foundation Europe officially announced the launch of the non-profit open source NeoNephos Foundation as part of the Apeiro Reference Architecture Project of SAP. NeoNephos is dedicated to advancing open source projects that align with the strategic objectives of the EU's IPCEI-Next Generation Cloud Infrastructure and Services (CIS).</em></p>
+<p>🗓 <strong>Date</strong>: November 17th, 2025 at 14:00-16:00 CET.</p>
+<p>👉 Register today <a href="https://www.linkedin.com/events/7392206150483623936/" target="_blank" rel="noreferrer">through here</a>!</p>
+<p>For any questions to this specific event, reach out to <a href="./events@neonephos.org.html">events@neonephos.org</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Open Source in Cloud Infrastructure for IPCEI-CIS: Challenges, Opportunities and Strategic Pathways]]></title>
+    <link>https://neonephos.org/events/20251119_Open_Source_in_Cloud_Infrastructure_for_IPCEI_CIS</link>
+    <guid>https://neonephos.org/events/20251119_Open_Source_in_Cloud_Infrastructure_for_IPCEI_CIS</guid>
+    <pubDate>Wed, 19 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20251119_open_source_in_cloud_infrastructure_for_ipcei_cis_banner.jpg" alt="Open Source in Cloud Infrastructure for IPCEI-CIS: Challenges, Opportunities and Strategic Pathways banner" /></p><h1 id="open-source-in-cloud-infrastructure-for-ipcei-cis-challenges-opportunities-and-strategic-pathways" tabindex="-1">Open Source in Cloud Infrastructure for IPCEI-CIS: Challenges, Opportunities and Strategic Pathways <a class="header-anchor" href="#open-source-in-cloud-infrastructure-for-ipcei-cis-challenges-opportunities-and-strategic-pathways" aria-label="Permalink to &quot;Open Source in Cloud Infrastructure for IPCEI-CIS: Challenges, Opportunities and Strategic Pathways&quot;">&ZeroWidthSpace;</a></h1>
+<h2 id="join-the-open-source-in-cloud-infrastructure-for-ipcei-cis-challenges-opportunities-and-strategic-pathways-webinar-on-november-19th-14-00–15-30-cet-to-learn-more-about-ipcei-cis-neonephos-and-open-source-of-special-interest-is-the-following-session" tabindex="-1">Join the <a href="https://cisero-project.eu/events/open-source-cloud-infrastructure-ipcei-cis-challenges-opportunities-and-strategic-pathways" target="_blank" rel="noreferrer">Open Source in Cloud Infrastructure for IPCEI-CIS: Challenges, Opportunities and Strategic Pathways</a> webinar on <strong>November 19th, 14:00–15:30 CET</strong> to learn more about IPCEI-CIS, NeoNephos and Open Source.
+Of special interest is the following session: <a class="header-anchor" href="#join-the-open-source-in-cloud-infrastructure-for-ipcei-cis-challenges-opportunities-and-strategic-pathways-webinar-on-november-19th-14-00–15-30-cet-to-learn-more-about-ipcei-cis-neonephos-and-open-source-of-special-interest-is-the-following-session" aria-label="Permalink to &quot;Join the [Open Source in Cloud Infrastructure for IPCEI-CIS: Challenges, Opportunities and Strategic Pathways](https://cisero-project.eu/events/open-source-cloud-infrastructure-ipcei-cis-challenges-opportunities-and-strategic-pathways) webinar on **November 19th, 14:00–15:30 CET** to learn more about IPCEI-CIS, NeoNephos and Open Source.
+Of special interest is the following session:&quot;">&ZeroWidthSpace;</a></h2>
+<p><strong>Headline</strong>:  <a href="https://cisero-project.eu/events/open-source-cloud-infrastructure-ipcei-cis-challenges-opportunities-and-strategic-pathways" target="_blank" rel="noreferrer"><strong>Project Insights: OSS in IPCEI-CIS Cloud Infrastructure</strong></a></p>
+<p><strong>Abstract</strong>: <em>Von der Vision zur Realität: Die Zusammenarbeit von SAP mit Open Source Foundations und die Realisierung von NeoNephos.</em></p>
+<p><strong>Speakers</strong>: Jordi Guijarro (ONEnextgen); Christian Neu (NeoNephos);  Kai Steuernagel (Sylva Project) and Nicolas Homo (Sylva Project)</p>
+<p>🗓 <strong>Date</strong>: November 19th, 2025 at 14:45 CET.</p>
+<hr>
+<p>👉 Register for the webinar <a href="https://cisero-project.eu/form/registration-for-4-webinar" target="_blank" rel="noreferrer">here</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[MCK Meeting Series]]></title>
+    <link>https://neonephos.org/events/2025_12_02_MCK_NeoNephos_Series</link>
+    <guid>https://neonephos.org/events/2025_12_02_MCK_NeoNephos_Series</guid>
+    <pubDate>Tue, 02 Dec 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20251202_mck_neonephos_series_banner.svg" alt="MCK Meeting Series banner" /></p><h1 id="neonephos-meeting-series" tabindex="-1">NeoNephos Meeting Series <a class="header-anchor" href="#neonephos-meeting-series" aria-label="Permalink to &quot;NeoNephos Meeting Series&quot;">&ZeroWidthSpace;</a></h1>
+<p>The next IPCEI-CIS Workstream 2 Multi Cluster Kubernetes (MCK) meeting session will be held on <strong>2nd of December from 10:00-11:30 am CET</strong>.</p>
+<p>Agenda:</p>
+<ul>
+<li>40 min: DATI Group Gardener deployment: Shoot cluster delivery story from OpenStack installation to Gardener Seed with live demo presentation</li>
+</ul>
+<hr>
+<p>👉 You can join the meeting <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjgzOGUxNTItYjBjYy00NWZlLThkMjktNGZhMzM0NTg3MjZl%40thread.v2/0?context=%7b%22Tid%22%3a%2242f7676c-f455-423c-82f6-dc2d99791af7%22%2c%22Oid%22%3a%22f448159f-8442-4772-945c-ad5c1d621625%22%7d" target="_blank" rel="noreferrer">here</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Upcoming Webinar: Efficient Microservices Delivery with Konfidence]]></title>
+    <link>https://neonephos.org/events/20251204_Konfidence_Webinar</link>
+    <guid>https://neonephos.org/events/20251204_Konfidence_Webinar</guid>
+    <pubDate>Thu, 04 Dec 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20251204_open_source_series_project_konfidence_banner.jpg" alt="Upcoming Webinar: Efficient Microservices Delivery with Konfidence banner" /></p><h1 id="upcoming-webinar-efficient-microservices-delivery-with-konfidence" tabindex="-1">Upcoming Webinar: Efficient Microservices Delivery with Konfidence <a class="header-anchor" href="#upcoming-webinar-efficient-microservices-delivery-with-konfidence" aria-label="Permalink to &quot;Upcoming Webinar: Efficient Microservices Delivery with Konfidence&quot;">&ZeroWidthSpace;</a></h1>
+<p>Konfidence, a prospective NeoNephos project, hosts a public webinar on <strong>December 4th</strong> at 3:00 pm CET.
+Sarah Müller and Timon Schüle, both engineering manager SAP, dive into how Konfidence fits into the the NeoNephos project stack through its relation to the Apeiro Reference Architecture. You'll learn how it streamlines software releases, reduces infrastructure complexity, and supports modern deployment strategies like ring deployments and feature toggle management, all while following CNCF best practices.</p>
+<ul>
+<li><strong>Speakers</strong>: Sarah Müller, and Timon Schüle, Engineering Managers, SAP</li>
+<li><strong>Host</strong>: SAP Open Source Program Office</li>
+</ul>
+<p><strong>Registration (external):</strong> <a href="https://events.sap.com/efficient-microservices-delivery-with-project-konfidence-december/en_us/home.html" target="_blank" rel="noreferrer">Here</a></p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[December Community Call]]></title>
+    <link>https://neonephos.org/events/2025_12_10_NeoNephos_Community_Call</link>
+    <guid>https://neonephos.org/events/2025_12_10_NeoNephos_Community_Call</guid>
+    <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20251210_neonephos_community_call_banner.jpg" alt="December Community Call banner" /></p><h1 id="december-community-call" tabindex="-1">December Community Call <a class="header-anchor" href="#december-community-call" aria-label="Permalink to &quot;December Community Call&quot;">&ZeroWidthSpace;</a></h1>
+<p>Learn more about NeoNephos by joining our upcoming community call on December 10th at 4:00 pm CET for our last Community Call this year! Our project Open Resource Discovery will hold a presentation. Additionally, Platform Mesh will provide an update.</p>
+<p><strong>Zoom Session Link</strong></p>
+<p><a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8" target="_blank" rel="noreferrer">https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8</a></p>
+<p><a href="https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7" target="_blank" rel="noreferrer">Download the iCal file to add this meeting to your calendar</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[January Community Call]]></title>
+    <link>https://neonephos.org/events/2026_01_14_NeoNephos_Community_Call</link>
+    <guid>https://neonephos.org/events/2026_01_14_NeoNephos_Community_Call</guid>
+    <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20260114_neonephos_community_call_banner.svg" alt="January Community Call banner" /></p><h1 id="january-community-call" tabindex="-1">January Community Call <a class="header-anchor" href="#january-community-call" aria-label="Permalink to &quot;January Community Call&quot;">&ZeroWidthSpace;</a></h1>
+<p>Learn more about NeoNephos by joining our first community call in 2026 on January 14th at 4:00 pm CET! Next to our usual updates of the foundation, <a href="https://github.com/gehoern" target="_blank" rel="noreferrer">Andre Russ</a> from Garden Linux will hold a presentation introducing the project.</p>
+<p><strong>Zoom Session Link</strong></p>
+<p><a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8" target="_blank" rel="noreferrer">https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8</a></p>
+<p><a href="https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7" target="_blank" rel="noreferrer">Download the iCal file to add this meeting to your calendar</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[MCK Meeting Series]]></title>
+    <link>https://neonephos.org/events/2026_01_20_MCK_NeoNephos_Series</link>
+    <guid>https://neonephos.org/events/2026_01_20_MCK_NeoNephos_Series</guid>
+    <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20262001_mck_neonephos_series_banner.svg" alt="MCK Meeting Series banner" /></p><h1 id="neonephos-meeting-series" tabindex="-1">NeoNephos Meeting Series <a class="header-anchor" href="#neonephos-meeting-series" aria-label="Permalink to &quot;NeoNephos Meeting Series&quot;">&ZeroWidthSpace;</a></h1>
+<p>The next IPCEI-CIS Workstream 2 Multi Cluster Kubernetes (MCK) meeting session will be held on the <strong>20th of January from 10:00-11:30 am CET</strong>.</p>
+<p>Agenda:</p>
+<ul>
+<li><strong>Efficient Microservices Delivery with Project Konfidence</strong> (40 min): Curious about how to best support the delivery of microservice-based SaaS applications across the cloud-edge continuum? Join us for an engaging session where we introduce Project Konfidence, a new open-source project aimed at transforming the delivery of microservice-based SaaS applications. Konfidence is designed to simplify  and modernize the delivery of microservice-based SaaS applications, helping developers to focus on business logic rather than tool management. We’ll dive into how Konfidence fits into the Apeiro Reference Architecture (ApeiroRA), part of the Important Project of Common European Interest - Next Generation Cloud Infrastructures and Services (IPCEI-CIS).  You'll learn how it streamlines software releases, reduces infrastructure complexity, and supports modern deployment strategies like ring deployments and feature toggle management, all while following CNCF best practices.</li>
+<li><strong>Delivering and deploying OpenDesk with Open Component Model to AirGap</strong> (40 min): How do you package, transport, and deploy a complete digital workplace platform across disconnected or air-gapped Kubernetes environments in the cloud-edge continuum? In this talk, we demonstrate a component-based approach using Open Component Model (OCM) and OCM aware Kubernetes Deployer to deliver OpenDesk - a comprehensive sovereign workplace platform. Our solution addresses the full lifecycle: OCM enables technology-agnostic packaging of Helm charts, container images, configurations and many more into self-contained components stored in OCI registries. We showcase automated CI/CD workflows that package OCM components, transfer them to OCI registry ready for air-gapped environments, and deploy across Kubernetes clusters using OCM aware Kubernetes Deployer. This approach solves critical challenges in sovereign cloud scenarios where internet connectivity is restricted or regulated.</li>
+</ul>
+<hr>
+<p>👉 Join the meeting <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjgzOGUxNTItYjBjYy00NWZlLThkMjktNGZhMzM0NTg3MjZl%40thread.v2/0?context=%7b%22Tid%22%3a%2242f7676c-f455-423c-82f6-dc2d99791af7%22%2c%22Oid%22%3a%22f448159f-8442-4772-945c-ad5c1d621625%22%7d" target="_blank" rel="noreferrer">here</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[NeoNephos Community Call]]></title>
+    <link>https://neonephos.org/events/2026_02_11_NeoNephos_Community_Call</link>
+    <guid>https://neonephos.org/events/2026_02_11_NeoNephos_Community_Call</guid>
+    <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20260211_community_call_banner.svg" alt="NeoNephos Community Call banner" /></p><h1 id="neonephos-february-community-call" tabindex="-1">NeoNephos February Community Call <a class="header-anchor" href="#neonephos-february-community-call" aria-label="Permalink to &quot;NeoNephos February Community Call&quot;">&ZeroWidthSpace;</a></h1>
+<p>On February 11th we again bring together the NeoNephos community in our Community Call! Project Konfidence, which is not a NeoNephos project today, will hold a presentation about who they are, what they do and why they are a great fit for NeoNephos.</p>
+<p><strong>Zoom Session Link</strong></p>
+<p><a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8" target="_blank" rel="noreferrer">https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8</a></p>
+<p><a href="https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7" target="_blank" rel="noreferrer">Download the iCal file to add this meeting to your calendar.</a></p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[MCK Meeting Series]]></title>
+    <link>https://neonephos.org/events/2026_02_17_MCK_NeoNephos_Meeting_Series</link>
+    <guid>https://neonephos.org/events/2026_02_17_MCK_NeoNephos_Meeting_Series</guid>
+    <pubDate>Tue, 17 Feb 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20262017_mck_neonephos_series_banner.svg" alt="MCK Meeting Series banner" /></p><h1 id="neonephos-meeting-series" tabindex="-1">NeoNephos Meeting Series <a class="header-anchor" href="#neonephos-meeting-series" aria-label="Permalink to &quot;NeoNephos Meeting Series&quot;">&ZeroWidthSpace;</a></h1>
+<p>The next IPCEI-CIS Workstream 2 Multi Cluster Kubernetes (MCK) meeting session will be held on the <strong>17th of February from 10:00-11:30 am CET</strong>.</p>
+<p>Agenda:</p>
+<ul>
+<li>40 min: <strong>IronCore Networking behind the scenes</strong>: Discover the architecture of IronCore IaaS Networking, a high-performance Software Defined Networking solution designed to deliver robust virtual networking for modern data centers. This presentation takes you behind the scenes to reveal how the system leverages advanced technologies like DPDK and SmartNICs to ensure exceptional speed and scalability for both bare metal and virtual workloads. We will explain how the architecture achieves dynamic multi-tenancy and seamless Kubernetes integration, removing the need for complex physical switch reconfigurations.</li>
+<li>40 min: <strong>Katalis - Federation: Architecture and practical Demonstration</strong>: In this session, we will present the federation initiative and the activities carried out together with other partners within the IPCEI. We will explain what the federation is, the context in which it was created, and how it operates from both an architectural and operational perspective. We will also describe the main benefits it enables for participating partners in terms of collaboration, resource and services sharing.</li>
+</ul>
+<hr>
+<p>👉 Join the meeting <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjgzOGUxNTItYjBjYy00NWZlLThkMjktNGZhMzM0NTg3MjZl%40thread.v2/0?context=%7b%22Tid%22%3a%2242f7676c-f455-423c-82f6-dc2d99791af7%22%2c%22Oid%22%3a%22f448159f-8442-4772-945c-ad5c1d621625%22%7d" target="_blank" rel="noreferrer">here</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[NeoNephos Community Call]]></title>
+    <link>https://neonephos.org/events/2026_03_11_NeoNephos_Community_Call</link>
+    <guid>https://neonephos.org/events/2026_03_11_NeoNephos_Community_Call</guid>
+    <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20260311_community_call_banner.svg" alt="NeoNephos Community Call banner" /></p><h1 id="neonephos-march-community-call" tabindex="-1">NeoNephos March Community Call <a class="header-anchor" href="#neonephos-march-community-call" aria-label="Permalink to &quot;NeoNephos March Community Call&quot;">&ZeroWidthSpace;</a></h1>
+<p>On March 11th we again bring together the NeoNephos community in our Community Call! Philipp Pracht from our <a href="https://luigi-project.io/" target="_blank" rel="noreferrer">Luigi project</a>, which is also used by our other projects such as OpenMFP, will introduce you what the project is about.</p>
+<p><strong>Zoom Session Link</strong></p>
+<p><a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8" target="_blank" rel="noreferrer">https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8</a></p>
+<p><a href="https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7" target="_blank" rel="noreferrer">Download the iCal file to add this meeting to your calendar.</a></p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[MCK Meeting Series]]></title>
+    <link>https://neonephos.org/events/2026_03_17_MCK_NeoNephos_Meeting_Series</link>
+    <guid>https://neonephos.org/events/2026_03_17_MCK_NeoNephos_Meeting_Series</guid>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20263017_mck_neonephos_series_banner.svg" alt="MCK Meeting Series banner" /></p><h1 id="neonephos-meeting-series" tabindex="-1">NeoNephos Meeting Series <a class="header-anchor" href="#neonephos-meeting-series" aria-label="Permalink to &quot;NeoNephos Meeting Series&quot;">&ZeroWidthSpace;</a></h1>
+<p>The next IPCEI-CIS Workstream 2 Multi Cluster Kubernetes (MCK) meeting session will be held on the <strong>17th of March from 10:00-11:30 am CET</strong>.</p>
+<p>Agenda:</p>
+<ul>
+<li>
+<p>40 min: <strong>Designing for Energy Efficiency: Eliminating Waste in Power, Capacity, and Cooling</strong>: Modern data centers are highly energy intensive environments, and a significant share of this energy is unintentionally wasted due to inefficient use of ICT power, oversized infrastructure, and sub optimal cooling. This presentation explores how data center observability helps us use energy in the most effective way by identifying and eliminating inefficiencies across both power and temperature domains.
+We will examine three major sources of avoidable energy consumption: Ghost ICT equipment, Power infrastructure efficiency gaps, Cooling inefficiencies.
+By combining accurate power telemetry, environmental data, and capacity insights, we show how observability enables right sizing, consolidation, and better load placement—ultimately reducing operational energy, lowering embodied emissions, and improving the sustainability footprint of our data center landscape.</p>
+</li>
+<li>
+<p>40 min: <strong>Modular Integrated Sustainable Datacenter: Chantico energy controller</strong>: During this presentation, we introduce the goals, architecture, components and current functionality of the energy-aware domain controller, Chantico. TNO is developing Chantico as part of the Modular Integrated Sustainable Datacenter (MISD) project under the IPCEI-CIS 8ra Initiative, in orchestration and energy flexibility efforts.
+This cloud-native solution consists of a Kubernetes operator named Chantico which integrates with existing open source software for collecting energy measurements. We monitor devices like PDUs and bare metal servers but also higher-level resources, aggregating data and eventually splitting up timeseries to report VM and K8S services. We consider fair distribution algorithms of unallocated overhead between data center operations and tenant workloads. Chantico also becomes extensible with carbon emission measurements and enables green workload shifting.
+We present our graph-based K8s custom resource model, our technical approach in reconciliation/validation/configuration loops and our use cases so far. We round up with a demo of the Chantico software and demonstrate our open sourcing and documentation efforts for this project.</p>
+</li>
+</ul>
+<hr>
+<p>👉 Join the meeting <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjgzOGUxNTItYjBjYy00NWZlLThkMjktNGZhMzM0NTg3MjZl%40thread.v2/0?context=%7b%22Tid%22%3a%2242f7676c-f455-423c-82f6-dc2d99791af7%22%2c%22Oid%22%3a%22f448159f-8442-4772-945c-ad5c1d621625%22%7d" target="_blank" rel="noreferrer">here</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[KubeCon+CloudNativeCon Europe]]></title>
+    <link>https://neonephos.org/events/2026_03_23_KubeCon_Europe</link>
+    <guid>https://neonephos.org/events/2026_03_23_KubeCon_Europe</guid>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20262303_kubecon_banner.svg" alt="KubeCon+CloudNativeCon Europe banner" /></p><h1 id="neonephos-at-the-kubecon-cloudnativecon-europe-2026-in-amsterdam" tabindex="-1">NeoNephos at the KubeCon+CloudNativeCon Europe 2026 in Amsterdam <a class="header-anchor" href="#neonephos-at-the-kubecon-cloudnativecon-europe-2026-in-amsterdam" aria-label="Permalink to &quot;NeoNephos at the KubeCon+CloudNativeCon Europe 2026 in Amsterdam&quot;">&ZeroWidthSpace;</a></h1>
+<p>We will be present at the upcoming <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/" target="_blank" rel="noreferrer">KubeCon+CloudNativeCon 2026 in Amsterdam</a> with talks and even a physical booth for you to check out!</p>
+<hr>
+<p><strong>Headline</strong>: <a href="https://sched.co/2CW3n" target="_blank" rel="noreferrer">How to Build a European Cloud Orchestration Platform From Within an Enterprise</a></p>
+<p><strong>Speakers</strong>:
+Maximilian Techritz, SAP &amp;
+Johannes Ott, SAP</p>
+<p>🗓 <strong>Date</strong>: March 25th, 2026 at 16:00 CET.</p>
+<hr>
+<p><strong>Headline</strong>: <a href="https://sched.co/2CW2X" target="_blank" rel="noreferrer">Platform Mesh: Breaking API Lock-In for True Multi-Cloud Service Portability</a></p>
+<p><strong>Speakers</strong>:
+Mirza Kopic, SAP &amp;
+Mangirdas Judeikis, Indepentent Software Developer</p>
+<p>🗓 <strong>Date</strong>: March 25th, 2026 at 14:15 CET.</p>
+<hr>
+<p><strong>Headline</strong>: <a href="https://sched.co/2CVzj" target="_blank" rel="noreferrer">Towards Building an Open Source AI Reference Stack for EU Sovereign Cloud</a></p>
+<p><strong>Speakers</strong>:
+Madhav Bhargava, SAP Labs &amp;
+Sanjay Chatterjee, NVIDIA</p>
+<p>🗓 <strong>Date</strong>: March 24th, 2026 at 16:15 CET.</p>
+<p>👉 Don't miss out by securing your ticket <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/" target="_blank" rel="noreferrer">here</a>!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Open Sovereign Cloud Day]]></title>
+    <link>https://neonephos.org/events/2026_03_23_Open_Sovereign_Cloud_Day</link>
+    <guid>https://neonephos.org/events/2026_03_23_Open_Sovereign_Cloud_Day</guid>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20262303_open_sovereign_cloud_day_banner.svg" alt="Open Sovereign Cloud Day banner" /></p><h1 id="neonephos-at-the-open-sovereign-cloud-day-in-amsterdam" tabindex="-1">NeoNephos at the Open Sovereign Cloud Day in Amsterdam <a class="header-anchor" href="#neonephos-at-the-open-sovereign-cloud-day-in-amsterdam" aria-label="Permalink to &quot;NeoNephos at the Open Sovereign Cloud Day in Amsterdam&quot;">&ZeroWidthSpace;</a></h1>
+<p>We will be present at the upcoming <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/open-sovereign-cloud-day/#:~:text=Open%20Sovereign%20Cloud%20Day%20brings,sovereignty%20across%20Europe%20and%20beyond." target="_blank" rel="noreferrer">Open Sovereign Cloud Day, which is a KubeCon+CloudNativeCon 2026 co-located event, in Amsterdam</a> with the following talks:</p>
+<hr>
+<p><strong>Headline</strong>: <a href="https://colocatedeventseu2026.sched.com/event/2H5Uf?iframe=no" target="_blank" rel="noreferrer">Panel: Kill the switch: Reclaiming Digitial Sovereignty for Citizens and Institutions</a></p>
+<p><strong>Speakers</strong>:
+Rossella Sblendido, SUSE &amp;
+Vasu Chandrasekhara, NeoNephos Foundation &amp;
+Sebastiaan van 't Erve, Independent &amp;
+Kurt Garloff, S7n Cloud Services GmbH &amp;
+Jutta Horstmann, Heinlein Group</p>
+<p>🗓 <strong>Date</strong>: March 23th, 2026 at 17:05 CET.</p>
+<hr>
+<p><strong>Headline</strong>: <a href="https://colocatedeventseu2026.sched.com/event/2H5UW?iframe=no" target="_blank" rel="noreferrer">Sovereignty and Open Source? How To Put Your Money Where Your Mouth Is!</a></p>
+<p><strong>Speakers</strong>:
+Vasu Chandrasekhara, NeoNephos Foundation &amp;
+Christian Hüning, BWI GmbH</p>
+<p>🗓 <strong>Date</strong>: March 23th, 2026 at 15:20 CET.</p>
+<hr>
+<p><strong>Headline</strong>: <a href="https://colocatedeventseu2026.sched.com/event/2H5UZ?iframe=no" target="_blank" rel="noreferrer">Bridging CNCF and OpenInfra: Kubernetes as the Unified Control Plane for Sovereign Clouds</a></p>
+<p><strong>Speakers</strong>:
+Michael Schmidt, SAP SE</p>
+<p>🗓 <strong>Date</strong>: March 23th, 2026 at 15:55 CET.</p>
+<p>👉 Don't miss out by securing your ticket <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/open-sovereign-cloud-day/#:~:text=Open%20Sovereign%20Cloud%20Day%20brings,sovereignty%20across%20Europe%20and%20beyond." target="_blank" rel="noreferrer">here</a>!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[NeoNephos Community Call]]></title>
+    <link>https://neonephos.org/events/2026_04_08_NeoNephos_Community_Call</link>
+    <guid>https://neonephos.org/events/2026_04_08_NeoNephos_Community_Call</guid>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20260408_community_call_banner.svg" alt="NeoNephos Community Call banner" /></p><h1 id="neonephos-april-community-call" tabindex="-1">NeoNephos April Community Call <a class="header-anchor" href="#neonephos-april-community-call" aria-label="Permalink to &quot;NeoNephos April Community Call&quot;">&ZeroWidthSpace;</a></h1>
+<p>On April 8th we again bring together the NeoNephos community in our Community Call! Hendrik Kahl from our <a href="https://gardener.cloud" target="_blank" rel="noreferrer">Gardener project</a>, will introduce you what the project is about.</p>
+<p>More specifically:</p>
+<blockquote>
+<p>In the fast-paced world of cloud-native technologies, managing Kubernetes clusters at scale is a major challenge. Join this session to learn how we addressed this with Gardener, an open-source Kubernetes management tool. Gardener allows organizations to deploy and manage Kubernetes clusters across multiple cloud providers and on-premise environments at scale.</p>
+</blockquote>
+<p>Want to prepare? Read through their very extensive documentation <a href="https://gardener.cloud/docs/gardener/" target="_blank" rel="noreferrer">here</a>.</p>
+<p><strong>Zoom Session Link</strong></p>
+<p><a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8" target="_blank" rel="noreferrer">https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8</a></p>
+<p><a href="https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7" target="_blank" rel="noreferrer">Download the iCal file to add this meeting to your calendar.</a></p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[MCK Meeting Series]]></title>
+    <link>https://neonephos.org/events/2026_04_21_MCK_NeoNephos_Meeting_Series</link>
+    <guid>https://neonephos.org/events/2026_04_21_MCK_NeoNephos_Meeting_Series</guid>
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20260421_mck_neonephos_series_banner.svg" alt="MCK Meeting Series banner" /></p><h1 id="neonephos-meeting-series" tabindex="-1">NeoNephos Meeting Series <a class="header-anchor" href="#neonephos-meeting-series" aria-label="Permalink to &quot;NeoNephos Meeting Series&quot;">&ZeroWidthSpace;</a></h1>
+<p>It's MCK time! The next IPCEI-CIS Workstream 2 Multi Cluster Kubernetes (MCK) meeting session will be held on the <strong>21th of April from 10:00-11:30 am CET</strong>.</p>
+<p>Agenda:</p>
+<ul>
+<li>60 min: <strong>Sustainable Workload Placement - An Integrated IPCEI-CIS Pilot</strong>: This presentation introduces an IPCEI‑CIS pilot on sustainable workload placement, showing how compute‑intensive, stateless workloads can be dynamically shifted between wind‑powered edge data centers and traditional facilities based on real‑time green energy availability, energy mix, latency, and cost signals. It outlines the collaboration between SAP/Apeiro, WestfalenWIND IT/windCORES, T‑Systems, and FH Dortmund/EMULATE, and walks through the pilot scope, key contributions, and core platform capabilities. All pilot aspects are implemented and demonstrated in a lab environment.</li>
+</ul>
+<hr>
+<p>👉 As always, join the meeting <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjgzOGUxNTItYjBjYy00NWZlLThkMjktNGZhMzM0NTg3MjZl%40thread.v2/0?context=%7b%22Tid%22%3a%2242f7676c-f455-423c-82f6-dc2d99791af7%22%2c%22Oid%22%3a%22f448159f-8442-4772-945c-ad5c1d621625%22%7d" target="_blank" rel="noreferrer">here</a>.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Alasca Tech Talks]]></title>
+    <link>https://neonephos.org/events/20260424_alasca_tech_talks</link>
+    <guid>https://neonephos.org/events/20260424_alasca_tech_talks</guid>
+    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20260424_alasca_talks_banner.svg" alt="Alasca Tech Talks banner" /></p><p>At the <a href="https://alasca.cloud/en/alasca-tech-talks/" target="_blank" rel="noreferrer">upcoming Alasca Tech Talks</a> NeoNephos has been given the opportunity to present!</p>
+<p><strong>Title</strong>: ALASCA Tech-Talk #35: Sovereignty = func(Ecosystems, Interoperability);</p>
+<blockquote>
+<p>The warnings of the Draghi Report serve as a strategic wake-up call. To date, many European initiatives aimed at building a sovereign alternative have failed due to their own structures, national preferences, and, ultimately, the fragmentation of technical offerings. The strategic alternative lies in foundation-led, vendor-neutral open-source software and interoperable &amp; portable standards. Through 8RA and the funding projects of the &quot;Important Project of Common European Interest&quot; (IPCEI), work is underway to create a federated multi-provider cloud-edge continuum. A few companies from the IPCEI-CIS have recognized this wake-up call and transitioned their projects and operations into the neutral NeoNephos Foundation. This presentation will address the challenges posed within the IPCEI, outline some of the technical considerations of NeoNephos, and delve into a project featuring a new, innovative approach.
+Ultimately, the responsibility lies with us: developers, project managers, and decision-makers. We already rely heavily on open source (from Linux and Kubernetes to OTEL, ... PyTorch, vLLM, upto llm-d, if you are also into AI). The question is: can we succeed in creating a federated yet technically homogeneous market offering and start competing on top of a digital commons, not within?</p>
+</blockquote>
+<p><a href="https://alasca.cloud/wp-content/uploads/2026/04/alasca-tech-talk-35.ics" target="_blank" rel="noreferrer">Save the date</a> and <strong><a href="https://bbb.cloudandheat.com/rooms/a6x-ubv-eje-uuv/join" target="_blank" rel="noreferrer">dial in directly</a></strong>!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Open Source Summit Europe]]></title>
+    <link>https://neonephos.org/events/2026_10_07_Open_Source_Summit_Europe</link>
+    <guid>https://neonephos.org/events/2026_10_07_Open_Source_Summit_Europe</guid>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20261007_open_source_summit_banner.svg" alt="Open Source Summit Europe banner" /></p><h1 id="neonephos-at-the-open-source-summit-in-prague" tabindex="-1">NeoNephos at the Open Source Summit in Prague <a class="header-anchor" href="#neonephos-at-the-open-source-summit-in-prague" aria-label="Permalink to &quot;NeoNephos at the Open Source Summit in Prague&quot;">&ZeroWidthSpace;</a></h1>
+<p>We will be present at the upcoming <a href="https://events.linuxfoundation.org/open-source-summit-europe/" target="_blank" rel="noreferrer">Open Source Summit in Prague</a>. Details are to be announced.</p>
+]]></description>
+  </item>
+</channel>
+</rss>
