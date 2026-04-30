@@ -1,7 +1,7 @@
 ---
 title: "KubeCon+CloudNativeCon India"
 date: "2026-06-18"
-banner: "assets/events/20260429_kubecon_banner.svg"
+banner: "assets/events/20260618_kubecon_banner.svg"
 bannerMobile: "assets/events/20260618_kubecon_banner_mobile.svg"
 bannerSmall: "assets/events/20260618_kubecon_banner_small.svg"
 backgroundhex: "#889aa4ff"
