@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>NeoNephos Blog</title>
+  <link>https://neonephos.org</link>
+  <description>Updates from the NeoNephos Foundation</description>
+  <language>en</language>
+  
+  <item>
+    <title><![CDATA[Cloudogu joins NeoNephos]]></title>
+    <link>https://neonephos.org/blog/20260504_cloudogu_joins_neonephos</link>
+    <guid>https://neonephos.org/blog/20260504_cloudogu_joins_neonephos</guid>
+    <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20260504_cloudogu_joins_neonephos_banner.svg" alt="Cloudogu joins NeoNephos banner" /></p><p>We are excited to announce the addition of one additional general Associate Member, Cloudogu.</p>
+<p>Interested in shaping the future of cloud-native sovereignty by joining our foundation? NeoNephos offers different membership tiers which accommodate companies and non-profit organizations of all sizes. See here to learn more about the process!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[KubeCon+CloudNativeCon Recap]]></title>
+    <link>https://neonephos.org/blog/20260402_kubecon_recap</link>
+    <guid>https://neonephos.org/blog/20260402_kubecon_recap</guid>
+    <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20260402_kubecon_recap_banner.svg" alt="KubeCon+CloudNativeCon Recap banner" /></p><p>One year past our grand foundation launch announcement at the KubeCon+CloudNativeCon '25, it was once again time to meet our peers at the '26 edition of one of the most anticipated events in the cloud native scene.
+Now, equipped with the fruits of our labor from all these past months, we did not arrive with only grand plans but presented a concrete vision and live demonstrations. Let us break down how below:</p>
+<p>Our booth served as our permanent <em>flagpole in the sand</em> amd presented the most initimate way for people to learn about NeoNephos. Thanks to the continuous staffing provided by representatives of our projects, KubeCon attendees were exposed to hands-on demonstrations of some of our projects and could directly ask questions.
+Many great discussions arose and relationships have formed thanks to this booth. We will be catching up on some of these discussions for sure!</p>
+<p>We held many presentations, not only at the KubeCon itself but also the adjacent Open Sovereign Cloud Day. Most importantly, we had multiple companies involved in these, highlighting our belief in cross-company collaboration.</p>
+<p>While a lot went well, we can always do better. We hope to have official NeoNephos Ambassadors present at next year's event. Ideally, these Ambassadors have a background from a diverse set of organizations and companies. Thanks to our newly formed Outreach Committee, which manages this program, we believe this wish is within reach.</p>
+<p>If you have not been there, be sure to recap our talks at the official KubeCon + CloudNativeCon Europe 26 playlist. Until then, discuss with us the future by chatting with us on Zulip. See you there!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[BWI GmbH joins NeoNephos]]></title>
+    <link>https://neonephos.org/blog/20260218_bwi_joins_neonephos</link>
+    <guid>https://neonephos.org/blog/20260218_bwi_joins_neonephos</guid>
+    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20260218_bwi_joins_neonephos_banner.svg" alt="BWI GmbH joins NeoNephos banner" /></p><p>The NeoNephos Foundation is proud to welcome BWI GmbH as a Premium Member! The membership of BWI GmbH, being a IT service provider for the German Armed Forces, is a strong signal that our projects do not only have enterprise readiness in mind, but contribute to a sovereign digital strategy suitable for states.</p>
+<p>We encourage you to read our full press release, published by the Linux Foundation itself, here.</p>
+<p>Let BWI GmbH's story inspire you to also contribute to our vision of an interoperable cloud-native stack, by contributing projects, contributing to projects or becoming a member! Who knows, maybe your story will be featured here soon.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Cyberus Paper Release]]></title>
+    <link>https://neonephos.org/blog/20260316_cyberus_paper_release</link>
+    <guid>https://neonephos.org/blog/20260316_cyberus_paper_release</guid>
+    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20260316_cyberus_paper_release_banner.svg" alt="Cyberus Paper Release banner" /></p><p>Our members contribute to NeoNephos in a variety of ways. Case in point is Cyberus Technology GmbH, which has seen its paper Confidential Computing Revisited: Usability, Market, Standpoints and Trends uploaded to the open archive HAL.</p>
+<p>The relation of this paper to NeoNephos' mission becomes more apparent, by consulting this abstract:</p>
+<blockquote>
+<h1 id="confidential-computing-revisited-usability-market-standpoints-and-trends" tabindex="-1">Confidential Computing Revisited: Usability, Market, Standpoints and Trends <a class="header-anchor" href="#confidential-computing-revisited-usability-market-standpoints-and-trends" aria-label="Permalink to &quot;Confidential Computing Revisited: Usability, Market, Standpoints and Trends&quot;">&ZeroWidthSpace;</a></h1>
+<p>Why do we present yet another report on confidential computing (CC)? We realize that publications tend to either focus on performance trade-offs, vulnerabilities or options for improving the technology, whereas concrete guidance on the ease-of-use for customers and service providers can only be found in documentation at various web sites. We also notice in our professional network that there is a wide range of experiences with CC and expectations for the technology. These span from very optimistic perspectives based on early success stories to rather negative assessments from tedious proof-of-concepts, poor performance results or lack of faith in the prospects of the technology.</p>
+<p>To achieve a holistic view of the design space for CC, we consider publications, product documentation, product specifications, and interviews with partner organizations as input for our analysis. We particularly focus on CC rooted in virtualization, which carries the potential of widespread future adoption for many use cases in comparison to more rigid approaches. This variant of CC is a relatively recent technology introduced in the 2022 to 2023 time frame by CPUs from AMD (AMD SEV-SNP) and Intel (Intel TDX) for the x86-64 architecture. Our analysis of related work therefore especially covers publications from the last three to four years. In the spirit of the ApeiroRA project and the NeoNephos Foundation, we point out open-source frameworks in this report that complement the CPU technologies.</p>
+<p><strong>Major outcomes of our confidential computing (CC) analysis are:</strong>
+• Early market projections for CC are optimistic and consider a CAGR above 25% with the potential to reach a higher capitalization than next-generation computing markets and established markets like HPC within 10 years. Market drivers are threats posed to businesses, society, national security and public safety based on data theft/espionage and attacks against critical infrastructure, supply chains and political systems.
+• During our interviews with more than 40 professionals from more than 20 partner organizations, we observed more than 30 security and privacy related consortia, standards and regulations listed in this report that may serve as a catalyst for motivating the adoption of the technology for compliance now and in the future.
+• We group more than 10 case studies into four use-case categories to supplement these insights by describing the actual usage of CC in the field to make the incentive to apply the technology more concrete.
+• We highlight different aspects of the usability (OS dependencies, VM lifecycle management, attestation hurdles) and trade-offs with respect to performance, costs, security, versatility/service levels and availability associated with using and offering CC services.
+• Finally, we summarize optimistic, realistic and pessimistic views gathered in our interviews and derive calls-to-action. The majority of the professionals we interviewed are realists. The realist has often already gained experience with CC in proof-of-concept and pilot projects and considers CC at a medium level of technology readiness. Realists may become adopters of CC eventually and recognize the need to prepare organizations (their employers, colleagues and customers) for the deployment of the technology within the next few years.</p>
+<p>• As a foundation, we provide a technical overview of the CC technologies, known vulnerabilities and potential improvements shown in research publications, along with complementary security topics.
+• In the appendix, we offer a short overview of companies active in the areas of enabling new use cases with CC and offering productivity enhancements for deploying CC.</p>
+<p>We therefore aim to systematically collect and structure this information in our report to help readers assess value propositions, identify necessary actions, and achieve proper outcomes with confidential computing based on a clear understanding of the maturity of the technology within a defined scope.</p>
+<p>This report is funded by SAP’s Apeiro Reference Architecture contribution to the IPCEI-CIS EU project (Important Projects of Common European Interest – Next Generation Cloud Infrastructure and Services), in which Cyberus Technology GmbH acts as development and consultation partner. SAP is committed to donating all of Apeiro to the NeoNephos Foundation hosted by the Linux Foundation Europe.</p>
+</blockquote>
+<p>We congratulate its author Matthias Gries and Cyberus Technology GmbH for this release and hope there is more to come!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[NeoNephos Techzine Article]]></title>
+    <link>https://neonephos.org/blog/20260306_neonephos_techzine_article</link>
+    <guid>https://neonephos.org/blog/20260306_neonephos_techzine_article</guid>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20260306_neonephos_techzine_article.svg" alt="NeoNephos Techzine Article banner" /></p><p>According to the mission statement in our charter, NeoNephos advances the goals of the IPCEI CIS.
+Therefore, all our projects are selected with the overarching goal of establishing an interoperable cloud native stack.
+In our guest commentary in Techzine magazine we briefly explain how open source foundations may serve to address shortcomings in the digital economy through industry collaboration and community participation.
+So if you are stuck in traffic, you now have more reading material!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Fraunhofer ISST joins NeoNephos]]></title>
+    <link>https://neonephos.org/blog/20260309_fraunhofer_isst_joins_neonephos</link>
+    <guid>https://neonephos.org/blog/20260309_fraunhofer_isst_joins_neonephos</guid>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20260306_fraunhoer_isst_joins_neonephos_banner.svg" alt="Fraunhofer ISST joins NeoNephos banner" /></p><p>We are excited to announce the addition of one additional Associate Member, the Fraunhofer Institute for Software and Systems Engineering (ISST), to our foundation!
+The Fraunhofer Institute for Software and Systems Engineering ISST conducts applied research on smart data ecosystems and contributes to the development of sovereign, interoperable, and sustainable software for the digital economy. More generally, the Fraunhofer Society is a storied name in applied research and has been associated with many breakthrough projects such as the mp3 compression algorithm. NeoNephos, notably hosting the development of an interoperable cloud reference architecture, greatly appriciates the input from &quot;research veterans&quot; who are used to advancing the frontier in unchartered terrain.</p>
+<p>Interested in shaping the future of cloud-native sovereignty by joining our foundation? NeoNephos offers different membership tiers which accommodate companies and non-profit organizations of all sizes. See here to learn more about the process!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[Open Key Chain Manager has been accepted into NeoNephos]]></title>
+    <link>https://neonephos.org/blog/20260304_openkcm_new_project</link>
+    <guid>https://neonephos.org/blog/20260304_openkcm_new_project</guid>
+    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20260304_openkcm_new_project.svg" alt="Open Key Chain Manager has been accepted into NeoNephos banner" /></p><p>We are proud to announce that Open Key Chain Manager has been accepted into NeoNephos!</p>
+<p><em>OpenKCM is a data encryption key management solution, implementing a hierarchical key derivation system that wraps internal encryption keys with customer-managed root keys stored in external keystores , exposing key operations via KMIP protocol.</em></p>
+<p>OpenKCM is the first project that has not been there from the start and therefore passed all many necessary steps prior to being accepted into NeoNephos. You can look their project proposal video at the TAC here.
+Or, you can learn how to introduce your own project into NeoNephos by reading this short guide.</p>
+<p>We are happy have grown to an additional project and now possess an additional building block in our cloud-native fabric.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[NeoNephos Goals Document Release]]></title>
+    <link>https://neonephos.org/blog/20260210_neonephos_goals_document_release</link>
+    <guid>https://neonephos.org/blog/20260210_neonephos_goals_document_release</guid>
+    <pubDate>Mon, 09 Feb 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20260210_neonephos_goals_document_release.svg" alt="NeoNephos Goals Document Release banner" /></p><p>On January 8th, the NeoNephos Governing Board got together for an in-person strategy workshop at SAP Walldorf. Great ideas were exchanged and a preliminary vision constructed for how we see NeoNephos in 2026. It was agreed on that one of the first items to do in 2026, was to further formalize our mission, who we are and how we fit into the bigger picture of European cloud native sovereignty.
+The day has come where we can finally share this document to the world!</p>
+<p>The goals document supplements our mission statement in our charter and serves as a first point of reference for people aiming to understand our purpose.</p>
+<p>It is a first in series of further documents to come, like descriptions of the project proposal process and more, which aim to get the community onboarded efficiently and getting our message across.</p>
+<p>So without further ado, read through the goals document now:</p>
+<p><strong>Goals Document</strong></p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[New General Member joins NeoNephos]]></title>
+    <link>https://neonephos.org/blog/20260107_neonephos_new_general_member_announcement</link>
+    <guid>https://neonephos.org/blog/20260107_neonephos_new_general_member_announcement</guid>
+    <pubDate>Wed, 07 Jan 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20260107_neonephos_new_general_member_announcement_banner.svg" alt="New General Member joins NeoNephos banner" /></p><p>The NeoNephos Foundation, which supports projects that align with the strategic objectives of the EU’s IPCEI-CIS, is excited to announce the addition of one additional General Member.</p>
+<p><strong>New General Member</strong></p>
+<ul>
+<li>SUSE LLC</li>
+</ul>
+<p>We welcome SUSE to NeoNephos! Interested in shaping the future of cloud-native sovereignty by joining our foundation? NeoNephos offers different membership tiers which accomodate companies and non-profit organizations of all sizes.
+See here to learn more about the process!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[NeoNephos Recap 2025]]></title>
+    <link>https://neonephos.org/blog/20251223_recap_2025</link>
+    <guid>https://neonephos.org/blog/20251223_recap_2025</guid>
+    <pubDate>Tue, 23 Dec 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20251223_year_recap_banner.jpg" alt="NeoNephos Recap 2025 banner" /></p><p>What a year it has been! Although it feels like we have been here for an eternity, it was at the KubeCon 2025 that we announced the launch of the NeoNephos Foundation. By the end of 2025, we have grown to 15 members, with seven of them only joining within the last 6 months. Let us recap this year by looking at key moments that have shaped our foundation:</p>
+<p><strong>KubeCon 2025 Walk-On</strong></p>
+<p>The year started off strong with our foundation launch announcement at the KubeCon 2025. Set on a grand stage flanked by thousands, we introduced the world to our vision of “Making Cloud Native Sovereign”. At our corresponding booth, at that time with Gardener branding, we noticed great interest in our foundation with 200+ people willing to have their badges scanned for follow-up information.</p>
+<p><strong>All Committees formed</strong></p>
+<p>NeoNephos is formally organized into a strategic Governing Board, the Technical Advisory Council and the Technical Steering Committees of each project. Since we launched with 11 projects, this means 13 organizational bodies had to be established. This was a huge undertaking because for many it was the first time they had worked in such a manner. Nevertheless, we persisted. By July we had already formed all committees and established a working mode.</p>
+<p><strong>Open Resource Discovery API Award</strong></p>
+<p>It is always worthwhile to revisit the individual accomplishments of our projects, and Open Resource Discovery winning the API Award in the API Standards &amp; Specifications category in August is definitely among them. For us, it is a reminder of the strength of the projects which shape the NeoNephos portfolio.</p>
+<p><strong>Gardener Reaches CNCF AI Compliance</strong></p>
+<p>Each of our projects has enterprise readiness in mind. Therefore, gaining and keeping trust is important. We are proud to mention that Gardener is one of the first Kubernetes offerings which has reached the brand new CNCF Certified Kubernetes AI Conformance. Integrating with de-facto standards and community programs shows our commitment for integration within the wider cloud-native ecosystem. We will continue to push our projects to adhere to state-of-the-art conformance programs, as applicable.</p>
+<p><strong>Platform Mesh Releases</strong></p>
+<p>The year kept going strong with several releases of our Platform Mesh project. This starts by the release of the Getting Started guide, which includes a step-by-step introduction into the project and its components, complete with a local Platform Mesh docker environment. Additionally, the project released version 0.1.0, of course packaged via our Open Component Model project.</p>
+<p><strong>NeoNephos joins Zulip</strong></p>
+<p>The foundation and its projects needed an organized team chat, suitable for synchronous and asynchronous communication. Zulip was the perfect candidate as it was hosted and endorsed by the Linux Foundation itself. While the start was slow, it is seeing more and more usage. Help out by joining our Zulip today and shape with us the future of cloud native sovereignty!</p>
+<p><strong>Project Lifecycle Policy Approved</strong></p>
+<p>The year culminated with the approval of a very special document. The project lifecycle policy rules how projects can join the foundation, and the overall roles, responsibilities and benefits a project has with respect to NeoNephos. This is a topic which has led to healthy discussions due to its importance for the foundation as a whole. Nevertheless, we are now in the finish line, having a first version approved by our Governing Board. We are grateful for the continuous feedback we have received from the committee members, the projects, and the Linux Foundation itself during this time. We look forward to unveiling this document to the public soon!</p>
+<p>This closes down our highlights for 2025. Overall, we are well positioned for 2026 and look ahead with great excitement. We wish you a happy holiday and can’t wait for you to come back next year, because we are just getting started!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[New Research Paper]]></title>
+    <link>https://neonephos.org/blog/20251119_sap_cloud_infrastructure_dataset_paper</link>
+    <guid>https://neonephos.org/blog/20251119_sap_cloud_infrastructure_dataset_paper</guid>
+    <pubDate>Mon, 27 Oct 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20251027_sap_cloud_infrastructure_dataset_paper_banner.svg" alt="New Research Paper banner" /></p><p>Efficient scheduling of virtual machines, their associated workloads and the underlying infrastructure itself is an active research topic of fundamental importance for infrastructure providers.
+Because the workload characteristics (and their temporal evolution) are distinct to each datacenter and may involve multiple coprocessors, efficient provisioning is difficult and subject to one's unique constraints.
+The new &quot;The SAP Cloud Infrastructure Dataset: A Reality Check of Scheduling and Placement of VMs in Cloud Computing&quot; sheds light on this situation, by providing and analyzing telemetry data from 1,800 hypervisors and 48,000 Virtual Machines (VMs), which are part of the SAP Cloud Infrastructure, over a 30-day observation period.
+It was created as a collaboration between SAP and the TU Dresden. Additionally, Arno Uhlig, Engineering Manager at SAP and member of our CobaltCore project, presented the paper at the ACM Internet Measurement Conference 2025, a prestigious and known venue in this domain.</p>
+<p>Get the paper here:
+<a href="https://arxiv.org/pdf/2510.23911" target="_blank" rel="noreferrer">https://arxiv.org/pdf/2510.23911</a></p>
+<p>To learn more about this topic, follow the CobaltCore team for updates and try their Cortex scheduler if you want to immerse yourself even deeper!</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[New General Members join NeoNephos]]></title>
+    <link>https://neonephos.org/blog/20250825_neonephos_new_general_members_announcement</link>
+    <guid>https://neonephos.org/blog/20250825_neonephos_new_general_members_announcement</guid>
+    <pubDate>Mon, 25 Aug 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20250825_neonephos_new_general_members_banner.jpg" alt="New General Members join NeoNephos banner" /></p><p><strong>Open Source Summit, Amsterdam, NL – August 25, 2025</strong>  – The NeoNephos Foundation, which supports projects that align with the strategic objectives of the EU’s IPCEI-CIS, is excited to announce the addition of four new General Members.</p>
+<p><strong>New General Members</strong></p>
+<ul>
+<li>Liquid Reply</li>
+<li>Ape Factory</li>
+<li>Nearby Computing</li>
+<li>Kubermatic</li>
+</ul>
+<p>The addition of these partners highlights NeoNephos’ commitment to inviting the industry at large in shaping the future of sovereign cloud-native technology collaboratively, all under the umbrella of the Linux Foundation Europe.</p>
+<p><strong>About NeoNephos</strong><br>
+NeoNephos, part of Linux Foundation Europe, provides a sustainable, shared development model for projects of the cloud-edge continuum and offers collaborative potential for higher adoption. By being open to hosting projects from other industry players and the community at large, the foundation provides a nurturing environment for any project sharing the goal of a sovereign, open, enterprise-hardened, multi provider cloud-to-edge continuum.<br>
+Contributions to NeoNephos can be conducted in a variety of ways: by  participating in projects, donating entire projects or becoming a member (if you are an organization).</p>
+<p>Follow along on the journey by subscribing to the newsletter.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[2025 API World Award won by ORD]]></title>
+    <link>https://neonephos.org/blog/20250808_ORD_wins_api_award</link>
+    <guid>https://neonephos.org/blog/20250808_ORD_wins_api_award</guid>
+    <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20250808_ord_wins_api_world_award_banner.jpg" alt="2025 API World Award won by ORD banner" /></p><p>We’re excited to announce that Open Resource Discovery, a project of the NeoNephos Foundation, has won the 2025 API Award in the Best in API Standards &amp; Specifications category. API World 2025 is the world’s largest API &amp; microservices conference, and the 2025 API Awards are the definitive awards for the API &amp; microservices industry. The 10th annual API Awards celebrate the technical innovation and solutions in the global API economy.</p>
+<p>The API economy has matured extensively over the past decade, and Open Resource Discovery is helping API &amp; integration professionals and engineers build the future of APIs in the multi-trillion-dollar market for API-driven products and services in the age of AI.</p>
+<p>“Today’s cloud-based solutions are increasingly powered by API-centric architecture and platforms, with renewed focus on APIs with the rise of agentic AI and MCPs. Open Resource Discovery’s win here at the 2025 API Awards is evidence of their leading role in the growth of the global API ecosystem,” said Jonathan Pasky, Executive Producer &amp; Co-Founder of DevNetwork, producers of the API World conference &amp; the 2025 API Awards.</p>
+<p>Award winners were selected by the independent, expert-led DevNetwork API Advisory Board, based on criteria including: technical innovation; attracting notable attention and awareness in the API industry; and general regard and use by API and integration communities.</p>
+<p>The award will be presented during API World 2025 (Sept 3-5, Santa Clara Convention Center, CA &amp; Sept 10-12, Live Online), the world’s largest international API &amp; integration conference with over 250+ speakers and 50+ global partners.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[NeoNephos July Recap 2025]]></title>
+    <link>https://neonephos.org/blog/20250801_neonephos_newsletter</link>
+    <guid>https://neonephos.org/blog/20250801_neonephos_newsletter</guid>
+    <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20250801_neonephos_newsletter_july_recap_banner.jpg" alt="NeoNephos July Recap 2025 banner" /></p><p>Hello NeoNephos Newsletter readers! 👋</p>
+<p>July has come to a pass. Let’s recap all the important things that happened in July:</p>
+<p>On the 18th of July we held the kickoff meeting of our Technical Advisory Council (TAC), officially initiating this very important organizational body. The TAC ensures the technical adherence of the projects to the vision laid out by our Governing Board. The TAC will be spearheaded by the interim chairperson Florian Müller, who will reside in this position for the next three months.</p>
+<p>On July 3rd we held our first townhall, inviting all the foundational members to participate. We got to know each other and discussed the timeline of important roadmap items, like the election of a General Member Governing Board Representative. It was a lively discussion and a lot of great ideas were exchanged.</p>
+<p>In the week starting July 1st we were present at the CloudLand 2025 with multiple talks featuring our projects. We outlined our holistic approach to a sovereign stack and encountered genuine interest in our focus areas. We were positively surprised by how many attendees already knew about some of our projects. Recordings can be accessed here. It was a great week and we are thankful for the opportunity!</p>
+<p>On July 21st Steffen Kelch from our Open Component Model project held a talk at the Cloud Native Summit Munich! See the recording here.</p>
+<p>We will be present at the Linux Foundation Europe Open Source Summits with talks, panel discussions, merchandise and more!
+Register here and use the discount code OSSEU25NEO for 20% off the Attendee registration rate.🎫</p>
+<p>Don’t miss our next Community Call on Wednesday, September 10th at 4:00pm CEST.</p>
+<p>🔗 <em>Join the call here.</em></p>
+<p>This sums up our rundown for July. But the future looks even brigther, with new member announcements and more!</p>
+<p><strong>Stay tuned: Exciting things ahead!</strong></p>
+<p>The NeoNephos Foundation</p>
+]]></description>
+  </item>
+</channel>
+</rss>
