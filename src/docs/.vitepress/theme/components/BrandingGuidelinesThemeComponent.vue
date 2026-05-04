@@ -465,3 +465,13 @@ const { frontmatter } = useData();
 }
 
 </style>
+
+<style>
+/* In dark mode, give logos a white backdrop so dark/grey marks stay legible.
+   Logos that already have an inline `background-color: black` keep it via
+   inline-style specificity. */
+html.dark .logo-img {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+</style>
