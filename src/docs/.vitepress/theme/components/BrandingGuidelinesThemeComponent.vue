@@ -276,9 +276,9 @@ const { frontmatter } = useData();
   line-height: 1.7;
   color: var(--vp-c-text-1);
   margin-bottom: 2rem;
-  background: #f9fafb;
+  background: var(--vp-c-bg-soft);
   padding: 1.5rem 1.75rem;
-  border-left: 4px solid var(vp-neonephos-blue);
+  border-left: 4px solid var(--vp-neonephos-blue);
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
