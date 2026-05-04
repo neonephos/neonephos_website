@@ -21,8 +21,13 @@ const { frontmatter } = useData()
           </p>
 
           <img
-            class="nn-process-image"
+            class="nn-process-image nn-process-image--light"
             :src="withBase('/assets/project_proposal_process.svg')"
+            alt="Project Proposal Process"
+          />
+          <img
+            class="nn-process-image nn-process-image--dark"
+            :src="withBase('/assets/project_proposal_process_dark.svg')"
             alt="Project Proposal Process"
           />
 
@@ -163,7 +168,10 @@ a:hover {
   margin: 2rem 0;
   max-width: 100%;
   border-radius: 8px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.nn-process-image--dark {
+  display: none;
 }
 
 /* STEPS */
@@ -240,4 +248,14 @@ a:hover {
 }
 
 
+</style>
+
+<style>
+html.dark .nn-process-image--light {
+  display: none;
+}
+
+html.dark .nn-process-image--dark {
+  display: block;
+}
 </style>
