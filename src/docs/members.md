@@ -55,6 +55,9 @@ members:
     - name: "SUSE"
       link: "https://www.suse.com"
       imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/SUSE_Logo-hor_L_Green-pos_sRGB.svg"
+    - name: "Cloudogu"
+      link: "https://cloudogu.com"
+      imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/cloudogu_gmbh_1776943151560_0012M00002WSW6kQAH.svg"
 
       
   associate:
