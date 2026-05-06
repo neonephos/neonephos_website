@@ -1,1 +1,0 @@
-import{_ as o,c as t,o as n,ai as a}from"./chunks/framework.C8PXTxrK.js";const p=JSON.parse('{"title":"FAQ","description":"","frontmatter":{},"headers":[],"relativePath":"faq.md","filePath":"faq.md"}'),i={name:"faq.md"};function r(s,e,h,l,c,d){return n(),t("div",null,e[0]||(e[0]=[a("",15)]))}const f=o(i,[["render",r]]);export{p as __pageData,f as default};
