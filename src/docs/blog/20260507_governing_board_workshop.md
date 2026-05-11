@@ -15,7 +15,7 @@ On the 7th of May 2026 the NeoNephos Governing Board again held an on-site works
 
 ## The Q2 2026 - Q1 2027 NeoNephos Roadmap
 
-<img src="/assets/blog/20260507_roadmap.svg" alt="Roadmap of NeoNephos 2026-2027" width="1000">
+<img src="/assets/blog/20260507_roadmap.svg" alt="Roadmap of NeoNephos 2026-2027" width="1500">
 
 Let's dive through all the points in order.
 
