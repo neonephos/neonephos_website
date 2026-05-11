@@ -1,7 +1,7 @@
 ---
 title: "NeoNephos held on-site Governing Board Workshop in May"
 date: "2026-05-07"
-banner: "assets/blog/20260507_governing_board_workshop_neonepho_banner.svg"
+banner: "assets/blog/20260507_governing_board_workshop_banner.svg"
 authors:
     - "neonephos-team"
 tags:
