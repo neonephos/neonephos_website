@@ -15,7 +15,7 @@ On the 7th of May 2026 the NeoNephos Governing Board again held an on-site works
 
 ## The Q2 2026 - Q1 2027 NeoNephos Roadmap
 
-<img src="https://example.com/image.jpg" alt="Roadmap of NeoNephos 2026-2027" width="500">
+<img src="/assets/blog/20260507_roadmap.svg" alt="Roadmap of NeoNephos 2026-2027" width="500">
 
 Let's dive throug all the points in order.
 
@@ -42,3 +42,52 @@ The benefits of sovereignty extend world-wide. Therefore, we are present at the 
 We have to scope much further ahead and let you know a long time beforehand, where we intend to be. That is why we are improving on the process on selecting events for attendance. 
 You know an interesting event we should attend? Let's chat on Zulip!
 
+### Improve Relations with General Members and Associate Members
+
+We acknowledge that we at times lost touch with the needs of our General and Associate Members. Therefore, we made it a fixed target to improve the communication beyond the trimonthly townhall meeting.
+
+### Map Internal Rules and Responsibilities
+
+Who does what is always important to know. But it is easy to get lost between all the companies and people involved in NeoNephos. Therefore, we will map this out more clearer.
+
+### Organize NN Hackathon
+
+While [our Gardener project regularly organizes hackathons](https://github.com/gardener-community/hackathon), we also plan to do this foundation-wide.
+
+### Publish Case Studies and Success Stories 
+
+We want to more clearly communicate explicit example, where using projects of NeoNephos has made a difference to end-users.
+
+### Implement New NeoNephos Visual Strategy
+
+ We will establish a clear visual identity for NeoNephos which affects the website, slides and all content we generate.
+
+ ### Produce Dedicated NeoNephos Mascott
+
+ While There is no NeoNephos mascott yet, but it is in the works! Including a plush version to hand out at events.
+
+ ### Establish Physical NeoNephos Testlab
+
+ A physical NeoNephos testlab will be established where you can experiment with our projects on-site. While no location has been selected thus far, we fully believe that the community benefits from such a place.
+
+ ### Establish NeoNephos Conformance Program
+
+ The conformance program is a key pillar of our long term strategy. More details are to be announced.
+
+ ### Establish Commercialization Program
+
+ Our members have rightfully asked if there is also a financial benefit from supporting NeoNephos. Investigating these opportunities therefore deserves a spot on the roadmap, with more details to be announced.
+
+ ### Publish Vision Document
+
+ While we have [our goals document](https://neonephos.org/goals), a more concrete vision document is in the works.
+
+ ### Host NeoNephos Master Class
+
+ There should be training available on how to use our projects. More to be announced.
+
+ ## Closing Words
+
+ The Roadmap represents the chief outcome of the May Strategy workshop. It also represents the first time that we switched to strategic long-term thinking and mapped out upcoming items long in advance. This is in stark contrast to the short term reactive behavior we exhibited in 2025 and represents a strong indicator that we are maturing as a foundation. We thank all participants for their tireless efforts in helping to improve the foundation further. 
+
+ In the meantime, join us on [Zulip](https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion/topic/channel.20events/with/558483910) and continue the discussion there!
