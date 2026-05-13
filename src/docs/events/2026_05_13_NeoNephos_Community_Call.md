@@ -12,7 +12,7 @@ published: true
 
 # NeoNephos April Community Call
 
-On May 5th we again bring together the NeoNephos community in our Community Call! The agenda is to be announced.
+On May 5th we again bring together the NeoNephos community in our Community Call! We will present general foundation updates and hold an exhaustive Q&A.
 
 **Zoom Session Link**
 
