@@ -16,7 +16,7 @@ members:
     link: ""
   - name: "Jürgen Bolz"
     email: "juergen.bolz@bwi.de"
-    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/juebol.png?v=1778663857359"
     role: "BWI Premier Rep."
     details: ""
     link: ""    
