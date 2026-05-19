@@ -19,4 +19,4 @@ Check the issues page for outstanding issues.
 
 ## :blue_heart: Code of Conduct
 
-To facilitate an open and welcome environment for all, check out the [Linux Foundation Europe Code of Conduct](https://linuxfoundation.eu/en/policies?__hstc=81619592.11739e1f4ca03192f4e918409f725053.1748961872693.1753777412155.1753863796744.19&__hssc=81619592.3.1753863796744&__hsfp=2164450451).
+To facilitate an open and welcome environment for all, review the [Linux Foundation Europe Code of Conduct](https://linuxfoundation.eu/en/policies?__hstc=81619592.11739e1f4ca03192f4e918409f725053.1748961872693.1753777412155.1753863796744.19&__hssc=81619592.3.1753863796744&__hsfp=2164450451).
