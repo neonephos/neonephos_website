@@ -18,11 +18,6 @@ members:
     role: "BWI GmbH Representative"
     details:
     linkedin:
-  - name: "Christian Neu"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/christianneu.png?v=1753082958532"
-    role: "Chairperson and SAP SE Representative"
-    details:
-    linkedin:
   - name: "Christian Weiss"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/cweisstsi.png?v=1770140969205"
     role: "T-Systems International GmbH Representative"
@@ -33,6 +28,11 @@ members:
     role: "TAC Representative"
     details: "Software Architect"
     linkedin: "https://linkedin.com/in/florianmueller"
+  - name: "Orlin Vasilev"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/orlinvasilev.png?v=1779180224165"
+    role: "Chairperson and SAP SE Representative"
+    details: "Orlin Vasilev is Open Source and Cloud Native Technology Advocate at SAP. Community Manager for Project Harbor and Project K3s as part of the Cloud Native team. ex-SUSE ex-VMware. \n\nSecond term CNCF Ambassador and driving the biggest Meetup Group in Bulgaria and Kubernetes Community Days Sofia organizer.. KubeCon CfP review board member and co-chair for Track 101 and Community. Previously SysAdmin/Dev/SRE/System engineering roles for over 15 years! Located in Bulgaria, Europe! Father of two - a girl and a boy! Passionate snowboarder, DIY and semi-professional BBQ Pitmaster and baker."
+    linkedin: "https://linkedin.com/in/orlinvasilev"
   - name: "Stephan Ilaender"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/ilae02.png?v=1770971610353"
     role: "Schwarz Digits Cloud GmbH & Co. KG Representative"
