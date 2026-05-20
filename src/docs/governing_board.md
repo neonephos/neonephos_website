@@ -43,6 +43,7 @@ members:
     role: "Schwarz Digits Cloud GmbH & Co. KG Representative"
     details:
     linkedin:
+alternates:
 tilesHeading: "Learn more!"
 tiles:
   - title: "NeoNephos Charter"
