@@ -36,7 +36,7 @@ members:
   - name: "Christian Neu"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/christianneu.png?v=1753082958532"
     role: "Chairperson and SAP SE Representative (On Parental Leave)"
-    details:
+    details: "On parental leave."
     linkedin: "https://www.linkedin.com/in/christianneu?originalSubdomain=de"
   - name: "Stephan Ilaender"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/ilae02.png?v=1770971610353"
