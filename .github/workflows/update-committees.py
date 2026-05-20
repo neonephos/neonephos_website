@@ -69,8 +69,16 @@ def main():
             "?$filter=votingstatus%20eq%20Voting%20Rep"
         ).format(project_id=urlparts[2], committee_id=urlparts[5])
 
+        alternates_url = (
+            "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
+            "projects/{project_id}/committees/{committee_id}/members"
+            "?$filter=votingstatus%20eq%20Alternate%20Voting%20Rep"
+        ).format(project_id=urlparts[2], committee_id=urlparts[5])
+
         members = []
+        alternates = []
         response = requests.get(committee_url).json()
+        alternates_response = requests.get(alternates_url).json()
 
         for m in response.get("Data", []):
             print(f"Processing {m.get('FirstName').title()} {m.get('LastName').title()}...")
@@ -99,11 +107,35 @@ def main():
                 "linkedin": m.get("AboutMe", {}).get("LinkedIn")
             })
 
+        for m in alternates_response.get("Data", []):
+            print(f"Processing alternate {m.get('FirstName').title()} {m.get('LastName').title()}...")
+            role = "Alternate "
+
+            appointed = m.get("AppointedBy")
+            org = m.get("Organization", {}).get("Name")
+
+            if appointed == "Membership Entitlement":
+                role += f"{org} Representative"
+            elif appointed == "Vote of General Member Class":
+                role += "General Member Representative"
+            elif appointed == "Vote of TSC Committee":
+                role += "Project Representative"
+            elif appointed == "Vote of TAC Committee":
+                role += "TAC Representative"
+
+            alternates.append({
+                "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
+                "imgsrc": m.get("LogoURL"),
+                "role": role,
+                "details": m.get("AboutMe", {}).get("Description"),
+                "linkedin": m.get("AboutMe", {}).get("LinkedIn")
+            })
+
         post["members"] = members
+        post["alternates"] = alternates
 
     # Save with ordered keys preserved
     dump_ordered_frontmatter(post, args.filename)
 
 if __name__ == "__main__":
     main()
-
