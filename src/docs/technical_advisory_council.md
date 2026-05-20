@@ -38,4 +38,15 @@ tiles:
     details: "Want to propose a new project or read guidelines? This is the place!"
     linkText: "Projects Repository"
     linkUrl: "https://github.com/neonephos/projects"
+alternates:
+  - name: "Christian Weiss"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/cweisstsi.png?v=1770140969205"
+    role: "Alternate T-Systems International GmbH Representative"
+    details:
+    linkedin:
+  - name: "Marcel Kondermann"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
+    role: "Alternate T-Systems International GmbH Representative"
+    details:
+    linkedin:
 ---

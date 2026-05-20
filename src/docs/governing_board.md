@@ -30,20 +30,40 @@ members:
     linkedin: "https://linkedin.com/in/florianmueller"
   - name: "Orlin Vasilev"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/orlinvasilev.png?v=1779180224165"
-    role: "Interim Chairperson and SAP SE Representative"
+    role: "Chairperson and SAP SE Representative"
     details: "Orlin Vasilev is Open Source and Cloud Native Technology Advocate at SAP. Community Manager for Project Harbor and Project K3s as part of the Cloud Native team. ex-SUSE ex-VMware. \n\nSecond term CNCF Ambassador and driving the biggest Meetup Group in Bulgaria and Kubernetes Community Days Sofia organizer.. KubeCon CfP review board member and co-chair for Track 101 and Community. Previously SysAdmin/Dev/SRE/System engineering roles for over 15 years! Located in Bulgaria, Europe! Father of two - a girl and a boy! Passionate snowboarder, DIY and semi-professional BBQ Pitmaster and baker."
     linkedin: "https://linkedin.com/in/orlinvasilev"
-  - name: "Christian Neu"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/christianneu.png?v=1753082958532"
-    role: "Chairperson and SAP SE Representative (On Temporary Leave)"
-    details: "On temporary leave."
-    linkedin: "https://www.linkedin.com/in/christianneu?originalSubdomain=de"
   - name: "Stephan Ilaender"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/ilae02.png?v=1770971610353"
     role: "Schwarz Digits Cloud GmbH & Co. KG Representative"
     details:
     linkedin:
 alternates:
+  - name: "Christian Neu"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/christianneu.png?v=1753082958532"
+    role: "Alternate SAP SE Representative"
+    details:
+    linkedin:
+  - name: "Johannes Scheerer"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/scheererj.png?v=1774619429160"
+    role: "Alternate TAC Representative"
+    details:
+    linkedin:
+  - name: "Michael Ziegelmeir"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/mziegelmeir.png?v=1771447536950"
+    role: "Alternate Schwarz Digits Cloud GmbH & Co. KG Representative"
+    details:
+    linkedin:
+  - name: "Niklas Voss"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/nikvossbwi.png?v=1770740137456"
+    role: "Alternate BWI GmbH Representative"
+    details:
+    linkedin:
+  - name: "Tobias Deppe"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/tdeppe.png?v=1759170970690"
+    role: "Alternate T-Systems International GmbH Representative"
+    details:
+    linkedin:
 tilesHeading: "Learn more!"
 tiles:
   - title: "NeoNephos Charter"
