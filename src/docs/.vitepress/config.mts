@@ -68,6 +68,7 @@ export default defineConfig({
           { text: 'Governing Board', link: '/governing_board' },
           { text: 'Technical Advisory Council', link: '/technical_advisory_council' },
           { text: 'Outreach Committee', link: '/outreach_committee' },
+          { text: 'Join', link: '/join' },
         ]
       },
       {
