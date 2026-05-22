@@ -215,7 +215,12 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.3); /* Optional contrast overlay */
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.65) 0%,
+      rgba(0, 0, 0, 0.55) 55%,
+      rgba(0, 0, 0, 0.35) 100%
+    );
     z-index: 0;
   }
 
@@ -223,9 +228,27 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
   .home-hero__description,
   .home-hero__metric_wrapper li,
   .home-hero__metric_wrapper span {
-    color: white;
+    color: #ffffff;
     position: relative;
     z-index: 1;
+  }
+
+  .home-hero__description {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  .home-hero__metric_wrapper span {
+    color: #d8e3ff;
+  }
+
+  .home-hero__description :deep(a) {
+    color: #8ab4ff;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .home-hero__description :deep(a:hover) {
+    color: #ffffff;
   }
 }
 

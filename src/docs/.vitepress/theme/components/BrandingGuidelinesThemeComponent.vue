@@ -276,9 +276,9 @@ const { frontmatter } = useData();
   line-height: 1.7;
   color: var(--vp-c-text-1);
   margin-bottom: 2rem;
-  background: #f9fafb;
+  background: var(--vp-c-bg-soft);
   padding: 1.5rem 1.75rem;
-  border-left: 4px solid var(vp-neonephos-blue);
+  border-left: 4px solid var(--vp-neonephos-blue);
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
@@ -464,4 +464,14 @@ const { frontmatter } = useData();
   color: #374151;
 }
 
+</style>
+
+<style>
+/* In dark mode, give logos a white backdrop so dark/grey marks stay legible.
+   Logos that already have an inline `background-color: black` keep it via
+   inline-style specificity. */
+html.dark .logo-img {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
 </style>
