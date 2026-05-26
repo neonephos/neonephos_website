@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   build:
@@ -30,11 +31,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python src/helper_scripts/update_project_releases_rss.py
 
-      - name: Commit RSS feed
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add src/docs/public/feeds/project/rss.xml
-          git commit -m "Update project releases RSS feed" || echo "No changes"
-          git push
-
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Update project releases RSS feed"
+          title: "[Bot]: Update project releases RSS feed"
+          body: "Automated update of the project releases RSS feed."
+          branch: "update-project-releases-rss"
+          add-paths: |
+            src/docs/public/feeds/project/rss.xml
