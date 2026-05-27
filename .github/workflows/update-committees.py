@@ -80,7 +80,7 @@ def main():
             "projects/{project_id}/committees/{committee_id}/members"
             "?$filter=votingstatus%20eq%20Observer"
         ).format(project_id=urlparts[2], committee_id=urlparts[5])
-
+        print(tsc_observers_url)
         members = []
         alternates = []
         tsc_observers = []
@@ -114,7 +114,7 @@ def main():
                 "details": m.get("AboutMe", {}).get("Description"),
                 "linkedin": m.get("AboutMe", {}).get("LinkedIn")
             })
-
+        
         for m in alternates_response.get("Data", []):
             print(f"Processing alternate {m.get('FirstName').title()} {m.get('LastName').title()}...")
             role = "Alternate "
