@@ -74,11 +74,19 @@ def main():
             "projects/{project_id}/committees/{committee_id}/members"
             "?$filter=votingstatus%20eq%20Alternate%20Voting%20Rep"
         ).format(project_id=urlparts[2], committee_id=urlparts[5])
+        
+        tsc_observers_url = (
+            "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
+            "projects/{project_id}/committees/{committee_id}/members"
+            "?$filter=votingstatus%20eq%20Observer"
+        ).format(project_id=urlparts[2], committee_id=urlparts[5])
 
         members = []
         alternates = []
+        tsc_observers = []
         response = requests.get(committee_url).json()
         alternates_response = requests.get(alternates_url).json()
+        tsc_observers_response = requests.get(tsc_observers_url).json()
 
         for m in response.get("Data", []):
             print(f"Processing {m.get('FirstName').title()} {m.get('LastName').title()}...")
@@ -131,9 +139,30 @@ def main():
                 "linkedin": m.get("AboutMe", {}).get("LinkedIn")
             })
 
+        for m in alternates_response.get("Data", []):
+            print(f"Processing alternate {m.get('FirstName').title()} {m.get('LastName').title()}...")
+            role = "Observer "
+
+            appointed = m.get("AppointedBy")
+            org = m.get("Organization", {}).get("Name")
+
+            if appointed == "Vote of TSC Committee":
+                role += f"TSC Representative"
+            else:
+                continue
+
+            tsc_observers.append({
+                "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
+                "imgsrc": m.get("LogoURL"),
+                "role": role,
+                "details": m.get("AboutMe", {}).get("Description"),
+                "linkedin": m.get("AboutMe", {}).get("LinkedIn")
+            })
+
         post["members"] = members
         post["alternates"] = alternates
-
+        post["tsc_observers"] = tsc_observers
+        
     # Save with ordered keys preserved
     dump_ordered_frontmatter(post, args.filename)
 
