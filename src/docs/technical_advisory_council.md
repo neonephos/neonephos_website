@@ -49,4 +49,65 @@ alternates:
     role: "Alternate T-Systems International GmbH Representative"
     details:
     linkedin:
+observers:
+  - name: "Andre Russ"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/gehoern.png?v=1774619265634"
+    role: "Observer TSC Representative"
+    details:
+    linkedin:
+  - name: "Andreas Fritzler"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/afritzler.png?v=1766150959755"
+    role: "Observer TSC Representative"
+    details: "Platform Guy | Data Jedi | #Kubernetes #Container and #BigData Expert | #MachineLearning Enthusiast | #DeepLearning Fanatic at @SAP @GardenerProject | 🥋🚴‍♂️"
+    linkedin: "https://linkedin.com/in/andreasfritzler"
+  - name: "Bastian Echterhoelter"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/b.png"
+    role: "Observer TSC Representative"
+    details:
+    linkedin:
+  - name: "Jakob Möller"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jakobmoellersap.png?v=1761850393912"
+    role: "Observer TSC Representative"
+    details:
+    linkedin:
+  - name: "Johannes Scheerer"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/scheererj.png?v=1774619429160"
+    role: "Observer TSC Representative"
+    details:
+    linkedin:
+  - name: "Maximilian Braun"
+    imgsrc: "https://avatars.githubusercontent.com/u/78038429?v=4"
+    role: "Observer TSC Representative"
+    details:
+    linkedin:
+  - name: "Michael Schmidt"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
+    role: "Observer TSC Representative"
+    details: "SAP. Docker. Kubernetes. Null. Nil. Void"
+    linkedin: "https://linkedin.com/in/michael-schmidt-64714a4a"
+  - name: "Mirza Kopic"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
+    role: "Observer TSC Representative"
+    details:
+    linkedin:
+  - name: "Philipp Pracht"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/philipp.pracht.png?v=1767800725397"
+    role: "Observer TSC Representative"
+    details:
+    linkedin:
+  - name: "Roberto Querio"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/r.png"
+    role: "Observer TSC Representative"
+    details:
+    linkedin:
+  - name: "Simon Heimler"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/simon.heimler.png?v=1766150999407"
+    role: "Observer TSC Representative"
+    details: "Software Architect working at SAP SE on Metadata Strategy, APIs and Events and integration topics.\nTSC Chair for the [Open Resource Discovery](https://open-resource-discovery.github.io/specification/) spec (Linux Foundation)."
+    linkedin:
+  - name: "Uwe Mayer"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/u.png"
+    role: "Observer TSC Representative"
+    details:
+    linkedin:
 ---

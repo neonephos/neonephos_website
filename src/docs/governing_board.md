@@ -78,4 +78,5 @@ tiles:
     details: "Want to get in touch? Contact the Governing Board via mail."
     linkText: "Get In Touch"
     linkUrl: "mailto:main@lists.neonephos.org"
+observers: []
 ---
