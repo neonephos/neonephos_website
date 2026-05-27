@@ -161,7 +161,7 @@ def main():
 
         post["members"] = members
         post["alternates"] = alternates
-        post["tsc_observers"] = tsc_observers
+        post["observers"] = tsc_observers
         
     # Save with ordered keys preserved
     dump_ordered_frontmatter(post, args.filename)
