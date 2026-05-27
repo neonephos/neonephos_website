@@ -29,7 +29,7 @@ const { frontmatter } = useData()
             :features="frontmatter.alternates"
           />
         </section>
-        section v-if="frontmatter.observers">
+        <section v-if="frontmatter.observers">
           <br>
           <br>
           <p class="neonephos-home-hero-subtitle">
