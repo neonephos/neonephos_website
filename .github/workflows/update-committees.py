@@ -139,8 +139,8 @@ def main():
                 "linkedin": m.get("AboutMe", {}).get("LinkedIn")
             })
 
-        for m in alternates_response.get("Data", []):
-            print(f"Processing alternate {m.get('FirstName').title()} {m.get('LastName').title()}...")
+        for m in tsc_observers_response.get("Data", []):
+            print(f"Processing observer {m.get('FirstName').title()} {m.get('LastName').title()}...")
             role = "Observer "
 
             appointed = m.get("AppointedBy")
