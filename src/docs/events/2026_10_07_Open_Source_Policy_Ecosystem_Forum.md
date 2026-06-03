@@ -21,11 +21,3 @@ We will be present at the upcoming [Open Source Policy & Ecosystem Forum in Brus
 **Speakers**: 
 Vasu Chandrasekhara, NeoNephos Foundation & 
 Sebastian Wolf, SAP 
-
-🗓 **Date**: June 6th, 2026 at 16:35 CET.
-
----
-
-**Headline**: [Sovereignty and Open Source? How To Put Your Money Where Your Mouth Is!](https://colocatedeventseu2026.sched.com/event/2H5UW?iframe=no)
-
-**Speakers**: 
