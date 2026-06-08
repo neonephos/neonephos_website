@@ -10,7 +10,7 @@ hero:
 cards:
   - title: "Sandbox"
     backgroundColor: "#dfeaf6"
-    headingBackgroundColor: "#0f6bff"
+    headingBackgroundColor: "#dfeaf6"
     headingColor: "#dfeaf6"
     sectionTitleColor: "#0f6bff"
     text: "The Sandbox phase is where ideas begin and early exploration happens."
@@ -23,7 +23,7 @@ cards:
 
   - title: "Incubation"
     backgroundColor: "#adc9e9"
-    headingBackgroundColor: "#0f6bff"
+    headingBackgroundColor: "#adc9e9"
     headingColor: "#dfeaf6"
     iconColor: "#0f6bff"
     sectionTitleColor: "#0f6bff"
