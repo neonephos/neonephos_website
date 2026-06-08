@@ -26,6 +26,8 @@ import ElectionPolicyThemeComponent from './components/ElectionPolicyThemeCompon
 import DocumentTextThemeComponent from './components/DocumentTextThemeComponent.vue'
 import ProjectProposalThemeComponent from './components/ProjectProposalThemeComponent.vue'
 import AmbassadorThemeComponent from './components/AmbassadorThemeComponent.vue'
+import ProjectLifecycleThemeComponent from './components/ProjectLifecycleThemeComponent.vue'
+import DynamicCardThemeComponent from './components/DynamicCardThemeComponent.vue'
 //import RSSThemeComponent from './components/RSSThemeComponent.vue'
 import LinuxHeader from './components/LinuxHeaderThemeComponent.vue'
 
@@ -57,6 +59,8 @@ export const layoutMap = {
   DocumentTextThemeComponent,
   ProjectProposalThemeComponent,
   AmbassadorThemeComponent,
+  ProjectLifecycleThemeComponent,
+  DynamicCardThemeComponent,
   //RSSThemeComponent,
   LinuxHeader
 }
