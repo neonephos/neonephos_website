@@ -10,8 +10,8 @@ hero:
 cards:
   - title: "Sandbox"
     backgroundColor: "#dfeaf6"
-    headingColor: "#0f6bff"
-    iconColor: "#0f6bff"
+    headingBackgroundColor: "#0f6bff"
+    headingColor: "#dfeaf6"
     sectionTitleColor: "#0f6bff"
     text: "The Sandbox phase is where ideas begin and early exploration happens."
     requirements:
@@ -23,7 +23,8 @@ cards:
 
   - title: "Incubation"
     backgroundColor: "#adc9e9"
-    headingColor: "#0f6bff"
+    headingBackgroundColor: "#0f6bff"
+    headingColor: "#dfeaf6"
     iconColor: "#0f6bff"
     sectionTitleColor: "#0f6bff"
     text: "Incubation focuses on maturing the project and validating direction."
@@ -36,7 +37,8 @@ cards:
 
   - title: "Growth"
     backgroundColor: "#6093d3"
-    headingColor: "#0f6bff"
+    headingBackgroundColor: "#6093d3"
+    headingColor: "#dfeaf6"
     sectionTitleColor: "#ffffff"
     text: "Growth is where adoption increases and the project gains momentum."
     requirements:
@@ -48,7 +50,8 @@ cards:
 
   - title: "Graduated"
     backgroundColor: "#41689a"
-    headingColor: "#0f6bff"
+    headingBackgroundColor: "#41689a"
+    headingColor: "#dfeaf6"
     sectionTitleColor: "#ffffff"
     text: "Graduated projects are fully established and widely adopted."
     requirements:
@@ -60,7 +63,8 @@ cards:
 
   - title: "Emeritus"
     backgroundColor: "#2d4a6d"   # darker complementary tone for visual balance
-    headingColor: "#0f6bff"
+    headingBackgroundColor: "#2d4a6d"
+    headingColor: "#dfeaf6"
     sectionTitleColor: "#ffffff"
     text: "Emeritus projects are no longer actively developed but remain archived."
     requirements:

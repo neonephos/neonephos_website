@@ -35,7 +35,13 @@ function toggleSection(index: number, section: 'req' | 'ben') {
       :style="{ backgroundColor: card.backgroundColor || '#ffffff' }"
     >
       <!-- Card Header -->
-      <button class="dynamic-card__header" @click="toggleCard(index)">
+      <button
+        class="dynamic-card__header"
+        @click="toggleCard(index)"
+        :style="{
+          backgroundColor: card.headingBackgroundColor || '#f9fbff'
+        }"
+      >
         <h2 :style="{ color: card.headingColor || '#0f6bff' }">
           {{ card.title }}
         </h2>
@@ -49,13 +55,14 @@ function toggleSection(index: number, section: 'req' | 'ben') {
         >
           <path
             d="M6 9l6 6 6-6"
-            :stroke="card.iconColor || '#0f6bff'"
+            :stroke="card.headingColor || '#0f6bff'"
             stroke-width="2"
             fill="none"
             stroke-linecap="round"
           />
         </svg>
       </button>
+
 
       <!-- Expandable Content -->
       <transition name="smooth-expand">
