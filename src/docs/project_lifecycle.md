@@ -12,7 +12,7 @@ cards:
     backgroundColor: "#dfeaf6"
     headingBackgroundColor: "#dfeaf6"
     headingColor: "#dfeaf6"
-    sectionTitleColor: "#0f6bff"
+    sectionTitleColor: "#333333"
     text: "The Sandbox phase is where ideas begin and early exploration happens."
     requirements:
       - "Initial concept defined"
@@ -26,7 +26,7 @@ cards:
     headingBackgroundColor: "#adc9e9"
     headingColor: "#dfeaf6"
     iconColor: "#0f6bff"
-    sectionTitleColor: "#0f6bff"
+    sectionTitleColor: "#333333"
     text: "Incubation focuses on maturing the project and validating direction."
     requirements:
       - "Clear roadmap"
