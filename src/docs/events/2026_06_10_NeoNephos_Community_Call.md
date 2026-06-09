@@ -12,8 +12,7 @@ published: true
 
 # NeoNephos April Community Call
 
-On June 6th we again bring together the NeoNephos community in our Community Call! Our [Platform Mesh](https://platform-mesh.io/release-0.3/) project provides an update about what has happened since their last [Community Call presentation in September](https://neonephos.org/events/2025_09_10_NeoNephos_Community_Call).
-
+On June 6th we again bring together the NeoNephos community in our Community Call! We will provide an update about what has happened since our last Community Call.
 **Zoom Session Link**
 
 [https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8](https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8)
