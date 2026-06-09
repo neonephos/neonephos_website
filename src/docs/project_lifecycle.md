@@ -39,7 +39,7 @@ cards:
     backgroundColor: "#6093d3"
     headingBackgroundColor: "#6093d3"
     headingColor: "#dfeaf6"
-    sectionTitleColor: "#ffffff"
+    sectionTitleColor: "#333333"
     text: "Growth is where adoption increases and the project gains momentum."
     requirements:
       - "Stable releases"
