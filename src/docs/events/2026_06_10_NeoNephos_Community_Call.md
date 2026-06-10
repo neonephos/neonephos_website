@@ -10,7 +10,7 @@ rssPubDate: "2026-06-10"
 published: true
 ---
 
-# NeoNephos April Community Call
+# NeoNephos June Community Call
 
 On June 6th we again bring together the NeoNephos community in our Community Call! We will provide an update about what has happened since our last Community Call.
 **Zoom Session Link**
