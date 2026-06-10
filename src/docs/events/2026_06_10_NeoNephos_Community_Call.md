@@ -12,7 +12,7 @@ published: true
 
 # NeoNephos June Community Call
 
-On June 6th we again bring together the NeoNephos community in our Community Call! We will provide an update about what has happened since our last Community Call.
+On June 10th we again bring together the NeoNephos community in our Community Call! We will provide an update about what has happened since our last Community Call.
 **Zoom Session Link**
 
 [https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8](https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8)
