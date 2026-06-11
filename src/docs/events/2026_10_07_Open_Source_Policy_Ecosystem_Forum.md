@@ -12,7 +12,7 @@ published: true
 
 # Open Source Policy & Ecosystem Forum
 
-We will be present at the upcoming [Open Source Policy & Ecosystem Forum in Brussels]([https://events.linuxfoundation.org/open-source-summit-europe/](https://ospeforum2026.sched.com/event/2NBJA/building-the-open-source-governance-infrastructure-why-we-founded-neonephos-for-ipcei-cis-sebastian-wolf-sap-vasu-chandrasekhara-independent?iframe=yes&w=100%&sidebar=yes&bg=no))!
+We will be present at the upcoming [Open Source Policy & Ecosystem Forum in Brussels](https://ospeforum2026.sched.com/event/2NBJA/building-the-open-source-governance-infrastructure-why-we-founded-neonephos-for-ipcei-cis-sebastian-wolf-sap-vasu-chandrasekhara-independent?iframe=yes&w=100%&sidebar=yes&bg=no)!
 
 ---
 
