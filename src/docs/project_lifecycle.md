@@ -5,7 +5,7 @@ sidebar: false
 aside: false
 hero:
   name: "Project Lifecycle"
-  subtitle: "The project lifecycle is essential for our projects."
+  subtitle: "This page is under construction. For the lifecycle discussion see https://github.com/neonephos/guidelines-development/pull/13."
   text: ""
 cards:
   - title: "Sandbox"
@@ -15,11 +15,11 @@ cards:
     sectionTitleColor: "#333333"
     text: "The Sandbox phase is where ideas begin and early exploration happens."
     requirements:
-      - "Initial concept defined"
-      - "Early contributors identified"
+      - "tbd"
+      - "tbd"
     benefits:
-      - "Low barrier to entry"
-      - "Freedom to experiment"
+      - "tbd"
+      - "tbd"
 
   - title: "Incubation"
     backgroundColor: "#adc9e9"
@@ -29,11 +29,11 @@ cards:
     sectionTitleColor: "#333333"
     text: "Incubation focuses on maturing the project and validating direction."
     requirements:
-      - "Clear roadmap"
-      - "Active maintainers"
+      - "tbd"
+      - "tbd"
     benefits:
-      - "Structured growth"
-      - "Community visibility"
+      - "tbd"
+      - "tbd"
 
   - title: "Growth"
     backgroundColor: "#6093d3"
@@ -42,11 +42,11 @@ cards:
     sectionTitleColor: "#333333"
     text: "Growth is where adoption increases and the project gains momentum."
     requirements:
-      - "Stable releases"
-      - "User adoption metrics"
+      - "tbd"
+      - "tbd"
     benefits:
-      - "Broader ecosystem support"
-      - "Increased contributions"
+      - "tbd"
+      - "tbd"
 
   - title: "Graduated"
     backgroundColor: "#41689a"
@@ -55,11 +55,11 @@ cards:
     sectionTitleColor: "#ffffff"
     text: "Graduated projects are fully established and widely adopted."
     requirements:
-      - "Long-term governance"
-      - "Sustained contributor base"
+      - "tbd"
+      - "tbd"
     benefits:
-      - "High trust"
-      - "Industry recognition"
+      - "tbd"
+      - "tbd"
 
   - title: "Emeritus"
     backgroundColor: "#2d4a6d"   # darker complementary tone for visual balance
@@ -68,12 +68,11 @@ cards:
     sectionTitleColor: "#ffffff"
     text: "Emeritus projects are no longer actively developed but remain archived."
     requirements:
-      - "Archived governance"
-      - "Historical documentation"
+      - "tbd"
+      - "tbd"
     benefits:
-      - "Preserved knowledge"
-      - "Reference for future work"
-
+      - "tbd"
+      - "tbd"
 
 tilesHeading: Learn more!
 tiles:
@@ -85,12 +84,6 @@ tiles:
     details: Meet our working group to ask questions and gain insights about the process!
     linkText: Ambassador SIG
     linkUrl: https://github.com/neonephos/outreach/tree/main/topics/ambassador_program
-members:
-  - name: "Constanze Roedig"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/constanzeroedig.png?v=1777999638784"
-    role: "NeoNephos Ambassador"
-    details:
-    linkedin:
 
 
 
