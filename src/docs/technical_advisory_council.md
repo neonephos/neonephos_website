@@ -90,6 +90,11 @@ observers:
     role: "Observer TSC Representative"
     details:
     linkedin:
+  - name: "Nicolae Nicora"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/nnicora.png?v=1773696298478"
+    role: "Observer TSC Representative"
+    details:
+    linkedin:
   - name: "Philipp Pracht"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/philipp.pracht.png?v=1767800725397"
     role: "Observer TSC Representative"

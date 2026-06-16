@@ -36,8 +36,8 @@ members:
   - name: "Stephan Ilaender"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/ilae02.png?v=1770971610353"
     role: "Schwarz Digits Cloud GmbH & Co. KG Representative"
-    details:
-    linkedin:
+    details: "Stephan Ilaender has around 20 years of experience in the German hosting and cloud industry. Currently serving as Field CTO at STACKIT (the cloud computing division of the Schwarz Gruppe), he bridges the gap between enterprise cloud architecture, public administration, and the open-source ecosystem. Previously, he was the long-standing Chief Technology Officer (CTO) at a leading German cloud service provider. His career is defined by transitioning open-source concepts into enterprise-grade production environments."
+    linkedin: "https://linkedin.com/in/ilaender"
 alternates:
   - name: "Christian Neu"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/christianneu.png?v=1753082958532"
