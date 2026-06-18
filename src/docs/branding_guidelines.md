@@ -16,4 +16,8 @@ tiles:
     details: View all our logos interactively.
     linkText: Open Artwork Viewer
     linkUrl: https://artwork.neonephos.org
+  - title: Branding Guidelines
+    details: How to use our brand assets.
+    linkText: Download PDF
+    linkUrl: http://neonephos.org/assets/downloads/nnf-brand-guidebook.pdf
 ---
