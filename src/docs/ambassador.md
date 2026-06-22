@@ -23,6 +23,11 @@ members:
     role: "NeoNephos Ambassador"
     details:
     linkedin:
+  - name: "Abubakar Ango"
+    imgsrc: "https://avatars.githubusercontent.com/u/2991038?v=4"
+    role: "NeoNephos Ambassador"
+    details:
+    linkedin:
 
 
 
