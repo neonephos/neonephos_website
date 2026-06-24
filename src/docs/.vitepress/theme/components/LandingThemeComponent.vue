@@ -204,7 +204,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
 
 @media screen and (min-width: 700px) {
   .logo-background {
-    background: url('/assets/nn_bg1_temp_compressed.webp') no-repeat center top;
+    background: url('/assets/neonephos_landing_page_banner.svg') no-repeat center top;
     background-size: cover;
     background-color: #002b80;
     padding: 4rem 2rem;
