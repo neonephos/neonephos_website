@@ -26,7 +26,7 @@ members:
   - name: "Florian Müller"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/fmui.png?v=1751357995611"
     role: "TAC Representative"
-    details: "Software Architect"
+    details: "Software Architect and Technical Project Manager at SAP with over 25 years of experience in enterprise software development, including more than 20 years in architecture and 15+ years in cloud development.\nI have served as both member and chair of several international and cross-company initiatives, industry standards bodies, and open-source projects. I also speak at conferences and actively mentor engineers and architects."
     linkedin: "https://linkedin.com/in/florianmueller"
   - name: "Orlin Vasilev"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/orlinvasilev.png?v=1779180224165"
