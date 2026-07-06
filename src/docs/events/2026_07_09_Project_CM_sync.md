@@ -54,4 +54,4 @@ If you care about technical community work and want to be part of this, the star
 
 Looking forward to building this with you.
 
-Check the full calendar for the foundation [here].(https://zoom-lfx.platform.linuxfoundation.org/meetings/neonephos-foundation?view=month)
+Check the full calendar for the foundation [here](https://zoom-lfx.platform.linuxfoundation.org/meetings/neonephos-foundation?view=month)
