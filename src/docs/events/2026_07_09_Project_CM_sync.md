@@ -10,7 +10,7 @@ rssPubDate: "2026-07-09"
 published: true
 ---
 
-# Project Community Managers Sync
+# Project Community Managers Monthly Sync
 
 A recurring, peer-led space for the people doing the quiet, essential work behind every NeoNephos project — welcoming contributors, keeping communities engaged, and figuring out what actually works.
 
