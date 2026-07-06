@@ -22,4 +22,4 @@ Vasu Chandrasekhara – Advisor to the NeoNephos Foundation
 
 **Link**
 
-[Register here.](https://events.sap.com/ospo-webinar-series/en_us/home.html).
+[Register here.](https://events.sap.com/ospo-webinar-series/en_us/home.html)
