@@ -1,5 +1,5 @@
 ---
-title: "Open Source Summit Europe"
+title: "NeoNephos Webinar"
 date: "2026-07-10"
 banner: "assets/events/20260710_neonephos_webinar_banner.svg"
 bannerMobile: "assets/events/20260710_neonephos_webinar_banner_mobile.svg"
