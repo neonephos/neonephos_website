@@ -291,6 +291,9 @@
     </linearGradient>
     <linearGradient id="jl" x1="-19188.18" y1="637.29" x2="-19160.68" y2="641.01" gradientTransform="translate(-18528.0266) scale(-1 1)" xlink:href="#jk"/>
   </defs>
+  <g id="a" data-name="Layer 2">
+    <rect x="0" width="1280.06" height="675.25" fill="#f4f9ff"/>
+  </g>
   <g id="b" data-name="Layer 1">
     <g>
       <rect x="66.07" y="248.93" width="623.8" height="86.49" fill="none"/>
