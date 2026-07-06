@@ -49,7 +49,7 @@ If you care about technical community work and want to be part of this, the star
 
 **Shared notes**
 
-[hackmd.io/@NNF/PCM/edit](https://hackmd.io/@NNF/PCM) — add topics before, during, and after each session.
+[hackmd.io/@NNF/PCM](https://hackmd.io/@NNF/PCM) — add topics before, during, and after each session.
 
 
 Looking forward to building this with you.
