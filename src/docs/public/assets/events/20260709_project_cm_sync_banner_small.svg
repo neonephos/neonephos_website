@@ -684,7 +684,7 @@
     <linearGradient id="yp" x1="-15540.51" y1="545.38" x2="-15514.1" y2="548.95" gradientTransform="translate(-14987.8073) scale(-1 1)" xlink:href="#yo"/>
   </defs>
   <g id="a" data-name="Layer 2">
-    <rect x="0" width="1066.71" height="600.02" fill="#213d61"/>
+    <rect x="0" width="1066.71" height="600.02" fill="#04153b" opacity=".88"/>
   </g>
   <g id="b" data-name="Layer 1">
     <g opacity=".41">
