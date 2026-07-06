@@ -5,7 +5,7 @@ banner: "assets/events/20260710_neonephos_webinar_banner.svg"
 bannerMobile: "assets/events/20260710_neonephos_webinar_banner_mobile.svg"
 bannerSmall: "assets/events/20260710_neonephos_webinar_banner_small.svg"
 backgroundhex: "#889aa4ff"
-tags: ["neonephos", "open-source-summit"]
+tags: ["neonephos", "webinar"]
 rssPubDate: "2026-07-01"
 published: true
 ---
