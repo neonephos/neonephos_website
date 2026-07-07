@@ -58,7 +58,9 @@ members:
     - name: "Cloudogu"
       link: "https://cloudogu.com"
       imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/cloudogu_gmbh_1776943151560_0012M00002WSW6kQAH.svg"
-
+    - name: "Giant Swarm GmbH"
+      link: "https://giantswarm.io"
+      imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/giant_swarm_gmbh_1702593704307_0014100000Te1ndAAB.svg"
       
   associate:
     - name: "TNO"
