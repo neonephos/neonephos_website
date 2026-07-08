@@ -12,7 +12,7 @@ published: true
 
 # NeoNephos July Community Call
 
-On July 8th we again bring together the NeoNephos community in our Community Call! We will provide an update about what has happened since our last Community Call.
+On July 8th at 16:00 CEST we again bring together the NeoNephos community in our Community Call! We will provide an update about what has happened since our last Community Call.
 
 Additionally, Uwe Mayer will introduce you to our [Greenhouse project](https://cloudoperators.github.io/greenhouse/).
 
