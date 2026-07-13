@@ -118,6 +118,7 @@ export default defineConfig({
     },
 
     socialLinks: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/company/neonephos-foundation' },
       { icon: 'github', link: 'https://github.com/neonephos' },
       { icon: 'youtube', link: 'https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw' },
     ],
