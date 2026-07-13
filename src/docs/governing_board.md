@@ -19,7 +19,7 @@ members:
     details: "Christian Hüning is Executive Product Manager of the Open Defense Cloud at BWI, multiple-times Kubecon Speaker and one of the organizers of the Hamburg Cloud Native Meetup."
     linkedin:
   - name: "Christian Weiss"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/cweisstsi.png?v=1770140969205"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/cweisstsi.png?v=1783701860684"
     role: "T-Systems International GmbH Representative"
     details:
     linkedin:

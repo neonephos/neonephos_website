@@ -40,7 +40,7 @@ tiles:
     linkUrl: "https://github.com/neonephos/projects"
 alternates:
   - name: "Christian Weiss"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/cweisstsi.png?v=1770140969205"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/cweisstsi.png?v=1783701860684"
     role: "Alternate T-Systems International GmbH Representative"
     details:
     linkedin:
@@ -72,6 +72,11 @@ observers:
     linkedin:
   - name: "Johannes Scheerer"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/scheererj.png?v=1774619429160"
+    role: "Observer TSC Representative"
+    details:
+    linkedin:
+  - name: "Magiel Bruntink"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
     role: "Observer TSC Representative"
     details:
     linkedin:
