@@ -85,9 +85,7 @@ export default defineConfig({
         items: [
           { text: 'Events', link: '/events'},
           { text: 'Blog', link: '/blog'},
-          { text: 'Zulip', link: 'https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion/topic/channel.20events/with/558483910'},
           { text: 'Mailing Lists', link: 'https://lists.neonephos.org/g/main/subgroups' },
-          { text: 'YouTube', link: 'https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw' },
           { text: 'Artwork & Branding', link: '/branding_guidelines' },
           { text: 'Contact', link: '/contact'},
         ]
