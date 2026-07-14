@@ -12,7 +12,9 @@ published: true
 ---
 
 # The Story behind the new NeoNephos Foundation logo mark
+<small>
 *Author: Anna Helmke, Design at NeoNephos Foundation*
+</small>
 
 ***At the beginning of the year, the NeoNephos Governing Board solidified in our NNF Roadmap that 2026 will be marked with an addition to our visual identity. A few weeks ago, the Governing Board approved the new NeoNephos logo mark. Since then, we have been implementing it step by step and today, we also want to officially share it with all of you.***
 
