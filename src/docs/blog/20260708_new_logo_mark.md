@@ -16,6 +16,8 @@ published: true
 *Author: Anna Helmke, Design at NeoNephos Foundation*
 </small>
 
+<img src="/assets/blog/20260708_new_logo_mark_header.svg" alt="Logo" width="1500">
+
 ***At the beginning of the year, the NeoNephos Governing Board solidified in our NNF Roadmap that 2026 will be marked with an addition to our visual identity. A few weeks ago, the Governing Board approved the new NeoNephos logo mark. Since then, we have been implementing it step by step and today, we also want to officially share it with all of you.***
 
 ***It might seem like just a small change on first glance, but the new logo marks a significant step forward. It’s a direct reflection of our growing understanding of who we are as a foundation, who we serve, and the role we want to play in Europe’s cloud-native ecosystem.***
@@ -50,6 +52,8 @@ All this should be communicated in our visual identity, starting with the new lo
 The final form of our NeoNephos logo mark consists of two curved surfaces moving toward one another. They form a bridge, visually representing the foundation connecting the different stakeholders across the ecosystem. At the same time, the shape points decisively in one direction: Toward an independent and sovereign European cloud ecosystem. The wide base grounds and balances the shape, creating a sense of reliability, permanence, and something solid to build upon. At the same time the triangle is not closed but remains open – just as our work is never finished.
 NeoNephos is built around open-source principles; our ecosystem is constantly evolving and changing with new projects, new members, growing communities and changing technologies. The open shape suggests adaptability, collaboration, and continuous development.
 The curved inner edges soften the otherwise geometric shape to introduce a more human and approachable quality.
+
+<img src="/assets/blog/20260708_new_logo_mark_image1.svg" alt="" width="500"> <img src="/assets/blog/20260708_new_logo_mark_image2.svg" alt="" width="500"> <img src="/assets/blog/20260708_new_logo_mark_image3.svg" alt="" width="500">
 
 The logo mark is heavy enough to stand on solid ground, and at the same time light enough to move through the cloud-space. It’s stable, yet open, ready to use and still in the making.
 
