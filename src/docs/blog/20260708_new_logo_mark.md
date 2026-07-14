@@ -49,7 +49,7 @@ The final form of our NeoNephos logo mark consists of two curved surfaces moving
 NeoNephos is built around open-source principles; our ecosystem is constantly evolving and changing with new projects, new members, growing communities and changing technologies. The open shape suggests adaptability, collaboration, and continuous development.
 The curved inner edges soften the otherwise geometric shape to introduce a more human and approachable quality.
 
-The logo mark is heavy enough to stand on its ground, and at the same time light enough to move through the cloud-space. It’s stable, yet open, ready to use and still in the making.
+The logo mark is heavy enough to stand on solid ground, and at the same time light enough to move through the cloud-space. It’s stable, yet open, ready to use and still in the making.
 
 ## More Than a New Symbol
 
