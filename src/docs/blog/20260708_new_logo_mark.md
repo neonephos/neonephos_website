@@ -26,7 +26,7 @@ But, over time, we as a foundation evolved, and so did our understanding of ours
 
 ## Meaning before Shape
 
-As you might have guessed, designing a logo mark doesn’t mean simply drawing a shape. And before I, as a designer, opened a design software or started drawing drafts on paper, I had to answer the underlying question that defines everything that we do: Who are we? While that sounds like a simple question, the answer depends on two things: What do we actually do and who are we doing it for? 
+As you might have guessed, designing a logo mark doesn’t mean simply drawing a shape. And before I, as a designer, opened a design software or started drawing drafts on paper, we had to answer the underlying question that defines everything that we do: Who are we? While that sounds like a simple question, the answer depends on two things: What do we actually do and who are we doing it for? 
 
 The NeoNephos Foundation is a vendor-neutral foundation fostering a sovereign cloud-native ecosystem for Europe. We connect open-source building blocks into interoperable, modular platforms and provide references and projects to get started with the ecosystem. But we do not build the ecosystem ourselves; we enable others to build it – through coordinating, connecting, and creating neutral ground. 
 When we look at the people we are doing it for, the image of our foundation becomes more complex. 
