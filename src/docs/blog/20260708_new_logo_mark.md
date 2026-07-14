@@ -39,7 +39,7 @@ So we are the space, where those stakeholders can meet with their different expe
 
 Designing a logo mark for the inherently abstract mission of the NeoNephos Foundation wasn’t easy. 
 We are not offering a product and we also don’t operate a cloud platform. We represent various companies with their own independent goals, that come together within the NeoNephos Foundation for one communal goal. The foundation acts as a neutral communication platform for all those stakeholders, having to balance different qualities at the same time. 
-That means we must be technical without being exclusive, professional without feeling corporate and losing the human touch, approachable without loosing credibility, and stable without becoming rigid.
+That means we must be technical without being exclusive, professional without feeling corporate and losing the human touch, approachable without losing credibility, and stable without becoming rigid.
 Our role is to help others to navigate through an increasingly complex cloud-native landscape while creating a reliable framework that others can build upon. 
 All this should be communicated in our visual identity, starting with the new logo mark. 
 
