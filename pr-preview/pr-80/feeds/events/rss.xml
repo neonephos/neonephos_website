@@ -583,6 +583,29 @@ Vasu Chandrasekhara – Advisor to the NeoNephos Foundation</p>
 ]]></description>
   </item>
   <item>
+    <title><![CDATA[MCK Meeting Series]]></title>
+    <link>https://neonephos.org/events/2026_07_21_MCK_Meeting_Series</link>
+    <guid>https://neonephos.org/events/2026_07_21_MCK_Meeting_Series</guid>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20260721_mck_neonephos_series_banner.svg" alt="MCK Meeting Series banner" /></p><h1 id="neonephos-meeting-series" tabindex="-1">NeoNephos Meeting Series <a class="header-anchor" href="#neonephos-meeting-series" aria-label="Permalink to &quot;NeoNephos Meeting Series&quot;">&ZeroWidthSpace;</a></h1>
+<p>It's MCK time! The next IPCEI-CIS Workstream 2 Multi Cluster Kubernetes (MCK) meeting session will be held on the <strong>21th of July from 10:00-11:30 am CET</strong>.</p>
+<p>Agenda:</p>
+<ul>
+<li>40 min: <strong>Bring Your Own Cluster: Hosting a Sovereign Workload Anywhere in the EU</strong>: Digital sovereignty means running your workloads where you choose, under your own control, without being locked
+into a single provider. This session introduces the Apeiro Showroom, the integration environment where Apeiro
+components are brought together into one working landscape, and gives a short recap of Platform Mesh, the multi
+tenant orchestration layer that lets consumers order and consume services from different providers through one
+consistent, Kubernetes-native interface. The main part is a live demo of SimpleCluster, our Bring Your Own Cluster scenario: a Kubernetes cluster is ordered
+like any other service, whether provisioned by a European cloud provider or brought along self-hosted, and a sovereign
+LLM chat service is deployed onto it as an example workload. Cluster provider and workload are deliberately
+interchangeable; the point is the open, provider-neutral consumption path Apeiro enables: the same journey,
+wherever you host.</li>
+</ul>
+<hr>
+<p>👉 As always, join the meeting <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjgzOGUxNTItYjBjYy00NWZlLThkMjktNGZhMzM0NTg3MjZl%40thread.v2/0?context=%7b%22Tid%22%3a%2242f7676c-f455-423c-82f6-dc2d99791af7%22%2c%22Oid%22%3a%22f448159f-8442-4772-945c-ad5c1d621625%22%7d" target="_blank" rel="noreferrer">here</a>.</p>
+]]></description>
+  </item>
+  <item>
     <title><![CDATA[Open Source Summit Europe]]></title>
     <link>https://neonephos.org/events/2026_10_07_Open_Source_Summit_Europe</link>
     <guid>https://neonephos.org/events/2026_10_07_Open_Source_Summit_Europe</guid>
