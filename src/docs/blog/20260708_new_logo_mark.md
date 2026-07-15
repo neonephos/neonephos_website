@@ -63,7 +63,7 @@ The curved inner edges soften the otherwise geometric shape to introduce a more 
 
 The logomark is heavy enough to stand on solid ground, and at the same time light enough to move through the cloud-space. It’s stable, yet open, ready to use and still in the making.
 
-## More Than a New Symbol
+## More than a New Symbol
 
 Over the past months, we’ve also developed [design guidelines](https://neonephos.org/assets/downloads/nnf-brand-guidebook.pdf) that help ensure our communication remains recognizable. These guidelines will continue evolving alongside the foundation. You’ll start seeing the new logomark appear across our different communication channels. New presentation templates are already available, and updated merchandise is currently being prepared.
 
