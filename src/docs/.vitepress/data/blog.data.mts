@@ -21,6 +21,7 @@ export default createContentLoader('blog/*.md', {
           .replace(/^---[\s\S]*?---/, '')
           .replace(/^#.*$\n?/gm, '')
           .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+          .replace(/\*{3}([\s\S]*?)\*{3}/g, '$1')
           .replace(/<\/?(small|i)\b[^>]*>/gi, '')
           .replace(/<img\b[^>]*\/?>/gi, '')
           .trim()
