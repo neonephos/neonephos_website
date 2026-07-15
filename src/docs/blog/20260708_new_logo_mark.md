@@ -3,7 +3,7 @@ title: "Introducing Our New Logomark"
 date: "2026-07-09"
 banner: "assets/blog/20260708_new_logo_mark_banner.svg"
 authors:
-    - "neonephos-team"
+    - "anna-helmke"
 tags:
     - "2026"
     - "news"
