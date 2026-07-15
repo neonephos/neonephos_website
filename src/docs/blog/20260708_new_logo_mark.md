@@ -1,6 +1,6 @@
 ---
 title: "Introducing Our New Logomark"
-date: "2026-07-08"
+date: "2026-07-09"
 banner: "assets/blog/20260708_new_logo_mark_banner.svg"
 authors:
     - "neonephos-team"
@@ -53,7 +53,7 @@ The final form of our NeoNephos logomark consists of two curved surfaces moving 
 NeoNephos is built around open-source principles; our ecosystem is constantly evolving and changing with new projects, new members, growing communities and changing technologies. The open shape suggests adaptability, collaboration, and continuous development.
 The curved inner edges soften the otherwise geometric shape to introduce a more human and approachable quality.
 
-<img src="/assets/blog/20260708_new_logo_mark_image1.svg" alt="" width="500"> <img src="/assets/blog/20260708_new_logo_mark_image2.svg" alt="" width="500"> <img src="/assets/blog/20260708_new_logo_mark_image3.svg" alt="" width="500">
+<img src="/assets/blog/20260708_new_logo_mark_image1.svg" alt="" width="200"> <img src="/assets/blog/20260708_new_logo_mark_image2.svg" alt="" width="200"> <img src="/assets/blog/20260708_new_logo_mark_image3.svg" alt="" width="200">
 
 The logomark is heavy enough to stand on solid ground, and at the same time light enough to move through the cloud-space. It’s stable, yet open, ready to use and still in the making.
 
