@@ -13,7 +13,7 @@ published: true
 
 # The Story behind the new NeoNephos Foundation Logomark
 <small>
-_Author: Anna Helmke, Design at NeoNephos Foundation_
+*Author: Anna Helmke, Design at NeoNephos Foundation*
 </small>
 
 
