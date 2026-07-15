@@ -12,9 +12,6 @@ published: true
 ---
 
 # The Story behind the new NeoNephos Foundation Logomark
-<small>
-<i> Author: Anna Helmke, Design at NeoNephos Foundation </i>
-</small>
 
 
 <img src="/assets/blog/20260708_new_logo_mark_header.svg" alt="Logo" width="1500">
