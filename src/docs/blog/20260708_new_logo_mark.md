@@ -13,7 +13,7 @@ published: true
 
 # The Story behind the new NeoNephos Foundation Logomark
 <small>
-<Author: Anna Helmke, Design at NeoNephos Foundation>
+<i><Author: Anna Helmke, Design at NeoNephos Foundation></i>
 </small>
 
 
@@ -54,7 +54,7 @@ The final form of our NeoNephos logomark consists of two curved surfaces moving 
 NeoNephos is built around open-source principles; our ecosystem is constantly evolving and changing with new projects, new members, growing communities and changing technologies. The open shape suggests adaptability, collaboration, and continuous development.
 The curved inner edges soften the otherwise geometric shape to introduce a more human and approachable quality.
 
-<img src="/assets/blog/20260708_new_logo_mark_image1.svg" alt="" width="200"> <img src="/assets/blog/20260708_new_logo_mark_image2.svg" alt="" width="200"> <img src="/assets/blog/20260708_new_logo_mark_image3.svg" alt="" width="200">
+<img src="/assets/blog/20260708_new_logo_mark_image1.svg" alt="" width="30%"> <img src="/assets/blog/20260708_new_logo_mark_image2.svg" alt="" width="30%"> <img src="/assets/blog/20260708_new_logo_mark_image3.svg" alt="" width="30%">
 
 The logomark is heavy enough to stand on solid ground, and at the same time light enough to move through the cloud-space. It’s stable, yet open, ready to use and still in the making.
 
