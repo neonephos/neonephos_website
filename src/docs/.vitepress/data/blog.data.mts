@@ -22,6 +22,7 @@ export default createContentLoader('blog/*.md', {
           .replace(/^#.*$\n?/gm, '')
           .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
           .replace(/<\/?(small|i)\b[^>]*>/gi, '')
+          .replace(/<img\b[^>]*\/?>/gi, '')
           .trim()
 
         const short = content.length > 120 ? content.slice(0, 120) + '...' : content
