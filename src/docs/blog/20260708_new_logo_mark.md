@@ -16,6 +16,7 @@ published: true
 *Author: Anna Helmke, Design at NeoNephos Foundation*
 </small>
 
+
 <img src="/assets/blog/20260708_new_logo_mark_header.svg" alt="Logo" width="1500">
 
 ***At the beginning of the year, the NeoNephos Governing Board solidified in our NNF Roadmap that 2026 will be marked with an addition to our visual identity. A few weeks ago, the Governing Board approved the new NeoNephos logomark. Since then, we have been implementing it step by step and today, we also want to officially share it with all of you.***
