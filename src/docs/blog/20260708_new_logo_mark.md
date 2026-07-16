@@ -68,10 +68,6 @@ Over the past months, we’ve also developed [design guidelines](https://neoneph
 
 ### We’d Love Your Feedback!
 
-Does the new logomark represent NeoNephos as you see it?
-Does it communicate the role we play within the ecosystem?
-Is there something you feel is still missing from the way we present ourselves?
-
 We’re actively working on making our vision, our mission, and our role as a foundation clearer and more accessible. It’s an ongoing evolvement and, like everything else in the NeoNephos Foundation, it’s a communal European effort.
 
-If you’d like to help shape how the foundation communicates and evolves, we’d love to have you involved. Join the conversation on [Zulip](https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion/topic/.E2.9C.94.20Collaboration.20with.20CNCF.20Public.20Sector.20UG/with/610891542), share your thoughts with us via [support@neonephos.org](mailto:myname@example.com), and help us continue building the NeoNephos Foundation.
+If you’d like to help shape how the foundation communicates and evolves, we’d love to have you involved. Join the conversation or share your feedback with us on [Zulip](https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion/topic/.E2.9C.94.20Collaboration.20with.20CNCF.20Public.20Sector.20UG/with/610891542), and via [support@neonephos.org](mailto:myname@example.com), and help us continue building the NeoNephos Foundation.
