@@ -89,6 +89,7 @@ export default defineConfig({
           { text: 'Mailing Lists', link: 'https://lists.neonephos.org/g/main/subgroups' },
           { text: 'YouTube', link: 'https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw' },
           { text: 'Artwork & Branding', link: '/branding_guidelines' },
+          { text: 'Calendar', link: 'https://zoom-lfx.platform.linuxfoundation.org/meetings/neonephos-foundation?view=month' },
           { text: 'Contact', link: '/contact'},
         ]
       }
