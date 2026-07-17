@@ -1,6 +1,6 @@
 ---
 title: "Security Native Europe"
-date: "2026-11-05"
+date: "2026-05-11"
 banner: "assets/events/20260511_security_native_banner.svg"
 bannerMobile: "assets/events/20260511_security_native_banner_mobile.svg"
 bannerSmall: "assets/events/20260511_security_native_banner_small.svg"
