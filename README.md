@@ -1,22 +1,49 @@
-# Welcome to the LF NeoNephos Website Repository 
+```mermaid
+gantt
+    title NeoNephos Social Media Work Package Roadmap (Q3 2026 - Q1 2027)
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
 
-:wave: Welcome to the GitHub presence of the [NeoNephos Foundation's website](https://neonephos.org).
+    section Explain NeoNephos (P8)
+    Video Series :crit, 2026-07-01, 273d
+    Website Updates :crit, 2026-07-01, 273d
+    Blog Campaign :crit, 2026-07-01, 273d
 
-## What is the purpose of this repository?
+    section Additional Non-SAP Contributors (P8)
+    Blog Campaign :crit, 2026-07-01, 273d
+    LinkedIn Campaign :crit, 2026-07-01, 273d
+    Website Updates :crit, 2026-10-01, 182d
 
-To collaborate on news articles, blog entries and other website content here.
+    section KubeCon + CloudNativeCon EU '27 (P7)
+    Blog Campaign :crit, 2026-10-01, 182d
+    LinkedIn Campaign :crit, 2026-10-01, 182d
+    Newsletter Campaign :crit, 2026-10-01, 182d
+    Press Release :crit, 2027-01-01, 90d
 
-## :globe_with_meridians: How to add content
+    section Ambassador Program (P6)
+    LinkedIn Campaign :2026-07-01, 273d
 
-If you are a TSC member, the following repositories are most relevant if you want to add content or change descriptions of the website.
+    section NNF Hackathon (P6)
+    LinkedIn Campaign :2026-07-01, 273d
+    Newsletter Campaign :2026-07-01, 273d
 
-- **[Events](src/docs/events)**: Add events (community calls, conventions etc.) here
-- **[Projects](src/docs/projects.md)**: Change project descriptions here (you must *edit* this file in order to see the full content).
-- **[Blog](src/docs/blog)**: Add blog/news entries here.
+    section Physical Testlab (P6)
+    Newsletter Campaign :2026-07-01, 273d
 
-Pull Requests are always welcome!
-Check the issues page for outstanding issues.
+    section Additional Members (P6)
+    Website Updates :2026-07-01, 273d
+    Blog Campaign :2026-07-01, 273d
 
-## :blue_heart: Code of Conduct
+    section Open Source Summit EU '27 (P6)
+    Blog Campaign :2027-01-01, 90d
+    LinkedIn Campaign :2027-01-01, 90d
+    Newsletter Campaign :2027-01-01, 90d
+    Press Release :2027-01-01, 90d
 
-To facilitate an open and welcome environment for all, review the [Linux Foundation Europe Code of Conduct](https://linuxfoundation.eu/en/policies?__hstc=81619592.11739e1f4ca03192f4e918409f725053.1748961872693.1753777412155.1753863796744.19&__hssc=81619592.3.1753863796744&__hsfp=2164450451).
+    section Additional Non-SAP Projects (P5)
+    Website Updates :2026-07-01, 273d
+    Blog Campaign :2026-07-01, 273d
+    LinkedIn Campaign :2026-07-01, 273d
+    Newsletter Campaign :2026-10-01, 182d
+
+    section Track Additional Data (P3)
