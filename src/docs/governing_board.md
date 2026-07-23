@@ -13,7 +13,7 @@ members:
     role: "General Member Representative"
     details:
     linkedin:
-  - name: "Christian H�Ning"
+  - name: "Christian Hüning"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/christianhueningbwi.png?v=1770140209070"
     role: "BWI GmbH Representative"
     details: "Christian Hüning is Executive Product Manager of the Open Defense Cloud at BWI, multiple-times Kubecon Speaker and one of the organizers of the Hamburg Cloud Native Meetup."
