@@ -4,7 +4,7 @@
 
 ## What is the purpose of this repository?
 
-To collaborate on news articles, blog entries and other website content here.
+To collaborate on news articles, blog entries and other website content.
 
 ## :globe_with_meridians: How to add content
 
