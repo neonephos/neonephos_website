@@ -28,6 +28,9 @@ jobs:
           python .github/workflows/update-committees.py \
             -f src/docs/technical_advisory_council.md \
             -c "https://projectadmin.lfx.linuxfoundation.org/project/lfGnr1MCq2lbKUf6f7/collaboration/committees/2269487a-9357-4906-8bd1-39dda01f56c4"
+          python .github/workflows/update-committees.py \
+            -f src/docs/outreach_committee.md \
+            -c "https://projectadmin.lfx.linuxfoundation.org/project/lfGnr1MCq2lbKUf6f7/collaboration/committees/457217c1-2421-4685-958d-a1ca8cbe691e"
       - name: Create Pull Request
         id: create_pr
         uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
