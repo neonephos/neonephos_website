@@ -67,27 +67,22 @@ observers:
     linkedin:
   - name: "Christian Neu"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/christianneu.png?v=1753082958532"
-    role: "Observer Generic Observer"
+    role: "Generic Observer"
     details:
     linkedin:
   - name: "Christian Voecks"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/c.png"
-    role: "Observer Generic Observer"
+    role: "Generic Observer"
     details:
     linkedin:
   - name: "Dr Constanze Roedig"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/constanzeroedig.png?v=1777999638784"
-    role: "Observer Generic Observer"
+    role: "Generic Observer"
     details: "Founder of fusioncore.ai : provides algorithms and architectures for sovereign runtime security and detection/response on kubernetes. \nSBA Research gGmbH: Key Researcher\nLecturer \n\n\nPreviously:\nHead of the Austrian Open Cloud Community - Staff Engineer at the High Performance Compute Center (VSC)\nLecturer at Technische Universitat Wien : Hands-On Cloud Native\nLead Architect Finance/Accounting at globally operating financial corporation\nManager at Deloitte\nSenior Consultant at ifb-Americas\nPost-Doc at Johns Hopkins University\nPhD-Student at Max-Planck for Gravitational Physics (Albert Einstein Institute)"
     linkedin: "https://linkedin.com/in/croedig"
-  - name: "Esther Garcia"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/estherrgarcia.png?v=1709289542776"
-    role: "Observer Generic Observer"
-    details:
-    linkedin: "https://linkedin.com/in/estherrgarcia"
   - name: "Geghard Bedrosian"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/g.png"
-    role: "Observer Generic Observer"
+    role: "Generic Observer"
     details:
     linkedin:
   - name: "Jakob Möller"
@@ -100,11 +95,6 @@ observers:
     role: "Observer TSC Representative"
     details:
     linkedin:
-  - name: "John Mertic"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jmertic.png?v=1709042439248"
-    role: "Observer Generic Observer"
-    details: "John Mertic is a Program Director at the Linux Foundation. Under his leadership, he has helped ASWF, LF AI & Data, LF Energy, ODPi, Open Mainframe Project, and R Consortium accelerate open source innovation and transform industries. John has an open source career spanning two decades, both as a contributor to projects such as SugarCRM and PHP, and in open source leadership roles at SugarCRM, OW2, and OpenSocial. With an extensive open source background, he is a regular speaker at various Linux Foundation and other industry trade shows each year. John is also an avid writer and has authored several books, most recently \"Open Source Projects - Beyond Code: A blueprint for scalable and sustainable open source projects\", as well as published articles on IBM Developerworks, Apple Developer Connection, and PHP Architect. "
-    linkedin: "https://linkedin.com/in/jmertic"
   - name: "Magiel Bruntink"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
     role: "Observer TSC Representative"
@@ -112,7 +102,7 @@ observers:
     linkedin:
   - name: "Marion Demand"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
-    role: "Observer Generic Observer"
+    role: "Generic Observer"
     details:
     linkedin:
   - name: "Maximilian Braun"
@@ -137,22 +127,17 @@ observers:
     linkedin:
   - name: "Oliver Thylmann"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/othylmann.png?v=1781344198031"
-    role: "Observer Generic Observer"
+    role: "Generic Observer"
     details:
     linkedin:
   - name: "Orlin Vasilev"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/orlinvasilev.png?v=1779180224165"
-    role: "Observer Generic Observer"
+    role: "Generic Observer"
     details: "Orlin Vasilev is Open Source and Cloud Native Technology Advocate at SAP. Community Manager for Project Harbor and Project K3s as part of the Cloud Native team. ex-SUSE ex-VMware. \n\nSecond term CNCF Ambassador and driving the biggest Meetup Group in Bulgaria and Kubernetes Community Days Sofia organizer.. KubeCon CfP review board member and co-chair for Track 101 and Community. Previously SysAdmin/Dev/SRE/System engineering roles for over 15 years! Located in Bulgaria, Europe! Father of two - a girl and a boy! Passionate snowboarder, DIY and semi-professional BBQ Pitmaster and baker."
     linkedin: "https://linkedin.com/in/orlinvasilev"
   - name: "Philipp Pracht"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/philipp.pracht.png?v=1767800725397"
     role: "Observer TSC Representative"
-    details:
-    linkedin:
-  - name: "Priyanka Sakundarwar"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/p.png"
-    role: "Observer Generic Observer"
     details:
     linkedin:
   - name: "Roberto Querio"
@@ -164,11 +149,6 @@ observers:
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/simon.heimler.png?v=1766150999407"
     role: "Observer TSC Representative"
     details: "Software Architect working at SAP SE on Metadata Strategy, APIs and Events and integration topics.\nTSC Chair for the [Open Resource Discovery](https://open-resource-discovery.github.io/specification/) spec (Linux Foundation)."
-    linkedin:
-  - name: "Tristan Scheidemann"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/t.png"
-    role: "Observer Generic Observer"
-    details:
     linkedin:
   - name: "Uwe Mayer"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/u.png"
