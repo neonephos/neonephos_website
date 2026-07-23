@@ -80,6 +80,11 @@ observers:
     role: "Generic Observer"
     details: "Founder of fusioncore.ai : provides algorithms and architectures for sovereign runtime security and detection/response on kubernetes. \nSBA Research gGmbH: Key Researcher\nLecturer \n\n\nPreviously:\nHead of the Austrian Open Cloud Community - Staff Engineer at the High Performance Compute Center (VSC)\nLecturer at Technische Universitat Wien : Hands-On Cloud Native\nLead Architect Finance/Accounting at globally operating financial corporation\nManager at Deloitte\nSenior Consultant at ifb-Americas\nPost-Doc at Johns Hopkins University\nPhD-Student at Max-Planck for Gravitational Physics (Albert Einstein Institute)"
     linkedin: "https://linkedin.com/in/croedig"
+  - name: "Esther Garcia"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/estherrgarcia.png?v=1709289542776"
+    role: "Generic Observer"
+    details:
+    linkedin: "https://linkedin.com/in/estherrgarcia"
   - name: "Geghard Bedrosian"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/g.png"
     role: "Generic Observer"
@@ -95,6 +100,11 @@ observers:
     role: "Observer TSC Representative"
     details:
     linkedin:
+  - name: "John Mertic"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jmertic.png?v=1709042439248"
+    role: "Generic Observer"
+    details: "John Mertic is a Program Director at the Linux Foundation. Under his leadership, he has helped ASWF, LF AI & Data, LF Energy, ODPi, Open Mainframe Project, and R Consortium accelerate open source innovation and transform industries. John has an open source career spanning two decades, both as a contributor to projects such as SugarCRM and PHP, and in open source leadership roles at SugarCRM, OW2, and OpenSocial. With an extensive open source background, he is a regular speaker at various Linux Foundation and other industry trade shows each year. John is also an avid writer and has authored several books, most recently \"Open Source Projects - Beyond Code: A blueprint for scalable and sustainable open source projects\", as well as published articles on IBM Developerworks, Apple Developer Connection, and PHP Architect. "
+    linkedin: "https://linkedin.com/in/jmertic"
   - name: "Magiel Bruntink"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
     role: "Observer TSC Representative"
@@ -140,6 +150,11 @@ observers:
     role: "Observer TSC Representative"
     details:
     linkedin:
+  - name: "Priyanka Sakundarwar"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/p.png"
+    role: "Generic Observer"
+    details:
+    linkedin:
   - name: "Roberto Querio"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/r.png"
     role: "Observer TSC Representative"
@@ -149,6 +164,11 @@ observers:
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/simon.heimler.png?v=1766150999407"
     role: "Observer TSC Representative"
     details: "Software Architect working at SAP SE on Metadata Strategy, APIs and Events and integration topics.\nTSC Chair for the [Open Resource Discovery](https://open-resource-discovery.github.io/specification/) spec (Linux Foundation)."
+    linkedin:
+  - name: "Tristan Scheidemann"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/t.png"
+    role: "Generic Observer"
+    details:
     linkedin:
   - name: "Uwe Mayer"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/u.png"
