@@ -149,7 +149,7 @@ def main():
             if appointed == "Vote of TSC Committee":
                 role += f"TSC Representative"
             else:
-                continue
+                role += "Generic Observer"
 
             tsc_observers.append({
                 "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
