@@ -14,7 +14,7 @@ published: true
 
 # BWI GmbH joins NeoNephos
 
-The NeoNephos Foundation is proud to welcome BWI GmbH as a Premium Member! The membership of BWI GmbH, being a IT service provider for the German Armed Forces, is a strong signal that our projects do not only have enterprise readiness in mind, but contribute to a sovereign digital strategy suitable for states.
+The NeoNephos Foundation is proud to welcome BWI GmbH as a Premier Member! The membership of BWI GmbH, being a IT service provider for the German Armed Forces, is a strong signal that our projects do not only have enterprise readiness in mind, but contribute to a sovereign digital strategy suitable for states.
 
 We encourage you to read our full press release, published by the Linux Foundation itself, [here](https://www.linuxfoundation.org/press/neonephos-foundation-welcomes-bwi-gmbh-suse-llc-and-fraunhofer-isst-as-members).
 
