@@ -88,32 +88,33 @@ def main():
         alternates_response = requests.get(alternates_url).json()
         tsc_observers_response = requests.get(tsc_observers_url).json()
 
-        for m in response.get("Data", []):
-            print(f"Processing {m.get('FirstName').title()} {m.get('LastName').title()}...")
-            role = ""
-
-            if m.get("Role") == "Chair":
-                role += "Chairperson and "
-
-            appointed = m.get("AppointedBy")
-            org = m.get("Organization", {}).get("Name")
-
-            if appointed == "Membership Entitlement":
-                role += f"{org} Representative"
-            elif appointed == "Vote of General Member Class":
-                role += "General Member Representative"
-            elif appointed == "Vote of TSC Committee":
-                role += "Project Representative"
-            elif appointed == "Vote of TAC Committee":
-                role += "TAC Representative"
-
-            members.append({
-                "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
-                "imgsrc": m.get("LogoURL"),
-                "role": role,
-                "details": m.get("AboutMe", {}).get("Description"),
-                "linkedin": m.get("AboutMe", {}).get("LinkedIn")
-            })
+        if response.get("Data", []) is not None:
+            for m in response.get("Data", []):
+                print(f"Processing {m.get('FirstName').title()} {m.get('LastName').title()}...")
+                role = ""
+    
+                if m.get("Role") == "Chair":
+                    role += "Chairperson and "
+    
+                appointed = m.get("AppointedBy")
+                org = m.get("Organization", {}).get("Name")
+    
+                if appointed == "Membership Entitlement":
+                    role += f"{org} Representative"
+                elif appointed == "Vote of General Member Class":
+                    role += "General Member Representative"
+                elif appointed == "Vote of TSC Committee":
+                    role += "Project Representative"
+                elif appointed == "Vote of TAC Committee":
+                    role += "TAC Representative"
+    
+                members.append({
+                    "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
+                    "imgsrc": m.get("LogoURL"),
+                    "role": role,
+                    "details": m.get("AboutMe", {}).get("Description"),
+                    "linkedin": m.get("AboutMe", {}).get("LinkedIn")
+                })
         
         for m in alternates_response.get("Data", []):
             print(f"Processing alternate {m.get('FirstName').title()} {m.get('LastName').title()}...")
