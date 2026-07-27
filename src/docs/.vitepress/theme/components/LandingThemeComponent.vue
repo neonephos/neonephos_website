@@ -30,6 +30,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
       </div>
     </section>
   </div>
+ <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/") class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/kubecon_japan_banner_website.svg')" alt="KubeCon Japan Banner" /> </a>
  <a href="https://www.research.net/r/ZGV3ZMC") class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/world_of_os_2026_survey_banner.png')" alt="Open Source Survey" /> </a>
   
   <section class="home-tiles__section">
