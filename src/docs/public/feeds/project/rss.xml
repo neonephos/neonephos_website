@@ -4,16 +4,81 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sun, 26 Jul 2026 12:21:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 13:02:08 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/portal - v0.24.104</title>
+            <title>open-component-model/odg-core - 0.1357.0</title>
+            <link>https://github.com/open-component-model/odg-core</link>
+            <guid>https://github.com/open-component-model/odg-core/releases/tag/0.1357.0</guid>
+            <pubDate>Mon, 27 Jul 2026 12:46:13 +0000</pubDate>
+            <description><![CDATA[<h1>[ocm.software/open-delivery-gear/core:0.1357.0]</h1>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[DEVELOPER]</code> The auth request parameters are not logged anymore by the ODG client upon connection failures by @8R0WNI3 <a href="https://github.com/open-component-model/odg-core/pull/897">[#897</a>]</li></ul>
+<h2>application/spdx+json</h2>
+<ul><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:3b181e9cc7cdde45605e8f9a24564ebcd8287585e5e8fc5f87d95aa5acaeef28</code></li><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:f6f465cf06ba79b6ce5ae10e8736b8d08956dca754d0861fe3dd01dfa3593c64</code></li></ul><h2>application/vnd.cyclonedx+json</h2>
+<ul><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:1580fac5e57865d8f9511631fcf565edc649a29df071aee34a1a4fde32d129e6</code></li><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:c0b6873559cc7913628c7dcce42b1147f6459cb4b13a85612f76f8ff1b06e0f7</code></li></ul><h2>Helm Charts</h2>
+<ul><li>bootstrapping: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/bootstrapping:0.1357.0</code></li><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-service:0.1357.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/extensions:0.1357.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>core: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core:0.1357.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-linux - linux_6.18.40-1gl0</title>
+            <link>https://github.com/gardenlinux/package-linux</link>
+            <guid>https://github.com/gardenlinux/package-linux/releases/tag/linux_6.18.40-1gl0</guid>
+            <pubDate>Mon, 27 Jul 2026 11:01:00 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-linux/actions/runs/30260256757">30260256757</a></p>
+<p>Files in this release:<br>``<code><br>68658e7cbb71e31239add9196e65b3f3844854c29089b4dc28eff68e4c236631  ./linux-headers-6.18.40-cloud-amd64_6.18.40-1gl0_amd64.deb<br>d6d4f198edaa7d528a41b31f7c7f1e350aef5bc106bc9781d4f45580a1c65110  ./usbip-dbgsym_2.0+6.18.40-1gl0_amd64.deb<br>3208fdb7d6fbd774abb5e1a7d825b4f0ca06444f7a5be74f3c3f8859cc7559a1  ./linux-libc-dev_6.18.40-1gl0_all.deb<br>3e10473913f850ceb9d51037f57b9c8b21362fa0d6688493293ac1c5b35d4f0d  ./hyperv-daemons_6.18.40-1gl0_arm64.deb<br>fd5468c9481df78b811cb85bff8cf92cddb28e03a6d1e4685e4de6ca054885f3  ./linux-headers-arm64_6.18.40-1gl0_arm64.deb<br>4e76fdb51ea0ce486512168ed0573c882b2b50c0e632899d910875e06acc8001  ./linux-base-cloud-amd64_6.18.40-1gl0_amd64.deb<br>d3d7b843b65865f46ac55cb31edc3fd1cb5652d930b1f44e86dd31a273ede457  ./linux_6.18.40-1gl0_arm64.buildinfo<br>3ff9a3493a33cfd51d44f74e69188235b5bb4015e88b9b8f328ce1b51046ca6e  ./linux_6.18.40-1gl0_arm64.changes<br>bc285e818acaf3421d4ddfcd3ffbcae7e0f4c972673c15396aa40a4cd6f40ac8  ./linux-kbuild-6.18.40_6.18.40-1gl0_amd64.deb<br>ff8bd9bd075376d02b493df60759c82e7c6acd8cc47dfc1b1dbd7721a3b111de  ./linux-image-amd64-dbg_6.18.40-1gl0_amd64.deb<br>def1ef53cbea8b4cec0a31f613b917f3a42977eb723f9d02ade07275a6a2c595  ./linux-image-cloud-amd64-dbg_6.18.40-1gl0_amd64.deb<br>2a5f885a6fd157d5ed8575431fb3d9430c2deeaac4da3e341d31f06d6e757f48  ./linux-base-amd64_6.18.40-1gl0_amd64.deb<br>e441bfb91c07391fc3a88dea4fcd11a55fae992d92e04ba6f9ec83315d14e844  ./linux-libc-dev-arm64-cross_6.18.40-1gl0_all.deb<br>c9651f7e842d7a951c27205b3afa40c1ad2ba0f52c1df3ca9373be0a97363756  ./rtla-dbgsym_6.18.40-1gl0_arm64.deb<br>5e3bb2679a3b0cd28d5f02a2da77e0ecff41a421e6a579e1c74a47730c2b1508  ./linux_6.18.40-1gl0.debian.tar.xz<br>e248ab058efeed1104743c694e32ec7608c38e202df4df221fca0c5a1b6b7d8d  ./usbip_2.0+6.18.40-1gl0_arm64.deb<br>8b77798002d13f81500111c024e0147a6538157f22b2b0c90d5afd43a48bd0e9  ./linux-headers-6.18.40-common_6.18.40-1gl0_all.deb<br>2b04b737e36928f6671e62ec012cf884549bcb5b193a4020ed9d377172f40877  ./linux-image-6.18.40-cloud-arm64-dbg_6.18.40-1gl0_arm64.deb<br>37db28ab3aa414a274cb675fc8f120911ecc7c61b173b5f65a23a9f2d6875f88  ./linux-cpupower_6.18.40-1gl0_arm64.deb<br>f69bbf288a6560538a521966e4f64eebb43346d623141ef597ef6688587a8103  ./libcpupower1_6.18.40-1gl0_arm64.deb<br>4d850eb924bca7bb3b624b3bb038d9857108e0c6b42a97b467f1f704d1657e3c  ./linux-cpupower-dbgsym_6.18.40-1gl0_arm64.deb<br>cecfcc6cd6a9a389cf5e4f72fb83a8e50efc9e289bda71d6ef4bf4f85efa1db2  ./intel-sdsi_6.18.40-1gl0_amd64.deb<br>b8168616a585e2bf72d3f540503e839d2490de3ea85fb58f7b46fd2db2c719d9  ./hyperv-daemons_6.18.40-1gl0_amd64.deb<br>7249a62b75711f11c04b06b27584116cb5b53651be47c0bbbb28210d54958fa6  ./linux-image-arm64_6.18.40-1gl0_arm64.deb<br>e8fd70c812f264c595568933cf06d7015589b7df9207bb07f8f9c5d275160836  ./linux-headers-cloud-amd64_6.18.40-1gl0_amd64.deb<br>1b27fc406ef969fb96a2af239ae7f85d2e44edf311d51b3d5376212be1692d83  ./intel-sdsi-dbgsym_6.18.40-1gl0_amd64.deb<br>f8a1c2638a774cf66876901922588ad6ec69d440f27acabe4ace89e597189b0c  ./linux-config-6.18_6.18.40-1gl0_arm64.deb<br>b2dc9f8ae8d988d103a938409b4f73abe1bb53160b483e064b6586baf546712c  ./linux-config-6.18_6.18.40-1gl0_amd64.deb<br>1495ed6979d944409e7c167b46daf3a59111ad8b3c3d07dd18d01146ccc3d293  ./linux-kbuild-6.18.40_6.18.40-1gl0_arm64.deb<br>767507491ab2c035cfd111ab5d521b89b462060532012faa301554ba18adc73e  ./linux-headers-6.18.40-arm64_6.18.40-1gl0_arm64.deb<br>8944e71e39aba5ac2a67161c429006dee3e686a198186d1949f04269d40366b9  ./rtla_6.18.40-1gl0_arm64.deb<br>b06cee1eff96b605bad04b3dd0109c700e88c148d20651b70013b479d62be744  ./libcpupower1-dbgsym_6.18.40-1gl0_amd64.deb<br>d97241ae745c4f27e4822c696dfc3275d2babb28331cb2828467521765b18ce2  ./linux-bpf-dev_6.18.40-1gl0_amd64.deb<br>538acca452683cce37fb80d734166c85f0dca10cd02642aaad85a583db25d467  ./hyperv-daemons-dbgsym_6.18.40-1gl0_arm64.deb<br>16b77c048c8c822188aa203a6efe530e4091f302f4bbecce8b134184098c8496  ./linux-image-6.18.40-arm64-dbg_6.18.40-1gl0_arm64.deb<br>80adf238c5da764e70affb2d662bf8f310e3ef64341e695550dedebfeb1efe69  ./linux-image-6.18.40-cloud-amd64_6.18.40-1gl0_amd64.deb<br>5c9c8c683f406f2ca3f84853086b707558240b628e192a1be58f06398a3dece3  ./usbip-dbgsym_2.0+6.18.40-1gl0_arm64.deb<br>4c9ab8f4a2a0d5f78e7b56b4bcb673ba3cc460b0559c9039f4e4f4a6d9d75536  ./linux-libc-dev-amd64-cross_6.18.40-1gl0_all.deb<br>74ac9317843ea0133a11f3179582b6a3302a480d719f69d0b8eeb7931b134202  ./linux-image-cloud-arm64-dbg_6.18.40-1gl0_arm64.deb<br>cf73d992cf2c9dfb045dd6f5e0c5018353efd7ccd0e569afe8697f0739691a37  ./libcpupower1_6.18.40-1gl0_amd64.deb<br>c223992f5d0d53e7e935034525b901a8e8f5ac9d4ba3a4a9b19adbe87bea48ec  ./linux-headers-amd64_6.18.40-1gl0_amd64.deb<br>d43df6859975237832e08424cd368264ef46df66f454057e64e4d54a8e3e59a2  ./libcpupower-dev_6.18.40-1gl0_arm64.deb<br>65397e63dd366ba645ca48f2d06cc833fcfdbd2e3485b319d5067c97a25dedc7  ./linux-kbuild-6.18.40-dbgsym_6.18.40-1gl0_arm64.deb<br>aff3d68cf0a2733290c142f377f6b4fb69db9cbc6daa6f77bdfe055e0a51c626  ./linux-image-6.18.40-cloud-amd64-dbg_6.18.40-1gl0_amd64.deb<br>9a8ea0b0ad8d887325f2ef3b4f04b3deeb9cd927c812f2b51cff54c98e3e33bf  ./linux-image-arm64-dbg_6.18.40-1gl0_arm64.deb<br>33a6302d2808f07f0c723dd1f73c59d77c686f2c0e02eca3b96850152eea026d  ./linux_6.18.40-1gl0.dsc<br>5f73983e27a0513ea537342c4c71db9c65118883307af2b90e8c582ec95d27e1  ./hyperv-daemons-dbgsym_6.18.40-1gl0_amd64.deb<br>1275e8d02195194b564f338762510e72f868a756708c367a116932c21ac6ba44  ./linux-base-6.18.40-cloud-arm64_6.18.40-1gl0_arm64.deb<br>e69a1c2e2167a2a8b1de471b2993e3ba7423f183082cff19f576a2c2a37b682e  ./linux_6.18.40-1gl0_amd64.buildinfo<br>2291fea66df23c4802fddd3a48c768ac4a5d53c3ff073def737c570af0e65494  ./linux-headers-cloud-arm64_6.18.40-1gl0_arm64.deb<br>0336ea90903a1855d0c095009cf4442d735d9b838cf41efd4711d1b2968293f5  ./linux-image-6.18.40-amd64_6.18.40-1gl0_amd64.deb<br>845abdb27934031c48b9238debb0485bd9ae74b9273b36e2442335a19b4c3854  ./linux-misc-tools-dbgsym_6.18.40-1gl0_amd64.deb<br>295fd848b52a9826fae3eb70b7cad99eb031f0f6d5068492bacaf7a38f482efc  ./linux-image-cloud-arm64_6.18.40-1gl0_arm64.deb<br>4eaf53542ba4325c6f4c00fd5c5e17508447f1a702a9753850e33cc464aa8a37  ./linux-base-arm64_6.18.40-1gl0_arm64.deb<br>fb32de48b9516c6ad8275d1b0c2b1d2ec9a1a1644e4159485a9f884f9aca7947  ./libcpupower1-dbgsym_6.18.40-1gl0_arm64.deb<br>50e023be40ee74e9ae11c15789904f39848e469d74f0e01892741573b7c5fb0f  ./linux-image-amd64_6.18.40-1gl0_amd64.deb<br>d1be150e07080e80578c3c2c737a3d276dbe199d138fa5f651e68f1046231fe6  ./bpftool_7.7.0+6.18.40-1gl0_arm64.deb<br>f746bfc7b5dc5d084bf8fba2e769d061f71f8657884f1aef82dc53b61d29db23  ./rtla-dbgsym_6.18.40-1gl0_amd64.deb<br>10dcb5155256cf4274e95065289ee92fe9eb613d447f505899d73952126354e5  ./linux-image-cloud-amd64_6.18.40-1gl0_amd64.deb<br>c3ae3bf504009ce639910814fe86f56cc699f13679fe5af684f530e78d24944e  ./linux-misc-tools-dbgsym_6.18.40-1gl0_arm64.deb<br>2b79ff418eecf0081bcb044e56f034585a21d6af8b87e6a8328d538f60016b9d  ./bpftool-dbgsym_7.7.0+6.18.40-1gl0_amd64.deb<br>dfd43b4920e91de03782aa16638562cc27b1d8d4fc0e9f7aef4b595f59765b21  ./linux-source-6.18_6.18.40-1gl0_all.deb<br>65555b8f38b3d663cfb1a4ab2b3bd3e6f772e4982e6a0442235e708270b6fa67  ./linux-base-6.18.40-amd64_6.18.40-1gl0_amd64.deb<br>5434d98cdb29a49f1d094ebf1df5d6cd7b5af16951a811b1a9fdb1b666ef6238  ./linux-source_6.18.40-1gl0_all.deb<br>120e3d678bbea13a70cfc80f6994404b66f642c43aeffaf1150bf57bf1e8a279  ./linux-cpupower_6.18.40-1gl0_amd64.deb<br>448fd244b905abf653155eb2e2da2a5fb865b5162e2d5d60bc5f53bb9e377072  ./linux-image-6.18.40-cloud-arm64_6.18.40-1gl0_arm64.deb<br>9427780a9234ccb38fecf900ebfe071fe9eb7d08261ff5045f50110e250f1de2  ./linux-kbuild-6.18.40-dbgsym_6.18.40-1gl0_amd64.deb<br>dd0721d0b7bcbfeeceda336d9316972646f7e927451cdd1f235b0159578334e7  ./linux-base-cloud-arm64_6.18.40-1gl0_arm64.deb<br>3e018445d82a999d3d1802ab1934b61e0364be6632b50d83e91845c783976bc5  ./linux_6.18.40-1gl0_amd64.changes<br>9ee97330a5725a8d0b6faf08bff7d4fcc4c1402955b008ee3ce64d0909b948e6  ./bpftool-dbgsym_7.7.0+6.18.40-1gl0_arm64.deb<br>a44eaaec9d760a7768c741853342f34194e489c52689a466c4e36967c3cf3526  ./linux-misc-tools_6.18.40-1gl0_amd64.deb<br>bb40761fa081c6a558b7a8b1db2afebf9494c14fa71931d3d70962c5a20a7d0f  ./linux-base-6.18.40-arm64_6.18.40-1gl0_arm64.deb<br>444b5ddd6750cd7fe72792b0692b0f0838da43e5b9ce415a68376493ffac4cb9  ./linux-misc-tools_6.18.40-1gl0_arm64.deb<br>05ddeace75bb32cf486198dfa97a532d808985cb1af135330de2195e8718b596  ./usbip_2.0+6.18.40-1gl0_amd64.deb<br>dd9a3a21c2dc5055c2e0d506143471e1c5e93720023751c048ce375a8290efb2  ./linux_6.18.40.orig.tar.xz<br>01cbb2317d68a7e5272dab510917b6b0c01f3afad95cf9d0c5d31a568eaeda28  ./linux-cpupower-dbgsym_6.18.40-1gl0_amd64.deb<br>8df94d2db422718e6cd621e69d4dc0bb7b6ee6430ce388946c2064bbce502d00  ./linux-image-6.18.40-arm64_6.18.40-1gl0_arm64.deb<br>5b3350f36ffaefd860c95dc714ffd02f89d5c56a7eea6e86e72a2c3769e8e882  ./linux-image-6.18.40-amd64-dbg_6.18.40-1gl0_amd64.deb<br>efa64ccdbd48652a1b1a0b798d5ea61a95c2ca8d1f191be5eb4b0f4ec0173b1a  ./linux-base-6.18.40-cloud-amd64_6.18.40-1gl0_amd64.deb<br>d273350da30679ed52ae3a144f4a12e0dd6171e318acac4ddcff57fb5cdb1d68  ./linux-headers-6.18.40-amd64_6.18.40-1gl0_amd64.deb<br>ac2745d60cad235ad78e628dd2aedee6e42f315921a72b553d7ecb05f79136d4  ./linux-bpf-dev_6.18.40-1gl0_arm64.deb<br>92433e07f21aee9f2c3b1c6af2c81c898c031d41c3ff2627822c2134fb4d7ca6  ./linux-headers-6.18.40-cloud-arm64_6.18.40-1gl0_arm64.deb<br>5627b1c9d3c5a2909963f73677d5075c8417c65ab70b4d130cd1cdee96e8c286  ./libcpupower-dev_6.18.40-1gl0_amd64.deb<br>70653eb7f24526e53de945cc46befd874a4a85f89a801d5115d260a42acf21df  ./bpftool_7.7.0+6.18.40-1gl0_amd64.deb<br>bef3c0bdc35a3094a0eeda5c875c33f1ee2983c90be5834ea715b7ec580defe3  ./rtla_6.18.40-1gl0_amd64.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>open-component-model/ocm - latest ocm-cli</title>
+            <link>https://github.com/open-component-model/ocm</link>
+            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
+            <pubDate>Mon, 27 Jul 2026 08:40:06 +0000</pubDate>
+            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
+        </item>
+<item>
+            <title>cobaltcore-dev/aurora-dashboard - @cobaltcore-dev/aurora@0.23.1</title>
+            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
+            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/@cobaltcore-dev/aurora@0.23.1</guid>
+            <pubDate>Mon, 27 Jul 2026 08:07:33 +0000</pubDate>
+            <description><![CDATA[<h3>Patch Changes</h3>
+<ul><li>fa875c7: Size the object storage tables to the space actually available below them instead of a fixed viewport offset. Custom banners, wrapped toolbars or breadcrumbs above a table no longer push the page past the viewport and produce a second scrollbar.</li></ul>]]></description>
+        </item>
+<item>
+            <title>open-component-model/open-delivery-gear - 0.19.0</title>
+            <link>https://github.com/open-component-model/open-delivery-gear</link>
+            <guid>https://github.com/open-component-model/open-delivery-gear/releases/tag/0.19.0</guid>
+            <pubDate>Mon, 27 Jul 2026 07:57:29 +0000</pubDate>
+            <description><![CDATA[<h1>[ocm.software/open-delivery-gear/core:0.1356.0]</h1>
+<h2>📰 Noteworthy</h2>
+<ul><li><code>[DEVELOPER]</code> Increased the BDBA request timeout from <code>121s</code> to <code>301s</code> by @8R0WNI3 <a href="https://github.com/open-component-model/odg-core/pull/891">[#891</a>]</li></ul>
+<h1>[ocm.software/open-delivery-gear/ui:0.436.0]</h1>
+<h2>🏃 Others</h2>
+<ul><li><code>[USER]</code> Removed the SAP logo from ODG UI footer by @8R0WNI3 <a href="https://github.com/open-component-model/odg-ui/pull/472">[#472</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>network: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/network:0.19.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>open-component-model/odg-ui - 0.436.0</title>
+            <link>https://github.com/open-component-model/odg-ui</link>
+            <guid>https://github.com/open-component-model/odg-ui/releases/tag/0.436.0</guid>
+            <pubDate>Mon, 27 Jul 2026 07:23:39 +0000</pubDate>
+            <description><![CDATA[<h1>[ocm.software/open-delivery-gear/ui:0.436.0]</h1>
+<h2>🏃 Others</h2>
+<ul><li><code>[USER]</code> Removed the SAP logo from ODG UI footer by @8R0WNI3 <a href="https://github.com/open-component-model/odg-ui/pull/472">[#472</a>]</li></ul>
+<h2>application/spdx+json</h2>
+<ul><li>delivery-dashboard-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard@sha256:575bd614b80d825daa7aede006a40bb48f94859c61c1040dbc2146ead45a6ad2</code></li><li>delivery-dashboard-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard@sha256:adff3fe4c7de18ea52c8b36bb9e1c2c73e3a849799c59d36cfc0e027e399cfcb</code></li></ul><h2>application/vnd.cyclonedx+json</h2>
+<ul><li>delivery-dashboard-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard@sha256:52f8d9a6387aee7c1202285c369c719822b34434514b2c9e3b08ef919d2f9972</code></li><li>delivery-dashboard-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard@sha256:b7af97b250620922e3800f826e6eee87c0912d5d90c09cc8515a357b074c5759</code></li></ul><h2>Helm Charts</h2>
+<ul><li>delivery-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-dashboard:0.436.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>delivery-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard:0.436.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/portal - v0.24.106</title>
             <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.24.104</guid>
-            <pubDate>Sun, 26 Jul 2026 08:44:08 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.24.106</guid>
+            <pubDate>Mon, 27 Jul 2026 06:09:45 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update platform mesh by @renovate[bot] in https://github.com/platform-mesh/portal/pull/772</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.24.103...v0.24.104</p>]]></description>
+<ul><li>fix(deps): update platform mesh by @renovate[bot] in https://github.com/platform-mesh/portal/pull/774</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.24.105...v0.24.106</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-adduser - adduser_3.158gl0</title>
@@ -24,30 +89,18 @@
 <p>Files in this release:<br>``<code><br>667965ab5b11f3cfc593959f6aecd6a8d418f0e4c37fe296a72d44bd8095338e  ./adduser_3.158gl0.dsc<br>195855e90e9d8102a91464b7d1a897ee888e425f0d0a071aa2788c6f5d8122b1  ./adduser_3.158gl0.tar.xz<br>c5656a795d5105776f662028b01a543264f62cec628eec52438c693b690dbe6c  ./adduser_3.158gl0_amd64.buildinfo<br>06298a79b622621e047d5e3dfc4d665dad420c2453e2bd1b5512e2bca4b12a6a  ./adduser_3.158gl0_amd64.changes<br>7920ff9c852b024e01da8e655056c950d5f3705d4dd9e5d2e9f89e0d991ed8b9  ./adduser_3.158gl0_all.deb<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>cobaltcore-dev/aurora-dashboard - @cobaltcore-dev/aurora@0.23.0</title>
-            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
-            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/@cobaltcore-dev/aurora@0.23.0</guid>
-            <pubDate>Fri, 24 Jul 2026 13:41:44 +0000</pubDate>
-            <description><![CDATA[<h3>Minor Changes</h3>
-<ul><li>1e9ba79: Add object upload for Ceph (S3) buckets. Files can now be uploaded from the</li></ul>    object browser via a file picker or drag-and-drop, with upload progress,
-    cancellation, and success/failure notifications — matching the existing Swift
-    upload experience.
-<ul><li>a7ad5d1: Offload Ceph object downloads to a dedicated Web Worker.</li></ul>
-    Downloading or previewing an object no longer blocks the UI. The transfer and its base64 decoding run off the main thread, so the object table stays responsive while a large object streams.
-    Transfers are owned by a module-scope store rather than by the objects table. A download now survives folder navigation, spinner swaps, and leaving the bucket entirely — which is what the &quot;download started&quot; notification already promised the user. Concurrent transfers share a single persistent &quot;Downloading…&quot; notification, dismissed once the last one ends, however it ended: saved, failed, or cancelled.
-    Cancelling is cooperative: the row clears immediately, the worker is asked to abort its request so the BFF stops reading from S3, and it is force-terminated only if it never reports back.
-    Two notes for anyone embedding this package. The worker is bundled inline rather than emitted as a separate asset, so it survives being re-bundled by a consuming app — but an inline worker starts from a blob: URL, so a Content-Security-Policy must allow worker-src &#x27;self&#x27; blob:. Aurora&#x27;s own server now sets this; a consumer serving its own CSP needs the same. The library build also substitutes process.env.NODE_ENV, because the worker&#x27;s bundled dependencies read it and a worker has no process to read it from.
-<h3>Patch Changes</h3>
-<ul><li>8b44234: Fix React-dependent packages incorrectly listed as <code>dependencies</code> instead of <code>peerDependencies</code>, and improve developer experience so workspace package changes are reflected immediately without rebuilding.</li></ul>
-    <strong>Dependency fix:</strong> Packages that use React context or hooks (<code>@lingui/react</code>, <code>@tanstack/react-query</code>, <code>@tanstack/react-router</code>, and others) were installed as private dependencies, causing consuming apps to end up with duplicate React instances. This produced &quot;Invalid hook call&quot; errors and silently disconnected context providers from their hooks. All React-context-using packages are now declared as <code>peerDependencies</code>. See <code>docs/0014_dependency_classification.md</code> for the classification rules.
-<p><strong>Developer experience:</strong> <code>packages/policy-engine</code> and <code>packages/signal-openstack</code> had an <code>exports</code> field that caused Node to always resolve them from their compiled <code>dist/</code> regardless of tsconfig path mappings. Since both packages are private (never published), the <code>exports</code> field has been removed. Node now falls back to <code>main</code>, and tsx&#x27;s tsconfig path mappings route to TypeScript source directly. Combined with an updated <code>dev</code> script that watches server-side workspace package source, changes to any workspace package are picked up immediately by the dev server, no rebuild step required. Types are always up to date since the editor reads directly from source.</p>
-<ul><li>cb548a4: Security group refactor</li></ul>
-    Fixed permission-related bugs where users without appropriate permissions could see and attempt actions, and where error messages persisted when closing and reopening modals.
-<ul><li>24a187e: Changed List styling to non-monospace</li></ul>
-<ul><li>8944e74: Fix RouteError always showing default error message instead of tRPC messages from the response</li></ul>    -   \_\_root.tsx / $projectId.tsx — pass safeErrorMessage to RouteError for TRPCClientError to fix generic fallback text
-    -   Remove errorComponent at projects/index.tsx and images.tsx, it was catching it instead of letting it bubble to ProjectErrorComponent
-    -   expand ErrorBoundary to wrap the search bar too so it&#x27;s hidden on error instead of orphaned above the error message
-    -   remove unused invalidateCsrfToken function]]></description>
+            <title>ironcore-dev/ironcore-net - v0.4.2</title>
+            <link>https://github.com/ironcore-dev/ironcore-net</link>
+            <guid>https://github.com/ironcore-dev/ironcore-net/releases/tag/v0.4.2</guid>
+            <pubDate>Fri, 24 Jul 2026 13:54:52 +0000</pubDate>
+            <description><![CDATA[<h2>Changes</h2>
+<h2>🐛 Bug Fixes</h2>
+
+<ul><li>Fix Load Balancer Routing Owner Ref @adracus (#526)</li><li>Fix load balancer instance cleanup \&amp; enhance tests @adracus (#523)</li><li>Fix deprecations in kustomizations @friegger (#522)</li></ul>
+<h2>🧰 Maintenance</h2>
+
+<ul><li>Bump kustomize versions @friegger (#527)</li><li>Bump google.golang.org/grpc from 1.82.0 to 1.82.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#525)</li><li>Bump github.com/go-logr/logr from 1.4.3 to 1.4.4 in the go-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#519)</li><li>Add iaas-maintainers to the CODEOWNERS @afritzler (#524)</li><li>Fix deprecations in kustomizations @friegger (#522)</li><li>Bump the gh-actions-dependencies group with 5 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#520)</li><li>Remove reuse workflow and pin SHAs in workflows @maxmoehl (#517)</li><li>Bump the go-dependencies group across 1 directory with 3 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#514)</li><li>Remove retired Go Report card badge</li></ul> @gonzolino (#516)
+<ul><li>Remove size-label Github Actions workflow @gonzolino (#515)</li><li>Bump golang.org/x/crypto from 0.51.0 to 0.52.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#512)</li><li>Set maintainers as CODEOWNERS @gonzolino (#513)</li><li>Bump actions/cache from 5 to 6 in the gh-actions-dependencies group across 1 directory @[dependabot[bot]](https://github.com/apps/dependabot) (#510)</li><li>Bump golang.org/x/net from 0.53.0 to 0.55.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#511)</li></ul>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-openssl - openssl_3.5.5-1gl55</title>
@@ -69,13 +122,6 @@
 <ul><li>etcd-druid-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcd-druid@sha256:62ec371e75a4a05eecb8dd0aeb8036806a8151882f5811c155ac0b3d1ab0cb68</code></li><li>etcd-druid-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcd-druid@sha256:bcc50795cc116de9564e5b482e8378010187f8a08e9971483b0e966795ea0483</code></li></ul><h2>Helm Charts</h2>
 <ul><li>etcd-druid: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/etcd-druid:v0.37.1</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>etcd-druid: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcd-druid:v0.37.1</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>open-component-model/ocm - latest ocm-cli</title>
-            <link>https://github.com/open-component-model/ocm</link>
-            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
-            <pubDate>Fri, 24 Jul 2026 09:55:06 +0000</pubDate>
-            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
         </item>
 <item>
             <title>konfidence-project/.github - v4.2.3</title>
@@ -650,31 +696,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.36.3]]></descriptio
             <description><![CDATA[<p>:penguin: :building_construction:</p>]]></description>
         </item>
 <item>
-            <title>open-component-model/open-delivery-gear - 0.18.0</title>
-            <link>https://github.com/open-component-model/open-delivery-gear</link>
-            <guid>https://github.com/open-component-model/open-delivery-gear/releases/tag/0.18.0</guid>
-            <pubDate>Tue, 21 Jul 2026 08:13:32 +0000</pubDate>
-            <description><![CDATA[<h1>[ocm.software/open-delivery-gear/core:0.1355.0]</h1>
-<h2>✨ New Features</h2>
-<ul><li><code>[OPERATOR]</code> Introduced a new extension <code>codeql</code> which is capable of creating findings for missing CodeQL scans by @akiioto <a href="https://github.com/open-component-model/odg-core/pull/876">[#876</a>]</li></ul>
-<h2>Helm Charts</h2>
-<ul><li>network: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/network:0.18.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>open-component-model/odg-core - 0.1355.0</title>
-            <link>https://github.com/open-component-model/odg-core</link>
-            <guid>https://github.com/open-component-model/odg-core/releases/tag/0.1355.0</guid>
-            <pubDate>Tue, 21 Jul 2026 07:58:01 +0000</pubDate>
-            <description><![CDATA[<h1>[ocm.software/open-delivery-gear/core:0.1355.0]</h1>
-<h2>✨ New Features</h2>
-<ul><li><code>[OPERATOR]</code> Introduced a new extension <code>codeql</code> which is capable of creating findings for missing CodeQL scans by @akiioto <a href="https://github.com/open-component-model/odg-core/pull/876">[#876</a>]</li></ul>
-<h2>application/spdx+json</h2>
-<ul><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:787faca527218c71db63f33825149cb6a34888e7a62b6305572ddd2fb482619a</code></li><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:8df455ab40b5d5c86d01b2ecbbc7259a388cae80e46f6d69fc54ae1ff021645d</code></li></ul><h2>application/vnd.cyclonedx+json</h2>
-<ul><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:cb858594b4d11e5817846833907b427f2ab664cda80e23ac4a97637d6275b09b</code></li><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:db7e676f5d449febbb2deaf73971bcfbcc6f5ab2bc5e15a3a2be75580dd7888d</code></li></ul><h2>Helm Charts</h2>
-<ul><li>bootstrapping: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/bootstrapping:0.1355.0</code></li><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-service:0.1355.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/extensions:0.1355.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>core: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core:0.1355.0</code></li></ul>]]></description>
-        </item>
-<item>
             <title>gardenlinux/package-ferm - ferm_2.7-8gl0</title>
             <link>https://github.com/gardenlinux/package-ferm</link>
             <guid>https://github.com/gardenlinux/package-ferm/releases/tag/ferm_2.7-8gl0</guid>
@@ -806,14 +827,6 @@ This release includes the changes below.
 <ul><li>cert-management-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/cert-controller-manager@sha256:1c6811f1d792f03194fb6701a6df465286ca3ffa9f72541fd79945299ad9cc8e</code></li><li>cert-management-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/cert-controller-manager@sha256:8e67a695fc16359a66b837d6a5c075ebdd02fa0721dc4f530d748744bdecc03f</code></li></ul><h2>Helm Charts</h2>
 <ul><li>cert-controller-manager: <code>europe-docker.pkg.dev/gardener-project/releases/charts/cert-controller-manager:v0.26.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>cert-management: <code>europe-docker.pkg.dev/gardener-project/releases/cert-controller-manager:v0.26.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-linux - linux_6.18.39-1gl0</title>
-            <link>https://github.com/gardenlinux/package-linux</link>
-            <guid>https://github.com/gardenlinux/package-linux/releases/tag/linux_6.18.39-1gl0</guid>
-            <pubDate>Mon, 20 Jul 2026 06:32:42 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-linux/actions/runs/29721975540">29721975540</a></p>
-<p>Files in this release:<br>``<code><br>8630b7d3c41c89cdb24b63fa9aa238c22ff41d45177b7d9de29a35acc5c0c640  ./linux-cpupower_6.18.39-1gl0_amd64.deb<br>59ec37e8dee0fbe9963f9976f421207833e8a5711c06c5f455a111d0277ebf5a  ./linux-cpupower-dbgsym_6.18.39-1gl0_amd64.deb<br>d80223673d5eb082a3a63573801c951d91a67883a358c483712806a081ab4277  ./linux_6.18.39-1gl0.dsc<br>c7a68d72607b5de1ce36c23579180c0e714f25a76b96574afa32095118e0c08d  ./usbip-dbgsym_2.0+6.18.39-1gl0_amd64.deb<br>a3e8cc0190c308b699339bec259b7ba60f61fd0c255ca209e2c36e5a43a7aa5d  ./linux-image-amd64-dbg_6.18.39-1gl0_amd64.deb<br>8ff708f45718eccb3ec5e287e1204265a7eeab419a33ff21a8fe522905812f93  ./linux_6.18.39.orig.tar.xz<br>290ba3fbc4d35ea006133bb1c7033bf908e5150eb3588b2d8a7d6df8d3d81e02  ./libcpupower1-dbgsym_6.18.39-1gl0_arm64.deb<br>084ad08fa63b3a4effe80045f0946a97245130539b14fbff3a303007bce4c0f3  ./linux-image-cloud-amd64-dbg_6.18.39-1gl0_amd64.deb<br>86f4ff4ee769eae1fcc098a2dcbf32b54cbcc24edf7ec8badf44800e11b423e5  ./usbip_2.0+6.18.39-1gl0_amd64.deb<br>96bdee4c6fcdf260b92e96c6a090dcd85811acaad5285f30e278bd69b7951dcc  ./linux-headers-cloud-arm64_6.18.39-1gl0_arm64.deb<br>a2ce258f5424993014f1f060ce080ce30caf38bc378b20433eac4dbbe21be8d9  ./libcpupower1_6.18.39-1gl0_amd64.deb<br>d32e56db81fde411b0e634e5476d4cdf4860f77568f6a7651742dc41c6dfd70c  ./linux-kbuild-6.18.39_6.18.39-1gl0_amd64.deb<br>91b515ad112d6f73e2ed3117f4f31ca2b73c86e7678979dfa95bbc08aca0eb21  ./intel-sdsi-dbgsym_6.18.39-1gl0_amd64.deb<br>7e63b84deab8b3ab91e0b597aa51e903fa1248ce8edfce5bd1f8ff11e173a5c7  ./linux-misc-tools_6.18.39-1gl0_amd64.deb<br>18fb002f71c2256bff7c5287c0fe76cc3f64d41be20e9b1ba4b3b5c73dc4bc44  ./linux-image-arm64_6.18.39-1gl0_arm64.deb<br>aaf147000dcfaa3bb7065e309ff23614ba5612529d0c7a5c339a25e4d1a572cf  ./linux_6.18.39-1gl0_arm64.changes<br>a82cd499d1e988011bae7d2b4b68d35f7dcf3e6da64c09ad121aa6e8b2c11335  ./bpftool-dbgsym_7.7.0+6.18.39-1gl0_arm64.deb<br>dea9a830a0ffcf237f1a491406de719cf06f43d3d91deafecf981125206ed27b  ./linux-misc-tools-dbgsym_6.18.39-1gl0_amd64.deb<br>6fff16fb99aa2a7b6fab8ca0ec92ffc793ed7af5d4ac8d78aa613bf7f159da40  ./linux-source_6.18.39-1gl0_all.deb<br>de4ae3f917d634e62b4531a25f3cf7adaf5c91cb7428e6ed1f1978118ae6e545  ./linux-bpf-dev_6.18.39-1gl0_amd64.deb<br>ad86ea9377769d519c7b1bc4dcabc26cc2e4f69f0037f8668b9f0cbcbab0c778  ./rtla-dbgsym_6.18.39-1gl0_arm64.deb<br>64ed6ba94d7821ad1805e01c2b55788ba55012b8e27c53c6a5771f7a0347d89f  ./hyperv-daemons-dbgsym_6.18.39-1gl0_arm64.deb<br>9de0619cc4447b32d65fdfd6ee1f4dbc160dcd5b68e55480b9ed6de0f02cb97b  ./linux-image-6.18.39-arm64-dbg_6.18.39-1gl0_arm64.deb<br>b67ba19ea43b66b91838fc61fb68fb772563e71a659c1d1f4edd477bc5c24dec  ./usbip-dbgsym_2.0+6.18.39-1gl0_arm64.deb<br>3a2b08512e9c56c4c712384fb8c47e6be6caf94758735b5d475f79b981107a4e  ./linux-cpupower_6.18.39-1gl0_arm64.deb<br>785e6571174d8c74e078ce4b1e1b442d837261e257d40b920135b8dcb7ac3a3a  ./linux-config-6.18_6.18.39-1gl0_amd64.deb<br>a71501ca0810474fb6680d90e880dbae9a08264904b609b2d36bb5898f3bd8c2  ./linux-base-6.18.39-cloud-amd64_6.18.39-1gl0_amd64.deb<br>52444a67779307536c756df439416cde79510ff31fceb1488cd0649ab60574b9  ./linux-image-arm64-dbg_6.18.39-1gl0_arm64.deb<br>9038becdcb011cb3454b7e426bbba7775cd6973d0b0b3992631b7f9c88f81a87  ./linux-base-6.18.39-amd64_6.18.39-1gl0_amd64.deb<br>037d3b2dd4976aaa88935db0bb35206f9ac032e5c216900cfa9db3e8ae1b2b1a  ./linux-libc-dev-arm64-cross_6.18.39-1gl0_all.deb<br>c18ed99cf7120c1e2b92b2ec10f00051b880ae06f2e89ff9f76eb10b7e36e972  ./linux-cpupower-dbgsym_6.18.39-1gl0_arm64.deb<br>1587acf543bd8bb0aec49c812c5a134712055e32920996949cc509251bec5777  ./usbip_2.0+6.18.39-1gl0_arm64.deb<br>a045e6f7c6839a023b2299cecfba56fe4e97713e0879f4221cf6bab43e6fd2b8  ./rtla_6.18.39-1gl0_arm64.deb<br>f709da0822780de082f71152d3b62e12f683fcd3563b0d8e4793d5d6012aacb9  ./intel-sdsi_6.18.39-1gl0_amd64.deb<br>5f53a69efc1775482dfda5e56ce9ef3c4004edd18c80451d222bdb8fc650cea8  ./linux-misc-tools_6.18.39-1gl0_arm64.deb<br>18586290e11213398f066846b95ec6785d14f127da449f2f25e5ef27bfcfa8fb  ./linux-bpf-dev_6.18.39-1gl0_arm64.deb<br>1771663d9bcbb982930d36ab08da77a65b693c3fad95e33269c7fcc9adaf12ad  ./linux-headers-amd64_6.18.39-1gl0_amd64.deb<br>bcee90b9541fb186e5439e72789c7cd8a7f8e0fbc9105d7cf194f6c8ec88876f  ./linux-base-6.18.39-arm64_6.18.39-1gl0_arm64.deb<br>079cb57005378be5052c8a2c59d3c510520c2805467191304907922702f2aee8  ./linux-kbuild-6.18.39_6.18.39-1gl0_arm64.deb<br>69af1e0331dccdeec8469cbe9a013c1c8ae6459778f772524c5534d7f5ef4084  ./linux-image-6.18.39-amd64_6.18.39-1gl0_amd64.deb<br>28d9d64614b9c5a56ee40f46f4da5da7d83370e16403e500a713fae30123c7df  ./linux-libc-dev-amd64-cross_6.18.39-1gl0_all.deb<br>7f99a67dbbf731f588f6b9a31b2f0fcd9053141ae6779cdba3c92e57bf4d3ae9  ./rtla-dbgsym_6.18.39-1gl0_amd64.deb<br>f0068e742eb613d198e0b7f5ee44e26b3e644b9baed840439b3606ea3db3af38  ./linux_6.18.39-1gl0_amd64.changes<br>f87dd659ce3cf5d6fc0672c321a0ef528f8f6316f5c24888f243fb9129fa6e6e  ./linux-base-6.18.39-cloud-arm64_6.18.39-1gl0_arm64.deb<br>d5d3cd6ed794f4e60d1aca421294c01167b71d0bcacd0d60602861d6e0c2eef5  ./linux-image-6.18.39-cloud-amd64-dbg_6.18.39-1gl0_amd64.deb<br>8fb477f2ba32a6ce609b373617c17b388705e8fb1b5a5b7a49feda87cc3cf125  ./hyperv-daemons_6.18.39-1gl0_amd64.deb<br>37af8ee3b113f71e3fc336d9f8495c7b05ad6a4fda1af0bd5871af19edb3a506  ./linux-misc-tools-dbgsym_6.18.39-1gl0_arm64.deb<br>e36554cc8d360405125fe084495520aa7e4b7a48cc6af23f957ed6f35376f40b  ./linux-headers-6.18.39-arm64_6.18.39-1gl0_arm64.deb<br>11fba4a78e8e45bb5ecc5affa5766cef0991cd07ef072827f9a3b7a44fb40ea3  ./linux-kbuild-6.18.39-dbgsym_6.18.39-1gl0_arm64.deb<br>1da483776171ff6bb6ae82378530b9dc20c3074b99b780dd953e12c92eafe196  ./linux-image-cloud-arm64_6.18.39-1gl0_arm64.deb<br>471dbb3e2477844e4b530edffcb1279995d6e8de8eeb7149e2780ef6de36b57a  ./linux-image-6.18.39-arm64_6.18.39-1gl0_arm64.deb<br>b2bb99a0f43a23bb1194800c1c2822bac59b6a7e67a507f5a009c0ebba2eaaad  ./linux-image-6.18.39-cloud-arm64-dbg_6.18.39-1gl0_arm64.deb<br>75b505a49d3e360c23eb92f5a124dab40fb03343a0bd90a622c5d404b1cc79e0  ./linux-libc-dev_6.18.39-1gl0_all.deb<br>ebc7a25796a7010e9ae811b17f986d7822727e5a1073341fa2baa874a673f5a6  ./linux-image-6.18.39-cloud-arm64_6.18.39-1gl0_arm64.deb<br>b2a0c1c80790cf39059385e8fff900ce15e727b9a9735b1ec555719fd7233a76  ./bpftool-dbgsym_7.7.0+6.18.39-1gl0_amd64.deb<br>15f70d36ff9dd4587889534c5e53478693564a15a6c8a82b902653a61a77b932  ./linux-base-arm64_6.18.39-1gl0_arm64.deb<br>acabf53fae6dbbaf6b28c0326e982386706671495c8d8cd5f35ac9cdb72efe43  ./linux-headers-arm64_6.18.39-1gl0_arm64.deb<br>f5c0520e42ab5dcd3036ee7843e9863b9680ebd37de55ab1a97f43e6a5d684ed  ./hyperv-daemons_6.18.39-1gl0_arm64.deb<br>7832a8063b8e896adecf6d11dd40ec97652fc586324805a8934fb0f6ba8825d1  ./rtla_6.18.39-1gl0_amd64.deb<br>ce41ea21360a429784295579952dd42bc9e119b1c0087214e58713733c81f875  ./linux-image-6.18.39-cloud-amd64_6.18.39-1gl0_amd64.deb<br>64ca404f3402f1a2fed580cdc53c75d2ecef9438847e0bd5b11879ed9e9c511b  ./linux_6.18.39-1gl0.debian.tar.xz<br>f28fe7d2e933c54c7968fbcc76b4be9fcab9a4dfbff85ba58d6fa58acac881ce  ./hyperv-daemons-dbgsym_6.18.39-1gl0_amd64.deb<br>7bbdf32fc750461bc821e07cb07626b260c4c171fc5a69c08116718c0341dfe0  ./linux-headers-6.18.39-cloud-arm64_6.18.39-1gl0_arm64.deb<br>79d73dea2c5ed0a086c809e7a9979019a1cd5ae7126e87748aa0fe89d073b9b8  ./linux-base-cloud-arm64_6.18.39-1gl0_arm64.deb<br>8782b17cbdeebf274690bd402d66b06bf070e0d9173a91b46e41fc8184efac80  ./libcpupower1-dbgsym_6.18.39-1gl0_amd64.deb<br>42de787a548f872f777849ee0513e3acfbeb2cf19fb5515ee1fc50cf5a9b1272  ./libcpupower-dev_6.18.39-1gl0_arm64.deb<br>264b9930c5abf282d4b4d4c8055517a13b27c2dc801fbd31d1ce2a07e925c650  ./linux-image-amd64_6.18.39-1gl0_amd64.deb<br>5f99de91b58b7125fac3dda0e4fb10440e9de3e406086770e430816d1f24417f  ./linux-source-6.18_6.18.39-1gl0_all.deb<br>edb588898ea4dccc61067a72ccfdf22941a9ae0d749c1e63efb59ce0828f2e87  ./libcpupower-dev_6.18.39-1gl0_amd64.deb<br>efb6cd887f74ea168f00b996c8b1fec667ad35987528b25c2535dddb57eae1ac  ./bpftool_7.7.0+6.18.39-1gl0_arm64.deb<br>4fcc51baa7c50a677dbd155a50cb2d806d20234b25d09106c208247d63c6a981  ./linux-kbuild-6.18.39-dbgsym_6.18.39-1gl0_amd64.deb<br>d5bdb7b4809867b7377b3a3b05e05e5bcf36721a720e35a8817ca15b52b3e73b  ./libcpupower1_6.18.39-1gl0_arm64.deb<br>67a6eb65e64c29cba35ec6bcb6a39816b87d2999159fc69d20ca9b3bad7b86f1  ./linux-base-cloud-amd64_6.18.39-1gl0_amd64.deb<br>c119d10baa37fcee38480da515e0b4ea3b97aef0eaea66e3496d4f02752844ef  ./linux-headers-6.18.39-common_6.18.39-1gl0_all.deb<br>38c6c702e166cd9d765fc65e17bf944e46d61cbcff8fc53200df84d219104987  ./linux_6.18.39-1gl0_amd64.buildinfo<br>7f987263f0d65ba6f62c7bea5c4fc0b865a5a868b045b980c3b2fbf9f6613c88  ./linux-headers-6.18.39-amd64_6.18.39-1gl0_amd64.deb<br>3856b9539dcae7d820c6438b6084a1bdfe8e6ea511536f15299a0b26c352654e  ./linux-headers-cloud-amd64_6.18.39-1gl0_amd64.deb<br>6c30b5a46bc0cffe591b4f8a6955f0b09cbbec9a306cf5599e679812b36b660e  ./linux-image-6.18.39-amd64-dbg_6.18.39-1gl0_amd64.deb<br>07a625be611d8b2c2910eae4e225598c46c91751ba9b0ced062ad2471960b26e  ./linux-image-cloud-amd64_6.18.39-1gl0_amd64.deb<br>9b244c9f0e97891d32129d2b03f06c85501284f9239ce8636959ed9a63dc90ee  ./bpftool_7.7.0+6.18.39-1gl0_amd64.deb<br>8ef3b782d254e570d2852505179c95dede7083221866588ea751308738d0d92b  ./linux-config-6.18_6.18.39-1gl0_arm64.deb<br>6249f979c750246a927b9398f2e2326bb0a272a9b24f2c44edd0629d1918b1b9  ./linux_6.18.39-1gl0_arm64.buildinfo<br>82a2712136ff0c517903f041020644bddc090880647356610d35da690e369fb0  ./linux-base-amd64_6.18.39-1gl0_amd64.deb<br>a6b20eca8fad3951a92dcd4c13146f8e1219e9247af43524ebfc30b5928f577f  ./linux-headers-6.18.39-cloud-amd64_6.18.39-1gl0_amd64.deb<br>22a9664fdfda688c90f8cec82a253a97bca9c30d3609b01fe3666c02d5fcf2b8  ./linux-image-cloud-arm64-dbg_6.18.39-1gl0_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-gnupg2 - gnupg2_2.4.9-7gl0</title>
@@ -2594,22 +2607,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.7.0
 <ul><li>gardener-extension-admission-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/admission-gcp:v1.53.4</code></li><li>gardener-extension-provider-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/provider-gcp:v1.53.4</code></li></ul>]]></description>
         </item>
 <item>
-            <title>open-component-model/odg-ui - 0.435.0</title>
-            <link>https://github.com/open-component-model/odg-ui</link>
-            <guid>https://github.com/open-component-model/odg-ui/releases/tag/0.435.0</guid>
-            <pubDate>Mon, 13 Jul 2026 10:34:44 +0000</pubDate>
-            <description><![CDATA[<h1>[ocm.software/open-delivery-gear/ui:0.435.0]</h1>
-<h2>📰 Noteworthy</h2>
-<ul><li><code>[USER]</code> Removed the confusing &quot;hide findings&quot; filter option from the rescoring UI. Categorisation and due date filter should be used instead. by @8R0WNI3 <a href="https://github.com/open-component-model/odg-ui/pull/471">[#471</a>]</li></ul>
-<h2>🐛 Bug Fixes</h2>
-<ul><li><code>[DEVELOPER]</code> A bug where the rescoring proposals were fetched twice due to an immediate component re-render has been resolved by @8R0WNI3 <a href="https://github.com/open-component-model/odg-ui/pull/470">[#470</a>]</li></ul>
-<h2>application/spdx+json</h2>
-<ul><li>delivery-dashboard-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard@sha256:06313572c7a5ee44580819cdcb1963705f98a84a3d38c091942bfa7cc2e1cfee</code></li><li>delivery-dashboard-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard@sha256:83aa0f3a3cd41c4604cd28502cd4b9a8ec03931185418ad1224bee3114ea73bf</code></li></ul><h2>application/vnd.cyclonedx+json</h2>
-<ul><li>delivery-dashboard-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard@sha256:1b0e057a6c72bae41923f15da3e966f2a398f46c814e3c9007d85ba9715915a9</code></li><li>delivery-dashboard-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard@sha256:5565d96d30863ab2c524f671b55961581f188a5c07add93c2e0ac538d09f0bad</code></li></ul><h2>Helm Charts</h2>
-<ul><li>delivery-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-dashboard:0.435.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>delivery-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard:0.435.0</code></li></ul>]]></description>
-        </item>
-<item>
             <title>cloudoperators/cloudctl - v1.1.0</title>
             <link>https://github.com/cloudoperators/cloudctl</link>
             <guid>https://github.com/cloudoperators/cloudctl/releases/tag/v1.1.0</guid>
@@ -3691,19 +3688,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.7.0
 <ul><li>gardener-extension-os-suse-chost-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/os-suse-chost@sha256:69c99fd6ed42c3123aa35a8e55b3826fb821778d564e1658bb4b3bd3440d7908</code></li><li>gardener-extension-os-suse-chost-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/os-suse-chost@sha256:73287113e7af2eee3e840a79a59cde32b13a3bac5d12d48f9f5e01d4642f177f</code></li></ul><h2>Helm Charts</h2>
 <ul><li>os-suse-chost: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/os-suse-chost:v1.43.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>gardener-extension-os-suse-chost: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/os-suse-chost:v1.43.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>ironcore-dev/ironcore-net - v0.4.1</title>
-            <link>https://github.com/ironcore-dev/ironcore-net</link>
-            <guid>https://github.com/ironcore-dev/ironcore-net/releases/tag/v0.4.1</guid>
-            <pubDate>Wed, 24 Jun 2026 13:45:03 +0000</pubDate>
-            <description><![CDATA[<h2>Changes</h2>
-<h2>🐛 Bug Fixes</h2>
-
-<ul><li>Fix NATGateway watch setup in apinetlet @afritzler (#507)</li></ul>
-<h2>🧰 Maintenance</h2>
-
-<ul><li>Bump actions/checkout from 6 to 7 in the gh-actions-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#505)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.31.0 to 2.32.0 in the go-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#504)</li><li>Bump the go-dependencies group with 2 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#502)</li></ul>]]></description>
         </item>
 <item>
             <title>openmcp-project/platform-service-template - v0.1.0</title>
