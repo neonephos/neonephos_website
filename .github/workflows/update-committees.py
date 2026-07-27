@@ -115,50 +115,52 @@ def main():
                     "details": m.get("AboutMe", {}).get("Description"),
                     "linkedin": m.get("AboutMe", {}).get("LinkedIn")
                 })
-        
-        for m in alternates_response.get("Data", []):
-            print(f"Processing alternate {m.get('FirstName').title()} {m.get('LastName').title()}...")
-            role = "Alternate "
 
-            appointed = m.get("AppointedBy")
-            org = m.get("Organization", {}).get("Name")
+        if alternates_response.get("Data", []) is not None:
+            for m in alternates_response.get("Data", []):
+                print(f"Processing alternate {m.get('FirstName').title()} {m.get('LastName').title()}...")
+                role = "Alternate "
+    
+                appointed = m.get("AppointedBy")
+                org = m.get("Organization", {}).get("Name")
+    
+                if appointed == "Membership Entitlement":
+                    role += f"{org} Representative"
+                elif appointed == "Vote of General Member Class":
+                    role += "General Member Representative"
+                elif appointed == "Vote of TSC Committee":
+                    role += "Project Representative"
+                elif appointed == "Vote of TAC Committee":
+                    role += "TAC Representative"
+    
+                alternates.append({
+                    "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
+                    "imgsrc": m.get("LogoURL"),
+                    "role": role,
+                    "details": m.get("AboutMe", {}).get("Description"),
+                    "linkedin": m.get("AboutMe", {}).get("LinkedIn")
+                })
 
-            if appointed == "Membership Entitlement":
-                role += f"{org} Representative"
-            elif appointed == "Vote of General Member Class":
-                role += "General Member Representative"
-            elif appointed == "Vote of TSC Committee":
-                role += "Project Representative"
-            elif appointed == "Vote of TAC Committee":
-                role += "TAC Representative"
-
-            alternates.append({
-                "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
-                "imgsrc": m.get("LogoURL"),
-                "role": role,
-                "details": m.get("AboutMe", {}).get("Description"),
-                "linkedin": m.get("AboutMe", {}).get("LinkedIn")
-            })
-
-        for m in tsc_observers_response.get("Data", []):
-            print(f"Processing observer {m.get('FirstName').title()} {m.get('LastName').title()}...")
-            role = "Observer "
-
-            appointed = m.get("AppointedBy")
-            org = m.get("Organization", {}).get("Name")
-
-            if appointed == "Vote of TSC Committee":
-                role += f"TSC Representative"
-            else:
-                role = "Generic Observer"
-
-            tsc_observers.append({
-                "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
-                "imgsrc": m.get("LogoURL"),
-                "role": role,
-                "details": m.get("AboutMe", {}).get("Description"),
-                "linkedin": m.get("AboutMe", {}).get("LinkedIn")
-            })
+        if tsc_observers_response.get("Data", []) is not None:
+            for m in tsc_observers_response.get("Data", []):
+                print(f"Processing observer {m.get('FirstName').title()} {m.get('LastName').title()}...")
+                role = "Observer "
+    
+                appointed = m.get("AppointedBy")
+                org = m.get("Organization", {}).get("Name")
+    
+                if appointed == "Vote of TSC Committee":
+                    role += f"TSC Representative"
+                else:
+                    role = "Generic Observer"
+    
+                tsc_observers.append({
+                    "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
+                    "imgsrc": m.get("LogoURL"),
+                    "role": role,
+                    "details": m.get("AboutMe", {}).get("Description"),
+                    "linkedin": m.get("AboutMe", {}).get("LinkedIn")
+                })
 
         post["members"] = members
         post["alternates"] = alternates
