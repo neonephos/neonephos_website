@@ -11,7 +11,7 @@ published: true
 
 # NeoNephos August Community Call
 
-On August 12th we again bring together the NeoNephos community in our Community Call! Project Konfidence, which is not a NeoNephos project today, will hold a presentation about who they are, what they do and why they are a great fit for NeoNephos.
+On August 12th we again bring together the NeoNephos community in our Community Call! The Agenda is yet to be determined. We'll update ASAP.
 
 **Zoom Session Link**
 
