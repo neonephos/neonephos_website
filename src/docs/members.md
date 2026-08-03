@@ -22,59 +22,59 @@ members:
       link: "https://t-systems.com/"
       imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/t-systems.svg"
   general:
-    - name: "23 Technologies"
-      link: "https://23technologies.cloud/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/23-technologies-gmbh.svg"
-    - name: "Clyso"
-      link: "https://clyso.com/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/clyso-gmbh.svg"
-    - name: "Cyberus"
-      link: "https://cyberus-technology.de/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/cyberus-technology.svg"
-    - name: "Elastx"
-      link: "https://elastx.se/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/elastx-ab.svg"
-    - name: "xcellent technologies"
-      link: "https://x-cellent.com/"
-      imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/x_cellent_technologies_gmbh_1702942925809_0012M00002PbbTjQAJ.svg"
-    - name: "Liquid Reply"
-      link: "https://www.reply.com/liquid-reply/en"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/liquid-reply.svg"
-    - name: "Kubermatic GmbH"
-      link: "https://www.kubermatic.com/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/kubermatic.svg"
-    - name: "Nearby Computing"
-      link: "https://www.nearbycomputing.com/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/nearby-computing.svg"
-    - name: "APEFACTORY"
-      link: "https://www.apefactory.com/en"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/ape-factory.svg"
-    - name: "plusserver"
-      link: "https://www.plusserver.com"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/plusserver.svg"
-    - name: "SUSE"
-      link: "https://www.suse.com"
-      imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/SUSE_Logo-hor_L_Green-pos_sRGB.svg"
-    - name: "SVA System Vertrieb Alexander GmbH"
-      link: "https://www.sva.de"
-      imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/sva_system_vertrieb_alexander_gmbh_1714481436838_0012M00002KAnmjQAD.svg"
-    - name: "Cloudogu"
-      link: "https://cloudogu.com"
-      imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/cloudogu_gmbh_1776943151560_0012M00002WSW6kQAH.svg"
-    - name: "Giant Swarm GmbH"
-      link: "https://giantswarm.io"
-      imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/giant_swarm_gmbh_1702593704307_0014100000Te1ndAAB.svg"
+    - name: “23 Technologies”
+      link: “https://23technologies.cloud/”
+      imgsrc: “https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/23-technologies-gmbh.svg”
+    - name: “APEFACTORY”
+      link: “https://www.apefactory.com/en”
+      imgsrc: “https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/ape-factory.svg”
+    - name: “Cloudogu”
+      link: “https://cloudogu.com”
+      imgsrc: “https://lf-platform-documents-prod.s3.amazonaws.com/cloudogu_gmbh_1776943151560_0012M00002WSW6kQAH.svg”
+    - name: “Clyso”
+      link: “https://clyso.com/”
+      imgsrc: “https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/clyso-gmbh.svg”
+    - name: “Cyberus”
+      link: “https://cyberus-technology.de/”
+      imgsrc: “https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/cyberus-technology.svg”
+    - name: “Elastx”
+      link: “https://elastx.se/”
+      imgsrc: “https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/elastx-ab.svg”
+    - name: “Giant Swarm GmbH”
+      link: “https://giantswarm.io”
+      imgsrc: “https://lf-platform-documents-prod.s3.amazonaws.com/giant_swarm_gmbh_1702593704307_0014100000Te1ndAAB.svg”
+    - name: “Kubermatic GmbH”
+      link: “https://www.kubermatic.com/”
+      imgsrc: “https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/kubermatic.svg”
+    - name: “Liquid Reply”
+      link: “https://www.reply.com/liquid-reply/en”
+      imgsrc: “https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/liquid-reply.svg”
+    - name: “Nearby Computing”
+      link: “https://www.nearbycomputing.com/”
+      imgsrc: “https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/nearby-computing.svg”
+    - name: “plusserver”
+      link: “https://www.plusserver.com”
+      imgsrc: “https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/plusserver.svg”
+    - name: “SUSE”
+      link: “https://www.suse.com”
+      imgsrc: “https://lf-platform-documents-prod.s3.amazonaws.com/SUSE_Logo-hor_L_Green-pos_sRGB.svg”
+    - name: “SVA System Vertrieb Alexander GmbH”
+      link: “https://www.sva.de”
+      imgsrc: “https://lf-platform-documents-prod.s3.amazonaws.com/sva_system_vertrieb_alexander_gmbh_1714481436838_0012M00002KAnmjQAD.svg”
+    - name: “xcellent technologies”
+      link: “https://x-cellent.com/”
+      imgsrc: “https://lf-platform-documents-prod.s3.amazonaws.com/x_cellent_technologies_gmbh_1702942925809_0012M00002PbbTjQAJ.svg”
       
   associate:
-    - name: "TNO"
-      link: "https://tno.nl/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/tnothenetherlandsorganisationforappliedscientificresearch.svg"
-    - name: "SBA Research"
-      link: "https://www.sba-research.org/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/sba-research.svg"
-    - name: "Fraunhofer ISST"
-      link: "https://www.isst.fraunhofer.de"
-      imgsrc: "https://www.isst.fraunhofer.de/content/dam/isst/images/Fraunhofer%20ISST-Logo_Internet.svg"
+    - name: “Fraunhofer ISST”
+      link: “https://www.isst.fraunhofer.de”
+      imgsrc: “https://www.isst.fraunhofer.de/content/dam/isst/images/Fraunhofer%20ISST-Logo_Internet.svg”
+    - name: “SBA Research”
+      link: “https://www.sba-research.org/”
+      imgsrc: “https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/sba-research.svg”
+    - name: “TNO”
+      link: “https://tno.nl/”
+      imgsrc: “https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/tnothenetherlandsorganisationforappliedscientificresearch.svg”
 
 tilesHeading: Learn more!
 tiles:
