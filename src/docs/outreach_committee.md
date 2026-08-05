@@ -1,5 +1,5 @@
 ---
-layout: CommitteeThemeComponent
+layout: "CommitteeThemeComponent"
 title: "Outreach Committee"
 sidebar: false
 aside: false
@@ -9,58 +9,70 @@ hero:
   description: "It is responsible for the design, development, and  execution of community outreach efforts on behalf of the Governing Board."
 members:
   - name: "Annika Opitz"
-    email: "annika.opitz@stackit.cloud"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/kube3anni.png?v=1775136552975"
-    role: "Chairperson and Schwarz Digits Cloud GmbH & Co. KG Premier Rep."
-    details: ""
-    link: ""
+    role: "Chairperson and Schwarz Digits Cloud GmbH & Co. KG Representative"
+    details: "Annika Opitz is Product Owner at STACKIT driving the topic of Kubernetes Experience and leading the open-source project kubara (https://github.com/kubara-io/kubara). With years of experience in the IT sector, she specializes in guiding the strategic direction and growth of cloud and infrastructure products across the complete product lifecycle. She is passionate about delivering scalable, customer-centric Kubernetes solutions that are intuitive for developers and operators. \n\nProduct Owner by day, world traveler by night and weekends! When she is not wrangling features, you’ll find her on a plane, train, or van exploring the world. Always ready to connect - located in Cologne!"
+    linkedin:
   - name: "Jürgen Bolz"
-    email: "juergen.bolz@bwi.de"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/juebol.png?v=1778663857359"
-    role: "BWI Premier Rep."
-    details: ""
-    link: ""    
-  - name: "Christian Voecks"
-    email: ""
-    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
-    role: "SAP Premier Rep."
-    details: ""
-    link: ""
+    role: "BWI GmbH Representative"
+    details:
+    linkedin:
+  - name: "Tristan Scheidemann"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/t.png"
+    role: "SAP SE Representative"
+    details: "I was introduced to information technology through C++.  I like scientific computation, as for me it is at the right intersection of mathematics and, ideally, programming close to the hardware.\n\nMany of the problems found in the \"microscopic\" realm, like latency or inter-thread communication on a single chip, you also find in a slightly different formulation in the world of distributed machines.\n\nI am always up for a chat so feel free to reach out!"
+    linkedin:
+  - name: "Abubakar Siddiq Ango"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/abuango.png?v=1777563086466"
+    role: "Kubermatic GmbH Representative"
+    details: "Developer Advocate"
+    linkedin: "https://linkedin.com/in/abubakarango/"
   - name: "Christine Sandmark"
-    email: ""
-    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
-    role: "ElastX AB General Rep."
-    details: ""
-    link: ""
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/christinesandmark.png?v=1778835404241"
+    role: "Elastx AB Representative"
+    details:
+    linkedin:
+  - name: "Michael Kambeck"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/michaelkambeck.png?v=1785329384475"
+    role: "SVA System Vertrieb Alexander GmbH Representative"
+    details:
+    linkedin:
+  - name: "Oliver Thylmann"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/othylmann.png?v=1781344198031"
+    role: "Giant Swarm GmbH Representative"
+    details: "30 Year Entrepreneur with multiple Exits bringing Cloud Native to Corporations through Giant Swarm. Believer in Open Source, Podcast Co-Host of the german Nerd Show, Compulsive First Adopter and Forward Thinker."
+    linkedin:
   - name: "Philip Haas"
-    email: ""
-    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
-    role: "x-cellent technologies General Rep."
-    details: ""
-    link: ""
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/xcellent.png?v=1785316370926"
+    role: "x-cellent technologies GmbH Representative"
+    details: "Philip Haas is Head of Marketing at x-cellent technologies in Munich and has been active in open-source marketing for over ten years. At x-cellent, his responsibilities include communications related to metalstack.cloud – a cloud platform based on the open-source software metal-stack."
+    linkedin:
   - name: "Roberto Vanoni"
-    email: ""
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/robva74.png?v=1769430213120"
-    role: "Clyso General Rep."
-    details: ""
-    link: ""      
-  - name: "Abubakar Ango"
-    email: "abubakar@kubermatic.com"
-    imgsrc: "https://avatars.githubusercontent.com/u/2991038?v=4"
-    role: "Kubermatic General Rep."
-    details: ""
-    link: "https://github.com/abuango"
-
-
-
-tilesHeading: Learn more!
+    role: "CLYSO GmbH Representative"
+    details:
+    linkedin:
+tilesHeading: "Learn more!"
 tiles:
   - title: "Election Policy"
     details: "Learn about election periods and more."
     linkText: "Election Policy"
     linkUrl: "/election_policy"
-  - title: Us on Zulip
-    details: We are available on Zulip. Let's chat!
-    linkText: Zulip Channel
+  - title: "Us on Zulip"
+    details: "We are available on Zulip. Let's chat!"
+    linkText: "Zulip Channel"
     linkUrl: "https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion/topic/newsfeed/with/578880018"
+alternates: []
+observers:
+  - name: "Esther Garcia"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/estherrgarcia.png?v=1709289542776"
+    role: "Generic Observer"
+    details:
+    linkedin: "https://linkedin.com/in/estherrgarcia"
+  - name: "Katarina Poplawski"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/k.png"
+    role: "Generic Observer"
+    details:
+    linkedin:
 ---

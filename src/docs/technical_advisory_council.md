@@ -8,11 +8,6 @@ hero:
   subtitle: "The Technical Advisory Council (TAC) is the technical advisory body of NeoNephos."
   description: "It establishes the technical oversight for the vision laid out by the Governing Board. The TAC currently consists of these members."
 members:
-  - name: "Florian Müller"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/fmui.png?v=1751357995611"
-    role: "Chairperson and TAC Representative"
-    details: "Software Architect and Technical Project Manager at SAP with over 25 years of experience in enterprise software development, including more than 20 years in architecture and 15+ years in cloud development.\nI have served as both member and chair of several international and cross-company initiatives, industry standards bodies, and open-source projects. I also speak at conferences and actively mentor engineers and architects."
-    linkedin: "https://linkedin.com/in/florianmueller"
   - name: "Martin Schüßler"
     imgsrc: "https://avatars2.githubusercontent.com/u/1407812?v=4"
     role: "Schwarz Digits Cloud GmbH & Co. KG Representative"
@@ -26,6 +21,76 @@ members:
   - name: "Tobias Deppe"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/tdeppe.png?v=1759170970690"
     role: "T-Systems International GmbH Representative"
+    details:
+    linkedin:
+  - name: "Andre Russ"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/gehoern.png?v=1774619265634"
+    role: "Project Representative"
+    details:
+    linkedin:
+  - name: "Andreas Fritzler"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/afritzler.png?v=1766150959755"
+    role: "Project Representative"
+    details: "Platform Guy | Data Jedi | #Kubernetes #Container and #BigData Expert | #MachineLearning Enthusiast | #DeepLearning Fanatic at @SAP @GardenerProject | 🥋🚴‍♂️"
+    linkedin: "https://linkedin.com/in/andreasfritzler"
+  - name: "Bastian Echterhoelter"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/b.png"
+    role: "Project Representative"
+    details:
+    linkedin:
+  - name: "Jakob Möller"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jakobmoellersap.png?v=1761850393912"
+    role: "Project Representative"
+    details:
+    linkedin:
+  - name: "Johannes Scheerer"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/scheererj.png?v=1774619429160"
+    role: "Project Representative"
+    details:
+    linkedin:
+  - name: "Magiel Bruntink"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
+    role: "Project Representative"
+    details:
+    linkedin:
+  - name: "Maximilian Braun"
+    imgsrc: "https://avatars.githubusercontent.com/u/78038429?v=4"
+    role: "Project Representative"
+    details:
+    linkedin:
+  - name: "Michael Schmidt"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
+    role: "Project Representative"
+    details: "SAP. Docker. Kubernetes. Null. Nil. Void"
+    linkedin: "https://linkedin.com/in/michael-schmidt-64714a4a"
+  - name: "Mirza Kopic"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
+    role: "Project Representative"
+    details:
+    linkedin:
+  - name: "Nicolae Nicora"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/nnicora.png?v=1773696298478"
+    role: "Project Representative"
+    details:
+    linkedin:
+  - name: "Philipp Pracht"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/philipp.pracht.png?v=1767800725397"
+    role: "Project Representative"
+    details:
+    linkedin:
+  - name: "Roberto Querio"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/r.png"
+    role: "Project Representative"
+    details:
+    linkedin:
+  - name: "Simon Heimler"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/simon.heimler.png?v=1766150999407"
+    role: "Project Representative"
+    details: "Software Architect working at SAP SE on Metadata Strategy, APIs and Events and integration topics.\nTSC Chair for the [Open Resource Discovery](https://open-resource-discovery.github.io/specification/) spec (Linux Foundation)."
+    linkedin:
+  - name: "Uwe Mayer"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/u.png"
+    role: "Project Representative"
     details:
     linkedin:
 tilesHeading: "Learn more!"
@@ -50,21 +115,6 @@ alternates:
     details:
     linkedin:
 observers:
-  - name: "Andre Russ"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/gehoern.png?v=1774619265634"
-    role: "Observer TSC Representative"
-    details:
-    linkedin:
-  - name: "Andreas Fritzler"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/afritzler.png?v=1766150959755"
-    role: "Observer TSC Representative"
-    details: "Platform Guy | Data Jedi | #Kubernetes #Container and #BigData Expert | #MachineLearning Enthusiast | #DeepLearning Fanatic at @SAP @GardenerProject | 🥋🚴‍♂️"
-    linkedin: "https://linkedin.com/in/andreasfritzler"
-  - name: "Bastian Echterhoelter"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/b.png"
-    role: "Observer TSC Representative"
-    details:
-    linkedin:
   - name: "Christian Neu"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/christianneu.png?v=1753082958532"
     role: "Generic Observer"
@@ -90,89 +140,29 @@ observers:
     role: "Generic Observer"
     details:
     linkedin:
-  - name: "Jakob Möller"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jakobmoellersap.png?v=1761850393912"
-    role: "Observer TSC Representative"
-    details:
-    linkedin:
-  - name: "Johannes Scheerer"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/scheererj.png?v=1774619429160"
-    role: "Observer TSC Representative"
-    details:
-    linkedin:
   - name: "John Mertic"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/jmertic.png?v=1709042439248"
     role: "Generic Observer"
     details: "John Mertic is a Program Director at the Linux Foundation. Under his leadership, he has helped ASWF, LF AI & Data, LF Energy, ODPi, Open Mainframe Project, and R Consortium accelerate open source innovation and transform industries. John has an open source career spanning two decades, both as a contributor to projects such as SugarCRM and PHP, and in open source leadership roles at SugarCRM, OW2, and OpenSocial. With an extensive open source background, he is a regular speaker at various Linux Foundation and other industry trade shows each year. John is also an avid writer and has authored several books, most recently \"Open Source Projects - Beyond Code: A blueprint for scalable and sustainable open source projects\", as well as published articles on IBM Developerworks, Apple Developer Connection, and PHP Architect. "
     linkedin: "https://linkedin.com/in/jmertic"
-  - name: "Magiel Bruntink"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
-    role: "Observer TSC Representative"
-    details:
-    linkedin:
   - name: "Marion Demand"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
     role: "Generic Observer"
     details:
     linkedin:
-  - name: "Maximilian Braun"
-    imgsrc: "https://avatars.githubusercontent.com/u/78038429?v=4"
-    role: "Observer TSC Representative"
-    details:
-    linkedin:
-  - name: "Michael Schmidt"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
-    role: "Observer TSC Representative"
-    details: "SAP. Docker. Kubernetes. Null. Nil. Void"
-    linkedin: "https://linkedin.com/in/michael-schmidt-64714a4a"
-  - name: "Mirza Kopic"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
-    role: "Observer TSC Representative"
-    details:
-    linkedin:
-  - name: "Nicolae Nicora"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/nnicora.png?v=1773696298478"
-    role: "Observer TSC Representative"
-    details:
-    linkedin:
   - name: "Oliver Thylmann"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/othylmann.png?v=1781344198031"
     role: "Generic Observer"
-    details:
+    details: "30 Year Entrepreneur with multiple Exits bringing Cloud Native to Corporations through Giant Swarm. Believer in Open Source, Podcast Co-Host of the german Nerd Show, Compulsive First Adopter and Forward Thinker."
     linkedin:
   - name: "Orlin Vasilev"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/orlinvasilev.png?v=1779180224165"
     role: "Generic Observer"
     details: "Orlin Vasilev is Open Source and Cloud Native Technology Advocate at SAP. Community Manager for Project Harbor and Project K3s as part of the Cloud Native team. ex-SUSE ex-VMware. \n\nSecond term CNCF Ambassador and driving the biggest Meetup Group in Bulgaria and Kubernetes Community Days Sofia organizer.. KubeCon CfP review board member and co-chair for Track 101 and Community. Previously SysAdmin/Dev/SRE/System engineering roles for over 15 years! Located in Bulgaria, Europe! Father of two - a girl and a boy! Passionate snowboarder, DIY and semi-professional BBQ Pitmaster and baker."
     linkedin: "https://linkedin.com/in/orlinvasilev"
-  - name: "Philipp Pracht"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/philipp.pracht.png?v=1767800725397"
-    role: "Observer TSC Representative"
-    details:
-    linkedin:
-  - name: "Priyanka Sakundarwar"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/p.png"
-    role: "Generic Observer"
-    details:
-    linkedin:
-  - name: "Roberto Querio"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/r.png"
-    role: "Observer TSC Representative"
-    details:
-    linkedin:
-  - name: "Simon Heimler"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/simon.heimler.png?v=1766150999407"
-    role: "Observer TSC Representative"
-    details: "Software Architect working at SAP SE on Metadata Strategy, APIs and Events and integration topics.\nTSC Chair for the [Open Resource Discovery](https://open-resource-discovery.github.io/specification/) spec (Linux Foundation)."
-    linkedin:
   - name: "Tristan Scheidemann"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/t.png"
     role: "Generic Observer"
-    details:
-    linkedin:
-  - name: "Uwe Mayer"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/u.png"
-    role: "Observer TSC Representative"
-    details:
+    details: "I was introduced to information technology through C++.  I like scientific computation, as for me it is at the right intersection of mathematics and, ideally, programming close to the hardware.\n\nMany of the problems found in the \"microscopic\" realm, like latency or inter-thread communication on a single chip, you also find in a slightly different formulation in the world of distributed machines.\n\nI am always up for a chat so feel free to reach out!"
     linkedin:
 ---
