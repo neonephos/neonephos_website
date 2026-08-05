@@ -66,7 +66,13 @@ def main():
         committee_url = (
             "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
             "projects/{project_id}/committees/{committee_id}/members"
-            "?$filter=votingstatus%20eq%20Voting%20Rep"
+            "?$filter=votingstatus%20eq%20Voting%20Rep%20and%20appointedby%20eq%20Membership%20Entitlement"
+        ).format(project_id=urlparts[2], committee_id=urlparts[5])
+
+        committee_observer_url = (
+            "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
+            "projects/{project_id}/committees/{committee_id}/members"
+            "?$filter=votingstatus%20eq%20Observer%20and%20appointedby%20eq%20Membership%20Entitlement"
         ).format(project_id=urlparts[2], committee_id=urlparts[5])
 
         alternates_url = (
@@ -74,56 +80,67 @@ def main():
             "projects/{project_id}/committees/{committee_id}/members"
             "?$filter=votingstatus%20eq%20Alternate%20Voting%20Rep"
         ).format(project_id=urlparts[2], committee_id=urlparts[5])
-        
+
         tsc_observers_url = (
             "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
             "projects/{project_id}/committees/{committee_id}/members"
-            "?$filter=votingstatus%20eq%20Observer"
+            "?$filter=votingstatus%20eq%20Observer%20and%20appointedby%20eq%20None"
         ).format(project_id=urlparts[2], committee_id=urlparts[5])
+
         print(tsc_observers_url)
+
         members = []
         alternates = []
         tsc_observers = []
+
         response = requests.get(committee_url).json()
+        committee_observer_response = requests.get(committee_observer_url).json()
         alternates_response = requests.get(alternates_url).json()
         tsc_observers_response = requests.get(tsc_observers_url).json()
 
+        committee_members = []
+
         if response.get("Data", []) is not None:
-            for m in response.get("Data", []):
-                print(f"Processing {m.get('FirstName').title()} {m.get('LastName').title()}...")
-                role = ""
-    
-                if m.get("Role") == "Chair":
-                    role += "Chairperson and "
-    
-                appointed = m.get("AppointedBy")
-                org = m.get("Organization", {}).get("Name")
-    
-                if appointed == "Membership Entitlement":
-                    role += f"{org} Representative"
-                elif appointed == "Vote of General Member Class":
-                    role += "General Member Representative"
-                elif appointed == "Vote of TSC Committee":
-                    role += "Project Representative"
-                elif appointed == "Vote of TAC Committee":
-                    role += "TAC Representative"
-    
-                members.append({
-                    "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
-                    "imgsrc": m.get("LogoURL"),
-                    "role": role,
-                    "details": m.get("AboutMe", {}).get("Description"),
-                    "linkedin": m.get("AboutMe", {}).get("LinkedIn")
-                })
+            committee_members.extend(response.get("Data", []))
+
+        if committee_observer_response.get("Data", []) is not None:
+            committee_members.extend(committee_observer_response.get("Data", []))
+
+        for m in committee_members:
+            print(f"Processing {m.get('FirstName').title()} {m.get('LastName').title()}...")
+            role = ""
+
+            if m.get("Role") == "Chair":
+                role += "Chairperson and "
+
+            appointed = m.get("AppointedBy")
+            org = m.get("Organization", {}).get("Name")
+
+            if appointed == "Membership Entitlement":
+                role += f"{org} Representative"
+            elif appointed == "Vote of General Member Class":
+                role += "General Member Representative"
+            elif appointed == "Vote of TSC Committee":
+                role += "Project Representative"
+            elif appointed == "Vote of TAC Committee":
+                role += "TAC Representative"
+
+            members.append({
+                "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
+                "imgsrc": m.get("LogoURL"),
+                "role": role,
+                "details": m.get("AboutMe", {}).get("Description"),
+                "linkedin": m.get("AboutMe", {}).get("LinkedIn")
+            })
 
         if alternates_response.get("Data", []) is not None:
             for m in alternates_response.get("Data", []):
                 print(f"Processing alternate {m.get('FirstName').title()} {m.get('LastName').title()}...")
                 role = "Alternate "
-    
+
                 appointed = m.get("AppointedBy")
                 org = m.get("Organization", {}).get("Name")
-    
+
                 if appointed == "Membership Entitlement":
                     role += f"{org} Representative"
                 elif appointed == "Vote of General Member Class":
@@ -132,7 +149,7 @@ def main():
                     role += "Project Representative"
                 elif appointed == "Vote of TAC Committee":
                     role += "TAC Representative"
-    
+
                 alternates.append({
                     "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
                     "imgsrc": m.get("LogoURL"),
@@ -145,15 +162,15 @@ def main():
             for m in tsc_observers_response.get("Data", []):
                 print(f"Processing observer {m.get('FirstName').title()} {m.get('LastName').title()}...")
                 role = "Observer "
-    
+
                 appointed = m.get("AppointedBy")
                 org = m.get("Organization", {}).get("Name")
-    
+
                 if appointed == "Vote of TSC Committee":
                     role += f"TSC Representative"
                 else:
                     role = "Generic Observer"
-    
+
                 tsc_observers.append({
                     "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
                     "imgsrc": m.get("LogoURL"),
@@ -165,7 +182,7 @@ def main():
         post["members"] = members
         post["alternates"] = alternates
         post["observers"] = tsc_observers
-        
+
     # Save with ordered keys preserved
     dump_ordered_frontmatter(post, args.filename)
 
