@@ -120,6 +120,7 @@ export default defineConfig({
       { icon: 'linkedin', link: 'https://www.linkedin.com/company/neonephos-foundation' },
       { icon: 'zulip', link: 'https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion/topic/channel.20events/with/558483910' },
       { icon: 'github', link: 'https://github.com/neonephos' },
+      { icon: 'rss', link: 'https://neonephos.org/feeds/blog/rss.xml' },
       { icon: 'youtube', link: 'https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw' },
     ],
 
