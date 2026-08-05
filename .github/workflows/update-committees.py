@@ -75,6 +75,12 @@ def main():
             "?$filter=votingstatus%20eq%20Observer%20and%20appointedby%20eq%20Membership%20Entitlement"
         ).format(project_id=urlparts[2], committee_id=urlparts[5])
 
+        committee_tsc_url = (
+            "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
+            "projects/{project_id}/committees/{committee_id}/members"
+            "?$filter=appointedby%20eq%20Vote%20of%20TSC%20Committee"
+        ).format(project_id=urlparts[2], committee_id=urlparts[5])
+
         alternates_url = (
             "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
             "projects/{project_id}/committees/{committee_id}/members"
@@ -95,6 +101,7 @@ def main():
 
         response = requests.get(committee_url).json()
         committee_observer_response = requests.get(committee_observer_url).json()
+        committee_tsc_response = requests.get(committee_tsc_url).json()
         alternates_response = requests.get(alternates_url).json()
         tsc_observers_response = requests.get(tsc_observers_url).json()
 
@@ -105,6 +112,9 @@ def main():
 
         if committee_observer_response.get("Data", []) is not None:
             committee_members.extend(committee_observer_response.get("Data", []))
+
+        if committee_tsc_response.get("Data", []) is not None:
+            committee_members.extend(committee_tsc_response.get("Data", []))
 
         for m in committee_members:
             print(f"Processing {m.get('FirstName').title()} {m.get('LastName').title()}...")
