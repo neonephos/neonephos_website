@@ -64,9 +64,10 @@ def main():
         and urlparts[4] == "committees"
     ):
         committee_url = (
-            "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
-            "projects/{project_id}/committees/{committee_id}/members"
-            "?$filter=votingstatus%20eq%20Voting%20Rep%20and%20appointedby%20eq%20Membership%20Entitlement"
+           "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
+     "projects/{project_id}/committees/{committee_id}/members"
+     "?$filter=(votingstatus%20eq%20Voting%20Rep%20and%20appointedby%20eq%20Membership%20Entitlement)"
+    "%20or%20(votingstatus%20eq%20Voting%20Rep%20and%20appointedby%20eq%20Vote%20of%20TAC%20Committee)"
         ).format(project_id=urlparts[2], committee_id=urlparts[5])
 
         committee_observer_url = (
