@@ -23,6 +23,11 @@ members:
     role: "T-Systems International GmbH Representative"
     details:
     linkedin:
+  - name: "Florian Müller"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/fmui.png?v=1751357995611"
+    role: "Chairperson and TAC Representative"
+    details: "Software Architect and Technical Project Manager at SAP with over 25 years of experience in enterprise software development, including more than 20 years in architecture and 15+ years in cloud development.\nI have served as both member and chair of several international and cross-company initiatives, industry standards bodies, and open-source projects. I also speak at conferences and actively mentor engineers and architects."
+    linkedin: "https://linkedin.com/in/florianmueller"
   - name: "Andre Russ"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/gehoern.png?v=1774619265634"
     role: "Project Representative"
@@ -160,4 +165,9 @@ observers:
     role: "Generic Observer"
     details: "Orlin Vasilev is Open Source and Cloud Native Technology Advocate at SAP. Community Manager for Project Harbor and Project K3s as part of the Cloud Native team. ex-SUSE ex-VMware. \n\nSecond term CNCF Ambassador and driving the biggest Meetup Group in Bulgaria and Kubernetes Community Days Sofia organizer.. KubeCon CfP review board member and co-chair for Track 101 and Community. Previously SysAdmin/Dev/SRE/System engineering roles for over 15 years! Located in Bulgaria, Europe! Father of two - a girl and a boy! Passionate snowboarder, DIY and semi-professional BBQ Pitmaster and baker."
     linkedin: "https://linkedin.com/in/orlinvasilev"
+  - name: "Tristan Scheidemann"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/t.png"
+    role: "Generic Observer"
+    details: "I was introduced to information technology through C++.  I like scientific computation, as for me it is at the right intersection of mathematics and, ideally, programming close to the hardware.\n\nMany of the problems found in the \"microscopic\" realm, like latency or inter-thread communication on a single chip, you also find in a slightly different formulation in the world of distributed machines.\n\nI am always up for a chat so feel free to reach out!"
+    linkedin:
 ---
