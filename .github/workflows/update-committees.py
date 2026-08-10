@@ -63,11 +63,19 @@ def main():
         and urlparts[3] == "collaboration"
         and urlparts[4] == "committees"
     ):
-        committee_url = (
+        committee_membership_url = (
             "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
             "projects/{project_id}/committees/{committee_id}/members"
-            "?$filter=(votingstatus%20eq%20'Voting%20Rep'%20and%20appointedby%20eq%20'Membership%20Entitlement')"
-            "%20or%20(votingstatus%20eq%20'Voting%20Rep'%20and%20appointedby%20eq%20'Vote%20of%20TAC%20Committee')"
+            "?$filter=votingstatus%20eq%20Voting%20Rep%20and%20appointedby%20eq%20Membership%20Entitlement"
+        ).format(
+            project_id=urlparts[2],
+            committee_id=urlparts[5]
+        )
+
+        committee_tac_url = (
+            "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
+            "projects/{project_id}/committees/{committee_id}/members"
+            "?$filter=votingstatus%20eq%20Voting%20Rep%20and%20appointedby%20eq%20Vote%20of%20TAC%20Committee"
         ).format(
             project_id=urlparts[2],
             committee_id=urlparts[5]
@@ -103,7 +111,8 @@ def main():
         alternates = []
         tsc_observers = []
 
-        response = requests.get(committee_url).json()
+        committee_membership_response = requests.get(committee_membership_url).json()
+        committee_tac_response = requests.get(committee_tac_url).json()
         committee_observer_response = requests.get(committee_observer_url).json()
         committee_tsc_response = requests.get(committee_tsc_url).json()
         alternates_response = requests.get(alternates_url).json()
@@ -111,13 +120,16 @@ def main():
 
         committee_members = []
 
-        if response.get("Data", []) is not None:
-            committee_members.extend(response.get("Data", []))
+        if committee_membership_response.get("Data"):
+            committee_members.extend(committee_membership_response.get("Data", []))
 
-        if committee_observer_response.get("Data", []) is not None:
+        if committee_tac_response.get("Data"):
+            committee_members.extend(committee_tac_response.get("Data", []))
+
+        if committee_observer_response.get("Data"):
             committee_members.extend(committee_observer_response.get("Data", []))
 
-        if committee_tsc_response.get("Data", []) is not None:
+        if committee_tsc_response.get("Data"):
             committee_members.extend(committee_tsc_response.get("Data", []))
 
         for m in committee_members:
@@ -181,7 +193,7 @@ def main():
                 org = m.get("Organization", {}).get("Name")
 
                 if appointed == "Vote of TSC Committee":
-                    role += f"TSC Representative"
+                    role += "TSC Representative"
                 else:
                     role = "Generic Observer"
 
