@@ -10,6 +10,14 @@ rssPubDate: "2026-08-10"
 published: true
 ---
 
-# NeoNephos at Container Days in Hamburg
+## ContainerDays Conference 2026
 
-Add text here.
+**ContainerDays Conference** returns to Hamburg from **September 8-10, 2026**, bringing together the cloud-native community for three days of learning, networking, and technical exchange.
+
+The conference focuses on **Kubernetes, Containers, DevOps, Cloud Native, and Platform Engineering**, featuring hands-on sessions, technical talks, and discussions with industry experts and practitioners. 
+
+We are also pleased to see **NeoNephos Ambassador Abubakar Siddiq Ango** contributing to the event as a speaker. In addition, attendees will be able to find **NeoNephos merchandise at the SVA booth** throughout the conference. 
+
+Whether you're a developer, platform engineer, infrastructure operator, or open-source contributor, ContainerDays offers an opportunity to connect with the community and explore the latest developments across the cloud-native ecosystem.
+🔗 Learn more and register:
+https://www.containerdays.io/containerdays-hamburg-2026/
