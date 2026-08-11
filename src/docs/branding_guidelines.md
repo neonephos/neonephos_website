@@ -19,5 +19,5 @@ tiles:
   - title: Branding Guidelines
     details: How to use our brand assets.
     linkText: Download PDF
-    linkUrl: "http://neonephos.org/assets/downloads/NNF_Brand_Guidebook.pdf"
+    linkUrl: https://neonephos.org/assets/downloads/NNF_Brand_Guidebook.pdf
 ---
