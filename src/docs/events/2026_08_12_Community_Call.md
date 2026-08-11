@@ -11,7 +11,8 @@ published: true
 
 # NeoNephos August Community Call
 
-On August 12th we again bring together the NeoNephos community in our Community Call! The Agenda is yet to be determined. We'll update ASAP.
+On August 12th we again bring together the NeoNephos community in our Community Call! 
+This month's Call will feature a presentation by **Maximilian Techritz on Open Control Plane**, including an introduction to the project, its goals, and its place within the cloud-native ecosystem.
 
 **Zoom Session Link**
 
