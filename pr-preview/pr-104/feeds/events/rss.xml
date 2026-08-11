@@ -635,7 +635,8 @@ wherever you host.</li>
     <guid>https://neonephos.org/events/2026_08_12_Community_Call</guid>
     <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20260812_community_call_banner.svg" alt="NeoNephos Community Call banner" /></p><h1 id="neonephos-august-community-call" tabindex="-1">NeoNephos August Community Call <a class="header-anchor" href="#neonephos-august-community-call" aria-label="Permalink to &quot;NeoNephos August Community Call&quot;">&ZeroWidthSpace;</a></h1>
-<p>On August 12th we again bring together the NeoNephos community in our Community Call! The Agenda is yet to be determined. We'll update ASAP.</p>
+<p>On August 12th we again bring together the NeoNephos community in our Community Call!
+This month's Call will feature a presentation by <strong>Maximilian Techritz on Open Control Plane</strong>, including an introduction to the project, its goals, and its place within the cloud-native ecosystem.</p>
 <p><strong>Zoom Session Link</strong></p>
 <p><a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8" target="_blank" rel="noreferrer">https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8</a></p>
 <p><a href="https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7" target="_blank" rel="noreferrer">Download the iCal file to add this meeting to your calendar.</a></p>
@@ -682,8 +683,13 @@ wherever you host.</li>
     <link>https://neonephos.org/events/2026_09_02_Container_Days_Hamburg</link>
     <guid>https://neonephos.org/events/2026_09_02_Container_Days_Hamburg</guid>
     <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20260902_container_days_hamburg_banner.svg" alt="Container Days Hamburg banner" /></p><h1 id="neonephos-at-container-days-in-hamburg" tabindex="-1">NeoNephos at Container Days in Hamburg <a class="header-anchor" href="#neonephos-at-container-days-in-hamburg" aria-label="Permalink to &quot;NeoNephos at Container Days in Hamburg&quot;">&ZeroWidthSpace;</a></h1>
-<p>Add text here.</p>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20260902_container_days_hamburg_banner.svg" alt="Container Days Hamburg banner" /></p><h2 id="containerdays-conference-2026" tabindex="-1">ContainerDays Conference 2026 <a class="header-anchor" href="#containerdays-conference-2026" aria-label="Permalink to &quot;ContainerDays Conference 2026&quot;">&ZeroWidthSpace;</a></h2>
+<p><strong>ContainerDays Conference</strong> returns to Hamburg from <strong>September 8-10, 2026</strong>, bringing together the cloud-native community for three days of learning, networking, and technical exchange.</p>
+<p>The conference focuses on <strong>Kubernetes, Containers, DevOps, Cloud Native, and Platform Engineering</strong>, featuring hands-on sessions, technical talks, and discussions with industry experts and practitioners.</p>
+<p>We are also pleased to see <strong>NeoNephos Ambassador Abubakar Siddiq Ango</strong> contributing to the event as a speaker. In addition, attendees will be able to find <strong>NeoNephos merchandise at the SVA booth</strong> throughout the conference.</p>
+<p>Whether you're a developer, platform engineer, infrastructure operator, or open-source contributor, ContainerDays offers an opportunity to connect with the community and explore the latest developments across the cloud-native ecosystem.
+🔗 Learn more and register:
+<a href="https://www.containerdays.io/containerdays-hamburg-2026/" target="_blank" rel="noreferrer">https://www.containerdays.io/containerdays-hamburg-2026/</a></p>
 ]]></description>
   </item>
   <item>
