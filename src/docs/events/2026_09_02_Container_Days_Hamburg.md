@@ -19,5 +19,6 @@ The conference focuses on **Kubernetes, Containers, DevOps, Cloud Native, and Pl
 We are also pleased to see **NeoNephos Ambassador Abubakar Siddiq Ango** contributing to the event as a speaker. In addition, attendees will be able to find **NeoNephos merchandise at the SVA booth** throughout the conference. 
 
 Whether you're a developer, platform engineer, infrastructure operator, or open-source contributor, ContainerDays offers an opportunity to connect with the community and explore the latest developments across the cloud-native ecosystem.
+
 🔗 Learn more and register:
 https://www.containerdays.io/containerdays-hamburg-2026/
