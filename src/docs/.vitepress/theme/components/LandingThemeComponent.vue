@@ -213,6 +213,17 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     overflow: hidden;
   }
 
+  @media screen and (max-width: 699px) {
+  .logo-background {
+    background: url('/assets/neonephos_landing_page_banner_mobile.svg') no-repeat center top;
+    background-size: cover;
+    background-color: #002b80;
+    padding: 4rem 2rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+
   .logo-background::before {
     content: '';
     position: absolute;
