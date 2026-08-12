@@ -257,6 +257,11 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
   .logo-background .home-hero__content {
     background: transparent;
   }
+  .home-hero__metric_wrapper span {
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
 }
 .section-divider {
   display: flex;
