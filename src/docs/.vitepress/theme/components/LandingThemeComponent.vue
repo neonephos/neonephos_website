@@ -202,9 +202,9 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
   background: var(--vp-c-bg);
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 699px) {
   .logo-background {
-    background: url('/assets/neonephos_landing_page_banner.svg') no-repeat center top;
+    background: url('/assets/neonephos_landing_page_banner_mobile.svg') no-repeat center top;
     background-size: cover;
     background-color: #002b80;
     padding: 4rem 2rem;
@@ -213,9 +213,20 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     overflow: hidden;
   }
 
-  @media screen and (max-width: 699px) {
+  
+  .logo-background::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3); /* Optional contrast overlay */
+    z-index: 0;
+  }
+
+}
+
+@media screen and (min-width: 700px) {
   .logo-background {
-    background: url('/assets/neonephos_landing_page_banner_mobile.svg') no-repeat center top;
+    background: url('/assets/neonephos_landing_page_banner.svg') no-repeat center top;
     background-size: cover;
     background-color: #002b80;
     padding: 4rem 2rem;
