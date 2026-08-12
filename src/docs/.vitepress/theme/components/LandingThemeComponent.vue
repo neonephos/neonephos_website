@@ -253,14 +253,9 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
   }
 }
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 700px) {
   .logo-background .home-hero__content {
     background: transparent;
-  }
-  .home-hero__metric_wrapper span {
-    color: white;
-    position: relative;
-    z-index: 1;
   }
 }
 .section-divider {
