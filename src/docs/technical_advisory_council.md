@@ -63,6 +63,11 @@ members:
     role: "Project Representative"
     details:
     linkedin:
+  - name: "Meng Li Wong"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
+    role: "Project Representative"
+    details:
+    linkedin:
   - name: "Michael Schmidt"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
     role: "Project Representative"
