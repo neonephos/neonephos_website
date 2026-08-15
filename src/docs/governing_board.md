@@ -33,6 +33,11 @@ members:
     role: "TAC Representative"
     details: "Software Architect and Technical Project Manager at SAP with over 25 years of experience in enterprise software development, including more than 20 years in architecture and 15+ years in cloud development.\nI have served as both member and chair of several international and cross-company initiatives, industry standards bodies, and open-source projects. I also speak at conferences and actively mentor engineers and architects."
     linkedin: "https://linkedin.com/in/florianmueller"
+  - name: "Christian Berendt"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/berendtc.png?v=1770141001931"
+    role: "General Member Representative"
+    details:
+    linkedin:
 alternates:
   - name: "Christian Neu"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/christianneu.png?v=1753082958532"
