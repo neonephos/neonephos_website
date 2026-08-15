@@ -36,7 +36,7 @@ members:
   - name: "Michael Kambeck"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/michaelkambeck.png?v=1785329384475"
     role: "SVA System Vertrieb Alexander GmbH Representative"
-    details:
+    details: "Michael Kambeck is Team Lead Cloud Development at SVA System Vertrieb Alexander GmbH’s Competence Center Software Development in Cologne, Germany. Together with his team, he focuses on the design and delivery of modern cloud and DevOps solutions, drawing on nearly two decades of experience in enterprise IT.\n\nHis professional journey began in infrastructure, application and server administration, and automation, before evolving into software development. Since joining SVA nine years ago, he has focused on scalable platform architectures, hybrid and cloud-native application development, automation, secure cloud operating models, and open source technologies. His work centres on helping organisations build and operate modern platforms that combine enterprise requirements with open, cloud-native approaches."
     linkedin:
   - name: "Oliver Thylmann"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/othylmann.png?v=1781344198031"
