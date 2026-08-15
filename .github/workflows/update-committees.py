@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 import argparse
-import requests
 import io
 from urllib.parse import urlparse
 
 import frontmatter
 from frontmatter import Post
+import requests
 from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import DoubleQuotedScalarString
 
@@ -14,6 +14,7 @@ yaml = YAML()
 yaml.preserve_quotes = True
 yaml.indent(mapping=2, sequence=4, offset=2)
 yaml.width = 10**9
+
 
 def force_quotes(value):
     """Convert all strings in a structure to double-quoted scalars."""
@@ -24,6 +25,7 @@ def force_quotes(value):
     elif isinstance(value, str):
         return DoubleQuotedScalarString(value)
     return value
+
 
 def load_ordered_frontmatter(path):
     with io.open(path, "r", encoding="utf8") as f:
@@ -37,6 +39,7 @@ def load_ordered_frontmatter(path):
     metadata = yaml.load(fm_text) or {}
     return Post(content=body.lstrip(), **metadata)
 
+
 def dump_ordered_frontmatter(post, path):
     data = force_quotes(post.metadata)
 
@@ -45,6 +48,7 @@ def dump_ordered_frontmatter(post, path):
         yaml.dump(data, f)
         f.write("---\n")
         f.write(post.content)
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -67,19 +71,19 @@ def main():
             "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
             "projects/{project_id}/committees/{committee_id}/members"
             "?$filter=votingstatus%20eq%20Voting%20Rep%20and%20appointedby%20eq%20Membership%20Entitlement"
-        ).format(
-            project_id=urlparts[2],
-            committee_id=urlparts[5]
-        )
+        ).format(project_id=urlparts[2], committee_id=urlparts[5])
 
         committee_tac_url = (
             "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
             "projects/{project_id}/committees/{committee_id}/members"
             "?$filter=votingstatus%20eq%20Voting%20Rep%20and%20appointedby%20eq%20Vote%20of%20TAC%20Committee"
-        ).format(
-            project_id=urlparts[2],
-            committee_id=urlparts[5]
-        )
+        ).format(project_id=urlparts[2], committee_id=urlparts[5])
+
+        committee_general_url = (
+            "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
+            "projects/{project_id}/committees/{committee_id}/members"
+            "?$filter=votingstatus%20eq%20Voting%20Rep%20and%20appointedby%20eq%20Vote%20of%20General%20Member%20Class"
+        ).format(project_id=urlparts[2], committee_id=urlparts[5])
 
         committee_observer_url = (
             "https://api-gw.platform.linuxfoundation.org/project-service/v2/public/"
@@ -111,9 +115,14 @@ def main():
         alternates = []
         tsc_observers = []
 
-        committee_membership_response = requests.get(committee_membership_url).json()
+        committee_membership_response = requests.get(
+            committee_membership_url
+        ).json()
         committee_tac_response = requests.get(committee_tac_url).json()
-        committee_observer_response = requests.get(committee_observer_url).json()
+        committee_general_response = requests.get(committee_general_url).json()
+        committee_observer_response = requests.get(
+            committee_observer_url
+        ).json()
         committee_tsc_response = requests.get(committee_tsc_url).json()
         alternates_response = requests.get(alternates_url).json()
         tsc_observers_response = requests.get(tsc_observers_url).json()
@@ -121,19 +130,30 @@ def main():
         committee_members = []
 
         if committee_membership_response.get("Data"):
-            committee_members.extend(committee_membership_response.get("Data", []))
+            committee_members.extend(
+                committee_membership_response.get("Data", [])
+            )
 
         if committee_tac_response.get("Data"):
             committee_members.extend(committee_tac_response.get("Data", []))
 
+        if committee_general_response.get("Data"):
+            committee_members.extend(
+                committee_general_response.get("Data", [])
+            )
+
         if committee_observer_response.get("Data"):
-            committee_members.extend(committee_observer_response.get("Data", []))
+            committee_members.extend(
+                committee_observer_response.get("Data", [])
+            )
 
         if committee_tsc_response.get("Data"):
             committee_members.extend(committee_tsc_response.get("Data", []))
 
         for m in committee_members:
-            print(f"Processing {m.get('FirstName').title()} {m.get('LastName').title()}...")
+            print(
+                f"Processing {m.get('FirstName').title()} {m.get('LastName').title()}..."
+            )
             role = ""
 
             if m.get("Role") == "Chair":
@@ -152,16 +172,20 @@ def main():
                 role += "TAC Representative"
 
             members.append({
-                "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
+                "name": (
+                    f"{m.get('FirstName').title()} {m.get('LastName').title()}"
+                ),
                 "imgsrc": m.get("LogoURL"),
                 "role": role,
                 "details": m.get("AboutMe", {}).get("Description"),
-                "linkedin": m.get("AboutMe", {}).get("LinkedIn")
+                "linkedin": m.get("AboutMe", {}).get("LinkedIn"),
             })
 
         if alternates_response.get("Data", []) is not None:
             for m in alternates_response.get("Data", []):
-                print(f"Processing alternate {m.get('FirstName').title()} {m.get('LastName').title()}...")
+                print(
+                    f"Processing alternate {m.get('FirstName').title()} {m.get('LastName').title()}..."
+                )
                 role = "Alternate "
 
                 appointed = m.get("AppointedBy")
@@ -177,16 +201,20 @@ def main():
                     role += "TAC Representative"
 
                 alternates.append({
-                    "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
+                    "name": (
+                        f"{m.get('FirstName').title()} {m.get('LastName').title()}"
+                    ),
                     "imgsrc": m.get("LogoURL"),
                     "role": role,
                     "details": m.get("AboutMe", {}).get("Description"),
-                    "linkedin": m.get("AboutMe", {}).get("LinkedIn")
+                    "linkedin": m.get("AboutMe", {}).get("LinkedIn"),
                 })
 
         if tsc_observers_response.get("Data", []) is not None:
             for m in tsc_observers_response.get("Data", []):
-                print(f"Processing observer {m.get('FirstName').title()} {m.get('LastName').title()}...")
+                print(
+                    f"Processing observer {m.get('FirstName').title()} {m.get('LastName').title()}..."
+                )
                 role = "Observer "
 
                 appointed = m.get("AppointedBy")
@@ -198,11 +226,13 @@ def main():
                     role = "Generic Observer"
 
                 tsc_observers.append({
-                    "name": f"{m.get('FirstName').title()} {m.get('LastName').title()}",
+                    "name": (
+                        f"{m.get('FirstName').title()} {m.get('LastName').title()}"
+                    ),
                     "imgsrc": m.get("LogoURL"),
                     "role": role,
                     "details": m.get("AboutMe", {}).get("Description"),
-                    "linkedin": m.get("AboutMe", {}).get("LinkedIn")
+                    "linkedin": m.get("AboutMe", {}).get("LinkedIn"),
                 })
 
         post["members"] = members
@@ -211,6 +241,7 @@ def main():
 
     # Save with ordered keys preserved
     dump_ordered_frontmatter(post, args.filename)
+
 
 if __name__ == "__main__":
     main()
