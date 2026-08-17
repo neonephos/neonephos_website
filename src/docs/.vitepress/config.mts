@@ -84,6 +84,7 @@ export default defineConfig({
         text: 'Community',
         items: [
           { text: 'Events', link: '/events'},
+          { text: 'Gardener Hackathons', link: 'https://gardener.cloud/community/hackathons/'},
           { text: 'Blog', link: '/blog'},
           { text: 'Mailing Lists', link: 'https://lists.neonephos.org/g/main/subgroups' },
           { text: 'Artwork & Branding', link: '/branding_guidelines' },
