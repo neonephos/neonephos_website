@@ -70,10 +70,6 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
 
 </template>
 
-
-
-
-
 <style scoped>
 
 .kubecon-banner {
@@ -136,7 +132,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
 
 .home-hero__description {
   font-size: 14px;
-  color: #444;
+  color: white;
   margin-bottom: 2rem;
   max-width: 700px;
 }
@@ -172,13 +168,13 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
 .home-hero__metric_wrapper li {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #333;
+  color: white;
 }
 
 .home-hero__metric_wrapper span {
   display: block;
   font-size: 0.875rem;
-  color: #666;
+  color: white;
   margin-top: 0.25rem;
 }
 
@@ -212,6 +208,11 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     z-index: 1;
     overflow: hidden;
   }
+
+  .home-hero__content {
+    background: none;
+  }
+
 
   
   .logo-background::before {
