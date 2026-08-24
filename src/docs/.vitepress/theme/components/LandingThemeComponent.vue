@@ -31,8 +31,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     </section>
   </div>
 <a href="https://www.https://www.containerdays.io/containerdays-hamburg-2026/" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20260902_container_days_hamburg_banner_wide.svg')" alt="Container Days Hamburg" /> </a>
-<a href="https://www.research.net/r/ZGV3ZMC" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/world_of_os_2026_survey_banner.png')" alt="Open Source Survey" /> </a>
-  
+
   <section class="home-tiles__section">
     <div class="container wrap">
            <LandingTilesThemeComponent
