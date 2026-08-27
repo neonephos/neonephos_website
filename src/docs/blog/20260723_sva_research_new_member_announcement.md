@@ -10,7 +10,7 @@ tags:
     
 published: true
 ---
-# SVA Research joins NeoNephos as a General Member
+# SVA joins NeoNephos as a General Member
 
 We are pleased to welcome SVA as a General Member of the NeoNephos Foundation.
 SVA is one of Germany's leading system integrators, supporting organizations in the design, implementation, and operation of modern IT infrastructures. With expertise spanning cloud technologies, data management, digital workplace solutions, IT security, and application development, SVA helps customers build and operate reliable and future-ready digital platforms.
