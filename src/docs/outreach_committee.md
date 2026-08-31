@@ -19,7 +19,7 @@ members:
     details:
     linkedin:
   - name: "Tristan Scheidemann"
-    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/t.png"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/tristans.png?v=1788174290734"
     role: "SAP SE Representative"
     details: "I was introduced to information technology through C++.  I like scientific computation, as for me it is at the right intersection of mathematics and, ideally, programming close to the hardware.\n\nMany of the problems found in the \"microscopic\" realm, like latency or inter-thread communication on a single chip, you also find in a slightly different formulation in the world of distributed machines.\n\nI am always up for a chat so feel free to reach out!"
     linkedin:
