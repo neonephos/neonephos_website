@@ -27,7 +27,7 @@ This year's event features several contributions from members of the NeoNephos e
 
 🕘 9:45 am - 10:20 am
 
-📍 Main Track - Room 2
+📍 Main Track - Room 1
 
 This session explores how sovereignty and openness can reinforce one another rather than being treated as opposing goals. Drawing on experiences from NeoNephos and sovereign cloud initiatives, the speakers will discuss resilience, supply-chain trust, interoperability, and open collaboration.
  
@@ -36,9 +36,18 @@ This session explores how sovereignty and openness can reinforce one another rat
 
 🕥 10:30 am - 11:05 am
 
-📍 Platform Engineering Track - Room 1
+📍 Platform Engineering Track - Room 2
 
 NeoNephos Ambassador Abubakar Siddiq Ango will share insights from his experience in the cloud-native community and discuss the role of open collaboration in shaping the future of cloud-native ecosystems.
+
+### One Platform Could Not Fit Them All
+**Artem Lajko** and **Annika Opitz**
+
+🕙 15:15 pm - 15:45 pm
+
+📍 Platform Engineering Track - Room 2
+
+Drawing from real-world experience, the speakers share lessons learned from building an open-source platform framework that balances standardization and autonomy across multiple platform teams and large-scale environments.
 
  
 ### September 3
@@ -52,19 +61,7 @@ NeoNephos Ambassador Abubakar Siddiq Ango will share insights from his experienc
 
 This talk presents an approach to building portable and provider-agnostic cloud APIs based on open standards, Kubernetes-native technologies, kcp, and Platform Mesh. The session demonstrates how sovereign cloud services can remain interoperable across different infrastructures.
 
- 
-### September 4
 
-### One Platform Could Not Fit Them All
-
-**Artem Lajko** and **Annika Opitz**
-
-🕙 10:15 am - 10:50 am
-
-📍 Platform Engineering Track - Room 2
- 
-
-Drawing from real-world experience, the speakers share lessons learned from building an open-source platform framework that balances standardization and autonomy across multiple platform teams and large-scale environments.
 
 
 **Whether you're a developer, platform engineer, infrastructure operator, or open-source contributor, ContainerDays offers an opportunity to connect with the community and explore the latest developments across the cloud-native ecosystem.**
