@@ -10,7 +10,9 @@ rssPubDate: "2026-09-01"
 published: true
 ---
 
-## Bitkom 2026
+## Bitkom - Forum Open Source 2026
+"Open Source - Open Values"
+
 please fill out
 
 
