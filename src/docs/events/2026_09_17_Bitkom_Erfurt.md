@@ -18,11 +18,11 @@ The 12th edition of one of Germany's key events for the open source community br
 Christian Neu and Florian Müller will be there representing the NeoNephos Foundation, with a talk on 'Open Source as a European Ecosystem: How NeoNephos Strengthens Digital Sovereignty'. 
 Come find us. We'd love to connect!
 
-*Die 12. Ausgabe eines der wichtigsten deutschen Events für die Open-Source-Community bringt Stimmen aus Wirtschaft, Politik, Verwaltung und der Open-Source-Community zusammen. Das diesjährige Motto — „Open Source – Open Values" — stellt die entscheidende Frage in den Mittelpunkt: Wofür steht Open Source eigentlich und welchen konkreten Mehrwert schaffen offene Ökosysteme für Wirtschaft und Gesellschaft?
+*Die 12. Ausgabe eines der wichtigsten deutschen Events für die Open-Source-Community bringt Stimmen aus Wirtschaft, Politik, Verwaltung und der Open-Source-Community zusammen. Das diesjährige Motto — „Open Source – Open Values" — stellt die entscheidende Frage in den Mittelpunkt: Wofür steht Open Source eigentlich und welchen konkreten Mehrwert schaffen offene Ökosysteme für Wirtschaft und Gesellschaft?*
 
-Christian Neu und Florian Müller werden die NeoNephos Foundation vertreten, mit einem Talk zu 'Open Source als europäisches Ökosystem: Wie NeoNephos digitale Souveränität stärkt'.
+*Christian Neu und Florian Müller werden die NeoNephos Foundation vertreten, mit einem Talk zu 'Open Source als europäisches Ökosystem: Wie NeoNephos digitale Souveränität stärkt'.*
 
-Kommt vorbei — wir freuen uns auf den Austausch mit euch!*
+*Kommt vorbei — wir freuen uns auf den Austausch mit euch!*
 
 
 🔗 Learn more and register:
