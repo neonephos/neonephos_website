@@ -5,7 +5,7 @@ banner: "assets/events/20260917_bitkom_erfurt_banner.svg"
 bannerMobile: "assets/events/20260917_bitkom_erfurt_banner_mobile.svg"
 bannerSmall: "assets/events/20260917_bitkom_erfurt_banner_small.svg"
 backgroundhex: "#889aa4ff"
-tags: ["neonephos", "container-days"]
+tags: ["neonephos", "bitkom"]
 rssPubDate: "2026-09-01"
 published: true
 ---
@@ -20,7 +20,7 @@ Come find us. We'd love to connect!
 
 *Die 12. Ausgabe eines der wichtigsten deutschen Events für die Open-Source-Community bringt Stimmen aus Wirtschaft, Politik, Verwaltung und der Open-Source-Community zusammen. Das diesjährige Motto — „Open Source – Open Values" — stellt die entscheidende Frage in den Mittelpunkt: Wofür steht Open Source eigentlich und welchen konkreten Mehrwert schaffen offene Ökosysteme für Wirtschaft und Gesellschaft?
 
-Christian Neu und Florian Müller werden die NeoNephos Foundation vertreten, mit einem Talk zu „Open Source as a European Ecosystem: How NeoNephos Strengthens Digital Sovereignty".
+Christian Neu und Florian Müller werden die NeoNephos Foundation vertreten, mit einem Talk zu 'Open Source als europäisches Ökosystem: Wie NeoNephos digitale Souveränität stärkt'.
 
 Kommt vorbei — wir freuen uns auf den Austausch mit euch!*
 
