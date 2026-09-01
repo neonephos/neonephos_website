@@ -125,6 +125,11 @@ alternates:
     details:
     linkedin:
 observers:
+  - name: "Artem Kovalov"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/a.png"
+    role: "Generic Observer"
+    details:
+    linkedin:
   - name: "Christian Neu"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/christianneu.png?v=1753082958532"
     role: "Generic Observer"
@@ -159,6 +164,11 @@ observers:
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/m.png"
     role: "Generic Observer"
     details:
+    linkedin:
+  - name: "Maximilian Techritz"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/maximilian.techritz.png?v=1765375283647"
+    role: "Generic Observer"
+    details: "Software Engineer & Developer Advocate at Open Managed Control Planes"
     linkedin:
   - name: "Oliver Thylmann"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/othylmann.png?v=1781344198031"
