@@ -30,7 +30,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
       </div>
     </section>
   </div>
-<a href="https://www.https://www.containerdays.io/containerdays-hamburg-2026/" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20260902_container_days_hamburg_banner_wide.svg')" alt="Container Days Hamburg" /> </a>
+<a href="https://www.https://www.bitkom.org/Forum-Open-Source-2026/“ class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20260902_container_days_hamburg_banner_wide.svg')" alt=“Bitkom Erfurt" /> </a>
 
   <section class="home-tiles__section">
     <div class="container wrap">
