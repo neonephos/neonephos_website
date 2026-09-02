@@ -1,6 +1,6 @@
 # Welcome to the LF NeoNephos Website Repository 
 
-:wave: Welcome to the GitHub presence of the [NeoNephos Foundation's website](https://neonephos.org).
+:wave: Welcome to the GitHub presence of the [NeoNephos Foundation's website](https://neonephos.org)!
 
 ## What is the purpose of this repository?
 
