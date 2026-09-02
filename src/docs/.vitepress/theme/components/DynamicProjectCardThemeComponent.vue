@@ -18,8 +18,8 @@ const props = defineProps<{
 }>()
 
 const tagColorMap: Record<string, string> = {
-  application: "#d1e8ff",
-  data: "#ffe4d1",
+  application: "#ff6c35",
+  data: "#ffcc00",
   ai: "#e2ffd1",
   service_orchestration: "#d1d6ff",
   cloud_edge_platform: "#d9f2ff",
