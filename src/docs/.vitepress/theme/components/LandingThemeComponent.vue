@@ -30,8 +30,9 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
       </div>
     </section>
   </div>
-<a href="https://www.bitkom.org/Forum-Open-Source-2026" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20260917_bitkom_erfurt_banner_wide.svg')" alt="Bitkom Erfurt" /> </a>
-
+<a href="https://www.bwi.de/events/termin/bwi-industry-days-2026-digitalisierungsoffensive-fuer-die-bundeswehr" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20260901_bwi_industry_days_banner_wide.svg')" alt="BWI Industry Days" /> </a>
+<a href="https://www.research.net/r/ZGV3ZMC" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/world_of_os_2026_survey_banner.png')" alt="Open Source Survey" /> </a>
+  
   <section class="home-tiles__section">
     <div class="container wrap">
            <LandingTilesThemeComponent
