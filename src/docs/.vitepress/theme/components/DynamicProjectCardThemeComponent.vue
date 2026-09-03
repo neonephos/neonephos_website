@@ -18,8 +18,8 @@ const props = defineProps<{
 }>()
 
 const tagColorMap: Record<string, string> = {
-  application: "linear-gradient(to right, #ed7844, #f7c744)",
-  data: "#ffcc00",
+  application: "#269b8f",
+  data: "#ef7f44",
   ai: "#e2ffd1",
   service_orchestration: "#d1d6ff",
   cloud_edge_platform: "#d9f2ff",
