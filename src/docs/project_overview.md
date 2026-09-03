@@ -11,7 +11,7 @@ cards:
   - title: "Platform Mesh"
     classname: "platform-mesh"
     relationships: ["openmfp","ord"]
-    tags: ["application"]["management"]
+    tags: ["application", "management"]
     logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/platform-mesh/icon/color/platform-mesh-icon-color.svg"
     details: "Platform Mesh establishes interoperability between multiple providers by building upon the Kubernetes API and resource model. Developers and admins can discover, access, and order services from various sources through their beloved kubectl."
     link: "https://platform-mesh.io/"
