@@ -144,7 +144,7 @@ const hoverRelatesHeader = ref<boolean>(false)
 .dynamic-card {
   width: 300px;
   aspect-ratio: 2 / 3;
-  border-radius: 14px;
+  border-radius: 9px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   border: 1px solid #e5e8ef;
   padding: 1.3rem 1.5rem;
