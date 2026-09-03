@@ -37,12 +37,6 @@ cards:
     headingColor: "#dfeaf6"
     sectionTitleColor: "#ffffff"
     text: "There are no extra privileges conferred to a singular entity in any committee. Votings rights in committees depend on others factors such as the chosen sponsorship level of a member organisation, which is open to anyone."
-    requirements:
-      - "tbd"
-      - "tbd"
-    benefits:
-      - "tbd"
-      - "tbd"
 
   - title: "Emeritus"
     backgroundColor: "#2d4a6d"   # darker complementary tone for visual balance
