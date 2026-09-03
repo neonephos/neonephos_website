@@ -81,7 +81,7 @@ const hoverRelatesHeader = ref<boolean>(false)
           v-for="tag in card.tags"
           :key="tag"
           class="dynamic-card__tag"
-          :style="{ background: tagColorMap[tag] || 'rgba(0,0,0,0.06)' }"
+          :style="{ backgroundColor: tagColorMap[tag] || 'rgba(0,0,0,0.06)' }"
         >
           {{ tag }}
         </span>
@@ -182,8 +182,9 @@ const hoverRelatesHeader = ref<boolean>(false)
 
 .dynamic-card__tag {
   padding: 0.35rem 0.6rem;
-  border-radius: 6px;
+  border-radius: 4px;
   font-size: 0.85rem;
+  font-weight: 600;
 }
 
 /* Description */
