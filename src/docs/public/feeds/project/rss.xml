@@ -4,9 +4,241 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Thu, 03 Sep 2026 12:07:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 12:05:40 +0000</lastBuildDate>
 
     <item>
+            <title>platform-mesh/portal - v0.26.7</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.26.7</guid>
+            <pubDate>Sun, 06 Sep 2026 01:57:39 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): update dependency @openmfp/eslint-config-typescript to v0.7.14 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/801</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.26.6...v0.26.7</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/glci - 1.8.0</title>
+            <link>https://github.com/gardenlinux/glci</link>
+            <guid>https://github.com/gardenlinux/glci/releases/tag/1.8.0</guid>
+            <pubDate>Sat, 05 Sep 2026 09:01:24 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Support artifact source replication by @Gchbg in https://github.com/gardenlinux/glci/pull/528</li><li>Limit generational retries to avoid livelocks by @Gchbg in https://github.com/gardenlinux/glci/pull/528</li><li>Make single long operations resilient by @Gchbg in https://github.com/gardenlinux/glci/pull/528</li><li>Use per-region credentials for OpenStack by @Gchbg in https://github.com/gardenlinux/glci/pull/528</li></ul>
+<strong>Full Changelog</strong>: https://github.com/gardenlinux/glci/compare/1.7.0...1.8.0]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-expat - expat_2.8.4-1gl0</title>
+            <link>https://github.com/gardenlinux/package-expat</link>
+            <guid>https://github.com/gardenlinux/package-expat/releases/tag/expat_2.8.4-1gl0</guid>
+            <pubDate>Sat, 05 Sep 2026 00:43:01 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-expat/actions/runs/33933879982">33933879982</a></p>
+<p>Files in this release:<br>``<code><br>bfe842bbdf8ab715a0492bc2e9b1b68863da1b15f49cf1f9f676439778560244  ./expat_2.8.4.orig.tar.xz<br>914d87a002146df99531ded80a5a6b5845e7444bd1c9a56fca567817283ea4ed  ./expat_2.8.4-1gl0_arm64.deb<br>9351150c59ebe990444714625d1506785247392fe276968a3a330624e40212f8  ./libexpat1-dev_2.8.4-1gl0_amd64.deb<br>58ffa0fbf95559c22db7b1a31b0b0cab262c79da6c1ee5b614b94c51c6beae2f  ./expat-dbgsym_2.8.4-1gl0_amd64.deb<br>0cd69baeeff5f39ba59bc241ba9201dc97d4914560da1e4d5abed9f0c11187b7  ./libexpat1_2.8.4-1gl0_arm64.deb<br>12bc5688980180d15260e9b22d75dabdd2c13b5c6ca78457c0bfbce7f79af6ae  ./expat_2.8.4-1gl0_arm64.buildinfo<br>cbaf54891b8a9a721366072a1efe8d863ceeca361740d8748558e43793d1e1b6  ./expat_2.8.4-1gl0_arm64.changes<br>8dcaff4138f0c8fe2fdafbd6e8756116fc571fdf1482ac338dac7c0d9f6285d5  ./expat_2.8.4-1gl0.dsc<br>7d4d7a699df5100b0ceaa744fd4ad66228e1e55fa9aa11c81f7a18c6ef0f879f  ./expat_2.8.4-1gl0_amd64.deb<br>52a2518f97f199122fbb6ad7a60441761569652a8b3c0f76590610ca260c1a83  ./expat_2.8.4-1gl0_amd64.buildinfo<br>c100a288d84df32ac7e21f1d78ec64e35efb03c63352b55e8512f6ccc62113d0  ./expat-dbgsym_2.8.4-1gl0_arm64.deb<br>cdf7a521647a95c367f3a633998929d21aa0951ea8a0a49ead2c44095f7ffd74  ./libexpat1_2.8.4-1gl0_amd64.deb<br>99e6725ab7d54f40f1be32438571de5ffaab30b4fcdf7ac29cf9b7384fd25060  ./libexpat1-dbgsym_2.8.4-1gl0_arm64.deb<br>204cd509332c640178ab62d7a6241274863c1bf514dd43e1b7e431b9d46b48a0  ./libexpat1-dev_2.8.4-1gl0_arm64.deb<br>0b396ae0525bd474d79ea4bb4e2b1094ac8cc07b02fd3e0aba2641a9b976e139  ./expat_2.8.4-1gl0_amd64.changes<br>d7bd808d1368a5d9f10f1bfabdc15d01a8702ca256cf21b406600075aa214ed6  ./libexpat1-dbgsym_2.8.4-1gl0_amd64.deb<br>5c03c858383c52e658f11f498df52ea6cc37a82c4b30eb9bdfc8580591b0807b  ./expat_2.8.4-1gl0.debian.tar.xz<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>open-component-model/open-delivery-gear - 0.40.0</title>
+            <link>https://github.com/open-component-model/open-delivery-gear</link>
+            <guid>https://github.com/open-component-model/open-delivery-gear/releases/tag/0.40.0</guid>
+            <pubDate>Fri, 04 Sep 2026 16:34:26 +0000</pubDate>
+            <description><![CDATA[<h2>Helm Charts</h2>
+<ul><li>network: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/network:0.40.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>open-component-model/odg-core - 0.1372.0</title>
+            <link>https://github.com/open-component-model/odg-core</link>
+            <guid>https://github.com/open-component-model/odg-core/releases/tag/0.1372.0</guid>
+            <pubDate>Fri, 04 Sep 2026 16:25:16 +0000</pubDate>
+            <description><![CDATA[<h2>application/spdx+json</h2>
+<ul><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:ba02cdb39f1cc628b7af85d022a9758f294c4c354d84cff2c33029d436410294</code></li><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:e7a9af304940657410e0723f4db1716c6652d16f44be79f596673628a588054c</code></li></ul><h2>application/vnd.cyclonedx+json</h2>
+<ul><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:1877ec35a50c17d9c748fbadefb1021a3d204cf399fa2bec4968c7ead80a670a</code></li><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:5865e3e6864e151c7c5982195c0fcd0388906ff205f3164fc0fdd49d504965e0</code></li></ul><h2>Helm Charts</h2>
+<ul><li>bootstrapping: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/bootstrapping:0.1372.0</code></li><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-service:0.1372.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/extensions:0.1372.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>core: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core:0.1372.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>openkcm/orbital - v0.6.2</title>
+            <link>https://github.com/openkcm/orbital</link>
+            <guid>https://github.com/openkcm/orbital/releases/tag/v0.6.2</guid>
+            <pubDate>Fri, 04 Sep 2026 13:15:42 +0000</pubDate>
+            <description><![CDATA[<h2><a href="https://github.com/openkcm/orbital/compare/v0.6.1...v0.6.2">0.6.2</a> (2026-09-04)</h2>
+<h3>Bug Fixes</h3>
+<ul><li><strong>deps:</strong> bump actions/checkout from 6.0.2 to 7.0.1 (<a href="https://github.com/openkcm/orbital/issues/189">#189</a>) (<a href="https://github.com/openkcm/orbital/commit/2c39849681ba38c06993ea5c5fb23a0092a346dc">2c39849</a>)</li><li><strong>deps:</strong> bump actions/setup-go from 6.4.0 to 7.0.0 (<a href="https://github.com/openkcm/orbital/issues/190">#190</a>) (<a href="https://github.com/openkcm/orbital/commit/4e0ecb524be598599ac006bc9f980e8a12f6b7f7">4e0ecb5</a>)</li><li><strong>deps:</strong> bump github.com/moby/go-archive from 0.2.0 to 0.3.0 (<a href="https://github.com/openkcm/orbital/issues/199">#199</a>) (<a href="https://github.com/openkcm/orbital/commit/fa18d9dd61e387cf7ac6195153ae177953707d1c">fa18d9d</a>)</li><li><strong>deps:</strong> bump google.golang.org/grpc from 1.83.0 to 1.83.1 in the gomod-group group (<a href="https://github.com/openkcm/orbital/issues/203">#203</a>) (<a href="https://github.com/openkcm/orbital/commit/346fce37b98218543922efa4c5f3759948a9315b">346fce3</a>)</li><li><strong>deps:</strong> bump google.golang.org/protobuf from 1.36.12-0.20260120151049-f2248ac996af to 1.36.12 (<a href="https://github.com/openkcm/orbital/issues/204">#204</a>) (<a href="https://github.com/openkcm/orbital/commit/041e6df1e286b4b06284cb73c76ff5c7dac42c83">041e6df</a>)</li><li><strong>deps:</strong> bump the gomod-group group across 1 directory with 11 updates (<a href="https://github.com/openkcm/orbital/issues/200">#200</a>) (<a href="https://github.com/openkcm/orbital/commit/5a3de7dc43b7586e51b2cf167d391c898f80541d">5a3de7d</a>)</li><li>guard from orphaned jobs (<a href="https://github.com/openkcm/orbital/issues/195">#195</a>) (<a href="https://github.com/openkcm/orbital/commit/4c3cd1188e7a4c061957bff4b6e6c5991b6b359a">4c3cd11</a>)</li></ul>]]></description>
+        </item>
+<item>
+            <title>cobaltcore-dev/aurora-dashboard - @cobaltcore-dev/aurora@1.2.0</title>
+            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
+            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/@cobaltcore-dev/aurora@1.2.0</guid>
+            <pubDate>Fri, 04 Sep 2026 13:05:32 +0000</pubDate>
+            <description><![CDATA[<h3>Minor Changes</h3>
+<ul><li>c3b52d4: Add server-side pagination to images list</li></ul>    Fix race condition in pageMarkers state updates
+    Fix safePage sync to prevent displaying wrong page
+    Fix test to match new behavior of fetching all pages for accurate total count
+<ul><li>ce9aeb7: Gate Ceph/S3 Object Storage mutations behind <code>storage.canUser</code> permission checks, client-side, matching every other domain in the app. The following 11 mutation actions are now gated: generating a presigned/share URL for an object, deleting or restoring an object version, toggling bucket versioning, updating or deleting a bucket policy, creating/editing or deleting a CORS rule, creating/editing or deleting a lifecycle rule, and creating S3 (EC2) credentials. Bucket/object/folder create-delete-empty actions and the previously ungated Ceph bulk-action TODOs are also now wired to real permissions instead of hardcoded <code>true</code>.</li></ul>
+    Read/list/view/download actions (bucket and object listing, downloading, viewing CORS/lifecycle/policy config, viewing version history) are <strong>not</strong> gated - this matches the existing convention across the rest of the app (RBAC differentiates who can change things, not who can see things).
+<p>Operators who maintain a custom <code>storage.json</code> policy file need to add the 11 new rules for the gated actions to keep working as before: <code>storage:object_share</code>, <code>storage:object_version_delete</code>, <code>storage:object_version_restore</code>, <code>storage:container_versioning_update</code>, <code>storage:container_policy_update</code>, <code>storage:container_policy_delete</code>, <code>storage:container_cors_update</code>, <code>storage:container_cors_delete</code>, <code>storage:container_lifecycle_update</code>, <code>storage:container_lifecycle_delete</code>, <code>storage:credential_create</code>. If any of these rules is missing, the corresponding mutation controls simply render hidden (fail-closed) - there is no server error or crash.</p>
+<p>Two of these eleven rules are <code>rule:storage_viewer</code> rather than <code>rule:storage_admin</code>: <code>storage:object_share</code> (a presigned GET URL only re-exports the download access a viewer already has) and <code>storage:credential_create</code> (a self-service prerequisite for any Ceph access at all, including read-only browsing). Keep these two at viewer tier unless you deliberately want to lock read-only users out of S3 entirely.</p>
+<ul><li>0cadedd: Export generic breadcrumb primitives for use in embedded sub-apps and standalone consumers.</li></ul>
+    -   <code>useBreadcrumbs()</code> - reads the breadcrumb chain from any TanStack Router instance (static <code>crumb</code> in route <code>staticData</code> + dynamic crumbs from <code>useSetBreadcrumb</code>). Works outside OSS - suitable for SCI sub-apps with their own <code>RouterProvider</code>.
+    -   <code>useSetBreadcrumb(routeId, text)</code> - registers a dynamic breadcrumb label for a route at runtime; deregisters on unmount.
+    -   <code>DynamicBreadcrumbContext</code> / <code>DynamicBreadcrumbProvider</code> - context backing the dynamic crumb system; wrap any <code>RouterProvider</code> to enable <code>useBreadcrumbs</code> and <code>useSetBreadcrumb</code> inside it.
+    -   <code>usePushBreadcrumbs(breadcrumbs: BreadcrumbItem[])</code> - pushes a breadcrumb list into OSS&#x27;s <code>BreadcrumbExtensionContext</code> so the OSS <code>Breadcrumbs</code> component can append them after its own trail.
+    -   <code>BreadcrumbItem</code> type - unified breadcrumb shape (<code>label</code>, <code>icon</code>, <code>onClick</code>, <code>active</code>).
+<p>Internal: <code>ProjectInfoBox</code> renamed to <code>Breadcrumbs</code> and moved to <code>components/Breadcrumbs.tsx</code>.</p>
+<ul><li>4edfdc8: Replace route-injection pattern with standalone extension sub-app pattern for consumer services, and unify the registration vocabulary on &quot;extension&quot;.</li></ul>
+    Breaking changes:
+<p>-   <code>AdditionalProjectService</code> type renamed to <code>ServiceExtension</code>, and the <code>AuroraAppProps.additionalProjectServices</code> prop renamed to <code>serviceExtensions</code><br>    -   The <code>routes</code> field (type <code>AnyRoute</code>) is gone; register a <code>component</code> (type <code>FC&lt;ServiceExtensionProps&gt;</code>) instead: a standalone React component that mounts its own TanStack Router via <code>RouterProvider basepath={basePath}</code><br>    -   The <code>component</code> receives <code>ServiceExtensionProps</code> = <code>{ basePath, context }</code>, where <code>context</code> is a <code>ServiceExtensionContext</code>. Seed it into your own router (<code>createRouter({ routeTree, context })</code>) and read values via <code>useRouteContext</code><br>    -   <code>useProjectId</code> is no longer part of the public API. Extensions receive <code>projectId</code> via <code>ServiceExtensionProps.context</code> and read it from their own router context instead of the shared hook<br>    -   <code>servicesRoute</code> export removed; consumers no longer inject routes into the OSS route tree</p>
+<p>New exports:</p>
+<p>-   <code>ServiceExtension</code> - registration entry for a project-scoped service extension<br>    -   <code>ServiceExtensionProps</code> - props type for service extension components (<code>{ basePath, context }</code>)<br>    -   <code>ServiceExtensionContext</code> - extensible host-context object handed to a mounted extension; seed it into the extension&#x27;s own router context<br>    -   <code>PageContentHeader</code> - re-exported <code>ContentHeader</code> component for use in consumer service pages</p>
+<p>Additional changes:</p>
+<p>-   On <code>/services/$serviceType/<em></em></code> routes, OSS shows no section crumb (consistent with compute/network/storage). The project crumb links back to the project home, and extension sub-apps own every crumb below it via <code>usePushBreadcrumbs</code>.</p>
+<p>OSS now provides a dynamic catch-all route at <code>/_auth/projects/$projectId/services/$serviceType/<em></em></code> that mounts the registered service extension component.</p>
+<ul><li>70b0da6: Add Ceph S3 bucket lifecycle configuration management. Implements full CRUD operations for lifecycle rules including expiration policies, noncurrent version expiration, and multipart upload cleanup.</li></ul>
+    Lifecycle rules are now managed via a dedicated &quot;Lifecycle Rules&quot; tab on the bucket detail page (accessed via <code>?view=lifecycle-rules</code>), using a DataGrid with per-rule edit/delete and multi-select bulk delete. Each mutation refetches and validates the configuration before saving. Deleting the last rule automatically removes the entire lifecycle configuration. Storage-class transitions configured outside Aurora are preserved but not editable in the UI.
+<p>The header menu actions for lifecycle rules have been removed in favor of the tab-based interface, consistent with the CORS rules architecture.</p>
+<p><strong>Additional improvements in this PR:</strong></p>
+<p>-   Fix And-filter predicate counting to accept 2+ tags without other conditions (previously incorrectly rejected)<br>    -   Improve CORS rules table accessibility with proper aria-labels matching delete modal identifiers<br>    -   Replace O(n) rate-limiter cleanup with O(1) per-key timers in lifecycle/CORS/bucket-policy routers</p>
+<ul><li>4ade8c9: Add an overflow actions menu to the Swift in-container objects page, mirroring the Ceph bucket page&#x27;s header/actions position. The menu exposes Manage Access, Preview and Edit metadata, Empty Container, and Delete Container, reusing the existing modals from the Swift container list page but now wired with real container metadata (object count / size) fetched via <code>getContainerMetadata</code> instead of a placeholder. Deleting a container while browsing its objects now navigates back to the container list instead of leaving the user on a now-dead page.</li></ul>
+    <strong>Additional improvements in this PR:</strong>
+<p>-   Renamed several Swift storage action labels for consistency across container and object row menus and their confirmation modals (e.g. &quot;Delete&quot; → &quot;Delete Object&quot; / &quot;Delete Container&quot;, &quot;Copy&quot; → &quot;Copy Object&quot;, &quot;Move/Rename&quot; → &quot;Move/Rename Object&quot;, &quot;Edit Metadata&quot; → &quot;Edit Object Metadata&quot;, &quot;Share URL&quot; → &quot;Share Object URL&quot;)<br>    -   Reorganized the Swift objects page toolbar: &quot;Create Folder&quot; moved into a new overflow menu, &quot;Upload Object&quot; is now the primary action</p>
+<h3>Patch Changes</h3>
+<ul><li>273aebb: Swift: container and object &quot;last modified&quot; times now render in the viewer&#x27;s</li></ul>    local timezone. Swift returns these timestamps as UTC without a zone
+    designator, which were previously parsed as local time and shown with an
+    offset.
+<ul><li>7c01ea2: Register CSRF protection before routes to prevent bypass</li></ul>
+<ul><li>2275f02: Fix Ceph bucket list allowing &quot;Empty Bucket&quot; to be triggered on a bucket that already has no content (#1107):</li></ul>
+    -   <code>EmptyBucketModal</code> now re-verifies bucket contents on open and shows an info-only &quot;This bucket is already empty&quot; view (with just a Close button) instead of the destructive confirm form, guarding against stale list-cache data reaching the modal. This matches Swift&#x27;s existing &quot;Empty Container&quot; behavior: the row action stays visible, and the live check on open decides whether there&#x27;s anything to actually delete.
+<ul><li>ca098d0: fix: update dependencies to resolve security vulnerabilities</li></ul>
+    -   Update fastify to 5.12.1 (fixes CVE-2026-3635 trustProxy spoofing)
+    -   Update @commitlint/cli and @commitlint/config-conventional to 21.2.2
+    -   fast-uri updated to 3.1.6 and 4.1.3 (fixes CVE-2026-13676 variants)
+    -   Remove obsolete security overrides from pnpm-workspace.yaml
+<ul><li>7036789: Prevent sort dropdown option labels from wrapping by increasing the minimum width of SortInput selects in affected views.</li></ul>
+<ul><li>af20f8b: Fixes padding in images data grid. Implements optimistic UI updates for image status changes (activate/deactivate) and triggers proper list refresh after image mutations (create, delete, member changes).</li></ul>
+<ul><li>16e4e40: Swift: align the info icon in the containers info strip with the adjacent count</li></ul>    and quota text.
+<ul><li>d35562a: Swift: the inline delete action in the container metadata editor now uses the</li></ul>    default button colour instead of primary-danger, consistent with the object
+    metadata editor.
+<ul><li>fb23589: fix(aurora): optimize DataGrid Action column width and clean up modal title styling</li></ul>
+<ul><li>ecc682a: Move Flavors and Images components from shared compute/-components/ directory to their respective feature directories for better code colocation</li></ul>
+<ul><li>d8da79a: Refactor Flavor EditSpecModal and ManageAccessModal to match the Image EditImageMetadataModal design pattern.</li></ul>
+    <strong>EditSpecModal changes:</strong>
+<p>-   Add inline editing for existing specs (click to edit key/value)<br>    -   Implement batch save pattern (Save Changes button saves all at once)<br>    -   Use DescriptionList layout matching Images metadata modal<br>    -   Improve hasChanges detection with actual key/value comparison</p>
+<p><strong>ManageAccessModal changes:</strong></p>
+<p>-   Use two-column layout with fixed &quot;Project&quot; key and editable Project ID value<br>    -   Implement batch save pattern (changes saved on modal confirm, not immediately)<br>    -   Use full-width input field for better usability<br>    -   Improve hasChanges detection with Set comparison of project IDs</p>
+<ul><li>77c41c6: - Add security warning to session cookie domain configuration about cross-subdomain trust requirements</li></ul>    -   Derive floating IP tenant_id and project_id from authenticated session instead of client input to prevent ownership confusion
+<ul><li>7b38217: - Scope image upload progress tracking by projectId to prevent cross-tenant observation (keys now <code>projectId:uploadId</code> instead of bare <code>uploadId</code>)</li></ul>    -   Validate uploadId format to reject colon-containing values (prevents double-scoping attacks)
+    -   Await server session termination before redirect in logout flows; errors now shown to user instead of silently swallowed
+    -   Clear local session state even when server termination fails
+<ul><li>ad13a73: Swift: remove the container count from the limits tooltip so it&#x27;s shown once</li></ul>    (in the info strip, from the container listing) and no longer mismatches the
+    eventually-consistent account metadata count.
+<ul><li>127d410: Refactor loading and error states to use Juno&#x27;s Status component for consistent</li></ul>    UI presentation. Replace custom Spinner+Stack loading layouts and custom error
+    layouts with the standardized Status component across route loaders and list
+    views.
+<ul><li>37221d0: Storage: fix incorrect DataGrid usage in the virtualized Swift and Ceph tables.</li></ul>    The virtualized body now renders as a single grid wrapper with row children
+    instead of one grid per row, improving performance, layout, and accessibility.
+<ul><li>f5f1ce0: - Standardize 15 deletion/confirmation modals to use TanStack Form + <code>useModalTracking</code> instead of <code>useDeleteConfirmation</code> hook</li></ul>    -   Zod schemas for validation with field-level error display
+    -   Consistent analytics tracking (<code>.open</code>/<code>.close</code> events) across all modals]]></description>
+        </item>
+<item>
+            <title>open-component-model/.github - v1.0.0</title>
+            <link>https://github.com/open-component-model/.github</link>
+            <guid>https://github.com/open-component-model/.github/releases/tag/v1.0.0</guid>
+            <pubDate>Fri, 04 Sep 2026 12:50:41 +0000</pubDate>
+            <description><![CDATA[<h2>1.0.0 (2026-09-04)</h2>
+<h3>⚠ BREAKING CHANGES</h3>
+<ul><li>remove trailing whitespaces (<a href="https://github.com/open-component-model/.github/issues/64">#64</a>)</li></ul>
+<h3>Features</h3>
+<ul><li>add labels for refinement process (<a href="https://github.com/open-component-model/.github/issues/26">#26</a>) (<a href="https://github.com/open-component-model/.github/commit/2d3954b878c3ba0ff3735d9b47038e5122a0fbe8">2d3954b</a>)</li><li>branding update for OCM (<a href="https://github.com/open-component-model/.github/issues/85">#85</a>) (<a href="https://github.com/open-component-model/.github/commit/d51313fe4d02a2ae4617dd5f4777c71b0c7e97f6">d51313f</a>)</li><li>ODG central Renovate Workflow (<a href="https://github.com/open-component-model/.github/commit/6443f1b6ff0c82279a68d1249f75f5b514a51378">6443f1b</a>)</li><li>update backlog templates (<a href="https://github.com/open-component-model/.github/issues/25">#25</a>) (<a href="https://github.com/open-component-model/.github/commit/51cff57c5d58028d95016408bf8e0753c3fc1b1b">51cff57</a>)</li></ul>
+<h3>Bug Fixes</h3>
+<ul><li>correct check for path after change in Blackduck detect agent (<a href="https://github.com/open-component-model/.github/issues/77">#77</a>) (<a href="https://github.com/open-component-model/.github/commit/4d92996d08b23740927f7027f1dd53ecf69e8dc4">4d92996</a>)</li><li><strong>rulesets:</strong> set protected: false to resolve ~ALL validation error (<a href="https://github.com/open-component-model/.github/issues/101">#101</a>) (<a href="https://github.com/open-component-model/.github/commit/0a937ecb87f4496cb8b3b97d05aa2dde74b86902">0a937ec</a>)</li><li><strong>safe-settings:</strong> use team slugs and add squash merge settings for ODG repos (<a href="https://github.com/open-component-model/.github/issues/106">#106</a>) (<a href="https://github.com/open-component-model/.github/commit/b345a642462e0ad4892a48fbbbe6c1af53b68001">b345a64</a>)</li></ul>
+<h3>Miscellaneous Chores</h3>
+<ul><li>remove trailing whitespaces (<a href="https://github.com/open-component-model/.github/issues/64">#64</a>) (<a href="https://github.com/open-component-model/.github/commit/7a91b599d55b897ca1a4b1d1fe2314569112b225">7a91b59</a>)</li></ul>]]></description>
+        </item>
+<item>
+            <title>ironcore-dev/FeDHCP - v0.8.5</title>
+            <link>https://github.com/ironcore-dev/FeDHCP</link>
+            <guid>https://github.com/ironcore-dev/FeDHCP/releases/tag/v0.8.5</guid>
+            <pubDate>Fri, 04 Sep 2026 10:34:40 +0000</pubDate>
+            <description><![CDATA[<h2>Changes</h2>
+<h2>🚀 Features</h2>
+
+<ul><li>Bump coredhcp to use go-native sqlite @damyan (#465)</li></ul>
+<h2>🐛 Bug Fixes</h2>
+
+<ul><li>Fix <code>metal</code> plugin update func  @lukasfrank (#475)</li></ul>
+<h2>🧰 Maintenance</h2>
+
+<ul><li>Bump github.com/ironcore-dev/metal-operator from 0.6.2 to 0.7.1 in the go-dependencies group across 1 directory @[dependabot[bot]](https://github.com/apps/dependabot) (#473)</li><li>Ignore Endpoint deprecation in linter @afritzler (#476)</li><li>Set Dependabot&#x27;s cooldown @mkalcok (#474)</li><li>Bump the go-dependencies group across 1 directory with 7 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#472)</li><li>Bump golang from 1.26 to 1.27 in the docker-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#471)</li><li>Bump the go-dependencies group across 1 directory with 5 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#462)</li><li>Bump github.com/ironcore-dev/metal-operator from 0.6.0 to 0.6.1 in the go-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#453)</li></ul>]]></description>
+        </item>
+<item>
+            <title>gardener/gardener - v1.150.2</title>
+            <link>https://github.com/gardener/gardener</link>
+            <guid>https://github.com/gardener/gardener/releases/tag/v1.150.2</guid>
+            <pubDate>Fri, 04 Sep 2026 09:10:29 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/gardener:v1.150.2]</h1>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[USER]</code> Shoot maintenance is no longer reported as <code>Failed</code> when an automatic ETCD encryption key rotation cannot be started because a rotation is already in progress. The rotation is skipped and reevaluated in the next maintenance window instead. by @timebertt <a href="https://github.com/gardener/gardener/pull/15640">[#15640</a>]</li></ul>
+<h2>🏃 Others</h2>
+<ul><li><code>[OPERATOR]</code> The OCM component descriptor was fixed for component <code>etcd-backup-restore</code>. by @timuthy <a href="https://github.com/gardener/gardener/pull/15656">[#15656</a>]</li></ul>
+<h2>application/spdx+json</h2>
+<ul><li>admission-controller-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller@sha256:0919057348bf486ebba817c9886e5cbe7804f58e6cfb04c1937a4691a23b888b</code></li><li>admission-controller-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller@sha256:4fe60feaf56078ba40d3d05689ad8d2178fd88b4e1c70ed944a1ed957b11dceb</code></li><li>apiserver-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver@sha256:2e0cb055f66069918f30e4ba08d4055e00f3af890fce8837572e243a205f7c20</code></li><li>apiserver-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver@sha256:b81f0dd509a8c580d0ebe471732ae25c7785bd9b54a752eada0d427346a5e9aa</code></li><li>controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager@sha256:12648843888c565bb6914745eb672b6e5899e7661f780e4aafafcebc9aed84bb</code></li><li>controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager@sha256:9976a08d4108d2fd0b29da5a5d58f317963ef83931f93724b1257177219d1243</code></li><li>gardenadm-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm@sha256:9fb049eda8cfa68ea1d978295d7808273f6cc38f3b91e3a1c6b8f79f5776758a</code></li><li>gardenadm-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm@sha256:ebf493c63b819bd9dc0811712395ef86ab581eccd12802bf8228bf7e1f424ab9</code></li><li>gardenlet-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet@sha256:1a016b21f14cfff59eaef86a7e6ea59a19bfd3583f7e34c72f61dd0fae229db2</code></li><li>gardenlet-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet@sha256:cab0ca52e47dc511812f38cfe2f6d80e63b01e61319a15ba5db8d49251b0497e</code></li><li>node-agent-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent@sha256:1da515306049230dd0760edf64d081e3477dbd4fc0f5cc12b9ca023647869466</code></li><li>node-agent-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent@sha256:cbfe13fc684d087afa6666cb9ab0e98ac4bba19126fc44483d1ff98d32106778</code></li><li>operator-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator@sha256:0abf4cea3ef7696622be03bc668da589ca186dada56be3c28df48cb6bc0b02ac</code></li><li>operator-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator@sha256:3a143b35358b1e863bfa397c0d265d39a5de3b4223efd6199f6d0ac820198c5b</code></li><li>resource-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager@sha256:d45e0b33b68baa8da432809174e2fec360c292359a0ae22343cd34a273a13242</code></li><li>resource-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager@sha256:d965dd18dfa09f11aad420b3879995c0123fb26bd9a023ca1fb0c689eef148db</code></li><li>scheduler-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler@sha256:2bac58e4fcaa83a24b09763d3ae0f9cb4d9585302414299c120ef0ca5be39dd0</code></li><li>scheduler-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler@sha256:f6757433371e4ee855f8ce88004668780ec99be7e07b98f552dd2995d110d0fc</code></li></ul><h2>application/vnd.cyclonedx+json</h2>
+<ul><li>admission-controller-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller@sha256:1344de36517960632b82787760a5e16697d22e9b85f68c02cba29c118df4f725</code></li><li>admission-controller-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller@sha256:ea079170e280556d3f91b51b0ab3b452874cc379ba04e0bbb4d1af181875fea5</code></li><li>apiserver-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver@sha256:2cbe5e80a607bd1e03f2c6179436ff1921ee4909899f320b0a01c6864f0bc4f1</code></li><li>apiserver-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver@sha256:3279884eae40a2007af64da8f4001d62d23e3a6435bba76ec2f61161675fd727</code></li><li>controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager@sha256:0b36021a424feec6278bd7832d88decb1e0f90be2f8e62315bdb0e2b9093ad79</code></li><li>controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager@sha256:b7865d9b8d48f1b37def9fbfa72c999a731a07b9033681e770051f7a56a6ab41</code></li><li>gardenadm-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm@sha256:23e5957c81619a11f889f8cfc57ed40535f7c3658b40b0085cf37189516d19ff</code></li><li>gardenadm-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm@sha256:f8ea3b0d0a84cdd829cf9ebc77bc348f6ab30db39b74a8f7704b05c2ab4534f5</code></li><li>gardenlet-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet@sha256:046f84886819bcefab23305a170a1ee37f19969b3561c8f49a348345238fefc4</code></li><li>gardenlet-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet@sha256:50b704a206146ce9a7e4a426de511013adb6c281cf7c0b31dfa63e44dfa2942f</code></li><li>node-agent-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent@sha256:49d00981b65a0f405bac7e3f47555892b363597970acbd0036f57d60042335e4</code></li><li>node-agent-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent@sha256:5a0a6458cc11995d9d3155d96996321acabd31783f2511deaf8af3368f1f4505</code></li><li>operator-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator@sha256:3cc3e27078e5d326c9afe4043cf17d0d616f73f93ce457a3b2ad6bc54dd56dfc</code></li><li>operator-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator@sha256:ae2779d7afef134adf47c2a0220070cf9fb33081c30cf4756d141c578e529629</code></li><li>resource-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager@sha256:2aa1bcc4453140b22192bb50cb4e64f288837146fa309284691124461d9f4b0e</code></li><li>resource-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager@sha256:e00a187ca4c417191c3b99717a4c599a50f856e13dcfcd55ec62e707f47a9cdf</code></li><li>scheduler-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler@sha256:13ba013afe675e519734d39e1d29c2401e0674755aa34249a8c98401633ab23a</code></li><li>scheduler-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler@sha256:87467ab2832877ef75a87b90e5ac9c3581a18c1fc652b4fb222e191262be4cf5</code></li></ul><h2>Helm Charts</h2>
+<ul><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/gardenlet:v1.150.2</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/operator:v1.150.2</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/resource-manager:v1.150.2</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>admission-controller: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller:v1.150.2</code></li><li>apiserver: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver:v1.150.2</code></li><li>controller-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager:v1.150.2</code></li><li>gardenadm: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm:v1.150.2</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet:v1.150.2</code></li><li>node-agent: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent:v1.150.2</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator:v1.150.2</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager:v1.150.2</code></li><li>scheduler: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler:v1.150.2</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/platform-mesh - platform-mesh-operator/v0.88.0</title>
+            <link>https://github.com/platform-mesh/platform-mesh</link>
+            <guid>https://github.com/platform-mesh/platform-mesh/releases/tag/platform-mesh-operator/v0.88.0</guid>
+            <pubDate>Fri, 04 Sep 2026 07:54:39 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>feat: improve exposure configuration in platform-mesh-operator by @akafazov in https://github.com/platform-mesh/platform-mesh/pull/344</li><li>feat: make user claim configurable for orgs workspace by @OlegErshov in https://github.com/platform-mesh/platform-mesh/pull/345</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh/compare/kubernetes-graphql-gateway/v1.19.0...platform-mesh-operator/v0.88.0</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-adduser - adduser_3.159gl0</title>
+            <link>https://github.com/gardenlinux/package-adduser</link>
+            <guid>https://github.com/gardenlinux/package-adduser/releases/tag/adduser_3.159gl0</guid>
+            <pubDate>Fri, 04 Sep 2026 00:16:57 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-adduser/actions/runs/33821141938">33821141938</a></p>
+<p>Files in this release:<br>``<code><br>f7e78b8cd7c0f24f56efddef285271cd4b643556012a15df47cd171e32783f01  ./adduser_3.159gl0.dsc<br>990698e9882200b243b82402d965012b0e1813f7ecb9b794eb31653f1365dec1  ./adduser_3.159gl0_amd64.changes<br>e5fd5749d5a428d32cee9f3ccd748a7b2dc45a3e4ffabdc81b3f4d248f9c1a13  ./adduser_3.159gl0.tar.xz<br>e912ff7ab90ea335f83f246eac60f62686a2efb0da1cbe0e096999702ab31e68  ./adduser_3.159gl0_amd64.buildinfo<br>cf0512ca32777214538fc1e072f649aafde34e2d05bafe57524bcecb94e34f90  ./adduser_3.159gl0_all.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>openmcp-project/platform-service-resource-replicator - Release v0.1.0</title>
+            <link>https://github.com/openmcp-project/platform-service-resource-replicator</link>
+            <guid>https://github.com/openmcp-project/platform-service-resource-replicator/releases/tag/Release v0.1.0</guid>
+            <pubDate>Thu, 03 Sep 2026 15:25:26 +0000</pubDate>
+            <description><![CDATA[<h1>Changelog</h1>
+
+Initial release! 🎉]]></description>
+        </item>
+<item>
+            <title>openmcp-project/service-provider-kro - Release v1.4.0</title>
+            <link>https://github.com/openmcp-project/service-provider-kro</link>
+            <guid>https://github.com/openmcp-project/service-provider-kro/releases/tag/Release v1.4.0</guid>
+            <pubDate>Thu, 03 Sep 2026 14:30:20 +0000</pubDate>
+            <description><![CDATA[<h1>Changelog</h1>
+
+
+<h2>➕ Other</h2>
+
+#### [DEVELOPER]
+<ul><li>Replace the inline spruntime package with the opencontrolplane-runtime/serviceprovider libarary package <strong>(#158, @reshnm)</strong></li></ul>#### [OPERATOR]
+<ul><li>Add FIPS 140-3 verification <strong>(#159, @reshnm)</strong></li></ul>]]></description>
+        </item>
+<item>
+            <title>openmcp-project/multicluster-provider - Release v0.1.0</title>
+            <link>https://github.com/openmcp-project/multicluster-provider</link>
+            <guid>https://github.com/openmcp-project/multicluster-provider/releases/tag/Release v0.1.0</guid>
+            <pubDate>Thu, 03 Sep 2026 14:05:26 +0000</pubDate>
+            <description><![CDATA[<h1>Changelog</h1>
+
+Initial release! 🎉]]></description>
+        </item>
+<item>
+            <title>gardenlinux/bp-package-vim - vim_9.2.0858-1gl0+bp2150</title>
+            <link>https://github.com/gardenlinux/bp-package-vim</link>
+            <guid>https://github.com/gardenlinux/bp-package-vim/releases/tag/vim_9.2.0858-1gl0+bp2150</guid>
+            <pubDate>Thu, 03 Sep 2026 12:29:08 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/bp-package-vim/actions/runs/33755517185">33755517185</a></p>
+<p>Files in this release:<br>``<code><br>52d51fbb52c63f1edb1ccb238bafb7fe928b34daac65a1ef869ad1d6dea6fd56  ./vim-nox-dbgsym_9.2.0858-1gl0~bp2150_amd64.deb<br>9ee445bb6e916ad090bc5985b7c36bd8f96a7de3640cbc39f6dc2d97e89b620d  ./vim_9.2.0858-1gl0~bp2150.debian.tar.xz<br>e9896915b5401ba95900eff3abfed4d45ae4dd81b0843c09916387e1b76087a8  ./xxd_9.2.0858-1gl0~bp2150_amd64.deb<br>67ca12295c0151d5d4003934ee0413c6c92e3ac75d594900136b6aadbd683f00  ./vim-dbgsym_9.2.0858-1gl0~bp2150_amd64.deb<br>b78d5bb646757b9a5d50b2597922d91a66e1083c76a11828f2ccd3f3707f68d6  ./vim-runtime_9.2.0858-1gl0~bp2150_all.deb<br>390eb2a97e325cc0fc24c84e500943bef4c2aa86e80624b72d8b91bb9919537a  ./vim-nox_9.2.0858-1gl0~bp2150_arm64.deb<br>c1a1bb7aadd83d38577560908a9b8e8bc87746749e22703737446cf044bd0e4b  ./vim-tiny-dbgsym_9.2.0858-1gl0~bp2150_amd64.deb<br>19216acf36f37edc324e9f02b7484ef6edc0ca0707be5ac8628e9d177e27787e  ./vim-motif-dbgsym_9.2.0858-1gl0~bp2150_amd64.deb<br>77b8f909868cf97e5893bd467cb96e7bd79fbb5bfbbaea108626dc396f4943f2  ./xxd-dbgsym_9.2.0858-1gl0~bp2150_amd64.deb<br>f0b38d2ea7b3d8b9743861b36db1a0a9195a6123063c5c7b7c73d8df3fd161e2  ./vim-dbgsym_9.2.0858-1gl0~bp2150_arm64.deb<br>f32d4acd3a6974f0929ce4c005a6126ac0c58bd64d8ae0416b5d56c65e6b58f9  ./vim-tiny-dbgsym_9.2.0858-1gl0~bp2150_arm64.deb<br>fa62b39ea053009da1dd1fe5bec3ff58dc0951cac3941469700fc46c9d3a2e06  ./vim_9.2.0858-1gl0~bp2150_amd64.deb<br>3a15bdf5fb8f7c55f4dec5edaa0dc9d3fd2965d7ed6984ed6bf7d69102fb84d1  ./vim_9.2.0858-1gl0~bp2150.dsc<br>02c51562b304eaecb3cdbd6b6697cb3ec232f80e52b740600f48c3a7ba5d1e3f  ./vim-doc_9.2.0858-1gl0~bp2150_all.deb<br>48244a9fcc2f0944985fda2dd447d6d18293000974ba91175e0f8f2810fba553  ./xxd-dbgsym_9.2.0858-1gl0~bp2150_arm64.deb<br>942bc83c3edddfeab6368e9b81c6965af8405f8e72b862bc38502ab6f14d33a9  ./vim_9.2.0858.orig.tar.xz<br>f0b3c44c17e8cf2ea7d08ad6e250e482f12fd43b0579ba1fdfadbf46207bae74  ./vim-motif_9.2.0858-1gl0~bp2150_amd64.deb<br>8ea5489bba991625f2474ce18db5eefb5499fb24e52d4e2a306fb5e7fce2832a  ./vim_9.2.0858-1gl0~bp2150_arm64.changes<br>9f30786c2e9e53de4ed3f8d0f206db9cfba440c842b1bc28a278f465000a31a1  ./vim-motif_9.2.0858-1gl0~bp2150_arm64.deb<br>2ceb469e73d7203d94e31e2a4b0841d6453fa8ab153aef9faf3593e1faec67e4  ./vim_9.2.0858-1gl0~bp2150_amd64.buildinfo<br>3c7fb94f47b2319d254e7c3254cf21b1e5b9569f11e398a0c28765b7e0163b3d  ./vim-tiny_9.2.0858-1gl0~bp2150_amd64.deb<br>be7a073924adc180a7394007679e4f0ed7a946c20f44c7b22c6f36c80a1781f2  ./vim_9.2.0858-1gl0~bp2150_amd64.changes<br>75f59da3966ee2ed1d35ad1a8829859ec7ae086a206711e944f463e9ef4c05d5  ./vim-nox-dbgsym_9.2.0858-1gl0~bp2150_arm64.deb<br>9bfdfd5a446ba1ad82910a45bd27131580ff155d6c10e2f8dbe811de18c06357  ./vim-motif-dbgsym_9.2.0858-1gl0~bp2150_arm64.deb<br>c05b4536f3eb04eee9a7b7fa44431373e0d953d01ab1c76c6880482f3a4f3fd6  ./vim-gtk3_9.2.0858-1gl0~bp2150_amd64.deb<br>02ac589c8700a64ce4c4396d3aa56b6e612b2ff7f5e3bee97006aff4cd916556  ./vim-gui-common_9.2.0858-1gl0~bp2150_all.deb<br>6a2f130e02034f4d706f2728097078f2bf85042e734331c41c2bcc41d3835acc  ./vim-tiny_9.2.0858-1gl0~bp2150_arm64.deb<br>d659f8c312024eed6fd356ba01a9f02f1344378943cda8656c88274ccd1d0225  ./vim-gtk3-dbgsym_9.2.0858-1gl0~bp2150_arm64.deb<br>315b174c0643e012fe551578c277bc360b37f51e5ad35958efd3ed0f62a894a8  ./vim-common_9.2.0858-1gl0~bp2150_all.deb<br>e1c4b1e54556a8ff24f923659cd1a263fa4a8a896de25096f67423dcfe1bab1d  ./vim-nox_9.2.0858-1gl0~bp2150_amd64.deb<br>44bbb3a952917daefe3c5d84fac6b72c0a6bd78ed2db8d30162f55019dab0e46  ./vim_9.2.0858-1gl0~bp2150_arm64.deb<br>ff09f34aca3c463b1ddeab2208c9ccf4e22510e503518bf20fe0d8a7586735e0  ./xxd_9.2.0858-1gl0~bp2150_arm64.deb<br>91c001d101e3fee6e9131814a40fde451f2099ea9daad878890ba68be2d55f4f  ./vim_9.2.0858-1gl0~bp2150_arm64.buildinfo<br>61eb0295d4fea1d3993ae826b8108f4443ebbfe76bff1bd490b1a59f30ba84a8  ./vim-gtk3-dbgsym_9.2.0858-1gl0~bp2150_amd64.deb<br>875fb8e081b2c79abb0165b0207caa307a718faf1501fbbe64034a13ba725192  ./vim-gtk3_9.2.0858-1gl0~bp2150_arm64.deb<br></code>``</p>]]></description>
+        </item>
+<item>
             <title>gardenlinux/package-gnutls - gnutls28_3.8.12-3gl9+bp1877</title>
             <link>https://github.com/gardenlinux/package-gnutls</link>
             <guid>https://github.com/gardenlinux/package-gnutls/releases/tag/gnutls28_3.8.12-3gl9+bp1877</guid>
@@ -96,15 +328,6 @@
             <description><![CDATA[<h2>[1.3.0] - 2026-09-02</h2>
 <h3>Features</h3>
 <ul><li>Add password, hint, placeholder, and switch field types (#284)</li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/platform-mesh - virtual-workspaces/v0.16.0</title>
-            <link>https://github.com/platform-mesh/platform-mesh</link>
-            <guid>https://github.com/platform-mesh/platform-mesh/releases/tag/virtual-workspaces/v0.16.0</guid>
-            <pubDate>Wed, 02 Sep 2026 14:48:56 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(marketplace)!: Migrate marketplaceentry APIExport to v1alpha2 in vw service - #337 by @brsmnv in https://github.com/platform-mesh/platform-mesh/pull/337</li><li>fix(tests): flaky e2e in extension manager operator suite by @brsmnv in https://github.com/platform-mesh/platform-mesh/pull/338</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh/compare/platform-mesh-operator/v0.87.1-rc.3...virtual-workspaces/v0.16.0</p>]]></description>
         </item>
 <item>
             <title>openmcp-project/service-provider-kyverno - Release v1.0.0</title>
@@ -241,17 +464,6 @@
 <p>Files in this release:<br>``<code><br>5ea9bb17323db627a5f89baab6ffd13761037453b8738a83f1f62b98724b0bfb  ./curl-dbgsym_8.22.0-1gl0_arm64.deb<br>f0284d84b3bb96dc20aafcd389800820846bdf0177dc8962eababc728b245243  ./libcurl4-openssl-dev_8.22.0-1gl0_amd64.deb<br>2f08abc3d60d71dd43ea30add7750446ed51844d343cb8329fe4044baf56560c  ./curl_8.22.0-1gl0_arm64.deb<br>5ebb453685cb90928ee5a2e685e73b62756d8d3cbcd7ce2ff6e0de0c7c1d4c90  ./libcurl4t64-dbgsym_8.22.0-1gl0_arm64.deb<br>07d09265a39369ff5279788be55583632fb6ac771d915ef812d4aa46ead1f4df  ./libcurl4-gnutls-dbgsym_8.22.0-1gl0_amd64.deb<br>503626edbadcb4e3c1788ffc001fd4b73a0806c598a547a7467d500955f0bdad  ./curl_8.22.0-1gl0_amd64.deb<br>3112fbefefe383b09145981edc5e221183d680f7d84b9bbe80067a971806bee1  ./curl_8.22.0-1gl0_arm64.changes<br>dcdc108acb304d152eb4b87833081746433e623bf78b9860e3fc998a650cddc4  ./curl-dbgsym_8.22.0-1gl0_amd64.deb<br>40b14cc69c750dee64f95e532595ec31f802b20fab32a595fc2ab40512b954ef  ./libcurl4t64-dbgsym_8.22.0-1gl0_amd64.deb<br>6446bb5b66ca9c22d2e6c64a2b792dbd496abc5c0c9eafdac2eeb0d9fd4bb3b7  ./libcurl3t64-gnutls_8.22.0-1gl0_amd64.deb<br>340926b2acf3a82476b311180689f67d589a9d2f51f457435be41f7f27bc49c2  ./curl_8.22.0-1gl0.dsc<br>5656bf51d2a41d9cbdf5160cb66689987dd9fa846aba036fa32cc942bbc2f6bb  ./libcurl4-gnutls-dev_8.22.0-1gl0_arm64.deb<br>c6ed3f6bf9f37467dfb27e3cece31e593eeb1f2819a7d9e44a9710a3131786ad  ./libcurl4-gnutls-dev_8.22.0-1gl0_amd64.deb<br>fc9e896fedc321a705be41867f1284014beacf8541e8c2dc400e1cf3e0dd3f07  ./curl_8.22.0-1gl0.debian.tar.xz<br>2edd877a6718520ff473bd69a9967cde2e863260b1d9e2d27ee71287a8dd4739  ./curl_8.22.0.orig.tar.xz<br>483964a38dfb667559c63a2bd539ef3905b539a249ebe39173fcf8ebe362b770  ./libcurl4-gnutls_8.22.0-1gl0_amd64.deb<br>7e4681fdb3217c08a202b6567e76fc515e869e7686438672f231fbd77d092bef  ./libcurl4-gnutls_8.22.0-1gl0_arm64.deb<br>e030263943471992c7eeaafd17ccbdaf3e3c2f3f70f967d7cde064e7e6677d7f  ./curl_8.22.0-1gl0_amd64.buildinfo<br>74503f86e2b447426e9fdebef0390726fe1c96869d74b287f0f2f6452ce2d95b  ./libcurl4-doc_8.22.0-1gl0_all.deb<br>28a19d56ff890694b0f0f14f53f0d1725e5eb6a4819b787930ef83cf8c1fc5ff  ./libcurl4-openssl-dev_8.22.0-1gl0_arm64.deb<br>f82db6ed61da57416a30527a53feec4781cb762bb1dcf856e7539e8fe349a2f2  ./libcurl3t64-gnutls_8.22.0-1gl0_arm64.deb<br>5daacb77479685958affa62898feaa97124c53354d5b11e738ee6c4695ab2cb4  ./libcurl4-gnutls-dbgsym_8.22.0-1gl0_arm64.deb<br>3e0531f8e2237c443e550aa970b3c95e01b59104fddb426135df77cbe1bf90b3  ./libcurl4t64_8.22.0-1gl0_arm64.deb<br>22c9d240c4d958bf36f80c63c2f59cc20fd2c6e3e627de10167b76e6d450f16e  ./libcurl4t64_8.22.0-1gl0_amd64.deb<br>7559439b9eee4c16962dece65dd73b8aef15647b4e1f729bd2339510c0a8c057  ./curl_8.22.0-1gl0_arm64.buildinfo<br>928fcb6071156e937b4052be400ea631cd9ea9481b90b9a641fc96cf5c4b89af  ./curl_8.22.0-1gl0_amd64.changes<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>gardenlinux/glci - 1.7.0</title>
-            <link>https://github.com/gardenlinux/glci</link>
-            <guid>https://github.com/gardenlinux/glci/releases/tag/1.7.0</guid>
-            <pubDate>Wed, 02 Sep 2026 09:35:51 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>Docs: Switch to Apache-2.0 by @ByteOtter in https://github.com/gardenlinux/glci/pull/490</li><li>Add retry of failed requests by @Gchbg in https://github.com/gardenlinux/glci/pull/497</li><li>Improve Vault reliability and concurrency by @Gchbg in https://github.com/gardenlinux/glci/pull/506</li><li>Update dependencies by @Gchbg in https://github.com/gardenlinux/glci/pull/520</li><li>Remove deprecated regions from Azure by @Gchbg in https://github.com/gardenlinux/glci/pull/522</li><li>Add image import timeout to OpenStack by @Gchbg in https://github.com/gardenlinux/glci/pull/523</li><li>Support JWT tokens natively by @Gchbg in https://github.com/gardenlinux/glci/pull/527</li></ul>
-<h2>New Contributors</h2>
-<ul><li>@ByteOtter made their first contribution in https://github.com/gardenlinux/glci/pull/490</li></ul>
-<strong>Full Changelog</strong>: https://github.com/gardenlinux/glci/compare/1.6.0...1.7.0]]></description>
-        </item>
-<item>
             <title>openmcp-project/opencontrolplane-headlamp-plugin - v0.0.8</title>
             <link>https://github.com/openmcp-project/opencontrolplane-headlamp-plugin</link>
             <guid>https://github.com/openmcp-project/opencontrolplane-headlamp-plugin/releases/tag/v0.0.8</guid>
@@ -338,20 +550,6 @@
 <ul><li>Enable FIPS 140-3 verification <strong>(#330, @reshnm)</strong></li></ul>]]></description>
         </item>
 <item>
-            <title>gardener/gardener - v1.150.1</title>
-            <link>https://github.com/gardener/gardener</link>
-            <guid>https://github.com/gardener/gardener/releases/tag/v1.150.1</guid>
-            <pubDate>Tue, 01 Sep 2026 13:18:02 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/gardener:v1.150.1]</h1>
-<h2>🏃 Others</h2>
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>gardener/etcd-druid</code> from <code>v0.38.1</code> to <code>v0.38.2</code>. <a href="https://redirect.github.com/gardener/etcd-druid/releases/tag/v0.38.2">Release Notes</a> by @timuthy <a href="https://github.com/gardener/gardener/pull/15632">[#15632</a>]
-<h2>application/spdx+json</h2>
-<ul><li>admission-controller-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller@sha256:0e5c44707b0bddf8401bcd060d280da17c558269b9a0b865ab82879ed20b8f97</code></li><li>admission-controller-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller@sha256:6cb53c96c027ee308234826b31804d53fa27df0e4f467d73cf8360bb847bfc9f</code></li><li>apiserver-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver@sha256:c9ebaa04010d1e18666d3f87f57d1c3633c63c0f62918ada2a99f86594fda5ff</code></li><li>apiserver-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver@sha256:e5b4d44db314412451a20d1e75e02807bd937a16e7ef4f9af7f8b6f7b747059f</code></li><li>controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager@sha256:112817936064dac1c230b0deca08b16cdbed6aeb5573809d0a9e2fb30cc25aa9</code></li><li>controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager@sha256:a2f98800181186d730d94cf0de66acd2925f3eea1ba868846c0132cec169f905</code></li><li>gardenadm-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm@sha256:9da96939c3c2d65703b36746bddba0de8a0b8f12a1fbde2e1cfe2951b25a7edc</code></li><li>gardenadm-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm@sha256:b33a1ca9c1fe31a30a688e290fee7f85a59f6071954ac95689483a6fda87d6bd</code></li><li>gardenlet-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet@sha256:2c2e781ae35dff4f041c5f5715a4ab08d0e73c5017e3dee593dfa26e9c0a752e</code></li><li>gardenlet-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet@sha256:68fa63508906463bc76e9f1b5af9496fe793deb78f5b03c6f4416961b8f03aa0</code></li><li>node-agent-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent@sha256:75ec932e344b5a08228c28a12c23e0b6f883aa24618e2b9eddc1b813c270a38c</code></li><li>node-agent-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent@sha256:b832d6d3b1c53dd1bba986888c254932a23ddc6c83cda4aedb10a8685896d53f</code></li><li>operator-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator@sha256:09b9ab8000bc63df15c203842d8be53caa391ba37886e84bc20e07602ee94396</code></li><li>operator-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator@sha256:9367630e1d0441e23a72d695f3596a5d5e226c30fe1f90e7a6f6cb512e90f346</code></li><li>resource-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager@sha256:db829b2fc8a66a4585ed96dac8d801236c35332f38aa3d3bedf56a2837e2a9cc</code></li><li>resource-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager@sha256:fe15be9946e023455553f75f3b0e3e5ca8c27bc14987c038366d54d99edfe9d6</code></li><li>scheduler-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler@sha256:1ec959104fc93c855d9cc4ce1977f818f91758e3b069eb0ac9b3332ea708cfd1</code></li><li>scheduler-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler@sha256:5739ce018f41ec126cf6517a1db168021d6e3cd195a29ff34869243f15324005</code></li></ul><h2>application/vnd.cyclonedx+json</h2>
-<ul><li>admission-controller-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller@sha256:73da41c3db3b7dbf4c8cadf2252a2fd24271fa7c4d6657e2668d2c7433984cee</code></li><li>admission-controller-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller@sha256:a0091404363dab76dfebb174677602771e9d1f66ee51803e885e9b3c5fae6311</code></li><li>apiserver-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver@sha256:41337096dc769efdc6c2b84621c30b33540a239ff32c2c2841e900a53814e025</code></li><li>apiserver-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver@sha256:700e9d660477b338ef1d20f2b2c75fcc2a9a4dba5fbd3d92cb8112d9a1fe3730</code></li><li>controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager@sha256:a88ba8fa9aa2d499ebcb3068a8d1ae423b56674f242cc41725568c60ddd0f8c0</code></li><li>controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager@sha256:b54c0e10bd395443bdf56b6a91afe95df73545e695023d7f8c70e768989d5c4b</code></li><li>gardenadm-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm@sha256:068beff65c3225d532379a151352f62b317b0a33228e95a1c7215385fa5788f7</code></li><li>gardenadm-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm@sha256:3392df7f24cd4b532e703cd2fe0d5f77b7343d6ae5cef7908969c6b3b7eba79f</code></li><li>gardenlet-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet@sha256:67101df7eb3fe4f8244387ecffebf3626825ed90a23a7e268b19a8b521314986</code></li><li>gardenlet-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet@sha256:7745b2442671563c9db4ed47858e5a2af9dc813c3d137fe32bd63e0825bc5dba</code></li><li>node-agent-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent@sha256:5a62668d120134a53c39eee07efda5966e744a1b06c43c9f7d32843f090d9f50</code></li><li>node-agent-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent@sha256:66fa8541bc664043f9e6b01ad46e865edfa0f32c0d2c29b4f45992e631ab7714</code></li><li>operator-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator@sha256:24de43cb8147253e9b73df18b4dc3ee7d993b8b6267a54fb8c6ad117a17e61e4</code></li><li>operator-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator@sha256:bcf73378644a4984b36830daf9f8782cb3e4fec2d559098315a2e22824925378</code></li><li>resource-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager@sha256:aec87ce3c5fa7acf3971846897565bb92f895041d1cc135c81bbf5fa088f250e</code></li><li>resource-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager@sha256:ca0f0face6c19485e97568929ffabc918d4b6e66bbf27f858b4f1c763f93d9e2</code></li><li>scheduler-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler@sha256:81ec542a0b528da8e2314c368ac14ebb475ebc0f30f340e39b6d78326d0fdf2f</code></li><li>scheduler-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler@sha256:ba76ff762b4f7e1a43e8814fde7dfef1242f0f8f21d4ba199c30639d9a85eefc</code></li></ul><h2>Helm Charts</h2>
-<ul><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/gardenlet:v1.150.1</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/operator:v1.150.1</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/resource-manager:v1.150.1</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>admission-controller: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller:v1.150.1</code></li><li>apiserver: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver:v1.150.1</code></li><li>controller-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager:v1.150.1</code></li><li>gardenadm: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm:v1.150.1</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet:v1.150.1</code></li><li>node-agent: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent:v1.150.1</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator:v1.150.1</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager:v1.150.1</code></li><li>scheduler: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler:v1.150.1</code></li></ul>]]></description>
-        </item>
-<item>
             <title>gardener/etcd-druid - unnamed-release</title>
             <link>https://github.com/gardener/etcd-druid</link>
             <guid>https://github.com/gardener/etcd-druid/releases/tag/unnamed-release</guid>
@@ -366,29 +564,12 @@
 <ul><li>etcd-druid: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcd-druid:v0.38.2</code></li></ul>]]></description>
         </item>
 <item>
-            <title>open-component-model/open-delivery-gear - 0.37.0</title>
-            <link>https://github.com/open-component-model/open-delivery-gear</link>
-            <guid>https://github.com/open-component-model/open-delivery-gear/releases/tag/0.37.0</guid>
-            <pubDate>Tue, 01 Sep 2026 09:10:32 +0000</pubDate>
-            <description><![CDATA[<h2>Helm Charts</h2>
-<ul><li>network: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/network:0.37.0</code></li></ul>]]></description>
-        </item>
-<item>
             <title>open-component-model/odg-observability - 0.33.0</title>
             <link>https://github.com/open-component-model/odg-observability</link>
             <guid>https://github.com/open-component-model/odg-observability/releases/tag/0.33.0</guid>
             <pubDate>Tue, 01 Sep 2026 09:00:16 +0000</pubDate>
             <description><![CDATA[<h2>Helm Charts</h2>
 <ul><li>prometheus-operator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/prometheus-operator:0.33.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/portal - v0.26.6</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.26.6</guid>
-            <pubDate>Tue, 01 Sep 2026 08:39:20 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore: update workflow job references to latest versions by @akafazov in https://github.com/platform-mesh/portal/pull/807</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.26.5...v0.26.6</p>]]></description>
         </item>
 <item>
             <title>openmcp-project/service-provider-crossplane - Release v1.3.0</title>
@@ -974,22 +1155,6 @@ All <code>E2ETestSpecifications</code> that use <code>createManagedControlPlaneV
 <ul><li>delivery-dashboard-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard@sha256:1d12ae3ac3d8972a5d0bbeef21ca8cab5476d29ffa5a035d0e57856dbf5f0bd2</code></li><li>delivery-dashboard-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard@sha256:3c6dbcec3ba96e6bcf0c20d88d29187038040111f2c00f2f62fb0aca8fc3eb4f</code></li></ul><h2>Helm Charts</h2>
 <ul><li>delivery-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-dashboard:0.441.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>delivery-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard:0.441.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>open-component-model/odg-core - 0.1370.0</title>
-            <link>https://github.com/open-component-model/odg-core</link>
-            <guid>https://github.com/open-component-model/odg-core/releases/tag/0.1370.0</guid>
-            <pubDate>Mon, 31 Aug 2026 06:12:35 +0000</pubDate>
-            <description><![CDATA[<h1>[ocm.software/open-delivery-gear/core:0.1370.0]</h1>
-<h2>📰 Noteworthy</h2>
-<ul><li><code>[OPERATOR]</code> <a href="https://open-component-model.github.io/open-delivery-gear/contents/reference/03-vulnerability-scanner-config.html">Trivy scanner extension</a> is now available to scan OCM components with Trivy for CVEs by @ChrisSchneider <a href="https://github.com/open-component-model/odg-core/pull/931">[#931</a>]</li><li><code>[DEVELOPER]</code> Add AGENTS.md with project conventions and structure for AI coding agents by @ChrisSchneider <a href="https://github.com/open-component-model/odg-core/pull/933">[#933</a>]</li></ul>
-<h2>✨ New Features</h2>
-<ul><li><code>[DEVELOPER]</code> A new Claude skill <code>odg-create-scanner</code> is now available to create vulnerability scanner extensions by @ChrisSchneider <a href="https://github.com/open-component-model/odg-core/pull/931">[#931</a>]</li></ul>
-<h2>application/spdx+json</h2>
-<ul><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:4391bf019da4a4b1b94896934dce6daf9270b8240079c714a754872b34d3326d</code></li><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:9169d863585ee404c4723dfce1f9b663d97ecf8d7e7bc1280fd8af5d9ace8a8f</code></li></ul><h2>application/vnd.cyclonedx+json</h2>
-<ul><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:8899a652956b5e276e3f4a8cdfd8eaa108fe2703f0f29070e85e9840f10efca0</code></li><li>core-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core@sha256:d303f4b5d52b2921e2eba5247b19ffc78e42a8a8abd8c480acd1221f67c4119d</code></li></ul><h2>Helm Charts</h2>
-<ul><li>bootstrapping: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/bootstrapping:0.1370.0</code></li><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-service:0.1370.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/extensions:0.1370.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>core: <code>europe-docker.pkg.dev/gardener-project/releases/odg/core:0.1370.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>openmcp-project/platform-service-project-workspace - Release v2.4.0</title>
@@ -2022,22 +2187,6 @@ libvirt* 12.2.0+260825-1gl0~bp1877
 <ul><li>fix: deduplicate customTypeDefinitions to allow shared types across nested custom types by @Fannon in https://github.com/open-resource-discovery/spec-toolkit/pull/74</li><li>feat: add &#x27;proposed&#x27; to x-feature-status by @Fannon in https://github.com/open-resource-discovery/spec-toolkit/pull/84</li><li>chore: release 0.8.2 by @Fannon in https://github.com/open-resource-discovery/spec-toolkit/pull/85</li></ul>
 
 <strong>Full Changelog</strong>: https://github.com/open-resource-discovery/spec-toolkit/compare/v0.8.0...v0.8.2]]></description>
-        </item>
-<item>
-            <title>cobaltcore-dev/aurora-dashboard - @cobaltcore-dev/aurora@1.1.0</title>
-            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
-            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/@cobaltcore-dev/aurora@1.1.0</guid>
-            <pubDate>Mon, 24 Aug 2026 14:13:38 +0000</pubDate>
-            <description><![CDATA[<h3>Minor Changes</h3>
-<ul><li>a9c257a: Consumers can now register additional project-scoped services in Aurora. Pass your service definitions via the <code>additionalProjectServices</code> prop on <code>AuroraApp</code> to plug in client-side routes, and register your BFF router via the existing <code>routers</code> config in <code>createServer</code>. Additional services are only shown to users when the service is available in the project&#x27;s OpenStack service catalog and not excluded by the app&#x27;s <code>enabledServices</code> list.</li></ul>
-    This replaces the previously hardcoded PCA (Clavis) integration. PCA and any other consumer-specific service should now be registered this way rather than living inside the OSS package.
-<ul><li>8e99f07: Remove the public <code>getAuthToken</code> endpoint that exposed raw OpenStack bearer tokens to JavaScript.</li></ul>
-    <strong>Migration:</strong> Clients must stop calling <code>getAuthToken</code>. Use the supported server-side authenticated flow instead of requesting raw OpenStack bearer tokens from JavaScript.
-<h3>Patch Changes</h3>
-<ul><li>94476a1: - Add ownership verification for EC2 credential deletion to prevent IDOR attacks</li></ul>    -   Return NOT_FOUND for unauthorized deletion attempts (prevents resource enumeration)
-    -   Make DELETE idempotent (404 on GET returns success)
-    -   Map 401/403 from identity service to proper error codes
-<ul><li>1513d97: Update delete modals to use Modal built-in props and single-column DescriptionList, improve test accessibility using getByRole and getByLabelText queries, fix swap display to show &quot;None&quot; instead of &quot;0 MiB&quot;, and replace array index keys with stable IDs</li></ul>]]></description>
         </item>
 <item>
             <title>cloudoperators/shoot-grafter - v0.5.0</title>
@@ -4424,14 +4573,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.9.0
 <p>Files in this release:<br>``<code><br>e61b42537a7f118913856e96a0c2bff175fa3437e03f8dce0f35b63f3023714b  ./freeradius-krb5_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>8bdf0b1f4fec8ed15f618562c114d5ee4ffd18471932b282baec5f03721b3970  ./freeradius-memcached_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>b60b44c1fdc7ae2c6302c1e5b497274b121725ad9b819ec491c6bc45af7910aa  ./freeradius-postgresql-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>ba533778b471ff1f9dfa55104d2ae12b059674753e1113ad403612e71f7f4bbd  ./freeradius-krb5-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>748d9452d4f2cb2d9df5d4ed8182a2660908a767a8b374668df1f7338ef470ae  ./libfreeradius3-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>7f459d23b95cea1d54ed618d10bb09ae5e3930ce7cd44998c04b56901cb94b18  ./freeradius-iodbc_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>3446e815c62ed9e941aa990fb15dccf22c3f7df3aaee2d5cdead736d829092c8  ./freeradius-memcached-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>5fe52fe193751f5948a13d007b2bea29565d278ba680b53108b8a817774ef5b3  ./freeradius_3.2.8+dfsg-1gl1+bp1877_amd64.changes<br>ea5b267dbaf2afc68fee3563d5171816a8d43e574acfbaf32c31cb0490ce38d1  ./freeradius-redis_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>1073155238541ea3da15b68fa9551062aca2be65076878e5f7c000e9ba5b9e01  ./freeradius-python3_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>6e5c47d2319e0b49104c2a7fd9d940ce7dc882f0b5cb8631ebb59d1756d142fb  ./freeradius-dhcp-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>677b8081188453460800cedf7706ebad3a8b90ed0265148fae06ca89de929597  ./libfreeradius3_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>0054cf2bef72ed8960063cb3df006eaaee8480405d376886074bf8f1e5182151  ./freeradius-yubikey-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>34d14e60c302f1ca2522d2a3f9e99ae1efa0cb924b96b80d6a491b379cb8c317  ./freeradius-ldap-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>4ce2e2ccd30e3b947e291a2ac57db4b60cb033d6198c22de27563e54507325ef  ./freeradius-utils_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>5be91ba7851f9bc65881077aac1c7426829e0e88cd6678902627d2b89f7df714  ./freeradius-utils-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>aa9e1ec9902647f84caa2647fe384b28c9f2c7febb667423f00c7912958cd704  ./freeradius-utils_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>572898e27f0e73ee2066539881e1a62caa26af4961a6d6ff075088427cdad8b7  ./freeradius-ldap-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>32f566ae6a33964e41ed61bc6759227b36259b560540f45cfaa4d8702b56516c  ./freeradius-yubikey_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>2eb9ff9bfc703ed978fe35c64a6bf4404c1b46f4d5367a776f14d041f35a7e8d  ./freeradius-rest-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>fa15de7f35d93958a5560535e82e2066b2043005dc9dd2c0154a5c701ffc9a75  ./freeradius-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>8572b426c278f2f65a1b21dfeedd3b3b4417b6d43eff26c94bf8e025ca31a00b  ./freeradius-rest-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>f5e5798d1b3e460b92ede97b90a6468cebe366f1561071f3831cc3fcbd6da329  ./freeradius-yubikey-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>efb8074e9c50f2238c42306e4739ae95a4b273160307bad1bda433fe8a3fc003  ./freeradius-redis-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>0e965ef90abf7212ae29ecab7e7050d63cf06cc8195f6cca71728091dae5388c  ./freeradius-config_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>2a29a73ef831a3bcae53455d858ad7fa6d1a149cc4bc02fb7e0170b33a819db2  ./freeradius_3.2.8+dfsg-1gl1+bp1877_amd64.buildinfo<br>f4eb1626abae8b648fe4de3aa1ed1ab94ccf3c385bf41a051ae92edccfdcca62  ./freeradius-config_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>d7eb3f38d210306891f029fbfea1b1f6a9cb93fcab99176a693e65d59b6ac644  ./libfreeradius-dev_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>cf1919520f6ce00a8b0f73b8869a6cd0c8fb1ed3902226006370a14aa9b7e372  ./freeradius-iodbc_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>d726de201b5408daba86778a5f474e91c05c842c2388eb488f2d3305578c296c  ./freeradius-mysql_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>172ec6c81786e9ab711cecf344ab3193b45041eb11498bb67163fb2b8355893b  ./freeradius_3.2.8+dfsg-1gl1+bp1877.dsc<br>389ae4a6665e57219aed33b96b0385ea9c770e2ed05e11982b290d5d86f63187  ./freeradius-python3-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>2d9eb9fb3a3d415f2a678039794b0c81d541dc987586474d2e84443cda45b33e  ./freeradius-python3_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>a08dcacebe2a9e8b83e99cdce184affaf30e601dd85c0979c115dde3b2553805  ./freeradius-mysql_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>1e1b6ba7efa7aea479e5b2feab2d4d702b92e36107b71fce12caf488e64e472c  ./freeradius-krb5_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>924e5aa2c0b3fb823cb5544214d48d4f4bc9586dafc4c33e36301dc369321486  ./freeradius-ldap_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>2d145d811209dc5e77f2c3ce7d70601cd574251ad095e126b88a54172ab49f0c  ./freeradius-postgresql_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>4fe67535c0f4ccf490e2ab3d51faf13e69a07dbddee7fcbfaeffcb2da8276ba8  ./freeradius-utils-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>a53fe15d818fdac119b657bf220396571bb1340ac69e7ff6b80f81c04a8de9e3  ./freeradius-rest_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>129b7e02621f478813bd7e8b41257e1d2dbc5edd2a02aae296706e43e8ba42ef  ./freeradius_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>265e254fcf1d2edb925c4d9f69558af3d874a8f7c1716c83be65b4e3dff03b76  ./freeradius-ldap_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>d4de19f62ebeac9a7f3d68b31a458aea1ff5de337658fbd2e34ecd703a60df7b  ./freeradius-krb5-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>b17c20ab0a39f4e3beab339c0bb054af668b12da0a2705e16db890d0aec10f80  ./freeradius-postgresql_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>0830ed59cc61e62436650255ea078d9fa7a0126eb6aaecaa0af95fb6893f2b7e  ./libfreeradius3-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>46cb0d2762b0fb726ea4c2eb86c3db6ae41121f5a15422bd7239e585183574d8  ./libfreeradius3_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>4d428c4e20e3093c218665028d2668a5963e8dd79da649eb704fabe04387ce5a  ./freeradius-rest_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>2c5fe1c2d462493ef3d10d63f027bdd8f7d380ce57d1070f427d8c967537c85c  ./freeradius-postgresql-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>e5afb43bb9e7fd81a1cac57623495c6be81fefc0c4c6fe3ab29b9d705d4af2f3  ./freeradius-python3-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>c261c6768964004b19ff64f4a7070d6b634f869874f540e9613c8be0d1b57619  ./libfreeradius-dev_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>785ee63177d70ad6b4bf0ca49197a145762b4550f11af3ec43fb91c923d3006c  ./freeradius-iodbc-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>2dcb82063cf8d5dae04fafca8893a2da4f5967946fec205c76814e469b75028c  ./freeradius-iodbc-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>e7f22d9e9ed4e37c8d1265b4b7b7be9a0e46a0fade9b78cc1a97f0bb78aaa494  ./freeradius_3.2.8+dfsg.orig.tar.xz<br>8e1d0df6c790d38b08dadab1d2ee58e2a1e23643efec41d4d84ed324db477e16  ./freeradius_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>17e53ccb59b2ac07fb7f415b349fdf91a7a957f3d82b7e691832c785c0cb1be2  ./freeradius-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>9f73b07570afbac5c73e93671603505d2f9ab29f1b62b3c230ffde59583ce2ef  ./freeradius-redis_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>ce28099a659dd5a0a96eed57bf1dc206864f70698603cea073dc43d17a478933  ./freeradius_3.2.8+dfsg-1gl1+bp1877_arm64.buildinfo<br>923de7f61bc89309ae86f554fdbb9b8ee4219ccf7e0ce7204b2eb9e5aea1d93a  ./freeradius-dhcp_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>6d3d88f00deaa99021ac12ac1f1b835fc947ed2ba04b10040e4efc8dbb06adcb  ./freeradius-memcached-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>c137f7453e8688047a5714b6451bef0bc143324735616f6f2afa25c0f31de720  ./freeradius-redis-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>9c67dd0ef7e267fb121e94d6c7f9f697005128688f4799066722409f258ecb5e  ./freeradius-yubikey_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>673ecf20afa3f9ac2ae1e5c9afd332848d0cbdc1aa887abfe3ae4d48099644df  ./freeradius-memcached_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>26f9d264b57bd40d870d9f06299cee66635389f37fe0bf45d039908f034d324e  ./freeradius-mysql-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>e51d6bf9a79a027ad6e72b2354e693e2582d76a73dc96e2bfd9e029c8ebb8714  ./freeradius-mysql-dbgsym_3.2.8+dfsg-1gl1+bp1877_amd64.deb<br>d4130d831ba7ce5df55385a32d734cb9d583239187a038d46bb221585947d70e  ./freeradius_3.2.8+dfsg-1gl1+bp1877.debian.tar.xz<br>5304c335777b7d7740b03d6a0af1a6677477d2bc244a514e6fff8afd7426db48  ./freeradius-common_3.2.8+dfsg-1gl1+bp1877_all.deb<br>4ac31af64231bf0ab57201a1c030ad0e19c5dfe256137bb28954bb5663f6a8ef  ./freeradius_3.2.8+dfsg-1gl1+bp1877_arm64.changes<br>3b43e6ae9ecdc84938c3d2c8138b6ca40c85fa9b05d0dbba8045f6e6d514f24b  ./freeradius-dhcp-dbgsym_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br>2903a19c4775a813af94f0302119059616da0e2883b64a90d2f0a2bf8a57a512  ./freeradius-dhcp_3.2.8+dfsg-1gl1+bp1877_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>gardenlinux/bp-package-vim - vim_9.2.0858-1gl0+bp1877</title>
-            <link>https://github.com/gardenlinux/bp-package-vim</link>
-            <guid>https://github.com/gardenlinux/bp-package-vim/releases/tag/vim_9.2.0858-1gl0+bp1877</guid>
-            <pubDate>Tue, 18 Aug 2026 20:16:58 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/bp-package-vim/actions/runs/32181399748">32181399748</a></p>
-<p>Files in this release:<br>``<code><br>811e70fb64fc071af434981596d398f9abb9197b62295cfe5be9e1eae2e2cf5d  ./vim-tiny_9.2.0858-1gl0~bp1877_arm64.deb<br>eb0937ce04f5975e4ac6253f6d890dafc6cee373ef241c0ee292a7cc2e9e40b9  ./vim-gtk3-dbgsym_9.2.0858-1gl0~bp1877_arm64.deb<br>c990547a2c03496c62f7cfe515cfb5bbdb69b6f2c590944b33b31d91f8515dce  ./vim_9.2.0858-1gl0~bp1877.debian.tar.xz<br>8375e9ec55ba0dc7089aa5ccfcbe44843edc05838b541b14698aac7be645a6ed  ./vim-tiny_9.2.0858-1gl0~bp1877_amd64.deb<br>2444855ef2482c748670da6d304c3995f5d187fc233a379861c801c34d127d10  ./vim-doc_9.2.0858-1gl0~bp1877_all.deb<br>51a616885a2d85016d24077f0cc721f0c2421772f1c3fb5e8b9ab820a437b5d4  ./xxd_9.2.0858-1gl0~bp1877_arm64.deb<br>774575b2872a64f4480cba5641f9b10f91b751da641789fc96e4522c75d1ea13  ./vim-gui-common_9.2.0858-1gl0~bp1877_all.deb<br>8fa319cf026498b2cb2dec32d77990b2ea8cadfc268f77d47a3e7d92ab6cc4d9  ./vim-motif-dbgsym_9.2.0858-1gl0~bp1877_amd64.deb<br>8b289c2755a437ce20b2a0e0227ce0686f3b65da370dbcb4ac3587db9b03da06  ./vim-gtk3-dbgsym_9.2.0858-1gl0~bp1877_amd64.deb<br>2813547777501a04c7f4dd917873bb13c12c957320db58f2999645776cb42818  ./vim-nox_9.2.0858-1gl0~bp1877_amd64.deb<br>09438e87689aba27f6155fa786522350bec4874385d0a9db58ce5aaedad88c6d  ./vim_9.2.0858-1gl0~bp1877_arm64.buildinfo<br>fd32bc7fb39ff14df6f6a8de22706841c97657c28d08dd193033121a594e8145  ./xxd_9.2.0858-1gl0~bp1877_amd64.deb<br>02e19e9904242ca2fdafded3a8370522d5fd3415368db39cea03c690f38df1cf  ./vim-motif_9.2.0858-1gl0~bp1877_arm64.deb<br>9fb0fd70ea0b3cef32701147fcf0502a15b366af8032588263e2c3a8bfdb7bc8  ./vim_9.2.0858-1gl0~bp1877_amd64.buildinfo<br>61104ab29b80f916201f62b4615ac3caf52f03cea7de594adbea628665e79b8b  ./vim-common_9.2.0858-1gl0~bp1877_all.deb<br>18498b45559ba34f9339f26c1eb6279c7eb6be49ee2dc629b5f0a39867e870b8  ./vim_9.2.0858.orig.tar.xz<br>b0109a39ecbcec669dcbf3717947d22eec9b8bda973a556703b00da574fdefe9  ./vim-motif-dbgsym_9.2.0858-1gl0~bp1877_arm64.deb<br>0b5a7041ba183b9bb13f6c5895a30e7241605c7b2e01008f2e2eea842a1cf963  ./vim_9.2.0858-1gl0~bp1877_arm64.deb<br>f9015a6270028b347eff756757dcf8dd135e6cc29bcc90ca5c99b525f3957493  ./vim-motif_9.2.0858-1gl0~bp1877_amd64.deb<br>2e687ca77a2956249e6082d278d30056562c31b6314799fbe53da3ff6c839a66  ./vim-nox-dbgsym_9.2.0858-1gl0~bp1877_arm64.deb<br>20b6816334c325b560bf7d3b068c8568baa25e03c31a2eec931b2762ab894993  ./vim-tiny-dbgsym_9.2.0858-1gl0~bp1877_amd64.deb<br>7eb0e92cda0e453bf1a65a961b634798de69e3df015523a3b91bbe989b8e314e  ./vim-nox_9.2.0858-1gl0~bp1877_arm64.deb<br>10ec5518e0f2af2906af09b7798c18f4426851a501b043c556829095e222bf69  ./vim_9.2.0858-1gl0~bp1877_arm64.changes<br>758a5c3ea1b96ee4dfdbdbf54a40929ba3f0f04decdbc1cddf8fec053b1529e9  ./vim_9.2.0858-1gl0~bp1877_amd64.deb<br>131b7c0a4d7523e0a223adae887367b8f7f2bb628a02376076880981c96efadc  ./xxd-dbgsym_9.2.0858-1gl0~bp1877_arm64.deb<br>3719360be2434789f4928a9c03263406ca58efe1a6088adddf44545504b08012  ./vim_9.2.0858-1gl0~bp1877.dsc<br>d412cf11ad0873bce99911c1cac869c683cb0499aea6a35a0b8918bad7942d60  ./vim-gtk3_9.2.0858-1gl0~bp1877_amd64.deb<br>f976f86e8bea440ce212e3100dffb3a5c2fd86b08fffc883bcc5e0ae6d94a587  ./vim-tiny-dbgsym_9.2.0858-1gl0~bp1877_arm64.deb<br>016ad3fe2a1a7f3d56bb9cc1c887ea7df460fe6e86ded6dcf5ef1d3a4c43dd47  ./vim-runtime_9.2.0858-1gl0~bp1877_all.deb<br>640c1fb26a718a86a2f1c7d0cd780305d23cbaeda65f61746f71b80bebd7d112  ./vim-gtk3_9.2.0858-1gl0~bp1877_arm64.deb<br>c93165c8510a41278e3bafa3b3cf0462846627f36880cd99ed449d86c5e6457f  ./vim-dbgsym_9.2.0858-1gl0~bp1877_amd64.deb<br>83fbff3a827eb98f32bca3acf72b2d13e8351f58f2195d54a170b6503041d51c  ./vim_9.2.0858-1gl0~bp1877_amd64.changes<br>df8f326e8d94b623195cc3545ff979ed7f803a70bcf1d35b45667c9fd2ca645c  ./vim-dbgsym_9.2.0858-1gl0~bp1877_arm64.deb<br>44e60da4540232851f6d0fa3e6bb1f060de5846ae89962beed0d4bf30fe05ecc  ./xxd-dbgsym_9.2.0858-1gl0~bp1877_amd64.deb<br>a6a82390c17ab1ba03270e3fe044fcd6dd8a42da1ff4f72ffdf0da83cccbc162  ./vim-nox-dbgsym_9.2.0858-1gl0~bp1877_amd64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>gardenlinux/package-libsys-virt-perl - Null release</title>
             <link>https://github.com/gardenlinux/package-libsys-virt-perl</link>
             <guid>https://github.com/gardenlinux/package-libsys-virt-perl/releases/tag/Null release</guid>
@@ -4977,23 +5118,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.9.0
 <ul><li>diki-ops: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/diki-ops:v0.28.0</code></li><li>diki: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/diki:v0.28.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>openmcp-project/service-provider-kro - Release v1.3.0</title>
-            <link>https://github.com/openmcp-project/service-provider-kro</link>
-            <guid>https://github.com/openmcp-project/service-provider-kro/releases/tag/Release v1.3.0</guid>
-            <pubDate>Wed, 12 Aug 2026 09:33:42 +0000</pubDate>
-            <description><![CDATA[<h1>Changelog</h1>
-
-
-<h2>🚀 Features</h2>
-
-#### [USER]
-<ul><li>Version bump to 1.3.0 <strong>(#141, @Skarlso)</strong></li><li>BREAKING CHANGE: Make version selectable in the provider config and the spec. <strong>(#133, @Skarlso)</strong></li><li>Fix incubation items. <strong>(#128, @Skarlso)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [L]
-<ul><li>dyn(req.auth)[&quot;-&quot;] <strong>(#126, ⚙️)</strong></li></ul>]]></description>
-        </item>
-<item>
             <title>open-component-model/service-provider-ocm - Release v0.4.0</title>
             <link>https://github.com/open-component-model/service-provider-ocm</link>
             <guid>https://github.com/open-component-model/service-provider-ocm/releases/tag/Release v0.4.0</guid>
@@ -5222,15 +5346,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.9.0
             <pubDate>Wed, 05 Aug 2026 00:39:36 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-cloud-init/actions/runs/30963969355">30963969355</a></p>
 <p>Files in this release:<br>``<code><br>49967ffab1de4469843550b42cb02f2e110d92174281c1e06620c310401041fb  ./cloud-init_26.2.orig.tar.xz<br>8b62e64383d6ba20066fe1b08b5c69f1bb6090df146c8621aec4cdc526717c29  ./cloud-init_26.2-1gl0.dsc<br>90d4bf586a7cdb6264faecf1ad5e74613143ba4b5ef6531320a6760351c05642  ./cloud-init_26.2-1gl0_all.deb<br>7f6302d1f51b2e9af8dd10890d803af22c59ad3c7301918a0a36d675069a424f  ./cloud-init_26.2-1gl0_amd64.changes<br>33c08500eee63cdaccba226fd8f32ee99571d9b46f0d3a037798feea98abea12  ./cloud-init_26.2-1gl0_amd64.buildinfo<br>886c6ba4e4a86e0496c43006753c728b1c4c8a72edd3980438684287ac21763a  ./cloud-init_26.2-1gl0.debian.tar.xz<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>openkcm/orbital - v0.6.1</title>
-            <link>https://github.com/openkcm/orbital</link>
-            <guid>https://github.com/openkcm/orbital/releases/tag/v0.6.1</guid>
-            <pubDate>Tue, 04 Aug 2026 15:34:07 +0000</pubDate>
-            <description><![CDATA[<h2><a href="https://github.com/openkcm/orbital/compare/v0.6.0...v0.6.1">0.6.1</a> (2026-08-04)</h2>
-<h3>Bug Fixes</h3>
-<ul><li>convert labels into string before storing as JSON (<a href="https://github.com/openkcm/orbital/issues/193">#193</a>) (<a href="https://github.com/openkcm/orbital/commit/488f924b6e566c0e22d32b2c21e5661f00bddc10">488f924</a>)</li></ul>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-openssl - openssl_3.5.5-1gl56+bp1877</title>
@@ -5523,14 +5638,6 @@ Update to Jackson 3
 <p>Files in this release:<br>``<code><br>7ff41537ac3a1815e361297eb33bc9d097a4c614486da08a4f96fafcdb03cbe7  ./pyjwt_2.13.0-1gl0~bp1877_amd64.buildinfo<br>f0f39ed784b2eabcf400c3b281ad15f8c3b8a9270a32a85a2f414fa436c1f51f  ./pyjwt_2.13.0-1gl0~bp1877.dsc<br>52e4aea3f2dc3ce555da4e50ab45b1d1914ac7f6c9d6c9a5a0de498ab279275b  ./pyjwt_2.13.0.orig.tar.xz<br>b36aa833342efe9c0523fc82852e8ab4f97980d8fce3dea9ccc9b35e298ce3dc  ./python-jwt-doc_2.13.0-1gl0~bp1877_all.deb<br>810cb40d013d2fe450cbcde3b1fb586e0d3ea75d6e0339d89be5b10ec6477681  ./pyjwt_2.13.0-1gl0~bp1877.debian.tar.xz<br>5321c0b3be23c2dcabf2d42ed691d134b7fc3f720d9cc2a1fe2620b6d435fb72  ./pyjwt_2.13.0-1gl0~bp1877_amd64.changes<br>0d8b9d0044be263ae72b407ed277e9a0e668bf81dfd5d4e61451a5d8b8a5688b  ./python3-jwt_2.13.0-1gl0~bp1877_all.deb<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-adduser - adduser_3.158gl0</title>
-            <link>https://github.com/gardenlinux/package-adduser</link>
-            <guid>https://github.com/gardenlinux/package-adduser/releases/tag/adduser_3.158gl0</guid>
-            <pubDate>Sun, 26 Jul 2026 00:31:50 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-adduser/actions/runs/30181272344">30181272344</a></p>
-<p>Files in this release:<br>``<code><br>667965ab5b11f3cfc593959f6aecd6a8d418f0e4c37fe296a72d44bd8095338e  ./adduser_3.158gl0.dsc<br>195855e90e9d8102a91464b7d1a897ee888e425f0d0a071aa2788c6f5d8122b1  ./adduser_3.158gl0.tar.xz<br>c5656a795d5105776f662028b01a543264f62cec628eec52438c693b690dbe6c  ./adduser_3.158gl0_amd64.buildinfo<br>06298a79b622621e047d5e3dfc4d665dad420c2453e2bd1b5512e2bca4b12a6a  ./adduser_3.158gl0_amd64.changes<br>7920ff9c852b024e01da8e655056c950d5f3705d4dd9e5d2e9f89e0d991ed8b9  ./adduser_3.158gl0_all.deb<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>cobaltcore-dev/prysm - v0.0.42</title>
             <link>https://github.com/cobaltcore-dev/prysm</link>
             <guid>https://github.com/cobaltcore-dev/prysm/releases/tag/v0.0.42</guid>
@@ -5668,20 +5775,6 @@ Update to Jackson 3
             <guid>https://github.com/openmcp-project/gitops-templates/releases/tag/Release v0.1.6</guid>
             <pubDate>Fri, 17 Jul 2026 09:28:21 +0000</pubDate>
             <description><![CDATA[<h1>Changes included in v0.1.6:</h1>]]></description>
-        </item>
-<item>
-            <title>ironcore-dev/FeDHCP - v0.8.4</title>
-            <link>https://github.com/ironcore-dev/FeDHCP</link>
-            <guid>https://github.com/ironcore-dev/FeDHCP/releases/tag/v0.8.4</guid>
-            <pubDate>Fri, 17 Jul 2026 08:59:58 +0000</pubDate>
-            <description><![CDATA[<h2>Changes</h2>
-<ul><li>Update release-drafter workflow for v7 @gonzolino (#451)</li><li>Remove redundant reuse workflow @damyan (#450)</li><li>Set maintainers as CODEOWNERS @gonzolino (#447)</li></ul>
-<h2>🐛 Bug Fixes</h2>
-
-<ul><li>Fix plugin empty config parsing @damyan (#435)</li></ul>
-<h2>🧰 Maintenance</h2>
-
-<ul><li>Remove size-label Github Actions workflow @gonzolino (#448)</li><li>Bump actions/setup-go from 6 to 7 in the gh-actions-dependencies group across 1 directory @[dependabot[bot]](https://github.com/apps/dependabot) (#449)</li><li>Bump github.com/ironcore-dev/metal-operator from 0.5.2 to 0.6.0 in the go-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#446)</li><li>Bump the go-dependencies group across 1 directory with 3 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#445)</li><li>Bump actions/checkout from 6 to 7 in the gh-actions-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#442)</li><li>Bump the go-dependencies group across 1 directory with 7 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#441)</li><li>Bump the go-dependencies group with 2 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#438)</li><li>Bump the go-dependencies group across 1 directory with 4 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#437)</li></ul>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-libsemanage - libsemanage_3.11-1gl0</title>
@@ -6643,14 +6736,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.4.0 --repo ghcr.io/pl
 <ul><li>machine-controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/machine-controller-manager@sha256:8c3c8898609ea0dec35386932af6e55e9ed65a1ad95cd2a40d51c1603147b791</code></li><li>machine-controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/machine-controller-manager@sha256:b7137602744886282f71046059ca80219e48a7e52589ccde3e3556b82b6b374e</code></li></ul><h2>application/vnd.cyclonedx+json</h2>
 <ul><li>machine-controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/machine-controller-manager@sha256:03aa4bb2714b2474fa1310feb3cf8625f71a9be44e7e4b94065365d527180809</code></li><li>machine-controller-manager-sbom-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/machine-controller-manager@sha256:1a5a18d71e09efbdfadd9c9f874ee88d1b2da780532dbcc1f749623c9adbba19</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>machine-controller-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/machine-controller-manager:v0.62.1</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-expat - expat_2.8.2-1gl0+bp2150</title>
-            <link>https://github.com/gardenlinux/package-expat</link>
-            <guid>https://github.com/gardenlinux/package-expat/releases/tag/expat_2.8.2-1gl0+bp2150</guid>
-            <pubDate>Wed, 01 Jul 2026 08:30:22 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-expat/actions/runs/28504417499">28504417499</a></p>
-<p>Files in this release:<br>``<code><br>2a15c4bfedf0f23cf611640ac892b31e5587ef6c9083c60f112c7f7c19095eb9  ./libexpat1_2.8.2-1gl0~bp2150_arm64.deb<br>78dbd3063541b07422834d33e3fe31f87c0dceb0e155d441173c535cbe6ad73c  ./libexpat1-dev_2.8.2-1gl0~bp2150_amd64.deb<br>60c42747f77b62b0bd7070a030be08c28b4ccfe9a184edced00ac97fc9083fd8  ./expat-dbgsym_2.8.2-1gl0~bp2150_amd64.deb<br>0dc178eac7db89379c07626174cb4725b8e17751a11fc7bbbf5907d1753668ff  ./expat_2.8.2-1gl0~bp2150.dsc<br>8280b9953fa1c39e354e40b7fe86b379a03cf15f605055a82d5a95403665bd1a  ./expat_2.8.2-1gl0~bp2150_amd64.buildinfo<br>93eb8bee6a8607b75b8f75311f33aed02ef936acb3ecae126eb13072b2ea02bd  ./expat_2.8.2.orig.tar.xz<br>3e5b0b9f6bed8597529b19358b21a2c95c0eabbf3713adc2d88d7bacaf14c5d3  ./debian.tar<br>d2527ecf1fe2b118ebcf90ed1710e9d7d5fbc27f85c83ecbe3387fa4093f0666  ./expat_2.8.2-1gl0~bp2150_amd64.deb<br>b7ae3607a41233b1446222d9f11cacfcb496084a93340c971d6cd56667e07314  ./expat_2.8.2-1gl0~bp2150_amd64.changes<br>fe2b9c32f80bfcd8ae0497aece2505bab6d4daf312328d5b822e17f5ae52b238  ./libexpat1-dev_2.8.2-1gl0~bp2150_arm64.deb<br>2b0a04577c4fbef5e6f8a3969085099ffaadb1b1fe8125138468252a8524d3cf  ./expat-dbgsym_2.8.2-1gl0~bp2150_arm64.deb<br>bf6e60e7cdb268124353eee621b11d1cdc82ce5a3d089c0c15c356089ce53540  ./expat_2.8.2-1gl0~bp2150.debian.tar.xz<br>1c8c8e72bdcbaf7b22b2bcff06030d34d91aa3b2c64cb32d2f8d0b8a75160e6c  ./libexpat1-dbgsym_2.8.2-1gl0~bp2150_amd64.deb<br>3651a188f98653d55c55731bc0970fca6a0475e7ba08eb5a8a19a52f2aa3d940  ./expat_2.8.2-1gl0~bp2150_arm64.deb<br>be6d8872e90079668f035460ba1fbe5419173c9aa96c1ebbd00cc28a3985d8e0  ./expat_2.8.2-1gl0~bp2150_arm64.buildinfo<br>08f8174525d776073f08515f7b7367935bda8e0306fd47d5db5ad3ae204855de  ./libexpat1_2.8.2-1gl0~bp2150_amd64.deb<br>43a4393b546994187fc7128e4dc23c2d4df925797a250899a16e8e74578645f4  ./expat_2.8.2-1gl0~bp2150_arm64.changes<br>a164c2eecc826824721e0846d95e361e9b45681db0df90c202448fd7305ba3c8  ./libexpat1-dbgsym_2.8.2-1gl0~bp2150_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-krb5 - krb5_1.22.1-3gl0+bp2150</title>
