@@ -32,4 +32,3 @@ Christian Berendt (CEO 23Technologies GmbH, CEO OSISM GmbH), Tor Lund-Larsen (CE
 📅 **Date / Datum**: 21. September 2026 / September 21 2026
 🕙 **Time / Uhrzeit**: 10:00 – 11:30 CEST
 
-[Dial in!](https://alasca.cloud/en/community-calendar/)
