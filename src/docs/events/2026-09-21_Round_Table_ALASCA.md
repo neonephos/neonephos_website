@@ -1,0 +1,34 @@
+---
+title: "ALASCA With C – as in Community"
+date: "2026-09-21"
+banner: "assets/events/20260921_Round_Table_ALASCA_banner.svg"
+bannerMobile: "assets/events/20260921_Round_Table_ALASCA_banner_mobile.svg"
+bannerSmall: "assets/events/20260921_Round_Table_ALASCA_banner_small.svg"
+backgroundhex: "#889aa4ff"
+tags: ["neonephos", "Round Table ALASCA"]
+rssPubDate: "2026-09-07"
+published: true
+---
+
+## Round Table ALASCA With C – as in Community
+*at SpinLabs Leipzig*
+
+Europas digitale Souveränität entscheidet zunehmend über Innovationsfähigkeit, Wettbewerbsstärke und technologische Unabhängigkeit. Gleichzeitig entstehen zahlreiche Initiativen auf europäischer, nationaler und regionaler Ebene mit ähnlichen Lösungswegen und Zielsetzungen. Oft entstehen diese jedoch nebeneinander statt miteinander. Technologische Silos, parallele Entwicklungen und fehlende Vernetzung zwischen Akteuren verhindern das Ausschöpfen von Potenzialen sowie die effiziente Nutzung von Ressourcen.
+Genau hier setzt Community an: Digitale Souveränität entsteht nicht durch isolierte Einzelprojekte, sondern durch echte Zusammenarbeit. Nur wenn Unternehmen, Forschung, öffentliche Hand und Open-Source-Communities (wie OSBA, OpenInfra Foundation, NeoNeophos u.a.) ihre Kompetenzen bündeln und koordiniert zusammenarbeiten, können interoperable, skalierbare und nachhaltige digitale Infrastrukturen entstehen.
+Open Source schafft dafür die Grundlage: Transparenz, Nachvollziehbarkeit und technologische Offenheit ermöglichen es, Wissen zu teilen, Lösungen gemeinsam weiterzuentwickeln und Abhängigkeiten zu reduzieren - über Organisations-, Technologie- und Landesgrenzen hinweg.
+Vor diesem Hintergrund bringt der ALASCA Round Table Vertreterinnen und Vertreter aus Politik und Wirtschaft an einen Tisch, um die Frage zu diskutieren, wie organisationsübergreifende Zusammenarbeit gestärkt werden kann, um gemeinsam auf das Ziel eines digital souveränen Europas durch die Verwendung von Open-Source einzuzahlen.
+
+Ein moderierter Round Table mit Teilnehmern wie Vasu Chandrasekhara (ex-VP Cloud Native Strategy/Chief Architect at SAP, Advisor NeoNephos Foundation), Dirk Meyer-Claassen (Abteilungsleitung „Strategie, Steuerung, Recht und Prozesse“, Senats-kanzlei Berlin), Luise Kranich (Abteilungsleiterin T – Technologiestrategie und Informationstechnik, BSI), Christian Schlaeger (Managing Director, Schwarz Digits GmbH), Kurt Garloff (CEO S7n Cloud Services GmbH), Miriam Seyffarth (Leiterin Politische Kommunikation OSBA),
+Christian Berendt (CEO 23Technologies GmbH, CEO OSISM GmbH), Tor Lund-Larsen (CEO Cyberus Technology GmbH), Dr. Marius Feldmann (Vorstand ALASCA und COO Cloud&Heat Technologies GmbH) und mehr.
+
+*Europe's digital sovereignty is increasingly decisive for its capacity to innovate, its competitive strength and its technological independence. At the same time, numerous initiatives are emerging at European, national and regional level with similar approaches and objectives — yet these often develop alongside each other rather than together. Technological silos, parallel developments and a lack of coordination between actors prevent the full realisation of potential and the efficient use of resources.*
+*This is exactly where community comes in: digital sovereignty does not emerge from isolated individual projects, but from genuine collaboration. Only when companies, research institutions, public authorities and open source communities — such as OSBA, OpenInfra Foundation, NeoNephos and others — pool their expertise and work in a coordinated way can interoperable, scalable and sustainable digital infrastructures emerge.*
+*Open source provides the foundation for this: transparency, traceability and technological openness make it possible to share knowledge, develop solutions collaboratively and reduce dependencies — across organisational, technological and national boundaries.*
+*Against this backdrop, the ALASCA Round Table brings together representatives from politics and business to discuss how cross-organisational collaboration can be strengthened in order to jointly contribute to the goal of a digitally sovereign Europe through the use of open source.*
+
+*A moderated round table with participants including Vasu Chandrasekhara (ex-VP Cloud Native Strategy/Chief Architect at SAP, Advisor NeoNephos Foundation), Dirk Meyer-Claassen (Head of Department "Strategy, Governance, Law and Processes", Senate Chancellery Berlin), Luise Kranich (Head of Department T – Technology Strategy and Information Technology, BSI), Christian Schlaeger (Managing Director, Schwarz Digits GmbH), Kurt Garloff (CEO S7n Cloud Services GmbH), Miriam Seyffarth (Head of Political Communication, OSBA), Christian Berendt (CEO 23Technologies GmbH, CEO OSISM GmbH), Tor Lund-Larsen (CEO Cyberus Technology GmbH), Dr. Marius Feldmann (Board Member ALASCA and COO Cloud&Heat Technologies GmbH) and more.*
+
+
+📅 **Date / Datum**: 21. September 2026 / September 21 2026
+🕙 **Time / Uhrzeit**: 10:00 – 11:30 CEST
+
