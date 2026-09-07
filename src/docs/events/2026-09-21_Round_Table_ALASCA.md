@@ -11,7 +11,7 @@ published: true
 ---
 
 ## Round Table ALASCA With C – as in Community
-at SpinLabs Leipzig
+*at SpinLabs Leipzig*
 
 Europas digitale Souveränität entscheidet zunehmend über Innovationsfähigkeit, Wettbewerbsstärke und technologische Unabhängigkeit. Gleichzeitig entstehen zahlreiche Initiativen auf europäischer, nationaler und regionaler Ebene mit ähnlichen Lösungswegen und Zielsetzungen. Oft entstehen diese jedoch nebeneinander statt miteinander. Technologische Silos, parallele Entwicklungen und fehlende Vernetzung zwischen Akteuren verhindern das Ausschöpfen von Potenzialen sowie die effiziente Nutzung von Ressourcen.
 Genau hier setzt Community an: Digitale Souveränität entsteht nicht durch isolierte Einzelprojekte, sondern durch echte Zusammenarbeit. Nur wenn Unternehmen, Forschung, öffentliche Hand und Open-Source-Communities (wie OSBA, OpenInfra Foundation, NeoNeophos u.a.) ihre Kompetenzen bündeln und koordiniert zusammenarbeiten, können interoperable, skalierbare und nachhaltige digitale Infrastrukturen entstehen.
