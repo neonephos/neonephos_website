@@ -775,12 +775,80 @@ Christian Berendt (CEO 23Technologies GmbH, CEO OSISM GmbH), Tor Lund-Larsen (CE
 ]]></description>
   </item>
   <item>
+    <title><![CDATA[Kubernetes Community Days Sofia]]></title>
+    <link>https://neonephos.org/events/2026_09_17_KCD_Sofia</link>
+    <guid>https://neonephos.org/events/2026_09_17_KCD_Sofia</guid>
+    <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20260929_KCD_Sofia_banner.svg" alt="Kubernetes Community Days Sofia banner" /></p><h2 id="kubernetes-community-days-sofia-2026" tabindex="-1">Kubernetes Community Days Sofia 2026 <a class="header-anchor" href="#kubernetes-community-days-sofia-2026" aria-label="Permalink to &quot;Kubernetes Community Days Sofia 2026&quot;">&ZeroWidthSpace;</a></h2>
+<p>Kubernetes Community Days (KCD) Sofia returns on <strong>September 29, 2026</strong>, bringing together the cloud-native community for a day of technical talks, networking, and knowledge sharing around Kubernetes, platform engineering, observability, security, and open source.
+The event is organized by the local CNCF community and has become one of the leading cloud-native community events in the region.</p>
+<h3 id="neonephos-at-kcd-sofia" tabindex="-1">NeoNephos at KCD Sofia <a class="header-anchor" href="#neonephos-at-kcd-sofia" aria-label="Permalink to &quot;NeoNephos at KCD Sofia&quot;">&ZeroWidthSpace;</a></h3>
+<p>We are pleased that <strong>Orlin Vasilev</strong> will represent the <strong>NeoNephos Foundation</strong> at this year's event. 
+KCD Sofia provides an opportunity to exchange ideas with cloud-native practitioners, contributors, and organizations from across the ecosystem while discussing topics such as interoperability, open-source collaboration, and digital sovereignty.</p>
+<hr>
+<p>📍 Sofia Event Center, Sofia, Bulgaria</p>
+<p>📅 September 29, 2026</p>
+<p>🔗 Learn more and register: <a href="https://kcd.bg" target="_blank" rel="noreferrer">KCD Sofia</a></p>
+<hr>
+<p>We'll be sharing additional highlights and key takeaways from the event in the coming days. Stay tuned!</p>
+]]></description>
+  </item>
+  <item>
     <title><![CDATA[Open Source Summit Europe]]></title>
     <link>https://neonephos.org/events/2026_10_07_Open_Source_Summit_Europe</link>
     <guid>https://neonephos.org/events/2026_10_07_Open_Source_Summit_Europe</guid>
     <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
     <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20261007_open_source_summit_banner.svg" alt="Open Source Summit Europe banner" /></p><h1 id="neonephos-at-the-open-source-summit-in-prague" tabindex="-1">NeoNephos at the Open Source Summit in Prague <a class="header-anchor" href="#neonephos-at-the-open-source-summit-in-prague" aria-label="Permalink to &quot;NeoNephos at the Open Source Summit in Prague&quot;">&ZeroWidthSpace;</a></h1>
 <p>We will be present at the upcoming <a href="https://events.linuxfoundation.org/open-source-summit-europe/" target="_blank" rel="noreferrer">Open Source Summit in Prague</a>. Details are to be announced.</p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[metalstack.summit Munich]]></title>
+    <link>https://neonephos.org/events/2026_10_15_metalstack.summit</link>
+    <guid>https://neonephos.org/events/2026_10_15_metalstack.summit</guid>
+    <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20261015_metalstack.summit_banner.svg" alt="metalstack.summit Munich banner" /></p><h2 id="metalstack-summit-2026" tabindex="-1">metalstack.summit 2026 <a class="header-anchor" href="#metalstack-summit-2026" aria-label="Permalink to &quot;metalstack.summit 2026&quot;">&ZeroWidthSpace;</a></h2>
+<p>The <strong>metalstack.summit 2026</strong>, hosted by <strong>NeoNephos member x-cellent technologies GmbH</strong>, will bring together developers, platform engineers, operators, and users of sovereign Kubernetes infrastructure to discuss modern cloud-native technologies and the future of bare-metal platforms. Taking place on <strong>October 15, 2026</strong>, the event focuses on practical experiences, open-source technologies, and real-world deployments of sovereign Kubernetes solutions built entirely on bare metal infrastructure.</p>
+<h3 id="neonephos-at-metalstack-summit" tabindex="-1">NeoNephos at metalstack.summit <a class="header-anchor" href="#neonephos-at-metalstack-summit" aria-label="Permalink to &quot;NeoNephos at metalstack.summit&quot;">&ZeroWidthSpace;</a></h3>
+<p>We are pleased that <strong>Vasu Chandrasekhara</strong> will represent the <strong>NeoNephos Foundation</strong> with the talk:</p>
+<h3 id="sovereignty-func-ecosystems-interoperability" tabindex="-1">Sovereignty = func(Ecosystems, Interoperability); <a class="header-anchor" href="#sovereignty-func-ecosystems-interoperability" aria-label="Permalink to &quot;Sovereignty = func(Ecosystems, Interoperability);&quot;">&ZeroWidthSpace;</a></h3>
+<p>The session explores a question that is becoming increasingly important for Europe: How can digital sovereignty be achieved without creating new silos? Drawing on lessons from the Draghi Report, IPCEI-CIS, and the development of the NeoNephos Foundation, the talk examines the role of vendor-neutral open source, interoperable standards, and foundation-led collaboration in building a competitive and sovereign digital ecosystem.Rather than competing within fragmented technology stacks, the presentation argues for the creation of a shared digital commons where organizations collaborate on the core while continuing to innovate and compete on top of common standards.
+ 
+The session will also discuss how technologies such as Kubernetes and bare-metal cloud infrastructure contribute to portability, interoperability, and freedom of choice.
+---</p>
+<p>📍 <strong>Location / Ort</strong>: x-cellent technologies GmbH, Rosenkavalierplatz 10, 81925 München</p>
+<p>📅 <strong>Date / Datum</strong>: October 15 2026 / 15. Oktover 2026</p>
+<p>🔗 Learn more and register: <a href="https://metalstack.cloud/de/lp/metalstack-summit-2026" target="_blank" rel="noreferrer">metalstack.summit</a></p>
+]]></description>
+  </item>
+  <item>
+    <title><![CDATA[OpenInfra Days Saarbrücken]]></title>
+    <link>https://neonephos.org/events/20261024_OpenInfra_Days_Saarbrücken</link>
+    <guid>https://neonephos.org/events/20261024_OpenInfra_Days_Saarbrücken</guid>
+    <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20261024_OpenInfra_Days_Saarbrücken_banner.svg" alt="OpenInfra Days Saarbrücken banner" /></p><h2 id="openinfra-days-saarbrucken-2026" tabindex="-1">OpenInfra Days Saarbrücken 2026 <a class="header-anchor" href="#openinfra-days-saarbrucken-2026" aria-label="Permalink to &quot;OpenInfra Days Saarbrücken 2026&quot;">&ZeroWidthSpace;</a></h2>
+<p>The <strong>OpenInfra Days Saarbrücken 2026</strong> will bring together experts, practitioners, researchers, and open-source communities to discuss the future of open infrastructure, cloud technologies, and digital sovereignty.
+ 
+Taking place on <strong>October 24-25, 2026</strong>, at the <strong>htw saar campus in Saarbrücken</strong>, the event aims to connect stakeholders from technology, business, academia, and the regional tech ecosystem while strengthening the visibility of open technologies and digital infrastructure initiatives.</p>
+<h3 id="neonephos-at-openinfra-days" tabindex="-1">NeoNephos at OpenInfra Days <a class="header-anchor" href="#neonephos-at-openinfra-days" aria-label="Permalink to &quot;NeoNephos at OpenInfra Days&quot;">&ZeroWidthSpace;</a></h3>
+<p>We are pleased that the <strong>NeoNephos Foundation</strong> will be represented at this year's event with its own booth.
+ 
+Members of the NeoNephos ecosystem will be available to discuss open-source collaboration, interoperable cloud infrastructure, and the projects that contribute to a sovereign cloud-to-edge ecosystem.
+ 
+In addition, the <strong>IronCore</strong> and <strong>Open Component Model (OCM)</strong> communities plan to contribute talks to the conference program, sharing insights and experiences from their respective projects.
+ 
+---</p>
+<p>Representing NeoNephos at the event:</p>
+<ul>
+<li>Andreas Fritzler</li>
+<li>Daniel Gonzalez</li>
+<li>Martin Kalkoz</li>
+<li>Jakob Möller</li>
+</ul>
+<hr>
+<p>📍 <strong>Location / Ort</strong>: htw saar Campus, Saarbrücken, Germany</p>
+<p>📅 <strong>Date / Datum</strong>: October 24 to 25, 2026 / 24.-25. Oktober 2026</p>
+<p>🔗 Learn more and register:<a href="https://www.sovereign-cloud-days.eu/en" target="_blank" rel="noreferrer">OpenInfra Days Saarbrücken</a></p>
 ]]></description>
   </item>
 </channel>
