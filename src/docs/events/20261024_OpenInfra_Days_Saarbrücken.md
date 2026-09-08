@@ -18,14 +18,14 @@ Taking place on **October 24-25, 2026**, at the **htw saar campus in Saarbrücke
 
 
 ### NeoNephos at OpenInfra Days
- 
 We are pleased that the **NeoNephos Foundation** will be represented at this year's event with its own booth.
  
 Members of the NeoNephos ecosystem will be available to discuss open-source collaboration, interoperable cloud infrastructure, and the projects that contribute to a sovereign cloud-to-edge ecosystem.
  
 In addition, the **IronCore** and **Open Component Model (OCM)** communities plan to contribute talks to the conference program, sharing insights and experiences from their respective projects.
  
----
+--- 
+
 
 Representing NeoNephos at the event:
  
@@ -34,11 +34,10 @@ Representing NeoNephos at the event:
 - Martin Kalkoz
 - Jakob Möller
 
-Whether you're interested in cloud infrastructure, open source, platform engineering, or digital sovereignty, OpenInfra Days Saarbrücken provides an excellent opportunity to connect with the community and exchange ideas.
 ---
 
 📍 **Location / Ort**: htw saar Campus, Saarbrücken, Germany
+
 📅 **Date / Datum**: October 24 to 25, 2026 / 24.-25. Oktober 2026
- 
-🔗 Learn more and register:
-[OpenInfra Days Saarbrücken](https://www.sovereign-cloud-days.eu/en)
+
+🔗 Learn more and register:[OpenInfra Days Saarbrücken](https://www.sovereign-cloud-days.eu/en)
