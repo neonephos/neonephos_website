@@ -19,12 +19,13 @@ We are pleased that **Vasu Chandrasekhara** will represent the **NeoNephos Found
  
 ### Sovereignty = func(Ecosystems, Interoperability);
 
-The session explores a question that is becoming increasingly important for Europe: How can digital sovereignty be achieved without creating new silos? Drawing on lessons from the Draghi Report, IPCEI-CIS, and the development of the NeoNephos Foundation, the talk examines the role of vendor-neutral open source, interoperable standards, and foundation-led collaboration in building a competitive and sovereign digital ecosystem.Rather than competing within fragmented technology stacks, the presentation argues for the creation of a shared digital commons where organizations collaborate on the core while continuing to innovate and compete on top of common standards.
+The session explores a question that is becoming increasingly important for Europe: How can digital sovereignty be achieved without creating new silos? Drawing on lessons from the Draghi Report, IPCEI-CIS, and the development of the NeoNephos Foundation, the talk examines the role of vendor-neutral open source, interoperable standards, and foundation-led collaboration in building a competitive and sovereign digital ecosystem. Rather than competing within fragmented technology stacks, the presentation argues for the creation of a shared digital commons where organizations collaborate on the core while continuing to innovate and compete on top of common standards.
  
+
 The session will also discuss how technologies such as Kubernetes and bare-metal cloud infrastructure contribute to portability, interoperability, and freedom of choice.
---- 
 
 
+---
 
 📍 **Location / Ort**: x-cellent technologies GmbH, Rosenkavalierplatz 10, 81925 München
 
