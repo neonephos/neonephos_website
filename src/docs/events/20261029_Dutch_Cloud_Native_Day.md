@@ -10,15 +10,20 @@ rssPubDate: "2026-09-01"
 published: true
 ---
 
-## Dutch Cloud Native Day
-Two days of cloud native talks, workshops and community in Utrecht, exploring how AI is changing the way we build, run and scale modern platforms.
-Dutch Cloud Native Day is a community-organized event for cloud native adopters, technologists, platform engineers and open source practitioners from the Netherlands, Europe and beyond.
-The event is supported by Stichting Cloud Native Netherlands and remains vendor neutral, inclusive and community first. Expect practical content, open space sessions and plenty of room to meet peers across the cloud native ecosystem.
+## Dutch Cloud Native Day 2026
+**Dutch Cloud Native Day 2026** brings together the cloud-native community in Utrecht for two days of talks, workshops, and collaboration focused on modern platform engineering, Kubernetes, open source, and the growing impact of AI on cloud-native technologies. Organized by the community and supported by **Stichting Cloud Native Netherlands**, the event remains vendor-neutral and community-driven. Attendees can expect practical sessions, open discussions, networking opportunities, and real-world experiences from across the cloud-native ecosystem.
+ 
+This year's program explores how AI tools and agents are changing the way teams develop, operate, secure, and troubleshoot cloud-native infrastructure, alongside practical lessons learned from running modern AI workloads in production.
+ 
+### NeoNephos at Dutch Cloud Native Day
+We are pleased that **Orlin Vasilev** will represent the **NeoNephos Foundation** at this year's event. Dutch Cloud Native Day provides a great opportunity to connect with cloud-native practitioners, discuss open-source collaboration, and exchange ideas around interoperability, digital sovereignty, and the future of open infrastructure. Whether you're a developer, platform engineer, operator, architect, or open-source contributor, the event offers an excellent opportunity to engage with the wider European cloud-native community.
 
-Expect sessions on using AI tools and agents to develop, operate, secure and troubleshoot cloud-native production infrastructure, alongside practical lessons on running modern AI workloads.
+---
 
 📍 **Location**: Jaarbeurs, Utrecht, The Netherlands
-📅 **Date**: Workshops on Thursday 29 October, conference talks on Friday 30 October 2026.
 
-🔗 Learn more and register:
-[Dutch Cloud Native Day](https://www.dutchcloudnativeday.nl/#tickets)
+📅 **Workshops:** October 29, 2026
+
+📅 **Conference Day:** October 30, 2026
+
+🔗 Learn more and register: [Dutch Cloud Native Day](https://www.dutchcloudnativeday.nl/#tickets)
