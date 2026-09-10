@@ -2,43 +2,68 @@
 import NeoNephosDefaultTheme01 from './NeoNephosDefaultTheme01.vue'
 import LandingTilesThemeComponent from './LandingTilesThemeComponent.vue'
 import CommitteeTilesThemeComponent from './CommitteeTilesThemeComponent.vue'
-import { useData, withBase} from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
 const { frontmatter } = useData()
+
+// --- Conditional Ambassador Button Logic ---
+const today = new Date()
+
+// Always evaluate for the CURRENT YEAR
+const year = today.getFullYear()
+
+const start = new Date(year, 1, 25) // Feb 25
+const end   = new Date(year, 3, 1)  // Apr 1
+
+const isApplicationPeriod =
+  today >= start && today <= end
+
+const ambassadorLink = isApplicationPeriod
+  ? "https://share.hsforms.com/1adSxGqXUQu6NzhIoik9N5w4tvhy"
+  : "https://github.com/neonephos/outreach/blob/main/documents/outreach_committee_playbook/ambassadors/ambassador_program_outline.md"
+
+const ambassadorLabel = isApplicationPeriod
+  ? "Start Your Journey Now"
+  : "Application Period Starts March"
 </script>
 
 <template>
-  <div >
+  <div>
     <NeoNephosDefaultTheme01 :hero="frontmatter.hero">
       <template #home-hero-after>
-        <div> 
+        <div>
 
-<div class="ambassador-hero">
-  <div class="ambassador-hero-text">
-    <h2>🚀 Become a NeoNephos Ambassador</h2>
+          <div class="ambassador-hero">
+            <div class="ambassador-hero-text">
+              <h2>🚀 Become a NeoNephos Ambassador</h2>
 
-    <p>
-      NeoNephos Ambassadors promote our foundation and its projects through
-      participation in events, hosting workshops, creating tutorials, or
-      contributing other content.
-    </p>
+              <p>
+                NeoNephos Ambassadors promote our foundation and its projects through
+                participation in events, hosting workshops, creating tutorials, or
+                contributing other content.
+              </p>
 
-    <p>
-      They serve as a point of contact and knowledge for people interested in
-      NeoNephos and play a fundamental part in our community outreach strategy.
-    </p>
+              <p>
+                They serve as a point of contact and knowledge for people interested in
+                NeoNephos and play a fundamental part in our community outreach strategy.
+              </p>
 
-    <a href="https://share.hsforms.com/1adSxGqXUQu6NzhIoik9N5w4tvhy" class="ambassador-cta">Start Your Journey Now</a>
-  </div>
+              <!-- CONDITIONAL BUTTON -->
+              <a :href="ambassadorLink" class="ambassador-cta">
+                {{ ambassadorLabel }}
+              </a>
+            </div>
 
-  <div class="ambassador-hero-image">
-    <img :src="withBase('/assets/badge_ambassador_2026.svg')" alt="Ambassador Program" />
-  </div>
-</div>
-<h2 class="ambassador-section-heading">Our Ambassadors</h2>
-<CommitteeTilesThemeComponent :features="frontmatter.members" />
+            <div class="ambassador-hero-image">
+              <img :src="withBase('/assets/badge_ambassador_2026.svg')" alt="Ambassador Program" />
+            </div>
+          </div>
+
+          <h2 class="ambassador-section-heading">Our Ambassadors</h2>
+          <CommitteeTilesThemeComponent :features="frontmatter.members" />
 
         </div>
+
         <div class="neonephos-blue-section">
           <div class="neonephos-blue-section-inner">
             <LandingTilesThemeComponent
@@ -63,13 +88,13 @@ const { frontmatter } = useData()
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 1rem 2.5rem; /* reduced top whitespace */
+  padding: 1.5rem 1rem 2.5rem;
   gap: 3rem;
 }
 
 .ambassador-hero-text {
   flex: 1;
-  max-width: 550px; /* prevents overly wide text */
+  max-width: 550px;
 }
 
 .ambassador-hero-text h2 {
@@ -84,7 +109,7 @@ const { frontmatter } = useData()
 }
 
 .ambassador-hero-image {
-  flex: 0 0 260px; /* slightly smaller for balance */
+  flex: 0 0 260px;
 }
 
 .ambassador-hero-image img {
@@ -92,7 +117,6 @@ const { frontmatter } = useData()
   height: auto;
   display: block;
 }
-
 
 .ambassador-cta {
   display: inline-block;
@@ -123,7 +147,7 @@ const { frontmatter } = useData()
   font-weight: 700;
   margin: 5.5rem 0 1.5rem;
   text-align: center;
-  color: var(--vp-neonephos-blue) /* adjust to your brand color */
+  color: var(--vp-neonephos-blue);
 }
 
 @media (max-width: 768px) {
@@ -140,5 +164,4 @@ const { frontmatter } = useData()
     max-width: 100%;
   }
 }
-
 </style>
