@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useData } from 'vitepress'
+
+const { frontmatter } = useData()
 
 const props = defineProps<{
   cards: Array<{
@@ -13,13 +16,14 @@ const props = defineProps<{
     githubLink?: string
     backgroundColor?: string
     headingColor?: string
+    headinBackgroundColor?: string
   }>
   relationships_logos: Record<string, string>
 }>()
 
 const tagColorMap: Record<string, string> = {
-  application: "#269b8f",
-  data: "#ef7f44",
+  application: "#118936",
+  data: "#5725CC",
   ai: "#e2ffd1",
   service_orchestration: "#d1d6ff",
   cloud_edge_platform: "#d9f2ff",
@@ -58,8 +62,12 @@ const hoverRelatesHeader = ref<boolean>(false)
             : 1
       }"
     >
-      <!-- Title + Project Logo -->
-      <div class="dynamic-card__header">
+      <div
+        class="dynamic-card__header"
+        :style="{
+          backgroundColor: card.headingBackgroundColor || 'pink'
+        }"
+      >
         <img
           v-if="card.logo"
           :src="card.logo"
@@ -75,30 +83,46 @@ const hoverRelatesHeader = ref<boolean>(false)
         </a>
       </div>
 
-      <!-- Tags -->
       <div v-if="card.tags?.length" class="dynamic-card__tags">
         <span
           v-for="tag in card.tags"
           :key="tag"
           class="dynamic-card__tag"
-          :style="{ backgroundColor: tagColorMap[tag] || 'rgba(0,0,0,0.06)' }"
+          :style="{
+            border: '1px solid ' + tagColorMap[tag],
+            color: tagColorMap[tag],
+            backgroundColor: tagColorMap[tag] + '10'
+          }"
         >
           {{ tag }}
         </span>
       </div>
 
-      <!-- Description -->
       <p class="dynamic-card__details">
         {{ card.details }}
       </p>
 
-      <!-- Links -->
+      <div class="dynamic-card__separator-horizontal"></div>
+
       <div class="dynamic-card__links">
-        <a v-if="card.link" :href="card.link" target="_blank">Website</a>
-        <a v-if="card.githubLink" :href="card.githubLink" target="_blank">GitHub</a>
+        <div class="dynamic-card__link-item" v-if="card.link">
+          <img class="dynamic-card__icon" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-globe'><circle cx='12' cy='12' r='10'/><path d='M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20'/><path d='M2 12h20'/></svg>" />
+          <a :href="card.link" target="_blank">Website</a>
+        </div>
+
+        <div
+          v-if="card.link && card.githubLink"
+          class="dynamic-card__separator-vertical"
+        ></div>
+
+        <div class="dynamic-card__link-item" v-if="card.githubLink">
+          <img class="dynamic-card__icon" src="https://simpleicons.org/icons/github.svg" />
+          <a :href="card.githubLink" target="_blank">GitHub</a>
+        </div>
       </div>
 
-      <!-- Relates To -->
+      <div class="dynamic-card__separator-horizontal"></div>
+
       <div
         v-if="card.relationships?.length"
         class="dynamic-card__relates"
@@ -142,9 +166,9 @@ const hoverRelatesHeader = ref<boolean>(false)
 }
 
 .dynamic-card {
-  width: 300px;
+  width: 345px;
   aspect-ratio: 2 / 3;
-  border-radius: 9px;
+  border-radius: 14px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   border: 1px solid #e5e8ef;
   padding: 1.3rem 1.5rem;
@@ -153,53 +177,73 @@ const hoverRelatesHeader = ref<boolean>(false)
   transition: opacity 0.2s ease;
 }
 
-/* Header with project logo + title */
 .dynamic-card__header {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
-  margin-bottom: 1rem;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 10px;
 }
 
 .dynamic-card__main-logo {
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
 }
 
 .dynamic-card__title {
-  font-size: 1.3rem;
-  font-weight: 700;
+  font-size: 1.45rem;
+  font-weight: 800;
   text-decoration: none;
 }
 
-/* Tags */
 .dynamic-card__tags {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.4rem;
   margin-bottom: 1.2rem;
 }
 
 .dynamic-card__tag {
-  padding: 0.35rem 0.6rem;
-  border-radius: 4px;
-  font-size: 0.85rem;
-  font-weight: 600;
+  display: inline-block;
+  width: fit-content;
+  padding: 0.2rem 0.45rem;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: bold;
+  line-height: 1.1;
 }
 
-/* Description */
 .dynamic-card__details {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.75;
   color: black;
   margin-bottom: 1rem;
 }
 
-/* Links */
+.dynamic-card__separator-horizontal {
+  width: 100%;
+  height: 1px;
+  background-color: #d0d0d0;
+  margin: 0.8rem 0 1rem 0;
+}
+
 .dynamic-card__links {
   display: flex;
   gap: 1rem;
   margin-bottom: 1.2rem;
+  align-items: center;
+}
+
+.dynamic-card__link-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.dynamic-card__icon {
+  width: 18px;
+  height: 18px;
 }
 
 .dynamic-card__links a {
@@ -208,7 +252,12 @@ const hoverRelatesHeader = ref<boolean>(false)
   text-decoration: none;
 }
 
-/* Relates To */
+.dynamic-card__separator-vertical {
+  width: 1px;
+  height: 18px;
+  background-color: #d0d0d0;
+}
+
 .dynamic-card__relates {
   margin-top: auto;
 }

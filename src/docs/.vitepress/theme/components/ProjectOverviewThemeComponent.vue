@@ -1,8 +1,7 @@
 <!-- ProjectOverviewThemeComponent.vue -->
 <script setup lang="ts">
-import NeoNephosDefaultTheme01 from './NeoNephosDefaultTheme01.vue'
+import NeoNephosDefaultTheme02 from './NeoNephosDefaultTheme02.vue'
 import DynamicProjectCardThemeComponent from './DynamicProjectCardThemeComponent.vue'
-import LandingTilesThemeComponent from './LandingTilesThemeComponent.vue'
 
 import { useData } from 'vitepress'
 import { computed } from 'vue'
@@ -26,23 +25,15 @@ const relationships_logos = computed(() => {
 </script>
 
 <template>
-  <NeoNephosDefaultTheme01 :hero="frontmatter.hero">
+  <NeoNephosDefaultTheme02 :hero="frontmatter.hero">
     <template #home-hero-after>
 
-      <div class="project-lifecycle-hero">
-        <DynamicProjectCardThemeComponent
-          :cards="frontmatter.cards"
-          :relationships_logos="relationships_logos"
-        />
-      </div>
-
-      <div class="neonephos-blue-section">
-        <div class="neonephos-blue-section-inner">
-          <LandingTilesThemeComponent
-            :key="frontmatter.title"
-            :titleColor="'white'"
-            :tiles="frontmatter.tiles"
-            :heading="frontmatter.tilesHeading"
+      <!-- BREAKOUT WRAPPER: only the card section becomes 1300px wide -->
+      <div class="project-lifecycle-hero-breakout">
+        <div class="project-lifecycle-hero">
+          <DynamicProjectCardThemeComponent
+            :cards="frontmatter.cards"
+            :relationships_logos="relationships_logos"
           />
         </div>
       </div>
@@ -50,5 +41,23 @@ const relationships_logos = computed(() => {
       <br>
 
     </template>
-  </NeoNephosDefaultTheme01>
+  </NeoNephosDefaultTheme02>
 </template>
+
+<style scoped>
+.project-lifecycle-hero-breakout {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  display: flex;
+  justify-content: center;
+}
+
+.project-lifecycle-hero {
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+</style>
