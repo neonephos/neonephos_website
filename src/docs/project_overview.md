@@ -95,7 +95,7 @@ cards:
     classname: "greenhouse"
     relationships: []
     tags: []
-    logo: "https://artwork.neonephos.org/projects/greenhouse/icon/color/greenhouse-icon-color.svg
+    logo: "https://artwork.neonephos.org/projects/greenhouse/icon/color/greenhouse-icon-color.svg"
     details: "Greenhouse is a cloud operations platform designed to streamline and simplify the management of a large-scale, distributed infrastructure."
     link: "https://cloudoperators.github.io/greenhouse/"
     githubLink: "https://github.com/cloudoperators/greenhouse"
