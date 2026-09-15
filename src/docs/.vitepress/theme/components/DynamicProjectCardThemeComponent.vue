@@ -219,7 +219,7 @@ const scrollToRelatedCard = (rel: string) => {
 
 .dynamic-card__title {
   font-size: 1.45rem;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
 }
 
