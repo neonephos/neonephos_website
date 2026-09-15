@@ -265,8 +265,8 @@ const scrollToRelatedCard = (rel: string) => {
 .dynamic-card__links {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1.2rem;
   align-items: center;
+  /* removed margin-bottom so both separators have same visual gap */
 }
 
 .dynamic-card__link-item {
