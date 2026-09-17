@@ -65,6 +65,11 @@ tiles:
     linkUrl: "https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion/topic/newsfeed/with/578880018"
 alternates: []
 observers:
+  - name: "Alexandra Haenig"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/a.png"
+    role: "Generic Observer"
+    details:
+    linkedin:
   - name: "Anna Helmke"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/annahelmi.png?v=1788177051683"
     role: "Generic Observer"
