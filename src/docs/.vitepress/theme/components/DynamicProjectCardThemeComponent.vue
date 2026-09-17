@@ -22,15 +22,15 @@ const props = defineProps<{
 }>()
 
 const tagColorMap: Record<string, string> = {
-  application: "#118936",
-  data: "#5725CC",
-  ai: "#e2ffd1",
-  service_orchestration: "#d1d6ff",
-  cloud_edge_platform: "#d9f2ff",
-  virtualization: "#f2d1ff",
-  management: "#fff2cc",
-  sustainability: "#d6f5d6",
-  compliance: "#ffe6f2",
+  application: "#d64545",
+  data: "#ff6c00",
+  ai: "#7c3aed",
+  service_orchestration: "#ec4899",
+  cloud_edge_platform: "#00a6b2",
+  virtualization: "#20a464",
+  management: "#84cc16",
+  sustainability: "#f5a623",
+  compliance: "#00a99d",
 }
 
 const iconMap: Record<string, string> = {
