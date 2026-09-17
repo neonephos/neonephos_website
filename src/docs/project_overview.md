@@ -12,7 +12,7 @@ cards:
   - title: "Platform Mesh"
     classname: "platform-mesh"
     relationships: ["openmfp","ord"]
-    tags: ["application"]
+    tags: ["service_orchestration"]["compliance"]["virtualization"]
     logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/platform-mesh/icon/color/platform-mesh-icon-color.svg"
     details: "Platform Mesh establishes interoperability between multiple providers by building upon the Kubernetes API and resource model. Developers and admins can discover, access, and order services from various sources through their beloved kubectl."
     link: "https://platform-mesh.io/"
@@ -55,7 +55,7 @@ cards:
   - title: "Gardener"
     classname: "gardener"
     relationships: []
-    tags: []
+    tags: ["cloud_edge_platform"]["virtualization"]["management"]["service_orchestration"]
     logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/gardener/icon/color/gardener-icon-color.svg"
     details: "A proven, scalable open-source system that simplifies Kubernetes cluster management across multiple infrastructures, allowing developers to focus more on innovation and less on cluster operations."
     link: "https://gardener.cloud/"
@@ -159,7 +159,7 @@ cards:
   - title: "Luigi"
     classname: "luigi"
     relationships: []
-    tags: []
+    tags: ["application"]
     logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/luigi/icon/color/luigi-icon-color.svg"
     details: "Luigi is a micro frontend JavaScript framework for building modular, scalable, and technology‑agnostic web applications."
     link: "https://luigi-project.io/"
@@ -185,7 +185,7 @@ cards:
   - title: "Chantico"
     classname: "chantico"
     relationships: []
-    tags: []
+    tags: ["sustainability"]["cloud_edge_platform"]["service_orchestration"]
     logo: "https://raw.githubusercontent.com/neonephos/neonephos_website/refs/heads/main/src/docs/public/assets/placeholder_project_icon.svg"
     details: "Chantico is a Kubernetes operator focused on bringing energy intelligence to modern, cloud-native data centers."
     githubLink: "https://github.com/chantico-project"
