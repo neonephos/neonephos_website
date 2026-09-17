@@ -125,6 +125,11 @@ alternates:
     details:
     linkedin:
 observers:
+  - name: "Andreas Riexinger"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/ariexinger.png?v=1787212598361"
+    role: "Generic Observer"
+    details:
+    linkedin:
   - name: "Artem Kovalov"
     imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/a.png"
     role: "Generic Observer"
