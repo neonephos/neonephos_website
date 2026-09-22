@@ -14,14 +14,10 @@ cards:
     headingColor: "#333333"
     sectionTitleColor: "#333333"
     text: "The Sandbox Stage is for projects whose value or direction has not yet been established. These are exploratory efforts, and the TAC believes they are worth pursuing, but the project has not yet demonstrated the intent or readiness to progress through the full lifecycle. Projects may enter the Sandbox Stage with no more than a high-level proof-of-concept or conceptual proposal. The Sandbox Stage is a time-limited space to experiment, validate, and build an initial community; it is not intended as a permanent stage."
-    expectations:
-      "Projects should remain in the Sandbox Stage for no more than one year, unless the TAC grants an extension. Sandbox projects are           experimental, and their outputs are not intended for production use. Projects that release production-ready artifacts should transition to       a more mature stage. Projects that do not progress may be moved to the Emeritus Stage."
-    Acceptance Criteria:
-      "To be considered for the Sandbox Stage, the Project Proposal must be submitted."
-    Approval Process:
-      "Once the above Acceptance Criteria have been satisfied, the project must receive a simple majority vote of the TAC."
-    Benefits:
-      "Sandbox projects can prominently display on their website/README their status as a NeoNephos Foundation Sandbox Project. They can be mentioned on the NeoNephos Foundation website, publications, other promotional materials, and presentations to support building a community. Projects at the Sandbox Stage will receive support from the NeoNephos Foundation to facilitate the project’s progression toward the next stage."
+    expectations: "Projects should remain in the Sandbox Stage for no more than one year, unless the TAC grants an extension. Sandbox projects are           experimental, and their outputs are not intended for production use. Projects that release production-ready artifacts should transition to       a more mature stage. Projects that do not progress may be moved to the Emeritus Stage."
+    Acceptance Criteria: "To be considered for the Sandbox Stage, the Project Proposal must be submitted."
+    Approval Process: "Once the above Acceptance Criteria have been satisfied, the project must receive a simple majority vote of the TAC."
+    Benefits: "Sandbox projects can prominently display on their website/README their status as a NeoNephos Foundation Sandbox Project. They can be mentioned on the NeoNephos Foundation website, publications, other promotional materials, and presentations to support building a community. Projects at the Sandbox Stage will receive support from the NeoNephos Foundation to facilitate the project’s progression toward the next stage."
 
   - title: "Incubation"
     backgroundColor: "#adc9e9"
@@ -30,16 +26,13 @@ cards:
     iconColor: "#0f6bff"
     sectionTitleColor: "#333333"
     text: "The Incubation Stage is for projects that have a clear purpose and a realistic path toward becoming a mature NeoNephos Foundation project. Unlike Sandbox Stage projects, Incubation projects are not experimental - they have committed to a direction and intend to progress toward the Growth or Graduated Stages. The Incubation Stage provides a neutral home to foster community development and deeper alignment with the Foundation while the project builds toward maturity."
-    expectations:
-      "End users should evaluate Incubation projects with care, as this stage does not set requirements for community size, governance, or production readiness. Projects that do not demonstrate progress toward a more mature stage may be moved to the Emeritus Stage."
-    Acceptance Criteria:
-      "To be considered for the Incubation Stage, a Project Proposal must be submitted, and existing projects must request to be considered for the Incubation Stage. The project must have a code repository containing an initial implementation beyond proof-of-concept stage. Demonstrated adoption (see Project Adoption) by at least one end user, commercial entity, or open-source project is encouraged but not required."
+    expectations: "End users should evaluate Incubation projects with care, as this stage does not set requirements for community size, governance, or production readiness. Projects that do not demonstrate progress toward a more mature stage may be moved to the Emeritus Stage."
+    Acceptance Criteria: "To be considered for the Incubation Stage, a Project Proposal must be submitted, and existing projects must request to be considered for the Incubation Stage. The project must have a code repository containing an initial implementation beyond proof-of-concept stage. Demonstrated adoption (see Project Adoption) by at least one end user, commercial entity, or open-source project is encouraged but not required."
     Approval Process:
       - "The project must submit a request to the TAC for consideration to move to Incubation Stage."
       - "The TAC will consider this request in an upcoming TAC meeting after the TAC has had sufficient time to review the request. The TAC may request that the project present at an upcoming TAC meeting, outlining how the project has satisfied the Acceptance Criteria described above."
       - "The project must receive a simple majority vote of the TAC to move to Incubation Stage."
-    Benefits:
-      "Incubation projects can prominently display on their website/README their status as a NeoNephos Foundation Incubation Project. They can be mentioned on the NeoNephos Foundation website, publications, other promotional materials, and presentations to support building a community. Projects at the Incubation Stage will receive support from the NeoNephos Foundation to facilitate the project’s progression toward the Growth Stage."
+    Benefits: "Incubation projects can prominently display on their website/README their status as a NeoNephos Foundation Incubation Project. They can be mentioned on the NeoNephos Foundation website, publications, other promotional materials, and presentations to support building a community. Projects at the Incubation Stage will receive support from the NeoNephos Foundation to facilitate the project’s progression toward the Growth Stage."
 
   - title: "Growth"
     backgroundColor: "#6093d3"
@@ -58,8 +51,7 @@ cards:
       - "The project must submit a request to the TAC for consideration to move to Growth Stage."
       - "The TAC will consider this request in an upcoming TAC meeting after the TAC has had sufficient time to review the request. The TAC may request that the project present at an upcoming TAC meeting, outlining how the project has satisfied the Acceptance Criteria described above."
       - "The project must receive a simple majority vote of the TAC to move to Growth Stage."
-    Benefits:
-      "Projects at the Growth Stage will receive support from the NeoNephos Foundation to facilitate the project’s progression toward the Graduated Stage. They can be featured on the NeoNephos Foundation website, publications, other promotional materials, and presentations to support moving to the Graduated Stage."
+    Benefits: "Projects at the Growth Stage will receive support from the NeoNephos Foundation to facilitate the project’s progression toward the Graduated Stage. They can be featured on the NeoNephos Foundation website, publications, other promotional materials, and presentations to support moving to the Graduated Stage."
 
   - title: "Graduated"
     backgroundColor: "#41689a"
