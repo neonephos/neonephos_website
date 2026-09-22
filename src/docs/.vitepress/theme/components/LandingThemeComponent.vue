@@ -30,8 +30,8 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
       </div>
     </section>
   </div>
-<a href="https://www.bitkom.org/Forum-Open-Source-2026" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20260917_bitkom_erfurt_banner_wide.svg')" alt="Bitkom Erfurt" /> </a>
 <a href="https://kcd.bg/" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20260929_KCD_Sofia_banner_wide.svg')" alt="KCD Sofia" /> </a>
+<a href="https://events.linuxfoundation.org/open-source-summit-europe/" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20261007_open_source_summit_banner_wide.svg')" alt="Open Source Summit Prague" /> </a>
   
   <section class="home-tiles__section">
     <div class="container wrap">
