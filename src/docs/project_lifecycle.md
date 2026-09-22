@@ -13,13 +13,19 @@ cards:
     headingBackgroundColor: "#dfeaf6"
     headingColor: "#333333"
     sectionTitleColor: "#333333"
-    text: "The Sandbox phase is where ideas begin and early exploration happens."
-    requirements:
-      - "tbd"
-      - "tbd"
+    text: "Projects that are early-stage and experimental, with unproven direction, not intended for production use, and time-limited to one year."
+    definitions:
+    "The Sandbox Stage is for projects whose value or direction has not yet been established. These are exploratory efforts, and the TAC believes they are worth pursuing, but the project has not yet demonstrated the intent or readiness to progress through the full lifecycle. Projects may enter the Sandbox Stage with no more than a high-level proof-of-concept or conceptual proposal. The Sandbox Stage is a time-limited space to experiment, validate, and build an initial community; it is not intended as a permanent stage."
+    expectations:
+    "Projects should remain in the Sandbox Stage for no more than one year, unless the TAC grants an extension. Sandbox projects are experimental, and their outputs are not intended for production use. Projects that release production-ready artifacts should transition to a more mature stage. Projects that do not progress may be moved to the Emeritus Stage."
+    acceptance criteria:
+    "To be considered for the Sandbox Stage, a Project Proposal must be submitted (see Project Proposal Process)."
+    approval Process:
+    "Once the above Acceptance Criteria have been satisfied, the project must receive a simple majority vote of the TAC."
     benefits:
-      - "tbd"
-      - "tbd"
+    "Sandbox projects can prominently display on their website/README their status as a NeoNephos Foundation Sandbox Project. They can be mentioned on the NeoNephos Foundation website, publications, other promotional materials, and presentations to support building a community. Projects at the Sandbox Stage will receive support from the NeoNephos Foundation to facilitate the project’s progression toward the next stage."
+
+
 
   - title: "Incubation"
     backgroundColor: "#adc9e9"
@@ -27,7 +33,7 @@ cards:
     headingColor: "#333333"
     iconColor: "#0f6bff"
     sectionTitleColor: "#333333"
-    text: "Incubation focuses on maturing the project and validating direction."
+    text: "Projects with a clear purpose and committed direction that are building toward maturity, but without a large or established community."
     requirements:
       - "tbd"
       - "tbd"
@@ -40,7 +46,7 @@ cards:
     headingBackgroundColor: "#6093d3"
     headingColor: "#dfeaf6"
     sectionTitleColor: "#333333"
-    text: "Growth is where adoption increases and the project gains momentum."
+    text: "Projects that are actively working toward the Graduated Stage with a defined growth plan, supported by multiple organizations and demonstrated adoption."
     requirements:
       - "tbd"
       - "tbd"
@@ -53,7 +59,7 @@ cards:
     headingBackgroundColor: "#41689a"
     headingColor: "#dfeaf6"
     sectionTitleColor: "#ffffff"
-    text: "Graduated projects are fully established and widely adopted."
+    text: "Projects that are mature and production-ready, with broad adoption and balanced governance."
     requirements:
       - "tbd"
       - "tbd"
@@ -66,7 +72,7 @@ cards:
     headingBackgroundColor: "#2d4a6d"
     headingColor: "#dfeaf6"
     sectionTitleColor: "#ffffff"
-    text: "Emeritus projects are no longer actively developed but remain archived."
+    text: "Projects that have reached or are nearing end-of-life, are no longer in active development, and are not recommended for new production use."
     requirements:
       - "tbd"
       - "tbd"
