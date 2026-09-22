@@ -184,7 +184,7 @@ cards:
     logo: "https://raw.githubusercontent.com/neonephos/neonephos_website/refs/heads/main/src/docs/public/assets/placeholder_project_icon.svg"
     details: "Chantico is a Kubernetes operator focused on bringing energy intelligence to modern, cloud-native data centers."
     githubLink: "https://github.com/chantico-project"
-    link: ""
+    link: "https://chantico-project.github.io/chantico/"
     backgroundColor: "#FEFEFE"
     headingBackgroundColor: "#EEF4FD"
     headingColor: "#333333"
