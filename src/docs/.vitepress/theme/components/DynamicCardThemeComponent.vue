@@ -4,28 +4,50 @@ import { useData } from 'vitepress'
 
 const { frontmatter } = useData()
 
-// Multiple cards can stay open
 const openCards = ref<Record<number, boolean>>({})
 
-// Nested sections
-const openSections = ref<Record<number, { req: boolean; ben: boolean }>>({})
+const openSections = ref<
+  Record<
+    number,
+    {
+      exp: boolean
+      crit: boolean
+      appr: boolean
+      ben: boolean
+    }
+  >
+>({})
 
 function toggleCard(index: number) {
   openCards.value[index] = !openCards.value[index]
 
   if (!openSections.value[index]) {
-    openSections.value[index] = { req: false, ben: false }
+    openSections.value[index] = {
+      exp: false,
+      crit: false,
+      appr: false,
+      ben: false
+    }
   }
 }
 
-function toggleSection(index: number, section: 'req' | 'ben') {
+function toggleSection(
+  index: number,
+  section: 'exp' | 'crit' | 'appr' | 'ben'
+) {
   if (!openSections.value[index]) {
-    openSections.value[index] = { req: false, ben: false }
+    openSections.value[index] = {
+      exp: false,
+      crit: false,
+      appr: false,
+      ben: false
+    }
   }
-  openSections.value[index][section] = !openSections.value[index][section]
+
+  openSections.value[index][section] =
+    !openSections.value[index][section]
 }
 </script>
-
 <template>
   <div class="dynamic-card-list">
     <div
@@ -34,12 +56,12 @@ function toggleSection(index: number, section: 'req' | 'ben') {
       class="dynamic-card"
       :style="{ backgroundColor: card.backgroundColor || '#ffffff' }"
     >
-      <!-- Card Header -->
       <button
         class="dynamic-card__header"
         @click="toggleCard(index)"
         :style="{
-          backgroundColor: card.headingBackgroundColor || '#f9fbff'
+          backgroundColor:
+            card.headingBackgroundColor || '#f9fbff'
         }"
       >
         <h2 :style="{ color: card.headingColor || '#0f6bff' }">
@@ -63,30 +85,41 @@ function toggleSection(index: number, section: 'req' | 'ben') {
         </svg>
       </button>
 
-
-      <!-- Expandable Content -->
       <transition name="smooth-expand">
-        <div v-if="openCards[index]" class="dynamic-card__content">
+        <div
+          v-if="openCards[index]"
+          class="dynamic-card__content"
+          :style="{ color: card.textColor || '#000000' }"
+        >
           <p class="dynamic-card__text">
             {{ card.text }}
           </p>
 
-          <!-- Requirements -->
-          <div v-if="card.requirements?.length" class="dynamic-card__section">
+          <!-- Expectations -->
+
+          <div
+            v-if="card.expectations?.length"
+            class="dynamic-card__section"
+          >
             <button
               class="dynamic-card__section-header"
-              @click="toggleSection(index, 'req')"
+              @click="toggleSection(index, 'exp')"
             >
               <span
                 class="dynamic-card__section-title"
-                :style="{ color: card.sectionTitleColor || '#0f6bff' }"
+                :style="{
+                  color:
+                    card.sectionTitleColor || '#0f6bff'
+                }"
               >
-                Requirements
+                Expectations
               </span>
 
               <svg
                 class="dynamic-card__chevron small"
-                :class="{ open: openSections[index]?.req }"
+                :class="{
+                  open: openSections[index]?.exp
+                }"
                 width="18"
                 height="18"
                 viewBox="0 0 24 24"
@@ -102,37 +135,156 @@ function toggleSection(index: number, section: 'req' | 'ben') {
             </button>
 
             <transition name="smooth-expand">
-              <div
-                v-if="openSections[index]?.req"
+              <ul
+                v-if="openSections[index]?.exp"
                 class="dynamic-card__list"
               >
-                <div
-                  v-for="req in card.requirements"
-                  :key="req"
+                <li
+                  v-for="item in card.expectations"
+                  :key="item"
                   class="dynamic-card__list-item"
                 >
-                  {{ req }}
-                </div>
-              </div>
+                  {{ item }}
+                </li>
+              </ul>
+            </transition>
+          </div>
+
+          <!-- Acceptance Criteria -->
+
+          <div
+            v-if="card.acceptanceCriteria?.length"
+            class="dynamic-card__section"
+          >
+            <button
+              class="dynamic-card__section-header"
+              @click="toggleSection(index, 'crit')"
+            >
+              <span
+                class="dynamic-card__section-title"
+                :style="{
+                  color:
+                    card.sectionTitleColor || '#0f6bff'
+                }"
+              >
+                Acceptance Criteria
+              </span>
+
+              <svg
+                class="dynamic-card__chevron small"
+                :class="{
+                  open: openSections[index]?.crit
+                }"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 9l6 6 6-6"
+                  :stroke="card.iconColor || '#0f6bff'"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+
+            <transition name="smooth-expand">
+              <ul
+                v-if="openSections[index]?.crit"
+                class="dynamic-card__list"
+              >
+                <li
+                  v-for="item in card.acceptanceCriteria"
+                  :key="item"
+                  class="dynamic-card__list-item"
+                >
+                  {{ item }}
+                </li>
+              </ul>
+            </transition>
+          </div>
+
+          <!-- Approval Process -->
+
+          <div
+            v-if="card.approvalProcess?.length"
+            class="dynamic-card__section"
+          >
+            <button
+              class="dynamic-card__section-header"
+              @click="toggleSection(index, 'appr')"
+            >
+              <span
+                class="dynamic-card__section-title"
+                :style="{
+                  color:
+                    card.sectionTitleColor || '#0f6bff'
+                }"
+              >
+                Approval Process
+              </span>
+
+              <svg
+                class="dynamic-card__chevron small"
+                :class="{
+                  open: openSections[index]?.appr
+                }"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 9l6 6 6-6"
+                  :stroke="card.iconColor || '#0f6bff'"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+
+            <transition name="smooth-expand">
+              <ul
+                v-if="openSections[index]?.appr"
+                class="dynamic-card__list"
+              >
+                <li
+                  v-for="item in card.approvalProcess"
+                  :key="item"
+                  class="dynamic-card__list-item"
+                >
+                  {{ item }}
+                </li>
+              </ul>
             </transition>
           </div>
 
           <!-- Benefits -->
-          <div v-if="card.benefits?.length" class="dynamic-card__section">
+
+          <div
+            v-if="card.benefits?.length"
+            class="dynamic-card__section"
+          >
             <button
               class="dynamic-card__section-header"
               @click="toggleSection(index, 'ben')"
             >
               <span
                 class="dynamic-card__section-title"
-                :style="{ color: card.sectionTitleColor || '#0f6bff' }"
+                :style="{
+                  color:
+                    card.sectionTitleColor || '#0f6bff'
+                }"
               >
                 Benefits
               </span>
 
               <svg
                 class="dynamic-card__chevron small"
-                :class="{ open: openSections[index]?.ben }"
+                :class="{
+                  open: openSections[index]?.ben
+                }"
                 width="18"
                 height="18"
                 viewBox="0 0 24 24"
@@ -148,18 +300,18 @@ function toggleSection(index: number, section: 'req' | 'ben') {
             </button>
 
             <transition name="smooth-expand">
-              <div
+              <ul
                 v-if="openSections[index]?.ben"
                 class="dynamic-card__list"
               >
-                <div
-                  v-for="ben in card.benefits"
-                  :key="ben"
+                <li
+                  v-for="item in card.benefits"
+                  :key="item"
                   class="dynamic-card__list-item"
                 >
-                  {{ ben }}
-                </div>
-              </div>
+                  {{ item }}
+                </li>
+              </ul>
             </transition>
           </div>
         </div>
@@ -218,7 +370,6 @@ function toggleSection(index: number, section: 'req' | 'ben') {
 .dynamic-card__content {
   padding: 1.3rem 1.5rem;
   line-height: 1.6;
-  color: black;
 }
 
 /* Sections */
@@ -242,16 +393,24 @@ function toggleSection(index: number, section: 'req' | 'ben') {
 
 .dynamic-card__list {
   margin-top: 0.6rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
+  padding: 0;
+  margin-left: 0;
+  list-style: none;
 }
 
 .dynamic-card__list-item {
-  padding: 0.4rem 0;
-  border-bottom: 1px solid rgba(0,0,0,0.08); /* very light divider */
+  position: relative;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
   color: black;
-  line-height: 1.5;
+}
+
+.dynamic-card__list-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: currentColor;
 }
 
 /* Remove divider from last item */

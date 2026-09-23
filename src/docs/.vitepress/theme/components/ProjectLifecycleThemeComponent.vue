@@ -35,7 +35,7 @@ const { frontmatter } = useData()
         <div class="project-lifecycle-hero">
             <DynamicCardThemeComponent />
           </div>
-
+ <br>
         <div class="neonephos-blue-section">
           <div class="neonephos-blue-section-inner">
             <LandingTilesThemeComponent
@@ -46,8 +46,8 @@ const { frontmatter } = useData()
             />
           </div>
         </div>
-
       </template>
+      
     </NeoNephosDefaultTheme01>
   </div>
 </template>
