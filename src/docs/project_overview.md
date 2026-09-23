@@ -4,8 +4,8 @@ title: "Our Projects"
 sidebar: false
 aside: false
 hero:
-  name: "Projects"
-  subtitle: "Overview of all NNF Projects."
+  name: "NNF Projects"
+  subtitle: ""
   text: ""
 
 cards:
