@@ -66,405 +66,404 @@ const scrollToRelatedCard = (rel: string) => {
   window.location.hash = '#' + id
 }
 
-
-//Dropdown
-
 const selectedTags = ref<string[]>([])
-const filterDropdownOpen = ref(false)
- 
 const availableTags = computed(() => Object.keys(tagColorMap))
- 
+
 const filteredCards = computed(() => {
-if (selectedTags.value.length === 0) {
-return props.cards
-}
- 
-return props.cards.filter(card =>
-card.tags?.some(tag => selectedTags.value.includes(tag))
-)
+  if (selectedTags.value.length === 0) {
+    return props.cards
+  }
+
+  return props.cards.filter(card =>
+    card.tags?.some(tag => selectedTags.value.includes(tag))
+  )
 })
 
+const toggleTag = (tag: string) => {
+  const index = selectedTags.value.indexOf(tag)
+  if (index > -1) {
+    selectedTags.value.splice(index, 1)
+  } else {
+    selectedTags.value.push(tag)
+  }
+}
+
+const clearFilters = () => {
+  selectedTags.value = []
+}
+
+const getTagStyle = (tag: string) => {
+  const isSelected = selectedTags.value.length === 0 || selectedTags.value.includes(tag)
+  const color = tagColorMap[tag] || '#888888'
+
+  if (isSelected) {
+    return {
+      borderColor: color,
+      backgroundColor: color + '15',
+      color: color,
+      fontWeight: '700'
+    }
+  }
+
+  return {
+    borderColor: '#d1d5db',
+    backgroundColor: '#f3f4f6',
+    color: '#6b7280',
+    fontWeight: '700'
+  }
+}
 </script>
 
 <template>
-  <div class="dynamic-card-list">
-
-<div
-class="dynamic-card-filter"
-@mouseenter="filterDropdownOpen = true"
-@mouseleave="filterDropdownOpen = false"
->
-<button type="button" class="dynamic-card-filter__trigger">
-Filter Tags
-<span v-if="selectedTags.length">
-({{ selectedTags.length }})
-</span>
-</button>
- 
-<div
-v-if="filterDropdownOpen"
-class="dynamic-card-filter__dropdown"
->
-<button
-v-for="tag in availableTags"
-:key="tag"
-type="button"
-class="dynamic-card-filter__option"
-:style="{
-color: tagColorMap[tag]
-}"
-@click="
-selectedTags.includes(tag)
-? selectedTags = selectedTags.filter(t => t !== tag)
-: selectedTags = [...selectedTags, tag]
-"
->
-<span
-class="dynamic-card-filter__tag-icon"
-v-html="iconMap[tag]"
-></span>
- 
-{{ tag }}
- 
-<span
-v-if="selectedTags.includes(tag)"
-class="dynamic-card-filter__check"
->
-✓
-</span>
-</button>
- 
-<button
-v-if="selectedTags.length"
-class="dynamic-card-filter__clear"
-@click="selectedTags = []"
->
-Clear filters
-</button>
-</div>
-</div>
-
-    <div
-      v-for="(card, index) in filteredCards"
-      :key="card.title"
-      class="dynamic-card"
-      :id="card.title.toLowerCase().replace(/\s+/g, '-')"
-      @mouseenter="hoveredCardIndex = index"
-      @mouseleave="hoveredCardIndex = null"
-      :style="{
-        backgroundColor: card.backgroundColor || '#ffffff',
-        opacity:
-          hoveredRelationship || hoverRelatesHeader
-            ? (
-                hoveredCardIndex === index ||
-                card.classname === hoveredRelationship ||
-                (hoverRelatesHeader &&
-                  props.cards[hoveredCardIndex]?.relationships?.includes(card.classname))
-              )
-              ? 1
-              : 0.35
-            : 1
-      }"
-    >
-      <div
-        class="dynamic-card__header"
-        :style="{ backgroundColor: card.headingBackgroundColor || 'pink' }"
-      >
-        <img
-          v-if="card.logo"
-          :src="card.logo"
-          class="dynamic-card__main-logo"
-          alt="project logo"
-        />
-        <a
-          class="dynamic-card__title"
-          :href="'#' + card.title.toLowerCase().replace(/\s+/g, '-')"
-          :style="{ color: card.headingColor || '#0f6bff' }"
-        >
-          {{ card.title }}
-        </a>
-      </div>
-
-      <div v-if="card.tags?.length" class="dynamic-card__tags">
-        <span
-          v-for="tag in card.tags"
+  <div class="card-list-container">
+    <!-- Filter Bar Row -->
+    <div class="filter-container">
+      <div class="filter-tags-grid">
+        <button
+          v-for="tag in availableTags"
           :key="tag"
-          class="dynamic-card__tag"
-          :style="{
-            border: '1px solid ' + tagColorMap[tag],
-            color: tagColorMap[tag],
-            backgroundColor: tagColorMap[tag] + '10'
-          }"
+          class="tag-bubble filter-tag-button"
+          :style="getTagStyle(tag)"
+          @click="toggleTag(tag)"
         >
-          <span class="dynamic-card__tag-icon" v-html="iconMap[tag]"></span>
-          {{ tag }}
-        </span>
-      </div>
+          <span
+            v-if="iconMap[tag]"
+            class="tag-icon"
+            v-html="iconMap[tag]"
+          ></span>
+          <span>{{ tag.replace(/_/g, ' ') }}</span>
+        </button>
 
-      <p class="dynamic-card__details">
-        {{ card.details }}
-      </p>
-
-      <div class="dynamic-card__separator-horizontal"></div>
-
-      <div class="dynamic-card__links">
-        <div class="dynamic-card__link-item" v-if="card.link">
-          <img class="dynamic-card__icon" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-globe'><circle cx='12' cy='12' r='10'/><path d='M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20'/><path d='M2 12h20'/></svg>" />
-          <a :href="card.link" target="_blank">Website</a>
-        </div>
-
-        <div
-          v-if="card.link && card.githubLink"
-          class="dynamic-card__separator-vertical"
-        ></div>
-
-        <div class="dynamic-card__link-item" v-if="card.githubLink">
-          <img class="dynamic-card__icon" src="https://simpleicons.org/icons/github.svg" />
-          <a :href="card.githubLink" target="_blank">GitHub</a>
-        </div>
-      </div>
-
-      <div class="dynamic-card__separator-horizontal"></div>
-
-      <div v-if="card.relationships?.length" class="dynamic-card__relates">
-        <div
-          class="dynamic-card__relates-title"
-          @mouseenter="hoverRelatesHeader = true; hoveredCardIndex = index"
-          @mouseleave="hoverRelatesHeader = false"
+        <button
+          v-if="selectedTags.length > 0"
+          class="clear-filters-btn"
+          @click="clearFilters"
         >
-          Relates to
-        </div>
-
-        <div class="dynamic-card__relates-logos">
-          <img
-            v-for="rel in card.relationships"
-            :key="rel"
-            :src="props.relationships_logos[rel]"
-            class="dynamic-card__rel-logo"
-            alt="relationship logo"
-            @mouseenter="hoveredRelationship = rel; hoveredCardIndex = index"
-            @mouseleave="hoveredRelationship = null"
-            @click="scrollToRelatedCard(rel)"
-          />
-        </div>
+          Clear filters
+        </button>
       </div>
     </div>
 
-    <div class="dynamic-card-list__spacer"></div>
+    <!-- Cards Grid -->
+    <div class="cards-grid">
+      <div
+        v-for="(card, index) in filteredCards"
+        :key="card.title"
+        :id="card.title.toLowerCase().replace(/\s+/g, '-')"
+        class="card"
+        :class="{
+          'card-highlighted':
+            hoveredRelationship === card.classname ||
+            (hoverRelatesHeader && hoveredCardIndex !== null && filteredCards[hoveredCardIndex]?.relationships?.includes(card.classname || '')),
+          'card-dimmed':
+            (hoveredRelationship && hoveredRelationship !== card.classname) ||
+            (hoveredCardIndex !== null && hoveredCardIndex !== index && !filteredCards[hoveredCardIndex]?.relationships?.includes(card.classname || ''))
+        }"
+        @mouseenter="hoveredCardIndex = index"
+        @mouseleave="hoveredCardIndex = null"
+      >
+        <!-- Header -->
+        <div
+          class="card-header"
+          :style="{
+            backgroundColor: card.headinBackgroundColor || '#f8fafc',
+            color: card.headingColor || '#1e293b'
+          }"
+        >
+          <div class="header-content">
+            <img
+              v-if="card.logo"
+              :src="card.logo"
+              :alt="card.title"
+              class="card-logo"
+            />
+            <h3 class="card-title">{{ card.title }}</h3>
+          </div>
+          <div class="header-links">
+            <a
+              v-if="card.githubLink"
+              :href="card.githubLink"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="icon-link"
+              title="View Source"
+            >
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+            </a>
+            <a
+              v-if="card.link"
+              :href="card.link"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="icon-link"
+              title="Open Link"
+            >
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Body -->
+        <div class="card-body" :style="{ backgroundColor: card.backgroundColor || '#ffffff' }">
+          <!-- Tags -->
+          <div v-if="card.tags && card.tags.length" class="card-tags">
+            <span
+              v-for="tag in card.tags"
+              :key="tag"
+              class="tag-bubble"
+              :style="{
+                borderColor: tagColorMap[tag] || '#888888',
+                backgroundColor: (tagColorMap[tag] || '#888888') + '15',
+                color: tagColorMap[tag] || '#888888'
+              }"
+            >
+              <span
+                v-if="iconMap[tag]"
+                class="tag-icon"
+                v-html="iconMap[tag]"
+              ></span>
+              <span>{{ tag.replace(/_/g, ' ') }}</span>
+            </span>
+          </div>
+
+          <!-- Details -->
+          <p v-if="card.details" class="card-details">
+            {{ card.details }}
+          </p>
+
+          <!-- Relationships -->
+          <div
+            v-if="card.relationships && card.relationships.length"
+            class="card-relationships"
+          >
+            <span
+              class="relationships-label"
+              @mouseenter="hoverRelatesHeader = true"
+              @mouseleave="hoverRelatesHeader = false"
+            >
+              Relates to:
+            </span>
+            <div class="relationships-logos">
+              <img
+                v-for="rel in card.relationships"
+                :key="rel"
+                :src="relationships_logos[rel]"
+                :alt="rel"
+                class="rel-logo"
+                @mouseenter="hoveredRelationship = rel"
+                @mouseleave="hoveredRelationship = null"
+                @click="scrollToRelatedCard(rel)"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
-.dynamic-card-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
-
-.dynamic-card-list__spacer {
-  width: 100%;
-  height: 2rem;
-}
-
-.dynamic-card {
-  width: 345px;
-  aspect-ratio: 2 / 3;
-  border-radius: 14px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-  border: 1px solid #e5e8ef;
-  padding: 1.3rem 1.5rem;
+.card-list-container {
   display: flex;
   flex-direction: column;
-  transition: opacity 0.2s ease;
+  gap: 1.5rem;
+  width: 100%;
 }
 
-.dynamic-card__header {
+/* Filter Tag Grid Styles */
+.filter-container {
+  width: 100%;
+}
+
+.filter-tags-grid {
   display: flex;
-  align-items: center;
-  gap: 1.2rem;
-  margin-bottom: 1.2rem;
-  padding: 0.6rem 0.8rem;
-  border-radius: 10px;
-}
-
-.dynamic-card__main-logo {
-  width: 56px;
-  height: 56px;
-}
-
-.dynamic-card__title {
-  font-size: 1.3rem;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.dynamic-card__tags {
-  display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-bottom: 1.2rem;
+  gap: 0.5rem;
+  align-items: center;
 }
 
-.dynamic-card__tag {
+.filter-tag-button {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  outline: none;
+}
+
+.filter-tag-button:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.clear-filters-btn {
+  background: none;
+  border: none;
+  color: #6b7280;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.35rem 0.6rem;
+  text-decoration: underline;
+  transition: color 0.15s ease;
+}
+
+.clear-filters-btn:hover {
+  color: #111827;
+}
+
+/* Base Tag Bubble Styles */
+.tag-bubble {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  width: fit-content;
-  padding: 0.2rem 0.45rem;
-  border-radius: 6px;
-  font-size: 0.72rem;
-  font-weight: bold;
-  line-height: 1.1;
+  padding: 0.25rem 0.6rem;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.2;
 }
 
-.dynamic-card__tag-icon {
+.tag-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
-.dynamic-card__details {
-  font-size: 1rem;
-  line-height: 1.75;
-  color: black;
-  margin-bottom: 1rem;
-}
-
-.dynamic-card__separator-horizontal {
+/* Card Grid Styles */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
   width: 100%;
-  height: 1px;
-  background-color: #d0d0d0;
-  margin: 0.8rem 0 1rem 0;
 }
 
-.dynamic-card__links {
+.card {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  transition: all 0.25s ease;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.card-highlighted {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-color: #cbd5e1;
+}
+
+.card-dimmed {
+  opacity: 0.4;
+  filter: grayscale(40%);
+}
+
+.card-header {
+  display: flex;
   align-items: center;
-  /* removed margin-bottom so both separators have same visual gap */
+  justify-content: space-between;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
 }
 
-.dynamic-card__link-item {
+.header-content {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.65rem;
 }
 
-.dynamic-card__icon {
-  width: 18px;
-  height: 18px;
+.card-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
-.dynamic-card__links a {
-  color: #0f6bff;
+.card-title {
+  margin: 0;
+  font-size: 1rem;
   font-weight: 600;
-  text-decoration: none;
+  line-height: 1.3;
 }
 
-.dynamic-card__separator-vertical {
-  width: 1px;
-  height: 18px;
-  background-color: #d0d0d0;
-}
-
-.dynamic-card__relates {
-  margin-top: auto;
-}
-
-.dynamic-card__relates-title {
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  cursor: pointer;
-}
-
-.dynamic-card__relates-logos {
+.header-links {
   display: flex;
-  gap: 0.6rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-link {
+  color: inherit;
+  opacity: 0.7;
+  transition: opacity 0.15s ease;
+  display: flex;
+  align-items: center;
+}
+
+.icon-link:hover {
+  opacity: 1;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 1rem;
+  flex: 1;
+}
+
+.card-tags {
+  display: flex;
   flex-wrap: wrap;
+  gap: 0.35rem;
 }
 
-.dynamic-card__rel-logo {
-  width: 32px;
-  height: 32px;
+.card-details {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #475569;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.card-relationships {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 0.5rem;
+  border-top: 1px dashed #f1f5f9;
+}
+
+.relationships-label {
+  font-size: 0.75rem;
+  color: #64748b;
+  font-weight: 500;
   cursor: pointer;
 }
 
-
-
-
-.dynamic-card-filter {
-position: relative;
-width: 100%;
-margin-bottom: 1rem;
-}
- 
-.dynamic-card-filter__trigger {
-padding: 0.6rem 1rem;
-border: 1px solid #d0d0d0;
-border-radius: 8px;
-background: white;
-cursor: pointer;
-font-weight: 600;
-}
- 
-.dynamic-card-filter__dropdown {
-position: absolute;
-top: calc(100% + 6px);
-left: 0;
-z-index: 100;
-min-width: 280px;
-background: white;
-border: 1px solid #d0d0d0;
-border-radius: 10px;
-box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-padding: 0.5rem;
-}
- 
-.dynamic-card-filter__option {
-width: 100%;
-display: flex;
-align-items: center;
-gap: 0.6rem;
-padding: 0.55rem 0.75rem;
-background: transparent;
-border: none;
-cursor: pointer;
-text-align: left;
-font-size: 0.85rem;
-font-weight: 600;
-border-radius: 6px;
-}
- 
-.dynamic-card-filter__option:hover {
-background: rgba(0,0,0,0.05);
-}
- 
-.dynamic-card-filter__tag-icon {
-display: flex;
-align-items: center;
-justify-content: center;
-}
- 
-.dynamic-card-filter__tag-icon :deep(svg) {
-width: 14px;
-height: 14px;
-}
- 
-.dynamic-card-filter__check {
-margin-left: auto;
-font-weight: 700;
-}
- 
-.dynamic-card-filter__clear {
-width: 100%;
-margin-top: 0.4rem;
-padding: 0.55rem;
-border: none;
-border-top: 1px solid #e5e5e5;
-background: transparent;
-cursor: pointer;
-font-weight: 600;
+.relationships-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
 }
 
+.rel-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.rel-logo:hover {
+  transform: scale(1.15);
+}
 </style>
