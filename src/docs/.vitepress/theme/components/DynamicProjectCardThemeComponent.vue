@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { useData } from 'vitepress'
 
 const { frontmatter } = useData()
@@ -65,12 +65,87 @@ const scrollToRelatedCard = (rel: string) => {
 
   window.location.hash = '#' + id
 }
+
+
+//Dropdown
+
+const selectedTags = ref<string[]>([])
+const filterDropdownOpen = ref(false)
+ 
+const availableTags = computed(() => Object.keys(tagColorMap))
+ 
+const filteredCards = computed(() => {
+if (selectedTags.value.length === 0) {
+return props.cards
+}
+ 
+return props.cards.filter(card =>
+card.tags?.some(tag => selectedTags.value.includes(tag))
+)
+})
+
 </script>
 
 <template>
   <div class="dynamic-card-list">
+
+<div
+class="dynamic-card-filter"
+@mouseenter="filterDropdownOpen = true"
+@mouseleave="filterDropdownOpen = false"
+>
+<button type="button" class="dynamic-card-filter__trigger">
+Filter Tags
+<span v-if="selectedTags.length">
+({{ selectedTags.length }})
+</span>
+</button>
+ 
+<div
+v-if="filterDropdownOpen"
+class="dynamic-card-filter__dropdown"
+>
+<button
+v-for="tag in availableTags"
+:key="tag"
+type="button"
+class="dynamic-card-filter__option"
+:style="{
+color: tagColorMap[tag]
+}"
+@click="
+selectedTags.includes(tag)
+? selectedTags = selectedTags.filter(t => t !== tag)
+: selectedTags = [...selectedTags, tag]
+"
+>
+<span
+class="dynamic-card-filter__tag-icon"
+v-html="iconMap[tag]"
+></span>
+ 
+{{ tag }}
+ 
+<span
+v-if="selectedTags.includes(tag)"
+class="dynamic-card-filter__check"
+>
+✓
+</span>
+</button>
+ 
+<button
+v-if="selectedTags.length"
+class="dynamic-card-filter__clear"
+@click="selectedTags = []"
+>
+Clear filters
+</button>
+</div>
+</div>
+
     <div
-      v-for="(card, index) in props.cards"
+      v-for="(card, index) in filteredCards"
       :key="card.title"
       class="dynamic-card"
       :id="card.title.toLowerCase().replace(/\s+/g, '-')"
@@ -313,4 +388,82 @@ const scrollToRelatedCard = (rel: string) => {
   height: 32px;
   cursor: pointer;
 }
+
+
+
+
+.dynamic-card-filter {
+position: relative;
+width: 100%;
+margin-bottom: 1rem;
+}
+ 
+.dynamic-card-filter__trigger {
+padding: 0.6rem 1rem;
+border: 1px solid #d0d0d0;
+border-radius: 8px;
+background: white;
+cursor: pointer;
+font-weight: 600;
+}
+ 
+.dynamic-card-filter__dropdown {
+position: absolute;
+top: calc(100% + 6px);
+left: 0;
+z-index: 100;
+min-width: 280px;
+background: white;
+border: 1px solid #d0d0d0;
+border-radius: 10px;
+box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+padding: 0.5rem;
+}
+ 
+.dynamic-card-filter__option {
+width: 100%;
+display: flex;
+align-items: center;
+gap: 0.6rem;
+padding: 0.55rem 0.75rem;
+background: transparent;
+border: none;
+cursor: pointer;
+text-align: left;
+font-size: 0.85rem;
+font-weight: 600;
+border-radius: 6px;
+}
+ 
+.dynamic-card-filter__option:hover {
+background: rgba(0,0,0,0.05);
+}
+ 
+.dynamic-card-filter__tag-icon {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ 
+.dynamic-card-filter__tag-icon :deep(svg) {
+width: 14px;
+height: 14px;
+}
+ 
+.dynamic-card-filter__check {
+margin-left: auto;
+font-weight: 700;
+}
+ 
+.dynamic-card-filter__clear {
+width: 100%;
+margin-top: 0.4rem;
+padding: 0.55rem;
+border: none;
+border-top: 1px solid #e5e5e5;
+background: transparent;
+cursor: pointer;
+font-weight: 600;
+}
+
 </style>
