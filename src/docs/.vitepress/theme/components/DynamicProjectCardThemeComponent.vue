@@ -397,6 +397,7 @@ const getTagStyle = (tag: string) => {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color:black;
 }
 
 .icon-link {
