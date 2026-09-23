@@ -143,6 +143,7 @@ function toggleSection(
                   v-for="item in card.expectations"
                   :key="item"
                   class="dynamic-card__list-item"
+                  :style="{ color: card.textColor || '#000000' }"
                 >
                   {{ item }}
                 </li>
@@ -403,7 +404,6 @@ function toggleSection(
   padding-left: 1rem;
   margin-bottom: 0.5rem;
   line-height: 1.6;
-  color: black;
 }
 
 .dynamic-card__list-item::before {

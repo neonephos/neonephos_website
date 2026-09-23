@@ -36,6 +36,9 @@ const { frontmatter } = useData()
             <DynamicCardThemeComponent />
           </div>
  <br>
+ <br>
+ <br>
+ <br>
         <div class="neonephos-blue-section">
           <div class="neonephos-blue-section-inner">
             <LandingTilesThemeComponent
