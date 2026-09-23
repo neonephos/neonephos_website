@@ -64,7 +64,7 @@ cards:
 - title: "Growth"
   backgroundColor: "#6093d3"
   headingBackgroundColor: "#6093d3"
-  headingColor: "#dfeaf6"
+  headingColor: "#333333"
   sectionTitleColor: "#333333"
 
   text: "The Growth Stage is for projects that are interested in reaching the Graduated Stage and have identified a growth plan for doing so. Growth Stage projects will receive mentorship from the TAC and are expected to actively develop their community of contributors, governance, and project documentation, and to meet the other criteria identified in the growth plan that contribute to broad success and adoption. To support their active development, projects in the Growth Stage have a higher level of access to Foundation resources, which will be agreed upon and reviewed annually; the project's progress toward its growth plan goals will also be reviewed annually. The TAC may ask the project to move to the Incubation Stage if progress on the plan significantly slows or stops."
