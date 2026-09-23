@@ -300,7 +300,8 @@ Clear filters
 
 .dynamic-card__tags {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 0.4rem;
   margin-bottom: 1.2rem;
 }
