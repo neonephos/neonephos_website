@@ -31,6 +31,8 @@ import DynamicCardThemeComponent from './components/DynamicCardThemeComponent.vu
 import DynamicProjectCardThemeComponent from './components/DynamicProjectCardThemeComponent.vue'
 import FAQThemeComponent from './components/FAQThemeComponent.vue'
 import ProjectOverviewThemeComponent from './components/ProjectOverviewThemeComponent.vue'
+import LinkButtonThemeComponent from './components/LinkButtonThemeComponent.vue'
+
 //import RSSThemeComponent from './components/RSSThemeComponent.vue'
 import LinuxHeader from './components/LinuxHeaderThemeComponent.vue'
 
@@ -67,6 +69,7 @@ export const layoutMap = {
   DynamicProjectCardThemeComponent,
   FAQThemeComponent,
   ProjectOverviewThemeComponent,
+  LinkButtonThemeComponent,
   //RSSThemeComponent,
   LinuxHeader
 }

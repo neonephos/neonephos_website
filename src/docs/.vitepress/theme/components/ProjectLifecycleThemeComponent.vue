@@ -1,93 +1,50 @@
 <script setup lang="ts">
-import NeoNephosDefaultTheme01 from './NeoNephosDefaultTheme01.vue'
-import DynamicCardThemeComponent from './DynamicCardThemeComponent.vue'
+import NeoNephosDefaultTheme03 from './NeoNephosDefaultTheme03.vue'
+import ProjectCardThemeComponent from './ProjectCardThemeComponent.vue'
 
-import { useData, withBase} from 'vitepress'
+import { useData } from 'vitepress'
 
 const { frontmatter } = useData()
+
+const lifecycleIntroText = `Each NeoNephos project is classified into a maturity stage as defined in our
+Project Lifecycle Document. Stages define benefits a project receives and
+obligations it must fulfill as part of the stage requirements. When applying
+to have your project integrated into NeoNephos, read up carefully below on
+the benefits and obligations each stage levies upon the projects.`
 </script>
 
 <template>
   <div>
-    <NeoNephosDefaultTheme01 :hero="frontmatter.hero">
+    <NeoNephosDefaultTheme03 
+      :hero="frontmatter.hero" 
+      :description="lifecycleIntroText"
+    >
       <template #home-hero-after>
 
         <section class="lifecycle-section">
-
-       
-
-          <h2 class="lifecycle-heading">Our Lifecycle Stages</h2>
-   <p class="lifecycle-intro">
-            Each NeoNephos project is classified into a maturity stage as defined in our
-            Project Lifecycle Document. Stages define benefits a project receives and
-            obligations it must fulfill as part of the stage requirements. When applying
-            to have your project integrated into NeoNephos, read up carefully below on
-            the benefits and obligations each stage levies upon the projects.
-          </p>
-          <img
-            class="lifecycle-image"
-            :src="withBase('/assets/neonephos_project_lifecycle_stages.svg')"
-            alt="Neonephos Lifecycle Policy"
-          />
+          <h2 class="lifecycle-stages-heading">Our Lifecycle Stages</h2>
+          <ProjectCardThemeComponent />
         </section>
 
-
-        <div class="project-lifecycle-hero">
-            <DynamicCardThemeComponent />
-          </div>
- <br>
- <br>
- <br>
- <br>
-        <div class="neonephos-blue-section">
-          <div class="neonephos-blue-section-inner">
-            <LandingTilesThemeComponent
-              :key="frontmatter.title"
-              :titleColor="'white'"
-              :tiles="frontmatter.tiles"
-              :heading="frontmatter.tilesHeading"
-            />
-          </div>
-        </div>
       </template>
-      
-    </NeoNephosDefaultTheme01>
+    </NeoNephosDefaultTheme03>
   </div>
 </template>
 
 <style scoped>
-
 .lifecycle-section {
-  text-align: center;
-  padding: 3rem 1rem 2rem;
+  padding: 0.5rem 0 0;
+  max-width: var(--vp-layout-max-width, 1152px);
+  margin: 0 auto;
 }
 
-.lifecycle-heading {
-  font-size: 2.4rem;
+.lifecycle-stages-heading {
+  font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 1.8rem;
   color: var(--vp-neonephos-blue);
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
   letter-spacing: -0.5px;
+  text-align: left;
 }
-
-.lifecycle-image {
-  max-width: 900px;
-  width: 100%;
-  margin: 0 auto 2.5rem;
-  display: block;
-  border-radius: 6px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-}
-
-.lifecycle-intro {
-  max-width: 900px;
-  margin: 0 auto 2rem;
-  font-size: 1.15rem;
-  line-height: 1.6;
-  color: var(--vp-c-text-2);
-}
-
-
-
-
 </style>

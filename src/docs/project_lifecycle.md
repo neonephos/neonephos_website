@@ -157,11 +157,56 @@ cards:
 
 tilesHeading: Learn more!
 tiles:
-  - title: NNF Project Lifcycle Police
+  - title: NNF Project Lifcycle Policy
     details: The lifecycle policy in full.
     linkText: Project Lifecycle
     linkUrl: https://github.com/neonephos/projects/blob/main/lifecycle_policy/project-lifecycle-policy.md
 
-
+linkButton:
+  - title: "Propose a project"
+    linkUrl: "https://github.com/neonephos/projects/blob/main/lifecycle_policy/project-lifecycle-policy.md"
+    backgroundColor: "#1F4FD8" # Optional (defaults to --vp-neonephos-blue)
+    borderColor: "#1F4FD8"     # Optional (defaults to --vp-neonephos-blue)
+  - title: "Read the full policy"
+    linkUrl: "https://github.com/neonephos/projects/blob/main/lifecycle_policy/project-lifecycle-policy.md"
+    backgroundColor: "#f8f8f8" # Optional (defaults to --vp-neonephos-blue)
+    borderColor: "#6e6e6e"     # Optional (defaults to --vp-neonephos-blue)
+    fontColor: "#1a1919"
+projectStageCards:
+  - stageNumber: "0"
+    title: "Sandbox"
+    description: "Initial entry stage for new projects looking to experiment."
+    backgroundColor: "#F8FAFE"
+    fontColor: "#1a1919"
+    stageNumberColor: "#1e40af"
+    linkUrl: "https://github.com/neonephos/projects/blob/main/lifecycle_policy/project-lifecycle-policy.md#sandbox-stage"
+  - stageNumber: "1"
+    title: "Incubating"
+    description: "Projects with growing adoption and active development."
+    linkUrl: "https://github.com/neonephos/projects/blob/main/lifecycle_policy/project-lifecycle-policy.md#incubation-stage"
+    backgroundColor: "#E4EEFF"
+    fontColor: "#0f172a"
+    stageNumberColor: "#2563eb"
+  - stageNumber: "2"
+    title: "Growth"
+    description: "Established projects with broad adoption and proven stability."
+    linkUrl: "https://github.com/neonephos/projects/blob/main/lifecycle_policy/project-lifecycle-policy.md#growth-stage"
+    backgroundColor: "#DBE7FF"
+    fontColor: "#0f172a"
+    stageNumberColor: "#1d4ed8"
+  - stageNumber: "3"
+    title: "Graduated"
+    description: "Mature projects operating at scale with strong ecosystem integration."
+    linkUrl: "https://github.com/neonephos/projects/blob/main/lifecycle_policy/project-lifecycle-policy.md#graduated-stage"
+    backgroundColor: "#D3DFFC"
+    fontColor: "#0f172a"
+    stageNumberColor: "#1e40af"
+  - stageNumber: "4"
+    title: "Emeritus"
+    description: "Retired or inactive projects preserved for reference."
+    linkUrl: "https://github.com/neonephos/projects/blob/main/lifecycle_policy/project-lifecycle-policy.md#emeritus-stage"
+    backgroundColor: "#F6ECEC"
+    fontColor: "#291d1d"
+    stageNumberColor: "#991b1b"
 
 ---
