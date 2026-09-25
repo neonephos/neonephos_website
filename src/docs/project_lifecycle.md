@@ -164,7 +164,7 @@ tiles:
 
 linkButton:
   - title: "Propose a project"
-    linkUrl: "https://github.com/neonephos/projects/blob/main/lifecycle_policy/project-lifecycle-policy.md"
+    linkUrl: "https://neonephos.org/project_proposal"
     backgroundColor: "#1F4FD8" # Optional (defaults to --vp-neonephos-blue)
     borderColor: "#1F4FD8"     # Optional (defaults to --vp-neonephos-blue)
   - title: "Read the full policy"
