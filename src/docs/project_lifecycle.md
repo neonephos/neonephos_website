@@ -181,7 +181,7 @@ projectStageCards:
     stageNumberColor: "#1e40af"
     linkUrl: "https://github.com/neonephos/projects/blob/main/lifecycle_policy/project-lifecycle-policy.md#sandbox-stage"
   - stageNumber: "1"
-    title: "Incubating"
+    title: "Incubation"
     description: "Projects with growing adoption and active development."
     linkUrl: "https://github.com/neonephos/projects/blob/main/lifecycle_policy/project-lifecycle-policy.md#incubation-stage"
     backgroundColor: "#E4EEFF"

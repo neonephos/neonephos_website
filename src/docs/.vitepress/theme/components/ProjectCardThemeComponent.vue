@@ -53,13 +53,33 @@ function getCardUrl(card: ProjectStageCard): string | undefined {
           color: card.fontColor || '#1a1919'
         }"
       >
-        <span
-          v-if="card.stageNumber"
-          class="project-card__stage-number"
-          :style="{ color: card.stageNumberColor || 'var(--vp-neonephos-blue)' }"
-        >
-          {{ card.stageNumber }}
-        </span>
+        <div class="project-card__header">
+          <span
+            v-if="card.stageNumber"
+            class="project-card__stage-number"
+            :style="{
+              color: card.stageNumberColor || 'var(--vp-neonephos-blue)',
+              backgroundColor: card.stageNumberColor ? `${card.stageNumberColor}15` : 'rgba(37, 99, 235, 0.1)'
+            }"
+          >
+            Stage {{ card.stageNumber }}
+          </span>
+
+          <svg
+            v-if="card.linkUrl || card.link"
+            class="project-card__icon"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M7 17L17 7M17 7H7M17 7V17" />
+          </svg>
+        </div>
 
         <h3
           v-if="card.title"
@@ -83,7 +103,7 @@ function getCardUrl(card: ProjectStageCard): string | undefined {
 .project-card-container {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1.5rem;
   width: 100%;
   margin-top: 1.5rem;
 }
@@ -96,53 +116,86 @@ function getCardUrl(card: ProjectStageCard): string | undefined {
 }
 
 .project-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 1.25rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
-  border: 1px solid #e5e8ef;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
   aspect-ratio: 1 / 1.3;
   max-width: 200px;
   width: 100%;
   box-sizing: border-box;
   text-decoration: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.25s ease;
 }
 
 .project-card--clickable {
   cursor: pointer;
 }
 
-.project-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+.project-card--clickable:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px -4px rgba(0, 0, 0, 0.12);
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+.project-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
 .project-card__stage-number {
+  display: inline-flex;
+  align-items: center;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   line-height: 1;
-  margin-bottom: 1.25rem;
+  padding: 0.35rem 0.65rem;
+  border-radius: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.project-card__icon {
+  opacity: 0.4;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.project-card--clickable:hover .project-card__icon {
+  opacity: 1;
+  transform: translate(2px, -2px);
 }
 
 .project-card__title {
   margin: 0 0 0.5rem;
-  font-size: 1.15rem;
-  font-weight: 600;
-  line-height: 1.3;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
 }
 
 .project-card__description {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   line-height: 1.5;
-  opacity: 0.9;
+  opacity: 0.8;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .project-card-gradient-bar {
   height: 4px;
   width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 </style>
