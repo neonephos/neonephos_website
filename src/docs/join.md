@@ -19,7 +19,7 @@ We have three membership tiers available - Premier, General and Associate member
 | Premier | General  | Associate  |
 |---|---|---|
 | [50k € p.a. - 100k € p.a.](#premier-member-fee-scale)  | [5k € p.a. - 50k € p.a.](#general-member-fee-scale)  | free  |
-| Voting Governing Board Seat  | [Shared Voting Governing Board Seat](#shared-general-governing-board-representative) | Observer Status in Governing Board  |
+| Voting Governing Board Seat  | [Shared Voting Governing Board Seat](#shared-general-governing-board-representative) | - |
 | Voting Technical Advisory Council Seat  | Observer Status in Technical Advisory Council | Observer Status in Technical Advisory Council   |
 
 ## Premier Member Fee Scale
