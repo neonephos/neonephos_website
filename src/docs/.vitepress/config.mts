@@ -75,7 +75,7 @@ export default defineConfig({
       {
         text: 'Projects',
         items: [
-          { text: 'Projects', link: '/projects' },
+          { text: 'Projects', link: '/project_overview' },
           { text: 'Project Lifecycle', link: '/project_lifecycle' },
           { text: 'Propose New Project', link: '/project_proposal' },
           { text: 'Contribute', link: '/new_project' },
