@@ -33,6 +33,11 @@ members:
     role: "Elastx AB Representative"
     details:
     linkedin:
+  - name: "Gerrit Schumann"
+    imgsrc: "https://lfx-cdn-prod.s3.amazonaws.com/users/avatar/g.png"
+    role: "mogenius Representative"
+    details:
+    linkedin: "https://www.linkedin.com/in/gerrit-schumann-9b8b891/"
   - name: "Michael Kambeck"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/michaelkambeck.png?v=1785329384475"
     role: "SVA System Vertrieb Alexander GmbH Representative"
