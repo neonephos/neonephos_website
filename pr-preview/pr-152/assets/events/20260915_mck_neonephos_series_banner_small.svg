@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1066.70238" height="600.02009" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1066.70238 600.02009">
+  <defs>
+    <linearGradient id="b" x1="208.89292" y1="465.98081" x2="925.70316" y2="562.84706" gradientTransform="translate(366.84083 -189.81703)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#039"/>
+      <stop offset=".27877" stop-color="#013396"/>
+      <stop offset=".4325" stop-color="#05338e"/>
+      <stop offset=".55574" stop-color="#0c3380"/>
+      <stop offset=".66284" stop-color="#15336d"/>
+      <stop offset=".75849" stop-color="#223354"/>
+      <stop offset=".84637" stop-color="#313335"/>
+      <stop offset=".85337" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="d" x1="515.16037" y1="560.30452" x2="541.25889" y2="563.83134" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f6bff"/>
+      <stop offset=".22681" stop-color="#0f6afc"/>
+      <stop offset=".3519" stop-color="#1068f4"/>
+      <stop offset=".45219" stop-color="#1364e6"/>
+      <stop offset=".53934" stop-color="#165fd3"/>
+      <stop offset=".618" stop-color="#1b58b9"/>
+      <stop offset=".69055" stop-color="#204f9a"/>
+      <stop offset=".75836" stop-color="#274575"/>
+      <stop offset=".82079" stop-color="#2e394c"/>
+      <stop offset=".85337" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="e" x1="-19301.7479" y1="560.30452" x2="-19275.64938" y2="563.83134" gradientTransform="translate(-18748.33366) scale(-1 1)" xlink:href="#d"/>
+  </defs>
+  <g id="a" data-name="Layer 2">
+    <g>
+      <polygon points="796.43462 .00018 1.87212 .00018 1.87212 600.20574 1066.7022 600.20574 439.06157 600.20525 796.43462 .00018" fill="#f4f9ff"/>
+      <rect x="1066.7022" y=".00018" width=".00024" height="600.20557" fill="#f4f9ff"/>
+      <polygon points="796.43462 .00018 439.06157 600.20525 1066.7022 600.20574 1066.7022 .00018 796.43462 .00018" fill="#f4f9ff"/>
+      <polygon points="796.43462 .00018 439.06157 600.20525 1066.7022 600.20574 1066.7022 .00018 796.43462 .00018" fill="url(#b)"/>
+    </g>
+  </g>
+  <g id="c" data-name="Layer 1">
+    <path d="M508.62743,583.62303h15.96581c8.2392,0,9.02317-13.12606,9.01563-20.93095l.67843-24.00418-25.65987,44.93514Z" fill="url(#d)"/>
+    <path d="M559.94718,583.62303h-15.96581c-8.2392,0-9.02317-13.12606-9.01563-20.93095l-.67843-24.00418,25.65987,44.93514Z" fill="url(#e)"/>
+  </g>
+</svg>
