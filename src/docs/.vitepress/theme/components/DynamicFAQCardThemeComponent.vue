@@ -4,8 +4,6 @@ import { useData } from 'vitepress'
 import NeoNephosDefaultTheme03 from './NeoNephosDefaultTheme03.vue'
 import LandingTilesThemeComponent from './LandingTilesThemeComponent.vue'
 
-const faqIntroText = `Some questions we receive repeatedly, so here they are answered once and for all.`
-
 interface FAQCard {
   title: string
   faqType?: string
@@ -30,7 +28,7 @@ const questionTypes = computed<string[]>(() => {
 })
 
 const selectedType = ref<string>('General')
-const openCards = ref<Record<string, boolean>>({})
+const openCards = ref<Record<number, boolean>>({})
 
 // Reset open cards accordion state when switching category tabs
 watch(selectedType, () => {
@@ -44,8 +42,8 @@ watch(questionTypes, (types) => {
   }
 }, { immediate: true })
 
-const toggleCard = (key: string) => {
-  openCards.value[key] = !openCards.value[key]
+const toggleCard = (index: number) => {
+  openCards.value[index] = !openCards.value[index]
 }
 
 // Strictly filter cards based on active tab
@@ -92,8 +90,8 @@ const hexToRgba = (hex?: string, alpha: number = 0.5) => {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`
 }
 
-const getCardStyle = (card: FAQCard, key: string) => {
-  const isOpen = !!openCards.value[key]
+const getCardStyle = (card: FAQCard, index: number) => {
+  const isOpen = !!openCards.value[index]
 
   if (isOpen && card.extendedCardColor) {
     return {
@@ -112,8 +110,8 @@ const getCardStyle = (card: FAQCard, key: string) => {
   }
 }
 
-const getHeaderStyle = (card: FAQCard, key: string) => {
-  const isOpen = !!openCards.value[key]
+const getHeaderStyle = (card: FAQCard, index: number) => {
+  const isOpen = !!openCards.value[index]
   if (isOpen) return { backgroundColor: 'transparent' }
   return {
     backgroundColor: card.headingBackgroundColor || card.backgroundColor || 'transparent'
@@ -123,7 +121,7 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
 
 <template>
   <div>
-    <NeoNephosDefaultTheme03 :hero="frontmatter.hero" :description="faqIntroText">
+    <NeoNephosDefaultTheme01 :hero="frontmatter.hero">
       <template #home-hero-after>
 
         <!-- 2-Column FAQ Grid Wrapper -->
@@ -154,9 +152,7 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
                 class="faq-slider-btn"
                 :class="{ active: selectedType === type }"
                 :style="{
-                  color: selectedType === type
-                    ? (frontmatter.sliderTextColorActive || frontmatter.sliderTextColor || '#111111')
-                    : (frontmatter.sliderTextColor || '#111111')
+                  color: frontmatter.sliderTextColor || '#111111'
                 }"
                 @click="selectedType = type"
               >
@@ -168,21 +164,21 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
           <!-- Integrated FAQ Cards Grid -->
           <div class="faq-container" v-if="filteredCards.length">
             
-            <!-- Left Column with Animated Transitions -->
-            <TransitionGroup name="faq-card-anim" tag="div" class="faq-column">
+            <!-- Left Column -->
+            <div class="faq-column">
               <div
                 v-for="item in leftColumn"
-                :key="item.card.title"
+                :key="item.idx"
                 class="faq-card"
-                :class="{ expanded: openCards[item.card.title] }"
-                :style="getCardStyle(item.card, item.card.title)"
+                :class="{ expanded: openCards[item.idx] }"
+                :style="getCardStyle(item.card, item.idx)"
               >
                 <button
                   type="button"
                   class="faq-card-header"
-                  :style="getHeaderStyle(item.card, item.card.title)"
-                  :aria-expanded="!!openCards[item.card.title]"
-                  @click="toggleCard(item.card.title)"
+                  :style="getHeaderStyle(item.card, item.idx)"
+                  :aria-expanded="!!openCards[item.idx]"
+                  @click="toggleCard(item.idx)"
                 >
                   <h3 :style="{ color: item.card.headingColor || 'inherit' }">
                     {{ item.card.title }}
@@ -190,9 +186,9 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
 
                   <span
                     class="faq-icon"
-                    :class="{ 'is-open': openCards[item.card.title] }"
+                    :class="{ 'is-open': openCards[item.idx] }"
                     :style="{
-                      color: openCards[item.card.title]
+                      color: openCards[item.idx]
                         ? (item.card.textColor || item.card.headingColor || 'inherit')
                         : (item.card.headingColor || 'inherit')
                     }"
@@ -213,7 +209,7 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
                 </button>
 
                 <div
-                  v-if="openCards[item.card.title]"
+                  v-if="openCards[item.idx]"
                   class="faq-card-body"
                   :style="{ color: item.card.textColor || '#212121' }"
                 >
@@ -234,23 +230,23 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
                   </div>
                 </div>
               </div>
-            </TransitionGroup>
+            </div>
 
-            <!-- Right Column with Animated Transitions -->
-            <TransitionGroup name="faq-card-anim" tag="div" class="faq-column">
+            <!-- Right Column -->
+            <div class="faq-column">
               <div
                 v-for="item in rightColumn"
-                :key="item.card.title"
+                :key="item.idx"
                 class="faq-card"
-                :class="{ expanded: openCards[item.card.title] }"
-                :style="getCardStyle(item.card, item.card.title)"
+                :class="{ expanded: openCards[item.idx] }"
+                :style="getCardStyle(item.card, item.idx)"
               >
                 <button
                   type="button"
                   class="faq-card-header"
-                  :style="getHeaderStyle(item.card, item.card.title)"
-                  :aria-expanded="!!openCards[item.card.title]"
-                  @click="toggleCard(item.card.title)"
+                  :style="getHeaderStyle(item.card, item.idx)"
+                  :aria-expanded="!!openCards[item.idx]"
+                  @click="toggleCard(item.idx)"
                 >
                   <h3 :style="{ color: item.card.headingColor || 'inherit' }">
                     {{ item.card.title }}
@@ -258,9 +254,9 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
 
                   <span
                     class="faq-icon"
-                    :class="{ 'is-open': openCards[item.card.title] }"
+                    :class="{ 'is-open': openCards[item.idx] }"
                     :style="{
-                      color: openCards[item.card.title]
+                      color: openCards[item.idx]
                         ? (item.card.textColor || item.card.headingColor || 'inherit')
                         : (item.card.headingColor || 'inherit')
                     }"
@@ -281,7 +277,7 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
                 </button>
 
                 <div
-                  v-if="openCards[item.card.title]"
+                  v-if="openCards[item.idx]"
                   class="faq-card-body"
                   :style="{ color: item.card.textColor || '#212121' }"
                 >
@@ -302,19 +298,31 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
                   </div>
                 </div>
               </div>
-            </TransitionGroup>
+            </div>
 
           </div>
         </div>
-        <br>
+
+        <!-- Tiles Section -->
+        <div class="neonephos-blue-section">
+          <div class="neonephos-blue-section-inner">
+            <LandingTilesThemeComponent
+              :key="frontmatter.title"
+              :titleColor="'white'"
+              :tiles="frontmatter.tiles"
+              :heading="frontmatter.tilesHeading"
+            />
+          </div>
+        </div>
         <br>
 
       </template>
-    </NeoNephosDefaultTheme03>
+    </NeoNephosDefaultTheme01>
   </div>
 </template>
 
 <style scoped>
+/* Container styling to allow the 2-column grid room to expand */
 .project-lifecycle-hero {
   width: 100%;
   max-width: 1200px;
@@ -364,7 +372,7 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
   background: transparent;
   cursor: pointer;
   border-radius: 9999px;
-  transition: color 0.2s ease, opacity 0.2s ease;
+  transition: opacity 0.2s ease;
   opacity: 0.65;
   text-align: center;
   white-space: nowrap;
@@ -383,7 +391,6 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
 }
 
 .faq-column {
-  position: relative;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -402,37 +409,10 @@ const getHeaderStyle = (card: FAQCard, key: string) => {
   overflow: hidden;
   transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, border-radius 0.2s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .faq-card.expanded {
   border-radius: 18px;
-}
-
-/* Card Filter Transition Animations */
-.faq-card-anim-enter-active,
-.faq-card-anim-leave-active {
-  transition: opacity 0.35s cubic-bezier(0.25, 1, 0.5, 1),
-              transform 0.35s cubic-bezier(0.25, 1, 0.5, 1);
-}
-
-.faq-card-anim-enter-from {
-  opacity: 0;
-  transform: translateY(12px) scale(0.96);
-}
-
-.faq-card-anim-leave-to {
-  opacity: 0;
-  transform: translateY(-8px) scale(0.96);
-}
-
-.faq-card-anim-leave-active {
-  position: absolute;
-}
-
-.faq-card-anim-move {
-  transition: transform 0.35s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .faq-card-header {

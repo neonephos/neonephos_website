@@ -28,6 +28,7 @@ import ProjectProposalThemeComponent from './components/ProjectProposalThemeComp
 import AmbassadorThemeComponent from './components/AmbassadorThemeComponent.vue'
 import ProjectLifecycleThemeComponent from './components/ProjectLifecycleThemeComponent.vue'
 import DynamicCardThemeComponent from './components/DynamicCardThemeComponent.vue'
+import DynamicFAQCardThemeComponent from './components/DynamicFAQCardThemeComponent.vue'
 import DynamicProjectCardThemeComponent from './components/DynamicProjectCardThemeComponent.vue'
 import FAQThemeComponent from './components/FAQThemeComponent.vue'
 import ProjectOverviewThemeComponent from './components/ProjectOverviewThemeComponent.vue'
@@ -66,6 +67,7 @@ export const layoutMap = {
   AmbassadorThemeComponent,
   ProjectLifecycleThemeComponent,
   DynamicCardThemeComponent,
+  DynamicFAQCardThemeComponent,
   DynamicProjectCardThemeComponent,
   FAQThemeComponent,
   ProjectOverviewThemeComponent,
