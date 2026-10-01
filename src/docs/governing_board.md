@@ -33,10 +33,20 @@ members:
     role: "TAC Representative"
     details: "Software Architect and Technical Project Manager at SAP with over 25 years of experience in enterprise software development, including more than 20 years in architecture and 15+ years in cloud development.\nI have served as both member and chair of several international and cross-company initiatives, industry standards bodies, and open-source projects. I also speak at conferences and actively mentor engineers and architects."
     linkedin: "https://linkedin.com/in/florianmueller"
-  - name: "Christian Berendt"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/berendtc.png?v=1770141001931"
+  - name: "Joachim Kraftmayer"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/clyso.png?v=1696433012666"
+    role: "General Member Representative"
+    details: "Open Source since 1998"
+    linkedin: "https://linkedin.com/in/joachim-kraftmayer-27442563"
+  - name: "Markus Fensterer"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/markus.f.png?v=1744619837050"
     role: "General Member Representative"
     details:
+    linkedin: "https://linkedin.com/in/markus.fensterer"
+  - name: "Oliver Thylmann"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/othylmann.png?v=1781344198031"
+    role: "General Member Representative"
+    details: "30 Year Entrepreneur with multiple Exits bringing Cloud Native to Corporations through Giant Swarm. Believer in Open Source, Podcast Co-Host of the german Nerd Show, Compulsive First Adopter and Forward Thinker."
     linkedin:
 alternates:
   - name: "Johannes Scheerer"
