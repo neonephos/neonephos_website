@@ -37,7 +37,7 @@ projects:
     imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/greenhouse/icon/color/greenhouse-icon-color.svg"
     details: "Greenhouse is a cloud operations platform designed to streamline and simplify the management of a large-scale, distributed infrastructure."
     link: "https://cloudoperators.github.io/greenhouse/"
-    githubLink: "https://github.com/cloudoperators/greenhouse"
+    githubLink: "https://github.com/cloudoperators"
   - name: "OpenControlPlane"
     imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/opencontrolplane/icon/color/opencontrolplane-icon-color.svg"
     details: "The OpenControlPlane enables extensible Infrastructure- and Configuration-as-Data capabilities as a Service."
