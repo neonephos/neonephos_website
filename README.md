@@ -23,4 +23,4 @@ To facilitate an open and welcome environment for all, review the [Linux Foundat
 
 ## How to get in touch
 
-Open up an issue or contact the [Outreach Committee](https://github.com/neonephos/outreach).
+Open up an issue in this repository or contact the [Outreach Committee](https://github.com/neonephos/outreach).
