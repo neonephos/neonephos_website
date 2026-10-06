@@ -51,7 +51,7 @@ projects:
   - name: "Open Resource Discovery"
     imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/open-resource-discovery/icon/color/open-resource-discovery-icon-color.svg"
     details: "Open Resource Discovery (ORD) is a protocol that allows applications and services to self-describe their exposed resources and capabilities."
-    link: "https://open-resource-discovery.github.io/specification/"
+    link: "https://open-resource-discovery.org/"
     githubLink: "https://github.com/open-resource-discovery"
   - name: "Garden Linux"
     imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/garden-linux/icon/color/garden-linux-icon-color.svg"
