@@ -46,7 +46,7 @@ members:
       imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/giant_swarm_gmbh_1702593704307_0014100000Te1ndAAB.svg"
     - name: "Kubermatic GmbH"
       link: "https://www.kubermatic.com/"
-      imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/kubermatic.svg"
+      imgsrc: "https://lf-platform-documents-prod.s3.amazonaws.com/kubermatic_gmbh_1767883963917_0014100000Te23AAAR.svg"
     - name: "Liquid Reply"
       link: "https://www.reply.com/liquid-reply/en"
       imgsrc: "https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/liquid-reply.svg"
