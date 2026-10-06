@@ -61,6 +61,7 @@ projects:
   - name: "Katalis"
     imgsrc: "https://raw.githubusercontent.com/neonephos-katalis/.github/refs/heads/main/profile/resources/Katalis-Logo.png"
     details: "Katalis bridges Telco and Cloud Provider APIs utilizing Kubernetes to drive orchestration and federation principles. Katalis establishes interoperability by translating Telco Federation APIs to IT Cloud resource provisioning and management."
+    link: "https://katalis-project.org"
     githubLink: "https://github.com/NeoNephos-Katalis"
   - name: "Luigi"
     imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/luigi/icon/color/luigi-icon-color.svg"
@@ -75,6 +76,7 @@ projects:
   - name: "Chantico"
     imgsrc: "https://raw.githubusercontent.com/neonephos/neonephos_website/refs/heads/main/src/docs/public/assets/placeholder_project_icon.svg"
     details: "Chantico is a Kubernetes operator focused on bringing energy intelligence to modern, cloud-native data centers. Built as part of the Modular Integrated Sustainable Datacenters (MISD) project, Chantico provides a fully declarative way to discover, configure, and monitor physical energy measurement devices."
+    link: "https://chantico.io"
     githubLink: "https://github.com/chantico-project"
 
 tilesHeading: Learn more!
