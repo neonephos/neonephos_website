@@ -39,7 +39,7 @@ members:
     details:
     linkedin: "https://linkedin.com/in/markus.fensterer"
   - name: "Markus Wendland"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/clyso.png?v=1696433012666"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/clyso.png?v=1791475926268"
     role: "General Member Representative"
     details: "Open Source since 1998"
     linkedin: "https://linkedin.com/in/joachim-kraftmayer-27442563"
