@@ -843,8 +843,20 @@ KCD Sofia provides an opportunity to exchange ideas with cloud-native practition
     <link>https://neonephos.org/events/2026_10_07_Open_Source_Summit_Europe</link>
     <guid>https://neonephos.org/events/2026_10_07_Open_Source_Summit_Europe</guid>
     <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20261007_open_source_summit_banner.svg" alt="Open Source Summit Europe banner" /></p><h1 id="neonephos-at-the-open-source-summit-in-prague" tabindex="-1">NeoNephos at the Open Source Summit in Prague <a class="header-anchor" href="#neonephos-at-the-open-source-summit-in-prague" aria-label="Permalink to &quot;NeoNephos at the Open Source Summit in Prague&quot;">&ZeroWidthSpace;</a></h1>
-<p>We will be present at the upcoming <a href="https://events.linuxfoundation.org/open-source-summit-europe/" target="_blank" rel="noreferrer">Open Source Summit in Prague</a>. Details are to be announced.</p>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20261007_open_source_summit_banner.svg" alt="Open Source Summit Europe banner" /></p><h1 id="neonephos-at-the-open-source-summit-in-prague-2026" tabindex="-1">NeoNephos at the Open Source Summit in Prague 2026 <a class="header-anchor" href="#neonephos-at-the-open-source-summit-in-prague-2026" aria-label="Permalink to &quot;NeoNephos at the Open Source Summit in Prague 2026&quot;">&ZeroWidthSpace;</a></h1>
+<p>From October 7-9, the open-source community will gather in Prague for Open Source Summit Europe 2026.
+As a Silver Sponsor, the NeoNephos Foundation will be present with booth activities, project demos, and community members from across our ecosystem.
+Visit us on Floor 3, Booth 51, where you'll be able to meet contributors and learn more about projects such as <strong>CobaltCore</strong>, <strong>IronCore</strong>, <strong>Open Control Plane</strong>, <strong>Open Component Model (OCM)</strong>, and <strong>Chantico</strong>.</p>
+<p>The event will also feature the NeoNephos-related talk:</p>
+<p><strong>&quot;Alert Fatigue is a Security Vulnerability: Why Most CVEs Don't Matter and How to Find the Ones That Do&quot;</strong></p>
+<p>Presented by contributors from the <strong>CobaltCore project</strong>, the session explores practical approaches to reducing vulnerability noise and helping teams focus on the findings that truly matter.</p>
+<p>We look forward to meeting the wider open-source community, sharing ideas, showcasing our projects, and discussing the future of open, interoperable infrastructure.</p>
+<p>📍 Prague Congress Centre
+5. kvetna 1640/65
+140 21 Prague 4, Czechia</p>
+<p>📅 October 7-9, 2026</p>
+<p>📌 Floor 3, Booth 51</p>
+<p>More information <a href="https://events.linuxfoundation.org/open-source-summit-europe/" target="_blank" rel="noreferrer">Open Source Summit in Prague</a></p>
 ]]></description>
   </item>
   <item>
@@ -853,7 +865,16 @@ KCD Sofia provides an opportunity to exchange ideas with cloud-native practition
     <guid>https://neonephos.org/events/2026_10_14_Community_Call</guid>
     <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20261014_community_call_banner.svg" alt="NeoNephos Community Call banner" /></p><h1 id="neonephos-october-community-call" tabindex="-1">NeoNephos October Community Call <a class="header-anchor" href="#neonephos-october-community-call" aria-label="Permalink to &quot;NeoNephos October Community Call&quot;">&ZeroWidthSpace;</a></h1>
-<p>It's been a long time! On October 14th we again bring together the NeoNephos Foundation community in our Community Call! This time, we'll feature <a href="https://github.com/chantico-project" target="_blank" rel="noreferrer">Chantico</a> to introduce you on what this project is about! More details to be announced.</p>
+<p>It's been a long time! On October 14th we again bring together the NeoNephos Foundation community in our Community Call! This time, we'll feature <a href="https://github.com/chantico-project" target="_blank" rel="noreferrer">Chantico</a> to introduce you on what this project is about!</p>
+<blockquote>
+<p>Title: Chantico: energy-aware cloud-native controller
+Abstract:</p>
+<p>We introduce the energy-aware domain controller, Chantico and its goals, architecture and current functionality. TNO is developing Chantico as part of the Modular Integrated Sustainable Datacenter (MISD) project under the &gt;IPCEI-CIS 8ra Initiative, in orchestration and energy flexibility efforts, and the project is onboarded into NeoNephos.</p>
+<p>This cloud-native monitoring solution consists of a Kubernetes operator which integrates with existing open source software for collecting energy measurements. We monitor devices like PDUs and bare metal servers but also &gt;VMs and other higher-level resources, aggregating data and attributing timeseries to report service consumption. We consider fair distribution algorithms of unallocated overhead between data center operations and tenant &gt;workloads. Chantico also becomes extensible with carbon emission measurements and enables green workload shifting.</p>
+</blockquote>
+<blockquote>
+<p>We present what Chantico is about and end with a demo of the graph-based K8s custom resource models and some use cases.</p>
+</blockquote>
 <p><strong>Zoom Session Link</strong></p>
 <p><a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8" target="_blank" rel="noreferrer">https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8</a></p>
 <p><a href="https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7" target="_blank" rel="noreferrer">Download the iCal file to add this meeting to your calendar.</a></p>
