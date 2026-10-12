@@ -11,7 +11,16 @@ published: true
 
 # NeoNephos October Community Call
 
-It's been a long time! On October 14th we again bring together the NeoNephos Foundation community in our Community Call! This time, we'll feature [Chantico](https://github.com/chantico-project) to introduce you on what this project is about! More details to be announced.
+It's been a long time! On October 14th we again bring together the NeoNephos Foundation community in our Community Call! This time, we'll feature [Chantico](https://github.com/chantico-project) to introduce you on what this project is about! 
+
+> Title: Chantico: energy-aware cloud-native controller
+>Abstract:
+>
+>We introduce the energy-aware domain controller, Chantico and its goals, architecture and current functionality. TNO is developing Chantico as part of the Modular Integrated Sustainable Datacenter (MISD) project under the >IPCEI-CIS 8ra Initiative, in orchestration and energy flexibility efforts, and the project is onboarded into NeoNephos.
+>
+>This cloud-native monitoring solution consists of a Kubernetes operator which integrates with existing open source software for collecting energy measurements. We monitor devices like PDUs and bare metal servers but also >VMs and other higher-level resources, aggregating data and attributing timeseries to report service consumption. We consider fair distribution algorithms of unallocated overhead between data center operations and tenant >workloads. Chantico also becomes extensible with carbon emission measurements and enables green workload shifting.
+
+>We present what Chantico is about and end with a demo of the graph-based K8s custom resource models and some use cases.
 
 **Zoom Session Link**
 
