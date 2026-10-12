@@ -12,6 +12,15 @@ published: true
 # NeoNephos October Community Call
 
 It's been a long time! On October 14th we again bring together the NeoNephos Foundation community in our Community Call! This time, we'll feature [Chantico](https://github.com/chantico-project) to introduce you on what this project is about! 
+The session will give an overview of Chantico’s goals, architecture and current functionality. It will also explore its role in energy monitoring and energy flexibility for cloud-native infrastructure, including a demo and practical use cases.
+
+Join us for the next NeoNephos Community Call on October 14 at 16:00 CEST.
+
+This time, Leon Helwerda will introduce Chantico, an energy-aware cloud-native controller and an onboarded NeoNephos project.
+
+The session will give an overview of Chantico’s goals, architecture and current functionality. It will also explore its role in energy monitoring and energy flexibility for cloud-native infrastructure, including a demo and practical use cases.
+
+Chantico is developed by TNO as part of the Modular Integrated Sustainable Datacenter (MISD) project under the IPCEI-CIS/8ra initiative. MISD focuses on developing modular, sustainable and secure European cloud infrastructure.
 
 > Title: Chantico: energy-aware cloud-native controller
 >Abstract:
@@ -22,8 +31,12 @@ It's been a long time! On October 14th we again bring together the NeoNephos Fou
 
 >We present what Chantico is about and end with a demo of the graph-based K8s custom resource models and some use cases.
 
-**Zoom Session Link**
+October 14, 2026
 
-[https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8](https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8)
+🕓 16:00 CEST
+
+
+
+[Join the Community Call on Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/98831004509?password=b4844bad-66b2-49d4-b483-7636e6349ff8)
 
 [Download the iCal file to add this meeting to your calendar.](https://webcal.prod.itx.linuxfoundation.org/lfx/lfGnr1MCq2lbKUf6f7)
