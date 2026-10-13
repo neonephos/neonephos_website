@@ -181,7 +181,7 @@ cards:
     classname: "chantico"
     relationships: []
     tags: ["sustainability","cloud_edge_platform","service_orchestration"]
-    logo: "https://github.com/neonephos/artwork/blob/main/projects/chantico/icon/color/chantico-icon-color.svg"
+    logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/chantico/icon/color/chantico-icon-color.svg"
     details: "Chantico is a Kubernetes operator focused on bringing energy intelligence to modern, cloud-native data centers."
     githubLink: "https://github.com/chantico-project"
     link: "https://chantico-project.github.io/chantico/"
