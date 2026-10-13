@@ -63,7 +63,7 @@ cards:
   - title: "IronCore"
     classname: "ironcore"
     relationships: ["gardener","cobaltcore","gardenlinux"]
-    tags: [“cloud_edge_platform”, “management”, “service_orchestration”]
+    tags: ["cloud_edge_platform","management","service_orchestration"]
     logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/ironcore/stacked/color/ironcore-stacked-color.svg"
     details: "IronCore is a Kubernetes-based platform that modernizes bare-metal infrastructure management by providing a unified, cloud-native interface for orchestrating compute, storage, and networking resources across distributed environments."
     link: "https://ironcore.dev/"
