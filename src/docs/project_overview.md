@@ -62,8 +62,8 @@ cards:
 
   - title: "IronCore"
     classname: "ironcore"
-    relationships: []
-    tags: []
+    relationships: ["gardener","cobaltcore","gardenlinux"]
+    tags: [“cloud_edge_platform”, “management”, “service_orchestration”]
     logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/ironcore/stacked/color/ironcore-stacked-color.svg"
     details: "IronCore is a Kubernetes-based platform that modernizes bare-metal infrastructure management by providing a unified, cloud-native interface for orchestrating compute, storage, and networking resources across distributed environments."
     link: "https://ironcore.dev/"
@@ -153,10 +153,10 @@ cards:
 
   - title: "Luigi"
     classname: "luigi"
-    relationships: []
+    relationships: ["openmfp","platform-mesh"]
     tags: ["application"]
     logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/luigi/icon/color/luigi-icon-color.svg"
-    details: "Luigi is a micro frontend JavaScript framework for building modular, scalable, and technology‑agnostic web applications."
+    details: "Luigi is a micro frontend JavaScript framework for building modular, scalable, and technology-agnostic web applications with a unified user experience across distributed UI modules."
     link: "https://luigi-project.io/"
     githubLink: "https://github.com/luigi-project"
     backgroundColor: "#FEFEFE"
