@@ -31,7 +31,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     </section>
   </div>
 <a href="https://metalstack.cloud/de/lp/metalstack-summit-2026" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20261015_metalstack.summit_banner_wide.svg')" alt="Metalstack Summit Munich" /> </a>
-<a href="https://www.sovereign-cloud-days.eu/en/event/sovereign-cloud-days-2026-1/page/home-sovereign-cloud-days-2026-3" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20261024_OpenInfra_Days_Saarbrücken_banner_wide.svg')" alt="Sovereign Cloud Days 2026 · OpenInfra & Cloud Native Track" /> </a>
+<a href="https://www.sovereign-cloud-days.eu/en/event/sovereign-cloud-days-2026-1/page/home-sovereign-cloud-days-2026-3" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20261024_OpenInfra_Days_Saarbruecken_banner_wide.svg')" alt="Sovereign Cloud Days 2026 · OpenInfra & Cloud Native Track" /> </a>
   
   <section class="home-tiles__section">
     <div class="container wrap">
