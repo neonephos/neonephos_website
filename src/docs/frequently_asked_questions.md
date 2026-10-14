@@ -118,7 +118,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The NeoNephos Foundation offers industry grade, certified software for free. The results are no niche projects but embedded into the wider cloud native community through our continued collaboration with the wider ecosystem."
 
   - title: "How does NeoNephos reduce fragmentation and vendor lock-in – and why open source?"
     category: "Technical"
@@ -127,7 +127,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "To conform to NeoNephos means to conform to our vision of allowing interchangeability in switching providers. The software is open source to allow cross company development and deeply embed our projects into the open ecosystem."
 
   - title: "How is NeoNephos different from a vendor's open source project?"
     category: "Technical"
@@ -136,7 +136,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "Open source provided by a single vendor bears the risk of advancing a dictated, opinionated vision. Additionally, it also increases participation risks for other companies as there is a real chance of a rug pull. In NNF, strategic decisions are carried by many and not mandated by a singular entity."
 
   - title: "What kinds of projects live under NeoNephos – and are they production-ready?"
     category: "Technical"
@@ -145,7 +145,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The NeoNephos Foundation welcomes projects that adhere to the mission statement set in the NNF Charter. While most projects are early stage, some are industry proven as reflected by their lifecycle maturity status."
 
   - title: "How do projects join, and how independent are they from the foundation?"
     category: "Technical"
@@ -154,7 +154,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The process is explained in detail on this website. The Technical Advisory Council ultimately decides on the application of a new project. Once within NNF, the projects are embedded in the organizational webbings of the foundation. They receive support but are also expected to hit milestone targets, as determined by their lifecycle stage. However, the donated projects are ultimately also free to leave a foundation if their steering committee democratically elects to do so."
 
   - title: "What concrete outputs does NeoNephos aim to produce?"
     category: "Technical"
@@ -163,7 +163,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "Look at our project section on the website. Apart from that, NNF also attends and hosts events."
 
   - title: "How is NeoNephos related to IPCEI-CIS – and what does EU funding mean in practice?"
     category: "General"
@@ -172,7 +172,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "A large set of NNF projects currently receive partial funding by the IPCEI-CIS initiative. The support is substantial enough that you also see the BMWE Funding logo in the footer of this website. IPCEI-CIS does not last forever, however, so it long term NNF's relation to IPCEI-CIS will diminish."
 
   - title: "Why was Linux Foundation Europe chosen – and what's the difference between NeoNephos and CNCF?"
     category: "General"
@@ -181,7 +181,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "Being a member of the Linux Foundation allows us to tap into the Linux Foundation ecosystem where important players like the Cloud Native Computing Foundation (CNCF) are now our \"foundational brothers\". This increased closeness positively affects our efforts to embed ourselves into the cloud native ecosystem."
 
   - title: "Can non-European companies join – and how does NeoNephos ensure long-term sustainability?"
     category: "General"
@@ -190,7 +190,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The NeoNephos Foundation is open to receive applications from outside Europe."
 
   - title: "Who can participate – and how can individuals contribute?"
     category: "General"
@@ -208,7 +208,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The process and member pricing levels are described in the charter and this website."
 
   - title: "Why should a company join if they already contribute to the projects – and what do they actually get?"
     category: "General"
@@ -217,7 +217,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The strategic direction of the projects is set in committees and affected by the NeoNephos mission. If a company wants to have a greater say or more information about its dependencies it makes sense to have a chair at the table."
 
   - title: "What is the single story we want people to remember about NeoNephos?"
     category: "General"
@@ -235,7 +235,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The NeoNephos Foundation aims to foster cloud native digital sovereignty through novel projects, events and promotion of open standards."
 
   - title: "Which messages are stable long-term – and how do we keep project messaging aligned with the foundation story?"
     category: "General"
@@ -244,7 +244,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The NeoNephos Foundation aims to foster cloud native digital sovereignty. This won't change."
 
   # Not found in reference order, therefore placed last
 
