@@ -37,7 +37,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The NeoNephos Foundation (NNF) is an open source foundation under the umbrella of the Linux Founation Europe with the goal to advance cloud native digital sovereignty. This is facilitated through the hosting of novel projects, promotion of open standards and fostering of the respective community ecosystem."
 
   - title: "Why does it exist?"
     category: "General"
@@ -46,16 +46,16 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The foundation was founded to address the limited role European providers play in a cloud market dominated by the non-European hyperscaler triopoly."
 
-  - title: "What does \"cloud-native sovereignty\" actually mean in practice?"
+  - title: "What does \"cloud native sovereignty\" actually mean in practice?"
     category: "General"
     backgroundColor: "#F9F9F9"
     headingBackgroundColor: "#FAFAFA"
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "It means to give consumers the ability to flexibly and portably switch providers through the use of software provided by a digital commons. By promoting the consumer-accessibility of many smaller providers through interoperable open standards, the fragmented European provider market aggregates into a large distributed cloud provider."
 
   - title: "Who is the Foundation for?"
     category: "General"
@@ -64,7 +64,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The foundation is for anyone interested in furthering cloud native sovereignty. This is a broad area which affects consumers, vendors, independent software providers, political interest groups and more. The results are not limited to European consumers but can be applied world-wide."
 
   - title: "What makes NeoNephos different from existing cloud or open source initiatives such as CNCF?"
     category: "General"
@@ -73,7 +73,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "NNF builds upon many CNCF projects and is grateful for its contributions to the industry. NNF differs in its focus, as we have the ideological angle of furthering European digital sovereignty while the CNCF is ideologically more indifferent."
 
   - title: "What is NNF – and what is it not?"
     category: "General"
@@ -82,7 +82,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "NNF welcomes contributions across companies and individuals. It is neutral and per its charter not beholden to a singular company."
 
   - title: "Is NNF a vendor-neutral open source foundation or an EU program?"
     category: "General"
@@ -100,7 +100,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "NNF does not fund developer costs for the development of its projects."
 
   - title: "What is the single story we want people to remember about NeoNephos?"
     category: "General"
