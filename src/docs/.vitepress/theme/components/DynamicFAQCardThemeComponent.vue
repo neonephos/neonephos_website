@@ -438,7 +438,7 @@ const getHeaderStyle = (card: FAQCard, index: number) => {
 .faq-card-header h3 {
   margin: 0;
   font-size: 0.98rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.4;
 }
 
