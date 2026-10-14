@@ -21,7 +21,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
         <ul class="home-hero__metric_wrapper">
           <li class="show-over-800">
             <div class="wp-block-button">
-              <a :href="withBase('/frequently_asked_questions')" class="wp-block-button__link wp-element-button">FAQ</a>
+              <a :href="withBase('/frequently_asked_questions')" class="wp-block-button__link wp-element-button">About NeoNephos</a>
             </div>
           </li>
           <li>{{ frontmatter.hero?.nprojects }}<span>Projects</span></li>
