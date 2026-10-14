@@ -73,7 +73,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "NeoNephos is a vendor-neutral open source foundation – not an EU program. The foundation grew out of the IPCEI-CIS context – an EU initiative that co-finances efforts toward a sovereign European cloud-edge continuum. Several of its founding members were involved in IPCEI-CIS projects. NeoNephos was created to give those investments a long-term home beyond the time-limited nature of an IPCEI project."
 
   - title: "What does NNF explicitly not do?"
     category: "General"
@@ -84,14 +84,14 @@ cards:
     extendedCardColor: "#0F6BFF"
     text: "NNF does not fund developer costs for the development of its projects."
 
-  - title: "Who hosts and runs NeoNephos – and is any single company in control?"
+  - title: "Who hosts NeoNephos – and is any single company in control?"
     category: "General"
     backgroundColor: "#F9F9F9"
     headingBackgroundColor: "#FAFAFA"
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The NeoNephos Foundation is officially a project of Linux Foundation Europe. All trademarks and assets belong to Linux Foundation Europe. As the foundation is hosted by the Linux Foundation Europe, vendor neutrality is ensured. The governance structure is designed to distribute decision-making across members and all projects are fully donated to the foundation, meaning no single company owns them."
 
   - title: "How is NeoNephos governed and how are decisions made?"
     category: "General"
@@ -100,7 +100,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "The Foundation is run via it’s own governance structure, including the Governing Board as the decision-making body at foundation level, the Technical Advisory Council (TAC), which oversees technical direction, and the Outreach Committee, handling community and communications."
 
   - title: "Who owns and represents the NeoNephos story externally?"
     category: "General"
@@ -109,7 +109,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "While the Linux Foundation Europe owns the foundation, and is therefore technically the institutional owner of the NeoNephos story, in practice the Outreach Committee is responsible for external communication and representation — including messaging, brand, social media and public presence."
 
   - title: "What value does NeoNephos provide to contributors, companies, and the public sector?"
     category: "Technical"
@@ -199,7 +199,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "Anyone can and is welcome to participate! The foundation is open to individuals, companies and organizations who share the goal of an open, sovereign, cloud-native ecosystem. For individuals the easiest entry points are contributing to existing projects via GitHub, proposing a new project through the project proposal process, joining the mailing lists and community calls, and applying to become a NeoNephos Ambassador."
 
   - title: "How can organizations become members and what does it cost?"
     category: "General"
@@ -226,7 +226,7 @@ cards:
     headingColor: "black"
     textColor: "white"
     extendedCardColor: "#0F6BFF"
-    text: "tbd"
+    text: "NeoNephos is the trusted, neutral home for open source cloud infrastructure — where European sovereignty is built together, not owned by anyone."
 
   - title: "How do we explain NeoNephos in 30 seconds – to technical and non-technical audiences?"
     category: "General"
