@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useData, withBase} from 'vitepress'
+import { useData, withBase } from 'vitepress'
 const { frontmatter } = useData()
 
 import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
@@ -30,48 +30,56 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
       </div>
     </section>
   </div>
-<a href="https://metalstack.cloud/de/lp/metalstack-summit-2026" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20261015_metalstack.summit_banner_wide.svg')" alt="Metalstack Summit Munich" /> </a>
-<a href="https://www.sovereign-cloud-days.eu/en/event/sovereign-cloud-days-2026-1/page/home-sovereign-cloud-days-2026-3" class="kubecon-banner" target="_blank" rel="noopener"> <img :src="withBase('/assets/20261024_OpenInfra_Days_Saarbruecken_banner_wide.svg')" alt="Sovereign Cloud Days 2026 · OpenInfra & Cloud Native Track" /> </a>
-  
+
+  <!-- Dynamic Banners Section -->
+  <a 
+    v-for="(banner, index) in frontmatter.banners" 
+    :key="index"
+    :href="banner.linkUrl" 
+    class="kubecon-banner" 
+    target="_blank" 
+    rel="noopener"
+  > 
+    <img :src="withBase(banner.imgSrc)" :alt="banner.alt" /> 
+  </a>
+
   <section class="home-tiles__section">
     <div class="container wrap">
-           <LandingTilesThemeComponent
-              :key="frontmatter.title"
-              :tiles="frontmatter.tiles"
-              :heading="frontmatter.tilesHeading"
-            />
+      <LandingTilesThemeComponent
+        :key="frontmatter.title"
+        :tiles="frontmatter.tiles"
+        :heading="frontmatter.tilesHeading"
+      />
     </div>
   </section>
 
-<div>
-  <section class="section-divider">
-    <span class="section-divider__line"></span>
-    <h2 class="section-divider__title">UPCOMING EVENTS</h2>
-    <span class="section-divider__line"></span>
-  </section>
+  <div>
+    <section class="section-divider">
+      <span class="section-divider__line"></span>
+      <h2 class="section-divider__title">UPCOMING EVENTS</h2>
+      <span class="section-divider__line"></span>
+    </section>
 
-  <EventsTilesThemeComponent :key="Date.now()" />
+    <EventsTilesThemeComponent :key="Date.now()" />
 
     <section class="section-divider">
-    <span class="section-divider__line"></span>
-    <h2 class="section-divider__title">LATEST FROM NEONEPHOS</h2>
-    <span class="section-divider__line"></span>
-  </section>
-   <BlogGalleryTeaserThemeComponent /> 
+      <span class="section-divider__line"></span>
+      <h2 class="section-divider__title">LATEST FROM NEONEPHOS</h2>
+      <span class="section-divider__line"></span>
+    </section>
+    <BlogGalleryTeaserThemeComponent /> 
 
     <section class="section-divider">
-    <span class="section-divider__line"></span>
-    <h2 class="section-divider__title">LEARN</h2>
-    <span class="section-divider__line"></span>
-   </section>
+      <span class="section-divider__line"></span>
+      <h2 class="section-divider__title">LEARN</h2>
+      <span class="section-divider__line"></span>
+    </section>
 
-   <NewToNeoNephosButtonThemeComponent /> 
-</div>
-
+    <NewToNeoNephosButtonThemeComponent /> 
+  </div>
 </template>
 
 <style scoped>
-
 .kubecon-banner {
   display: block;
   width: 100%;
@@ -124,7 +132,6 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     font-size: 58px;
   }
 }
-
 
 .home-hero__title span {
   color: var(--vp-neonephos-blue);
@@ -186,11 +193,11 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
   text-decoration: none;
   font-weight: 600;
   display: inline-block;
-  font-size:16px;
+  font-size: 16px;
 }
 
 .wp-block-button__link:hover {
-  background-color: #007aff;;
+  background-color: #007aff;
 }
 
 .home-tiles__section {
@@ -213,16 +220,13 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     background: none;
   }
 
-
-  
   .logo-background::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.3); /* Optional contrast overlay */
+    background: rgba(0, 0, 0, 0.3);
     z-index: 0;
   }
-
 }
 
 @media screen and (min-width: 700px) {
@@ -240,7 +244,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.3); /* Optional contrast overlay */
+    background: rgba(0, 0, 0, 0.3);
     z-index: 0;
   }
 
@@ -259,6 +263,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     background: transparent;
   }
 }
+
 .section-divider {
   display: flex;
   align-items: center;
@@ -281,5 +286,4 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
   white-space: nowrap;
   padding: 0 1rem;
 }
-
 </style>

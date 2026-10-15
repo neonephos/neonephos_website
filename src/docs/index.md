@@ -17,6 +17,13 @@ hero:
     - theme: alt
       text: Members
       link: /members
+banners:
+  - linkUrl: "https://metalstack.cloud/de/lp/metalstack-summit-2026"
+    imgSrc: "/assets/20261015_metalstack.summit_banner_wide.svg"
+    alt: "Metalstack Summit Munich"
+  - linkUrl: "https://www.sovereign-cloud-days.eu/en/event/sovereign-cloud-days-2026-1/page/home-sovereign-cloud-days-2026-3"
+    imgSrc: "/assets/20261024_OpenInfra_Days_Saarbruecken_banner_wide.svg"
+    alt: "Sovereign Cloud Days 2026 · OpenInfra & Cloud Native Track"
 tilesHeading: Get involved with NeoNephos!
 tiles:
   - title: Members
