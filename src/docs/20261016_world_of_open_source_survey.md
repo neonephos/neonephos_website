@@ -20,18 +20,15 @@ For this year's edition, which the NeoNephos Foundation co-sponsored, the report
 
 The numbers could not be more stark: 94% of European respondents (n=264) rate *digital sovereignty* at least *somewhat important* to their organization, 61.5% even *very important* ([Q18](https://zenodo.org/records/23083813)).
 According to the survey, the main drivers behind this sentiment are *Security and privacy* (71%), *Vendor lock-in and cost risk* (55%) and *National or regional interests* (47%) ([Q19](https://zenodo.org/records/23083813)).
-An important takeaway is that this sentiment is shared across the world, as the data highlights similar results for respondents *outside* Europe. Anecdotically, we can attest to that as visits to [KubeCon + CloudNativeCon India](https://neonephos.org/events/2026_06_18_KubeCon_India) and [KubeCon + CloudNativeCon Japan](https://github.com/neonephos/events/issues/11) showed great interest in our foundation from local companies and attendants.
+An important takeaway is that this sentiment is shared across the world, as the data highlights similar results for respondents *outside* Europe. Anecdotically, we can attest to that as our visits to [KubeCon + CloudNativeCon India](https://neonephos.org/events/2026_06_18_KubeCon_India) and [KubeCon + CloudNativeCon Japan](https://github.com/neonephos/events/issues/11) showed great interest in our foundation from local companies and attendants.
 
-NNF matters to us all
-the sentiment of digital sovereignty.
+Open source can help in this regard. But the data suggests that exploitation is linked to internal governance and governance of the open source project itself: 
 
+TODO:
 
-during the Open Source Summit in Prague,
+Continue:
 
-coincies
-
-When we say we want to make "cloud native sovereign" it is a sentiment that should be backed by data.
-
-BASED ON DATA.
+[https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2026_final.pdf?hsLang=en](https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2026_final.pdf?hsLang=en)
+[https://zenodo.org/records/23083813](https://zenodo.org/records/23083813)
 
 substanceThe general sent Open source and sovereignty are strongly
