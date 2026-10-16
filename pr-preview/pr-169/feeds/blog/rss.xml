@@ -11,7 +11,10 @@
     <link>https://neonephos.org/blog/20261016_OpenDefenseCloud_BWI</link>
     <guid>https://neonephos.org/blog/20261016_OpenDefenseCloud_BWI</guid>
     <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20261016_open_defense_cloud_banner.svg" alt="NeoNephos & Open Defense Cloud by BWI banner" /></p><p><strong>Check out the full Blog Post by BWI</strong></p>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20261016_open_defense_cloud_banner.svg" alt="NeoNephos & Open Defense Cloud by BWI banner" /></p><p>On behalf of the German armed forces, BWI is building its own cloud platform for deployment: the “Open Defense Cloud” (ODC). BWI joined the NeoNephos Foundation in the beginning of this year, and works closely with the Bundeswehr and outside partners through the Foundation.</p>
+<p>The ODC itself is designed to be secure, sovereign, and mobile, able to process classified data, and built entirely on open-source software. Cloud computing here means rolling out applications and infrastructure quickly and at scale, with faster software updates and fewer failures. It’s the foundation to enable the Bundeswehr’s shift to Software Defined Defense (SDD) and the Modular Open Systems Approach (MOSA).
+The Bundeswehr will use the ODC via BWI-provided cloud infrastructure for IT services both at home and on deployments, taking a multicloud approach (several stacks, not one) to avoid vendor lock-in and stay interoperable with NATO. The ODC is one of three stacks within the Bundeswehr's “private cloud” (pCloudBw).</p>
+<p><strong>What the ODC actually looks like in the field is covered in the original Blog Post by BWI</strong></p>
 ]]></description>
   </item>
   <item>
