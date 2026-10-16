@@ -909,8 +909,12 @@ Abstract:</p>
     <link>https://neonephos.org/events/2026_10_20_MCK_NeoNephos</link>
     <guid>https://neonephos.org/events/2026_10_20_MCK_NeoNephos</guid>
     <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20261020_mck_neonephos_series_banner.svg" alt="MCK Meeting banner" /></p><h1 id="neonephos-at-the-open-source-summit-in-prague-2026" tabindex="-1">NeoNephos at the Open Source Summit in Prague 2026 <a class="header-anchor" href="#neonephos-at-the-open-source-summit-in-prague-2026" aria-label="Permalink to &quot;NeoNephos at the Open Source Summit in Prague 2026&quot;">&ZeroWidthSpace;</a></h1>
-<p>Join <a href="https://teams.microsoft.com/meet/314506589910314?p=Oh8UYpF5NYalTnDL1E" target="_blank" rel="noreferrer">link</a>.</p>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20261020_mck_neonephos_series_banner.svg" alt="MCK Meeting banner" /></p><h1 id="mck-meeting-sovereign-open-source-cloud-native-tooling" tabindex="-1">MCK Meeting: Sovereign &amp; Open-Source Cloud-Native Tooling <a class="header-anchor" href="#mck-meeting-sovereign-open-source-cloud-native-tooling" aria-label="Permalink to &quot;MCK Meeting: Sovereign &amp; Open-Source Cloud-Native Tooling&quot;">&ZeroWidthSpace;</a></h1>
+<p>Join us for a session on two open-source projects advancing sovereign, vendor-neutral cloud-native infrastructure.</p>
+<p>First, Valentin Küchler, Henry Richter, and Artem Lytvynov present Thalamus, an open-source inference platform for sovereign LLM serving on Kubernetes – offering one API for model management and an OpenAI-compatible API for consumption, built on open standards like llm-d and vLLM. Includes an introduction and live demo.</p>
+<p>Then, Augustin Husson (founder of Perses, Lead Principal Engineer at Amadeus) and Akshay Iyyadurai Balasundaram (SAP Cloud Infrastructure – Observability) introduce Perses, a Kubernetes-native dashboarding tool that brings metrics, logs, traces, and profiles together in one place – including its open-source journey, a live demo, and what’s next.</p>
+<p>Each session runs 30 minutes including Q&amp;A. Come learn, see live demos, and ask your questions – everyone is welcome. We're meeting on October 20 at 10AM.
+Join <a href="https://teams.microsoft.com/meet/314506589910314?p=Oh8UYpF5NYalTnDL1E" target="_blank" rel="noreferrer">link</a>.</p>
 ]]></description>
   </item>
   <item>
