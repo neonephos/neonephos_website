@@ -176,7 +176,7 @@ observers:
     details: "Software Engineer & Developer Advocate at Open Managed Control Planes"
     linkedin:
   - name: "Oliver Thylmann"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/othylmann.png?v=1781344198031"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/othylmann.png?v=1792218932983"
     role: "Generic Observer"
     details: "30 Year Entrepreneur with multiple Exits bringing Cloud Native to Corporations through Giant Swarm. Believer in Open Source, Podcast Co-Host of the german Nerd Show, Compulsive First Adopter and Forward Thinker."
     linkedin:

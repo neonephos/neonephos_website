@@ -39,7 +39,7 @@ members:
     details: "Michael Kambeck is Team Lead Cloud Development at SVA System Vertrieb Alexander GmbH’s Competence Center Software Development in Cologne, Germany. Together with his team, he focuses on the design and delivery of modern cloud and DevOps solutions, drawing on nearly two decades of experience in enterprise IT.\n\nHis professional journey began in infrastructure, application and server administration, and automation, before evolving into software development. Since joining SVA nine years ago, he has focused on scalable platform architectures, hybrid and cloud-native application development, automation, secure cloud operating models, and open source technologies. His work centres on helping organisations build and operate modern platforms that combine enterprise requirements with open, cloud-native approaches."
     linkedin:
   - name: "Oliver Thylmann"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/othylmann.png?v=1781344198031"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/othylmann.png?v=1792218932983"
     role: "Giant Swarm GmbH Representative"
     details: "30 Year Entrepreneur with multiple Exits bringing Cloud Native to Corporations through Giant Swarm. Believer in Open Source, Podcast Co-Host of the german Nerd Show, Compulsive First Adopter and Forward Thinker."
     linkedin:
