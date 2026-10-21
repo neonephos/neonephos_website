@@ -11,7 +11,7 @@ published: true
 ---
 ##  KubeCon + CloudNativeCon 2027
 
-The NeoNephos Foundation will be present at the [KubeCon + CloudNativeCon 2027 in sunny Barcelona!]() with a booth and representatives of our projects. More details to be determined. Follow along our planning [here](https://github.com/neonephos/events/issues/23).
+The NeoNephos Foundation will be present at the [KubeCon + CloudNativeCon 2027 in sunny Barcelona!](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe-2027/) with a booth and representatives of our projects. More details to be determined. Follow along our planning [here](https://github.com/neonephos/events/issues/23).
 
 
 
