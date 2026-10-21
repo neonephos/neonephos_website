@@ -1,5 +1,5 @@
 ---
-title: "KubeCon+ClodNativeCon EU 2027"
+title: "KubeCon+CloudNativeCon EU 2027"
 date: "2027-03-15"
 banner: "assets/events/20270315_kubecon_barcelona_banner.svg"
 bannerMobile: "assets/events/20270315_kubecon_barcelona_banner_mobile.svg"
