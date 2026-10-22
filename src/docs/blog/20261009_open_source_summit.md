@@ -25,5 +25,8 @@ Why an independent foundation matters Tarek made the case clear: single-vendor o
 
 Get involved If you share that goal we very much welcome you bring your projects, contribute to existing ones, or simply follow along. NeoNephos is open to everyone who wants to make choice a reality with open source.
 
-*Obligatory group photo:*
+*Obligatory group photo and event shots:*
 <img width="993" height="644" alt="image" src="https://github.com/user-attachments/assets/721bb841-3604-4d5c-b9a7-7e95e970ec4b" />
+<img width="799" height="533" alt="1791977337928" src="https://github.com/user-attachments/assets/27764184-c531-4dfb-bd0f-50bbafb7a0e6" />
+<img width="800" height="534" alt="1791977337471" src="https://github.com/user-attachments/assets/815a2bbe-15fc-4299-805d-b7f3249cb47f" />
+<img width="799" height="533" alt="1791977337089" src="https://github.com/user-attachments/assets/1c926ded-0b92-4289-93dd-ce865d83b71a" />
