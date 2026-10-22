@@ -41,7 +41,7 @@ members:
   - name: "Markus Wendland"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/clyso.png?v=1791475926268"
     role: "General Member Representative"
-    details: "Open Source since 1998"
+    details: "Head of Customer Success at CLYSO GmbH"
     linkedin: "https://linkedin.com/in/joachim-kraftmayer-27442563"
   - name: "Oliver Thylmann"
     imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/othylmann.png?v=1792218932983"
