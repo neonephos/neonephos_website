@@ -238,7 +238,7 @@ const getTagStyle = (tag: string) => {
             {{ card.details }}
           </p>
 
-          <!-- Relationships & Stage Badge Wrapper -->
+          <!-- Footer Info Container (Relationships left, Stage Badge far right) -->
           <div class="card-footer-info">
             <!-- Relationships -->
             <div
