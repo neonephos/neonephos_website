@@ -18,9 +18,9 @@ hero:
       text: Members
       link: /members
 banners:
-  - linkUrl: "https://www.sovereign-cloud-days.eu/en/event/sovereign-cloud-days-2026-1/page/home-sovereign-cloud-days-2026-3"
-    imgSrc: "/assets/20261024_OpenInfra_Days_Saarbruecken_banner_wide.svg"
-    alt: "Sovereign Cloud Days 2026 · OpenInfra & Cloud Native Track"
+  - linkUrl: "https://www.dutchcloudnativeday.nl"
+    imgSrc: "/assets/20261029_Dutch_Cloud_Native_Day_banner_wide.svg"
+    alt: "Dutch Cloud Native Day 2026"
 tilesHeading: Get involved with NeoNephos!
 tiles:
   - title: Members
