@@ -239,8 +239,8 @@ const getTagStyle = (tag: string) => {
           </p>
 
           <!-- Footer Info Container (Relationships Left, Stage Badge Far Right) -->
-          <div v-if="(card.relationships && card.relationships.length) || card.stage" class="card-footer-info">
-            <!-- Relationships on the left -->
+          <div class="card-footer-info" v-if="(card.relationships && card.relationships.length) || card.stage">
+            <!-- Left Side: Relationships -->
             <div
               v-if="card.relationships && card.relationships.length"
               class="card-relationships"
@@ -267,7 +267,7 @@ const getTagStyle = (tag: string) => {
             </div>
             <div v-else></div>
 
-            <!-- Stage Badge on the Far Right (30x30px) -->
+            <!-- Right Side: Stage Badge (30x30px) -->
             <img
               v-if="card.stage"
               :src="`/assets/lifecycle_stages/${card.stage}_badge.svg`"
