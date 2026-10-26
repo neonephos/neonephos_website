@@ -12,7 +12,6 @@ cards:
   - title: "Platform Mesh"
     classname: "platform-mesh"
     relationships: ["openmfp","ord"]
-    stage: "incubation"
     tags: ["service_orchestration", "compliance","virtualization"]
     logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/platform-mesh/icon/color/platform-mesh-icon-color.svg"
     details: "Platform Mesh establishes interoperability between multiple providers by building upon the Kubernetes API and resource model. Developers and admins can discover, access, and order services from various sources through their beloved kubectl."
@@ -143,7 +142,7 @@ cards:
     classname: "katalis"
     relationships: []
     tags: []
-    logo: "https://raw.githubusercontent.com/neonephos-katalis/.github/refs/heads/main/profile/resources/Katalis-Logo.png"
+    logo: "https://avatars.githubusercontent.com/u/223429776?s=200&v=4"
     details: "Katalis bridges Telco and Cloud Provider APIs utilizing Kubernetes to drive orchestration and federation principles."
     githubLink: "https://github.com/NeoNephos-Katalis"
     link: ""
