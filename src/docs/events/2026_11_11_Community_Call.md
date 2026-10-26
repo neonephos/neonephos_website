@@ -11,7 +11,7 @@ published: true
 
 # NeoNephos November Community Call
 
-**INSERT TEXT HERE**
+On November 11 we again invite the interested public to our monthly Community Call. The agenda is to be announced so stay tuned!
 
 November 11, 2026
 
