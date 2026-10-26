@@ -17,6 +17,7 @@ const props = defineProps<{
     backgroundColor?: string
     headingColor?: string
     headinBackgroundColor?: string
+    stage?: string
   }>
   relationships_logos: Record<string, string>
 }>()
@@ -242,13 +243,21 @@ const getTagStyle = (tag: string) => {
             v-if="card.relationships && card.relationships.length"
             class="card-relationships"
           >
-            <span
-              class="relationships-label"
-              @mouseenter="hoverRelatesHeader = true"
-              @mouseleave="hoverRelatesHeader = false"
-            >
-              Relates to:
-            </span>
+            <div class="relationships-left-group">
+              <span
+                class="relationships-label"
+                @mouseenter="hoverRelatesHeader = true"
+                @mouseleave="hoverRelatesHeader = false"
+              >
+                Relates to:
+              </span>
+              <img
+                v-if="card.stage"
+                :src="`/assets/lifecycle_stages/${card.stage}_badge.svg`"
+                :alt="card.stage"
+                class="stage-badge"
+              />
+            </div>
             <div class="relationships-logos">
               <img
                 v-for="rel in card.relationships"
@@ -437,10 +446,17 @@ const getTagStyle = (tag: string) => {
 .card-relationships {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 0.5rem;
   margin-top: auto;
   padding-top: 0.5rem;
   border-top: 1px dashed #f1f5f9;
+}
+
+.relationships-left-group {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .relationships-label {
@@ -448,6 +464,12 @@ const getTagStyle = (tag: string) => {
   color: #64748b;
   font-weight: 500;
   cursor: pointer;
+}
+
+.stage-badge {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
 }
 
 .relationships-logos {
