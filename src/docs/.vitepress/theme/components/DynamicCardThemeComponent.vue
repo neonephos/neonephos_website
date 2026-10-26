@@ -238,9 +238,9 @@ const getTagStyle = (tag: string) => {
             {{ card.details }}
           </p>
 
-          <!-- Footer Info Container (Relationships left, Stage Badge far right) -->
-          <div class="card-footer-info">
-            <!-- Relationships -->
+          <!-- Footer Info Container (Relationships Left, Stage Badge Far Right) -->
+          <div v-if="(card.relationships && card.relationships.length) || card.stage" class="card-footer-info">
+            <!-- Relationships on the left -->
             <div
               v-if="card.relationships && card.relationships.length"
               class="card-relationships"
@@ -265,6 +265,7 @@ const getTagStyle = (tag: string) => {
                 />
               </div>
             </div>
+            <div v-else></div>
 
             <!-- Stage Badge on the Far Right (30x30px) -->
             <img
