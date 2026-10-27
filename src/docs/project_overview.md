@@ -49,7 +49,7 @@ cards:
     sectionTitleColor: "#333333"
   - title: "Gardener"
     classname: "gardener"
-    relationships: []
+    relationships: ["gardenlinux", "iconcore","cobaltcore","ocm"]
     tags: ["cloud_edge_platform","virtualization","management","service_orchestration"]
     logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/gardener/icon/color/gardener-icon-color.svg"
     details: "A proven, scalable open-source system that simplifies Kubernetes cluster management across multiple infrastructures, allowing developers to focus more on innovation and less on cluster operations."
