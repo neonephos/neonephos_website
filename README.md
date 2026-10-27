@@ -11,7 +11,7 @@ To collaborate on news articles, blog entries and other website content.
 Usually, the following repositories are a good place to start if you want to add content or change descriptions of the website:
 
 - **[Events](src/docs/events)**: Add events (community calls, conventions etc.).
-- **[Projects](src/docs/projects.md)**: Change project descriptions (you must *edit* this file in order to see the full content).
+- **[Projects](src/docs/project_overview.md)**: Change project descriptions (you must *edit* this file in order to see the full content).
 - **[Blog](src/docs/blog)**: Add blog/news entries.
 
 Pull Requests are always welcome!
