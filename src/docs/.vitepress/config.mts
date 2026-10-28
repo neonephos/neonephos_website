@@ -77,9 +77,9 @@ export default defineConfig({
         text: 'Projects',
         items: [
           { text: 'Projects', link: '/project_overview' },
+          { text: 'Benefits of NNF Project Hosting', link: '/host_project' },
+          { text: 'Project Proposal Process', link: '/project_proposal' },
           { text: 'Project Lifecycle', link: '/project_lifecycle' },
-          { text: 'Propose New Project', link: '/project_proposal' },
-          { text: 'Contribute', link: '/new_project' },
         ]
       },
       {

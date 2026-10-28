@@ -34,7 +34,8 @@ import FAQThemeComponent from './components/FAQThemeComponent.vue'
 import ProjectOverviewThemeComponent from './components/ProjectOverviewThemeComponent.vue'
 import LinkButtonThemeComponent from './components/LinkButtonThemeComponent.vue'
 import NNFDescriptionThemeComponent from './components/NNFDescriptionThemeComponent.vue'
-
+import HostProjectThemeComponent from './components/HostProjectThemeComponent.vue'
+import PieChartThemeComponent from './components/PieChartThemeComponent.vue'
 //import RSSThemeComponent from './components/RSSThemeComponent.vue'
 import LinuxHeader from './components/LinuxHeaderThemeComponent.vue'
 
@@ -75,5 +76,7 @@ export const layoutMap = {
   LinkButtonThemeComponent,
   NNFDescriptionThemeComponent,
   //RSSThemeComponent,
+  HostProjectThemeComponent,
+  PieChartThemeComponent,
   LinuxHeader
 }
