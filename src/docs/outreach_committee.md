@@ -76,7 +76,7 @@ observers:
     details:
     linkedin:
   - name: "Anna Helmke"
-    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/annahelmi.png?v=1788177051683"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/annahelmi.png?v=1793096369860"
     role: "Generic Observer"
     details:
     linkedin:
