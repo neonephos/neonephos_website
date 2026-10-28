@@ -6,7 +6,7 @@ aside: false
 hero:
   name: "NeoNephos Foundation"
   text: "MAKE CLOUD NATIVE SOVEREIGN"
-  tagline: We, as part of Linux Foundation Europe, are dedicated to advancing open source projects that align with the strategic objectives of the <a href="https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Artikel/Industry/ipcei-cis.html">EU's IPCEI-CIS</a>.
+  tagline: We, as part of Linux Foundation Europe, are dedicated to advancing open source projects that promote an interoperable, sovereign cloud.</a>.
   nprojects: 14
   ncontributors: 300+
   nmembers: 22
