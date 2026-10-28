@@ -1,6 +1,6 @@
 ---
-title: "World of Open Source Survey"
-date: "2026-10-07"
+title: "NNF at OSSEU"
+date: "2026-10-28"
 banner: "assets/blog/20261007_open_source_summit_banner.svg"
 authors:
     - "neonephos-team"
