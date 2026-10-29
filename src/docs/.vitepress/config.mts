@@ -65,12 +65,10 @@ export default defineConfig({
         items: [
           { text: 'FAQ', link: '/frequently_asked_questions' },
           { text: 'Goals', link: '/goals' },
-          { text: 'Members', link: '/members' },
           { text: 'Governing Board', link: '/governing_board' },
           { text: 'Technical Advisory Council', link: '/technical_advisory_council' },
           { text: 'Outreach Committee', link: '/outreach_committee' },
           { text: 'Ambassadors', link: '/ambassador' },
-          { text: 'Join', link: '/join' },
         ]
       },
       {
@@ -92,6 +90,13 @@ export default defineConfig({
           { text: 'Artwork & Branding', link: '/branding_guidelines' },
           { text: 'Calendar', link: 'https://zoom-lfx.platform.linuxfoundation.org/meetings/neonephos-foundation?view=month' },
           { text: 'Contact', link: '/contact'},
+        ]
+      },
+      {
+        text: 'Membership',
+        items: [
+          { text: 'Members', link: '/members' },
+          { text: 'Become a member', link: '/join' },
         ]
       }
     ],
