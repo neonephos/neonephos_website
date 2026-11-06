@@ -103,6 +103,11 @@ members:
     role: "Project Representative"
     details:
     linkedin:
+  - name: "Arno Uhlig"
+    imgsrc: "https://avatars.githubusercontent.com/u/14873188?v=4"
+    role: "Project Representative"
+    details: "Engineering Manager @ SAP Cloud Infrastructure"
+    linkedin: "https://www.linkedin.com/in/arno-uhlig/"
 tilesHeading: "Learn more!"
 tiles:
   - title: "Contact"
