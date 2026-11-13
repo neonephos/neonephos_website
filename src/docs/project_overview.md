@@ -202,6 +202,19 @@ cards:
     headingColor: "#333333"
     sectionTitleColor: "#333333"
 
+  - title: "Open Crypto Broker"
+    classname: "opencryb"
+    relationships: ["openkcm", "platform-mesh"]
+    tags: ["compliance", "security", "cryptography"]
+    logo: "/placeholder_project_item.svg"
+    details: "Open Crypto Broker decouples applications from cryptographic algorithms. Operators define algorithms and policies in declarative profiles, so they can migrate to new algorithms without changing application code."
+    link: ""
+    githubLink: "https://github.com/open-crypto-broker"
+    backgroundColor: "#FEFEFE"
+    headingBackgroundColor: "#EEF4FD"
+    headingColor: "#333333"
+    sectionTitleColor: "#333333"
+    
 tilesHeading: Learn more!
 tiles:
   - title: Propose Project
