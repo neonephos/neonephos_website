@@ -163,7 +163,7 @@ const getCharList = (details: string | undefined, index: number) => {
 
 .tiles-section__heading {
   font-size: 2.5rem;
-  font-weight: 800;
+  font-weight: 600;
   color: var(--vp-c-text-1);
   margin-bottom: 0.5rem;
   line-height: 1.2;
@@ -267,7 +267,7 @@ const getCharList = (details: string | undefined, index: number) => {
 
 .tile-title {
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.15;
   color: var(--vp-c-text-1);
   margin-bottom: 0.35rem;
