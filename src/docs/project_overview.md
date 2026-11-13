@@ -141,7 +141,7 @@ cards:
     classname: "katalis"
     relationships: []
     tags: []
-    logo: "https://avatars.githubusercontent.com/u/223429776?s=200&v=4"
+    logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/katalis/icon/color/katalis-icon-color.svg"
     details: "Katalis bridges Telco and Cloud Provider APIs utilizing Kubernetes to drive orchestration and federation principles."
     githubLink: "https://github.com/NeoNephos-Katalis"
     link: ""
