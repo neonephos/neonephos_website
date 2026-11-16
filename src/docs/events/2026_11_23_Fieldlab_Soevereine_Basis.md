@@ -1,9 +1,9 @@
 ---
 title: "Fieldlab Soevereine Basis"
 date: "2026-11-23"
-banner: "assets/events/20261024_OpenInfra_Days_Saarbrücken_banner.svg"
-bannerMobile: "assets/events/20261024_OpenInfra_Days_Saarbrücken_banner_mobile.svg"
-bannerSmall: "assets/events/20261024_OpenInfra_Days_Saarbrücken_banner_small.svg"
+banner: "assets/events/20261123_fieldlab_soevereine_basis_banner.svg"
+bannerMobile: "assets/events/20261123_fieldlab_soevereine_basis_banner_mobile.svg"
+bannerSmall: "assets/events/20261123_fieldlab_soevereine_basis_banner_small.svg"
 backgroundhex: "#889aa4ff"
 tags: ["neonephos", "Fieldlab  Soevereine Basis"]
 rssPubDate: "2026-11-17"
