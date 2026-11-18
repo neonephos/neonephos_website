@@ -16,10 +16,9 @@ published: true
 
 In 2026 cybersecurity is a forefront topic. In an era when software can be broken into and exploited by AI agents and the future of some major established cryptographic schemes is uncertain in a potential post-quantum world, the topic of crypto agility is more important than ever. We are proud to announce that Open Crypto Broker has been accepted into the NeoNephos Foundation! 
 
-*The Crypto Broker is a process-local cryptographic service that executes operations against a named profile — the profile, not the application, decides which algorithm is used.*
+*Open Crypto Broker lets applications adopt new cryptographic algorithms and settings through configuration, with no code changes.*
 
 
-INSERT TEXT HERE
 You can look their project proposal video at the TAC [here]([insert Link](https://www.youtube.com/watchv=QLwU0Ug3gt4&list=PLWcm_19ODgPU)).
 Or, you can learn how to introduce your own project into NeoNephos by reading [this short guide](https://neonephos.org/project_proposal).
 
