@@ -16,7 +16,7 @@ published: true
 
 We are proud to announce the addition of [Thalamus](https://cobaltcore-dev.github.io/thalamus/v0.2.0/) into NeoNephos! The interested reader may recall that Thalamus was previously [a part of our CobaltCore project](https://github.com/cobaltcore-dev/thalamus/blob/main/CHARTER.md). However, it has outgrown its host and is now a dedicated NNF project along with all the benefits and responsibilities that come with it.
 
-In [their own words](https://cobaltcore-dev.github.io/thalamus/v0.2.0/) :
+In [their own words](https://cobaltcore-dev.github.io/thalamus/v0.2.0/):
 
 > The mission of Thalamus is to provide a vendor-neutral, Kubernetes-native inference service for sovereign LLM deployments, ensuring that model weights, prompts, and context remain protected and within the deployment perimeter. Thalamus integrates natively with CobaltCore, Greenhouse, and the broader NeoNephos ecosystem, and supports Nvidia, AMD, and Intel infrastructure.
 
