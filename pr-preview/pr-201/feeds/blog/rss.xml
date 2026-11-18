@@ -12,7 +12,7 @@
     <guid>https://neonephos.org/blog/20261118_thalamus_new_project</guid>
     <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
     <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20261118_thalamus_new_project.svg" alt="Thalamus has been accepted into the NeoNephos Foundation banner" /></p><p>We are proud to announce the addition of Thalamus into NeoNephos! The interested reader may recall that Thalamus was previously a part of our CobaltCore project. However, it has outgrown its host and is now a dedicated NNF project along with all the benefits and responsibilities that come with it.</p>
-<p>In their own words :</p>
+<p>In their own words:</p>
 <blockquote>
 <p>The mission of Thalamus is to provide a vendor-neutral, Kubernetes-native inference service for sovereign LLM deployments, ensuring that model weights, prompts, and context remain protected and within the deployment perimeter. Thalamus integrates natively with CobaltCore, Greenhouse, and the broader NeoNephos ecosystem, and supports Nvidia, AMD, and Intel infrastructure.</p>
 </blockquote>
