@@ -12,9 +12,8 @@
     <guid>https://neonephos.org/blog/20261118_opencryptobroker_new_project</guid>
     <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
     <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20261118_opencryprobroker_new_project.svg" alt="Open Crypto Broker has been accepted into the NeoNephos Foundation banner" /></p><p>In 2026 cybersecurity is a forefront topic. In an era when software can be broken into and exploited by AI agents and the future of some major established cryptographic schemes is uncertain in a potential post-quantum world, the topic of crypto agility is more important than ever. We are proud to announce that Open Crypto Broker has been accepted into the NeoNephos Foundation!</p>
-<p><em>The Crypto Broker is a process-local cryptographic service that executes operations against a named profile — the profile, not the application, decides which algorithm is used.</em></p>
-<p>INSERT TEXT HERE
-You can look their project proposal video at the TAC here).
+<p><em>Open Crypto Broker lets applications adopt new cryptographic algorithms and settings through configuration, with no code changes.</em></p>
+<p>You can look their project proposal video at the TAC here).
 Or, you can learn how to introduce your own project into NeoNephos by reading this short guide.</p>
 <p>We are happy have grown to an additional project and now possess an additional building block in our cloud-native fabric.</p>
 ]]></description>
