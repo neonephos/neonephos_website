@@ -19,7 +19,7 @@ In 2026 cybersecurity is a forefront topic. In an era when software can be broke
 *Open Crypto Broker is a ...TODO
 
 INSERT TEXT HERE
-You can look their project proposal video at the TAC [here](insert Link).
+You can look their project proposal video at the TAC [here]([insert Link](https://www.youtube.com/watchv=QLwU0Ug3gt4&list=PLWcm_19ODgPU)).
 Or, you can learn how to introduce your own project into NeoNephos by reading [this short guide](https://neonephos.org/project_proposal).
 
 We are happy have grown to an additional project and now possess an additional building block in our cloud-native fabric.
