@@ -11,11 +11,13 @@
     <link>https://neonephos.org/blog/20261118_thalamus_new_project</link>
     <guid>https://neonephos.org/blog/20261118_thalamus_new_project</guid>
     <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20261118_thalamus_new_project.svg" alt="Thalamus has been accepted into the NeoNephos Foundation banner" /></p><p>We are proud to announce that Thalamus has been accepted into NeoNephos!</p>
-<p>*Thalamus is ...
-CHANGE THIS LINE: OpenKCM is the first project that has not been there from the start and therefore passed all many necessary steps prior to being accepted into NeoNephos. You can look their project proposal video at the TAC here.
-Or, you can learn how to introduce your own project into NeoNephos by reading this short guide.</p>
-<p>We are happy have grown to an additional project and now possess an additional building block in our cloud-native fabric.</p>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/blog/20261118_thalamus_new_project.svg" alt="Thalamus has been accepted into the NeoNephos Foundation banner" /></p><p>We are proud to announce the addition of Thalamus into NeoNephos! The interested reader may recall that Thalamus was previously a part of our CobaltCore project. However, it has outgrown its host and is now a dedicated NNF project along with all the benefits and responsibilities that come with it.</p>
+<p>In their own words :</p>
+<blockquote>
+<p>The mission of Thalamus is to provide a vendor-neutral, Kubernetes-native inference service for sovereign LLM deployments, ensuring that model weights, prompts, and context remain protected and within the deployment perimeter. Thalamus integrates natively with CobaltCore, Greenhouse, and the broader NeoNephos ecosystem, and supports Nvidia, AMD, and Intel infrastructure.</p>
+</blockquote>
+<p>But what is better than words? A video! Jump straight into September's TAC presentation to see a detailed demonstration of Thalamus and why it is deserving of being its own standalone project. If you are old-school enough to prefer text (or you have a limited data limit) you can still review their website. So no excuses, get acquainted with Thalamus now!</p>
+<p>On a more general note, the NeoNephos Foundation is happy to have supported Thalamus into becoming its own project. The foundation always lends its ear to the desires of the projects for further support or independence. We believe the entire topic of sovereign LLM is a great asset to our mission of <code>making cloud-native sovereign</code> and are happy to welcome the team aboard!</p>
 ]]></description>
   </item>
   <item>
