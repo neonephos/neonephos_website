@@ -195,7 +195,7 @@ cards:
     tags: ["ai"]
     logo: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/thalamus/primary/color/thalamus-primary-color.svg"
     details: "Thalamus is a Kubernetes-native platform for deploying and operating sovereign LLM inference across multiple infrastructures and hardware vendors. It supports pluggable serving backends, starting with llm-d and vLLM."
-    link: "https://thalamus.io/"
+    link: "https://cobaltcore-dev.github.io/thalamus/v0.2.0/"
     githubLink: "https://github.com/thalamus-ai"
     backgroundColor: "#FEFEFE"
     headingBackgroundColor: "#EEF4FD"
