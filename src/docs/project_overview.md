@@ -205,7 +205,7 @@ cards:
   - title: "Open Crypto Broker"
     classname: "opencryb"
     relationships: ["openkcm", "platform-mesh"]
-    tags: ["compliance", "security", "cryptography"]
+    tags: ["compliance", "security"]
     logo: "/assets/placeholder_project_icon.svg"
     details: "Open Crypto Broker decouples applications from cryptographic algorithms. Operators define algorithms and policies in declarative profiles, so they can migrate to new algorithms without changing application code."
     link: ""
