@@ -10,6 +10,11 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # The job commits the regenerated committee pages, opens a pull request and
+    # enables auto-merge on it.
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
