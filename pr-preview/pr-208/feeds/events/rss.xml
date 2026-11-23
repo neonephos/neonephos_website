@@ -1058,14 +1058,19 @@ With the European Space Agency investing substantial efforts in the research and
     <link>https://neonephos.org/events/2026_11_24_IPCEI-CIS_hackathon_november</link>
     <guid>https://neonephos.org/events/2026_11_24_IPCEI-CIS_hackathon_november</guid>
     <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
-    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20261124_IPCEI-CIS_hackathon_november_banner.svg" alt="IPCEI-CIS Hackathon banner" /></p><h2 id="ipcei-cis-hackathon-11-2026" tabindex="-1">IPCEI-CIS Hackathon 11/2026 <a class="header-anchor" href="#ipcei-cis-hackathon-11-2026" aria-label="Permalink to &quot;IPCEI-CIS Hackathon 11/2026&quot;">&ZeroWidthSpace;</a></h2>
-<p><strong>IPCEI-CIS Hackathon 11/2026</strong> in Potsdam brings together INSERT HERE</p>
-<h3 id="neonephos-and-ipcei-cis" tabindex="-1">NeoNephos and IPCEI-CIS <a class="header-anchor" href="#neonephos-and-ipcei-cis" aria-label="Permalink to &quot;NeoNephos and IPCEI-CIS&quot;">&ZeroWidthSpace;</a></h3>
-<p>INSERT HERE</p>
-<hr>
-<p>📍 SAP Innovation Center Potsdam, Germany</p>
+    <description><![CDATA[<p><img src="https://neonephos.org/assets/events/20261124_IPCEI-CIS_hackathon_november_banner.svg" alt="IPCEI-CIS Hackathon banner" /></p><h2 id="ipcei-cis-hackathon-potsdam" tabindex="-1">IPCEI-CIS Hackathon Potsdam <a class="header-anchor" href="#ipcei-cis-hackathon-potsdam" aria-label="Permalink to &quot;IPCEI-CIS Hackathon Potsdam&quot;">&ZeroWidthSpace;</a></h2>
+<p><strong>On 24-26 November</strong> we again bring together contributors and representatives of our projects for a multi-day hackathon at the SAP Innovation Center in Potsdam. The previous edition of the IPCEI-CIS Hackathon series which occurred this July counted around 100 participants from various organizations and this time it <a href="https://github.com/neonephos/outreach/pull/98#issuecomment-6980161897" target="_blank" rel="noreferrer">appears to be no different</a>.</p>
+<p>The themes are diverse, with some being a continuation of the previous hackathon. Foe example, there is a focus on bare metal operations via <a href="https://ironcore.dev/" target="_blank" rel="noreferrer">IronCore</a>, <a href="https://ocm.software/" target="_blank" rel="noreferrer">Open Component Model</a> as delivery framework, <a href="https://platform-mesh.io/" target="_blank" rel="noreferrer">Platform Mesh</a> for service interoperability. Bonus: Even our <a href="https://neonephos.org/blog/20261118_thalamus_new_project" target="_blank" rel="noreferrer">newly established</a> standalone project <a href="https://cobaltcore-dev.github.io/thalamus/v0.2.0/" target="_blank" rel="noreferrer">Thalamus</a> is present.</p>
+<h3 id="why-is-it-called-ipcei-cis-hackathon" tabindex="-1">Why is it called IPCEI-CIS Hackathon? <a class="header-anchor" href="#why-is-it-called-ipcei-cis-hackathon" aria-label="Permalink to &quot;Why is it called IPCEI-CIS Hackathon?&quot;">&ZeroWidthSpace;</a></h3>
+<p>The hackathon is hosted under the IPCEI-CIS umbrella because many NNF projects <a href="https://apeirora.eu/" target="_blank" rel="noreferrer">are supported by this initiative</a>. This hackathon is part of a wider effort to promote and establish NeoNephos projects in the European ecoystem.</p>
+<p>Still on the fence? Read the following experience report below:</p>
+<p>-<strong><a href="https://open-control-plane.io/community/blog/hackathon-july-2026" target="_blank" rel="noreferrer">Testimonial of attending the July IPCEI-CIS Hackathon</a></strong></p>
+<p>The deeds:</p>
+<p>📍SAP Innovation Center Potsdam, Germany
+Konrad-Zuse-Ring 10
+14469 Potsdam</p>
 <p>📅 November 24-26,2026</p>
-<p>🔗  If your team works on sovereign cloud, open infrastructure, or the European cloud-edge continuum and wants to join, get in touch!</p>
+<p>So hack away!</p>
 ]]></description>
   </item>
   <item>
