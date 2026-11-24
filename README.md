@@ -8,7 +8,7 @@ To collaborate on news articles, blog entries and other website content.
 
 ## :globe_with_meridians: How to add content
 
-Usually, the following repositories are a good place to start if you want to add content or change descriptions of the website:
+The following repositories are a good place to start if you want to add content or change descriptions of the website:
 
 - **[Events](src/docs/events)**: Add events (community calls, conventions etc.).
 - **[Projects](src/docs/project_overview.md)**: Change project descriptions (you must *edit* this file in order to see the full content).
