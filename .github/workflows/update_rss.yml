@@ -3,7 +3,7 @@ name: Update Project Releases RSS
 on:
   schedule:
     - cron: "0 12 * * *"   # daily at 12:00 UTC
-    
+
   workflow_dispatch:
 
 permissions:
@@ -38,5 +38,6 @@ jobs:
           title: "[Bot]: Update project releases RSS feed"
           body: "Automated update of the project releases RSS feed."
           branch: "update-project-releases-rss"
+          sign-commits: true
           add-paths: |
             src/docs/public/feeds/project/rss.xml
