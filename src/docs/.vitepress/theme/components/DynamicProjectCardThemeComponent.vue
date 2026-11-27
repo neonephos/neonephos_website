@@ -52,6 +52,8 @@ const hoveredRelationship = ref<string | null>(null)
 const hoveredCardIndex = ref<number | null>(null)
 const hoverRelatesHeader = ref<boolean>(false)
 
+const capitalizeFirst = (str: string) => str.charAt(0).toUpperCase() + str.slice(1)
+
 const scrollToRelatedCard = (rel: string) => {
   const card = props.cards.find(c => c.classname === rel)
   if (!card) return
@@ -240,35 +242,38 @@ const getTagStyle = (tag: string) => {
             {{ card.details }}
           </p>
 
-          <!-- Relationships -->
+          <!-- Relationships & Stage Footer -->
           <div
-            v-if="card.relationships && card.relationships.length"
-            class="card-relationships"
+            v-if="(card.relationships && card.relationships.length) || card.stage"
+            class="card-footer-row"
           >
-            <span
-              class="relationships-label"
-              @mouseenter="hoverRelatesHeader = true"
-              @mouseleave="hoverRelatesHeader = false"
+            <div
+              v-if="card.relationships && card.relationships.length"
+              class="card-relationships"
             >
-              Relates to:
-            </span>
-            <img
-              v-if="card.stage"
-              :src="`/assets/lifecycle_stages/${card.stage}_badge.svg`"
-              :alt="card.stage"
-              class="stage-badge"
-            />
-            <div class="relationships-logos">
-              <img
-                v-for="rel in card.relationships"
-                :key="rel"
-                :src="relationships_logos[rel]"
-                :alt="rel"
-                class="rel-logo"
-                @mouseenter="hoveredRelationship = rel"
-                @mouseleave="hoveredRelationship = null"
-                @click="scrollToRelatedCard(rel)"
-              />
+              <span
+                class="relationships-label"
+                @mouseenter="hoverRelatesHeader = true"
+                @mouseleave="hoverRelatesHeader = false"
+              >
+                Relates to:
+              </span>
+              <div class="relationships-logos">
+                <img
+                  v-for="rel in card.relationships"
+                  :key="rel"
+                  :src="relationships_logos[rel]"
+                  :alt="rel"
+                  class="rel-logo"
+                  @mouseenter="hoveredRelationship = rel"
+                  @mouseleave="hoveredRelationship = null"
+                  @click="scrollToRelatedCard(rel)"
+                />
+              </div>
+            </div>
+
+            <div v-if="card.stage" class="card-stage-box">
+              {{ capitalizeFirst(card.stage) }}
             </div>
           </div>
         </div>
@@ -443,13 +448,37 @@ const getTagStyle = (tag: string) => {
   flex: 1;
 }
 
-.card-relationships {
+.card-footer-row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 0.5rem;
   margin-top: auto;
   padding-top: 0.5rem;
   border-top: 1px dashed #f1f5f9;
+}
+
+.card-relationships {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.card-stage-box {
+  margin-left: auto;
+  max-width: 33.333%;
+  padding: 0.3rem 0.65rem;
+  background-color: #e2e8f0;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.375rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .relationships-label {
@@ -457,12 +486,6 @@ const getTagStyle = (tag: string) => {
   color: #64748b;
   font-weight: 500;
   cursor: pointer;
-}
-
-.stage-badge {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
 }
 
 .relationships-logos {
