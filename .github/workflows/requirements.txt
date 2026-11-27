@@ -3,6 +3,6 @@ charset-normalizer==3.4.4
 idna==3.11
 python-frontmatter==1.1.0
 PyYAML==6.0.3
-requests==2.32.5
+requests==2.33.0
 ruamel.yaml==0.18.16
 urllib3==2.5.0
